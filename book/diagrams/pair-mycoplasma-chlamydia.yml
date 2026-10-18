@@ -1,0 +1,65 @@
+id: pair-mycoplasma-chlamydia
+title: "Contrast pair: two atypicals, two different reasons"
+intro: "Neither shows up on a Gram stain, and neither grows on ordinary agar. Read across and find the trait that makes them fail the usual tests for different reasons."
+
+a:
+  name: "Mycoplasma pneumoniae"
+b:
+  name: "Chlamydia trachomatis"
+
+rows:
+  - feature: "Seen on a Gram stain?"
+    a: "No"
+    b: "No"
+    separates: false
+  - feature: "Cell wall"
+    a: "None at all; the membrane is stiffened with sterols taken from its surroundings"
+    b: "A Gram-negative-type envelope with very little peptidoglycan"
+    separates: true
+  - feature: "Where it lives"
+    a: "Outside cells, attached to their surface"
+    b: "Only inside a host cell, within a membrane-bound vacuole"
+    separates: true
+  - feature: "Grows without living cells?"
+    a: "Yes, slowly, on media enriched with sterols"
+    b: "No; it needs living host cells"
+    separates: true
+  - feature: "Energy"
+    a: "Makes its own ATP by fermentation"
+    b: "Imports ATP and nutrients from the host cell"
+    separates: true
+
+question:
+  stem: "Which trait explains why one can be grown on lab media and the other cannot?"
+  options: [0, 1, 2]
+  answer: 2
+  feedback: >
+    Where it lives. *Mycoplasma* lives outside cells and makes its own ATP, so it can grow without them
+    if it is given sterols. *Chlamydia* lives inside host cells and imports their ATP, so it needs living
+    cells to grow.
+
+principle: >
+  **The same failure can have different causes.** Both are invisible on a Gram stain: *Mycoplasma*
+  because it has no wall to hold dye, *Chlamydia* because it is tiny, has almost no peptidoglycan and
+  hides inside cells. The cause predicts everything else, including how a lab finds them. Because
+  neither stains or grows easily, both are usually detected by their DNA.
+
+sort:
+  - text: "Grows on enriched media as tiny colonies after a week or more"
+    answer: a
+    why: "It can grow without cells, slowly, given sterols: *Mycoplasma*."
+  - text: "Has an infectious form outside cells and a dividing form inside them"
+    answer: b
+    why: "A two-form life cycle inside a vacuole: *Chlamydia*."
+  - text: "Has nothing for wall-targeting drugs to act on"
+    answer: a
+    why: "No wall at all: *Mycoplasma*."
+  - text: "Imports ATP from the cell it lives in"
+    answer: b
+    why: "An energy borrower that must live inside cells: *Chlamydia*."
+  - text: "Needs sterols added to its growth medium"
+    answer: a
+    why: "It uses sterols to stiffen its wall-less membrane: *Mycoplasma*."
+  - text: "Can only be grown in a culture of living cells"
+    answer: b
+    why: "Obligate intracellular: *Chlamydia*."

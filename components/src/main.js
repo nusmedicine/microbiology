@@ -6,6 +6,7 @@ import OxygenTube from './OxygenTube.svelte';
 import ContrastPair from './ContrastPair.svelte';
 import MicrobeProfile from './MicrobeProfile.svelte';
 import Flashcards from './Flashcards.svelte';
+import BacteriaMap from './BacteriaMap.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -17,6 +18,7 @@ const REGISTRY = {
   'contrast-pair': ContrastPair,
   'microbe-profile': MicrobeProfile,
   flashcards: Flashcards,
+  'bacteria-map': BacteriaMap,
 };
 
 function init() {

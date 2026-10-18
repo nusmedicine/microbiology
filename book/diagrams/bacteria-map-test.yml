@@ -1,0 +1,5 @@
+id: bacteria-map-test
+extends: /diagrams/bacteria-map.yml
+title: "Name the group from its traits"
+mode: identify
+identifyIntro: "Each set of traits belongs to one group on the map. Name the group, then read why it behaves that way."

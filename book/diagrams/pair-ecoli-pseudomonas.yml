@@ -1,0 +1,70 @@
+id: pair-ecoli-pseudomonas
+title: "Contrast pair: two Gram-negative rods, two different worlds"
+intro: "Both are pink rods. One lives in the gut, the other in water and soil. Read across and find the trait that explains where each lives."
+
+a:
+  name: "Escherichia coli"
+  morph: rods-neg
+b:
+  name: "Pseudomonas aeruginosa"
+  morph: rods-neg
+
+rows:
+  - feature: "Gram stain"
+    a: "Negative (pink)"
+    b: "Negative (pink)"
+    separates: false
+  - feature: "Shape"
+    a: "Rod"
+    b: "Rod"
+    separates: false
+  - feature: "Energy"
+    a: "Ferments sugars, or respires with oxygen (facultative)"
+    b: "Cannot ferment; must respire, usually with oxygen"
+    separates: true
+  - feature: "Oxidase test (detects a respiratory enzyme)"
+    a: "Negative"
+    b: "Positive"
+    separates: true
+  - feature: "Usual home"
+    a: "The gut"
+    b: "Water, soil, sinks and other wet surfaces"
+    separates: true
+  - feature: "Natural resistance to chemicals"
+    a: "Moderate"
+    b: "High: a tight outer membrane and pumps that expel many molecules"
+    separates: true
+
+question:
+  stem: "Which trait best explains why each lives where it does?"
+  options: [0, 2, 3]
+  answer: 2
+  feedback: >
+    Energy. The gut is almost oxygen-free, so a bacterium that can ferment thrives there. An organism
+    that must respire does best where oxygen and water meet. The oxidase result is a lab readout of that
+    respiratory difference, not its cause.
+
+principle: >
+  **Metabolism predicts habitat.** Ask how an organism makes ATP and you can often guess where it lives.
+  Its home in turn predicts how people meet it: *E. coli* from the gut, *Pseudomonas* from water and wet
+  surfaces, including those in hospitals.
+
+sort:
+  - text: "Thrives in the oxygen-free colon"
+    answer: a
+    why: "Fermentation works without oxygen: *E. coli*."
+  - text: "Grows in the film of water inside a sink drain"
+    answer: b
+    why: "Water plus oxygen suits a strict respirer: *Pseudomonas*."
+  - text: "Oxidase test positive"
+    answer: b
+    why: "A positive oxidase test reflects its respiratory chain: *Pseudomonas*."
+  - text: "Ferments sugars when oxygen runs out"
+    answer: a
+    why: "Switching to fermentation makes it facultative: *E. coli*."
+  - text: "Naturally resists many disinfectants and drugs"
+    answer: b
+    why: "A tight outer membrane and efflux pumps: *Pseudomonas*."
+  - text: "Oxidase test negative"
+    answer: a
+    why: "No cytochrome c oxidase in its respiratory chain: *E. coli*."

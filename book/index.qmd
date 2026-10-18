@@ -51,6 +51,7 @@ login.
 
 ::: {.callout-warning}
 ## Draft
-This is a pilot. Only **How bacteria are built and get energy** is written in full; the other
-units show their planned content. All content is awaiting review by teaching staff.
+This is a pilot. Two units are written in full: **How bacteria are built and get energy** and
+**A map of the bacteria**. The other units show their planned content. All content is awaiting
+review by teaching staff. Notes for teaching staff are in the appendix.
 :::

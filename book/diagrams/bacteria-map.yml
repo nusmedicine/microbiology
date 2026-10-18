@@ -1,0 +1,213 @@
+id: bacteria-map
+title: "A map of the bacteria"
+intro: >
+  Each row is one of the groups you will hear named in lectures. Each column is a trait from the
+  previous chapter. Click a group to see why it behaves as it does, or click a column heading to
+  line the groups up by that trait.
+
+traits:
+  - key: envelope
+    label: "Envelope"
+    values:
+      pos: { label: "Gram-positive", color: "#5a2387" }
+      neg: { label: "Gram-negative", color: "#d14d80" }
+      acid: { label: "Acid-fast (waxy)", color: "#8a5a14" }
+      thin: { label: "Too thin to Gram stain", color: "#6c7682" }
+      none: { label: "No wall", color: "#3d8d7a" }
+  - key: shape
+    label: "Shape"
+    values:
+      cocci: { label: "Cocci", color: "#41637a" }
+      rods: { label: "Rods", color: "#41637a" }
+      curved: { label: "Curved rods", color: "#41637a" }
+      spiral: { label: "Spirals", color: "#41637a" }
+      coccobacilli: { label: "Coccobacilli", color: "#41637a" }
+      variable: { label: "No fixed shape", color: "#41637a" }
+  - key: oxygen
+    label: "Oxygen"
+    values:
+      aerobe: { label: "Needs oxygen", color: "#2f7fbf" }
+      facultative: { label: "Facultative", color: "#3c9a6b" }
+      micro: { label: "Low oxygen", color: "#9a8a2f" }
+      anaerobe: { label: "No oxygen", color: "#7a3b2e" }
+      mixed: { label: "Varies", color: "#6c7682" }
+  - key: lifestyle
+    label: "Where it grows"
+    values:
+      outside: { label: "Outside cells", color: "#4f6d8f" }
+      both: { label: "Can live inside cells", color: "#a0602a" }
+      inside: { label: "Only inside cells", color: "#b03a2e" }
+  - key: culture
+    label: "Lab growth"
+    values:
+      easy: { label: "Ordinary media", color: "#3c9a6b" }
+      enriched: { label: "Needs enriched media", color: "#c08a1e" }
+      slow: { label: "Weeks to grow", color: "#a0602a" }
+      cells: { label: "Only in living cells", color: "#b03a2e" }
+      hard: { label: "Hard or impossible", color: "#6c7682" }
+
+groups:
+  - id: gpc
+    name: "Gram-positive cocci"
+    examples: "*Staphylococcus*, *Streptococcus*, *Enterococcus*"
+    envelope: pos
+    shape: cocci
+    oxygen: mixed
+    lifestyle: outside
+    culture: easy
+    home: "Skin, nose, throat and gut of healthy people"
+    logic: >
+      A thick wall and no outer membrane, living on body surfaces. They cause harm when they get past a
+      barrier, and they attract neutrophils, so their infections tend to form pus. Clusters versus chains
+      separates staphylococci from streptococci; staphylococci are facultative, streptococci ferment but
+      tolerate oxygen.
+  - id: gpb
+    name: "Gram-positive rods"
+    examples: "*Bacillus*, *Clostridium*, *Listeria*, *Corynebacterium*"
+    envelope: pos
+    shape: rods
+    oxygen: mixed
+    lifestyle: outside
+    culture: easy
+    home: "Soil, dust, the gut, food"
+    logic: >
+      The group splits on two traits. Some form spores (*Bacillus* with oxygen, *Clostridium* without), so
+      they survive heat and disinfectant in soil and food. Several cause harm mainly through a single toxin.
+      *Listeria* stands apart: it can live inside cells and grows even at refrigerator temperatures.
+  - id: entero
+    name: "Enterobacterales"
+    examples: "*Escherichia coli*, *Klebsiella*, *Salmonella*, *Shigella*, *Proteus*"
+    envelope: neg
+    shape: rods
+    oxygen: facultative
+    lifestyle: outside
+    culture: easy
+    home: "The gut of humans and animals"
+    logic: >
+      Gram-negative rods that ferment sugars and cope with or without oxygen: exactly what life in the gut
+      requires. Their outer membrane carries LPS, so they trigger strong inflammation when they reach the
+      blood. Most are harmless residents; the harmful ones usually carry extra genes.
+  - id: env
+    name: "Pseudomonads, vibrios and Burkholderia"
+    examples: "*Pseudomonas aeruginosa*, *Vibrio cholerae*, *Burkholderia pseudomallei*"
+    envelope: neg
+    shape: rods
+    oxygen: mixed
+    lifestyle: outside
+    culture: easy
+    home: "Water, soil and the sea"
+    logic: >
+      Gram-negative rods that live in the environment, not in us. *Pseudomonas* and *Burkholderia* cannot
+      ferment and must respire with oxygen; they thrive in water and wet soil. *Vibrio* is a curved, facultative rod
+      that lives in salty and brackish water. Environmental life has made them hardy and naturally resistant to many chemicals.
+  - id: fastidious
+    name: "Fastidious Gram-negatives"
+    examples: "*Haemophilus*, *Bordetella*, *Legionella*, *Brucella*"
+    envelope: neg
+    shape: coccobacilli
+    oxygen: mixed
+    lifestyle: both
+    culture: enriched
+    home: "The human airway, animals, or water (Legionella)"
+    logic: >
+      "Fastidious" means fussy about food. These bacteria have lost genes for making some nutrients, so
+      they need them supplied, by a host in nature or by enriched media in the lab. *Haemophilus* needs two
+      factors found in blood, which is why it grows on lysed-blood (chocolate) agar.
+  - id: gnc
+    name: "Gram-negative cocci"
+    examples: "*Neisseria meningitidis*, *Neisseria gonorrhoeae*, *Moraxella*"
+    envelope: neg
+    shape: cocci
+    oxygen: aerobe
+    lifestyle: outside
+    culture: enriched
+    home: "Human throat and genital tract only"
+    logic: >
+      Pairs of bean-shaped cocci that live only in humans and die quickly outside the body. Fragility
+      explains their spread: they pass by close contact, not through the environment. A capsule protects
+      the meningococcus in the blood.
+  - id: anaerobes
+    name: "Anaerobes"
+    examples: "*Bacteroides*, *Fusobacterium*, *Prevotella*, *Clostridium*"
+    envelope: neg
+    shape: rods
+    oxygen: anaerobe
+    lifestyle: outside
+    culture: enriched
+    home: "Colon, mouth, vagina: the body's oxygen-poor places"
+    logic: >
+      Grouped by one trait, not by family: oxygen poisons them. They dominate the oxygen-poor parts of the
+      body and cause harm where tissue loses its blood supply, often several species together, producing
+      abscesses. Samples must be kept away from air. (Clostridium is the Gram-positive exception.)
+  - id: spiral
+    name: "Spiral bacteria"
+    examples: "*Treponema*, *Borrelia*, *Leptospira*; curved *Campylobacter* and *Helicobacter*"
+    envelope: thin
+    shape: spiral
+    oxygen: micro
+    lifestyle: outside
+    culture: hard
+    home: "Humans (Treponema), ticks (Borrelia), rats and flood water (Leptospira)"
+    logic: >
+      Spirochaetes are long, thin corkscrews with their flagella inside the envelope, so they twist
+      through tissue and gel like a drill. Too thin to see on a Gram stain, and some, such as *Treponema*,
+      cannot be grown on ordinary laboratory media. The curved gut bacteria prefer low oxygen.
+  - id: atypical
+    name: "Atypicals"
+    examples: "*Mycoplasma*, *Chlamydia*, *Rickettsia*"
+    envelope: none
+    shape: variable
+    oxygen: mixed
+    lifestyle: inside
+    culture: cells
+    home: "Humans; ticks, lice and fleas carry Rickettsia"
+    logic: >
+      Grouped because the usual toolkit fails on them. *Mycoplasma* has no wall at all. *Chlamydia* and
+      *Rickettsia* can only grow inside living cells. None shows up well on a Gram stain and none grows on
+      ordinary agar. Drugs that attack wall-building have nothing to act on in *Mycoplasma*. (Envelope and growth shown
+      here are the group's defining extremes; the worked example below separates the three.)
+  - id: myco
+    name: "Mycobacteria"
+    examples: "*Mycobacterium tuberculosis*, *M. leprae*, non-tuberculous mycobacteria"
+    envelope: acid
+    shape: rods
+    oxygen: aerobe
+    lifestyle: both
+    culture: slow
+    home: "Humans (M. tuberculosis); soil and water (non-tuberculous species)"
+    logic: >
+      A waxy, mycolic-acid wall resists the Gram stain, drying and many chemicals. They divide about once a
+      day, so infections develop slowly and cultures take weeks. They survive inside macrophages, which is
+      why the host walls them off in granulomas, the pattern you met in general pathology.
+
+identify:
+  - clues: { envelope: neg, shape: rods, oxygen: facultative, culture: easy }
+    extra: "Lives in the gut and ferments sugars."
+    answer: entero
+  - clues: { envelope: none, lifestyle: inside }
+    extra: "Not visible on a Gram stain, and will not grow on ordinary agar."
+    answer: atypical
+  - clues: { envelope: neg, shape: cocci, oxygen: aerobe }
+    extra: "Lives only in humans and dies quickly in the environment."
+    answer: gnc
+  - clues: { envelope: acid, culture: slow }
+    extra: "Survives inside macrophages; the host walls it off in granulomas."
+    answer: myco
+  - clues: { oxygen: anaerobe }
+    extra: "Thrives where tissue has lost its blood supply; often several species together."
+    answer: anaerobes
+  - clues: { envelope: pos, shape: rods }
+    extra: "Some members form spores that survive boiling."
+    answer: gpb
+  - clues: { envelope: neg, shape: rods, culture: easy }
+    extra: "Cannot ferment, so it must respire with oxygen; lives in water and wet soil; naturally resistant to many chemicals."
+    answer: env
+  - clues: { envelope: thin, shape: spiral }
+    extra: "Twists through tissue using flagella inside its envelope."
+    answer: spiral
+  - clues: { envelope: neg, shape: coccobacilli, culture: enriched }
+    extra: "Needs nutrients supplied, such as factors from lysed blood."
+    answer: fastidious
+  - clues: { envelope: pos, shape: cocci }
+    extra: "Lives on skin and in the throat; infections tend to form pus."
+    answer: gpc

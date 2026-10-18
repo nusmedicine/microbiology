@@ -1,0 +1,52 @@
+id: profile-m-pneumoniae
+name: "Mycoplasma pneumoniae"
+group: "Atypical · no cell wall"
+intro: "Two slots are filled in. Predict the first three from one fact: it has no cell wall."
+
+slots:
+  - slot: identity
+    predict:
+      stem: "It has no cell wall. What will a Gram stain show?"
+      options:
+        - text: "Nothing useful: there is no wall to hold or lose the dye"
+          correct: true
+          feedback: "Right. The Gram stain reads the wall. With no wall, there is nothing for it to read."
+        - text: "Purple cells, because the membrane holds the dye"
+          correct: false
+          feedback: "The dye–iodine complex is held by peptidoglycan, which it lacks. With no wall there is nothing for the stain to read."
+        - text: "Pink cells, like any Gram-negative bacterium"
+          correct: false
+          feedback: "Pink means a thin wall plus an outer membrane. It has neither, so the stain shows nothing useful."
+    entry: "No cell wall. Its membrane is stiffened with sterols taken from its surroundings. Among the smallest free-living cells, with no fixed shape."
+  - slot: lifestyle
+    predict:
+      stem: "It cannot make sterols, but its membrane needs them. What must a lab add to grow it?"
+      options:
+        - text: "Serum, which supplies sterols"
+          correct: true
+          feedback: "Right. Sterol-rich media let it grow without cells, slowly, as tiny colonies."
+        - text: "Extra oxygen"
+          correct: false
+          feedback: "Oxygen is not its problem. It needs sterols supplied, usually from serum added to the medium."
+        - text: "Nothing; ordinary agar is enough"
+          correct: false
+          feedback: "Ordinary agar lacks the sterols it needs. Serum has to be added, and even then it grows slowly."
+    entry: "Lives outside cells but attached to the surface of the cells lining the airway. In the lab it needs sterol-enriched media and takes a week or more to form colonies."
+  - slot: harm
+    predict:
+      stem: "Which drug strategy can never work against it?"
+      options:
+        - text: "Blocking the building of the cell wall"
+          correct: true
+          feedback: "Right. There is no wall to build, so wall-targeting drugs have nothing to act on. This answers the sixth question: what does it have that my cells lack? Not a wall."
+        - text: "Blocking its ribosomes"
+          correct: false
+          feedback: "It has bacterial ribosomes, which differ from yours, so they remain a possible target. What it lacks is a wall."
+        - text: "Blocking its DNA copying"
+          correct: false
+          feedback: "It copies its DNA with bacterial enzymes, which remain possible targets. What it lacks is a wall."
+    entry: "Grips airway cells with a specialised tip and damages them, slowing the beating of their cilia. Wall-targeting drugs cannot touch it."
+  - slot: consequence
+    entry: "Illness develops slowly. Much of the damage comes from the host's immune response, an idea the host–microbe chapter develops."
+  - slot: contrast
+    entry: "*Chlamydia*: also invisible on a Gram stain and absent from ordinary agar, but because it lives inside cells, not because it lacks a wall."

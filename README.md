@@ -11,8 +11,10 @@ presenting a catalogue of organisms. The evidence behind this is in
 [Teaching foundation microbiology without a bug parade](https://claude.ai/code/artifact/ac5d12dc-9872-4a3b-8792-13f553836cd6).
 
 ## Status: pilot
-- Unit 2, **How bacteria are built and get energy** (`book/chapters/02-bacteria-build-energy.qmd`),
-  is written in full. The other seven units are outline stubs.
+- Written in full: Unit 2, **How bacteria are built and get energy**, and Unit 3, **A map of the
+  bacteria** (with Atypicals as the worked example). The other seven units are outline stubs.
+- `book/teaching-notes.qmd` (appendix) maps the current MD1140 bacteriology sessions onto this
+  approach, for discussion with teaching staff.
 - All content awaits review by teaching staff. The author line in `book/_quarto.yml` is a
   placeholder.
 
@@ -28,6 +30,7 @@ Embed with `<div data-island="<key>" data-src="/<folder>/<file>.yml"></div>`.
 | `contrast-pair` | `ContrastPair.svelte` | `diagrams/` | Two similar organisms side by side: find the separating feature, then sort descriptions A or B |
 | `microbe-profile` | `MicrobeProfile.svelte` | `diagrams/` | The five-slot organism card; each slot is worked or predict-first, so support can fade |
 | `flashcards` | `Flashcards.svelte` | `decks/` | Spaced-repetition deck (Leitner boxes, local only) with Anki export |
+| `bacteria-map` | `BacteriaMap.svelte` | `diagrams/` | Bacterial groups as trait combinations: explore and sort by trait, or name the group from its traits (`extends` + `mode: identify`) |
 
 ## Develop
 Toolchain as for book-health (portable Node and Quarto under `%LOCALAPPDATA%`).

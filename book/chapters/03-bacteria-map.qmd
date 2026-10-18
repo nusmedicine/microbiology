@@ -1,0 +1,110 @@
+# A map of the bacteria
+
+> *Lectures and textbooks name bacteria by group: Gram-positive cocci, Enterobacterales, anaerobes,
+> spiral bacteria, atypicals. It can feel like a long list to memorise. This chapter shows that each
+> group is a **combination of a few traits** you already know from the previous chapter, and that the
+> combination explains how the group behaves.*
+
+## Same questions, different answers {#sec-map-idea}
+
+The previous chapter gave you a trait toolkit: envelope, shape, relationship with oxygen and growth.
+This chapter adds two traits that matter for whole groups of bacteria:
+
+- **Where it grows:** outside cells, able to live inside cells, or *only* inside cells.
+- **What it needs to grow in the lab:** ordinary media, enriched media, weeks of time, or living cells.
+
+A bacterial group is then a short description in those terms. *Enterobacterales*, for example, are
+"Gram-negative rods that cope with or without oxygen, ferment sugars, and live in the gut". Once you
+can read a group that way, its name stops being a label to memorise and becomes a summary of how it
+lives.
+
+Groups are named in different ways, which is part of what makes the list confusing. Some names are
+family trees (*Enterobacterales*). Some describe one trait (anaerobes, spiral bacteria). Some describe
+a failure of the usual methods ("fastidious", "atypical"). The map puts them all on the same footing.
+
+## The map {#sec-map}
+
+<div data-island="bacteria-map" data-src="/diagrams/bacteria-map.yml"></div>
+
+Try clicking **Oxygen** and then **Envelope** in the table header. Watch how groups that sound
+unrelated line up on one trait, and how a single trait (oxygen, for anaerobes) can be enough to define
+a group on its own.
+
+## Metabolism predicts habitat {#sec-habitat}
+
+Two groups on the map are both Gram-negative rods, yet one lives in your gut and the other in water
+and soil. The difference is how they make ATP. Find it below.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-ecoli-pseudomonas.yml"></div>
+
+The same reasoning explains the **fastidious** bacteria. Over evolutionary time, a bacterium that
+lives on a rich host can lose genes for making nutrients the host already supplies. It then depends on
+finding them. *Haemophilus*, for example, needs two factors found inside red blood cells, so the lab
+grows it on agar made with blood that has been heated until the cells burst: **chocolate agar**, named
+for its brown colour. "Fastidious" is a description of lost biosynthesis, not of difficulty for its own
+sake.
+
+::: {.callout-note}
+## Bridge from the previous chapter
+**Gram-negative cocci** (*Neisseria*) show the same logic from another angle. They live only in
+humans and die quickly outside the body: they dry out, and they need enriched media in the lab. A
+fragile organism can only spread by close contact between people, which is exactly how the two main
+*Neisseria* species spread.
+:::
+
+## Worked example: why "atypical"? {#sec-atypicals}
+
+The **atypicals** are three genera, *Mycoplasma*, *Chlamydia* and *Rickettsia*, that are not closely
+related. They are grouped because the usual microbiology toolkit fails on them. The name comes from
+the clinic: the chest infections some of them cause did not look like typical bacterial pneumonia,
+and did not respond to penicillin.
+
+The useful question is not "what are the atypicals?" but **"why does the toolkit fail?"** There are
+two different reasons, and each predicts a lot.
+
+| | *Mycoplasma* | *Chlamydia* | *Rickettsia* |
+|---|---|---|---|
+| What is unusual | **No cell wall at all** | **Lives only inside host cells**; two-form life cycle | **Lives only inside host cells**, free in the cytoplasm |
+| Envelope | Membrane only, stiffened with sterols | Gram-negative-type, with very little peptidoglycan | Gram-negative-type |
+| Energy | Makes its own ATP | Imports ATP from the host cell | Imports ATP from the host cell |
+| How it spreads | Respiratory droplets | Direct contact (sexual, or eye to eye) | Bites of ticks, lice, fleas or mites |
+| Gram stain | Nothing to read | Too small, and hidden inside cells | Stains poorly |
+| Lab growth | Slowly, on media enriched with sterols | Only in living cells | Only in living cells |
+
+Start with the first reason, a missing wall. Predict what follows from it.
+
+<div data-island="microbe-profile" data-src="/diagrams/profile-m-pneumoniae.yml"></div>
+
+Now the second reason. *Chlamydia* also fails the Gram stain and will not grow on agar, but for a
+different cause.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-mycoplasma-chlamydia.yml"></div>
+
+::: {.callout-important}
+## A common idea, corrected: "atypical means rare or unimportant"
+"Atypical" describes the toolkit, not how often these bacteria cause disease. *Chlamydia trachomatis*
+is one of the most common sexually transmitted bacteria in the world, and *Mycoplasma pneumoniae* is a
+common cause of chest infection in children and young adults. They are atypical only in the sense that
+standard stains and cultures miss them, which is why labs usually detect them by their DNA.
+:::
+
+**What the organ-system blocks will add.** In the respiratory, genitourinary and infection blocks you
+will meet each of these organisms again, with the diseases they cause, how they are diagnosed and how
+they are treated. You will not need to memorise those facts as a separate list. Each one follows from
+two ideas on this page: *no wall*, or *lives only inside cells*.
+
+## Test yourself on the map {#sec-map-test}
+
+The map is most useful when you can run it backwards: given a few traits, name the group. The
+questions below mix the groups up on purpose, because practising with mixed examples helps you learn
+to tell similar groups apart.
+
+<div data-island="bacteria-map" data-src="/diagrams/bacteria-map-test.yml"></div>
+
+## Check your understanding {#sec-map-quiz}
+
+<div data-island="quiz" data-src="/quizzes/bacteria-map.quiz.yml"></div>
+
+## Review with flashcards {#sec-map-cards}
+
+<div data-island="flashcards" data-src="/decks/bacteria-map.deck.yml"></div>
