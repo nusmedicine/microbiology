@@ -1,0 +1,27 @@
+id: bacteria-warmup
+title: "Before you read: two guesses"
+questions:
+  - id: w1
+    stem: "A bacterium makes ATP by respiration, using an electron transport chain. Where is that chain?"
+    options:
+      - text: "In the bacterium's cell membrane"
+        correct: true
+        feedback: "Right. Bacteria have no mitochondria. The electron transport chain sits in the cell membrane itself, which is where mitochondria's ancestors kept it too."
+      - text: "In the bacterium's mitochondria"
+        correct: false
+        feedback: "Bacteria have no mitochondria, or any other membrane-bound organelle. The chain sits in the cell membrane. Mitochondria are in fact descended from bacteria."
+      - text: "Bacteria have no electron transport chain"
+        correct: false
+        feedback: "Many do, and use it just as your mitochondria do. It sits in the bacterial cell membrane."
+  - id: w2
+    stem: "Which of these does a bacterium NOT have?"
+    options:
+      - text: "A nucleus"
+        correct: true
+        feedback: "Right. A bacterium's DNA lies free in the cytoplasm, usually as one circular chromosome. That absence is what 'prokaryote' means."
+      - text: "Ribosomes"
+        correct: false
+        feedback: "Every cell that makes protein needs ribosomes. Bacterial ones are smaller (70S) than yours (80S). What a bacterium lacks is a nucleus."
+      - text: "DNA"
+        correct: false
+        feedback: "All cells carry DNA. A bacterium's lies free in the cytoplasm, because it has no nucleus."

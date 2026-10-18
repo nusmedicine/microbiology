@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "book-preview",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8791", "--directory", "C:/Users/Admin/AppData/Local/Temp/book-microbio-preview/_book"],
+      "port": 8791
+    }
+  ]
+}

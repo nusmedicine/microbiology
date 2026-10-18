@@ -1,0 +1,66 @@
+id: pair-ecoli-bacteroides
+title: "Contrast pair: two Gram-negative rods from the gut"
+intro: "Both are pink rods, and both live in a healthy colon. Under the microscope they look the same. Read across and find the difference that matters."
+
+a:
+  name: "Escherichia coli"
+  morph: rods-neg
+b:
+  name: "Bacteroides fragilis"
+  morph: rods-neg
+
+rows:
+  - feature: "Gram stain"
+    a: "Negative (pink): thin wall plus outer membrane"
+    b: "Negative (pink): thin wall plus outer membrane"
+    separates: false
+  - feature: "Shape"
+    a: "Rod"
+    b: "Rod"
+    separates: false
+  - feature: "Usual home"
+    a: "The colon"
+    b: "The colon"
+    separates: false
+  - feature: "Relationship with oxygen"
+    a: "Facultative anaerobe: respires with oxygen, ferments without it"
+    b: "Obligate anaerobe: oxygen inactivates enzymes it depends on"
+    separates: true
+  - feature: "Grows on a plate left in room air"
+    a: "Yes, overnight"
+    b: "No; it needs an oxygen-free jar"
+    separates: true
+
+question:
+  stem: "Which feature separates them?"
+  options: [0, 2, 3]
+  answer: 3
+  feedback: >
+    Their relationship with oxygen. On a slide they are both pink rods, and both live in the colon.
+    Only growth with and without oxygen tells them apart.
+
+principle: >
+  **Two organisms can look identical and still live very different lives.** The colon is almost free
+  of oxygen, and anaerobes such as *Bacteroides* outnumber facultative bacteria such as *E. coli*
+  there many times over. A sample left exposed to air can lose the anaerobes entirely, so the lab
+  would see only the minority.
+
+sort:
+  - text: "Pink rods that grow overnight on a plate in room air"
+    answer: a
+    why: "Growth in air needs a way to cope with oxygen and use it: *E. coli*."
+  - text: "Grows only at the bottom of an oxygen-gradient tube"
+    answer: b
+    why: "Confined to the oxygen-free zone: the obligate anaerobe."
+  - text: "Grows from top to bottom of the tube, densest at the top"
+    answer: a
+    why: "Growth everywhere, best with oxygen: facultative."
+  - text: "Pink rods that grow only in a sealed, oxygen-free jar"
+    answer: b
+    why: "Needs oxygen removed: *Bacteroides*."
+  - text: "Respires with oxygen when it is available"
+    answer: a
+    why: "Using oxygen as an electron acceptor is what makes *E. coli* facultative."
+  - text: "Belongs to the group that vastly outnumbers facultative bacteria in the colon"
+    answer: b
+    why: "Anaerobes dominate the oxygen-free colon."

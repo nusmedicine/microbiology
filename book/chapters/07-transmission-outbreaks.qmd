@@ -1,0 +1,22 @@
+# Transmission, outbreaks and One Health
+
+> *Where do microbes live outside us, and how do they travel between people, animals and the environment?*
+
+::: {.callout-note}
+## In preparation
+This unit is planned but not yet written. The outline below shows what it will cover.
+:::
+
+## Planned content
+
+- Reservoirs, routes, incubation and carriers
+- Zoonoses and One Health
+- History as investigation: Snow and cholera, Semmelweis and hand washing
+- Singapore examples: Nipah 1999, SARS 2003, hand, foot and mouth disease, melioidosis
+
+## Planned interactives
+
+- An epidemic model to explore
+- An outbreak-investigation branching case
+
+**Links to other teaching:** Public health; organ-system blocks.

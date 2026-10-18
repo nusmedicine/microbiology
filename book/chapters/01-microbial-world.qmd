@@ -1,0 +1,23 @@
+# The microbial world
+
+> *How big are microbes, how are they related to each other and to us, and why are most of them harmless?*
+
+::: {.callout-note}
+## In preparation
+This unit is planned but not yet written. The outline below shows what it will cover.
+:::
+
+## Planned content
+
+- Size and scale, from a red blood cell to a bacterium to a virus
+- The tree of life: bacteria, archaea, eukaryotic microbes, and viruses outside the tree
+- Most microbes are harmless or useful; pathogens are a small minority
+- Prokaryote versus eukaryote, building on cell biology
+
+## Planned interactives
+
+- A zoom across size scales
+- Sorting organisms onto the tree of life
+- Example: Wolbachia, a bacterium used to stop mosquitoes spreading dengue
+
+**Links to other teaching:** Cell biology.

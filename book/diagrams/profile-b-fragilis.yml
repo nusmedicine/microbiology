@@ -1,0 +1,64 @@
+id: profile-b-fragilis
+name: "Bacteroides fragilis"
+group: "Gram-negative rod · obligate anaerobe"
+intro: "This time only the contrast partner is filled in. Predict each slot by reasoning from its envelope and its relationship with oxygen."
+
+slots:
+  - slot: identity
+    predict:
+      stem: "It is Gram-negative. Which feature does its envelope have that *S. aureus* lacks?"
+      options:
+        - text: "An outer membrane containing lipopolysaccharide (LPS)"
+          correct: true
+          feedback: "Right. Pink on the Gram stain means a thin wall plus an outer membrane, and LPS sits in that outer membrane."
+        - text: "A thick peptidoglycan wall"
+          correct: false
+          feedback: "That is the Gram-positive design. A Gram-negative cell has a thin wall plus an outer membrane with LPS."
+        - text: "No cell wall at all"
+          correct: false
+          feedback: "It has a wall, just a thin one, beneath an outer membrane containing LPS."
+    entry: "Gram-negative rod: thin peptidoglycan wall under an outer membrane with LPS. Surrounded by a polysaccharide capsule."
+  - slot: lifestyle
+    predict:
+      stem: "Oxygen inactivates enzymes it depends on. Where in the body would you expect it to thrive?"
+      options:
+        - text: "The colon, which is almost free of oxygen"
+          correct: true
+          feedback: "Right. The colon is one of the most oxygen-poor places in the body, and anaerobes dominate it."
+        - text: "The surface of the skin"
+          correct: false
+          feedback: "Skin is exposed to air. An organism poisoned by oxygen needs somewhere oxygen-poor, such as the colon."
+        - text: "The lining of the airways"
+          correct: false
+          feedback: "Airways carry oxygen-rich air. An obligate anaerobe thrives where oxygen is scarce, such as the colon."
+    entry: "Obligate anaerobe. A normal, harmless resident of the healthy colon, where anaerobes vastly outnumber facultative bacteria."
+  - slot: harm
+    predict:
+      stem: "It is harmless in the colon. What would have to change for it to cause damage?"
+      options:
+        - text: "It escapes the gut into tissue that has lost its blood supply, such as after a bowel injury"
+          correct: true
+          feedback: "Right. Same organism, new place. Dead or poorly perfused tissue has little oxygen, so an anaerobe can grow there."
+        - text: "It acquires the ability to use oxygen"
+          correct: false
+          feedback: "It does not need to change at all. What changes is where it is: tissue with a poor blood supply has little oxygen."
+        - text: "Nothing; organisms that live in the gut cannot cause disease"
+          correct: false
+          feedback: "Many disease-causing bacteria are normal residents somewhere. Harm depends on place and host as much as on the microbe."
+    entry: "Harm depends on location, not on a change in the organism. Outside the gut, in tissue with little oxygen, it multiplies; its capsule helps it resist clearance."
+  - slot: consequence
+    predict:
+      stem: "Its capsule helps it persist, and neutrophils arrive to contain it. What is the typical result?"
+      options:
+        - text: "A walled-off collection of pus: an abscess"
+          correct: true
+          feedback: "Right. Its capsule is known to promote abscess formation. Inside an abscess, oxygen is low, which suits an anaerobe."
+        - text: "A spreading infection with no pus"
+          correct: false
+          feedback: "Its capsule promotes walling-off. The usual result is an abscess, whose low-oxygen centre suits an anaerobe."
+        - text: "A granuloma"
+          correct: false
+          feedback: "Granulomas form around microbes that survive inside macrophages. This one stays outside cells and provokes pus and an abscess."
+    entry: "Abscess formation, promoted by the capsule. The low-oxygen centre of an abscess suits an anaerobe."
+  - slot: contrast
+    entry: "*Escherichia coli*: also a Gram-negative rod from the colon, but facultative, so it grows in air."

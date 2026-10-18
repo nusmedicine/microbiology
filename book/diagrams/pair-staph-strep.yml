@@ -1,0 +1,69 @@
+id: pair-staph-strep
+title: "Contrast pair: two Gram-positive cocci"
+intro: "Both are purple spheres on a Gram stain, and both are carried by many healthy people. Read across the two columns and look for what actually differs."
+
+a:
+  name: "Staphylococcus aureus"
+  morph: clusters
+b:
+  name: "Streptococcus pyogenes"
+  morph: chains
+
+rows:
+  - feature: "Gram stain"
+    a: "Positive (purple): thick peptidoglycan wall"
+    b: "Positive (purple): thick peptidoglycan wall"
+    separates: false
+  - feature: "Shape"
+    a: "Coccus (sphere)"
+    b: "Coccus (sphere)"
+    separates: false
+  - feature: "Arrangement"
+    a: "Grape-like clusters"
+    b: "Chains or pairs"
+    separates: true
+  - feature: "Catalase (breaks down hydrogen peroxide)"
+    a: "Present"
+    b: "Absent"
+    separates: true
+  - feature: "Energy"
+    a: "Respires with oxygen or ferments without it (facultative)"
+    b: "Ferments only, but tolerates oxygen (aerotolerant)"
+    separates: true
+  - feature: "Carried by healthy people"
+    a: "Yes, often in the nose"
+    b: "Yes, sometimes in the throat"
+    separates: false
+
+question:
+  stem: "You only have a Gram-stained slide. Which feature tells them apart?"
+  options: [0, 1, 2, 3]
+  answer: 2
+  feedback: >
+    The arrangement is visible on the slide itself. Catalase and energy use also differ, but you need
+    a test or a culture to see them; the Gram stain and shape are identical.
+
+principle: >
+  **Arrangement records how the cell divides.** Staphylococci divide in several planes, so daughter
+  cells pile up in clusters. Streptococci divide in one plane, so they line up in chains. A feature
+  you can see is often the trace of a process you cannot.
+
+sort:
+  - text: "Purple cocci in long chains"
+    answer: b
+    why: "Chains mean division in one plane: streptococci."
+  - text: "Bubbles appear when hydrogen peroxide is dropped on the colony"
+    answer: a
+    why: "Bubbles are oxygen released by catalase, which staphylococci have."
+  - text: "Purple cocci in irregular bunches"
+    answer: a
+    why: "Clusters mean division in several planes: staphylococci."
+  - text: "Makes ATP only by fermentation, even when oxygen is present"
+    answer: b
+    why: "Streptococci lack a respiratory chain, so oxygen gives them no extra ATP."
+  - text: "No bubbles with hydrogen peroxide"
+    answer: b
+    why: "No catalase, so no oxygen is released: streptococci."
+  - text: "Respires on the surface of a plate and ferments in the depths of a broth"
+    answer: a
+    why: "Switching between respiration and fermentation makes it facultative: staphylococci."

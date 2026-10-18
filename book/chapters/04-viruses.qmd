@@ -1,0 +1,23 @@
+# Viruses
+
+> *What is a virus, and why does it depend completely on a living cell?*
+
+::: {.callout-note}
+## In preparation
+This unit is planned but not yet written. The outline below shows what it will cover.
+:::
+
+## Planned content
+
+- Viral structure: genome, capsid and envelope
+- Genome types and why they set the replication strategy
+- The replication cycle, stage by stage
+- Enveloped versus naked viruses
+
+## Planned interactives
+
+- A replication-cycle stepper
+- Predict: does hand sanitiser work on this virus?
+- Contrast pair: influenza versus the enteroviruses of hand, foot and mouth disease
+
+**Links to other teaching:** Host-cell machinery (cell biology).

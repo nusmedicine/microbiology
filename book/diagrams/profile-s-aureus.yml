@@ -1,0 +1,40 @@
+id: profile-s-aureus
+name: "Staphylococcus aureus"
+group: "Gram-positive coccus · facultative anaerobe"
+intro: "Three slots are filled in for you. Predict the other two from what you have read, then check."
+
+slots:
+  - slot: identity
+    entry: "Gram-positive coccus in grape-like clusters. Thick peptidoglycan wall, no outer membrane. Makes catalase."
+  - slot: lifestyle
+    entry: "Facultative anaerobe: respires with oxygen, ferments without it. Around one in three healthy people carry it in the nose at any one time, usually without harm."
+  - slot: harm
+    predict:
+      stem: "It lives harmlessly on intact skin. What most often lets it start causing damage?"
+      options:
+        - text: "A break in the skin barrier, such as a cut or a wound"
+          correct: true
+          feedback: "Right. Intact skin keeps it outside. A break lets it into tissue, where it can multiply and release toxins and tissue-damaging enzymes."
+        - text: "Its spores germinating after a long dormancy"
+          correct: false
+          feedback: "Staphylococci do not form spores; spores belong to some Gram-positive rods. The trigger is usually a break in the barrier that lets it into tissue."
+        - text: "A drop in the oxygen level on the skin"
+          correct: false
+          feedback: "It is facultative, so it copes with or without oxygen. What changes is access: a break in the barrier lets it into tissue."
+    entry: "Gets into tissue through a break in the skin or mucosa. Releases toxins and enzymes that damage cells, and strongly attracts neutrophils."
+  - slot: consequence
+    predict:
+      stem: "Neutrophils pour into the site, and many die along with bacteria and host cells. What collects?"
+      options:
+        - text: "Pus, often walled off as an abscess"
+          correct: true
+          feedback: "Right. Dead neutrophils, bacteria and liquefied tissue form pus. Infections that do this are called pyogenic, or pus-forming."
+        - text: "A granuloma"
+          correct: false
+          feedback: "Granulomas, from general pathology, form around microbes that survive inside macrophages. Staphylococci are killed by neutrophils, and the debris collects as pus."
+        - text: "Nothing visible, because the bacteria stay inside host cells"
+          correct: false
+          feedback: "It stays outside cells. The neutrophil response it provokes is very visible, as pus."
+    entry: "Pyogenic (pus-forming) infection, typically a walled-off abscess. Much of the damage comes from the neutrophil response as well as the bacterium."
+  - slot: contrast
+    entry: "*Streptococcus pyogenes*: also a Gram-positive coccus, but in chains, with no catalase, and fermenting only."

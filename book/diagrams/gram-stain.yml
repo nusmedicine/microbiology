@@ -1,0 +1,70 @@
+id: gram-stain
+title: "The Gram stain, step by step"
+intro: >
+  The Gram stain sorts most bacteria into two groups in about five minutes. It works because the
+  two groups build their envelopes differently. Step through it, and predict what the alcohol
+  will do before you see it.
+
+steps:
+  - key: smear
+    reagent: "Heat-fixed smear"
+    action: "Bacteria are spread on a slide and fixed by gentle heat."
+    pos: clear
+    neg: clear
+    explain: "Both cells are colourless. Bacteria are almost transparent under a light microscope, which is why we stain them."
+  - key: violet
+    reagent: "1 · Crystal violet"
+    action: "Flood the slide with a purple dye for one minute, then rinse."
+    pos: violet
+    neg: violet
+    explain: "The dye passes through both envelopes and stains both cells purple. So far the stain cannot tell them apart."
+  - key: iodine
+    reagent: "2 · Iodine"
+    action: "Add iodine solution for one minute, then rinse."
+    pos: complex
+    neg: complex
+    explain: "Iodine binds crystal violet into a large dye–iodine complex inside each cell. Large molecules are harder to wash out than small ones."
+  - key: alcohol
+    reagent: "3 · Alcohol (the decolouriser)"
+    action: "Rinse briefly with alcohol or an alcohol–acetone mix."
+    pos: complex
+    neg: clear
+    damaged: neg
+    predict:
+      stem: "Alcohol dissolves lipids and dehydrates peptidoglycan. What will it do to each cell?"
+      options:
+        - text: "The Gram-positive cell stays purple; the Gram-negative cell loses its colour."
+          correct: true
+          feedback: "Right. Alcohol dehydrates the thick peptidoglycan wall, which shrinks and traps the complex. In the Gram-negative cell it dissolves the lipid outer membrane, and the thin wall beneath cannot hold the complex in."
+        - text: "Both cells lose their colour, because alcohol washes out the dye."
+          correct: false
+          feedback: "Only one cell loses it. The thick peptidoglycan of the Gram-positive wall shrinks when dehydrated and traps the complex. That difference in the wall is the whole basis of the stain."
+        - text: "The Gram-negative cell stays purple, because its outer membrane seals the dye in."
+          correct: false
+          feedback: "The reverse. The outer membrane is lipid, and alcohol dissolves lipid. Once it is breached, the thin peptidoglycan layer cannot hold the dye–iodine complex."
+    explain: "This is the step that sorts them. The Gram-positive cell keeps the complex; the Gram-negative cell is now colourless."
+  - key: safranin
+    reagent: "4 · Safranin (the counterstain)"
+    action: "Add a red–pink dye for one minute, then rinse and dry."
+    pos: complex
+    neg: pink
+    explain: "The colourless Gram-negative cell takes up the pink counterstain. The Gram-positive cell also takes some up, but the dark purple hides it."
+
+summary: >
+  **Purple means a thick peptidoglycan wall; pink means a thin wall plus an outer membrane.** The
+  colour is a readout of envelope structure, and envelope structure matters well beyond the slide:
+  the Gram-negative outer membrane carries lipopolysaccharide, which triggers strong inflammation.
+
+whatifs:
+  - label: "Leave the alcohol on too long"
+    pos: pink
+    neg: pink
+    explain: "Even a thick wall eventually lets the complex out. Gram-positive cells then look pink and are misread as Gram-negative. Timing the decolouriser is the commonest source of error."
+  - label: "Forget the iodine"
+    pos: pink
+    neg: pink
+    explain: "Without iodine, the dye stays as small molecules that wash out of both cells. Everything ends up pink."
+  - label: "Stain a very old culture"
+    pos: mixed
+    neg: pink
+    explain: "Old or dying Gram-positive cells often have damaged walls, so some lose the dye. The result is a mix of purple and pink cells, called Gram-variable."

@@ -1,0 +1,21 @@
+# Detecting and controlling microbes
+
+> *How do we see, grow and detect microbes, and how do we kill them or prevent infection?*
+
+::: {.callout-note}
+## In preparation
+This unit is planned but not yet written. The outline below shows what it will cover.
+:::
+
+## Planned content
+
+- Microscopy, culture and molecular detection, in principle
+- Sterilisation, disinfection and antisepsis
+- How vaccines work, in principle
+- Bringing the six questions together
+
+## Planned interactives
+
+- Mixed review across all units
+
+**Links to other teaching:** Organ-system diagnosis; pharmacology.

@@ -1,0 +1,183 @@
+id: sample-grew-nothing
+label: "Lab case"
+title: "The sample that grew nothing"
+objectives:
+  - "Explain a negative culture by reasoning from an organism's relationship with oxygen."
+  - "Link an oxygen-poor site in the body to the kinds of bacteria that can grow there."
+  - "Explain why the way a sample is collected and grown changes what the lab can find."
+difficulty: intro
+estimatedMinutes: 8
+tags: [microbiology, oxygen, anaerobes, specimen-handling, gram-stain]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Dr Lim"
+  occupation: "clinical microbiologist"
+  presentation: "You are spending a week in the hospital microbiology laboratory. Dr Lim, who supervises you, has a puzzle for you."
+
+nodes:
+  - id: intro
+    type: info
+    title: "\"Plenty on the slide, nothing on the plates\""
+    body: |
+      A sample of pus was drained from a deep abscess next to the bowel. It was sent in an ordinary
+      sterile pot and sat on a bench overnight before reaching the lab. The lab spread it on plates
+      and incubated them in normal air.
+
+      The Gram stain of the pus showed **many pink rods**. Two days later, **the plates are still
+      blank**. *"So there were bacteria,"* says Dr Lim, *"but nothing grew. Why?"*
+    next: q-why
+
+  - id: q-why
+    type: mcq
+    stem: "The slide shows plenty of bacteria, yet nothing grew in air. What is the most likely explanation?"
+    options:
+      - id: a
+        text: "They are obligate anaerobes, so air stopped them growing or killed them."
+        correct: true
+        feedback: "That fits everything. Bacteria were present, but an organism poisoned by oxygen will not grow on plates kept in air, and a night in an open pot may already have killed many."
+        effects: { quality: +1 }
+        goto: q-site
+      - id: b
+        text: "The Gram stain was wrong, and there were no bacteria."
+        correct: false
+        feedback: "A Gram stain showing many rods is strong evidence that bacteria were there. The puzzle is why they did not grow, and the conditions of growth are the place to look."
+        goto: q-site
+      - id: c
+        text: "The bacteria need a higher temperature than the incubator gives."
+        correct: false
+        feedback: "Bacteria that live in the human body grow well at body temperature, which is what incubators use. Oxygen is the condition that changed between the body and the plate."
+        goto: q-site
+
+  - id: q-site
+    type: mcq
+    stem: "Dr Lim asks: why would an abscess next to the bowel hold this kind of organism?"
+    options:
+      - id: a
+        text: "The bowel is full of anaerobes, and the centre of an abscess has little oxygen."
+        correct: true
+        feedback: "Right. The source is rich in anaerobes, and the dead tissue and pus at an abscess's centre have no blood supply, so little oxygen. Both point the same way."
+        effects: { quality: +1 }
+        goto: q-fix
+      - id: b
+        text: "Inflammation brings extra oxygen into an abscess, which favours anaerobes."
+        correct: false
+        feedback: "Anaerobes are harmed by oxygen, not helped by it. An abscess centre is oxygen-poor because the tissue there has lost its blood supply."
+        goto: q-fix
+      - id: c
+        text: "Abscesses are sterile, so the rods must have come from the slide."
+        correct: false
+        feedback: "Abscesses usually contain bacteria. This one sits next to the bowel, a rich source of anaerobes, and its centre has little oxygen."
+        goto: q-fix
+
+  - id: q-fix
+    type: mcq
+    stem: "A second sample is taken. What change gives the best chance of growing the bacteria?"
+    options:
+      - id: a
+        text: "Send it in an oxygen-free transport container, quickly, and incubate plates in an anaerobic jar."
+        correct: true
+        feedback: "Right. Keep oxygen away from collection to incubation. How a sample is handled decides what the lab can find."
+        effects: { quality: +1 }
+        goto: q-two
+      - id: b
+        text: "Incubate the plates in air for a week instead of two days."
+        correct: false
+        feedback: "More time in air will not help an organism that oxygen poisons. The sample needs to be kept away from oxygen throughout."
+        goto: q-two
+      - id: c
+        text: "Repeat the Gram stain with fresh reagents."
+        correct: false
+        feedback: "The stain already worked: it showed the bacteria. The problem was growth, and the fix is to remove oxygen from transport and incubation."
+        goto: q-two
+
+  - id: q-two
+    type: mcq
+    stem: "In the anaerobic jar, two kinds of pink rods grow. A copy of the plate kept in air grows only one of them. What do you conclude?"
+    options:
+      - id: a
+        text: "One is facultative and grows either way; the other is an obligate anaerobe."
+        correct: true
+        feedback: "Right. Growth in both conditions means facultative, like E. coli. Growth only without oxygen means obligate anaerobe, like Bacteroides. They look the same on the slide; oxygen separates them."
+        effects: { quality: +1 }
+        goto: q-mechanism
+      - id: b
+        text: "Both are obligate anaerobes; one just grew faster."
+        correct: false
+        feedback: "An obligate anaerobe would not grow on the plate in air at all. The one that did must be able to cope with oxygen: it is facultative."
+        goto: q-mechanism
+      - id: c
+        text: "The one that grew in air must be a contaminant from the lab."
+        correct: false
+        feedback: "Possible in principle, but there is a simpler reading. Bowel bacteria include facultative species such as E. coli, which grow with or without oxygen."
+        goto: q-mechanism
+
+  - id: q-mechanism
+    type: mcq
+    stem: "Finally, Dr Lim asks why oxygen kills the obligate anaerobe. Which answer is better?"
+    options:
+      - id: a
+        text: "Oxygen and reactive oxygen species inactivate central enzymes it depends on."
+        correct: true
+        feedback: "Right. Many anaerobes have catalase and superoxide dismutase. Their weakness is metabolic enzymes built around iron–sulfur clusters or radical chemistry, which oxygen breaks."
+        effects: { quality: +1 }
+        goto: route
+      - id: b
+        text: "It has no defences against oxygen at all."
+        correct: false
+        feedback: "That is the older textbook story. Many anaerobes carry defence enzymes. What oxygen breaks is the central metabolic machinery they depend on."
+        goto: route
+      - id: c
+        text: "Oxygen dissolves its outer membrane."
+        correct: false
+        feedback: "Oxygen does not dissolve membranes. It inactivates central enzymes, built around iron–sulfur clusters or radical chemistry, that the anaerobe needs."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 4"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    title: "Follow the oxygen"
+    body: |
+      The thread through every step is oxygen. The bowel and an abscess centre are oxygen-poor, so
+      they hold anaerobes. A sample left in air and plates grown in air lose them. Growing with and
+      without oxygen separates organisms that look identical on the slide. And oxygen kills
+      anaerobes by breaking enzymes they depend on, not simply because they lack defences. Replay
+      and follow the oxygen at each step.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Solved by reasoning, not memory"
+    body: |
+      You explained a blank set of plates without naming a single disease. A Gram stain showed the
+      bacteria were there; their relationship with oxygen explained why they did not grow; the
+      oxygen-poor abscess explained why they were there in the first place; and growing with and
+      without oxygen separated two organisms that look identical on a slide.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "A negative culture does not mean no bacteria. Ask whether the growth conditions suited the organism."
+        - "Oxygen-poor places in the body, such as the bowel and the centre of an abscess, favour anaerobes."
+        - "Sample handling matters: keep anaerobes away from oxygen from collection to incubation."
+        - "Oxygen kills anaerobes by inactivating enzymes they depend on."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You got part of the puzzle. Replay it and follow the oxygen at every step: where it is in the
+      body, what happens to the sample in air, and what growth with and without it tells you.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "A blank plate can mean the wrong growth conditions, not an absence of bacteria."
+        - "Anaerobes need oxygen kept away from collection to incubation."

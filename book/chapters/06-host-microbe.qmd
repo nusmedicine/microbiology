@@ -1,0 +1,22 @@
+# Microbes and their hosts
+
+> *When does living with a microbe turn into disease, and how much of the damage does the host cause?*
+
+::: {.callout-note}
+## In preparation
+This unit is planned but not yet written. The outline below shows what it will cover.
+:::
+
+## Planned content
+
+- Colonisation, the microbiota and carriage
+- Infection is not disease: the damage-response framework
+- Host factors that change the outcome
+- Three strategies of harm: toxins, invasion and survival inside cells
+
+## Planned interactives
+
+- A slider for how much damage comes from the microbe versus the host
+- A skeleton concept map: LPS to endotoxin to inflammation
+
+**Links to other teaching:** General pathology; immunology.

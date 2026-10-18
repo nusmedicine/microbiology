@@ -1,0 +1,23 @@
+# Dependencies
+components/node_modules/
+
+# Quarto render output / cache
+book/_book/
+book/.quarto/
+/.quarto/
+# Stray site libraries written to the project root by an interrupted in-place render
+book/site_libs/
+
+# Atomic-write temp files (e.g. from editing .claude/launch.json)
+.claude/*.tmp.*
+
+# Built component bundle + lazy chunks (generated from components/src by Vite —
+# the whole folder is emptied and rewritten on each `npm --prefix components run build`)
+book/assets/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Atomic-write temp files left by interrupted saves anywhere in the tree
+*.tmp.*

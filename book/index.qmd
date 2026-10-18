@@ -1,0 +1,56 @@
+# Preface {.unnumbered}
+
+You have just spent weeks learning how your own cells work: membranes, organelles, the
+electron transport chain, DNA to RNA to protein. This book uses that knowledge straight away.
+Every microbe you meet here is a living system solving the same problems your cells solve.
+It needs a boundary, energy, a way to copy itself and a place to live. It simply solves
+them differently.
+
+That is the idea behind the whole book. Microbiology is often taught as a long parade of
+organisms, each with its own list of facts. Expert groups now recommend moving away from that
+approach for the foundation years [@bauler2026objectives]. Instead, we ask the **same six
+questions** of every kind of microbe:
+
+1. **What is it built from?**
+2. **How does it get energy, and what does it need to grow?**
+3. **How does it copy itself and change?**
+4. **Where does it live, and how does it spread?**
+5. **How does damage happen, and how much is the microbe versus the host?**
+6. **What does it have that my cells lack?**
+
+Bacteria, viruses, fungi and parasites give different answers. Those differences are the
+diversity of the microbial world, and they explain most of what you will later learn about
+infection.
+
+## What this book is, and is not
+
+This book covers the **foundations**. It deliberately leaves out where each infection occurs
+in the body, how it is diagnosed and how it is treated. You will meet those in the
+organ-system blocks, and pharmacology will teach the drugs. Here, the goal is a framework that
+makes those later facts easier to place.
+
+When a named organism appears, it is there as an **example of a trait**, not as an entry to
+memorise. Organisms appear in contrasting pairs, because comparing two similar things teaches
+more than studying either one alone [@alfieri2013contrasting].
+
+## How to use the interactive parts
+
+Each chapter has things to do as well as things to read:
+
+- **Predict, then reveal.** Many diagrams ask you to commit to a prediction before showing the
+  answer. Guess even when unsure; a wrong prediction followed by feedback still helps you learn.
+- **Compare pairs.** Contrast activities ask you to find the one feature that tells two similar
+  organisms apart.
+- **Check your understanding.** Each chapter ends with a short quiz and a set of flashcards.
+  The questions ask *why*, not just *what*.
+- **Practise.** A short branching case lets you reason through a problem using the chapter's
+  ideas.
+
+Your answers are saved only in your own browser. Nothing is sent anywhere, and there is no
+login.
+
+::: {.callout-warning}
+## Draft
+This is a pilot. Only **How bacteria are built and get energy** is written in full; the other
+units show their planned content. All content is awaiting review by teaching staff.
+:::

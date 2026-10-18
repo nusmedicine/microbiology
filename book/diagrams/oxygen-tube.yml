@@ -1,0 +1,71 @@
+id: oxygen-tube
+title: "Where will it grow? The oxygen-gradient tube"
+intro: >
+  Each tube holds a broth (thioglycollate) that soaks up oxygen. Air reaches only the top, so oxygen
+  runs from plenty at the surface to none at the bottom; the pink band shows where oxygen is present.
+  For each organism, read how it handles energy and oxygen, then pick the tube it would grow in.
+
+patterns:
+  - key: top
+    letter: A
+    group: "Obligate aerobe"
+    rule: "Growth only at the top, where oxygen is."
+  - key: gradient
+    letter: B
+    group: "Facultative anaerobe"
+    rule: "Growth all the way down, densest at the top."
+  - key: band
+    letter: C
+    group: "Microaerophile"
+    rule: "A band just below the surface, where oxygen is low but not absent."
+  - key: even
+    letter: D
+    group: "Aerotolerant anaerobe"
+    rule: "Even growth throughout: oxygen neither helps nor harms."
+  - key: bottom
+    letter: E
+    group: "Obligate anaerobe"
+    rule: "Growth only at the bottom, away from oxygen."
+
+organisms:
+  - name: "Organism 1"
+    example: "Mycobacterium tuberculosis"
+    clue: "Makes all its ATP by respiration, using oxygen as the final electron acceptor. It has no fermentation pathway to fall back on."
+    pattern: top
+    why: "With no fermentation pathway, it can only make ATP where oxygen is. Growth stops where oxygen runs out."
+  - name: "Organism 2"
+    example: "Escherichia coli"
+    clue: "Respires with oxygen when it can. When oxygen runs out, it switches to fermentation."
+    pattern: gradient
+    why: "It grows everywhere, but best near the top, because respiration yields far more ATP per glucose than fermentation."
+  - name: "Organism 3"
+    example: "Campylobacter jejuni"
+    clue: "Needs a little oxygen for respiration, but some of its enzymes are damaged by oxygen at normal air levels."
+    pattern: band
+    why: "It sits in a narrow band: deep enough to escape full air, shallow enough to find the little oxygen it needs."
+  - name: "Organism 4"
+    example: "Lactobacillus (streptococci behave similarly)"
+    clue: "Only ferments, so oxygen gives it no extra ATP. It does have enzymes that stop oxygen from harming it."
+    pattern: even
+    why: "Oxygen neither helps nor harms, so it grows the same at every depth."
+  - name: "Organism 5"
+    example: "Bacteroides fragilis"
+    clue: "Ferments, and its central metabolism relies on enzymes that oxygen inactivates directly."
+    pattern: bottom
+    why: "Oxygen poisons the enzymes it depends on, so it grows only where oxygen has been removed."
+  - name: "Organism 6"
+    example: "Staphylococcus aureus"
+    clue: "Can respire with oxygen or ferment without it, whichever the conditions allow."
+    pattern: gradient
+    why: "Like Organism 2, it is flexible: growth throughout, densest where respiration is possible."
+  - name: "Organism 7"
+    example: "Clostridium perfringens"
+    clue: "Makes ATP only by fermentation and cannot cope with oxygen at the levels found in air."
+    pattern: bottom
+    why: "Like Organism 5, it is confined to the oxygen-free depths of the tube."
+
+summary: >
+  **The pattern follows from the metabolism.** Ask two questions: can it use oxygen to make ATP, and
+  does oxygen harm it? Those two answers place every organism in the tube. Most bacteria do not need
+  oxygen at all, and the human colon is almost oxygen-free, so most of the bacteria living there are
+  anaerobes.

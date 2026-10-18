@@ -1,0 +1,50 @@
+project:
+  type: book
+  output-dir: _book
+  resources:
+    - assets/**
+    - cases/**
+    - quizzes/**
+    - diagrams/**
+    - decks/**
+    - figures/**
+
+book:
+  title: "Microbes in Medicine"
+  subtitle: "Foundations of microbiology — an interactive companion"
+  author: "NUS Medicine (draft — author line to be confirmed)"
+  search: true
+  chapters:
+    - index.qmd
+    - part: "I · The microbial toolkit"
+      chapters:
+        - chapters/01-microbial-world.qmd
+        - chapters/02-bacteria-build-energy.qmd
+        - chapters/03-bacterial-genetics.qmd
+        - chapters/04-viruses.qmd
+        - chapters/05-fungi-parasites.qmd
+    - part: "II · Microbes and their hosts"
+      chapters:
+        - chapters/06-host-microbe.qmd
+        - chapters/07-transmission-outbreaks.qmd
+    - part: "III · Finding and controlling microbes"
+      chapters:
+        - chapters/08-detection-control.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+    html-math-method: katex
+    lightbox: true
+    # Components bundle (built by /components via Vite into book/assets/).
+    # Loaded site-wide so interactive islands hydrate on every page.
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="/assets/components.css">
+    include-after-body:
+      text: |
+        <script type="module" src="/assets/components.js"></script>

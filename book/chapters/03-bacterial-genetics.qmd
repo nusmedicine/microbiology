@@ -1,0 +1,22 @@
+# How bacteria copy themselves and change
+
+> *How do bacteria pass on genes, swap them with each other, and become resistant to drugs?*
+
+::: {.callout-note}
+## In preparation
+This unit is planned but not yet written. The outline below shows what it will cover.
+:::
+
+## Planned content
+
+- Mutation and how often it happens
+- Horizontal gene transfer: transformation, transduction, conjugation
+- Bacteriophages, and how phage genes can change a bacterium
+- Selection acts on variation that already exists
+
+## Planned interactives
+
+- A selection simulation on antibiotic plates
+- A refutation unit on the belief that the body becomes resistant
+
+**Links to other teaching:** Seeds the pharmacology block (resistance).
