@@ -23,14 +23,14 @@ biology, tissues or general pathology are not repeated here.
 | **Bacteriophage (phage)** | A virus that infects bacteria | *How bacteria copy themselves and change* |
 | **Binary fission** | Division of one bacterial cell into two | *How bacteria are built and get energy* |
 | **Biofilm** | A community of microbes embedded in a shared matrix on a surface | *How bacteria are built and get energy* |
-| **Breakpoint** | The drug concentration that separates organisms likely to respond from those that are not | *Detecting and controlling microbes* |
+| **Breakpoint** | The drug concentration that separates organisms likely to respond from those that are not | *Detecting bacteria and testing susceptibility* |
 | **Capsule** | A polysaccharide layer outside the cell wall that resists phagocytosis | *How bacteria are built and get energy* |
 | **Carrier** | A person who harbours and can transmit an organism without being ill | *The microbial world* |
 | **Catalase** | An enzyme that breaks down hydrogen peroxide | *Gram-positive cocci* |
 | **Cell envelope** | A bacterium's cell membrane and every layer outside it | *How bacteria are built and get energy* |
 | **Cellulitis** | Spreading infection of the skin and the tissue beneath it | *Gram-positive cocci* |
 | **Chain of infection** | The six links of transmission: infectious agent, reservoir, portal of exit, mode of transmission, portal of entry and susceptible host | *Transmission, outbreaks and One Health* |
-| **Chocolate agar** | Agar made with heated blood, supplying factors released from lysed red cells for fastidious organisms | *Detecting and controlling microbes* |
+| **Chocolate agar** | Agar made with heated blood, supplying factors released from lysed red cells for fastidious organisms | *Detecting bacteria and testing susceptibility* |
 | **Chronic infection** | Infection and inflammation continuing for months or years | *Microbes and their hosts* |
 | **Coagulase** | An enzyme, made by *Staphylococcus aureus*, that clots plasma | *Gram-positive cocci* |
 | **Coccus (pl. cocci)** | A spherical bacterium | *How bacteria are built and get energy* |
@@ -44,7 +44,7 @@ biology, tissues or general pathology are not repeated here.
 | **Contamination** | Microbes present on a surface without multiplying | *Microbes and their hosts* |
 | **Damage-response framework** | The view that disease is defined by host damage, which may come from the microbe, from the host's response, or from both | *Microbes and their hosts* |
 | **Dental caries** | Tooth decay, caused by acid from bacterial fermentation of sugar | *Gram-positive cocci* |
-| **Differential medium** | A medium on which colonies look different according to a metabolic property | *Detecting and controlling microbes* |
+| **Differential medium** | A medium on which colonies look different according to a metabolic property | *Detecting bacteria and testing susceptibility* |
 | **Disease** | Damage sufficient to produce signs or symptoms | *Microbes and their hosts* |
 | **Disinfection** | Removing most organisms from an inanimate object; does not reliably kill spores | *Detecting and controlling microbes* |
 | **Domain** | The highest rank of classification: Bacteria, Archaea, Eukarya | *The microbial world* |
@@ -54,16 +54,16 @@ biology, tissues or general pathology are not repeated here.
 | **Endemic** | Constantly present in a population at a baseline level | *Transmission, outbreaks and One Health* |
 | **Endospore (spore)** | A dormant, dehydrated bacterial cell inside protective coats, resistant to heat and chemicals | *How bacteria are built and get energy* |
 | **Endotoxin** | Lipopolysaccharide of the Gram-negative outer membrane; called endotoxin because it is part of the cell and not secreted. Its lipid A triggers inflammation | *How bacteria are built and get energy* |
-| **Enriched medium** | A medium with added nutrients for organisms that cannot make them | *Detecting and controlling microbes* |
+| **Enriched medium** | A medium with added nutrients for organisms that cannot make them | *Detecting bacteria and testing susceptibility* |
 | **Enterotoxin** | A toxin that acts on the gut | *Gram-positive cocci* |
 | **Epidemic** | A sharp rise in cases above the endemic baseline | *Transmission, outbreaks and One Health* |
 | **Epidemic curve** | A plot of cases against time of onset; its shape distinguishes point-source from person-to-person spread | *Transmission, outbreaks and One Health* |
 | **Eukarya** | The domain of organisms whose cells have a nucleus, including fungi, protozoa, helminths and humans | *The microbial world* |
-| **Exotoxin** | A protein toxin secreted by bacteria, acting on a specific target | *Microbes and their hosts* |
+| **Exotoxin** | A protein toxin secreted by bacteria, acting on a specific target | *How bacteria cause damage* |
 | **Extracellular** | Of a microbe: living and multiplying outside host cells | *A map of the bacteria* |
 | **Facultative anaerobe** | Respires with oxygen when available and ferments without it | *How bacteria are built and get energy* |
 | **Facultative intracellular** | Of a microbe: able to live both inside and outside host cells | *A map of the bacteria* |
-| **Fastidious** | Growing only when the laboratory meets special requirements, often because the organism has lost the ability to make some nutrients | *Detecting and controlling microbes* |
+| **Fastidious** | Growing only when the laboratory meets special requirements, often because the organism has lost the ability to make some nutrients | *Detecting bacteria and testing susceptibility* |
 | **Fermentation** | Making ATP by glycolysis alone, with no electron transport chain; electrons end on an organic molecule made from glucose, such as pyruvate | *How bacteria are built and get energy* |
 | **Flagellum (pl. flagella)** | A long, rotating protein filament that bacteria use to swim | *How bacteria are built and get energy* |
 | **Fomite** | An inanimate object that carries organisms between people | *Transmission, outbreaks and One Health* |
@@ -101,7 +101,7 @@ biology, tissues or general pathology are not repeated here.
 | **Microaerophile** | Needs oxygen, but is damaged at normal atmospheric levels | *How bacteria are built and get energy* |
 | **Microbiota** | The community of microbes that normally lives on and in the body | *Microbes and their hosts* |
 | **Microorganism (microbe)** | A living thing too small to see without a microscope | *The microbial world* |
-| **Minimum inhibitory concentration (MIC)** | The lowest drug concentration that prevents visible growth | *Detecting and controlling microbes* |
+| **Minimum inhibitory concentration (MIC)** | The lowest drug concentration that prevents visible growth | *Detecting bacteria and testing susceptibility* |
 | **MISTEACHING** | A mnemonic for host factors that decide the outcome of an exposure: microbiota, inoculum, sex, temperature, environment, age, chance, history of exposure, immunity, nutrition, genetics | *Microbes and their hosts* |
 | **Mode of transmission** | How an organism travels between hosts: contact, respiratory, faecal–oral, vector-borne or vertical | *Transmission, outbreaks and One Health* |
 | **Molecular mimicry** | Host damage caused by antibodies raised against a microbe cross-reacting with host tissue | *Gram-positive cocci* |
@@ -110,11 +110,11 @@ biology, tissues or general pathology are not repeated here.
 | **Mycolic acid** | The waxy wall component of mycobacteria that resists the Gram stain | *How bacteria are built and get energy* |
 | **Neonate** | A newborn infant, in the first four weeks of life | *Gram-positive cocci* |
 | **Neutropenia** | An abnormally low neutrophil count | *Microbes and their hosts* |
-| **Non-selective medium** | A medium that supports a wide range of organisms | *Detecting and controlling microbes* |
+| **Non-selective medium** | A medium that supports a wide range of organisms | *Detecting bacteria and testing susceptibility* |
 | **Nucleic acid amplification test (NAAT)** | A test that copies a target sequence many times until it can be detected | *Detecting and controlling microbes* |
 | **Obligate aerobe** | Can make ATP only with oxygen | *How bacteria are built and get energy* |
 | **Obligate anaerobe** | Poisoned by oxygen; grows only where oxygen is absent | *How bacteria are built and get energy* |
-| **Obligate intracellular** | Able to grow only inside living host cells | *Detecting and controlling microbes* |
+| **Obligate intracellular** | Able to grow only inside living host cells | *Detecting bacteria and testing susceptibility* |
 | **One Health** | The principle that human, animal and environmental health are interdependent | *Transmission, outbreaks and One Health* |
 | **Operon** | A group of related bacterial genes transcribed onto one mRNA | *How bacteria copy themselves and change* |
 | **Opportunistic pathogen** | An organism of low virulence that causes disease when defences are impaired or when it reaches a site it does not normally occupy | *Microbes and their hosts* |
@@ -151,7 +151,7 @@ biology, tissues or general pathology are not repeated here.
 | **Resolution** | The smallest separation at which two points can be distinguished; about 0.2 µm for a light microscope | *The microbial world* |
 | **Rheumatic fever** | Inflammation of the heart, joints and other tissues weeks after *Streptococcus pyogenes* infection, caused by cross-reacting antibodies | *Gram-positive cocci* |
 | **Selection** | Differential survival and multiplication of variants already present in a population | *How bacteria copy themselves and change* |
-| **Selective medium** | A medium containing agents that suppress unwanted organisms | *Detecting and controlling microbes* |
+| **Selective medium** | A medium containing agents that suppress unwanted organisms | *Detecting bacteria and testing susceptibility* |
 | **Selective toxicity** | Harming a microbe without harming the host, by acting on something the microbe has and the host lacks | *How bacteria are built and get energy* |
 | **Serology** | Detection of a patient's antibodies as evidence of exposure | *Detecting and controlling microbes* |
 | **Serotype** | A variant of an organism distinguished by its surface antigens, such as the capsule | *Gram-positive cocci* |
@@ -160,7 +160,7 @@ biology, tissues or general pathology are not repeated here.
 | **Superantigen** | A toxin that activates a large fraction of T cells at once, causing damaging cytokine release | *Gram-positive cocci* |
 | **Toxic shock syndrome** | Fever, rash and hypotension caused by a superantigen toxin | *Gram-positive cocci* |
 | **Toxigenic** | Producing a toxin | *How bacteria copy themselves and change* |
-| **Toxoid** | An inactivated protein toxin used as a vaccine | *Microbes and their hosts* |
+| **Toxoid** | An inactivated protein toxin used as a vaccine | *Detecting and controlling microbes* |
 | **Transduction** | Transfer of bacterial DNA from one cell to another by a phage | *How bacteria copy themselves and change* |
 | **Transformation** | Uptake of free DNA from the surroundings by a competent bacterium | *How bacteria copy themselves and change* |
 | **Transposon** | A DNA segment that can move to a new position, including from chromosome to plasmid | *How bacteria copy themselves and change* |

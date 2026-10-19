@@ -1,0 +1,17 @@
+# Blood-borne and sexually transmitted viruses
+
+> *Viruses spread by blood, sexual contact or from mother to child, several of which establish lifelong infection.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Describe the group by its traits; explain one mechanism of harm for each main virus; recognise the enabling conditions that point to each |
+| The group in one sentence | Viruses spread by blood, sexual contact or from mother to child, several of which establish lifelong infection. |
+| Main viruses | HIV (anchor); hepatitis B virus; hepatitis C virus |
+| Supporting viruses | Human papillomavirus |
+| Later in the course | Liver, sexual health and haematology blocks; occupational exposure |
+| Scenario questions | Most likely virus, with options restricted to the group; feedback names the discriminating clue |

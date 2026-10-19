@@ -1,0 +1,27 @@
+# The bacterial world
+
+> *Bacteria are prokaryotic cells that make their own energy and grow outside host cells, with few exceptions. Their wall, metabolism and genetics explain how they live, how they cause harm, and how they are detected and treated.*
+
+::: {.concept-tree}
+[Map of this part]{.tree-title}
+
+- How bacteria work
+  - [How bacteria are built and get energy](bacteria-build-energy.qmd)
+  - [How bacteria copy themselves and change](bacterial-genetics.qmd)
+  - [How bacteria cause damage](bacterial-damage.qmd)
+  - [Detecting bacteria and testing susceptibility](detecting-bacteria.qmd)
+- The groups
+  - [A map of the bacteria](bacteria-map.qmd)
+  - [Gram-positive cocci](gram-positive-cocci.qmd), [Gram-positive rods](gram-positive-rods.qmd), [Enterobacterales](enterobacterales.qmd), [Environmental Gram-negatives](environmental-gram-negatives.qmd), [Fastidious Gram-negatives](fastidious-gram-negatives.qmd), [Anaerobes](anaerobes.qmd), [Spiral bacteria](spiral-bacteria.qmd), [Atypicals and mycobacteria](atypicals-mycobacteria.qmd)
+:::
+
+## The six questions, answered for this part {.unnumbered}
+
+| Question | Answer for this kind of microbe |
+|---|---|
+| What is it built from? | A prokaryotic cell, usually with a peptidoglycan wall of Gram-positive or Gram-negative design |
+| How does it get energy, and what does it need to grow? | Its own metabolism; the response to oxygen ranges from obligate aerobe to obligate anaerobe |
+| How does it copy itself and change? | Binary fission; change by mutation and by gene transfer between cells |
+| Where does it live, and how does it spread? | On and in hosts, and in soil, water and food; spread by contact, air, food and water, vectors |
+| How does damage happen? | Invasion, toxins, and the host response the bacteria provoke |
+| What does it have that my cells lack? | Peptidoglycan, 70S ribosomes and other bacterial enzymes: the targets of antibacterial drugs |

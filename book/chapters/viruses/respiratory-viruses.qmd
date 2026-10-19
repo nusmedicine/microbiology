@@ -1,0 +1,17 @@
+# Respiratory viruses
+
+> *Viruses that infect the airway and spread in respiratory particles, most of them enveloped RNA viruses with short incubation periods.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Describe the group by its traits; explain one mechanism of harm for each main virus; recognise the enabling conditions that point to each |
+| The group in one sentence | Viruses that infect the airway and spread in respiratory particles, most of them enveloped RNA viruses with short incubation periods. |
+| Main viruses | Influenza virus (anchor); SARS-CoV-2; respiratory syncytial virus |
+| Supporting viruses | Rhinoviruses, adenoviruses, measles virus |
+| Later in the course | Respiratory block; vaccines in immunology; antivirals in pharmacology |
+| Scenario questions | Most likely virus, with options restricted to the group; feedback names the discriminating clue |

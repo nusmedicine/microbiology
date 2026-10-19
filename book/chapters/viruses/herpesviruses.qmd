@@ -1,0 +1,17 @@
+# Herpesviruses
+
+> *Enveloped DNA viruses that persist for life in a latent state after the first infection and can reactivate when immunity falls.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Describe the group by its traits; explain one mechanism of harm for each main virus; recognise the enabling conditions that point to each |
+| The group in one sentence | Enveloped DNA viruses that persist for life in a latent state after the first infection and can reactivate when immunity falls. |
+| Main viruses | Herpes simplex virus; varicella-zoster virus; cytomegalovirus |
+| Supporting viruses | Epstein–Barr virus |
+| Later in the course | Dermatology, neurology and transplant medicine |
+| Scenario questions | Most likely virus, with options restricted to the group; feedback names the discriminating clue |

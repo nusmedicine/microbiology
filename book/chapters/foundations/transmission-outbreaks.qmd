@@ -170,7 +170,7 @@ form a **propagated** outbreak.
 ::: {.example}
 At a wedding lunch, about a third of the guests began vomiting within three hours of the meal, a
 single tight cluster from one shared exposure
-([*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd#sec-gpc-case)).
+([*Gram-positive cocci*](../bacteria/gram-positive-cocci.qmd#sec-gpc-case)).
 :::
 
 ### Investigating an outbreak {#sec-trans-investigation}

@@ -1,0 +1,16 @@
+# Yeasts, moulds and dimorphic fungi
+
+> *Fungi that cause human disease fall into a few groups by growth form, and each group has a typical source and a typical host.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Recognise the main fungi of each group from their growth form, source and host |
+| Main organisms | *Candida albicans* (anchor, yeast); *Aspergillus fumigatus* (mould); *Cryptococcus neoformans* (encapsulated yeast) |
+| Supporting organisms | Dermatophytes; *Pneumocystis jirovecii*; *Talaromyces marneffei*, a dimorphic fungus of South-East Asia |
+| Later in the course | Dermatology, respiratory medicine and the care of immunocompromised patients |
+| Scenario questions | Most likely fungus, restricted to the group |

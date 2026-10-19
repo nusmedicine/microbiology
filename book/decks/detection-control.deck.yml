@@ -11,22 +11,6 @@ cards:
     kind: why
     front: "Why can a nucleic acid test be positive after an infection has resolved?"
     back: "It reads sequence, not life. Dead organisms and residual nucleic acid still give a positive result."
-  - id: dc3
-    kind: why
-    front: "Why is culture still worth the wait?"
-    back: "It produces a living isolate for susceptibility testing, identification and strain comparison, and it can grow organisms nobody specifically looked for."
-  - id: dc4
-    kind: apart
-    front: "Selective versus differential medium?"
-    back: "Selective: suppresses unwanted organisms so a target can be isolated. Differential: makes colonies look different according to a metabolic property, such as haemolysis on blood agar."
-  - id: dc5
-    kind: how
-    front: "Define the MIC."
-    back: "The minimum inhibitory concentration: the lowest drug concentration that prevents visible growth. A breakpoint converts it into susceptible or resistant."
-  - id: dc6
-    kind: why
-    front: "Why does a 'susceptible' report not guarantee that a patient will respond?"
-    back: "The test describes the organism in a tube. The drug must also reach the site at an adequate concentration, and host factors and the source of infection matter."
   - id: dc7
     kind: apart
     front: "Sterilisation, disinfection, antisepsis?"

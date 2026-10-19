@@ -1,0 +1,17 @@
+# Viruses spread by the faecal–oral route
+
+> *Mostly non-enveloped viruses that survive on hands and surfaces and in water, and infect the gut or reach the liver from it.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Describe the group by its traits; explain one mechanism of harm for each main virus; recognise the enabling conditions that point to each |
+| The group in one sentence | Mostly non-enveloped viruses that survive on hands and surfaces and in water, and infect the gut or reach the liver from it. |
+| Main viruses | Norovirus; rotavirus; enteroviruses, including those of hand, foot and mouth disease |
+| Supporting viruses | Hepatitis A and E viruses |
+| Later in the course | Gastrointestinal and liver blocks; infection control |
+| Scenario questions | Most likely virus, with options restricted to the group; feedback names the discriminating clue |

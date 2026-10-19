@@ -1,0 +1,17 @@
+# Viruses and the host
+
+> *Viral disease comes from the death of infected cells, from the immune response that removes them, and from viruses that persist for life.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Relate tropism to receptors; place viral damage on the damage-response framework; distinguish acute, latent and chronic viral infection |
+| Tropism and spread in the body | Receptors, entry sites, spread by blood and nerves |
+| Patterns of damage | Cytopathic effect; immune-mediated damage; transformation and cancer; a table of mechanisms with anchor examples |
+| Persistence | Latency and reactivation (herpesviruses), chronic infection (HIV); a spectrum from acute to lifelong |
+| Interferons and immunity | Brief link to the immunology course |
+| Scenario questions | Which host factor or pattern best explains a presentation |

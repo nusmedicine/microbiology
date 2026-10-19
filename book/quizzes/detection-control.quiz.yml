@@ -13,42 +13,6 @@ questions:
       - text: "The test must be faulty"
         correct: false
         feedback: "A true positive for residual nucleic acid is not a fault. It reflects what the method reads."
-  - id: d2
-    stem: "Why does culture remain valuable despite being slower than molecular methods?"
-    options:
-      - text: "It yields a living isolate for susceptibility testing, identification and strain comparison"
-        correct: true
-        feedback: "It can also grow organisms nobody thought to look for, which a targeted molecular test cannot."
-      - text: "It is more sensitive than any molecular method"
-        correct: false
-        feedback: "Molecular methods are generally more sensitive. Culture's advantage is that it produces a living isolate to work with."
-      - text: "It detects antibodies as well as organisms"
-        correct: false
-        feedback: "Antibodies are detected by serology. Culture reads growth, and provides a living isolate."
-  - id: d3
-    stem: "A dilution series shows growth at 0.5 and 1 mg/L, no growth at 2 mg/L, and no growth in every tube above. What is the MIC?"
-    options:
-      - text: "2 mg/L"
-        correct: true
-        feedback: "The MIC is the lowest concentration with no visible growth, above which all tubes are also clear."
-      - text: "1 mg/L"
-        correct: false
-        feedback: "The organism still grew at 1 mg/L. The MIC is the lowest concentration that prevented growth: 2 mg/L."
-      - text: "0.5 mg/L"
-        correct: false
-        feedback: "That is the lowest concentration tested, and growth occurred there. The MIC is 2 mg/L."
-  - id: d4
-    stem: "A susceptibility report says 'susceptible'. What does that tell you?"
-    options:
-      - text: "The organism was inhibited in the laboratory at a concentration below the breakpoint"
-        correct: true
-        feedback: "Whether the patient responds also depends on whether the drug reaches the site at an adequate concentration, on the host and on the source of infection."
-      - text: "The patient will certainly respond to that drug"
-        correct: false
-        feedback: "The test describes the organism in a tube. Reaching the site of infection and host factors also determine the outcome."
-      - text: "The organism has no resistance genes"
-        correct: false
-        feedback: "The test measures inhibition at a given concentration, not the presence of genes."
   - id: d5
     stem: "Why are instruments that enter sterile tissue autoclaved rather than wiped with alcohol?"
     options:
@@ -97,21 +61,6 @@ questions:
       - text: "Soap kills spores on contact"
         correct: false
         feedback: "Soap does not reliably kill spores either. The benefit is mechanical removal by washing and rinsing."
-  - id: d9
-    stem: "Sputum from a man who has coughed for three weeks is spread on agar, incubated in air at 37 °C, and discarded after two days with no growth. A nucleic acid amplification test on the same sample later detects *Mycobacterium tuberculosis*. Which detail best explains the negative culture?"
-    options:
-      - text: "The plates were discarded after two days"
-        correct: true
-        feedback: "*M. tuberculosis* divides about once a day and takes weeks to form a visible colony. The organism was in the sample, as the nucleic acid test shows, but had no time to grow."
-      - text: "The plates were incubated in air"
-        correct: false
-        feedback: "Air prevents the growth of anaerobes. *M. tuberculosis* needs oxygen, so incubation in air suits it; the problem was the time allowed."
-      - text: "The sample was sputum"
-        correct: false
-        feedback: "Sputum is the right sample for an infection of the lung, and the nucleic acid test found the organism in it. The sample was adequate; the incubation was too short."
-      - text: "The cough had lasted three weeks"
-        correct: false
-        feedback: "A long history fits a slow-growing organism, but it does not stop the organism growing on a plate. Growth failed because the plates were discarded before colonies could form."
   - id: d10
     stem: "Two patients on the same ward develop wound infections with *Staphylococcus aureus* in the same week. The infection-control team asks whether the organism passed from one patient to the other. Which method best answers that question?"
     options:
@@ -120,7 +69,7 @@ questions:
         feedback: "The question is whether the two isolates are the same strain. Sequencing reads the whole genome, at a resolution that can show whether they are, which is why it is standard in outbreak investigation."
       - text: "A Gram stain of each wound sample"
         correct: false
-        feedback: "A stain gives a category, not a species or a strain. Both samples would show the same Gram-positive cocci, which says nothing about whether the infections are linked."
+        feedback: "A stain gives a category, not a species or a strain. Both samples would show the same kind of bacteria, which says nothing about whether the infections are linked."
       - text: "MALDI-TOF identification of each isolate"
         correct: false
         feedback: "MALDI-TOF identifies the species, which is already known to be *S. aureus* in both. It does not separate strains within a species."

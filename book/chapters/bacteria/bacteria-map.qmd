@@ -33,7 +33,7 @@
 
 A bacterium is described by five traits: envelope, shape, additional structures, oxygen and growth
 rate (see [*How bacteria are built and get
-energy*](../principles/bacteria-build-energy.qmd#sec-bact-toolkit)). Groups also differ in what they
+energy*](bacteria-build-energy.qmd#sec-bact-toolkit)). Groups also differ in what they
 need in the laboratory: ordinary media, enriched media, weeks of incubation, or living cells. A
 bacterial group can be described in those terms.
 

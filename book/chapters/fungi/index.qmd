@@ -1,0 +1,21 @@
+# The fungal world
+
+> *Fungi are eukaryotes with a rigid wall. Most live in soil or on decaying matter, and those that cause human disease are mainly opportunists that take advantage of weakened defences.*
+
+::: {.concept-tree}
+[Map of this part]{.tree-title}
+
+- [Fungal principles](fungal-principles.qmd): structure, growth forms, and why fungi are harder to treat than bacteria
+- [Yeasts, moulds and dimorphic fungi](fungal-groups.qmd)
+:::
+
+## The six questions, answered for this part {.unnumbered}
+
+| Question | Answer for this kind of microbe |
+|---|---|
+| What is it built from? | A eukaryotic cell with a wall of chitin and glucan and ergosterol in its membrane; single-celled yeasts or branching moulds |
+| How does it get energy, and what does it need to grow? | Its own metabolism, absorbing nutrients from its surroundings; many grow best below body temperature |
+| How does it copy itself and change? | Budding in yeasts, spores in moulds |
+| Where does it live, and how does it spread? | Soil, plants and decaying matter, from which spores are inhaled; some yeasts live on the body |
+| How does damage happen? | Mainly invasion when defences fail; also allergy |
+| What does it have that my cells lack? | Ergosterol and the fungal wall: the main targets of antifungal drugs |

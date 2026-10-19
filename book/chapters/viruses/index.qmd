@@ -1,0 +1,27 @@
+# The viral world
+
+> *A virus is a genome in a protein coat that can copy itself only inside a living cell. Every property of viral infection, from tropism to latency to the targets of antiviral drugs, follows from that dependence.*
+
+::: {.concept-tree}
+[Map of this part]{.tree-title}
+
+- How viruses work
+  - [How viruses are built and copy themselves](virus-structure-replication.qmd)
+  - [How viruses change](virus-change.qmd)
+  - [Viruses and the host](virus-host.qmd)
+  - [Detecting viruses and antiviral targets](detecting-viruses.qmd)
+- The groups
+  - [A map of the viruses](virus-map.qmd)
+  - [Respiratory viruses](respiratory-viruses.qmd), [Viruses spread by the faecal–oral route](enteric-viruses.qmd), [Blood-borne and sexually transmitted viruses](bloodborne-viruses.qmd), [Arthropod-borne viruses](arboviruses.qmd), [Herpesviruses](herpesviruses.qmd)
+:::
+
+## The six questions, answered for this part {.unnumbered}
+
+| Question | Answer for this kind of microbe |
+|---|---|
+| What is it built from? | A DNA or RNA genome in a protein capsid, sometimes inside a lipid envelope taken from a host membrane |
+| How does it get energy, and what does it need to grow? | None of its own; it uses the host cell's ribosomes, energy and building blocks |
+| How does it copy itself and change? | A replication cycle inside the cell; RNA viruses mutate rapidly, and segmented genomes can reassort |
+| Where does it live, and how does it spread? | Only in hosts; spread by respiratory particles, the faecal–oral route, blood and sexual contact, or arthropods |
+| How does damage happen? | Death of infected cells, the immune response to them, persistence and reactivation, and in some cases cancer |
+| What does it have that my cells lack? | Viral enzymes for copying and processing its genome and proteins: the targets of antiviral drugs |

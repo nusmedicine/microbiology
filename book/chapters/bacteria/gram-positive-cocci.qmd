@@ -153,7 +153,7 @@ infection has gone.
 ::: {.example}
 In rheumatic fever the bacteria are gone by the time the heart is damaged, so the damage comes from
 the host's response alone (see [*Microbes and their
-hosts*](../principles/host-microbe.qmd#sec-host-drf)).
+hosts*](../foundations/host-microbe.qmd#sec-host-drf)).
 :::
 
 Three conditions let *S. pyogenes* cause disease:
@@ -228,7 +228,7 @@ three people. **MRSA** (meticillin-resistant *S. aureus*) is *S. aureus* that ha
 an altered version of the protein targeted by a whole family of drugs, so the drugs bind it poorly
 [@lakhundi2018mrsa]. Resistance is a trait that some strains carry, and it spread because drug use
 selected the bacteria that already had it (see [*How bacteria copy themselves and
-change*](../principles/bacterial-genetics.qmd#sec-gen-resistance)).
+change*](bacterial-genetics.qmd#sec-gen-resistance)).
 :::
 
 ### Later in the course {#sec-gpc-later}

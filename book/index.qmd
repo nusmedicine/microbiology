@@ -10,20 +10,28 @@ Microbiology is often taught as a long sequence of organisms, each with its own 
 2026 revision of the microbiology core knowledge objectives for medical schools recommends moving away
 from that approach [@bauler2026objectives]. Instead, we ask the same six questions of every kind of
 microbe, starting with what it is built from and ending with what it has that human cells lack (see
-[*The microbial world*](chapters/principles/microbial-world.qmd#sec-world-questions)). Bacteria,
+[*The microbial world*](chapters/foundations/microbial-world.qmd#sec-world-questions)). Bacteria,
 viruses, fungi and parasites answer them differently, and those answers explain how each group causes
 disease and how it is detected and controlled.
 
 ## Contents and scope
 
-The book has two parts. Part I, *Principles*, covers:
+The book is divided by kind of microbe, after a shared foundation:
 
-- how microbes are built
-- how they obtain energy and change
-- how they cause harm and spread
-- how they are detected and controlled
+::: {.concept-tree}
+[Parts of the book]{.tree-title}
 
-In Part II, *Meeting the microbes*, the six questions are asked of each group of organisms in turn.
+- [Foundations](chapters/foundations/index.qmd): ideas shared by every kind of microbe (scale,
+  hosts, transmission, detection and control)
+- [The bacterial world](chapters/bacteria/index.qmd): how bacteria work, then the bacterial groups
+- [The viral world](chapters/viruses/index.qmd): how viruses work, then the viral groups
+- [The fungal world](chapters/fungi/index.qmd): fungal principles and groups
+- [The parasitic world](chapters/parasites/index.qmd): life cycles, protozoa and helminths
+- [Across the worlds](chapters/across/comparing-worlds.qmd): the six questions compared
+:::
+
+Each world opens with chapters on how that kind of microbe works and then takes its groups in turn,
+asking the six questions of each.
 
 Where each infection occurs in the body, how it is diagnosed and how it is treated are left out,
 because those topics come later in the organ-system blocks, and pharmacology will teach the drugs.
@@ -49,7 +57,8 @@ Answers are saved only in the reader's own browser. Nothing is sent anywhere, an
 
 ::: {.callout-warning}
 ## Draft
-This is a pilot. Part I is complete. In Part II, *A map of the bacteria* and *Gram-positive cocci* are
-written in full; the other chapters show their planned content. All content is awaiting review by
+This is a pilot. The foundation chapters are complete. In the bacterial world, the chapters on
+structure, genetics and detection, *A map of the bacteria* and *Gram-positive cocci* are written in
+full; the other chapters show their planned content. All content is awaiting review by
 teaching staff, and notes for teaching staff are in the appendix.
 :::

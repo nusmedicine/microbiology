@@ -11,7 +11,7 @@
 - Relate each major gap in host defence to the kind of organism it allows to cause disease.
 - Place a pathogen on the range from opportunistic to primary, and name the opportunities an
   opportunist needs.
-- Describe the steps of infection, and distinguish exotoxins from endotoxin.
+- Describe the steps of infection, and define a virulence factor.
 - Use the damage-response framework to judge whether damage comes mainly from the microbe, the host
   response, or both.
 :::
@@ -26,7 +26,6 @@
 - [The microbe](#sec-host-microbe)
   - [Virulence](#sec-host-opportunism): opportunistic and primary pathogens
   - [Steps of infection](#sec-host-steps) and the virulence factors that achieve them
-  - [Toxins](#sec-host-toxins): exotoxins and endotoxin
 - [The outcome](#sec-host-outcome)
   - [Source of the damage](#sec-host-drf): the microbe, the host response, or both
   - [Time course](#sec-host-courses): acute, latent, chronic
@@ -167,7 +166,8 @@ them is a **virulence factor**: a product or structure that helps it infect or d
 :::
 
 Iron is the nutrient most often in short supply, because the host keeps it bound to proteins. Damage,
-the last step, can be done by the microbe directly or by the response it provokes.
+the last step, can be done by the microbe directly, for example by toxins (see [*How bacteria
+cause damage*](../bacteria/bacterial-damage.qmd)), or by the response it provokes.
 
 Attachment explains **tropism**, the range of tissues or cells an organism can occupy. A microbe can
 settle only where it finds the molecule it binds.
@@ -178,17 +178,6 @@ the skin.
 :::
 
 <div data-island="sorter" data-src="/diagrams/pathogenesis-sorter.yml"></div>
-
-### Toxins {#sec-host-toxins}
-
-Two different kinds of molecule are called toxins. **Exotoxins** are proteins that bacteria secrete.
-**Endotoxin** is lipopolysaccharide (LPS), a structural part of the Gram-negative outer membrane
-(see [*How bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-envelope)).
-
-<div data-island="contrast-pair" data-src="/diagrams/pair-exotoxin-endotoxin.yml"></div>
-
-Because exotoxins are proteins, they can be inactivated and used as **toxoid** vaccines. LPS cannot,
-and the inflammation it drives causes much of the shock in severe Gram-negative infection.
 
 ## The outcome {#sec-host-outcome}
 

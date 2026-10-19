@@ -13,11 +13,13 @@ presenting a catalogue of organisms. The evidence behind this is in
 Writing conventions and the copy-audit checklist are in [STYLE.md](STYLE.md).
 
 ## Status: pilot
-- Two parts: **Principles** (`book/chapters/principles/`) and **Meeting the microbes**
-  (`book/chapters/microbes/`), one chapter per organism group, mirroring the MD1140 sessions.
-- **Part I (Principles) is complete:** all six chapters written, each with a quiz, a flashcard deck
-  and interactive work. Part II has *A map of the bacteria* and *Gram-positive cocci* (the depth test
-  case); the remaining group chapters are template-based outlines.
+- Parts by kind of microbe after a shared foundation: **Foundations** (`book/chapters/foundations/`),
+  then **The bacterial world**, **The viral world**, **The fungal world** and **The parasitic world**
+  (`bacteria/`, `viruses/`, `fungi/`, `parasites/`), and **Across the worlds** (`across/`). Each
+  world opens with a part page (`index.qmd`) mapping its chapters and answering the six questions.
+- **Written in full:** the four foundation chapters; in the bacterial world, structure and energy,
+  genetics, detection, *A map of the bacteria* and *Gram-positive cocci* (the depth test case).
+  *How bacteria cause damage* is partly written. Every other chapter is a planned outline.
 - `book/glossary.qmd` (appendix) defines every term the chapters introduce.
 - `book/teaching-notes.qmd` (appendix) maps the current MD1140 bacteriology sessions onto this
   approach, for discussion with teaching staff.

@@ -1,0 +1,91 @@
+# Detecting bacteria and testing susceptibility
+
+> *Most bacteria can be seen with a light microscope and grown on agar, and a grown isolate can be
+> tested against drugs. What a laboratory finds depends on whether its stains and culture conditions
+> suit the bacterium.*
+
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Explain what the Gram stain and the acid-fast stain show, and what a stain cannot show.
+- Match each type of culture medium to its purpose.
+- Explain why a culture can be negative when bacteria are present.
+- Read a minimum inhibitory concentration from a dilution series, and interpret a susceptibility
+  report.
+:::
+
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [Seeing: stains and microscopy](#sec-dbac-microscopy)
+- [Growing: culture](#sec-dbac-culture)
+  - Types of medium
+  - Why a culture can be negative
+- [Testing drug susceptibility](#sec-dbac-mic): the MIC and breakpoints
+:::
+
+## Seeing: stains and microscopy {#sec-dbac-microscopy}
+
+Microscopy is fast, cheap and widely available, and it shows structure. The Gram stain distinguishes
+the two main envelope designs within minutes (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-envelope)), and the acid-fast stain detects the waxy wall
+of mycobacteria, which the Gram stain misses.
+
+A stain gives a category, not a species: purple cocci in chains could be one of several organisms. It
+also needs a large number of organisms in the sample, so a negative smear does not exclude infection.
+Organisms with no wall, or too thin to resolve, give nothing useful.
+
+## Growing: culture {#sec-dbac-culture}
+
+Culture depends on growth, and its main advantage over every other method is that it yields a living
+isolate, which can then be identified, tested against drugs, and compared with isolates from other
+patients during an outbreak investigation. Media are chosen for what they allow to grow or what they
+reveal.
+
+| Type of medium | What it does | Example of use |
+|---|---|---|
+| Non-selective | Supports a wide range of organisms | A general plate for a sample from a normally sterile site |
+| Enriched | Adds nutrients for **fastidious** organisms, which cannot make them | **Chocolate agar**, made with heated blood, which supplies factors released from lysed red cells |
+| Selective | Contains agents that suppress unwanted organisms | Isolating one pathogen from a sample full of resident microbiota |
+| Differential | Makes colonies look different according to a metabolic property | Blood agar, on which haemolysis distinguishes streptococci |
+
+Culture conditions decide what a laboratory can find. In each of the following situations, a
+negative culture does not mean that the sample contained nothing:
+
+- An anaerobe will not grow on a plate kept in air, as in the laboratory case in [*How bacteria are
+  built and get energy*](bacteria-build-energy.qmd#sec-bact-case).
+- A slow-growing organism is missed if plates are discarded too early: *Mycobacterium tuberculosis*
+  takes weeks to form a visible colony.
+- An **obligate intracellular** organism, one that can grow only inside living host cells, will not
+  grow on agar at all. The bacterium *Chlamydia* is one (see [*A map of the
+  bacteria*](bacteria-map.qmd#sec-map-atypicals)).
+
+Culture is also slow. Many bacteria need overnight incubation and some need weeks, which is the main
+reason molecular methods have become central (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-molecular)).
+
+## Testing drug susceptibility {#sec-dbac-mic}
+
+Once an organism has been grown, its susceptibility to drugs can be measured. The standard quantity is
+the **minimum inhibitory concentration (MIC)**, the lowest concentration of a drug that prevents
+visible growth.
+
+<div data-island="mic-reader" data-src="/diagrams/mic-reader.yml"></div>
+
+The laboratory converts the MIC into a category (susceptible, susceptible at increased exposure, or
+resistant) using a **breakpoint**, the concentration agreed to separate infections likely to respond to
+treatment from those that are not. Breakpoints are set by the European Committee on Antimicrobial
+Susceptibility Testing (EUCAST) and the Clinical and Laboratory Standards Institute (CLSI), and are
+revised as evidence accumulates, so they are looked up rather than memorised.
+
+A report of "susceptible" describes the organism in a tube, not the patient: the drug still has to
+reach the site of infection at an adequate concentration. Samples for culture should also be taken
+before treatment starts, because even one dose of an antimicrobial can stop the organism growing in
+the laboratory.
+
+## Check your understanding {#sec-dbac-quiz}
+
+<div data-island="quiz" data-src="/quizzes/detecting-bacteria.quiz.yml"></div>
+
+## Review with flashcards {#sec-dbac-cards}
+
+<div data-island="flashcards" data-src="/decks/detecting-bacteria.deck.yml"></div>

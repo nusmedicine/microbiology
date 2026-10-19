@@ -5,7 +5,7 @@ Run the automatic part with:
 
 ```sh
 node scripts/copy-audit.mjs            # all chapters and island data
-node scripts/copy-audit.mjs book/chapters/principles/host-microbe.qmd
+node scripts/copy-audit.mjs book/chapters/foundations/host-microbe.qmd
 ```
 
 The checker flags patterns; it does not decide. A flag is a prompt to reread the sentence, and
@@ -67,7 +67,8 @@ Students in this course tend to memorise every named disease in case it is exami
 they cannot yet place pulls attention from the principle (the seductive-details effect). Examples
 therefore follow four rules.
 
-- **Anchor organisms.** Part I draws its examples from one small cast, reused in every chapter so
+- **Anchor organisms.** The foundation chapters and the opening chapters of each world draw their
+  examples from one small cast, reused in every chapter so
   that each new principle attaches to an organism already met: *Staphylococcus aureus*,
   *Streptococcus pyogenes*, *Escherichia coli*, *Bacteroides fragilis*, *Mycobacterium
   tuberculosis*, *Burkholderia pseudomallei*, influenza virus, HIV, *Candida albicans*, *Plasmodium
@@ -149,15 +150,17 @@ noting*.
   pace of the course. A sentence that introduces a table, list or island states its content ("Three
   routes move genes between bacteria:"), not its purpose ("The table answers…"). One short
   instruction before an island is allowed.
-- **Reading order.** Part I chapters must not assume anything first taught in Part II. When a Part I
-  chapter mentions a Part II example, phrase it as a forward reference and link to it.
+- **Reading order.** Foundation chapters must not assume anything first taught in a later part, and a
+  world's opening chapters must not assume its group chapters. A forward mention is phrased as a
+  forward reference and linked.
 - **Cross-references** use the exact chapter title in italics as a link, with a section anchor where
   useful: `[*Microbes and their hosts*](host-microbe.qmd#sec-host-drf)`. The link sits in parentheses
-  or in a sentence whose subject is *we* or the topic, never the chapter itself (§1). From `principles/` to
-  `microbes/` the path is `../microbes/…`. Island data cannot hold links, so it uses the italic title
+  or in a sentence whose subject is *we* or the topic, never the chapter itself (§1). Chapters sit in part
+  folders (`foundations/`, `bacteria/`, `viruses/`, `fungi/`, `parasites/`, `across/`); between
+  folders the path is `../bacteria/…`. Island data cannot hold links, so it uses the italic title
   alone.
 - **Section IDs** are prefixed by chapter (`sec-world-`, `sec-bact-`, `sec-gen-`, `sec-host-`,
-  `sec-trans-`, `sec-det-`, `sec-map-`, `sec-gpc-`), so links stay unique across the book.
+  `sec-trans-`, `sec-det-`, `sec-dbac-`, `sec-bdam-`, `sec-map-`, `sec-gpc-`), so links stay unique across the book.
 - **Learning objectives.** After the opener, a simple note callout headed *Learning objectives*
   lists four to six things a student should be able to do, as verb phrases ("Distinguish…",
   "Explain…"). They are the chapter's answer to "what do I need to know?".

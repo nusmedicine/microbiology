@@ -1,0 +1,16 @@
+# Protozoa
+
+> *Single-celled eukaryotes that multiply inside the human host, so a small inoculum can produce a large infection.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Describe the main protozoa by site, life cycle and route of infection |
+| Main organisms | *Plasmodium falciparum* (anchor); *Entamoeba histolytica*; *Giardia duodenalis* |
+| Supporting organisms | *Toxoplasma gondii*; *Cryptosporidium*; *Trichomonas vaginalis* |
+| Later in the course | Infectious disease, gastrointestinal and sexual health blocks; travel medicine |
+| Scenario questions | Most likely protozoan, restricted to the group |

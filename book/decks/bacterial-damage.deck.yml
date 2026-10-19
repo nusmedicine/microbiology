@@ -1,0 +1,9 @@
+id: bacterial-damage
+title: "Flashcards: how bacteria cause damage"
+intro: "Each card asks for a mechanism or a distinction. Say the answer before checking it."
+
+cards:
+  - id: hm9
+    kind: apart
+    front: "Exotoxin versus endotoxin: three differences."
+    back: "Protein versus lipopolysaccharide; secreted versus structural (Gram-negative outer membrane); specific action versus non-specific inflammation. Only exotoxins make toxoid vaccines."

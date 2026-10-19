@@ -1,0 +1,16 @@
+# How viruses change
+
+> *Viruses change faster than any other microbe. Error-prone copying, reshuffling of genome segments and recombination produce new variants within months.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Explain why RNA viruses mutate fast; distinguish antigenic drift from antigenic shift; relate change to vaccine updates and drug resistance |
+| Mutation | Error-prone RNA polymerases; quasispecies; selection by immunity and drugs |
+| Reassortment and recombination | Segmented genomes (influenza) and pandemics; diagram as a contrast of drift and shift |
+| Consequences | Annual influenza vaccine updates; HIV drug resistance and combination therapy |
+| Scenario questions | Which mechanism explains a new strain in a described outbreak |

@@ -1,0 +1,16 @@
+# Life cycles and vectors
+
+> *A parasite's life cycle sets where it is caught, which stage causes disease, which stage is found in the laboratory, and where control can break the cycle.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Read a life cycle diagram; identify definitive and intermediate hosts and vectors; relate the cycle to diagnosis and control |
+| Hosts and vectors | Definitive host, intermediate host, vector; a tree of how parasites reach humans |
+| Reading a life cycle | *Plasmodium falciparum* (anchor) as the worked example, drawn as a flow |
+| Control | Breaking the cycle: vectors, sanitation, treatment of the human reservoir |
+| Scenario questions | Which stage or exposure explains a described infection |

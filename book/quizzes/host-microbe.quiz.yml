@@ -34,21 +34,9 @@ questions:
       - text: "Bacteria multiplying throughout the bloodstream"
         correct: false
         feedback: "The bacteria can be few and local. The toxin provokes a massive T-cell response, and that response does the damage."
-      - text: "Lipopolysaccharide in the Gram-positive cell wall"
+      - text: "Bacteria directly destroying the cells of the heart and kidneys"
         correct: false
-        feedback: "Gram-positive bacteria have no LPS. The driver here is a protein superantigen acting through the host's T cells."
-  - id: h4
-    stem: "Which statement about exotoxins and endotoxin is correct?"
-    options:
-      - text: "Exotoxins are proteins and can be made into toxoid vaccines; endotoxin is lipopolysaccharide and cannot"
-        correct: true
-        feedback: "Inactivated protein toxins make toxoid vaccines. Lipid A is a lipid that provokes inflammation but is a poor target for protective antibodies."
-      - text: "Both are proteins released by living bacteria"
-        correct: false
-        feedback: "Endotoxin is lipopolysaccharide, a structural part of the Gram-negative outer membrane, not a secreted protein."
-      - text: "Endotoxin acts on one specific target, exotoxins act broadly"
-        correct: false
-        feedback: "It is the other way round. Exotoxins act specifically; endotoxin acts non-specifically by triggering inflammation."
+        feedback: "The damage is widespread and fast, and it follows from cytokines released by activated T cells, not from bacteria destroying cells where they grow."
   - id: h5
     stem: "Why does influenza virus infect airway cells rather than skin?"
     options:

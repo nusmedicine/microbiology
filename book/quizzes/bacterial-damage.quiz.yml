@@ -1,0 +1,15 @@
+id: bacterial-damage
+title: "Check your understanding: how bacteria cause damage"
+questions:
+  - id: h4
+    stem: "Which statement about exotoxins and endotoxin is correct?"
+    options:
+      - text: "Exotoxins are proteins and can be made into toxoid vaccines; endotoxin is lipopolysaccharide and cannot"
+        correct: true
+        feedback: "Inactivated protein toxins make toxoid vaccines. Lipid A is a lipid that provokes inflammation but is a poor target for protective antibodies."
+      - text: "Both are proteins released by living bacteria"
+        correct: false
+        feedback: "Endotoxin is lipopolysaccharide, a structural part of the Gram-negative outer membrane, not a secreted protein."
+      - text: "Endotoxin acts on one specific target, exotoxins act broadly"
+        correct: false
+        feedback: "It is the other way round. Exotoxins act specifically; endotoxin acts non-specifically by triggering inflammation."

@@ -1,0 +1,22 @@
+# The parasitic world
+
+> *Parasites are eukaryotes that live on or in a host at its expense: single-celled protozoa and multicellular helminths. Their life cycles, often passing through a vector or another host, explain where they are caught and how they are controlled.*
+
+::: {.concept-tree}
+[Map of this part]{.tree-title}
+
+- [Life cycles and vectors](life-cycles.qmd)
+- [Protozoa](protozoa.qmd)
+- [Helminths](helminths.qmd)
+:::
+
+## The six questions, answered for this part {.unnumbered}
+
+| Question | Answer for this kind of microbe |
+|---|---|
+| What is it built from? | Protozoa: single eukaryotic cells. Helminths: multicellular worms with tissues and organs |
+| How does it get energy, and what does it need to grow? | They feed on host nutrients, cells or tissue |
+| How does it copy itself and change? | Complex life cycles, often with a vector or an intermediate host; most helminths do not multiply inside the human host |
+| Where does it live, and how does it spread? | Food, water and soil contaminated with faeces; insect vectors; penetration of the skin |
+| How does damage happen? | Destruction of host cells, obstruction and loss of nutrients, and the immune response to the parasite |
+| What does it have that my cells lack? | Parasite-specific enzymes and pathways, and worm nerve and muscle channels |

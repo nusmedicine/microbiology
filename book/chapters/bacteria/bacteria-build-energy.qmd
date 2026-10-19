@@ -42,7 +42,7 @@ Try two questions before reading on.
 <div data-island="quiz" data-src="/quizzes/bacteria-warmup.quiz.yml"></div>
 
 A bacterium is a prokaryote, and a typical bacterium is about the size of one human mitochondrion
-(see the size ladder in [*The microbial world*](microbial-world.qmd#sec-world-scale)). It differs
+(see the size ladder in [*The microbial world*](../foundations/microbial-world.qmd#sec-world-scale)). It differs
 from a human cell in its nucleus, mitochondria, ribosomes, wall and extra DNA. Each difference is a
 possible basis for **selective toxicity**: harming the microbe without harming the host, the
 principle behind most antimicrobial drugs.
@@ -132,7 +132,7 @@ consequence for the host.
 
 | Structure | What it is | What it does for the bacterium | Why it matters to the host |
 |---|---|---|---|
-| Capsule | A slimy outer layer, usually polysaccharide | Hides the cell surface; resists drying | Phagocytes find it hard to engulf ([*Microbes and their hosts*](host-microbe.qmd#sec-host-steps)) |
+| Capsule | A slimy outer layer, usually polysaccharide | Hides the cell surface; resists drying | Phagocytes find it hard to engulf ([*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-steps)) |
 | Pili (fimbriae) | Short, hair-like protein fibres | Attach the cell to surfaces, including host cells | Attachment is often the first step of colonisation |
 | Flagella | Long, rotating protein filaments | Swimming towards nutrients | Let bacteria move into new sites |
 | Biofilm | A community of cells in a shared slime matrix | Shelter from drying, predators and chemicals | Forms on teeth and on medical devices such as catheters |
@@ -147,7 +147,7 @@ back into a growing cell.
 ## Predict: will boiling or an alcohol hand rub kill spores? (Click to check)
 Mostly not. Many spores survive boiling at 100 °C, and alcohol hand rubs do not kill them
 [@setlow2014spores]. Reliable killing needs pressurised steam at 121 °C, as in an autoclave (see
-[*Detecting and controlling microbes*](detection-control.qmd#sec-det-control) for instruments and
+[*Detecting and controlling microbes*](../foundations/detection-control.qmd#sec-det-control) for instruments and
 hand hygiene).
 :::
 
@@ -194,7 +194,7 @@ harmed by air, form a fifth group alongside the four that the two questions prod
 |---|---|---|---|
 | Obligate aerobe | Yes, and has no alternative | No | *M. tuberculosis* |
 | Facultative anaerobe | Yes, when oxygen is present; ferments otherwise | No | *E. coli*, *S. aureus* |
-| Microaerophile | Yes, but only at low oxygen levels | Yes, at atmospheric levels | *Helicobacter pylori*, a stomach bacterium ([*The microbial world*](microbial-world.qmd#sec-world-case)) |
+| Microaerophile | Yes, but only at low oxygen levels | Yes, at atmospheric levels | *Helicobacter pylori*, a stomach bacterium ([*The microbial world*](../foundations/microbial-world.qmd#sec-world-case)) |
 | Aerotolerant anaerobe | No; ferments only | No; its enzymes are not inactivated by oxygen | *Streptococcus pyogenes* |
 | Obligate anaerobe | No | Yes | *B. fragilis* |
 

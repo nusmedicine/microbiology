@@ -171,7 +171,8 @@ the disease back [@falkow1988molecular].
 
 ### The anchor organisms {#sec-world-anchors}
 
-The examples in Part I come from eleven anchor organisms, which recur in every chapter:
+The examples in the foundation chapters, and in the opening chapters of each world, come from eleven
+anchor organisms:
 
 | Organism | Kind of agent | What it is |
 |---|---|---|

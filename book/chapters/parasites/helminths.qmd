@@ -1,0 +1,16 @@
+# Helminths
+
+> *Multicellular worms that, with few exceptions, do not multiply inside the human host, so the burden of worms, and the disease, depends on the amount of exposure.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Distinguish roundworms, tapeworms and flukes; relate worm burden to exposure; describe the immune response to helminths |
+| Main organisms | *Ascaris lumbricoides* (anchor); hookworms; *Strongyloides stercoralis*, an exception that can multiply in the host |
+| Supporting organisms | Tapeworms (*Taenia*); schistosomes; *Toxocara* |
+| Later in the course | Gastrointestinal block, public health and travel medicine |
+| Scenario questions | Which exposure best explains a described infection |

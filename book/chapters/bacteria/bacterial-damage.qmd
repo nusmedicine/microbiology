@@ -1,0 +1,52 @@
+# How bacteria cause damage
+
+> *Bacteria damage the host by destroying cells, by releasing toxins, and by provoking a response that
+> harms the host's own tissue. The bacterial cell supplies the tools for each.*
+
+::: {.callout-note}
+## Draft
+The toxin section below is moved from *Microbes and their hosts*. The rest of the chapter is planned
+in the table at the end.
+:::
+
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Distinguish exotoxins from endotoxin by structure, release, action and use in vaccines.
+- Relate capsules, adhesins and intracellular survival to the steps of infection.
+- Place bacterial mechanisms of damage on the damage-response framework.
+:::
+
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [Toxins](#sec-bdam-toxins): exotoxins and endotoxin
+- [Other tools of damage](#sec-bdam-plan): in preparation
+:::
+
+## Toxins {#sec-bdam-toxins}
+
+Two different kinds of molecule are called toxins. **Exotoxins** are proteins that bacteria secrete.
+**Endotoxin** is lipopolysaccharide (LPS), a structural part of the Gram-negative outer membrane
+(see [*How bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-envelope)).
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-exotoxin-endotoxin.yml"></div>
+
+Because exotoxins are proteins, they can be inactivated and used as **toxoid** vaccines. LPS cannot,
+and the inflammation it drives causes much of the shock in severe Gram-negative infection.
+
+## Other tools of damage {#sec-bdam-plan}
+
+| Part of the chapter | Plan |
+|---|---|
+| Attachment and invasion | Adhesins and pili; invasion of epithelium; tropism, building on the steps of infection in [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-steps) |
+| Evading defences | The capsule and phagocytosis; surviving inside phagocytes, with *M. tuberculosis* as the anchor |
+| Damage through the host | Superantigens and molecular mimicry, linking to the damage-response framework |
+| Scenario questions | Which mechanism best explains a pattern of damage, with options restricted to the anchor organisms |
+
+## Check your understanding {#sec-bdam-quiz}
+
+<div data-island="quiz" data-src="/quizzes/bacterial-damage.quiz.yml"></div>
+
+## Review with flashcards {#sec-bdam-cards}
+
+<div data-island="flashcards" data-src="/decks/bacterial-damage.deck.yml"></div>

@@ -1,0 +1,17 @@
+# Fungal principles
+
+> *Fungi are eukaryotes, so they share most of their machinery with human cells. That explains both why most fungi cause disease only in weakened hosts and why antifungal drugs are fewer and more toxic than antibacterial drugs.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Distinguish yeasts, moulds and dimorphic fungi; relate fungal disease to host defence; name the fungal structures that drugs target |
+| Structure and growth forms | A tree of growth forms: yeasts, moulds (hyphae), dimorphic fungi that switch with temperature |
+| Fungi and the host | A spectrum from superficial to invasive infection, matched to the host defence that must fail |
+| Detection | Microscopy, culture, antigen tests and why fungal diagnosis is slow |
+| Targets for drugs | Ergosterol and its synthesis; the wall |
+| Scenario questions | Which host factor best explains an invasive fungal infection |

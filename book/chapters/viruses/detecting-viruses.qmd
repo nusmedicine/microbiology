@@ -1,0 +1,15 @@
+# Detecting viruses and antiviral targets
+
+> *Viruses are too small for the light microscope and grow only in living cells, so they are usually detected by their nucleic acid, their proteins or the antibodies they provoke.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Choose between nucleic acid tests, antigen tests and serology for a question about a viral infection; name the steps of the replication cycle that drugs block |
+| Detection | NAATs, antigen tests, serology (IgM and paired sera), with what each result means; cell culture in reference laboratories |
+| Antiviral targets | A flow of the replication cycle marked with the steps drugs act on; why there are fewer antiviral than antibacterial drugs |
+| Scenario questions | Which test best answers a described clinical question |

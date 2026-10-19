@@ -1,0 +1,16 @@
+# A map of the viruses
+
+> *Viruses are classified by genome and structure, but they are encountered by how they spread. A map that shows both connects the biology to the patient.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Describe a virus by genome type, envelope and route of spread; name the group chapter for a described virus |
+| The map | An interactive table of virus groups by genome, envelope, route of spread and persistence, like *A map of the bacteria* |
+| Why the groups are named as they are | Family names (herpesviruses) and route names (arboviruses) side by side |
+| How the group chapters work | The same layout as the bacterial group chapters: the group in one sentence, sorting key, main viruses with profiles and a who, where, how table, contrast pairs, supporting viruses, later in the course |
+| Scenario questions | Given a few traits, name the group |

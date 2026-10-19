@@ -16,28 +16,51 @@ book:
   search: true
   chapters:
     - index.qmd
-    - part: "I · Principles"
+    - part: chapters/foundations/index.qmd
       chapters:
-        - chapters/principles/microbial-world.qmd
-        - chapters/principles/bacteria-build-energy.qmd
-        - chapters/principles/bacterial-genetics.qmd
-        - chapters/principles/host-microbe.qmd
-        - chapters/principles/transmission-outbreaks.qmd
-        - chapters/principles/detection-control.qmd
-    - part: "II · Meeting the microbes"
+        - chapters/foundations/microbial-world.qmd
+        - chapters/foundations/host-microbe.qmd
+        - chapters/foundations/transmission-outbreaks.qmd
+        - chapters/foundations/detection-control.qmd
+    - part: chapters/bacteria/index.qmd
       chapters:
-        - chapters/microbes/bacteria-map.qmd
-        - chapters/microbes/gram-positive-cocci.qmd
-        - chapters/microbes/gram-positive-rods.qmd
-        - chapters/microbes/enterobacterales.qmd
-        - chapters/microbes/environmental-gram-negatives.qmd
-        - chapters/microbes/fastidious-gram-negatives.qmd
-        - chapters/microbes/anaerobes.qmd
-        - chapters/microbes/spiral-bacteria.qmd
-        - chapters/microbes/atypicals-mycobacteria.qmd
-        - chapters/microbes/viruses.qmd
-        - chapters/microbes/fungi.qmd
-        - chapters/microbes/parasites.qmd
+        - chapters/bacteria/bacteria-build-energy.qmd
+        - chapters/bacteria/bacterial-genetics.qmd
+        - chapters/bacteria/bacterial-damage.qmd
+        - chapters/bacteria/detecting-bacteria.qmd
+        - chapters/bacteria/bacteria-map.qmd
+        - chapters/bacteria/gram-positive-cocci.qmd
+        - chapters/bacteria/gram-positive-rods.qmd
+        - chapters/bacteria/enterobacterales.qmd
+        - chapters/bacteria/environmental-gram-negatives.qmd
+        - chapters/bacteria/fastidious-gram-negatives.qmd
+        - chapters/bacteria/anaerobes.qmd
+        - chapters/bacteria/spiral-bacteria.qmd
+        - chapters/bacteria/atypicals-mycobacteria.qmd
+    - part: chapters/viruses/index.qmd
+      chapters:
+        - chapters/viruses/virus-structure-replication.qmd
+        - chapters/viruses/virus-change.qmd
+        - chapters/viruses/virus-host.qmd
+        - chapters/viruses/detecting-viruses.qmd
+        - chapters/viruses/virus-map.qmd
+        - chapters/viruses/respiratory-viruses.qmd
+        - chapters/viruses/enteric-viruses.qmd
+        - chapters/viruses/bloodborne-viruses.qmd
+        - chapters/viruses/arboviruses.qmd
+        - chapters/viruses/herpesviruses.qmd
+    - part: chapters/fungi/index.qmd
+      chapters:
+        - chapters/fungi/fungal-principles.qmd
+        - chapters/fungi/fungal-groups.qmd
+    - part: chapters/parasites/index.qmd
+      chapters:
+        - chapters/parasites/life-cycles.qmd
+        - chapters/parasites/protozoa.qmd
+        - chapters/parasites/helminths.qmd
+    - part: "Across the worlds"
+      chapters:
+        - chapters/across/comparing-worlds.qmd
   appendices:
     - glossary.qmd
     - teaching-notes.qmd

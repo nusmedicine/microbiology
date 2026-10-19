@@ -189,7 +189,7 @@ origin, resistance works in one of four ways.
 ::: {.example}
 Meticillin-resistant *Staphylococcus aureus* (MRSA) has acquired a gene for an altered version of the
 protein that meticillin and related drugs act on, so the drugs bind it poorly [@lakhundi2018mrsa]
-([*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd#sec-gpc-supporting)).
+([*Gram-positive cocci*](gram-positive-cocci.qmd#sec-gpc-supporting)).
 :::
 
 ### Selection and stewardship {#sec-gen-stewardship}

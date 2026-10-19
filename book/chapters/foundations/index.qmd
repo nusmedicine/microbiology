@@ -1,0 +1,12 @@
+# Foundations
+
+> *Some ideas hold for every kind of microbe: how small and how varied microbes are, how they live with their hosts, how they spread, and how they are detected and controlled.*
+
+::: {.concept-tree}
+[Map of this part]{.tree-title}
+
+- [The microbial world](microbial-world.qmd): scale, kinds of agent, the anchor organisms and the six questions
+- [Microbes and their hosts](host-microbe.qmd): colonisation and disease, host factors, virulence, the source of damage
+- [Transmission, outbreaks and One Health](transmission-outbreaks.qmd): the chain of infection, spread in populations, outbreaks
+- [Detecting and controlling microbes](detection-control.qmd): kinds of laboratory method, sterilisation, vaccines
+:::

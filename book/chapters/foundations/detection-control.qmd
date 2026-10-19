@@ -1,17 +1,16 @@
 # Detecting and controlling microbes
 
-> *Two practical problems run through clinical microbiology: finding out in the laboratory which
-> microbe is present, and removing unwanted microbes from instruments, surfaces and hands.*
+> *Two practical problems run through clinical microbiology: finding out which microbe is present,
+> and removing unwanted microbes from instruments, surfaces and hands. The principles are shared by
+> every kind of microbe; the methods that suit each kind are described in its own part of the book.*
 
 ::: {.callout-note appearance="simple"}
 ## Learning objectives
 - Relate each kind of laboratory method to the property it reads, and to what its result can and
   cannot show.
-- Explain why a culture can be negative when an organism is present.
-- Read a minimum inhibitory concentration from a dilution series, and interpret a susceptibility
-  report.
-- Distinguish sterilisation, disinfection and antisepsis, and rank organisms by how hard they are to
-  kill.
+- Explain the strengths and limits of nucleic acid amplification tests and of serology.
+- Distinguish sterilisation, disinfection and antisepsis, and rank infectious agents by how hard they
+  are to kill.
 - Describe the kinds of vaccine, and explain why polysaccharide vaccines are conjugated to a protein.
 :::
 
@@ -19,18 +18,19 @@
 [Chapter map]{.tree-title}
 
 - [Finding the microbe](#sec-det-reads)
-  - [Seeing](#sec-det-microscopy): stains and microscopy
-  - [Growing](#sec-det-culture): culture
+  - [Four kinds of method](#sec-det-kinds): seeing, growing, detecting molecules, detecting the
+    host's response
   - [Detecting molecules](#sec-det-molecular): nucleic acid and protein methods
   - [Detecting the host's response](#sec-det-serology): serology
-- [Testing drug susceptibility](#sec-det-mic): the MIC and breakpoints
 - [Controlling microbes](#sec-det-control)
   - [Sterilisation, disinfection and antisepsis](#sec-det-terms)
   - [What survives](#sec-det-resistance): resistance to killing
-- [Preventing infection](#sec-det-prevent): vaccines and stewardship
+- [Preventing infection](#sec-det-prevent): vaccines
 :::
 
 ## Finding the microbe {#sec-det-reads}
+
+### Four kinds of method {#sec-det-kinds}
 
 Each laboratory method detects one property of the organism, or of the host's response to it, and
 that property sets what a result can and cannot show.
@@ -50,44 +50,11 @@ Sort each method below by what it reads.
 
 <div data-island="sorter" data-src="/diagrams/method-sorter.yml"></div>
 
-### Seeing: stains and microscopy {#sec-det-microscopy}
-
-Microscopy is fast, cheap and widely available, and it shows structure. The Gram stain distinguishes
-the two main envelope designs within minutes (see [*How bacteria are built and get
-energy*](bacteria-build-energy.qmd#sec-bact-envelope)), and the acid-fast stain detects the waxy wall
-of mycobacteria, which the Gram stain misses.
-
-A stain gives a category, not a species: purple cocci in chains could be one of several organisms. It
-also needs a large number of organisms in the sample, so a negative smear does not exclude infection.
-Organisms with no wall, or too thin to resolve, give nothing useful.
-
-### Growing: culture {#sec-det-culture}
-
-Culture depends on growth, and its main advantage over every other method is that it yields a living
-isolate, which can then be identified, tested against drugs, and compared with isolates from other
-patients during an outbreak investigation. Media are chosen for what they allow to grow or what they
-reveal.
-
-| Type of medium | What it does | Example of use |
-|---|---|---|
-| Non-selective | Supports a wide range of organisms | A general plate for a sample from a normally sterile site |
-| Enriched | Adds nutrients for **fastidious** organisms, which cannot make them | **Chocolate agar**, made with heated blood, which supplies factors released from lysed red cells |
-| Selective | Contains agents that suppress unwanted organisms | Isolating one pathogen from a sample full of resident microbiota |
-| Differential | Makes colonies look different according to a metabolic property | Blood agar, on which haemolysis distinguishes streptococci |
-
-Culture conditions decide what a laboratory can find. In each of the following situations, a
-negative culture does not mean that the sample contained nothing:
-
-- An anaerobe will not grow on a plate kept in air, as in the laboratory case in [*How bacteria are
-  built and get energy*](bacteria-build-energy.qmd#sec-bact-case).
-- A slow-growing organism is missed if plates are discarded too early: *Mycobacterium tuberculosis*
-  takes weeks to form a visible colony.
-- An **obligate intracellular** organism, one that can grow only inside living host cells, will not
-  grow on agar at all. The bacterium *Chlamydia* is one (see [*A map of the
-  bacteria*](../microbes/bacteria-map.qmd#sec-map-atypicals)).
-
-Culture is also slow. Many bacteria need overnight incubation and some need weeks, which is the main
-reason molecular methods have become central.
+Microscopy and culture depend on the organism's structure and growth, so they differ most between
+kinds of microbe: bacteria are stained and grown on agar (see [*Detecting bacteria and testing
+susceptibility*](../bacteria/detecting-bacteria.qmd)), whereas viruses are too small to see with a
+light microscope and grow only in living cells. Molecular methods and serology work in the same way
+for every kind of agent.
 
 ### Detecting molecules {#sec-det-molecular}
 
@@ -105,9 +72,9 @@ they detect:
 
 Matrix-assisted laser desorption/ionisation time-of-flight (**MALDI-TOF**) mass spectrometry identifies
 a colony from its protein profile, matched against a database, within minutes once the organism has
-grown. It has largely replaced long series of biochemical tests. **Whole-genome sequencing** determines
-the entire genome, at a resolution that can show whether isolates from two patients belong to the same
-strain, and it is now standard in outbreak investigation.
+grown. **Whole-genome sequencing** determines the entire genome, at a resolution that can show whether
+isolates from two patients belong to the same strain, and it is now standard in outbreak
+investigation.
 
 ### Detecting the host's response: serology {#sec-det-serology}
 
@@ -120,31 +87,14 @@ The usual pitfall follows directly: a single positive IgG result may reflect an 
 vaccination. Serology is most useful for organisms that are hard to culture, for infections diagnosed
 after the organism has gone, and for assessing immunity.
 
-## Testing drug susceptibility {#sec-det-mic}
-
-Once an organism has been grown, its susceptibility to drugs can be measured. The standard quantity is
-the **minimum inhibitory concentration (MIC)**, the lowest concentration of a drug that prevents
-visible growth.
-
-<div data-island="mic-reader" data-src="/diagrams/mic-reader.yml"></div>
-
-The laboratory converts the MIC into a category (susceptible, susceptible at increased exposure, or
-resistant) using a **breakpoint**, the concentration agreed to separate infections likely to respond to
-treatment from those that are not. Breakpoints are set by the European Committee on Antimicrobial
-Susceptibility Testing (EUCAST) and the Clinical and Laboratory Standards Institute (CLSI), and are
-revised as evidence accumulates, so they are looked up rather than memorised.
-
-A report of "susceptible" describes the organism in a tube, not the patient: the drug still has to
-reach the site of infection at an adequate concentration. Samples for culture should also be taken
-before treatment starts, because even one dose of an antimicrobial can stop the organism growing in
-the laboratory.
-
 ## Controlling microbes {#sec-det-control}
 
 ### Sterilisation, disinfection and antisepsis {#sec-det-terms}
 
-**Sterilisation**, **disinfection** and **antisepsis** differ in how much they remove and in what they
-are applied to.
+**Sterilisation**, **disinfection** and **antisepsis** differ in what they are applied to and in how
+much they remove, in particular whether they kill bacterial spores, the dormant, highly resistant
+forms that some bacteria make (see [*How bacteria are built and get
+energy*](../bacteria/bacteria-build-energy.qmd#sec-bact-extras)).
 
 | Process | What it removes | Applied to | Example |
 |---|---|---|---|
@@ -204,14 +154,10 @@ Health*](transmission-outbreaks.qmd#sec-trans-chain)).
 :::
 
 Capsular polysaccharides alone produce a poor response in young children, so they are linked to a
-protein in a **conjugate vaccine**, which greatly improved protection against encapsulated bacteria.
-Vaccines that reduce carriage or transmission also protect unvaccinated people, the herd immunity
-effect. A vaccine against an infection acquired only from the environment, and never from another
-person, protects only the person who receives it.
-
-Antimicrobial stewardship (see [*How bacteria copy themselves and
-change*](bacterial-genetics.qmd#sec-gen-resistance)) limits selection for resistance by keeping
-antimicrobial use to what is needed.
+protein in a **conjugate vaccine**, which greatly improved protection against bacteria with a
+polysaccharide capsule. Vaccines that reduce carriage or transmission also protect unvaccinated people,
+the herd immunity effect. A vaccine against an infection acquired only from the environment, and never
+from another person, protects only the person who receives it.
 
 ## Check your understanding {#sec-det-quiz}
 

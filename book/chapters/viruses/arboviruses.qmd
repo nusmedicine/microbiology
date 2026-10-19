@@ -1,0 +1,17 @@
+# Arthropod-borne viruses
+
+> *Viruses carried between hosts by mosquitoes or ticks, so their distribution follows the vector, which matters in Singapore.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Describe the group by its traits; explain one mechanism of harm for each main virus; recognise the enabling conditions that point to each |
+| The group in one sentence | Viruses carried between hosts by mosquitoes or ticks, so their distribution follows the vector, which matters in Singapore. |
+| Main viruses | Dengue virus; Zika virus; chikungunya virus |
+| Supporting viruses | Japanese encephalitis virus |
+| Later in the course | Infectious disease and public health; vector control in Singapore |
+| Scenario questions | Most likely virus, with options restricted to the group; feedback names the discriminating clue |

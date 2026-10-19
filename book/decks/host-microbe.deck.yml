@@ -35,10 +35,6 @@ cards:
     kind: why
     front: "What determines a microbe's tropism?"
     back: "The receptor it binds. An organism can only settle where its attachment molecule is present, which is why influenza infects airway cells and not skin."
-  - id: hm9
-    kind: apart
-    front: "Exotoxin versus endotoxin: three differences."
-    back: "Protein versus lipopolysaccharide; secreted versus structural (Gram-negative outer membrane); specific action versus non-specific inflammation. Only exotoxins make toxoid vaccines."
   - id: hm10
     kind: why
     front: "Why can the same exposure make one person ill and not another?"

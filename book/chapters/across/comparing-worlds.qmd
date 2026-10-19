@@ -1,0 +1,15 @@
+# Comparing the worlds
+
+> *The same six questions have different answers for bacteria, viruses, fungi and parasites, and the differences explain why each is detected, prevented and treated in its own way.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Compare the four kinds of microbe on each of the six questions; use the comparison to reason about an unfamiliar organism |
+| The comparison | One table: six questions by four kinds of microbe, with an anchor organism in each column |
+| Consequences | Why antibiotics do not treat viral infection; why antifungal and antiparasitic drugs are more toxic; why some infections can be prevented by vaccines and others by vector control |
+| Scenario questions | Mixed questions across all four parts, interleaved, with the most likely kind of microbe as the first decision |

@@ -1,0 +1,17 @@
+# How viruses are built and copy themselves
+
+> *A virus particle carries no machinery for making energy or protein. Its structure is a delivery system for a genome, and its replication cycle uses the host cell for everything else.*
+
+::: {.callout-note}
+## In preparation
+The plan for this chapter:
+:::
+
+| Part of the chapter | Plan |
+|---|---|
+| Learning objectives | Describe the parts of a virion; relate enveloped and non-enveloped structure to survival; describe the steps of the replication cycle |
+| Structure | Genome (DNA or RNA, single- or double-stranded), capsid, envelope; diagram as a tree of structural types |
+| The replication cycle | Flow: attach, enter, uncoat, express and copy the genome, assemble, release |
+| Genome types | How a DNA virus, a positive-strand RNA virus, a negative-strand RNA virus and a retrovirus each make mRNA (a simplified Baltimore scheme as a table) |
+| Anchor organisms | Influenza virus (enveloped, segmented RNA) and HIV (retrovirus), from the anchor set |
+| Scenario questions | Which property of a virus explains a finding, such as survival on hands after alcohol rub |
