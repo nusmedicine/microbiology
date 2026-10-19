@@ -1,0 +1,141 @@
+id: fungal-principles
+title: "Check your understanding: fungal principles"
+questions:
+  - id: fp1
+    stem: "Why are there fewer antifungal drugs than antibacterial drugs, and why are more of them toxic to the patient?"
+    options:
+      - text: "Fungi are eukaryotes that share most of their machinery with human cells, so few fungal targets are missing from human cells"
+        correct: true
+        feedback: "A fungus has a nucleus, mitochondria and 80S ribosomes like a human cell. Only ergosterol and the wall set it apart, and ergosterol is close enough to cholesterol that a drug binding it can harm human cells too."
+      - text: "The fungal wall is too thick for most drugs to cross"
+        correct: false
+        feedback: "The wall is itself a drug target: echinocandins act on its glucan. The shortage of drugs comes from how much of its machinery a fungus shares with human cells."
+      - text: "Fungi multiply faster than bacteria, so drugs stop working sooner"
+        correct: false
+        feedback: "Fungi grow more slowly than most bacteria, so speed is not the problem. Few fungal structures are absent from human cells, which leaves few safe targets."
+      - text: "Fungi live inside human cells, where drugs cannot reach them"
+        correct: false
+        feedback: "Most fungi that cause disease grow outside human cells, on surfaces or in tissue. The difficulty is finding structures that the fungus has and the patient lacks."
+  - id: fp2
+    stem: "People inhale the spores of many kinds of fungi every day, yet few of these fungi ever cause disease. Which explanation fits best?"
+    options:
+      - text: "Most fungi cannot grow at 37 °C, and in a healthy host, phagocytes kill most of those that can"
+        correct: true
+        feedback: "Body temperature excludes many fungal species, and macrophages and neutrophils clear most of the rest. The fungi that cause invasive disease are those that grow at 37 °C, in a host whose defences have failed."
+      - text: "Fungal spores are too large to be inhaled into the lungs"
+        correct: false
+        feedback: "Many fungal spores are small enough to reach the alveoli, and everyone inhales them daily. They fail to establish infection because of body temperature and host defences."
+      - text: "Fungi grow too slowly to establish an infection"
+        correct: false
+        feedback: "Slow growth delays diagnosis, yet inhaled moulds still cause serious disease when neutrophils are lacking. What stops most species is body temperature, and then the host's phagocytes."
+      - text: "Fungi cannot obtain nutrients inside the body"
+        correct: false
+        feedback: "Fungi absorb nutrients from their surroundings, and tissue can supply them. Most species fail because they cannot grow at body temperature, and those that can are usually killed by phagocytes."
+  - id: fp3
+    stem: "A 28-year-old woman develops itching and a thick white vaginal discharge five days into a course of an antibacterial drug for a bladder infection. Budding yeast cells are seen in a vaginal swab. Which detail best explains why the yeast overgrew?"
+    options:
+      - text: "The drug reduced the vaginal bacteria that normally compete with *C. albicans*"
+        correct: true
+        feedback: "Antibacterial drugs do not act on fungi. Removing the resident bacteria removes the colonisation resistance they provide, and the yeast she already carried overgrows."
+      - text: "She caught the yeast from her sexual partner"
+        correct: false
+        feedback: "*C. albicans* is part of the microbiota of most people, and thrush is overgrowth of a person's own yeast. The timing, during a course of antibacterial drugs, points to a disturbed microbiota."
+      - text: "The drug made the yeast more virulent"
+        correct: false
+        feedback: "The drug has no target in the yeast, so the yeast itself is unchanged. What changed is its surroundings: the bacteria that competed with it are gone."
+      - text: "Her cell-mediated immunity has failed"
+        correct: false
+        feedback: "Failure of cell-mediated immunity, as in advanced HIV infection, lets candidiasis recur and spread to the oesophagus. A single episode during a course of antibacterial drugs, in a healthy woman, points to the loss of her vaginal bacteria."
+  - id: fp4
+    stem: "A 40-year-old man with untreated HIV infection has white plaques on his tongue and pain on swallowing. His CD4 T-cell count is very low, his neutrophil count is normal, and he has taken no antibacterial drugs. Blood cultures grow nothing. Which failure of defence best explains his infection?"
+    options:
+      - text: "Loss of cell-mediated immunity"
+        correct: true
+        feedback: "CD4 T cells hold *C. albicans* in check on the mucosa. As HIV depletes them, candidiasis spreads in the mouth and down the oesophagus, while his neutrophils still stop the yeast from entering the blood."
+      - text: "Neutropenia"
+        correct: false
+        feedback: "His neutrophil count is normal, and his neutrophils are the reason the yeast has not entered his blood. The defence he has lost is cell-mediated immunity."
+      - text: "Disturbance of the resident microbiota"
+        correct: false
+        feedback: "Without antibacterial drugs there is nothing to have disturbed his microbiota. Candidiasis that spreads down the oesophagus in advanced HIV infection reflects the loss of CD4 T cells."
+      - text: "A breach of the skin by a catheter"
+        correct: false
+        feedback: "A catheter gives yeasts a way into the blood, and his blood cultures are negative. His infection is on the mucosa, where CD4 T cells normally hold the yeast in check."
+  - id: fp5
+    stem: "A 55-year-old woman receiving chemotherapy for leukaemia has had a neutrophil count near zero for three weeks. She develops fever and a cough, and a biopsy of her lung shows branching hyphae growing through the tissue and into its blood vessels. Which kind of fungus is most likely to be responsible?"
+    options:
+      - text: "A mould whose spores she inhaled"
+        correct: true
+        feedback: "Branching hyphae are the growth form of a mould. Everyone inhales mould spores, and without neutrophils to attack the hyphae, the mould grows through the lung and into its vessels."
+      - text: "A dimorphic fungus"
+        correct: false
+        feedback: "At body temperature a dimorphic fungus grows as yeast cells, so a biopsy would show yeasts, not branching hyphae."
+      - text: "A dermatophyte"
+        correct: false
+        feedback: "Dermatophytes live on the keratin of skin, hair and nails and rarely invade even the living skin beneath. Hyphae in the lung of a patient without neutrophils point to an inhaled mould."
+  - id: fp6
+    stem: "A 7-year-old girl has a round, scaly, itchy patch on her forearm that is spreading outwards. A month ago the family adopted a kitten, which has patches of hair loss. Which fungus is most likely?"
+    options:
+      - text: "A dermatophyte"
+        correct: true
+        feedback: "A spreading ring on the skin after contact with a kitten that is losing hair fits ringworm. Dermatophytes live on keratin and spread by contact with infected people or animals."
+      - text: "*Candida albicans*"
+        correct: false
+        feedback: "*C. albicans* comes from the person's own microbiota and overgrows on moist surfaces, such as the lining of the mouth or vagina, when conditions change. A ring on the dry skin of the forearm after contact with an infected animal points to a dermatophyte."
+      - text: "A mould whose spores she inhaled"
+        correct: false
+        feedback: "Inhaled spores reach the lungs, not the skin of the forearm. Dermatophytes are moulds too, but they reach the skin by contact with an infected person or animal."
+  - id: fp7
+    stem: "Scrapings from the scaly edge of a patch of skin are mixed with alkali before they are examined under the microscope. Why is the alkali added?"
+    options:
+      - text: "It dissolves keratin and human cells, while the fungal wall resists it, so any hyphae stand out"
+        correct: true
+        feedback: "Clearing the sample removes the material that hides the fungus. The wall of chitin and glucan survives the alkali, and the hyphae become visible."
+      - text: "It stains fungal cells so that they can be seen"
+        correct: false
+        feedback: "Alkali clears the sample; it does not stain anything. The fungus becomes visible because its wall withstands the alkali while keratin and skin cells dissolve."
+      - text: "It kills bacteria so that only fungi grow"
+        correct: false
+        feedback: "Nothing is grown in this test: the sample is examined directly. Suppressing unwanted bacteria is the job of a selective culture medium."
+      - text: "It makes the fungus multiply so that there is enough to see"
+        correct: false
+        feedback: "Microscopy shows the fungus already in the sample, and alkali does not make fungi grow. It dissolves the keratin and skin cells that would hide them."
+  - id: fp8
+    stem: "A 35-year-old man with advanced HIV infection has had headache and fever for two weeks. Within hours, a test on his cerebrospinal fluid detects an antigen from a fungal capsule; culture will take days. Which fungus is most likely, and how did he acquire it?"
+    options:
+      - text: "*Cryptococcus neoformans*, inhaled from soil contaminated with bird droppings"
+        correct: true
+        feedback: "*Cryptococcus* is a yeast with a polysaccharide capsule. Inhaled from the environment, it spreads in the blood to the brain when cell-mediated immunity fails, and its capsule is what the antigen test detects."
+      - text: "*Candida albicans*, from his own microbiota"
+        correct: false
+        feedback: "In advanced HIV infection, *C. albicans* overgrows on the lining of the mouth and oesophagus, and it has no capsule. Meningitis with capsule antigen in the cerebrospinal fluid points to *Cryptococcus*."
+      - text: "A dermatophyte, from contact with an infected animal"
+        correct: false
+        feedback: "Dermatophytes stay in the keratin of the skin, hair and nails and do not reach the brain. The capsule antigen points to *Cryptococcus*."
+      - text: "A mould, inhaled as spores"
+        correct: false
+        feedback: "Moulds have no capsule, and they invade the lungs mainly when neutrophils are lacking. A capsule antigen in the cerebrospinal fluid of a man with advanced HIV infection points to *Cryptococcus*."
+  - id: fp9
+    stem: "Why do polyenes cause more side effects in patients than echinocandins?"
+    options:
+      - text: "Polyenes bind ergosterol and, less strongly, the cholesterol of human cells; echinocandins act on the wall, which human cells lack"
+        correct: true
+        feedback: "Selective toxicity depends on how different the target is from anything in human cells. Cholesterol is a close relative of ergosterol, but human cells have no wall at all."
+      - text: "Polyenes act on the 80S ribosome, which human cells share"
+        correct: false
+        feedback: "Polyenes act on ergosterol in the fungal membrane, not on ribosomes. Their side effects come from binding cholesterol, the close relative of ergosterol in human membranes."
+      - text: "Echinocandins are given in smaller doses"
+        correct: false
+        feedback: "Dose does not explain the difference. Human cells have cholesterol, a close relative of the polyenes' target, but nothing resembling the fungal wall that echinocandins act on."
+  - id: fp10
+    stem: "In an intensive care unit, three patients develop bloodstream infections with the same yeast within a month. The yeast is resistant to two classes of antifungal drug, and the same strain is found on bed rails and on the skin of other patients. Which yeast is most likely?"
+    options:
+      - text: "*Candida auris*"
+        correct: true
+        feedback: "*C. auris* persists on skin and hospital surfaces and spreads between patients, and it is often resistant to more than one class of antifungal drug. One strain in several patients and on surfaces points to spread within the unit."
+      - text: "*Candida albicans*"
+        correct: false
+        feedback: "Bloodstream infections with *C. albicans* usually arise from each patient's own yeast, so they rarely share one strain, and most strains are susceptible to the main classes of antifungal drug. A resistant strain spreading through a unit fits *C. auris*."
+      - text: "*Cryptococcus neoformans*"
+        correct: false
+        feedback: "*Cryptococcus* is inhaled from soil and causes disease mainly when cell-mediated immunity fails. It does not spread from patient to patient on hands or surfaces."

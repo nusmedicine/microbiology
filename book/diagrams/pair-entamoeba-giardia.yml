@@ -1,0 +1,71 @@
+id: pair-entamoeba-giardia
+title: "Contrast pair: two protozoa swallowed as cysts"
+intro: "Both are swallowed as cysts in food or water contaminated with faeces, and both often cause no symptoms. Read across and find the feature that best tells them apart."
+
+a:
+  name: "Entamoeba histolytica"
+b:
+  name: "Giardia duodenalis"
+
+rows:
+  - feature: "Infective form"
+    a: "Cyst, swallowed in food or water contaminated with faeces"
+    b: "Cyst, swallowed in water or passed from person to person on hands"
+    separates: false
+  - feature: "Where it lives"
+    a: "Colon"
+    b: "Upper small intestine"
+    separates: true
+  - feature: "Relation to the gut wall"
+    a: "Can invade the wall, killing the cells it touches"
+    b: "Attaches to the surface by a disc on its underside, without invading"
+    separates: true
+  - feature: "Stool"
+    a: "Blood and mucus when it invades: dysentery"
+    b: "Watery or greasy, without blood"
+    separates: true
+  - feature: "Spread beyond the gut"
+    a: "In the portal vein to the liver, where it forms an abscess"
+    b: "None"
+    separates: true
+  - feature: "Infection without symptoms"
+    a: "Common; people without symptoms pass cysts"
+    b: "Common; people without symptoms pass cysts"
+    separates: false
+
+question:
+  stem: "Both are swallowed as cysts. Which feature best tells them apart?"
+  options: [0, 2, 5]
+  answer: 2
+  feedback: >
+    Relation to the gut wall. Both are swallowed as cysts and both often cause no symptoms, so neither
+    of those features tells them apart. Invasion explains the other differences: *E. histolytica* can
+    invade the colon wall, which puts blood in the stool and gives the trophozoites a way into the
+    veins that drain to the liver, while *G. duodenalis* stays on the surface of the small intestine.
+
+principle: >
+  Whether a gut protozoan invades the wall decides most of what it does. *E. histolytica* kills the
+  cells of the colon wall and ulcerates it, so blood appears in the stool, and trophozoites that enter
+  the veins of the colon wall are carried in the portal vein to the liver. *G. duodenalis* attaches to
+  the surface of the small intestine and stays there. It disturbs absorption, causing diarrhoea,
+  bloating and malabsorption, with no blood in the stool and no spread beyond the gut.
+
+sort:
+  - text: "Diarrhoea with blood and mucus, and abdominal pain"
+    answer: a
+    why: "Blood in the stool means the gut wall has been invaded: *E. histolytica*."
+  - text: "Pale, greasy, foul-smelling stools and weight loss in a young child"
+    answer: b
+    why: "Malabsorption from damage to the surface of the small intestine: *G. duodenalis*."
+  - text: "A cavity of destroyed liver tissue, months after a stay in an area with poor sanitation"
+    answer: a
+    why: "Spread from the colon in the portal vein to the liver: *E. histolytica*."
+  - text: "Attaches to the lining of the upper small intestine without invading it"
+    answer: b
+    why: "Attachment to the surface of the small intestine: *G. duodenalis*."
+  - text: "Bloating and watery diarrhoea after drinking from a mountain stream"
+    answer: b
+    why: "Cysts that survive in cool water, and diarrhoea without blood: *G. duodenalis*."
+  - text: "Kills the cells lining the colon on contact"
+    answer: a
+    why: "Contact killing of the colon lining, which leads to ulcers: *E. histolytica*."

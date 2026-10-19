@@ -1,0 +1,40 @@
+id: profile-p-falciparum
+name: "Plasmodium falciparum"
+group: "Protozoan · carried by mosquitoes · multiplies in liver cells, then in red blood cells"
+intro: "Predict two of the five slots. Most of what this parasite does follows from where it multiplies: inside red blood cells, which pass through every organ."
+
+slots:
+  - slot: identity
+    entry: "A single-celled eukaryote with no cell wall. In humans it multiplies by division, first inside liver cells and then inside red blood cells; it reproduces sexually only in the mosquito."
+  - slot: lifestyle
+    entry: "Passed between people by mosquitoes, its vector, which inject it into the skin when they bite. Found in tropical regions of Africa, Asia and South America; most deaths are of young children in sub-Saharan Africa. Most cases seen in Singapore were acquired abroad."
+  - slot: harm
+    predict:
+      stem: "Infected red cells are stiffer than normal ones, and the spleen removes them from the blood. What does *P. falciparum* gain by making mature infected cells stick to the walls of small blood vessels?"
+      options:
+        - text: "The cells no longer pass through the spleen, so the parasites escape removal"
+          correct: true
+          feedback: "Sequestration keeps mature parasites out of the spleen. The cost falls on the host: the stuck cells obstruct blood flow in the brain and, in pregnancy, gather in the placenta."
+        - text: "The parasites can leave the blood and invade the brain tissue"
+          correct: false
+          feedback: "The parasites stay inside red cells within the vessels. Cerebral malaria comes from obstructed blood flow in the brain's small vessels, without parasites entering the brain tissue."
+        - text: "A biting mosquito can take up the stuck cells more easily"
+          correct: false
+          feedback: "A mosquito takes up the sexual forms that circulate in the blood. Sticking to vessel walls protects the maturing parasites from the spleen."
+    entry: "Destroys the red cells in which it multiplies, so fever comes as they rupture and anaemia develops as they are lost. Mature parasites make infected red cells stick to the walls of small blood vessels, which keeps them out of the spleen but obstructs blood flow: in the brain, cerebral malaria; in pregnancy, infection of the placenta."
+  - slot: consequence
+    predict:
+      stem: "In a village where malaria is common, who is most likely to die of it?"
+      options:
+        - text: "A young child"
+          correct: true
+          feedback: "A young child has not yet had enough infections to build partial immunity, so the parasites multiply unchecked. Most deaths from malaria are of young children."
+        - text: "An adult who has lived in the village all her life"
+          correct: false
+          feedback: "Years of repeated infection give adults partial immunity, which limits the number of parasites and protects against severe disease, although it does not prevent infection."
+        - text: "A teenager who has lived in the village all his life"
+          correct: false
+          feedback: "By the teenage years, repeated infections have built partial immunity, and severe disease is much less common than in young children."
+    entry: "Severe malaria and death fall on people without partial immunity: young children where malaria is common, travellers from places without malaria, and pregnant women, especially in a first pregnancy. Partial immunity limits the number of parasites but does not prevent infection, and it fades when exposure stops."
+  - slot: contrast
+    entry: "*Ascaris lumbricoides*, the helminth anchor: it does not multiply inside the human host, so the number of worms reflects the number of eggs swallowed. The few *P. falciparum* parasites injected by one bite multiply into a large infection."

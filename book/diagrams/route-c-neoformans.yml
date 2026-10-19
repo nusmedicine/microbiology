@@ -1,0 +1,32 @@
+id: route-c-neoformans
+title: "Route through the body: *Cryptococcus neoformans*"
+intro: "From soil to the brain: the yeast is inhaled, is usually contained in the lung, and spreads when cell-mediated immunity fails. At one step, predict where it goes before the answer appears."
+
+routes:
+  - name: "From soil to the brain"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Lives in soil contaminated with bird droppings, especially those of pigeons. Each yeast cell is surrounded by a thick polysaccharide capsule."
+      - at: alveoli
+        kind: enters
+        via: air
+        text: "Inhaled in dust, the yeast reaches the alveoli. It does not pass from person to person."
+      - at: alveoli
+        kind: defence
+        text: "In most people, cell-mediated immunity contains the yeast in the lung, often without symptoms. The capsule resists phagocytosis, so containment depends on CD4 T cells directing the macrophages."
+      - at: alveoli
+        kind: multiplies
+        text: "In advanced HIV infection, as CD4 T cells are lost, the yeast escapes containment and multiplies in the lung."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "It enters the blood, where the capsule again protects it from phagocytes. The yeast sheds capsule polysaccharide into the blood, where an antigen test can detect it."
+      - at: brain
+        kind: damages
+        via: blood
+        ask: "Carried in the blood, where does the yeast most often cause disease?"
+        options: [brain, heart, bone]
+        answer: [brain]
+        why: "*C. neoformans* settles most often in the meninges and brain. It rarely infects the heart valves or the bones."
+        text: "It reaches the meninges and brain and causes meningitis, with headache and fever that develop over days to weeks. Capsule polysaccharide in the cerebrospinal fluid, which bathes the brain and spinal cord, can also be detected by the antigen test."

@@ -1,16 +1,281 @@
 # Yeasts, moulds and dimorphic fungi
 
-> *Fungi that cause human disease fall into a few groups by growth form, and each group has a typical source and a typical host.*
+> *Most people carry a yeast in the mouth or gut, and everyone breathes in mould spores every day, yet
+> serious fungal disease is uncommon. Most fungi cause disease only when a particular defence fails, so
+> where a fungus comes from and which defence holds it in check predict who becomes ill.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Sort the medically important fungi by growth form and by where they come from, and predict from
+  these the defence that must fail and who is most at risk.
+- Explain how *Candida albicans*, part of the body's own microbiota, causes thrush when the
+  microbiota or a local defence changes, and bloodstream infection in hospital patients.
+- Relate the three patterns of disease caused by *Aspergillus fumigatus* to the state of the host's
+  lungs and neutrophils.
+- Explain how *Cryptococcus neoformans* reaches the brain when cell-mediated immunity fails, how its
+  capsule protects it on the way, and why the capsule is what the antigen test detects.
+- Name the host, setting and route that let each main fungus cause disease.
+- Tell *C. albicans* from *C. neoformans* by source, capsule, typical disease and the defence whose
+  failure matters most.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-fgrp-group)
+  - [The group in one sentence](#sec-fgrp-sentence): what every member shares
+  - [Sorting the group](#sec-fgrp-key): growth form, then source
+- [Main organisms](#sec-fgrp-main)
+  - [*Candida albicans*](#sec-fgrp-candida): thrush and bloodstream infection
+  - [*Aspergillus fumigatus*](#sec-fgrp-aspergillus): three patterns, set by the host
+  - [*Cryptococcus neoformans*](#sec-fgrp-cryptococcus): the capsule and the brain
+- [Contrast pair](#sec-fgrp-pairs)
+  - [*C. albicans* and *C. neoformans*](#sec-fgrp-pair-candida-cryptococcus)
+- [Beyond the main organisms](#sec-fgrp-beyond)
+  - [Supporting organisms](#sec-fgrp-supporting)
+  - [Later in the course](#sec-fgrp-later)
+:::
+
+## The group {#sec-fgrp-group}
+
+### The group in one sentence {#sec-fgrp-sentence}
+
+The fungi that cause human disease are eukaryotes with a wall of chitin and glucan that live in soil,
+on decaying plants or on the body itself, and most of them cause disease only when a particular
+defence of the host has failed. Most of the six questions have one answer for the whole group; its
+members differ mainly in growth form, in where they come from and in the defence that must fail.
+
+Fungi grow as yeasts or as moulds, and some switch between the two (see [*Fungal
+principles*](fungal-principles.qmd)):
+
+- **Yeasts** grow as single round or oval cells that multiply by **budding**: a daughter cell swells
+  out from the parent cell, receives a copy of the nucleus and separates.
+- **Moulds** grow as **hyphae** (singular hypha), branching, tube-shaped filaments that extend at their
+  tips and form a mat, and reproduce by **spores**, small cells made in vast numbers on the hyphae and
+  released into the air.
+- **Dimorphic fungi** grow as moulds in the environment and as yeasts at body temperature.
+
+| Question | Answer for the medically important fungi |
 |---|---|
-| Learning objectives | Recognise the main fungi of each group from their growth form, source and host |
-| Main organisms | *Candida albicans* (anchor, yeast); *Aspergillus fumigatus* (mould); *Cryptococcus neoformans* (encapsulated yeast) |
-| Supporting organisms | Dermatophytes; *Pneumocystis jirovecii*; *Talaromyces marneffei*, a dimorphic fungus of South-East Asia |
-| Later in the course | Dermatology, respiratory medicine and the care of immunocompromised patients |
-| Scenario questions | Most likely fungus, restricted to the group |
+| What is it built from? | A eukaryotic cell with a wall of chitin and glucan and ergosterol in its membrane, growing as a yeast, a mould or, in dimorphic fungi, both |
+| How does it get energy, and what does it need to grow? | Its own metabolism, absorbing nutrients from its surroundings; the fungi that invade deep tissues grow at body temperature, which most fungi do poorly |
+| How does it copy itself and change? | Yeasts bud; moulds extend their hyphae and release spores; resistance to antifungal drugs arises by mutation and selection |
+| Where does it live, and how does it spread? | Soil, decaying plants and bird droppings, from which spores or yeasts are inhaled; the body's own microbiota; the keratin of skin, hair and nails, passed on by contact. Most fungal infections are not passed from person to person |
+| How does damage happen? | Invasion of tissue when a defence fails, and the inflammation it provokes; allergy to a fungus growing in the airways |
+| What does it have that my cells lack? | Ergosterol in its membrane and a wall of chitin and glucan: the targets of antifungal drugs |
+
+### Sorting the group {#sec-fgrp-key}
+
+Growth form is visible under the microscope and in culture, so we sort the fungi by it first, and then
+by where they come from. Among the moulds are the **dermatophytes**, moulds that live on the keratin
+of skin, hair and nails. *Pneumocystis jirovecii* is sorted on its own: it is an
+unusual fungus that has no ergosterol and cannot be grown in routine culture.
+
+::: {.concept-tree}
+[Sorting the medically important fungi by growth form and source]{.tree-title}
+
+- Yeasts
+  - From the body's own microbiota: *Candida albicans*
+  - From soil contaminated with bird droppings: *Cryptococcus neoformans*
+- Moulds
+  - From spores in the air: *Aspergillus fumigatus*
+  - From infected people, animals or soil, by contact: dermatophytes
+- Dimorphic fungi
+  - From the environment in South-East Asia: *Talaromyces marneffei*
+- An unusual fungus, with no ergosterol, that is not grown in routine culture
+  - *P. jirovecii*
+:::
+
+Where a fungus comes from predicts where its infection starts and which defence must fail:
+
+| Where it comes from | Where infection starts | Defence that must fail, and who is at risk |
+|---|---|---|
+| The body's own microbiota | At the mucosa and skin where the fungus lives, or in the blood once a barrier is breached | The resident bacteria and intact mucosa and skin: infants, people given antibacterial drugs or corticosteroids, and hospital patients with a catheter in a large vein |
+| Spores in the air | In the lung | Macrophages and neutrophils in the lung: people whose **neutropenia**, an abnormally low neutrophil count, lasts for weeks, as after chemotherapy for leukaemia |
+| Soil contaminated with bird droppings, or the environment of a particular region | In the lung, then in the blood and distant organs | **Cell-mediated immunity**, the defence by T cells against infected cells and against organisms that live inside host cells: people with advanced HIV infection |
+| Infected people, animals or soil, by contact | In the keratin of the skin, hair and nails | No failure is needed: healthy people are infected |
+
+Work through the key from the growth form, and read at each branch what the trait predicts about the
+fungus.
+
+<div data-island="sorting-key" data-src="/diagrams/fungi-key.yml"></div>
+
+## Main organisms {#sec-fgrp-main}
+
+### *Candida albicans*: thrush and bloodstream infection {#sec-fgrp-candida}
+
+*C. albicans* is carried by most healthy people, as a yeast on the lining of the mouth, gut or vagina,
+or on the skin. On a surface it grows as budding yeast cells; when it invades the epithelium it forms
+filaments. Four defences keep it in check, and most of its diseases follow the loss of one or more of
+them:
+
+- The resident bacteria, which occupy the same surfaces and consume the nutrients the yeast would use
+  (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-microbiota))
+- The intact epithelium of the skin and mucosa
+- Cell-mediated immunity, which stops the yeast invading the mucosa
+- Neutrophils, which kill yeast cells that reach the tissues or the blood
+
+Most of its infections are **endogenous infections**, caused by an organism the person already
+carries, so they follow a change in the host and need no new exposure. **Candidiasis** is infection
+with any species of *Candida*, and **thrush** is candidiasis of the lining of the mouth or the vagina.
+
+In hospital, two changes give the yeast a route into the blood. Broad-spectrum antibacterial drugs,
+which do not act on fungi, let it multiply in the gut, from which it can cross the gut wall. A
+**central venous catheter**, a tube passed through the skin into a large vein, gives it a path from the
+skin: the yeast grows along the catheter as a **biofilm**, a community of microbes embedded in a shared
+matrix on a surface. **Candidaemia**, *Candida* in the blood, carries the yeast to distant organs.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Oral thrush | With fewer resident bacteria or weaker local defences in the mouth, the yeast multiplies, and its filaments invade the surface of the epithelium, which becomes inflamed | White plaques on the tongue and inside the cheeks of an infant, or of an adult who uses a corticosteroid inhaler for asthma |
+| Vaginal candidiasis | Antibacterial drugs reduce the resident bacteria of the vagina, and pregnancy and diabetes favour the yeast; it multiplies and invades the surface of the epithelium | Itching and a thick white discharge a few days after a course of antibacterial drugs |
+| Oesophageal candidiasis | When cell-mediated immunity fails, the yeast invades the lining of the oesophagus | Pain on swallowing in advanced HIV infection |
+| Bloodstream infection | The yeast crosses the gut wall or enters along a catheter, and the blood carries it to distant organs | Candidaemia in a patient in intensive care, with a fever that continues despite antibacterial drugs; the yeast can settle in the eye and threaten sight, or on the heart valves and cause **infective endocarditis**, infection of the heart valves or the inner lining of the heart |
+
+Three conditions let *C. albicans* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | An infant; a person given antibacterial drugs or a corticosteroid inhaler, or who wears dentures; a woman who is pregnant or has diabetes; a person with advanced HIV infection; a hospital patient with a central venous catheter | Each has lost, or has not yet developed, one of the defences that keep the yeast in check, or offers it more to grow on |
+| Where (setting) | The person's own body; for bloodstream infection, the hospital, especially intensive care | Most infections are endogenous: the yeast is already on the mucosa and skin and in the gut |
+| How (route) | Overgrowth at the surfaces where it lives; or entry to the blood across the gut wall or along a catheter | Filaments invade the surface of the epithelium; in the blood, yeast cells are carried to the eye and the heart valves |
+
+::: {.callout-important}
+## Does *Candida* in a sample mean a *Candida* infection?
+A laboratory report that names *Candida* is easily read as a diagnosis. Most people carry
+*C. albicans* on their mucosa, however, so it is often grown from samples that pass through the mouth
+or come from the vagina, such as sputum coughed up from the lungs or a vaginal swab, in people who have no
+candidiasis. Growth from such a sample shows only that the yeast is there, which in most people is
+**colonisation**, microbes living and multiplying at a site without causing damage (see [*Microbes
+and their hosts*](../foundations/host-microbe.qmd#sec-host-words)).
+
+Candidiasis is shown by signs of disease where the yeast is found, such as white plaques on the
+mucosa, or by yeast in a site that is normally sterile, such as the blood.
+:::
+
+Step through the two routes *C. albicans* takes: overgrowth where it lives, and entry into the blood.
+
+<div data-island="body-map" data-src="/diagrams/route-c-albicans.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/profile-c-albicans.yml"></div>
+
+### *Aspergillus fumigatus*: three patterns, set by the host {#sec-fgrp-aspergillus}
+
+*A. fumigatus* is a mould of soil, compost and decaying plants. It releases spores in such numbers
+that they are present in the air everywhere, indoors and outdoors, and everyone breathes them in every
+day. Two traits let it reach and grow in the lung: its spores are only a few micrometres across, small
+enough to be carried down to the alveoli, and it grows well at body temperature, as most moulds do
+not. It is not passed from person to person.
+
+In a healthy lung the spores do no harm. Macrophages in the alveoli engulf and kill them, and
+neutrophils attack any spores that germinate into hyphae, which are too large to engulf. What follows
+an inhaled spore depends on the state of the lung and of these defences, and gives three patterns of
+disease.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Allergy | In a person with asthma, the fungus grows in the mucus of the airways without invading them; the damage comes from the host's allergic response to it, which inflames the airways and plugs them with mucus (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-drf)) | Asthma that becomes harder to control; repeated episodes can damage the airways permanently |
+| Fungus ball | The fungus grows inside a cavity left in the lung by earlier disease, such as tuberculosis, and forms a ball of hyphae without invading the lung around it | An **aspergilloma**, a ball of hyphae in an existing cavity in the lung, which can make the person cough up blood |
+| Invasive infection | In prolonged neutropenia, hyphae grow through the lung and into the walls of its blood vessels; the vessels clot, the tissue they supply becomes necrotic, and fragments of hyphae carried in the blood reach other organs, including the brain | **Invasive aspergillosis**, infection in which hyphae grow into living tissue, in a patient with leukaemia weeks after chemotherapy |
+
+Three conditions let *A. fumigatus* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | For invasive infection, a person whose neutropenia lasts for weeks, as after chemotherapy for leukaemia or a transplant of blood-forming stem cells; for allergy, a person with asthma; for a fungus ball, a person with a cavity left in the lung by earlier disease | Neutrophils attack hyphae, and without them the hyphae invade; the other two patterns need a lung already altered by disease |
+| Where (setting) | The air everywhere, indoors and outdoors, including dust from building work | Spores from soil, compost and decaying plants stay suspended in the air; the mould does not pass from person to person |
+| How (route) | Inhaled into the airways and alveoli; in invasive infection, through the walls of blood vessels and on in the blood | The spores are small enough to reach the alveoli, and hyphae that invade vessels are carried in the blood to other organs |
+
+::: {.example}
+Building work in a hospital raises dust that carries *A. fumigatus* spores, so patients with
+prolonged neutropenia are kept away from it, often in rooms supplied with filtered air.
+:::
+
+Step through the two routes *A. fumigatus* takes: into the airways of a person with asthma, and
+through the lung of a person with prolonged neutropenia.
+
+<div data-island="body-map" data-src="/diagrams/route-a-fumigatus.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/profile-a-fumigatus.yml"></div>
+
+### *Cryptococcus neoformans*: the capsule and the brain {#sec-fgrp-cryptococcus}
+
+*C. neoformans* is a yeast that lives in soil contaminated with bird droppings, especially those of
+pigeons. It is inhaled in dust and does not pass from person to person. Each yeast cell is surrounded
+by a thick **capsule**, a polysaccharide layer outside the cell wall that resists phagocytosis.
+
+In most people, cell-mediated immunity contains the inhaled yeast in the lung, often without
+symptoms. The containment depends on **CD4 T cells**, lymphocytes that coordinate the immune response,
+including the activity of macrophages. When CD4 T cells are lost in advanced HIV infection (see
+[*Viruses and the host*](../viruses/virus-host.qmd#sec-vhost-cd4)), the yeast multiplies in the lung,
+enters the blood and reaches the brain. There it causes **meningitis**, inflammation of the meninges
+(the membranes that cover the brain and spinal cord), with headache and fever that develop over days
+to weeks. It also causes disease in people whose cell-mediated immunity is suppressed by drugs after
+an organ transplant.
+
+The capsule is also how the infection is detected. The yeast sheds capsule polysaccharide into the
+blood and into the cerebrospinal fluid, which bathes the brain and spinal cord, and an antigen test
+detects it there. Under the microscope, cerebrospinal fluid mixed with India ink, which darkens the
+background, shows the capsule as a clear halo around each yeast.
+
+::: {.example}
+Capsule polysaccharide can be detected in the blood before meningitis develops, so people with
+advanced HIV infection can be tested and treated before it begins.
+:::
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Infection of the lung | Inhaled yeasts multiply in the alveoli, and in most people cell-mediated immunity contains them | Often no symptoms; sometimes pneumonia |
+| Meningitis | When cell-mediated immunity fails, the yeast spreads in the blood to the meninges and brain, where the capsule protects it from phagocytes and it multiplies | Headache and fever that worsen over days to weeks in a person with advanced HIV infection |
+
+Three conditions let *C. neoformans* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A person whose cell-mediated immunity has failed: most often in advanced HIV infection, and also after an organ transplant | CD4 T cells direct the macrophages that contain the yeast in the lung; without them it multiplies and spreads |
+| Where (setting) | Soil and dust contaminated with bird droppings, especially of pigeons | The yeast grows in the droppings and is inhaled in dust; it does not pass from person to person |
+| How (route) | Inhaled into the alveoli, then carried in the blood to the meninges and brain | The capsule resists phagocytes in the lung and in the blood |
+
+Step through the route *C. neoformans* takes from soil to the brain.
+
+<div data-island="body-map" data-src="/diagrams/route-c-neoformans.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/profile-c-neoformans.yml"></div>
+
+## Contrast pair {#sec-fgrp-pairs}
+
+### *C. albicans* and *C. neoformans* {#sec-fgrp-pair-candida-cryptococcus}
+
+Both are yeasts that bud, and both can reach the blood. Compare them feature by feature before
+reading the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-candida-cryptococcus.yml"></div>
+
+## Beyond the main organisms {#sec-fgrp-beyond}
+
+### Supporting organisms {#sec-fgrp-supporting}
+
+| Organism | Where it lives | What separates it | Why it matters |
+|---|---|---|---|
+| Dermatophytes | The keratin of the skin, hair and nails of people and animals, and soil | Moulds that grow only in keratin, in dead layers of cells, so infection stays at the surface; passed on by contact with infected people, animals or soil | Cause **ringworm** (tinea), infection of the skin, hair or nails by a dermatophyte, named for the ring-shaped, scaly patches it can form on the skin; no worm is involved |
+| *P. jirovecii* | The lungs of humans; most people are infected in early childhood without illness | Its membrane contains cholesterol in place of ergosterol, so drugs that act on ergosterol or its synthesis do not work against it; cannot be grown in routine culture | Causes pneumonia in advanced HIV infection and in other failures of cell-mediated immunity, such as during long courses of corticosteroids |
+| *T. marneffei* | The environment of South-East Asia and southern China | A dimorphic fungus: a mould in the environment, and small yeast cells inside macrophages at body temperature; probably acquired by inhaling spores | Spreads through the body, with fever and skin lesions, in people with advanced HIV infection, among whom it is common in parts of South-East Asia |
+
+### Later in the course {#sec-fgrp-later}
+
+| Organism | Where it comes up again |
+|---|---|
+| *C. albicans* | Obstetrics and gynaecology (vaginal candidiasis); HIV care (oral and oesophageal candidiasis); intensive care (bloodstream infection) |
+| *A. fumigatus* | Respiratory medicine (allergy that worsens asthma, and fungus balls); haematology and oncology (invasive infection in prolonged neutropenia) |
+| *C. neoformans* | Neurology and HIV care (meningitis) |
+| Dermatophytes | Dermatology (ringworm of the skin, hair and nails) |
+| *P. jirovecii* | Respiratory medicine and HIV care (pneumonia) |
+| *T. marneffei* | HIV care in South-East Asia (infection that spreads through the body) |
+
+## Check your understanding {#sec-fgrp-quiz}
+
+<div data-island="quiz" data-src="/quizzes/fungal-groups.quiz.yml"></div>
+
+## Review with flashcards {#sec-fgrp-cards}
+
+<div data-island="flashcards" data-src="/decks/fungal-groups.deck.yml"></div>

@@ -1,0 +1,48 @@
+id: route-a-fumigatus
+title: "Routes through the body: *Aspergillus fumigatus*"
+intro: "Everyone breathes in the spores. What follows depends on the host: two routes, in a person with asthma and in a person with prolonged neutropenia."
+
+routes:
+  - name: "Allergy, in asthma"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Grows in soil, compost and decaying plants, and releases spores that stay suspended in the air, indoors and outdoors."
+      - at: airway
+        kind: enters
+        via: air
+        text: "The spores are breathed in every day. In a person with asthma, some are caught in the thick mucus of the airways."
+      - at: airway
+        kind: multiplies
+        text: "The spores germinate, and the fungus grows as hyphae in the mucus without invading the airway wall."
+      - at: airway
+        kind: damages
+        text: "The host's allergic response to the fungus, not invasion, does the damage: it inflames the airways and plugs them with mucus, and the asthma becomes harder to control. Repeated episodes can damage the airways permanently."
+
+  - name: "Invasion, in neutropenia"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Spores from soil, compost and decaying plants are in the air everywhere, including in hospitals, where building work raises dust that carries them."
+      - at: alveoli
+        kind: enters
+        via: air
+        ask: "The spores are only a few micrometres across. How far into the lungs can they be carried?"
+        options: [nose-throat, airway, alveoli]
+        answer: [alveoli]
+        why: "Particles this small are carried past the nose and the airways down to the alveoli. Larger particles are trapped in the nose and airways and cleared."
+        text: "The spores are breathed in and reach the alveoli, where gas exchange takes place."
+      - at: alveoli
+        kind: defence
+        text: "In a healthy lung, macrophages in the alveoli engulf and kill the spores, and neutrophils attack any that germinate into hyphae, which are too large to engulf."
+      - at: alveoli
+        kind: damages
+        text: "In neutropenia that lasts for weeks, after chemotherapy for leukaemia or a transplant of blood-forming stem cells, too few neutrophils remain to stop the hyphae. They grow through the lung and into the walls of its blood vessels, which clot, so the tissue the vessels supply becomes necrotic."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "Fragments of hyphae break off into the blood and are carried to other organs."
+      - at: brain
+        kind: damages
+        via: blood
+        text: "In the brain, the hyphae invade blood vessels and cause necrosis, as they did in the lung."

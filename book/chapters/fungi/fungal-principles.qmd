@@ -1,17 +1,360 @@
 # Fungal principles
 
-> *Fungi are eukaryotes, so they share most of their machinery with human cells. That explains both why most fungi cause disease only in weakened hosts and why antifungal drugs are fewer and more toxic than antibacterial drugs.*
+> *Fungi are eukaryotes that share most of their machinery with human cells, so antifungal drugs are
+> fewer and more toxic than antibacterial drugs. Most fungi grow poorly at body temperature, and
+> healthy defences kill most of the rest, so the few that cause human disease do so mainly when a
+> defence fails.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Compare a fungal cell with a human cell and a bacterium, and name the two features of a fungus that
+  human cells lack.
+- Distinguish yeasts, moulds and dimorphic fungi by how they grow, and describe how *Candida
+  albicans* changes form when it invades tissue.
+- Explain why few fungi cause human disease, and name the three sources of fungal infection.
+- Match each failed host defence to the fungal infection that follows it, and describe three ways in
+  which fungi cause damage.
+- Explain why invasive fungal infection is slow to diagnose, and state what each kind of test detects.
+- Name the target of each main class of antifungal drug, and explain why antifungal drugs are fewer
+  and more toxic than antibacterial drugs.
 :::
 
-| Part of the chapter | Plan |
-|---|---|
-| Learning objectives | Distinguish yeasts, moulds and dimorphic fungi; relate fungal disease to host defence; name the fungal structures that drugs target |
-| Structure and growth forms | A tree of growth forms: yeasts, moulds (hyphae), dimorphic fungi that switch with temperature |
-| Fungi and the host | A spectrum from superficial to invasive infection, matched to the host defence that must fail |
-| Detection | Microscopy, culture, antigen tests and why fungal diagnosis is slow |
-| Targets for drugs | Ergosterol and its synthesis; the wall |
-| Scenario questions | Which host factor best explains an invasive fungal infection |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [What fungi are](#sec-fun-what)
+  - [The fungal cell](#sec-fun-cell): a eukaryote with a wall and ergosterol
+  - [Growth forms](#sec-fun-forms): yeasts, moulds and dimorphic fungi
+  - [How fungi grow](#sec-fun-growth): temperature and speed
+- [Fungi and the host](#sec-fun-host)
+  - [Sources of infection](#sec-fun-sources): the body, the environment and contact
+  - [The defences that must fail](#sec-fun-defences): from the surface to the organs
+  - [How fungi cause damage](#sec-fun-damage): invasion, allergy and toxins
+- [Finding fungi](#sec-fun-detect)
+  - [Methods that detect fungi](#sec-fun-methods)
+  - [Why fungal diagnosis is slow](#sec-fun-slow)
+- [Treating fungal infections](#sec-fun-treat)
+  - [Drug targets](#sec-fun-targets): ergosterol and the wall
+  - [Why antifungal drugs are few](#sec-fun-few) and [resistance](#sec-fun-resistance)
+:::
+
+## What fungi are {#sec-fun-what}
+
+### The fungal cell {#sec-fun-cell}
+
+Fungi are eukaryotes, like protozoa, helminths and humans (see [*The microbial
+world*](../foundations/microbial-world.qmd#sec-world-kinds)). A fungal cell has a nucleus,
+mitochondria and 80S ribosomes, and it copies its DNA and makes its proteins in much the same way as
+a human cell.
+
+Two features set a fungus apart. Outside its cell membrane lies a **cell wall**, a rigid layer that
+holds the cell's shape and stops it bursting when water enters by osmosis. The fungal wall is built on
+a framework of **chitin**, a polymer of a nitrogen-containing sugar that also forms the outer skeleton
+of insects, and **glucan**, a polymer of glucose; it contains no peptidoglycan, the polymer of the
+bacterial wall. The cell membrane contains **ergosterol**, a sterol that does the job that cholesterol
+does in the membranes of human cells.
+
+A fungus shares more with a human cell than with a bacterium:
+
+| Feature | Human cell | Fungus (*Candida albicans*) | Bacterium (*Staphylococcus aureus*) |
+|---|---|---|---|
+| Nucleus and mitochondria | Present | Present | Absent |
+| Ribosomes | 80S | 80S | 70S |
+| Sterol in the cell membrane | Cholesterol | Ergosterol | None |
+| Cell wall | None | Chitin and glucan | Peptidoglycan |
+
+Of these features, only the membrane sterol and the wall separate a fungus from a human cell, and
+they are where most antifungal drugs act (see [Drug targets](#sec-fun-targets)). Antibacterial drugs
+aimed at the 70S ribosome or at peptidoglycan do not act on fungi.
+
+::: {.callout-tip collapse="true"}
+## Predict: will a drug that blocks the bacterial 70S ribosome stop *C. albicans* growing? (Click to check)
+No. *C. albicans* makes its proteins on 80S ribosomes, like human cells, so a drug aimed at the 70S
+ribosome does not stop it growing. A course of such a drug reduces the bacteria that live alongside
+the yeast and leaves the yeast unharmed, so the yeast can overgrow in their place (see [The defences
+that must fail](#sec-fun-defences)).
+:::
+
+### Growth forms {#sec-fun-forms}
+
+Fungi grow in two basic forms, and some switch between them. A **yeast** is a fungus that grows as
+single round or oval cells, which usually multiply by **budding**: a daughter cell swells out from the parent
+cell, receives a copy of the nucleus and separates. Budding in a yeast is cell division, and differs
+from the budding by which an enveloped virus leaves a cell (see [*How viruses are built and copy
+themselves*](../viruses/virus-structure-replication.qmd#sec-vstr-cycle)).
+
+A **mould** grows as **hyphae** (singular hypha), branching, tube-shaped filaments that extend at
+their tips and form a mat, like the fuzzy growth on mouldy bread. A mould reproduces by **spores**,
+small cells made in vast numbers on its hyphae and released into the air; a spore that lands somewhere
+suitable grows into a new mould. A fungal spore is a means of reproduction and spread. A bacterial
+endospore is a different structure: one bacterial cell makes one, as a dormant form that survives heat
+and chemicals (see [*How bacteria are built and get
+energy*](../bacteria/bacteria-build-energy.qmd#sec-bact-extras)).
+
+**Dimorphic fungi** grow as moulds in the environment and as yeasts at body temperature. Their spores
+are inhaled, and in the warmth of the lung they switch to yeast cells, which multiply in the tissues.
+
+::: {.concept-tree}
+[Growth forms of fungi]{.tree-title}
+
+- Fungi
+  - Single cells: yeasts, which multiply by budding (*C. albicans*)
+  - Branching filaments: moulds, whose hyphae release spores into the air
+  - A switch with temperature: dimorphic fungi, moulds in the environment and yeasts in the body
+:::
+
+*C. albicans* lives on body surfaces as a yeast, but when it invades tissue it forms filaments, which
+grow into the lining. Its change of form happens inside the body, from yeast on the surface to
+filaments in tissue, whereas a dimorphic fungus changes form between the environment and the body.
+
+::: {.example}
+Incubated at 37 °C in serum, conditions like those in the body, *C. albicans* begins to form filaments
+within a few hours.
+:::
+
+*C. albicans* is neither a mould nor a dimorphic fungus, so the clearest examples of these forms come
+from other fungi:
+
+::: {.example}
+*Aspergillus fumigatus* is a mould that grows on compost and decaying plants and releases spores so
+small and plentiful that everyone inhales them every day (see [*Yeasts, moulds and dimorphic
+fungi*](fungal-groups.qmd)).
+:::
+
+::: {.example}
+*Talaromyces marneffei*, a dimorphic fungus found in South-East Asia, grows as a mould in the
+environment and as yeast cells in human tissue, and causes disease mainly in people whose
+cell-mediated immunity has failed, as in advanced HIV infection (see [*Yeasts, moulds and dimorphic
+fungi*](fungal-groups.qmd)).
+:::
+
+### How fungi grow {#sec-fun-growth}
+
+Fungi cannot photosynthesise. They release enzymes that break down organic matter around them and
+absorb the small molecules that result, which is why most fungi live in soil and on decaying plants.
+
+Most fungi grow best below 37 °C, and many cannot grow at body temperature at all, which is one
+reason so few of the many fungal species cause human disease. The other is the
+defences of a healthy host, which kill most of the fungi that reach the tissues (see [The defences
+that must fail](#sec-fun-defences)).
+
+Fungi also grow more slowly than most bacteria. *C. albicans* forms visible colonies on agar in a day
+or two, but some moulds and dimorphic fungi take weeks, which is one reason fungal infection is slow
+to diagnose (see [Why fungal diagnosis is slow](#sec-fun-slow)).
+
+## Fungi and the host {#sec-fun-host}
+
+### Sources of infection {#sec-fun-sources}
+
+A fungal infection comes from one of three sources:
+
+::: {.concept-tree}
+[Sources of fungal infection]{.tree-title}
+
+- From the body
+  - The person's own microbiota: *C. albicans* in the gut, mouth and vagina
+- From outside the body
+  - The environment, usually inhaled as spores or small yeast cells from soil, decaying plants or
+    bird droppings: moulds, *Cryptococcus neoformans*, dimorphic fungi
+  - Contact with infected people or animals: dermatophytes
+:::
+
+Infection with any species of *Candida* is **candidiasis**. It is usually an
+**endogenous infection**, one caused by an organism the person already carries, and its most familiar
+form is **thrush**, candidiasis of the lining of the mouth or the vagina. Fungi from the environment are
+inhaled or, less often, enter through a wound in the skin. The **dermatophytes**, moulds that live on
+the keratin of skin, hair and nails, spread by contact with infected people or animals. Most fungal
+infections therefore come from the person's own microbiota or from the environment, and are not
+passed from person to person; dermatophytes are an exception (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)).
+
+*C. albicans* comes from the body, so the clearest examples of the other two sources come from other
+fungi:
+
+::: {.example}
+*Cryptococcus neoformans*, a yeast surrounded by a **capsule** (a polysaccharide layer outside the
+cell wall that resists phagocytosis), lives in soil contaminated with bird droppings, is inhaled, and
+in advanced HIV infection spreads in the blood to the brain and causes meningitis (see [*Yeasts,
+moulds and dimorphic fungi*](fungal-groups.qmd)).
+:::
+
+::: {.example}
+A child can catch ringworm, which is a dermatophyte infection of the skin despite its name, from an
+infected kitten or puppy (see [*Yeasts, moulds and dimorphic fungi*](fungal-groups.qmd)).
+:::
+
+::: {.callout-important}
+## Is thrush caught from someone else?
+Vaginal thrush affects the genital tract, so it is often taken to be a sexually transmitted
+infection. *C. albicans* is part of the microbiota of most people, however, and thrush is overgrowth
+of the person's own yeast when conditions change: after a course of antibacterial drugs, in pregnancy
+or in diabetes. Vaginal thrush is not regarded as a sexually transmitted infection.
+:::
+
+### The defences that must fail {#sec-fun-defences}
+
+Fungal infections range in depth from the surface of the body to its deepest organs:
+
+::: {.spectrum}
+[Depth of fungal infection]{.tree-title}
+
+- Superficial: the keratinised outer layer of the skin, hair and nails (ringworm)
+- Mucosal: the lining of the mouth, oesophagus or vagina (thrush)
+- Invasive: the blood, lungs, brain and other organs
+
+[Body surface]{.spectrum-end} [Deep organs]{.spectrum-end}
+:::
+
+Superficial infection occurs in healthy people: dermatophytes grow in the dead, keratinised outer
+layer of the skin, hair and nails, and rarely invade the living tissue beneath. Deeper infection
+follows the failure of one of four defences: intact skin and mucosa, the resident microbiota,
+neutrophils and cell-mediated immunity (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-factors)). The fungi that cause it are therefore
+mostly **opportunistic pathogens**, organisms of low virulence that cause disease when defences are
+impaired or when they reach a site they do not normally occupy (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-opportunism)).
+
+Neutrophils, the phagocytes of acute inflammation, engulf and kill yeast cells and spores, and attack
+hyphae, which are too large to engulf. **Cell-mediated immunity** is the defence by T cells against
+infected cells and against organisms that live inside host cells. Against fungi, CD4 T cells activate
+macrophages to kill the fungi they have engulfed, and strengthen the defence of the mucosa against
+*C. albicans*.
+
+Each defence that fails lets a different fungal infection through:
+
+| Defence that fails | What it normally does | The fungal infection that follows |
+|---|---|---|
+| Intact skin and mucosa | Keeps fungi on body surfaces out of the tissue and blood beneath | Bloodstream infection with *C. albicans* in a patient with a central venous catheter, a tube passed through the skin into a large vein |
+| The resident microbiota | Occupies attachment sites and consumes nutrients that *C. albicans* would need ([colonisation resistance](../foundations/host-microbe.qmd#sec-host-microbiota)) | Thrush of the vagina or mouth after a course of antibacterial drugs, which spare the yeast |
+| Neutrophils | Kill yeast cells and spores that reach the tissues, and attack hyphae | In **neutropenia**, an abnormally low neutrophil count, as after chemotherapy: *C. albicans* spreading from the gut through the blood to other organs; moulds invading the lungs |
+| Cell-mediated immunity | Holds *C. albicans* in check on the mucosa, and lets macrophages kill inhaled fungi | In advanced HIV infection: candidiasis of the mouth and oesophagus; meningitis from *Cryptococcus*; pneumonia from *Pneumocystis jirovecii* ([*Yeasts, moulds and dimorphic fungi*](fungal-groups.qmd)) |
+
+The two failures of immune defence give different patterns of candidiasis. In advanced HIV
+infection, as CD4 T cells are lost (see [*Viruses and the host*](../viruses/virus-host.qmd#sec-vhost-cd4)),
+*C. albicans* overgrows on the lining of the mouth and oesophagus but seldom enters the blood, because
+neutrophils still kill the yeast cells that reach the tissues. In neutropenia, yeast cells that cross
+the gut lining are not killed, and they spread in the blood to other organs. From the pattern of a
+fungal infection, we can therefore work out which defence has failed.
+
+Sort each infection below by the defence whose failure let it happen.
+
+<div data-island="sorter" data-src="/diagrams/fungal-defence-sorter.yml"></div>
+
+### How fungi cause damage {#sec-fun-damage}
+
+Fungi damage the host in three ways, which differ in how much of the damage comes from the fungus and
+how much from the host's response (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-drf)):
+
+| Pattern | Mechanism | Main source of damage | Example |
+|---|---|---|---|
+| Invasion | Yeast cells or hyphae grow into tissue and kill cells, and the inflammation they provoke adds to the damage | The fungus and the host response | *C. albicans* filaments growing into the lining of the mouth in thrush; mould hyphae growing into the lung and its blood vessels in neutropenia, so that the tissue those vessels supply becomes necrotic |
+| Allergy | An immune response to inhaled spores, or to a mould growing in the mucus of the airways, inflames and narrows the airways | The host response | Worsening asthma in a person allergic to mould spores |
+| Intoxication | A mould growing on stored food makes a toxin, which is later eaten; the mould does not infect the person | The fungus, through its toxin | **Aflatoxin**, made by moulds on stored grain and nuts, which damages the liver and, eaten over years, can lead to liver cancer |
+
+Invasion causes most serious fungal disease, and it depends on the failure of a defence. Allergy and
+aflatoxin, by contrast, harm people whose defences are intact. Aflatoxin poisoning is an intoxication,
+like the food poisoning caused by the toxin of *S. aureus* (see [*Gram-positive
+cocci*](../bacteria/gram-positive-cocci.qmd#sec-gpc-aureus)).
+
+## Finding fungi {#sec-fun-detect}
+
+### Methods that detect fungi {#sec-fun-methods}
+
+Fungi are detected by the kinds of method used for every microbe (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-kinds)), each reading a different property of
+the fungus:
+
+| Method | What it detects | What a result shows | Limits |
+|---|---|---|---|
+| Microscopy | Yeast cells, buds or hyphae in the sample; skin scrapings, hair and nail clippings are first cleared with alkali, which dissolves keratin and human cells but leaves the fungal wall intact | That a fungus is present, and its growth form, within an hour | Usually not the species; a negative result does not exclude infection |
+| Culture | Growth of the fungus on agar | The species, and the drugs it is susceptible to | Slow, from a day or two for yeasts to weeks for some moulds and dimorphic fungi |
+| Antigen test | Molecules shed into the blood or the cerebrospinal fluid (the fluid around the brain and spinal cord) from the fungal wall, or from the capsule of *Cryptococcus* | A fungus growing in the body, within hours, without a biopsy of the infected organ | A test for a molecule shared by many fungi, such as glucan, does not name the species |
+| Nucleic acid amplification test (NAAT) | Fungal DNA | Fungi that grow slowly or not at all in culture, such as *Pneumocystis*, within hours | Detects only the fungi it targets; DNA from fungi that merely colonise a surface also gives a positive result |
+
+::: {.example}
+On a Gram stain, *C. albicans* appears as purple oval cells several times the size of a bacterium,
+often with buds or short filaments (see [*Detecting bacteria and testing
+susceptibility*](../bacteria/detecting-bacteria.qmd#sec-dbac-microscopy)).
+:::
+
+Tests for the patient's antibodies (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-serology)) have a smaller place. The patients
+most at risk of invasive infection often make a weak antibody response, and many healthy people have
+antibodies to *C. albicans* because they carry it.
+
+### Why fungal diagnosis is slow {#sec-fun-slow}
+
+Invasive fungal infection is often diagnosed late, for four reasons:
+
+- Fungi grow slowly, and a fungal culture is kept for weeks before it is reported as negative.
+- Blood cultures are often negative in invasive infection with *C. albicans*, and moulds that invade
+  the lungs rarely grow from blood.
+- The infection lies deep in the lungs, the brain or other organs, and a sample of the infected tissue
+  needs a procedure that a very ill patient may not withstand.
+- *C. albicans* is part of the microbiota, so growing it from a swab, from sputum coughed up from the
+  airway or from urine does not show that it is causing disease. Proof comes from seeing a fungus invade tissue in a biopsy, or
+  from growing it from a site that is normally sterile, such as the blood.
+
+Because a delay in treatment can be fatal, patients at high risk, such as those with prolonged
+neutropenia, are often given antifungal drugs on suspicion, before the diagnosis is confirmed.
+
+## Treating fungal infections {#sec-fun-treat}
+
+### Drug targets {#sec-fun-targets}
+
+Antifungal drugs depend on **selective toxicity**: harming a microbe without harming the host, by
+acting on something the microbe has and the host lacks (see [*How bacteria are built and get
+energy*](../bacteria/bacteria-build-energy.qmd#sec-bact-glance)). In a fungus the targets are the two
+features that human cells lack, ergosterol and the wall:
+
+| Target | What human cells have instead | Drug class | How the drug acts |
+|---|---|---|---|
+| Ergosterol in the cell membrane | Cholesterol | Polyenes | Bind ergosterol and make the membrane leak; they also bind cholesterol, less strongly, which damages human cells, especially in the kidney |
+| An enzyme that makes ergosterol | A related enzyme that makes cholesterol, which the drugs block much less | Azoles | Stop the fungus making ergosterol, so its membrane is built with the wrong sterols and it stops growing |
+| The enzyme that makes glucan for the wall | No wall | Echinocandins | Weaken the wall, so that the fungal cell can burst by osmosis |
+
+::: {.example}
+An echinocandin weakens the wall of *C. albicans* until the yeast cells swell and burst, while the
+patient's own cells, which have no wall, have nothing for the drug to act on.
+:::
+
+### Why antifungal drugs are few {#sec-fun-few}
+
+Only a few classes of antifungal drug are used against invasive infection, compared with the many
+classes of antibacterial drug, and some of them harm the patient more than most antibacterial drugs
+do. Both facts follow from what a fungus shares with human cells. A fungus makes its proteins on 80S
+ribosomes and copies its DNA with enzymes much like those of human cells, so a drug that blocked these
+processes in the fungus would block them in the patient too. Ergosterol and cholesterol are close
+chemical relatives, so a drug that binds one can also bind the other, which is the source of the
+polyenes' toxicity. The wall has no counterpart in human cells, and the echinocandins, which act on
+it, cause few side effects.
+
+### Resistance {#sec-fun-resistance}
+
+Fungi become resistant to antifungal drugs by mutation and selection, as bacteria do (see [*How
+bacteria copy themselves and change*](../bacteria/bacterial-genetics.qmd#sec-gen-mutation)).
+Mutations that alter a drug's target enzyme, or that increase the pumps that expel the drug from the
+cell, arise at random in a large fungal population, and treatment selects the cells that carry them.
+
+::: {.example}
+Repeated courses of an azole for thrush in advanced HIV infection can select azole-resistant
+*C. albicans*, whose target enzyme binds the drug poorly or which pumps the drug out of the cell.
+:::
+
+Resistance becomes a problem beyond one patient when a resistant fungus spreads between patients,
+which *C. albicans* rarely does:
+
+::: {.example}
+*Candida auris*, a yeast that persists on patients' skin and on hospital surfaces, spreads between
+patients in hospitals, and it is often resistant to more than one class of antifungal drug (see
+[*Transmission, outbreaks and One Health*](../foundations/transmission-outbreaks.qmd#sec-trans-semmelweis)).
+:::
+
+## Check your understanding {#sec-fun-quiz}
+
+<div data-island="quiz" data-src="/quizzes/fungal-principles.quiz.yml"></div>
+
+## Review with flashcards {#sec-fun-cards}
+
+<div data-island="flashcards" data-src="/decks/fungal-principles.deck.yml"></div>

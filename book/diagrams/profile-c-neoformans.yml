@@ -1,0 +1,40 @@
+id: profile-c-neoformans
+name: "Cryptococcus neoformans"
+group: "Encapsulated yeast · from soil contaminated with bird droppings · meningitis when cell-mediated immunity fails"
+intro: "Predict two of the five slots. Most of what this yeast does follows from where it comes from and from one structure, its capsule."
+
+slots:
+  - slot: identity
+    entry: "A budding yeast surrounded by a thick polysaccharide capsule, which resists phagocytosis. Grows at body temperature."
+  - slot: lifestyle
+    entry: "Lives in soil contaminated with bird droppings, especially of pigeons. Inhaled in dust; not passed from person to person."
+  - slot: harm
+    predict:
+      stem: "The capsule is a thick polysaccharide layer around each yeast cell. What does it protect the yeast against?"
+      options:
+        - text: "Being engulfed by phagocytes"
+          correct: true
+          feedback: "The capsule hides the yeast's surface from phagocytes, so it survives in the alveoli and in the blood. The yeast also sheds capsule polysaccharide into the blood and cerebrospinal fluid, where an antigen test detects it."
+        - text: "Drugs that act on ergosterol in its membrane"
+          correct: false
+          feedback: "These drugs reach the membrane through the capsule and are used against this yeast. The capsule's main effect is on phagocytes, which find it hard to engulf."
+        - text: "The heat of the human body"
+          correct: false
+          feedback: "Growth at body temperature is a separate trait of the yeast. The capsule's effect is on phagocytes, which find it hard to engulf."
+    entry: "Inhaled into the lung, where cell-mediated immunity usually contains it. When that immunity fails, the yeast multiplies, spreads in the blood and reaches the meninges and brain, with the capsule protecting it from phagocytes on the way."
+  - slot: consequence
+    predict:
+      stem: "Who is most at risk of meningitis caused by *C. neoformans*?"
+      options:
+        - text: "A person with advanced HIV infection, who has lost most of their CD4 T cells"
+          correct: true
+          feedback: "CD4 T cells direct the macrophages that contain the yeast in the lung. When they are lost, the yeast multiplies, enters the blood and reaches the brain."
+        - text: "A healthy person who keeps pigeons"
+          correct: false
+          feedback: "Contact with pigeon droppings brings exposure, but in a healthy person cell-mediated immunity contains the inhaled yeast in the lung. Meningitis follows when that immunity fails."
+        - text: "A patient with neutropenia after chemotherapy"
+          correct: false
+          feedback: "Neutrophils matter most against moulds and invasive *Candida*. *C. neoformans* is held in check by cell-mediated immunity, so it is the loss of CD4 T cells that lets it spread."
+    entry: "Meningitis, with headache and fever that develop over days to weeks, in advanced HIV infection and in other failures of cell-mediated immunity, such as after an organ transplant. Capsule polysaccharide in the blood or cerebrospinal fluid is what the antigen test detects."
+  - slot: contrast
+    entry: "*Candida albicans*: also a budding yeast, but part of the body's own microbiota, with no capsule; causes thrush when the microbiota or a local defence changes, and bloodstream infection in hospital patients."

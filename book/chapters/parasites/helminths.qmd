@@ -1,16 +1,305 @@
 # Helminths
 
-> *Multicellular worms that, with few exceptions, do not multiply inside the human host, so the burden of worms, and the disease, depends on the amount of exposure.*
+> *A child who swallows a few roundworm eggs from the soil carries a few worms and usually stays well,
+> while a child who swallows many can carry enough to block the intestine. With few exceptions, worms
+> cannot multiply inside the human body, so the number of worms, and the disease they cause, depends on
+> how much exposure a person has had.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Sort the medically important helminths by body form and by the route by which they enter the body.
+- Explain why the number of worms, and the disease, depends on exposure, and how the host's response to
+  worms both attacks them and damages the host.
+- Trace the routes of *Ascaris lumbricoides* and of hookworms through the body, and relate each stage
+  to the harm it causes.
+- Explain how autoinfection lets *Strongyloides stercoralis* persist for decades, and why
+  corticosteroids can make it fatal.
+- Name the host, setting and route that let each main worm cause disease.
+- Tell hookworms from *S. stercoralis* by multiplication in the host, duration of infection and main
+  harm.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-helm-group)
+  - [The group in one sentence](#sec-helm-sentence): what every member shares
+  - [Sorting the group](#sec-helm-key): body form and route into the body
+  - [Worm burden and the host response](#sec-helm-burden): why the number of worms matters
+- [Main organisms](#sec-helm-main)
+  - [*Ascaris lumbricoides*](#sec-helm-ascaris): harm that grows with the number of worms
+  - [Hookworms](#sec-helm-hookworm): blood loss and anaemia
+  - [*Strongyloides stercoralis*](#sec-helm-strongyloides): a worm that multiplies in its host
+- [Contrast pair](#sec-helm-pairs)
+  - [Hookworms and *S. stercoralis*](#sec-helm-pair-hookworm-strongyloides)
+- [Beyond the main organisms](#sec-helm-beyond)
+  - [Supporting organisms](#sec-helm-supporting)
+  - [Later in the course](#sec-helm-later)
+:::
+
+## The group {#sec-helm-group}
+
+### The group in one sentence {#sec-helm-sentence}
+
+Helminths are multicellular worms that, with few exceptions, do not multiply inside the human host, so
+the burden of worms, and the disease, depends on the amount of exposure. Adult worms produce eggs, and
+the **larvae** (singular larva) that hatch from them are immature worms, which pass through several
+stages, often in soil, in water or in another animal, before they become adults. Most of the six
+questions have one answer for the whole group; its members differ mainly in body form and in the route
+by which they enter the body.
+
+| Question | Answer for the helminths |
 |---|---|
-| Learning objectives | Distinguish roundworms, tapeworms and flukes; relate worm burden to exposure; describe the immune response to helminths |
-| Main organisms | *Ascaris lumbricoides* (anchor); hookworms; *Strongyloides stercoralis*, an exception that can multiply in the host |
-| Supporting organisms | Tapeworms (*Taenia*); schistosomes; *Toxocara* |
-| Later in the course | Gastrointestinal block, public health and travel medicine |
-| Scenario questions | Which exposure best explains a described infection |
+| What is it built from? | A multicellular animal with tissues and organs, including nerves and muscles, inside a tough outer covering; the adults of most species are visible to the naked eye |
+| How does it get energy? | Its own metabolism, using nutrients it takes from the host: intestinal contents, blood or tissue |
+| How does it copy itself and change? | Adults produce eggs or larvae, which leave the host; with few exceptions the worms do not multiply inside the human host, so each adult comes from one egg or larva that entered |
+| Where does it live, and how does it spread? | Adults live mostly in the intestine, some in blood vessels or tissues; eggs or larvae leave in the faeces, or in urine, and most must develop in soil, in water or in another animal before they can infect; they enter by being swallowed or through the skin |
+| How does damage happen? | In proportion to the number of worms: blockage of the intestine or a duct, loss of blood and nutrients, and inflammation where larvae or eggs lodge in tissue, much of it from the host's response |
+| What does it have that my cells lack? | Worm-specific nerve and muscle ion channels, which drugs act on to paralyse the worm, so that intestinal worms are expelled; and worm tubulin, which other drugs bind |
+
+Many helminths spend part of their life cycle outside the human body, and the cycle sets where each
+worm is caught and which stage the laboratory finds (see [*Life cycles and vectors*](life-cycles.qmd)).
+Adult worms in the intestine release eggs or larvae into the faeces, where microscopy of a stool sample
+finds them. Larvae that stay in the tissues release nothing into the faeces, so the infection is found
+by **serology**, the detection of a patient's antibodies as evidence of exposure (see
+[*Detecting and controlling microbes*](../foundations/detection-control.qmd#sec-det-serology)).
+
+### Sorting the group {#sec-helm-key}
+
+Body form separates three groups of helminths, which differ in structure and in life cycle:
+
+- **Roundworms** (nematodes) are cylindrical, unsegmented worms with a gut that runs from mouth to
+  anus; in most species, male and female worms are separate.
+- **Tapeworms** (cestodes) are flat, ribbon-like worms made of a chain of segments; they have no gut,
+  and absorb nutrients through their surface.
+- **Flukes** (trematodes) are unsegmented worms that attach with suckers, and every fluke passes part
+  of its life cycle in a snail; most are flat and leaf-shaped, but schistosomes are long and thin.
+
+The route into the body then separates the organisms within each group:
+
+::: {.concept-tree}
+[Sorting the helminths by body form and route into the body]{.tree-title}
+
+- Roundworms (nematodes)
+  - Eggs swallowed from soil
+    - Matures in the human intestine: *Ascaris lumbricoides*
+    - Cannot mature in humans, so its larvae wander through the tissues: *Toxocara*, from the faeces of
+      dogs and cats
+  - Larvae through the skin, from soil
+    - Cannot multiply in the host: hookworms
+    - Can multiply in the host: *Strongyloides stercoralis*
+- Tapeworms (cestodes)
+  - Larval cysts eaten in undercooked pork or beef: *Taenia*, an adult tapeworm in the intestine
+  - Eggs of the pork tapeworm swallowed from human faeces: larval cysts in the tissues
+- Flukes (trematodes)
+  - Larvae in fresh water, through the skin: schistosomes
+:::
+
+The route into the body predicts where a worm is caught, who is exposed and what prevents infection:
+
+| Route into the body | Where it is caught | Who is most exposed | Prevented by |
+|---|---|---|---|
+| Eggs swallowed | Soil, food, water or hands contaminated with human faeces, or with dog and cat faeces for *Toxocara* | Children, who play on the ground and put their hands in their mouths | Toilets and sewers; washing hands and food |
+| Larvae through the skin | Warm, moist soil contaminated with human faeces | People who walk barefoot or farm without footwear | Footwear; toilets and sewers |
+| Larval cysts in meat | Undercooked pork or beef from animals that swallowed tapeworm eggs in human faeces | People who eat undercooked pork or beef | Cooking meat thoroughly; toilets and sewers |
+| Larvae in fresh water | Lakes, rivers and irrigation channels where the snails live | People who swim, wash, fish or farm in fresh water | Avoiding contact with the water; toilets and sewers, which keep eggs out of it |
+
+Work through the key from the shape of the body, and read at each branch what the trait predicts about
+the worm.
+
+<div data-island="sorting-key" data-src="/diagrams/helminth-key.yml"></div>
+
+### Worm burden and the host response {#sec-helm-burden}
+
+The **worm burden** is the number of worms a person carries, and for most helminths it decides whether
+disease follows. Each adult worm develops from one egg or larva that entered the body, so the burden
+rises with every exposure and is set by the number of eggs or larvae received (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-factors)). Three consequences follow:
+
+- Light infections usually cause no symptoms, and in a community most infected people carry only a few
+  worms, while a small number of people carry most of them.
+- Heavy burdens build up only with repeated exposure, and in children they harm growth and nutrition.
+- Without new exposure the burden falls as the adult worms die, so treating a whole community, or all
+  its school-age children, at regular intervals keeps burdens, and disease, low even though reinfection
+  continues (see [*Life cycles and vectors*](life-cycles.qmd)).
+
+A worm is far too large for a phagocyte to engulf, and the host attacks it in another way.
+**Eosinophils** are white blood cells that attack parasites too large to engulf: they bind to the
+worm's surface and release toxic proteins from their granules onto it. When worms migrate through
+tissue, as larvae do when they pass through the lungs, the blood shows **eosinophilia**, a raised count
+of eosinophils.
+
+The response that fights worms also causes some of the damage. It is the same kind of response that
+causes allergy, and it produces similar symptoms: larvae passing through the lungs provoke inflammation
+with cough and wheeze. Around eggs or larvae lodged in tissue, the response walls them off with
+inflammation that heals by scarring. As the damage-response framework predicts, the damage can come
+from the worm, from the host's response, or from both (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-drf)):
+
+::: {.spectrum}
+[Main source of damage]{.tree-title}
+
+- Hookworms: the worms feed on blood from the lining of the intestine
+- *A. lumbricoides*: a mass of adult worms blocks the intestine, and larvae in the lungs provoke
+  inflammation
+- Schistosomes: the response to eggs trapped in the liver or bladder causes scarring
+
+[The worm itself]{.spectrum-end} [The host's response]{.spectrum-end}
+:::
+
+## Main organisms {#sec-helm-main}
+
+### *Ascaris lumbricoides*: harm that grows with the number of worms {#sec-helm-ascaris}
+
+*A. lumbricoides* is the largest roundworm of the human intestine, and it is common wherever human
+faeces contaminate soil. Its eggs need weeks in warm, moist soil before they can infect; once swallowed,
+they release larvae that pass through the liver and lungs before maturing in the small intestine (see
+[*Life cycles and vectors*](life-cycles.qmd)). The adults live for a year or two and do not multiply,
+so each worm in a child's intestine marks one egg swallowed.
+
+Most infections cause no symptoms, and the harm depends on the number of worms and on where they go.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Inflammation in the lungs | Larvae break out of the lung capillaries into the alveoli, and the response to them, rich in eosinophils, inflames the lungs | Cough and wheeze in a child, with eosinophilia, one to two weeks after swallowing eggs and before any eggs appear in the stool |
+| Blockage of the intestine | A heavy burden of adult worms forms a tangled mass that blocks the small intestine | Colicky abdominal pain, vomiting and a swollen abdomen in a heavily infected child |
+| Impaired nutrition and growth | A heavy, repeated burden reduces the nutrients a child takes in and absorbs | Poor growth in a child in a community without toilets or sewers |
+| Blockage of the bile duct | An adult worm crawls from the small intestine into the bile duct, which carries bile from the liver to the intestine, and blocks it | Severe pain in the upper abdomen from a worm lodged in the duct |
+
+Three conditions let *A. lumbricoides* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A child who swallows eggs again and again, in a community where many people carry the worm | Each egg gives at most one worm, so a heavy burden builds up only with repeated exposure |
+| Where (setting) | Soil contaminated with human faeces, where there are no toilets or sewers | Eggs need weeks in warm, moist soil before they can infect, and their thick shell lets them survive there for months |
+| How (route) | Swallowed on food, water or hands; then through the liver and lungs to the small intestine | Larvae hatch in the intestine, travel in the blood to the lungs, are coughed up and swallowed, and mature in the small intestine |
+
+Step through the route *A. lumbricoides* takes, from an egg in the soil to an adult worm in the small
+intestine.
+
+<div data-island="body-map" data-src="/diagrams/route-a-lumbricoides.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/profile-a-lumbricoides.yml"></div>
+
+### Hookworms: blood loss and anaemia {#sec-helm-hookworm}
+
+Two species of hookworm infect humans, *Necator americanus* and *Ancylostoma duodenale*, and they cause
+the same disease. Hookworms are common in rural areas of the tropics and subtropics, including
+South-East Asia, where people walk barefoot on soil contaminated with human faeces. Their eggs hatch in
+the soil, and the larvae develop there into an infective stage that burrows through the skin, usually
+of the feet. The larvae travel in the blood to the lungs, are coughed up and swallowed, and mature in
+the small intestine, where the adults attach to the lining with their mouths and feed on blood.
+
+Each worm takes a little blood, but it releases substances that stop the blood clotting, so the wound
+keeps bleeding. In heavy infection the loss removes iron faster than the diet replaces it, and the
+result is iron-deficiency **anaemia**, a low concentration of haemoglobin in the blood. Children, whose growth
+demands iron, and pregnant women, whose need for iron rises, are harmed most.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Itching where the larvae enter | Larvae burrowing through the skin provoke inflammation at the site of entry | An itchy rash on the feet after walking barefoot on contaminated soil |
+| Iron-deficiency anaemia | Adults feed on blood from the lining of the small intestine and stop it clotting; the steady loss of blood removes iron faster than the diet replaces it | A pale, tired schoolchild in a farming village where children go barefoot |
+
+Three conditions let hookworms cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A child, whose growth demands iron, or a pregnant woman, whose need for iron rises; a poor diet makes both worse | The worms remove iron faster than the diet replaces it |
+| Where (setting) | Warm, moist, shaded soil contaminated with human faeces, where there are no toilets or sewers | Eggs hatch in the soil, and the larvae develop there into the infective stage |
+| How (route) | Through the skin, usually of bare feet; then in the blood to the lungs, up the airway and down to the small intestine | Larvae burrow through the skin and are carried to the lungs; swallowed, they mature into adults that attach to the intestinal lining and feed on blood |
+
+Step through the route hookworms take, from the soil to the small intestine.
+
+<div data-island="body-map" data-src="/diagrams/route-hookworm.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/profile-hookworm.yml"></div>
+
+### *Strongyloides stercoralis*: a worm that multiplies in its host {#sec-helm-strongyloides}
+
+*S. stercoralis* lives in warm, moist soil in the tropics and subtropics, including South-East Asia, and
+its larvae enter through the skin as hookworm larvae do. Female worms live in the lining of the small
+intestine, and their eggs hatch there, so larvae, not eggs, pass into the faeces.
+
+Unlike hookworms and *A. lumbricoides*, *S. stercoralis* can complete its life cycle without leaving
+the host. Some larvae mature into the infective stage inside the intestine and burrow back in through
+its wall or through the skin around the anus, reinfecting the same person: **autoinfection**. A few
+worms can therefore persist for decades, long after the person has left the place where the infection
+was caught, usually with few or no symptoms.
+
+The host's defences keep the number of larvae low. **Corticosteroids**, drugs that suppress
+inflammation and immune responses, remove that control. Autoinfection speeds up, and the result is
+**hyperinfection**, a great rise in the number of larvae, which swarm through the wall of the intestine
+and the lungs and can spread to other organs. As they cross the wall of the intestine they carry its
+bacteria into the blood, which can lead to bloodstream infection and meningitis, and hyperinfection can
+be fatal. People from regions where the worm is common, including South-East Asia, may therefore be
+tested for it, and treated, before their immunity is suppressed. Larvae appear in the faeces in small
+numbers and irregularly, so a single stool sample can miss them, and serology is often used instead.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Long-lasting infection with few worms | Autoinfection keeps a few worms going for decades, held in check by the host's defences | An itchy, raised line that moves across the skin of the buttocks within hours, as larvae migrate through it, in a man who left the tropics decades ago |
+| Hyperinfection | Corticosteroids suppress the defences that keep larvae few; larvae multiply, cross the wall of the intestine in huge numbers and carry bacteria from the intestine into the blood | Fever, breathlessness and bacteria from the intestine in the blood weeks after corticosteroids were started, in a woman who grew up in South-East Asia |
+
+Three conditions let *S. stercoralis* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A person who carries the worm, often unaware of it, and is given corticosteroids or otherwise has suppressed immunity | The defences that keep autoinfection in check are suppressed, so the number of larvae rises |
+| Where (setting) | Warm, moist soil contaminated with human faeces, in the tropics and subtropics, including South-East Asia, sometimes decades earlier | Autoinfection keeps the infection going long after the person has left |
+| How (route) | Through the skin from soil; then, again and again, through the wall of the intestine or the skin around the anus | Larvae mature inside the intestine and reinfect the same person without leaving the body |
+
+Step through the two routes *S. stercoralis* takes: the usual infection, kept going by autoinfection,
+and hyperinfection after corticosteroids.
+
+<div data-island="body-map" data-src="/diagrams/route-s-stercoralis.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/profile-s-stercoralis.yml"></div>
+
+## Contrast pair {#sec-helm-pairs}
+
+### Hookworms and *S. stercoralis* {#sec-helm-pair-hookworm-strongyloides}
+
+Both are roundworms whose larvae burrow through the skin from soil, and both live as adults in the
+small intestine. Compare them feature by feature before reading the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-hookworm-strongyloides.yml"></div>
+
+## Beyond the main organisms {#sec-helm-beyond}
+
+### Supporting organisms {#sec-helm-supporting}
+
+| Organism | How it is caught | What separates it | Why it matters |
+|---|---|---|---|
+| *Taenia*: *Taenia solium*, the pork tapeworm, and *Taenia saginata*, the beef tapeworm | Eating larval cysts in undercooked pork or beef | A tapeworm: the adult lives in the human intestine, usually with few symptoms, and segments full of eggs pass in the faeces | **Cysticercosis**, infection of the tissues with larval cysts, follows when eggs of the pork tapeworm are swallowed, from the faeces of a person who carries the adult worm; in the brain the cysts can cause seizures |
+| Schistosomes (*Schistosoma*) | Larvae released by freshwater snails enter through the skin of people who swim, wash or work in fresh water | Flukes; the adults live in the veins of the intestine or the bladder, and their eggs must cross the tissues to leave in the faeces or urine | Eggs trapped in the tissues, or carried in the blood to the liver, provoke inflammation that heals by scarring, in the liver or the bladder; most of the damage comes from the host's response |
+| *Toxocara* | Young children swallow eggs from soil contaminated with the faeces of dogs and cats | Roundworms of dogs and cats; in humans the larvae hatch but cannot mature, so they wander through the tissues and no eggs appear in the faeces | Larvae in the liver, the lungs or the eye provoke inflammation, and in the eye they can damage sight; serology detects the infection |
+
+::: {.callout-important}
+## Do cysts of the pork tapeworm in the brain come from eating pork?
+Cysts in the brain are often blamed on undercooked pork, because the pork tapeworm is caught from pork,
+and the cysts in the brain are the same larval stage that infected pork carries. Eating those cysts,
+however, gives a person an adult tapeworm in the intestine. Cysts form in human tissues only when the
+tapeworm's eggs are swallowed, and the eggs come from the faeces of a person who carries the adult
+worm, on unwashed hands or in food that person has prepared. A person who has never eaten pork can
+therefore develop cysts in the brain, and a person who carries the adult worm can swallow its eggs and
+infect themselves.
+:::
+
+### Later in the course {#sec-helm-later}
+
+| Organism | Where it comes up again |
+|---|---|
+| *A. lumbricoides* | Gastroenterology (blockage of the intestine and the bile duct); public health and school deworming |
+| Hookworms | Haematology (iron-deficiency anaemia); public health and school deworming |
+| *S. stercoralis* | Care before immunosuppression (testing and treatment before corticosteroids or an organ transplant) |
+| *Taenia* | Neurology (seizures from cysts in the brain); food safety |
+| Schistosomes | Travel medicine (swimming in fresh water); gastroenterology and urology (scarring of the liver and the bladder) |
+| *Toxocara* | Paediatrics and ophthalmology (larvae in the eye) |
+
+## Check your understanding {#sec-helm-quiz}
+
+<div data-island="quiz" data-src="/quizzes/helminths.quiz.yml"></div>
+
+## Review with flashcards {#sec-helm-cards}
+
+<div data-island="flashcards" data-src="/decks/helminths.deck.yml"></div>

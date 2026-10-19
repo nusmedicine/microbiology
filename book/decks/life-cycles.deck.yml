@@ -1,0 +1,45 @@
+id: life-cycles
+title: "Flashcards: life cycles and vectors"
+intro: "Answer each card from the parasite's life cycle. Say the answer before you check it."
+
+cards:
+  - id: lcd1
+    kind: apart
+    front: "Protozoa versus helminths: which multiply inside the human host, and what follows?"
+    back: "Protozoa multiply by repeated division, so a small inoculum can become a large infection. Helminths, with few exceptions, do not, so the number of worms reflects how many eggs or larvae entered the body."
+  - id: lcd2
+    kind: apart
+    front: "Definitive host versus intermediate host?"
+    back: "The parasite reproduces sexually in its definitive host; in an intermediate host it develops or multiplies without reproducing sexually. For *Plasmodium falciparum*, the mosquito is the definitive host and humans are the intermediate host."
+  - id: lcd3
+    kind: apart
+    front: "Biological versus mechanical vector?"
+    back: "In a biological vector the parasite develops, and cannot be passed on until it has done so, as *P. falciparum* develops in the mosquito. A mechanical vector, such as a housefly, carries eggs or cysts on its body unchanged."
+  - id: lcd4
+    kind: how
+    front: "How does *Plasmodium falciparum* get from a mosquito bite to a fever?"
+    back: "The bite injects sporozoites, which travel to the liver and multiply there for about a week without symptoms. New parasites then invade red cells, multiply and burst them in repeated cycles, and the host's response to material from the burst cells causes fever."
+  - id: lcd5
+    kind: how
+    front: "How can drugs act on parasites without harming the patient?"
+    back: "They act on what the parasite has and human cells lack: the folate synthesis of *P. falciparum* (human cells take folate from the diet), its packing of haem into harmless crystals, and the worm-specific nerve and muscle channels and tubulin of helminths."
+  - id: lcd6
+    kind: how
+    front: "How does *Ascaris lumbricoides* get from soil to the small intestine?"
+    back: "Swallowed eggs hatch in the gut. The larvae cross the gut wall, travel through the liver to the lungs, are coughed up and swallowed, and mature into adults in the small intestine."
+  - id: lcd7
+    kind: why
+    front: "Why can *Ascaris lumbricoides* not pass directly from one person to another?"
+    back: "Freshly passed eggs are not yet infective. They need weeks in warm, moist soil before they can infect, so people are infected from soil contaminated with faeces."
+  - id: lcd8
+    kind: why
+    front: "Why can a child coughing from *Ascaris lumbricoides* larvae in the lungs have no eggs in the stool?"
+    back: "Eggs come only from adult worms in the small intestine, which begin to lay two to three months after the eggs were swallowed. During the lung migration there is nothing yet to find in the stool."
+  - id: lcd9
+    kind: why
+    front: "Why is *Toxocara* infection detected by serology instead of stool microscopy?"
+    back: "*Toxocara* larvae wander through human tissues but cannot mature in a human, so no adults lay eggs. With nothing in the stool, the test looks for the patient's antibodies."
+  - id: lcd10
+    kind: why
+    front: "Why does treating whole school-age populations for worms reduce disease, and why must it be repeated?"
+    back: "Worms do not multiply in the host, so removing most of them removes most of the harm. Treatment does not reach the eggs in the soil, so where sanitation is unchanged the children are reinfected."

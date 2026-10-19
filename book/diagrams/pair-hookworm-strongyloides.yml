@@ -1,0 +1,74 @@
+id: pair-hookworm-strongyloides
+title: "Contrast pair: two worms that enter through the skin"
+intro: "Both are roundworms whose larvae burrow through the skin from soil, and both live as adults in the small intestine. Read across and find the feature that best tells them apart."
+
+a:
+  name: "Hookworms"
+b:
+  name: "Strongyloides stercoralis"
+
+rows:
+  - feature: "How it enters"
+    a: "Larvae from soil burrow through the skin, usually of bare feet"
+    b: "Larvae from soil burrow through the skin, usually of bare feet"
+    separates: false
+  - feature: "Where the adult worms live"
+    a: "Small intestine, attached to its lining"
+    b: "Small intestine, within its lining"
+    separates: false
+  - feature: "What leaves in the faeces"
+    a: "Eggs, which hatch in soil"
+    b: "Larvae, because the eggs hatch inside the gut"
+    separates: true
+  - feature: "Multiplication in the host"
+    a: "None: each adult comes from one larva that entered from soil"
+    b: "Larvae mature in the gut and reinfect the same person (autoinfection)"
+    separates: true
+  - feature: "How long infection lasts"
+    a: "Until the adult worms die, within a few years, unless the person is reinfected from soil"
+    b: "Decades, even after the person has left the region where the infection was caught"
+    separates: true
+  - feature: "Main harm"
+    a: "Iron-deficiency anaemia from loss of blood, worst in children and pregnant women"
+    b: "Usually few symptoms; overwhelming infection when immunity is suppressed"
+    separates: true
+  - feature: "Effect of corticosteroids"
+    a: "No rise in worm numbers: without new exposure the burden cannot grow"
+    b: "Hyperinfection: larvae multiply, swarm through the body and carry gut bacteria into the blood"
+    separates: true
+
+question:
+  stem: "Both worms enter through the skin from soil and live in the small intestine. Which feature best tells them apart?"
+  options: [0, 1, 3]
+  answer: 3
+  feedback: >
+    Multiplication in the host. Entry through the skin and the site of the adult worms are shared, so
+    neither tells them apart. Only *S. stercoralis* can complete its cycle inside the host, and that one
+    difference explains why its infection lasts for decades and why corticosteroids can make it fatal.
+
+principle: >
+  A worm that cannot multiply inside the host can only be as numerous as the larvae that entered, so
+  hookworm disease follows exposure, and the infection ends when the adult worms die. *S. stercoralis*
+  can complete its cycle without leaving the host: larvae that mature in the gut reinfect the same
+  person. A few worms can therefore persist for decades, and when corticosteroids suppress the defences
+  that keep the larvae few, their number can rise without any new exposure.
+
+sort:
+  - text: "A pale, tired child with iron-deficiency anaemia, in a village where children go barefoot"
+    answer: a
+    why: "Blood lost to adult worms in the small intestine: hookworms."
+  - text: "Larvae, not eggs, in a stool sample"
+    answer: b
+    why: "Its eggs hatch inside the gut, so larvae leave in the faeces: *S. stercoralis*."
+  - text: "Infection found in a man who left the tropics 50 years ago"
+    answer: b
+    why: "Autoinfection keeps the cycle going for decades: *S. stercoralis*."
+  - text: "Every adult worm came from a larva that hatched in soil"
+    answer: a
+    why: "No multiplication in the host, so the burden reflects exposure: hookworms."
+  - text: "Gut bacteria in the blood weeks after corticosteroids were started"
+    answer: b
+    why: "Hyperinfection carries gut bacteria into the blood: *S. stercoralis*."
+  - text: "The infection ends within a few years once the person stops walking barefoot on contaminated soil"
+    answer: a
+    why: "Without new larvae from soil, the burden falls as the adult worms die: hookworms."

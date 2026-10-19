@@ -1,0 +1,45 @@
+id: fungal-groups
+title: "Flashcards: yeasts, moulds and dimorphic fungi"
+intro: "Explain each answer from where the fungus comes from and which defence must fail. Say the answer before you check it."
+
+cards:
+  - id: fgd1
+    kind: apart
+    front: "Yeast versus mould versus dimorphic fungus?"
+    back: "A yeast is a single cell that reproduces by budding. A mould grows as branching hyphae that form a mat and release spores into the air. A dimorphic fungus grows as a mould in the environment and as a yeast at body temperature."
+  - id: fgd2
+    kind: why
+    front: "Why can a course of antibacterial drugs lead to thrush?"
+    back: "The drugs do not act on fungi. They remove resident bacteria that compete with *C. albicans* for space and nutrients on the mucosa of the mouth and vagina, and the yeast the person already carries multiplies in their place."
+  - id: fgd3
+    kind: how
+    front: "How does *Candida albicans* reach the blood of a patient in intensive care?"
+    back: "From the patient's own gut, where broad-spectrum antibacterial drugs have let it multiply, across the gut wall; or from the skin along a central venous catheter, on which it forms a biofilm."
+  - id: fgd4
+    kind: why
+    front: "Why does prolonged neutropenia open the way to invasive aspergillosis?"
+    back: "Macrophages engulf most inhaled spores, but spores that germinate grow into hyphae, which are too large to engulf and are attacked by neutrophils. Without neutrophils, the hyphae grow through the lung and into its blood vessels."
+  - id: fgd5
+    kind: apart
+    front: "The three patterns of disease caused by *Aspergillus fumigatus*: which host gets each?"
+    back: "Allergy that makes asthma harder to control, in a person with asthma. A fungus ball (aspergilloma), in a person with a cavity left in the lung by earlier disease such as tuberculosis. Invasive aspergillosis, in a person with prolonged neutropenia."
+  - id: fgd6
+    kind: how
+    front: "How does invasive aspergillosis damage the lung, and how does it reach the brain?"
+    back: "Hyphae grow into the walls of blood vessels, which clot, so the tissue they supply becomes necrotic. Fragments of hyphae carried in the blood reach other organs, including the brain."
+  - id: fgd7
+    kind: why
+    front: "Why does *Cryptococcus neoformans* cause meningitis in advanced HIV infection but rarely in healthy people?"
+    back: "Cell-mediated immunity, directed by CD4 T cells, contains the inhaled yeast in the lung. When CD4 T cells are lost, the yeast multiplies, enters the blood, where its capsule protects it from phagocytes, and reaches the meninges and brain."
+  - id: fgd8
+    kind: how
+    front: "How does the laboratory detect *C. neoformans* in a person with meningitis?"
+    back: "An antigen test detects the capsule polysaccharide that the yeast sheds into the blood and cerebrospinal fluid. Under the microscope, cerebrospinal fluid mixed with India ink shows the capsule as a clear halo around each yeast."
+  - id: fgd9
+    kind: apart
+    front: "*Candida albicans* versus *Cryptococcus neoformans*?"
+    back: "Both are budding yeasts. *C. albicans* lives on the body, has no capsule, and causes thrush and bloodstream infection when the microbiota or a barrier changes. *C. neoformans* comes from soil contaminated with bird droppings, has a capsule, and causes meningitis when cell-mediated immunity fails."
+  - id: fgd10
+    kind: why
+    front: "Why do drugs that act on ergosterol fail against *Pneumocystis jirovecii*?"
+    back: "Its membrane contains cholesterol in place of ergosterol, so the drugs have nothing to act on."

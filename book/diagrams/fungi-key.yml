@@ -1,0 +1,65 @@
+id: fungi-key
+title: "Sorting the medically important fungi"
+intro: "Growth form, then where the fungus comes from, separates the group. Pick a branch at each step and read what each trait predicts as well as where it leads."
+start: form
+
+nodes:
+  - id: form
+    question: "What form does the fungus take?"
+    options:
+      - label: "A yeast: single cells that bud"
+        meaning: "Yeasts multiply as single cells, and in a sample they appear as round or oval budding cells. Single cells that reach the blood are carried to distant organs, such as the eye, the heart valves or the brain."
+        next: yeast
+      - label: "A mould: branching hyphae that release spores"
+        meaning: "A mould forms a mat of hyphae and releases spores, so infection starts where the spores land: in the lung when they are inhaled, or in the skin, hair and nails after contact."
+        next: mould
+      - label: "A mould in the environment and a yeast at body temperature"
+        meaning: "A dimorphic fungus. Most dimorphic fungi live in the environment of a particular region and are acquired by inhaling their spores there, so where a person has lived or travelled predicts the risk. They spread through the body when cell-mediated immunity fails."
+        next: t-marneffei
+      - label: "An unusual fungus that cannot be grown in routine culture"
+        meaning: "It lives in the lungs, and its membrane contains cholesterol in place of ergosterol, so drugs that act on ergosterol do not work against it. It causes disease when cell-mediated immunity fails."
+        next: p-jirovecii
+  - id: yeast
+    question: "Where does the yeast come from?"
+    options:
+      - label: "The body's own microbiota"
+        meaning: "The yeast is already on the mucosa and skin, so disease follows a change in the host: antibacterial drugs that remove competing bacteria, a catheter that crosses the skin, or a local defence that fails."
+        next: c-albicans
+      - label: "Soil contaminated with bird droppings"
+        meaning: "It is inhaled in dust into the lung, where a polysaccharide capsule resists phagocytes. Cell-mediated immunity contains it; when that immunity fails, it spreads in the blood to the brain."
+        next: c-neoformans
+  - id: mould
+    question: "Where does the mould grow in the body?"
+    options:
+      - label: "In the lung, from spores in the air"
+        meaning: "The spores are small enough to reach the alveoli and are inhaled every day. Macrophages and neutrophils clear them, so the disease depends on the host: allergy in asthma, a fungus ball in an old cavity, or invasion in prolonged neutropenia."
+        next: a-fumigatus
+      - label: "In the keratin of the skin, hair and nails"
+        meaning: "It feeds on keratin in dead layers of cells and does not usually invade living tissue, so infection stays at the surface. No failure of defence is needed: healthy people are infected by contact with infected people, animals or soil."
+        next: dermatophytes
+
+leaves:
+  - id: c-albicans
+    name: "*Candida albicans*"
+    tag: main
+    blurb: "Carried by most healthy people on the mucosa of the mouth, gut or vagina, or on the skin. Causes thrush when the microbiota or local defences change, and bloodstream infection (candidaemia) in hospital patients with a central venous catheter or after broad-spectrum antibacterial drugs."
+  - id: c-neoformans
+    name: "*Cryptococcus neoformans*"
+    tag: main
+    blurb: "An encapsulated yeast from soil contaminated with bird droppings, inhaled in dust. Usually contained in the lung; in advanced HIV infection it spreads in the blood to the brain and causes meningitis. The antigen test detects its capsule polysaccharide."
+  - id: a-fumigatus
+    name: "*Aspergillus fumigatus*"
+    tag: main
+    blurb: "A mould whose spores are in the air everywhere. Three patterns, set by the host: allergy that worsens asthma, a fungus ball in an old cavity in the lung, and invasive infection of the lung and its blood vessels in prolonged neutropenia."
+  - id: dermatophytes
+    name: "Dermatophytes"
+    tag: supporting
+    blurb: "Moulds that live on keratin and cause ringworm (tinea) of the skin, hair and nails. Passed on by contact with infected people, animals or soil."
+  - id: t-marneffei
+    name: "*Talaromyces marneffei*"
+    tag: supporting
+    blurb: "A dimorphic fungus of South-East Asia and southern China. In advanced HIV infection it spreads through the body, with fever and skin lesions."
+  - id: p-jirovecii
+    name: "*Pneumocystis jirovecii*"
+    tag: supporting
+    blurb: "Causes pneumonia in advanced HIV infection and other failures of cell-mediated immunity. Has no ergosterol, so drugs that act on ergosterol do not work against it, and cannot be grown in routine culture."

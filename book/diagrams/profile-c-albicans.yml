@@ -1,0 +1,40 @@
+id: profile-c-albicans
+name: "Candida albicans"
+group: "Yeast · part of the body's own microbiota · disease when the microbiota or a local defence changes"
+intro: "Predict two of the five slots. Most of what this yeast does follows from where it lives: on the person it infects."
+
+slots:
+  - slot: identity
+    entry: "A yeast: single eukaryotic cells that reproduce by budding, with a wall of chitin and glucan and ergosterol in the membrane. Forms filaments when it invades tissue."
+  - slot: lifestyle
+    predict:
+      stem: "A woman develops vaginal thrush after a course of antibacterial drugs, and a patient in intensive care develops a bloodstream infection with the same yeast. Neither has been near anyone with a *Candida* infection. Where did the yeast most likely come from?"
+      options:
+        - text: "Their own bodies: most healthy people carry it on the mucosa or skin"
+          correct: true
+          feedback: "Most *Candida* infections are endogenous. The yeast was already there, and disease followed a change in the host, such as antibacterial drugs or a catheter, without any new exposure."
+        - text: "Soil or bird droppings, inhaled in dust"
+          correct: false
+          feedback: "That is the source of *Cryptococcus neoformans*, whose infection starts in the lung. *C. albicans* lives on the body, and its infections start where it already lives."
+        - text: "Spores in the air of the hospital"
+          correct: false
+          feedback: "Airborne spores are how moulds such as *Aspergillus fumigatus* arrive. *C. albicans* does not reach people through the air; it is already on their mucosa and skin."
+    entry: "Carried by most healthy people on the lining of the mouth, gut or vagina, or on the skin, held in check by the resident bacteria, an intact epithelium, cell-mediated immunity and neutrophils. Most infections are endogenous: they come from the person's own yeast."
+  - slot: harm
+    entry: "Multiplies when the resident bacteria are removed or a local defence fails, and its filaments invade the surface of the epithelium: thrush of the mouth or vagina. Across the gut wall or along a central venous catheter, on which it forms a biofilm, it reaches the blood (candidaemia) and can settle in the eye and on the heart valves."
+  - slot: consequence
+    predict:
+      stem: "A patient in intensive care with a central venous catheter has had broad-spectrum antibacterial drugs for ten days and still has a fever. Why could *C. albicans* be the cause?"
+      options:
+        - text: "The drugs removed competing bacteria, and the catheter gave the yeast a way into the blood"
+          correct: true
+          feedback: "Both opportunities are present. Antibacterial drugs do not act on fungi and let the yeast multiply in the gut, and a catheter crosses the skin and carries a biofilm of yeast. A fever that continues despite antibacterial drugs fits an organism they do not act on."
+        - text: "The antibacterial drugs suppressed the patient's cell-mediated immunity"
+          correct: false
+          feedback: "These drugs act by killing bacteria, and that is the change that matters: with the competing bacteria gone, the yeast multiplies, and the catheter gives it a way into the blood."
+        - text: "The yeast was picked up from another patient's hands"
+          correct: false
+          feedback: "Spread on hands can happen, but most bloodstream infections with *C. albicans* come from the patient's own gut or skin, once drugs and a catheter have given the yeast its opening."
+    entry: "Thrush in infants, in people given antibacterial drugs or a corticosteroid inhaler, in people who wear dentures, in pregnancy and diabetes, and in advanced HIV infection, when it can also invade the oesophagus. Bloodstream infection in hospital patients with a central venous catheter or after broad-spectrum antibacterial drugs."
+  - slot: contrast
+    entry: "*Cryptococcus neoformans*: also a budding yeast, but it comes from soil contaminated with bird droppings, is inhaled, has a polysaccharide capsule, and causes meningitis when cell-mediated immunity fails."

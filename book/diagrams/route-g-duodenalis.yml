@@ -1,0 +1,27 @@
+id: route-g-duodenalis
+title: "Route through the body: *Giardia duodenalis*"
+intro: "Swallowed cysts, trophozoites on the surface of the small intestine, and cysts in the faeces again. The parasite never leaves the gut."
+
+routes:
+  - name: "Diarrhoea without invasion"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Cysts passed in faeces survive for long periods in cool water and are not reliably killed by chlorine at the levels used to treat drinking water."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "Cysts are swallowed in contaminated water, or passed from person to person on hands, as among young children in childcare. A small number of cysts is enough to start an infection."
+      - at: gut
+        kind: multiplies
+        text: "In the upper small intestine each cyst releases trophozoites, which attach to the lining by a disc on their underside and multiply on its surface."
+      - at: gut
+        kind: damages
+        ask: "The trophozoites are attached to the lining of the small intestine. Where is the damage done?"
+        options: [gut, blood, liver]
+        answer: [gut]
+        why: "*G. duodenalis* does not invade the wall of the intestine, so it never enters the blood or the portal vein and causes no liver abscess, unlike *E. histolytica*. The damage stays at the surface of the small intestine."
+        text: "The trophozoites damage the microvilli of the cells lining the intestine, so fat and sugars are poorly absorbed: diarrhoea, often greasy and foul-smelling, with bloating, and weight loss in some children. There is no blood in the stool."
+      - at: outside
+        kind: spreads
+        text: "As the gut contents move on, some trophozoites form cysts, which pass in the faeces and contaminate water or hands."

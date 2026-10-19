@@ -1,0 +1,55 @@
+id: route-p-falciparum
+title: "Routes through the body: *Plasmodium falciparum*"
+intro: "Two routes from the same kind of bite: through the liver to the red cells and the brain, and, in pregnancy, to the placenta. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "From the bite to the brain"
+    steps:
+      - at: outside
+        kind: lives
+        text: "An infected mosquito carries the parasites in its salivary glands. They reproduced sexually and developed inside the mosquito after it fed on the blood of an infected person."
+      - at: skin
+        kind: enters
+        text: "When the mosquito bites, it injects the parasites into the skin with its saliva."
+      - at: liver
+        kind: multiplies
+        via: blood
+        ask: "From the skin, the parasites enter the blood. Where do they first multiply?"
+        options: [liver, blood, brain]
+        answer: [liver]
+        why: "The parasites injected by the mosquito cannot yet infect red cells. They are carried in the blood to the liver, and only the parasites released from liver cells invade red cells."
+        text: "The parasites enter liver cells and multiply inside them for several days, without causing symptoms. Each infected liver cell then releases many thousands of new parasites into the blood."
+      - at: blood
+        kind: multiplies
+        via: blood
+        text: "Each released parasite invades a red blood cell, multiplies inside it and ruptures it, and the new parasites invade fresh red cells. Fever comes as infected cells rupture, and anaemia develops as red cells are destroyed. Some parasites become sexual forms, which a biting mosquito takes up."
+      - at: spleen
+        kind: defence
+        text: "The spleen filters the blood and removes infected red cells, which are stiffer than normal ones. It enlarges as it does so."
+      - at: brain
+        kind: damages
+        via: blood
+        arrow: false
+        ask: "Mature parasites make infected red cells stick to the walls of small blood vessels. In which organ does this cause the most dangerous damage?"
+        options: [brain, spleen, liver]
+        answer: [brain]
+        why: "Infected red cells stick in small vessels in many organs, and the brain is where the blocked blood flow does the most dangerous harm. Sticking keeps the cells out of the spleen, which would remove them, and the liver stage ended when the parasites entered the blood."
+        text: "In the brain, the stuck red cells obstruct blood flow in small vessels and cause cerebral malaria: impaired consciousness, seizures or coma."
+
+  - name: "In pregnancy"
+    steps:
+      - at: liver
+        kind: multiplies
+        text: "A pregnant woman is bitten by an infected mosquito, and the parasites multiply in her liver without symptoms, as in any infection."
+      - at: blood
+        kind: multiplies
+        via: blood
+        text: "Parasites released from the liver multiply in her red cells. If years of repeated infection have given her partial immunity, it limits their number in her blood, and she may have few symptoms."
+      - at: fetus
+        kind: damages
+        via: blood
+        ask: "She has few symptoms. Where can infected red cells still gather in large numbers?"
+        options: [fetus, brain, skin]
+        answer: [fetus]
+        why: "Some parasites make infected red cells stick to the placenta, the organ that exchanges nutrients and waste between the mother's blood and the fetus. Her partial immunity does not cover these parasites well, and least of all in a first pregnancy, when she has not met them before."
+        text: "Infected red cells gather in the placenta and impair the exchange of nutrients between the mother's blood and the fetus. The baby may be born small, and the mother may become anaemic."

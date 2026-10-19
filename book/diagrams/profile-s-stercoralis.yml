@@ -1,0 +1,40 @@
+id: profile-s-stercoralis
+name: "Strongyloides stercoralis"
+group: "Roundworm (nematode) · larvae through the skin · multiplies in the host by autoinfection"
+intro: "Predict two slots. This worm breaks the rule that worms do not multiply inside the human host, and its danger follows from that exception."
+
+slots:
+  - slot: identity
+    entry: "A small roundworm. The females live in the lining of the small intestine and lay eggs there, which hatch before leaving the body, so larvae, not eggs, pass out in the faeces."
+  - slot: lifestyle
+    predict:
+      stem: "Some larvae of *S. stercoralis* mature into the infective stage inside the gut, before they leave the body. What does that allow?"
+      options:
+        - text: "Larvae re-enter the same person through the wall of the intestine or the skin around the anus, so the infection continues without new exposure"
+          correct: true
+          feedback: "This is autoinfection. The worm completes its cycle inside one person, so a few worms can persist for decades after that person has left the region where the infection was caught."
+        - text: "Larvae pass to other people in respiratory particles"
+          correct: false
+          feedback: "Larvae do not spread through the air. Infective larvae that mature inside the gut reinfect the same person, through the wall of the intestine or the skin around the anus."
+        - text: "The infection ends quickly, because larvae that mature early die before they can infect"
+          correct: false
+          feedback: "Larvae that mature in the gut are fully infective. They reinfect the same person, which is why the infection lasts for decades."
+    entry: "Larvae live in warm, moist soil contaminated with human faeces, in the tropics and subtropics, including South-East Asia, and enter through the skin as hookworm larvae do. Some larvae mature inside the gut and reinfect the same person through the wall of the intestine or the skin around the anus: autoinfection. A few worms can persist for decades, long after the person has left the region where the infection was caught."
+  - slot: harm
+    entry: "Usually few symptoms, because the host's defences keep the number of larvae low; larvae migrating through the skin of the buttocks can leave an itchy line that moves within hours. When corticosteroids suppress those defences, autoinfection speeds up: in hyperinfection, larvae swarm through the gut wall and the lungs, spread to other organs and carry gut bacteria into the blood."
+  - slot: consequence
+    predict:
+      stem: "Why are people who grew up where *S. stercoralis* is common sometimes tested for it, and treated, before they start corticosteroids?"
+      options:
+        - text: "A silent infection acquired decades earlier can turn into hyperinfection, which can be fatal"
+          correct: true
+          feedback: "Autoinfection can keep an unnoticed infection going for a lifetime. Corticosteroids remove the control that keeps the larvae few, and their number can rise without any new exposure."
+        - text: "Corticosteroids make the worms feed on more blood, causing anaemia"
+          correct: false
+          feedback: "Feeding on blood and causing anaemia is the harm of hookworms, which cannot multiply in the host. The danger of *S. stercoralis* is multiplication once defences are suppressed."
+        - text: "Corticosteroids make a new infection from soil more likely, even in a city"
+          correct: false
+          feedback: "The risk does not come from new exposure. It comes from the worms already present, kept going by autoinfection, which multiply once defences are suppressed."
+    entry: "Infection can last for decades, unnoticed. Corticosteroids suppress the defences that keep the larvae few, and hyperinfection follows: larvae multiply and spread through the body, carrying gut bacteria into the blood, which can be fatal. People from regions where the worm is common may therefore be tested, often by serology, and treated before their immunity is suppressed."
+  - slot: contrast
+    entry: "Hookworms: also enter through the skin from soil, but cannot multiply in the host, so the burden follows exposure and the infection ends when the adult worms die; their main harm is iron-deficiency anaemia."

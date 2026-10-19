@@ -1,0 +1,45 @@
+id: helminths
+title: "Flashcards: helminths"
+intro: "Explain each answer from what the worm can and cannot do inside the host. Say the answer before you check it."
+
+cards:
+  - id: hwd1
+    kind: why
+    front: "Why does the disease caused by most helminths depend on the amount of exposure?"
+    back: "Most helminths do not multiply inside the human host, so each adult worm comes from one egg or larva that entered. The worm burden rises with every exposure; light burdens are usually silent, and heavy ones cause disease."
+  - id: hwd2
+    kind: how
+    front: "How do eosinophils attack a worm, and when does their count in the blood rise?"
+    back: "A worm is too large to engulf, so eosinophils bind to its surface and release toxic proteins from their granules onto it. Their count rises when worms migrate through tissue, as larvae do when they pass through the lungs."
+  - id: hwd3
+    kind: how
+    front: "How does a swallowed egg of *Ascaris lumbricoides* become an adult worm in the intestine?"
+    back: "The larva hatches in the intestine, crosses the gut wall into the blood, and passes through the liver to the lungs. It climbs the airway to the throat, is swallowed, and matures in the small intestine."
+  - id: hwd4
+    kind: apart
+    front: "*Ascaris lumbricoides* versus hookworms: how does each enter the body, and what is its main harm?"
+    back: "*A. lumbricoides* eggs are swallowed from soil; heavy burdens block the intestine and impair nutrition. Hookworm larvae burrow through the skin of bare feet; the adults feed on blood and cause iron-deficiency anaemia."
+  - id: hwd5
+    kind: why
+    front: "Why does heavy hookworm infection cause iron-deficiency anaemia, worst in children and pregnant women?"
+    back: "The adults feed on blood from the lining of the small intestine and stop it clotting, so the wound keeps bleeding. The loss removes iron faster than the diet replaces it, and growth and pregnancy raise the need for iron."
+  - id: hwd6
+    kind: why
+    front: "Why can *Strongyloides stercoralis* infection last for decades after a person leaves the region where it was caught?"
+    back: "Some larvae mature inside the gut and reinfect the same person through the wall of the intestine or the skin around the anus. This autoinfection keeps the cycle going without any new exposure."
+  - id: hwd7
+    kind: why
+    front: "Why can corticosteroids make *S. stercoralis* infection fatal?"
+    back: "They suppress the defences that keep the larvae few. Autoinfection speeds up, and in hyperinfection the larvae swarm through the body and carry gut bacteria into the blood."
+  - id: hwd8
+    kind: apart
+    front: "Hookworms versus *S. stercoralis*: which feature best separates them?"
+    back: "Multiplication in the host. Both enter through the skin and live in the small intestine, but only *S. stercoralis* can reinfect its host, so only it persists for decades and can overwhelm a person given corticosteroids."
+  - id: hwd9
+    kind: apart
+    front: "Eating undercooked pork versus swallowing eggs of the pork tapeworm: what follows each?"
+    back: "Larval cysts eaten in pork become an adult tapeworm in the intestine. Swallowed eggs, from the faeces of a person who carries the adult worm, release larvae that form cysts in the tissues, including the brain, where they can cause seizures."
+  - id: hwd10
+    kind: how
+    front: "How do schistosomes scar the liver or the bladder?"
+    back: "Eggs laid in veins become trapped in the tissues, and the host's response walls them off with inflammation that heals by scarring. Most of the damage comes from the response, not from the worms."

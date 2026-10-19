@@ -1,0 +1,147 @@
+id: protozoa
+title: "Check your understanding: protozoa"
+questions:
+  - id: pz1
+    stem: "One bite from an infected mosquito can lead to a severe infection with *Plasmodium falciparum*, but the number of *Ascaris lumbricoides* worms in the gut rises only with the number of eggs swallowed. Which difference best explains this?"
+    options:
+      - text: "*P. falciparum* multiplies inside the human host; *A. lumbricoides* does not"
+        correct: true
+        feedback: "Each parasite injected by the mosquito multiplies in the liver and then in red cells, so a few become a large infection. Each adult worm comes from one swallowed egg, so the burden of worms follows the exposure."
+      - text: "A mosquito injects far more parasites than a person swallows eggs"
+        correct: false
+        feedback: "A bite injects only a small number of parasites. The infection grows because they multiply inside the host, which worms, with few exceptions, do not."
+      - text: "*P. falciparum* does its damage with a toxin, so the number of parasites does not matter"
+        correct: false
+        feedback: "Malaria comes from the parasites themselves, which destroy red cells and block small vessels, so their number matters a great deal. They reach large numbers by multiplying in the host."
+      - text: "The immune response kills worms but cannot act against protozoa"
+        correct: false
+        feedback: "The immune response acts against both: people who live where malaria is common build partial immunity over years. The difference lies in multiplication inside the host."
+  - id: pz2
+    stem: "Most people infected with *Entamoeba histolytica* have no symptoms. Why are these people, more than patients with dysentery, the main source of new infections?"
+    options:
+      - text: "They pass cysts, which survive outside the body; the stool in dysentery contains mainly trophozoites, which die soon after they leave it"
+        correct: true
+        feedback: "The cyst is the infective form: its wall protects it in food and water until it is swallowed. The trophozoite is the feeding form, suited to life in the colon, and it does not survive outside the body."
+      - text: "People without symptoms pass trophozoites, which survive longer than cysts"
+        correct: false
+        feedback: "It is the other way round. Trophozoites die quickly outside the body, while cysts, with their resistant wall, survive in food and water and are the infective form."
+      - text: "Dysentery kills the parasites, so patients with dysentery pass none"
+        correct: false
+        feedback: "Patients with dysentery pass many parasites, but mostly trophozoites, which die soon after leaving the body. Cysts, passed mainly by people without symptoms, are what infect the next person."
+      - text: "People without symptoms are bitten by mosquitoes, which carry the cysts to others"
+        correct: false
+        feedback: "*E. histolytica* has no vector. Its cysts pass in the faeces and are swallowed in contaminated food or water."
+  - id: pz3
+    stem: "Ten days after returning to Singapore from a month of work in rural West Africa, a 32-year-old engineer develops fever, chills and headache. Two days later he becomes confused and then drowsy. Of these protozoa, which is the most likely cause?"
+    options:
+      - text: "*Plasmodium falciparum*"
+        correct: true
+        feedback: "Fever after a stay where malaria is common, in a traveller without immunity, points to *P. falciparum*. Confusion and drowsiness suggest cerebral malaria: infected red cells stuck in the small vessels of the brain obstruct blood flow."
+      - text: "*Entamoeba histolytica*"
+        correct: false
+        feedback: "*E. histolytica* causes dysentery or a liver abscess, with pain in the abdomen or under the right ribs. Fever followed within days by confusion, in a traveller without immunity, points to cerebral malaria from *P. falciparum*."
+      - text: "*Toxoplasma gondii*"
+        correct: false
+        feedback: "*T. gondii* damages the brain mainly when it reactivates in advanced HIV infection, and a first infection in a healthy adult is usually silent. Fever and confusion after travel point to *P. falciparum*."
+      - text: "*Giardia duodenalis*"
+        correct: false
+        feedback: "*G. duodenalis* stays on the surface of the small intestine and causes diarrhoea and bloating, without spreading beyond the gut. It cannot explain fever with confusion."
+  - id: pz4
+    stem: "A blood film from the engineer shows many red cells containing young, ring-shaped parasites of *P. falciparum*, but almost no mature parasites. Which explanation is most likely?"
+    options:
+      - text: "Mature parasites make their red cells stick to the walls of small blood vessels, so they are missing from the circulating blood that was sampled"
+        correct: true
+        feedback: "Mature parasites place proteins on the red cell surface that stick to vessel walls. Sequestration keeps them out of the spleen, and also out of a sample taken from a vein, so the film shows mainly young parasites."
+      - text: "Mature parasites have returned to the liver"
+        correct: false
+        feedback: "Once the parasites have entered red cells, they do not return to the liver. The mature parasites are still in the body, stuck to the walls of small vessels."
+      - text: "The spleen has removed every mature parasite"
+        correct: false
+        feedback: "Sticking to vessel walls keeps mature parasites away from the spleen, which removes infected red cells. They are held in small vessels, where a blood sample does not reach them."
+      - text: "Only young parasites are large enough to see with a light microscope"
+        correct: false
+        feedback: "Mature parasites are larger than young ones and easy to see. They are missing from the film because they are held in small vessels, out of the circulating blood."
+  - id: pz5
+    stem: "In a village where *P. falciparum* malaria is common, which person is least likely to be seriously harmed by a new infection?"
+    options:
+      - text: "A 30-year-old man who has lived in the village all his life"
+        correct: true
+        feedback: "Years of repeated infection have given him partial immunity, which limits the number of parasites in his blood and protects against severe disease, although it does not prevent infection."
+      - text: "A 2-year-old child who has lived in the village all her life"
+        correct: false
+        feedback: "Young children have not yet had enough infections to build partial immunity, so the parasites multiply unchecked. Most deaths from malaria are of young children."
+      - text: "A 30-year-old visitor from Singapore"
+        correct: false
+        feedback: "A visitor from a place without malaria has no immunity to it, so the infection can become severe within days."
+      - text: "A woman in her first pregnancy who has lived in the village all her life"
+        correct: false
+        feedback: "Her partial immunity does not cover the parasites that stick to the placenta, which she has not met before. They gather there, and her baby may be born small."
+  - id: pz6
+    stem: "A 40-year-old man who moved to Singapore a month ago from a rural area with poor sanitation has had diarrhoea with blood and mucus, and abdominal pain, for two weeks. Of these protozoa, which is the most likely cause?"
+    options:
+      - text: "*Entamoeba histolytica*"
+        correct: true
+        feedback: "Blood in the stool means the wall of the gut has been invaded. *E. histolytica* trophozoites kill the cells lining the colon on contact and make ulcers, causing dysentery."
+      - text: "*Giardia duodenalis*"
+        correct: false
+        feedback: "*G. duodenalis* attaches to the surface of the small intestine without invading, so it causes diarrhoea without blood. Blood and mucus point to invasion of the colon wall."
+      - text: "*Cryptosporidium*"
+        correct: false
+        feedback: "*Cryptosporidium* causes watery diarrhoea from the small intestine, without blood. Dysentery points to a parasite that invades the colon wall."
+      - text: "*Plasmodium falciparum*"
+        correct: false
+        feedback: "*P. falciparum* lives in red cells and causes fever and anaemia; it does not invade the colon. Diarrhoea with blood and mucus points to *E. histolytica*."
+  - id: pz7
+    stem: "A 35-year-old man has fever and pain under the right ribs. A scan shows a single cavity in his liver, and antibodies against *E. histolytica* are found in his blood. Several months earlier, while living in an area with poor sanitation, he had a week of diarrhoea with blood. Which detail best explains how the parasite reached his liver?"
+    options:
+      - text: "Trophozoites invaded the wall of the colon, entered its veins and were carried in the portal vein to the liver"
+        correct: true
+        feedback: "Veins from the gut drain into the portal vein, which carries blood to the liver before it returns to the heart. Trophozoites that reach these veins from ulcers in the colon settle in the liver and destroy its tissue."
+      - text: "Cysts were inhaled and reached the liver from the lungs"
+        correct: false
+        feedback: "*E. histolytica* is swallowed, not inhaled. It reaches the liver from the colon, in the blood of the portal vein."
+      - text: "A mosquito injected the parasites into his skin, and they travelled to the liver"
+        correct: false
+        feedback: "That is the route of *P. falciparum*, whose stage in the liver causes no symptoms and no abscess. *E. histolytica* reaches the liver from the colon, in the portal vein."
+      - text: "Trophozoites attached to the small intestine and crossed to the liver without invading"
+        correct: false
+        feedback: "Attaching without invading is the way of *G. duodenalis*, which never leaves the gut. To reach the liver, trophozoites must invade the colon wall and enter its veins."
+  - id: pz8
+    stem: "Three children at a childcare centre have had diarrhoea for two weeks, with bloating and pale, greasy, foul-smelling stools; one has lost weight. There is no blood in the stools. Of these protozoa, which is the most likely cause?"
+    options:
+      - text: "*Giardia duodenalis*"
+        correct: true
+        feedback: "Greasy, foul-smelling stools and weight loss show malabsorption. *G. duodenalis* trophozoites damage the surface of the small intestine without invading it, and a few cysts on hands are enough to spread it among young children."
+      - text: "*Entamoeba histolytica*"
+        correct: false
+        feedback: "*E. histolytica* lives in the colon, where little of the food is absorbed, and when it causes disease it invades the wall and puts blood in the stool. Malabsorption without blood points to the small intestine."
+      - text: "*Toxoplasma gondii*"
+        correct: false
+        feedback: "*T. gondii* lives inside cells of tissues such as muscle and the brain, and is silent in most people. It does not cause diarrhoea or spread between children."
+  - id: pz9
+    stem: "A 38-year-old man with advanced HIV infection has had profuse watery diarrhoea for six weeks and has lost a lot of weight. There is no blood in the stool. Of these protozoa, which is the most likely cause?"
+    options:
+      - text: "*Cryptosporidium*"
+        correct: true
+        feedback: "In a healthy person *Cryptosporidium* causes watery diarrhoea that settles. When cell-mediated immunity fails, as in advanced HIV infection, the infection is not cleared, and the diarrhoea becomes severe and prolonged."
+      - text: "*Toxoplasma gondii*"
+        correct: false
+        feedback: "*T. gondii* does reactivate in advanced HIV infection, but in the brain, not the gut. Prolonged watery diarrhoea points to *Cryptosporidium*."
+      - text: "*Entamoeba histolytica*"
+        correct: false
+        feedback: "When *E. histolytica* causes diarrhoea, it invades the colon wall and puts blood in the stool. Watery diarrhoea without blood, made severe by advanced HIV infection, points to *Cryptosporidium*."
+  - id: pz10
+    stem: "A woman who is 14 weeks pregnant has a mild illness with fever, two weeks after eating undercooked lamb. Tests show that this is her first infection with the organism responsible. Of these protozoa, which is the most likely cause?"
+    options:
+      - text: "*Toxoplasma gondii*"
+        correct: true
+        feedback: "Humans are infected by parasites in undercooked meat or by oocysts from cat faeces. A first infection during pregnancy can cross the placenta and damage the fetus; a woman infected before pregnancy has immunity that usually protects it."
+      - text: "*Cryptosporidium*"
+        correct: false
+        feedback: "*Cryptosporidium* is swallowed in water contaminated with faeces and stays in the gut, causing watery diarrhoea. It does not come from meat or cross the placenta."
+      - text: "*Plasmodium falciparum*"
+        correct: false
+        feedback: "*P. falciparum* does gather in the placenta, but mosquitoes carry it, and it is not eaten in meat."
+      - text: "*Giardia duodenalis*"
+        correct: false
+        feedback: "*G. duodenalis* is swallowed as cysts from water or hands, not in meat, and it never leaves the gut."

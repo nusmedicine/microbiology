@@ -1,0 +1,51 @@
+id: route-c-albicans
+title: "Routes through the body: *Candida albicans*"
+intro: "Both routes start with the yeast the person already carries: overgrowth at the surfaces where it lives, and entry into the blood of a patient in hospital."
+
+routes:
+  - name: "Thrush"
+    steps:
+      - at: [nose-throat, gut, genital]
+        kind: lives
+        text: "Lives as a yeast on the lining of the mouth and throat, the gut and the vagina of many healthy people. Resident bacteria, which occupy the same surfaces and use the same nutrients, and an intact epithelium keep its numbers low."
+      - at: [nose-throat, genital]
+        kind: multiplies
+        arrow: false
+        ask: "A course of antibacterial drugs kills many of the resident bacteria. Where can the yeast now overgrow and cause thrush?"
+        options: [nose-throat, genital, alveoli]
+        answer: [nose-throat, genital]
+        why: "Antibacterial drugs do not act on fungi, so where they remove the resident bacteria, on the mucosa of the mouth and the vagina, the yeast multiplies in their place. The alveoli have no resident yeast to overgrow, and *Candida* rarely infects the lung."
+        text: "Where the drugs remove the resident bacteria, the yeast multiplies in their place: in the mouth and throat, or in the vagina, where pregnancy and diabetes also favour it."
+      - at: genital
+        kind: damages
+        arrow: false
+        text: "In the vagina, its filaments invade the surface of the epithelium, which becomes inflamed: vaginal candidiasis, with itching and a thick white discharge."
+      - at: nose-throat
+        kind: damages
+        arrow: false
+        text: "In the mouth, the same overgrowth causes oral thrush: white plaques on the tongue and inside the cheeks. Infants, and people who use a corticosteroid inhaler or wear dentures, are also at risk."
+      - at: gut
+        kind: damages
+        text: "When cell-mediated immunity fails, as in advanced HIV infection, the yeast also invades the lining of the oesophagus, the part of the gut that carries food from the throat to the stomach, and swallowing becomes painful."
+
+  - name: "Bloodstream infection"
+    steps:
+      - at: [gut, skin]
+        kind: lives
+        text: "Lives in the gut of many people, and on the skin of some, including patients in hospital."
+      - at: [gut, skin]
+        kind: multiplies
+        arrow: false
+        text: "Broad-spectrum antibacterial drugs remove many of the gut's resident bacteria, and the yeast multiplies in their place. On the skin, it can grow along a central venous catheter, a tube passed through the skin into a large vein, and form a biofilm on it."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "It enters the blood across the gut wall or along the catheter: candidaemia. The blood carries it to every organ the circulation feeds."
+      - at: [eye, heart]
+        kind: damages
+        via: blood
+        ask: "Carried in the blood, where can the yeast settle and cause damage?"
+        options: [eye, heart, ear-sinus]
+        answer: [eye, heart]
+        why: "Yeast cells in the blood reach every organ, and *Candida* settles in the eye, where it can threaten sight, and on the heart valves. The middle ear and sinuses are reached from the nose and throat, not from the blood."
+        text: "It can settle in the eye and threaten sight, or on the heart valves and cause infective endocarditis. The patient's fever continues despite antibacterial drugs, which do not act on the yeast."

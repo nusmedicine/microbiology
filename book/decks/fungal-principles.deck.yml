@@ -1,0 +1,45 @@
+id: fungal-principles
+title: "Flashcards: fungal principles"
+intro: "Explain each answer from what a fungus shares with human cells, or from the defence that failed. Say the answer before you check it."
+
+cards:
+  - id: fpd1
+    kind: apart
+    front: "Yeast versus mould?"
+    back: "A yeast grows as single cells that multiply by budding, as *C. albicans* does on body surfaces. A mould grows as branching hyphae that form a mat and release spores into the air."
+  - id: fpd2
+    kind: apart
+    front: "A fungal cell versus a human cell: what does the fungus have that the human cell lacks?"
+    back: "A cell wall of chitin and glucan, and ergosterol in its membrane where human cells have cholesterol. The nucleus, mitochondria and 80S ribosomes are shared."
+  - id: fpd3
+    kind: how
+    front: "How does a dimorphic fungus change between the environment and the body?"
+    back: "It grows as a mould in the environment and releases spores. Inhaled spores switch to yeast cells in the warmth of the lung, and the yeasts multiply in the tissues."
+  - id: fpd4
+    kind: why
+    front: "Why do so few fungi cause human disease?"
+    back: "Most fungi grow best below 37 °C, and many cannot grow at body temperature at all. In a healthy host, macrophages and neutrophils kill most of those that reach the tissues."
+  - id: fpd5
+    kind: why
+    front: "Why can a course of antibacterial drugs lead to thrush?"
+    back: "Antibacterial drugs do not act on fungi. They reduce the resident bacteria that compete with *C. albicans*, and the yeast the person already carries overgrows."
+  - id: fpd6
+    kind: apart
+    front: "Neutropenia versus failure of cell-mediated immunity: which pattern of candidiasis follows each?"
+    back: "In neutropenia, as after chemotherapy, *C. albicans* can spread from the gut through the blood to other organs. In advanced HIV infection, candidiasis spreads in the mouth and oesophagus, but neutrophils still stop the yeast entering the blood."
+  - id: fpd7
+    kind: how
+    front: "How do fungi damage the host?"
+    back: "By invading tissue, which kills cells and provokes inflammation; by allergy to inhaled spores, which can worsen asthma; and by toxins made by moulds on stored food, such as aflatoxin, which damages the liver."
+  - id: fpd8
+    kind: why
+    front: "Why is invasive fungal infection slow to diagnose?"
+    back: "Fungi grow slowly in culture, blood cultures are often negative, infected organs are hard to sample, and finding *C. albicans* in a swab may reflect colonisation, not disease."
+  - id: fpd9
+    kind: how
+    front: "How do polyenes, azoles and echinocandins each act?"
+    back: "Polyenes bind ergosterol and make the membrane leak. Azoles block an enzyme that makes ergosterol. Echinocandins block the making of glucan, so the wall weakens and the cell can burst."
+  - id: fpd10
+    kind: why
+    front: "Why do polyenes cause more side effects than echinocandins?"
+    back: "Polyenes also bind cholesterol, a close relative of ergosterol, in human cell membranes. Echinocandins act on the wall, which human cells lack."

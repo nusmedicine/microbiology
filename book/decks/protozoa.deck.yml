@@ -1,0 +1,45 @@
+id: protozoa
+title: "Flashcards: protozoa"
+intro: "Explain each answer from where the parasite lives and what that predicts. Say the answer before you check it."
+
+cards:
+  - id: pzd1
+    kind: why
+    front: "Why can one mosquito bite lead to a severe infection with *Plasmodium falciparum*, while the number of *Ascaris lumbricoides* worms depends on the number of eggs swallowed?"
+    back: "*P. falciparum* multiplies inside the human host, first in liver cells and then in red cells, so a few parasites become a large infection. *A. lumbricoides* does not multiply in the host: each adult worm comes from one swallowed egg."
+  - id: pzd2
+    kind: apart
+    front: "Cyst versus trophozoite?"
+    back: "The trophozoite is the feeding, multiplying form that lives in the host and dies soon after it leaves the body. The cyst is a resting stage with a resistant wall that survives outside the body and is the infective form that is swallowed."
+  - id: pzd3
+    kind: why
+    front: "Why are people without symptoms the main source of *Entamoeba histolytica*?"
+    back: "Their trophozoites stay in the colon and form cysts, which pass in the faeces and survive outside the body. The stool in dysentery contains mainly trophozoites, which die soon after leaving it."
+  - id: pzd4
+    kind: how
+    front: "How does *P. falciparum* cause cerebral malaria?"
+    back: "Mature parasites place proteins on the surface of their red cells that make the cells stick to the walls of small blood vessels. In the brain, the stuck cells obstruct blood flow, causing impaired consciousness, seizures or coma."
+  - id: pzd5
+    kind: why
+    front: "Why do mature *P. falciparum* parasites make their red cells stick to vessel walls?"
+    back: "Infected red cells are stiffer than normal ones, and the spleen removes them. Cells stuck in small vessels do not pass through the spleen, so the parasites escape removal; the cost to the host is obstructed blood flow."
+  - id: pzd6
+    kind: why
+    front: "Why are young children, travellers and pregnant women most at risk of severe malaria?"
+    back: "They lack partial immunity, which builds up over years of repeated infection and limits the number of parasites. In pregnancy, the parasites that gather in the placenta are ones the woman's immunity has not met, especially in a first pregnancy."
+  - id: pzd7
+    kind: how
+    front: "How does *E. histolytica* reach the liver?"
+    back: "Trophozoites invade the wall of the colon and enter its small veins. These drain into the portal vein, which carries blood from the gut to the liver, where the trophozoites destroy tissue and form an abscess."
+  - id: pzd8
+    kind: apart
+    front: "*E. histolytica* versus *Giardia duodenalis*: which feature best separates them?"
+    back: "Invasion. *E. histolytica* can invade the colon wall, so it puts blood in the stool and can reach the liver. *G. duodenalis* attaches to the surface of the small intestine without invading, so it causes diarrhoea and malabsorption without blood, and stays in the gut."
+  - id: pzd9
+    kind: why
+    front: "Why can *G. duodenalis* and *Cryptosporidium* spread through treated water and swimming pools?"
+    back: "The walls of their cysts and oocysts make them far more resistant to chlorine than bacteria, and a small number is enough to infect. Water supplies depend on filtration as well as chlorine."
+  - id: pzd10
+    kind: apart
+    front: "*Toxoplasma gondii* in pregnancy versus in advanced HIV infection?"
+    back: "In pregnancy, a first infection can cross the placenta and damage the fetus. In advanced HIV infection, failing cell-mediated immunity lets parasites already present in the brain reactivate and destroy brain tissue."

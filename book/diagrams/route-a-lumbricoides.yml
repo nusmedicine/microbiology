@@ -1,0 +1,41 @@
+id: route-a-lumbricoides
+title: "Route through the body: *Ascaris lumbricoides*"
+intro: "From an egg in the soil to an adult worm in the small intestine, by way of the liver and the lungs. At two steps, predict where the worm goes before the answer appears."
+
+routes:
+  - name: "From soil to the small intestine"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Eggs passed in the faeces of an infected person cannot infect anyone at first. In warm, moist soil a larva develops inside each thick-shelled egg over some weeks, and the eggs can survive there for months."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "Infective eggs are swallowed on food, in water or from hands contaminated with soil, and the larvae hatch in the intestine."
+      - at: liver
+        kind: spreads
+        via: blood
+        text: "The larvae burrow into the wall of the intestine and enter small veins. Blood from the intestine flows first to the liver, so the larvae pass through it."
+      - at: alveoli
+        kind: damages
+        via: blood
+        ask: "From the liver, where does the blood carry the larvae next?"
+        options: [alveoli, brain, urinary]
+        answer: [alveoli]
+        why: "Blood leaving the liver returns to the right side of the heart, which pumps it to the lungs. The brain and the kidneys are supplied by arteries, which the blood reaches only after it has passed through the lungs."
+        text: "The larvae break out of the lung capillaries into the alveoli and grow there. Their passage provokes inflammation, with cough, wheeze and a rise in eosinophils in the blood."
+      - at: nose-throat
+        kind: spreads
+        via: air
+        text: "The larvae move up the airway to the throat, and are coughed up and swallowed."
+      - at: gut
+        kind: damages
+        via: swallowed
+        text: "Back in the small intestine the larvae mature into adult worms, which release eggs into the faeces two to three months after the infection began. A heavy burden, built up by swallowing many eggs, can block a child's intestine and impair nutrition."
+      - at: liver
+        kind: damages
+        ask: "An adult worm can wander out of the small intestine along a duct that opens into it. Where can it end up?"
+        options: [liver, urinary, heart]
+        answer: [liver]
+        why: "The bile duct, which carries bile from the liver, opens into the small intestine, so an adult worm can crawl up it. The kidneys, the bladder and the heart have no opening into the intestine."
+        text: "An adult worm that crawls into the bile duct, which carries bile from the liver to the small intestine, can block it and cause severe pain in the upper abdomen."

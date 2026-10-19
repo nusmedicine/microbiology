@@ -1,0 +1,135 @@
+id: helminths
+title: "Check your understanding: helminths"
+questions:
+  - id: hw1
+    stem: "In a district where *Ascaris lumbricoides* and hookworms are common, every school-age child is treated for worms once or twice a year, although the children are soon reinfected from the soil. Why does this still reduce disease?"
+    options:
+      - text: "Disease depends on the number of worms, and the worms do not multiply in the host, so regular treatment keeps each child's burden low"
+        correct: true
+        feedback: "Each treatment clears most of the worms, and every new worm needs another egg or larva from the soil. Burdens stay light between treatments, and light burdens cause little harm."
+      - text: "Treatment leaves lasting immunity that prevents reinfection"
+        correct: false
+        feedback: "The children are reinfected after treatment, so immunity cannot explain the benefit. What changes is the number of worms each child carries at any one time."
+      - text: "The drugs kill the eggs and larvae in the soil around the school"
+        correct: false
+        feedback: "Drugs given to children act on the worms inside them, not on eggs or larvae in the soil. The benefit comes from clearing the burden that has built up since the last dose."
+      - text: "Treated children can no longer pass worms directly to their classmates"
+        correct: false
+        feedback: "These worms do not pass directly from child to child: their eggs and larvae must first develop in soil. The benefit comes from keeping each child's burden low."
+  - id: hw2
+    stem: "A worm larva is many times larger than any white blood cell. How do eosinophils attack it?"
+    options:
+      - text: "They bind to its surface and release toxic proteins from their granules onto it"
+        correct: true
+        feedback: "A cell cannot engulf something larger than itself, so eosinophils act from outside, discharging their granules onto the worm. The same toxic proteins can damage nearby host tissue."
+      - text: "They engulf the larva whole and digest it"
+        correct: false
+        feedback: "Engulfing works for bacteria and yeasts, which are smaller than the phagocyte. A larva is far too large, so eosinophils attack it from outside with the contents of their granules."
+      - text: "They make antibodies that dissolve the larva"
+        correct: false
+        feedback: "Antibodies are made by B lymphocytes, not by eosinophils, and they do not dissolve worms. Eosinophils bind to the worm and release toxic granule proteins onto it."
+  - id: hw3
+    stem: "A 6-year-old girl in a village where *A. lumbricoides* is common develops a cough and wheeze. Her eosinophil count is raised, but no eggs are found in her stool. About two months later, eggs appear in her stool. Which detail best explains her first findings?"
+    options:
+      - text: "Larvae were migrating through her lungs, and no worms were yet old enough to lay eggs"
+        correct: true
+        feedback: "Swallowed eggs release larvae that travel through the liver to the lungs, where their passage provokes inflammation and eosinophilia. The worms take two to three months to mature and lay eggs, so her stool was negative at first."
+      - text: "Adult worms had travelled from her intestine into her lungs"
+        correct: false
+        feedback: "Adult worms live in the small intestine and do not travel through the body to the lungs. The lungs are crossed by larvae, carried in the blood, before the worms mature."
+      - text: "A stool sample cannot show eggs of *A. lumbricoides*"
+        correct: false
+        feedback: "Eggs of *A. lumbricoides* are readily seen in stool, as her later sample showed. At first there were no adult worms to lay them, because the larvae were still migrating."
+  - id: hw4
+    stem: "A 5-year-old boy from a village without toilets has colicky abdominal pain, vomiting and a swollen abdomen. Last month he passed a pale, round worm about 20 cm long in his stool. Imaging shows a tangled mass blocking his small intestine. Which helminth is most likely?"
+    options:
+      - text: "*Ascaris lumbricoides*"
+        correct: true
+        feedback: "A large roundworm in the stool and a tangled mass in the small intestine fit a heavy burden of *A. lumbricoides*, built up by swallowing many eggs from contaminated soil."
+      - text: "Hookworms"
+        correct: false
+        feedback: "Hookworms are about a centimetre long and fixed to the intestinal lining. Their harm is loss of blood and anaemia, not a mass that blocks the intestine."
+      - text: "*Strongyloides stercoralis*"
+        correct: false
+        feedback: "*S. stercoralis* is tiny and lives within the lining of the small intestine; its danger is spread through the body when immunity is suppressed. A large worm in the stool and a blocking mass point to *A. lumbricoides*."
+      - text: "*Taenia*"
+        correct: false
+        feedback: "A tapeworm is flat and segmented, and pieces of it, not whole round worms, pass in the stool. An adult tapeworm usually causes few symptoms."
+  - id: hw5
+    stem: "A 9-year-old girl in a farming village where children go barefoot is pale and tired, and a blood test shows iron-deficiency anaemia. Her blood film shows no parasites in her red cells, and her stool contains many eggs. Which organism is most likely?"
+    options:
+      - text: "Hookworms"
+        correct: true
+        feedback: "Larvae from the soil entered through her bare feet and matured in her small intestine, where the adults feed on blood. The steady loss of blood removes iron faster than her diet replaces it."
+      - text: "*Ascaris lumbricoides*"
+        correct: false
+        feedback: "Its eggs also appear in stool, but the adults live free in the intestine and do not feed on blood. Loss of blood leading to iron-deficiency anaemia points to hookworms."
+      - text: "*Plasmodium falciparum*"
+        correct: false
+        feedback: "Malaria parasites destroy red cells and would be seen inside them on the blood film. A single-celled parasite also makes no eggs; eggs in the stool with iron-deficiency anaemia point to a worm that feeds on blood."
+      - text: "*Strongyloides stercoralis*"
+        correct: false
+        feedback: "In *S. stercoralis* the eggs hatch inside the gut, so larvae, not eggs, appear in the stool, and the worm does not cause anaemia by feeding on blood. Hookworms do."
+  - id: hw6
+    stem: "A 62-year-old woman grew up on a farm in South-East Asia and has lived in a city for 40 years. She starts high-dose corticosteroids for an autoimmune disease. Three weeks later she has fever, abdominal pain and breathlessness; bacteria that normally live in the gut grow from her blood, and larvae are found in her sputum. Which helminth is most likely?"
+    options:
+      - text: "*Strongyloides stercoralis*"
+        correct: true
+        feedback: "Autoinfection kept an infection from her childhood going for decades. Corticosteroids suppressed the defences that kept the larvae few, and in hyperinfection the larvae swarmed through her gut wall and lungs, carrying gut bacteria into her blood."
+      - text: "Hookworms"
+        correct: false
+        feedback: "Hookworm larvae also pass through the lungs, but the worms cannot multiply in the host, so corticosteroids cannot raise their number. Any hookworms from her childhood would have died long ago."
+      - text: "*Ascaris lumbricoides*"
+        correct: false
+        feedback: "Larvae of *A. lumbricoides* cross the lungs only in the weeks after eggs are swallowed, and the worms cannot multiply in the host, so a childhood infection would have ended long ago."
+  - id: hw7
+    stem: "A 70-year-old man left a rural area of South-East Asia 45 years ago. A test before a kidney transplant shows that he still carries *S. stercoralis*. Which detail best explains how the infection has lasted so long?"
+    options:
+      - text: "Larvae mature inside his gut and reinfect him through the wall of the intestine or the skin around the anus"
+        correct: true
+        feedback: "This autoinfection completes the cycle inside one person, so a few worms persist for decades without new exposure. The test matters because the drugs that prevent rejection, which include corticosteroids, can let the larvae multiply."
+      - text: "Each adult worm can live for more than 40 years"
+        correct: false
+        feedback: "Individual worms do not live that long. The infection lasts because new worms keep developing from larvae that reinfect him."
+      - text: "He has been reinfected from soil in the city where he now lives"
+        correct: false
+        feedback: "Infection from soil needs bare skin on ground contaminated with human faeces, which city life rarely provides. His own larvae have reinfected him, with no new exposure needed."
+  - id: hw8
+    stem: "A 28-year-old man who has never eaten pork has his first seizure. Brain imaging shows several small cysts, each with a tapeworm larva inside. A relative who prepares the family's meals is found to carry an adult pork tapeworm. Which exposure best explains the cysts?"
+    options:
+      - text: "Swallowing tapeworm eggs from the relative's faeces, carried on hands or in food"
+        correct: true
+        feedback: "Eggs of the pork tapeworm release larvae in the intestine, and the larvae travel in the blood to the tissues, including the brain, where they form cysts. The eggs come from a person who carries the adult worm, so no pork is needed."
+      - text: "Eating undercooked pork containing larval cysts"
+        correct: false
+        feedback: "Larval cysts eaten in pork develop into an adult tapeworm in the intestine, not into cysts in the brain. Cysts form in human tissue only after the eggs are swallowed, and he has never eaten pork."
+      - text: "Larvae entering through the skin from soil"
+        correct: false
+        feedback: "Hookworms and *S. stercoralis* are the worms whose larvae enter through the skin, and they live in the intestine. Cysts of tapeworm larvae in the brain follow swallowed tapeworm eggs."
+      - text: "Swimming in fresh water"
+        correct: false
+        feedback: "Fresh water carries schistosome larvae, whose eggs scar the liver or the bladder. Tapeworm cysts in the brain follow swallowed eggs of the pork tapeworm."
+  - id: hw9
+    stem: "A 7-year-old boy who often plays in a sandpit used by the neighbourhood's dogs and cats has lost vision in one eye. An inflamed mass is seen at the back of the eye, and no eggs are found in his stool. Which helminth is most likely?"
+    options:
+      - text: "*Toxocara*"
+        correct: true
+        feedback: "Children swallow eggs from soil contaminated with dog and cat faeces. The larvae cannot mature in a human, so they wander through the tissues, and one lodged in the eye provokes inflammation that damages sight. Without adult worms, no eggs reach the stool."
+      - text: "*Ascaris lumbricoides*"
+        correct: false
+        feedback: "Its eggs also come from soil, but its larvae follow a set route through the liver and lungs to the intestine, where the adults lay eggs that appear in stool. A larva lodged in the eye, with no eggs in the stool, points to a worm that cannot mature in humans."
+      - text: "Hookworms"
+        correct: false
+        feedback: "Hookworm larvae enter through the skin and mature in the intestine, where the adults feed on blood and release eggs into the stool. A larva in the eye after contact with dog and cat faeces points to *Toxocara*."
+  - id: hw10
+    stem: "Adult schistosomes live in veins for years and do little harm themselves. Why, then, do schistosome infections scar the liver or the bladder?"
+    options:
+      - text: "Eggs trapped in the tissues provoke inflammation, and the inflammation heals by scarring"
+        correct: true
+        feedback: "Many eggs never leave the body: they lodge in the bladder wall or are carried in the blood to the liver. The host's response walls each egg off with inflammation, and repeated inflammation leaves scar tissue, so most of the damage comes from the response."
+      - text: "The adult worms eat the tissue of the liver and the bladder"
+        correct: false
+        feedback: "Adults live inside veins and feed on blood; they do not eat the organs. The scarring follows the response to eggs lodged in the tissue."
+      - text: "Larvae multiply in the liver and the bladder and destroy them"
+        correct: false
+        feedback: "Schistosomes do not multiply in the human host: each adult comes from one larva that entered through the skin. The damage comes from inflammation around trapped eggs."

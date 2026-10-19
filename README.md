@@ -19,7 +19,8 @@ Writing conventions and the copy-audit checklist are in [STYLE.md](STYLE.md).
   world opens with a part page (`index.qmd`) mapping its chapters and answering the six questions.
 - **Written in full:** the four foundation chapters; in the bacterial world, structure and energy,
   genetics, detection, *A map of the bacteria* and *Gram-positive cocci* (the depth test case); in
-  the viral world, the four opening chapters and *Herpesviruses* (the first viral group chapter).
+  the viral world, the four opening chapters and *Herpesviruses* (the first viral group chapter); all
+  five chapters of the fungal and parasitic worlds (first drafts).
   *How bacteria cause damage* is partly written. Every other chapter is a planned outline.
 - `book/glossary.qmd` (appendix) defines every term the chapters introduce.
 - `book/teaching-notes.qmd` (appendix) maps the current MD1140 bacteriology sessions onto this

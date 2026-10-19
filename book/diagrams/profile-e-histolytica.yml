@@ -1,0 +1,40 @@
+id: profile-e-histolytica
+name: "Entamoeba histolytica"
+group: "Protozoan · amoeba · lives in the colon; swallowed as cysts"
+intro: "Predict two of the five slots. Most of what this parasite does follows from two facts: it lives in the colon, and it can invade the wall."
+
+slots:
+  - slot: identity
+    entry: "A single-celled amoeba with two forms: the cyst, whose resistant wall lets it survive outside the body, and the trophozoite, which feeds and multiplies in the colon and can kill host cells on contact."
+  - slot: lifestyle
+    predict:
+      stem: "*E. histolytica* spreads in food and water contaminated with faeces. Who passes most of the cysts that infect new people?"
+      options:
+        - text: "People with no symptoms, whose trophozoites stay in the colon and form cysts"
+          correct: true
+          feedback: "Trophozoites that stay in the colon form cysts, and people without symptoms pass them in their faeces for long periods. They are the main source of new infections."
+        - text: "Patients with dysentery, whose stools are full of parasites"
+          correct: false
+          feedback: "The stool in dysentery contains mainly trophozoites, which die soon after leaving the body. Cysts, the infective form, come mainly from people without symptoms."
+        - text: "Mosquitoes that have bitten an infected person"
+          correct: false
+          feedback: "*E. histolytica* has no vector. Its cysts pass in the faeces and are swallowed in contaminated food or water."
+    entry: "Humans are its main reservoir. Cysts passed in faeces contaminate food and water where sanitation is poor, and are swallowed; trophozoites emerge and settle in the colon. Most infections cause no symptoms, and people without symptoms pass the cysts that spread it."
+  - slot: harm
+    entry: "In some infections, trophozoites invade the wall of the colon, killing the cells they touch, and make ulcers: dysentery, diarrhoea with blood in the stool."
+  - slot: consequence
+    predict:
+      stem: "From ulcers in the colon, trophozoites enter small veins in its wall. Which organ are they most likely to reach and damage?"
+      options:
+        - text: "The liver, which receives the blood from the gut in the portal vein"
+          correct: true
+          feedback: "Blood from the gut passes through the liver before it returns to the heart, so the liver is the first organ the trophozoites reach. There they destroy liver tissue and form an abscess."
+        - text: "The lungs, which receive the blood from the gut first"
+          correct: false
+          feedback: "Blood from the gut drains to the liver in the portal vein before it reaches the heart and the lungs. The liver is the usual site of spread."
+        - text: "The kidneys, which filter parasites out of the blood"
+          correct: false
+          feedback: "Veins from the colon lead to the liver, not to the kidneys. Trophozoites carried in the portal vein settle in the liver."
+    entry: "A liver abscess: a cavity of destroyed liver tissue, with fever and pain under the right ribs. It can appear months after the infection began, often without any dysentery."
+  - slot: contrast
+    entry: "*Giardia duodenalis*: also swallowed as cysts, but it lives in the small intestine and attaches to the surface without invading, so it causes diarrhoea without blood and never reaches the liver."

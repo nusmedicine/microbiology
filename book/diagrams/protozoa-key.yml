@@ -1,0 +1,59 @@
+id: protozoa-key
+title: "Sorting the protozoa"
+intro: "Where a protozoan lives in the body predicts how it arrives and what harm it does. Pick a branch at each step and read what the site predicts as well as where it leads."
+start: site
+
+nodes:
+  - id: site
+    question: "Where in the body does the parasite live and multiply?"
+    options:
+      - label: "Inside red blood cells, after a stage in the liver"
+        meaning: "It arrives by the bite of a mosquito, which takes it up again from the blood. Red cells pass through every organ, so infected cells can block small blood vessels far from where the parasite entered, and fever comes as they rupture."
+        next: p-falciparum
+      - label: "In the gut"
+        meaning: "It is swallowed in a resistant, walled form in food or water contaminated with faeces, and leaves in the same form in the faeces. That form survives outside the body, so the parasite spreads where sanitation is poor, from person to person and through water."
+        next: gut
+      - label: "Inside cells of many tissues, including muscle and the brain"
+        meaning: "It is swallowed from cat faeces or in undercooked meat, and stays for life inside cells, held in check by cell-mediated immunity. A first infection during pregnancy can cross the placenta."
+        next: t-gondii
+      - label: "In the genital tract"
+        meaning: "It has no cyst stage and dies quickly outside the body, so it passes from person to person by sexual contact."
+        next: t-vaginalis
+  - id: gut
+    question: "Where in the gut does it live, and does it invade?"
+    options:
+      - label: "The colon; it can invade the wall"
+        meaning: "Invasion of the colon wall puts blood in the stool, and trophozoites that enter the veins of the wall can be carried to the liver."
+        next: e-histolytica
+      - label: "The upper small intestine; it attaches to the surface without invading"
+        meaning: "Damage to the surface reduces absorption: diarrhoea, bloating and malabsorption, with no blood in the stool and no spread beyond the gut."
+        next: g-duodenalis
+      - label: "The small intestine, just under the surface membrane of the lining cells"
+        meaning: "Watery diarrhoea that a healthy person clears, but that becomes severe and prolonged when cell-mediated immunity fails."
+        next: cryptosporidium
+
+leaves:
+  - id: p-falciparum
+    name: "*Plasmodium falciparum*"
+    tag: main
+    blurb: "Carried by mosquitoes. Multiplies silently in the liver, then in red cells, causing fever and anaemia; infected red cells stick in small blood vessels, causing cerebral malaria and infection of the placenta. Most dangerous to people without partial immunity: young children, travellers and pregnant women."
+  - id: e-histolytica
+    name: "*Entamoeba histolytica*"
+    tag: main
+    blurb: "Lives in the colon, usually without symptoms, and people without symptoms pass the cysts that spread it. When it invades the wall it causes dysentery, and it can travel in the portal vein to the liver and form an abscess."
+  - id: g-duodenalis
+    name: "*Giardia duodenalis*"
+    tag: main
+    blurb: "Its cysts are not reliably killed by chlorine at the levels used in drinking water, and a few are enough to infect. Trophozoites attach to the small intestine without invading, causing diarrhoea, bloating and malabsorption in travellers and in young children in childcare."
+  - id: cryptosporidium
+    name: "*Cryptosporidium*"
+    tag: supporting
+    blurb: "Passed in faeces as oocysts, thick-walled forms that can infect at once and resist chlorine, so outbreaks follow swimming in pools and drinking from contaminated water supplies. Watery diarrhoea, severe and prolonged in advanced HIV infection."
+  - id: t-gondii
+    name: "*Toxoplasma gondii*"
+    tag: supporting
+    blurb: "Reproduces sexually only in cats, which pass it in their faeces. Humans are infected from cat faeces in soil or from undercooked meat. Silent in most people, it can harm the fetus in a first infection during pregnancy, and it reactivates in the brain in advanced HIV infection."
+  - id: t-vaginalis
+    name: "*Trichomonas vaginalis*"
+    tag: supporting
+    blurb: "Sexually transmitted, with no cyst stage. Causes inflammation of the vagina with a discharge; many infections, especially in men, cause no symptoms."

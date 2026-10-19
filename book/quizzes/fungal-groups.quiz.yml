@@ -1,0 +1,150 @@
+id: fungal-groups
+title: "Check your understanding: yeasts, moulds and dimorphic fungi"
+questions:
+  - id: fg1
+    stem: "A 45-year-old man is being treated for acute leukaemia, and his neutrophil count has been very low for three weeks after chemotherapy. He develops fever, cough and chest pain that do not improve with broad-spectrum antibacterial drugs. Which fungus is the most likely cause?"
+    options:
+      - text: "*Aspergillus fumigatus*"
+        correct: true
+        feedback: "Prolonged neutropenia removes the cells that attack hyphae. Inhaled spores that germinate in his lung grow on into the tissue and its blood vessels, and antibacterial drugs do not act on a fungus."
+      - text: "*Candida albicans*"
+        correct: false
+        feedback: "In neutropenia *C. albicans* can invade, but it reaches the blood from the gut or along a catheter and rarely causes pneumonia. An infection that starts in the lung points to a mould inhaled as spores."
+      - text: "*Cryptococcus neoformans*"
+        correct: false
+        feedback: "This yeast is held in check by cell-mediated immunity and spreads when CD4 T cells are lost, as in advanced HIV infection. His defect is in neutrophils, the defence against hyphae."
+      - text: "*Pneumocystis jirovecii*"
+        correct: false
+        feedback: "Pneumonia from *P. jirovecii* follows a failure of cell-mediated immunity, as in advanced HIV infection. The detail in this patient is weeks without neutrophils, which lets the hyphae of a mould invade."
+  - id: fg2
+    stem: "A 34-year-old man with advanced HIV infection, who has never taken treatment for it, has had a headache and fever for two weeks, worsening each day. Which fungus is the most likely cause?"
+    options:
+      - text: "*Cryptococcus neoformans*"
+        correct: true
+        feedback: "Loss of CD4 T cells lets the inhaled yeast escape from the lung. The capsule protects it in the blood, and it settles in the meninges and brain, causing meningitis that develops over days to weeks."
+      - text: "*Candida albicans*"
+        correct: false
+        feedback: "In advanced HIV infection *C. albicans* causes thrush of the mouth and oesophagus, at surfaces where it lives. A headache and fever that worsen over weeks point to meningitis from *C. neoformans*."
+      - text: "*Aspergillus fumigatus*"
+        correct: false
+        feedback: "Invasion by this mould mainly follows prolonged neutropenia. Meningitis in a person who has lost CD4 T cells points to *C. neoformans*."
+      - text: "*Pneumocystis jirovecii*"
+        correct: false
+        feedback: "*P. jirovecii* also takes advantage of the loss of CD4 T cells, but it causes pneumonia, with cough and breathlessness. A headache and fever that worsen over weeks point to meningitis."
+  - id: fg3
+    stem: "A 67-year-old woman has been in intensive care for two weeks after abdominal surgery. She has a central venous catheter and has received broad-spectrum antibacterial drugs for ten days, but her fever continues. Her blood cultures grow a yeast. Which organism is the most likely cause?"
+    options:
+      - text: "*Candida albicans*"
+        correct: true
+        feedback: "The drugs removed the bacteria that compete with her own gut yeast, and the surgery and the catheter gave it a way into the blood. A fever that continues despite antibacterial drugs fits an organism they do not act on."
+      - text: "*Cryptococcus neoformans*"
+        correct: false
+        feedback: "This yeast can also grow in blood cultures, but it is inhaled from soil and spreads when cell-mediated immunity fails. Her catheter and her antibacterial drugs point to her own *C. albicans*."
+      - text: "*Aspergillus fumigatus*"
+        correct: false
+        feedback: "*A. fumigatus* is a mould, and her blood cultures grew a yeast. Its invasive infection also follows prolonged neutropenia, which nothing in her history suggests."
+      - text: "*Pneumocystis jirovecii*"
+        correct: false
+        feedback: "Routine culture cannot grow *P. jirovecii*, and it causes pneumonia when cell-mediated immunity fails. A yeast growing from the blood of a patient with a catheter points to *C. albicans*."
+  - id: fg4
+    stem: "A healthy 3-week-old infant has white plaques on the tongue and the inside of the cheeks. Which organism is the most likely cause?"
+    options:
+      - text: "*Candida albicans*"
+        correct: true
+        feedback: "An infant picks up the yeast at birth or soon after, before the resident bacteria and the defences of the mouth are fully developed. The yeast overgrows on the mucosa: oral thrush."
+      - text: "*Cryptococcus neoformans*"
+        correct: false
+        feedback: "*C. neoformans* is inhaled from soil and causes disease when cell-mediated immunity has failed, starting in the lung. Plaques on the mucosa of a healthy infant point to a yeast that lives there."
+      - text: "A dermatophyte"
+        correct: false
+        feedback: "Dermatophytes live on keratin in the skin, hair and nails, and they do not infect the lining of the mouth. White plaques there point to *C. albicans*."
+      - text: "*Aspergillus fumigatus*"
+        correct: false
+        feedback: "Spores of this mould are inhaled into the lungs, and disease follows a failure of defences such as prolonged neutropenia. Plaques in a healthy infant's mouth point to a yeast that lives on the mucosa."
+  - id: fg5
+    stem: "Everyone inhales spores of *Aspergillus fumigatus* every day. Why does invasive aspergillosis occur mainly in people with prolonged neutropenia?"
+    options:
+      - text: "Spores that germinate grow into hyphae, which are too large to engulf, and neutrophils are the cells that attack them"
+        correct: true
+        feedback: "Macrophages engulf most of the spores, but any that germinate grow into hyphae, which neutrophils attack. Without neutrophils for weeks, the hyphae grow through the lung and into its blood vessels."
+      - text: "Neutrophils make the antibodies that neutralise the spores"
+        correct: false
+        feedback: "Antibodies are made by B lymphocytes, not neutrophils, and they do little to protect against this mould. Neutrophils act directly, by attacking hyphae."
+      - text: "Chemotherapy makes the lung warm enough for the fungus to grow"
+        correct: false
+        feedback: "*A. fumigatus* grows well at normal body temperature in any lung. What chemotherapy removes is the neutrophils that attack its hyphae."
+      - text: "Neutropenia lets the spores pass from person to person"
+        correct: false
+        feedback: "Spores of this mould come from the air everywhere, and it is not passed between people. Neutropenia changes what happens after the spores are inhaled."
+  - id: fg6
+    stem: "Which property of *Cryptococcus neoformans* explains both how it survives in the lung and the blood and how the laboratory detects it in cerebrospinal fluid?"
+    options:
+      - text: "Its polysaccharide capsule"
+        correct: true
+        feedback: "The capsule resists phagocytosis, so the yeast survives in the alveoli and the blood. Capsule polysaccharide is also shed into the blood and the cerebrospinal fluid, where the antigen test detects it."
+      - text: "Ergosterol in its membrane"
+        correct: false
+        feedback: "Ergosterol is a target of antifungal drugs and is shared by almost all fungi, including *C. albicans*. It neither protects the yeast from phagocytes nor is what the antigen test detects."
+      - text: "Growth as hyphae in tissue"
+        correct: false
+        feedback: "In the body *C. neoformans* stays a budding yeast. Filaments in invaded tissue are a trait of *C. albicans*."
+      - text: "Its ability to bud"
+        correct: false
+        feedback: "Every yeast multiplies by budding, *C. albicans* included, so budding cannot explain what sets *C. neoformans* apart."
+  - id: fg7
+    stem: "Drugs that bind ergosterol or block its synthesis treat many fungal infections, but they do not work against *Pneumocystis jirovecii*. Why?"
+    options:
+      - text: "Its membrane contains cholesterol in place of ergosterol"
+        correct: true
+        feedback: "A drug can act only on a target the organism has. Without ergosterol, *P. jirovecii* offers these drugs nothing to bind or block, so other drugs are used against it."
+      - text: "It is a protozoan, not a fungus"
+        correct: false
+        feedback: "It was once classed as a protozoan, but its DNA shows that it is a fungus. The drugs fail because its membrane lacks their target, ergosterol."
+      - text: "It lives inside human cells, out of reach of the drugs"
+        correct: false
+        feedback: "*P. jirovecii* lives in the alveoli, outside human cells. Its membrane lacks ergosterol, so the drugs have nothing to act on."
+      - text: "It grows too slowly for the drugs to act"
+        correct: false
+        feedback: "Slow growth does not remove a drug's target. These drugs fail because *P. jirovecii* has no ergosterol."
+  - id: fg8
+    stem: "A 28-year-old woman develops vaginal itching and a thick white discharge a few days after finishing a course of antibacterial drugs for a bladder infection. Which detail best explains why she developed vaginal candidiasis?"
+    options:
+      - text: "The drugs reduced the vagina's resident bacteria, and her own yeast multiplied in their place"
+        correct: true
+        feedback: "Antibacterial drugs do not act on fungi. With fewer resident bacteria competing for space and nutrients, the *C. albicans* that already lived in her vagina overgrew."
+      - text: "She caught the yeast from a sexual partner"
+        correct: false
+        feedback: "*C. albicans* lives in the vagina of many healthy women, so no new exposure is needed. The trigger here is the course of antibacterial drugs."
+      - text: "The drugs suppressed her cell-mediated immunity"
+        correct: false
+        feedback: "Her drugs acted on bacteria, and that is the change that mattered. Thrush from failed cell-mediated immunity is the pattern of advanced HIV infection."
+      - text: "The bladder infection spread to the vagina"
+        correct: false
+        feedback: "Antibacterial drugs treated the bladder infection, so it was bacterial. The yeast was already in her vagina, and the drugs gave it room to grow."
+  - id: fg9
+    stem: "A man with advanced HIV infection who lives in northern Thailand has fever, weight loss and many small skin lesions. A sample from a skin lesion grows as a mould at 25 °C and as small yeast-like cells at 37 °C. Which fungus is the most likely cause?"
+    options:
+      - text: "*Talaromyces marneffei*"
+        correct: true
+        feedback: "Growth as a mould at room temperature and as yeast cells at body temperature marks a dimorphic fungus. *T. marneffei* is the dimorphic fungus of South-East Asia, and in advanced HIV infection it spreads through the body, with skin lesions."
+      - text: "*Cryptococcus neoformans*"
+        correct: false
+        feedback: "*C. neoformans* is also common in advanced HIV infection and can cause skin lesions once it has spread, but it grows as a yeast at both temperatures. A switch from mould to yeast marks a dimorphic fungus."
+      - text: "*Aspergillus fumigatus*"
+        correct: false
+        feedback: "This mould grows as a mould at both temperatures. Yeast cells at 37 °C mark a dimorphic fungus."
+      - text: "*Candida albicans*"
+        correct: false
+        feedback: "In culture *C. albicans* grows as a yeast at both temperatures. A fungus that is a mould at 25 °C and a yeast at 37 °C is dimorphic."
+  - id: fg10
+    stem: "Why do dermatophytes infect healthy people, yet cause infection only at the surface of the body?"
+    options:
+      - text: "They live on keratin, in the dead outer layer of the skin and in hair and nails, and do not usually invade living tissue"
+        correct: true
+        feedback: "Keratin is their food, and it lies in dead layers of cells that most defences do not reach, so a healthy person can be infected. Their need for keratin also keeps them out of the living tissue beneath."
+      - text: "They are yeasts, which cannot enter the blood"
+        correct: false
+        feedback: "Dermatophytes are moulds, which grow as hyphae, and yeasts can enter the blood. They stay at the surface because they live on keratin."
+      - text: "They are passed on only by contact with animals"
+        correct: false
+        feedback: "They are also passed on by contact with infected people and with soil. How they arrive does not explain why they stay at the surface: their need for keratin does."

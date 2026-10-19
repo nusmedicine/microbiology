@@ -1,16 +1,324 @@
 # Protozoa
 
-> *Single-celled eukaryotes that multiply inside the human host, so a small inoculum can produce a large infection.*
+> *The bite of one infected mosquito, or a few cysts swallowed in water, can start an infection in
+> which parasites reach vast numbers in the blood or the gut. Protozoa multiply inside the human host,
+> and where each one lives in the body predicts how it arrives and what harm it does.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Sort the main protozoa by where they live in the body, and predict from the site how each one
+  arrives and what harm it does.
+- Explain why a small inoculum of a protozoan can produce a large infection, and why the cyst is the
+  stage that spreads the intestinal protozoa.
+- Explain how *Plasmodium falciparum* causes fever, anaemia and cerebral malaria, and why young
+  children, travellers and pregnant women are most at risk.
+- Explain why *Entamoeba histolytica* can cause dysentery and a liver abscess, while *Giardia
+  duodenalis* causes diarrhoea without blood and stays in the gut.
+- Name the host, setting and route that let each main organism cause disease.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-proto-group)
+  - [The group in one sentence](#sec-proto-sentence): what every member shares
+  - [Sorting the group](#sec-proto-key): where the parasite lives in the body
+- [Main organisms](#sec-proto-main)
+  - [*Plasmodium falciparum*](#sec-proto-falciparum): red cells, small vessels and the spleen
+  - [*Entamoeba histolytica*](#sec-proto-entamoeba): invasion of the colon and the liver
+  - [*Giardia duodenalis*](#sec-proto-giardia): on the surface of the small intestine
+- [Contrast pair](#sec-proto-pairs)
+  - [*E. histolytica* and *G. duodenalis*](#sec-proto-pair-entamoeba-giardia)
+- [Beyond the main organisms](#sec-proto-beyond)
+  - [Supporting organisms](#sec-proto-supporting)
+  - [Later in the course](#sec-proto-later)
+:::
+
+## The group {#sec-proto-group}
+
+### The group in one sentence {#sec-proto-sentence}
+
+Protozoa are single-celled eukaryotes that multiply inside the human host, so a small inoculum can
+produce a large infection. Many of those that live in the gut have two forms: the **trophozoite**,
+the feeding, multiplying form, and the **cyst**, a resistant stage that survives outside the body and
+is the infective form. Most of the six questions have one answer for the whole group; its members
+differ mainly in where in the body they live and how they reach it.
+
+| Question | Answer for the protozoa |
 |---|---|
-| Learning objectives | Describe the main protozoa by site, life cycle and route of infection |
-| Main organisms | *Plasmodium falciparum* (anchor); *Entamoeba histolytica*; *Giardia duodenalis* |
-| Supporting organisms | *Toxoplasma gondii*; *Cryptosporidium*; *Trichomonas vaginalis* |
-| Later in the course | Infectious disease, gastrointestinal and sexual health blocks; travel medicine |
-| Scenario questions | Most likely protozoan, restricted to the group |
+| What is it built from? | A single eukaryotic cell with a nucleus and no cell wall; the cyst of an intestinal protozoan is enclosed in a tough wall |
+| How does it get energy? | Its own metabolism, using nutrients taken from the host's blood, from the cells it lives in, or from the contents of the gut |
+| How does it copy itself and change? | Multiplies by division inside the human host; some species also reproduce sexually, *P. falciparum* in the mosquito; resistance to drugs arises by mutation and spreads by selection |
+| Where does it live, and how does it spread? | In the blood, by the bite of a mosquito; in the gut, swallowed in food or water contaminated with faeces; in tissues, from cat faeces or undercooked meat, or across the placenta; in the genital tract, by sexual contact |
+| How does damage happen? | Destruction of the cells it lives in or touches; blockage of small blood vessels; interference with absorption in the gut; and the host's inflammatory response |
+| What does it have that my cells lack? | Few targets, because it shares most of its machinery with human cells: in *P. falciparum*, its own folate synthesis and its disposal of haem; in *E. histolytica* and *G. duodenalis*, enzymes for life with little oxygen that activate one class of drugs |
+
+Because protozoa multiply inside the host, the number of parasites, and the harm they do, depend more
+on how fast they multiply and how well the host contains them than on the number received. Helminths,
+with few exceptions, do not multiply inside the human host, so the number of worms reflects the
+amount of exposure (see [*Life cycles and vectors*](life-cycles.qmd)).
+
+::: {.example}
+The few parasites injected by one mosquito bite multiply in the liver and then in red blood cells, so
+a *P. falciparum* infection grows with every cycle. Each adult *Ascaris lumbricoides* worm in the gut,
+by contrast, comes from one swallowed egg (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-factors)).
+:::
+
+In the intestinal protozoa, the two forms divide the work of infection. The trophozoite feeds and
+multiplies in the gut but dies soon after it leaves the body. The cyst is a resting stage that does
+not feed, and its wall protects it in water, food and soil until it is swallowed. One cycle passes
+through both forms:
+
+::: {.flow}
+1. Cysts are swallowed in food or water contaminated with faeces
+2. In the intestine, each cyst opens and releases trophozoites
+3. Trophozoites feed and multiply in the gut
+4. Some trophozoites form cysts as the gut contents move on
+5. Cysts pass in the faeces and survive outside the body
+:::
+
+The intestinal protozoa therefore spread by the faecal–oral route, wherever faeces reach food or
+water (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)). A person without symptoms who
+passes cysts can infect many others.
+
+Protozoa share most of their machinery with human cells, so few drugs act on them without harming the
+patient, and those that do act on something the parasite has and human cells lack. *P. falciparum*
+makes its own folate, which human cells take from the diet, and it must dispose of the haem released
+when it digests haemoglobin (see [*Life cycles and vectors*](life-cycles.qmd)). *E. histolytica* and
+*G. duodenalis* live with little oxygen, and the enzymes that let them do so convert a class of drugs,
+the nitroimidazoles, into a form that damages the parasite's DNA. Human cells, which use oxygen, do
+not activate these drugs.
+
+### Sorting the group {#sec-proto-key}
+
+We sort the protozoa by where they live in the body, because the site predicts how each one arrives
+and what harm it does.
+
+::: {.concept-tree}
+[Sorting the protozoa by where they live in the body]{.tree-title}
+
+- In the blood, inside red blood cells, after a silent stage in the liver: *P. falciparum*
+- In the gut, swallowed in food or water contaminated with faeces
+  - In the colon, able to invade the wall: *E. histolytica*
+  - On the surface of the small intestine, without invading: *G. duodenalis*
+  - In the small intestine, just under the surface membrane of the lining cells: *Cryptosporidium*
+- Inside cells of many tissues, including muscle and the brain: *Toxoplasma gondii*
+- In the genital tract: *Trichomonas vaginalis*
+:::
+
+The site predicts how the parasite arrives and what follows:
+
+| Where it lives | How it arrives | What follows |
+|---|---|---|
+| Red blood cells | The bite of an infected mosquito | Fever as infected red cells rupture; loss of red cells; severe disease when infected red cells block small blood vessels |
+| The gut | Swallowed in food or water contaminated with faeces | Diarrhoea; parasites passed in the faeces infect others, directly or through water |
+| Cells of many tissues | Swallowed from cat faeces or in undercooked meat; across the placenta | Silent in most people; harm to a fetus, and to people with advanced HIV infection |
+| The genital tract | Sexual contact | Inflammation of the vagina or urethra, often without symptoms |
+
+Work through the key from where the parasite lives, and read at each branch what the site predicts
+about the parasite.
+
+<div data-island="sorting-key" data-src="/diagrams/protozoa-key.yml"></div>
+
+## Main organisms {#sec-proto-main}
+
+### *Plasmodium falciparum*: red cells, small vessels and the spleen {#sec-proto-falciparum}
+
+**Malaria** is the illness caused by *Plasmodium* parasites multiplying in red blood cells, and
+*P. falciparum* causes most of its severe disease and deaths. Mosquitoes pass it from person to
+person: the mosquito is its **vector**, an arthropod that carries an organism between hosts, and the
+host in which it reproduces sexually (see [*Life cycles and vectors*](life-cycles.qmd)).
+
+An infected mosquito injects the parasites into the skin as it feeds. They travel in the blood to the
+liver and multiply inside liver cells for several days, without symptoms. The parasites released from
+the liver invade red blood cells, multiply inside them and rupture them, and each new generation
+invades fresh red cells, so the number of infected cells rises with each cycle. Illness begins with
+this stage in the blood. Fever comes as infected red cells rupture, and **anaemia**, a low
+concentration of haemoglobin in the blood, develops as red cells are destroyed. Some parasites in the
+red cells develop into sexual forms, which a mosquito takes up when it bites.
+
+As a parasite matures inside a red cell, it places proteins of its own on the cell's surface, and
+these make the infected cell stick to the walls of small blood vessels. This **sequestration** keeps
+mature parasites out of the spleen, which filters the blood and removes infected red cells because
+they are stiffer than normal ones. It also keeps them out of a blood sample, so a blood film shows
+mainly young, ring-shaped parasites. The cost falls on the host, because stuck cells obstruct blood
+flow where they gather. In the brain the result is **cerebral malaria**, severe malaria with impaired
+consciousness, seizures or coma, and in pregnancy infected cells gather in the placenta.
+
+People who live where malaria is common, and are infected again and again, develop partial immunity
+over years. It does not prevent infection, but it limits the number of parasites in the blood and
+protects against severe disease, and it fades when exposure stops. Severe malaria therefore falls
+mainly on people without it:
+
+- Young children in areas where malaria is common, who have not yet had enough infections to build
+  it. Most deaths from malaria are of young children in sub-Saharan Africa.
+- Travellers from places without malaria, such as Singapore; most cases of malaria seen in Singapore
+  were acquired abroad.
+- Pregnant women, especially in a first pregnancy, because the parasites that gather in the placenta
+  are ones their immunity has not met before.
+
+*P. falciparum* harms the host in four ways, each traced to the red cells in which it multiplies:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Fever | Infected red cells rupture and release parasite material into the blood, and the host's inflammatory response to it causes fever | Fever and chills in a traveller recently returned from an area where malaria is common |
+| Anaemia | Red cells are destroyed as parasites burst out of them, and the spleen removes infected red cells, and some uninfected ones, from the blood | Severe anaemia in a young child in an area where malaria is common |
+| Blockage of small blood vessels | Mature parasites make infected red cells stick to the walls of small vessels, which obstructs blood flow | Cerebral malaria in a traveller without immunity, or in a young child |
+| Infection of the placenta | Infected red cells gather in the placenta and impair the exchange of nutrients between the mother's blood and the fetus | A baby born small to a mother infected in her first pregnancy |
+
+Three conditions let *P. falciparum* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A person without partial immunity: a young child where malaria is common, a traveller from a place without malaria, a pregnant woman | Without immunity from repeated infection, the parasites multiply unchecked in the blood; in pregnancy, the parasites that gather in the placenta are new to the woman's immunity |
+| Where (setting) | Tropical regions where infected mosquitoes bite: above all sub-Saharan Africa, but also parts of Asia, including South-East Asia, and South America | The parasite develops in the mosquito before it can be passed on, so measures against the mosquito break the cycle |
+| How (route) | The bite of an infected mosquito, which injects the parasites into the skin | The parasites travel in the blood to the liver, multiply there without symptoms, then multiply in red cells |
+
+Step through the two routes *P. falciparum* takes: from a mosquito bite to the brain, and, in
+pregnancy, to the placenta.
+
+<div data-island="body-map" data-src="/diagrams/route-p-falciparum.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/profile-p-falciparum.yml"></div>
+
+### *Entamoeba histolytica*: invasion of the colon and the liver {#sec-proto-entamoeba}
+
+*E. histolytica* is an **amoeba**, a protozoan that moves and engulfs its food by pushing out
+extensions of its cell. Humans are its main reservoir. Its cysts pass in the faeces and contaminate
+food and water where sanitation is poor, and they are swallowed. In the small intestine each cyst
+releases trophozoites, which settle in the colon and feed on bacteria and the gut contents. Most
+infections go no further and cause no symptoms.
+
+In some infections, trophozoites invade the wall of the colon. They attach to the cells lining it and
+kill them on contact; the name *histolytica* means 'tissue-dissolving'. The ulcers they make cause
+**dysentery**, diarrhoea with blood in the stool. From the ulcers, trophozoites can enter small veins
+in the colon wall. These drain into the portal vein, which carries blood from the gut to the liver
+before it returns to the heart, so the liver is the first organ the trophozoites reach. There they
+destroy liver tissue and form an abscess, a cavity of liquefied, necrotic liver tissue. A liver
+abscess can appear months after the infection began, often without any dysentery. Why trophozoites
+invade in some people and not in others is only partly understood; both the parasite and the host's
+defences contribute.
+
+People without symptoms are the main source of new infections. Their trophozoites stay in the colon
+and form cysts, which survive outside the body, whereas the stool in dysentery contains mainly
+trophozoites, which die soon after they leave it. By the time a liver abscess appears, the stool
+often contains no parasites, so the laboratory usually looks for the patient's antibodies against
+*E. histolytica* (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-serology)).
+
+When *E. histolytica* invades, it does harm in two places:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Invasion of the colon wall | Trophozoites kill the cells lining the colon on contact and make ulcers in its wall | Dysentery: diarrhoea with blood and mucus, with abdominal pain |
+| Spread to the liver | Trophozoites enter veins in the colon wall, are carried in the portal vein to the liver, and destroy liver tissue | A liver abscess, with fever and pain under the right ribs, months after a stay in an area with poor sanitation |
+
+Three conditions let *E. histolytica* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A person who carries the parasite in the colon, usually without symptoms | The trophozoites live there without harm, and in some people later invade the wall; carriers also pass the cysts that infect others |
+| Where (setting) | Food or water contaminated with human faeces, where sanitation is poor | Humans are the main reservoir, and cysts survive outside the body until they are swallowed |
+| How (route) | Swallowed cysts release trophozoites, which settle in the colon | Trophozoites that invade the colon wall can enter its veins and be carried in the portal vein to the liver |
+
+Step through the two routes of *E. histolytica*: silent carriage, which spreads the parasite to
+others, and invasion of the colon and the liver.
+
+<div data-island="body-map" data-src="/diagrams/route-e-histolytica.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/profile-e-histolytica.yml"></div>
+
+### *Giardia duodenalis*: on the surface of the small intestine {#sec-proto-giardia}
+
+*G. duodenalis* (also called *Giardia lamblia* or *Giardia intestinalis*) spreads as cysts in water
+contaminated with faeces, and from person to person on hands. Its cysts survive for long periods in
+cool water and are not reliably killed by chlorine at the levels used to treat drinking water, so
+outbreaks follow when
+the filtration of a water supply fails, and people who drink untreated water from streams are at
+risk. Spread from person to person is common among young children in childcare and their families. A
+small number of cysts is enough to start an infection, because the trophozoites that emerge multiply
+in the intestine.
+
+In the upper small intestine, each cyst releases trophozoites, which attach to the lining by a disc on
+their underside and multiply on its surface without invading it. They damage the microvilli of the
+cells lining the intestine, which absorb nutrients, so fat and sugars are poorly absorbed. The result
+is diarrhoea, often greasy and foul-smelling, with bloating and **malabsorption**, poor absorption of
+nutrients from the gut, which can cause weight loss in children. The wall is not invaded, so there is
+no blood in the stool and no spread beyond the gut. Many infections cause no symptoms, and illness is
+common in travellers and in young children in childcare.
+
+*G. duodenalis* does its harm from the surface of the small intestine, without invading:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Diarrhoea | Attached trophozoites disturb how the lining of the small intestine absorbs and secretes salts and water, so fluid stays in the gut | Watery diarrhoea, bloating and cramps in a traveller who drank untreated water |
+| Malabsorption | Damage to the microvilli reduces the absorption of fat and sugars, and unabsorbed fat passes in the stool | Pale, greasy, foul-smelling stools and weight loss in a young child |
+
+Three conditions let *G. duodenalis* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Anyone who swallows a few cysts; illness is common in young children in childcare and in travellers | The trophozoites that emerge multiply, so a small inoculum produces a large infection |
+| Where (setting) | Water contaminated with faeces, including supplies whose filtration has failed; hands, in childcare centres | Cysts are not reliably killed by chlorine at the levels used in drinking water, and survive in cool water for long periods; they pass from person to person by the faecal–oral route |
+| How (route) | Swallowed cysts release trophozoites in the upper small intestine | Trophozoites attach to the surface of the lining and stay there, so they disturb absorption without invading |
+
+Step through the route *G. duodenalis* takes, from water to the small intestine and out again.
+
+<div data-island="body-map" data-src="/diagrams/route-g-duodenalis.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/profile-g-duodenalis.yml"></div>
+
+## Contrast pair {#sec-proto-pairs}
+
+### *E. histolytica* and *G. duodenalis* {#sec-proto-pair-entamoeba-giardia}
+
+*E. histolytica* and *G. duodenalis* reach the gut in the same way, and both often cause no symptoms.
+Compare them feature by feature before reading the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-entamoeba-giardia.yml"></div>
+
+## Beyond the main organisms {#sec-proto-beyond}
+
+### Supporting organisms {#sec-proto-supporting}
+
+Two of the supporting organisms, *Toxoplasma gondii* and *Cryptosporidium*, are held in check by
+**cell-mediated immunity**, the defence by T cells against infected cells and against organisms that
+live inside host cells. When it fails, as in advanced HIV infection (see [*Viruses and the
+host*](../viruses/virus-host.qmd#sec-vhost-cd4)), both cause severe disease.
+
+| Organism | Where it lives | What separates it | Why it matters |
+|---|---|---|---|
+| *Toxoplasma gondii* | Inside cells of many tissues, including muscle and the brain, for life | Cats are its **definitive host**, the host in which a parasite reproduces sexually. They pass **oocysts** in their faeces: thick-walled forms, made after sexual reproduction, that survive outside the body. Humans swallow oocysts from soil, or parasites in undercooked meat | Silent in most people. A first infection during pregnancy can cross the placenta and cause **congenital infection**, infection passed from mother to fetus before birth, which can damage the brain and eyes of the fetus. A woman infected before pregnancy has immunity that usually protects the fetus. In advanced HIV infection the parasite reactivates in the brain |
+| *Cryptosporidium* | Just under the surface membrane of the cells lining the small intestine | Its oocysts can infect as soon as they are passed, a small number is enough, and they resist chlorine | Watery diarrhoea, which a healthy person clears; outbreaks follow swimming in pools and drinking from contaminated water supplies. In advanced HIV infection the diarrhoea is severe and prolonged, and few drugs act on it, so recovery depends on restoring immunity |
+| *Trichomonas vaginalis* | Vagina and urethra | Has no cyst stage and dies quickly outside the body, so it passes from person to person by sexual contact | A common sexually transmitted infection: inflammation of the vagina with a discharge, and often no symptoms, especially in men |
+
+::: {.callout-important}
+## Does chlorine make water safe from every microbe?
+Chlorinated drinking water and swimming pools are often assumed to be free of infection, because
+chlorine at the levels used kills most bacteria and viruses within minutes. The walls of protozoan
+cysts and oocysts protect the parasites inside. *G. duodenalis* cysts are far more resistant to
+chlorine than bacteria, and *Cryptosporidium* oocysts survive for days even in a properly chlorinated
+swimming pool, so outbreaks of diarrhoea can follow swimming. Water supplies therefore rely on
+filtration as well as chlorine, and boiling kills both parasites.
+:::
+
+### Later in the course {#sec-proto-later}
+
+| Organism | Where it comes up again |
+|---|---|
+| *P. falciparum* | Infectious diseases and travel medicine (fever in a returning traveller); obstetrics (malaria in pregnancy) |
+| *E. histolytica* | Gastroenterology (dysentery and liver abscess); travel medicine |
+| *G. duodenalis* | Gastroenterology (diarrhoea and malabsorption); travel medicine |
+| *Toxoplasma gondii* | Obstetrics and neonatology (congenital infection); HIV care (reactivation in the brain) |
+| *Cryptosporidium* | Gastroenterology (outbreaks of watery diarrhoea); HIV care (prolonged diarrhoea) |
+| *Trichomonas vaginalis* | Sexual health |
+
+## Check your understanding {#sec-proto-quiz}
+
+<div data-island="quiz" data-src="/quizzes/protozoa.quiz.yml"></div>
+
+## Review with flashcards {#sec-proto-cards}
+
+<div data-island="flashcards" data-src="/decks/protozoa.deck.yml"></div>

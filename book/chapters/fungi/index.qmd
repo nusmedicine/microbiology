@@ -5,8 +5,10 @@
 ::: {.concept-tree}
 [Map of this part]{.tree-title}
 
-- [Fungal principles](fungal-principles.qmd): structure, growth forms, and why fungi are harder to treat than bacteria
-- [Yeasts, moulds and dimorphic fungi](fungal-groups.qmd)
+- How fungi work
+  - [Fungal principles](fungal-principles.qmd)
+- The groups
+  - [Yeasts, moulds and dimorphic fungi](fungal-groups.qmd)
 :::
 
 ## The six questions, answered for this part {.unnumbered}

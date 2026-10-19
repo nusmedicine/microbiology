@@ -1,0 +1,72 @@
+id: pair-candida-cryptococcus
+title: "Contrast pair: two yeasts, one from the body and one from the soil"
+intro: "Both are yeasts that bud, and both can reach the blood. Read across and find the feature that best tells them apart."
+
+a:
+  name: "Candida albicans"
+b:
+  name: "Cryptococcus neoformans"
+
+rows:
+  - feature: "Growth form"
+    a: "Budding yeast; forms filaments when it invades tissue"
+    b: "Budding yeast"
+    separates: false
+  - feature: "Where it comes from"
+    a: "The person's own microbiota: the mouth, gut, vagina and skin"
+    b: "Soil contaminated with bird droppings, inhaled in dust"
+    separates: true
+  - feature: "Capsule"
+    a: "None"
+    b: "A thick polysaccharide capsule that resists phagocytosis"
+    separates: true
+  - feature: "Passed from person to person"
+    a: "Rarely: most infections come from the person's own yeast"
+    b: "No: every infection comes from the environment"
+    separates: false
+  - feature: "Typical disease"
+    a: "Thrush of the mouth or vagina; bloodstream infection in hospital patients"
+    b: "Meningitis, after spread from the lung in the blood"
+    separates: true
+  - feature: "Defence whose failure matters most"
+    a: "The resident bacteria and intact skin and mucosa (cell-mediated immunity for thrush in advanced HIV infection)"
+    b: "Cell-mediated immunity, as in advanced HIV infection"
+    separates: true
+
+question:
+  stem: "Both are budding yeasts. Which feature best tells them apart?"
+  options: [0, 3, 1]
+  answer: 1
+  feedback: >
+    Where it comes from. Both are budding yeasts, and neither usually passes from person to person, so
+    those rows cannot separate them. *C. albicans* is already on the body, while *C. neoformans* arrives
+    from the soil through the lung, and the source decides where infection starts and which defence must
+    fail.
+
+principle: >
+  A yeast that already lives on the body needs an opening: antibacterial drugs that remove its
+  competitors, a catheter across the skin, or a local defence that fails. Its disease starts at the
+  surfaces where it lives, or in the blood once a barrier is breached. A yeast from the environment
+  arrives in the lung and must survive there. The capsule of *C. neoformans* resists phagocytes, and
+  cell-mediated immunity contains the yeast until that immunity fails, when it spreads in the blood to
+  the brain.
+
+sort:
+  - text: "White plaques on the tongue and inside the cheeks of a 3-week-old infant"
+    answer: a
+    why: "Overgrowth at a surface where the yeast lives, in an infant whose defences and microbiota are still developing: *C. albicans*."
+  - text: "Grows in dried pigeon droppings on a window ledge"
+    answer: b
+    why: "Soil and dust contaminated with bird droppings are the home of *C. neoformans*."
+  - text: "Headache and fever for two weeks in a man with advanced HIV infection"
+    answer: b
+    why: "Meningitis after spread from the lung, when cell-mediated immunity has failed: *C. neoformans*."
+  - text: "Grows in blood cultures from a patient in intensive care with a central venous catheter"
+    answer: a
+    why: "A catheter across the skin, often after broad-spectrum antibacterial drugs, lets the patient's own yeast into the blood: *C. albicans*."
+  - text: "Capsule polysaccharide detected in the cerebrospinal fluid by an antigen test"
+    answer: b
+    why: "Of the two, only *C. neoformans* has a polysaccharide capsule, and the antigen test detects it."
+  - text: "Overgrows in the vagina a few days after a course of antibacterial drugs"
+    answer: a
+    why: "The drugs remove the resident bacteria, and the yeast that already lives there multiplies: *C. albicans*."

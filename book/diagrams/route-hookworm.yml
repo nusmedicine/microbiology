@@ -1,0 +1,33 @@
+id: route-hookworm
+title: "Route through the body: hookworms"
+intro: "Larvae from the soil enter through the skin and reach the small intestine by way of the lungs. At one step, predict where the blood carries them before the answer appears."
+
+routes:
+  - name: "From soil, through the skin"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Eggs passed in the faeces hatch in warm, moist, shaded soil, and over several days the larvae develop there into an infective stage."
+      - at: skin
+        kind: enters
+        text: "Infective larvae burrow through the skin, usually of bare feet, when it touches contaminated soil. An itchy rash can appear where they enter."
+      - at: alveoli
+        kind: spreads
+        via: blood
+        ask: "The larvae enter small veins in the skin. Where does the blood carry them?"
+        options: [alveoli, liver, brain]
+        answer: [alveoli]
+        why: "Veins from the skin return blood to the right side of the heart, which pumps it to the lungs. Blood from the feet does not pass through the liver, which receives blood from the intestine, and the brain is reached only through the arteries, after the lungs."
+        text: "The blood carries the larvae through the heart to the lungs, where they break out of the capillaries into the alveoli."
+      - at: nose-throat
+        kind: spreads
+        via: air
+        text: "The larvae move up the airway to the throat, and are coughed up and swallowed."
+      - at: gut
+        kind: lives
+        via: swallowed
+        text: "In the small intestine the larvae mature into adults, which attach to the lining with their mouths. The worms do not multiply there: each adult comes from one larva that entered through the skin, and the females' eggs pass out in the faeces."
+      - at: [gut, blood]
+        kind: damages
+        arrow: false
+        text: "Each worm feeds on blood from the lining and releases substances that stop it clotting. In heavy infection the steady loss of blood removes iron faster than the diet replaces it, causing iron-deficiency anaemia, worst in children and pregnant women."

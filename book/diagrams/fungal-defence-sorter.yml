@@ -1,0 +1,43 @@
+id: fungal-defence-sorter
+title: "Which defence failed?"
+intro: "Each description gives a fungal infection and the setting in which it arose. Sort each one by the host defence whose failure let it happen."
+
+categories:
+  - key: barrier
+    label: "Skin or mucosa breached"
+    summary: "intact skin and mucosa keep fungi on body surfaces out of the tissue and blood beneath. A catheter through the skin, or surgery on the bowel, opens a way in."
+  - key: microbiota
+    label: "Microbiota disturbed"
+    summary: "resident bacteria compete with *C. albicans* for attachment sites and nutrients. Antibacterial drugs remove them and spare the yeast, which overgrows on the mucosa."
+  - key: neutrophils
+    label: "Neutrophils lacking"
+    summary: "neutrophils kill yeast cells and spores that reach the tissues and attack hyphae. In neutropenia, as after chemotherapy, yeasts spread in the blood and moulds invade the lungs."
+  - key: cmi
+    label: "Cell-mediated immunity failed"
+    summary: "CD4 T cells hold *C. albicans* in check on the mucosa and let macrophages kill inhaled fungi. When they are lost in advanced HIV infection, candidiasis spreads down the oesophagus and *Cryptococcus* reaches the brain."
+
+items:
+  - text: "Yeasts grow from the blood of a patient whose central venous catheter, a tube passed through the skin into a large vein, has been in place for two weeks"
+    answer: barrier
+    why: "The catheter crosses the skin and gives yeasts a way into the blood."
+  - text: "Vaginal thrush that begins during a course of antibacterial drugs for a bladder infection"
+    answer: microbiota
+    why: "Antibacterial drugs reduced the vaginal bacteria that compete with the yeast, and spared the yeast itself."
+  - text: "Mould hyphae growing through the lung of a patient whose neutrophil count has been near zero for three weeks after chemotherapy"
+    answer: neutrophils
+    why: "Without neutrophils, inhaled spores grow into hyphae that are not attacked."
+  - text: "White plaques in the mouth and oesophagus of a man whose CD4 T-cell count has fallen in untreated HIV infection"
+    answer: cmi
+    why: "Candidiasis that spreads down the oesophagus is a sign that the CD4 T cells guarding the mucosa have been lost."
+  - text: "Yeast infection of the abdominal cavity after an operation in which the bowel was opened"
+    answer: barrier
+    why: "Surgery breached the lining of the gut and let its yeasts into the abdominal cavity."
+  - text: "Oral thrush in an adult after a long course of antibacterial drugs"
+    answer: microbiota
+    why: "The drugs removed many of the resident bacteria of the mouth and left the yeast untouched."
+  - text: "Meningitis caused by an encapsulated yeast from soil, in a woman with advanced HIV infection"
+    answer: cmi
+    why: "*Cryptococcus* is inhaled and contained while cell-mediated immunity holds; when that fails, the yeast spreads to the brain."
+  - text: "Yeasts spreading in the blood to other organs of a patient whose neutrophil count has been near zero for weeks after chemotherapy"
+    answer: neutrophils
+    why: "Neutrophils normally kill yeast cells that reach the tissues and blood; without them, the yeasts spread."

@@ -1,0 +1,52 @@
+id: parasite-route-sorter
+title: "How did the parasite get in?"
+intro: "Each description gives an exposure, not a parasite. Sort each one by the route through which the parasite enters the body."
+
+categories:
+  - key: swallowed
+    label: "Swallowed"
+    summary: "a cyst or egg that has survived outside the body, in water, food or soil contaminated with faeces, or larval cysts in undercooked meat. Sanitation, safe water, hand washing and cooking break this route."
+  - key: skin
+    label: "Through the skin"
+    summary: "larvae that live in soil or fresh water and pierce the skin. Footwear, and avoiding infested water, break this route."
+  - key: vector
+    label: "Bite of a vector"
+    summary: "a parasite that must develop in a biological vector before it can infect, so it is found only where the vector lives. Bed nets and vector control break this route."
+  - key: sexual
+    label: "Sexual contact"
+    summary: "a parasite passed directly between partners, with no stage that has to survive outside the body."
+  - key: placenta
+    label: "Across the placenta"
+    summary: "parasites in the mother's blood cross to the fetus; for *Toxoplasma gondii*, this happens in a first infection during pregnancy."
+
+items:
+  - text: "Drinking untreated water from a stream on a hiking trip"
+    answer: swallowed
+    why: "Cysts in water contaminated with faeces are swallowed, as those of *Giardia duodenalis* are."
+  - text: "Walking barefoot on soil where people defecate in the open"
+    answer: skin
+    why: "Hookworm larvae in soil contaminated with faeces pierce the skin of bare feet."
+  - text: "Sleeping without a bed net in a village where malaria is common"
+    answer: vector
+    why: "*Anopheles* mosquitoes bite at night and inject the sporozoites of *Plasmodium falciparum*."
+  - text: "Eating undercooked pork"
+    answer: swallowed
+    why: "Larval cysts in the meat are swallowed and grow into adult *Taenia* tapeworms in the intestine."
+  - text: "Unprotected sex with a new partner"
+    answer: sexual
+    why: "*Trichomonas vaginalis* passes between partners in sexual contact."
+  - text: "Swimming in a freshwater lake"
+    answer: skin
+    why: "Schistosome larvae released into fresh water enter through the skin."
+  - text: "A toddler puts her fingers in her mouth after playing in soil contaminated with faeces"
+    answer: swallowed
+    why: "Eggs that have matured in the soil are swallowed, as *Ascaris lumbricoides* eggs are."
+  - text: "An infant is born already infected, after the mother's first infection with the parasite in mid-pregnancy"
+    answer: placenta
+    why: "In a first infection during pregnancy, *Toxoplasma gondii* can cross the placenta to the fetus."
+  - text: "A mosquito feeds on a person whose blood contains the parasite's sexual forms, and later bites someone else"
+    answer: vector
+    why: "The parasite reproduces and develops in the mosquito before it can infect, so the mosquito is a biological vector."
+  - text: "A man and his female partner are both found to carry the same parasite in the genital tract"
+    answer: sexual
+    why: "A parasite shared by sexual partners, in the genital tract, points to sexual contact, as with *Trichomonas vaginalis*."

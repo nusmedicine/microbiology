@@ -1,0 +1,71 @@
+id: helminth-key
+title: "Sorting the helminths"
+intro: "The shape of the body separates three groups, and the route into the body separates the roundworms. Pick a branch at each step and read what each trait predicts about the worm as well as where it leads."
+start: body
+
+nodes:
+  - id: body
+    question: "What is the adult worm's body like?"
+    options:
+      - label: "Cylindrical and unsegmented (roundworm)"
+        meaning: "Roundworms (nematodes) have a gut from mouth to anus, and in most species male and female worms are separate. Adults in the human intestine release eggs or larvae into the faeces, and most roundworms need time in soil before they can infect, so they are caught where faeces contaminate the ground."
+        next: route
+      - label: "Flat and divided into segments (tapeworm)"
+        meaning: "Tapeworms (cestodes) have no gut and absorb nutrients through their surface. The adult lives in the intestine and sheds segments full of eggs in the faeces; the larvae form cysts in the tissues of an animal that swallows the eggs."
+        next: taenia
+      - label: "Unsegmented, attaching with suckers (fluke)"
+        meaning: "Flukes (trematodes) attach with suckers. Every fluke passes part of its life cycle in a snail, so infection is tied to places where the right snail lives, usually fresh water."
+        next: schistosomes
+  - id: route
+    question: "How does the roundworm enter the body?"
+    options:
+      - label: "Its eggs are swallowed"
+        meaning: "Eggs from faeces contaminate soil, food, water and hands, so infection follows poor sanitation and hand-to-mouth contact, and children are the most exposed."
+        next: mature
+      - label: "Its larvae burrow through the skin"
+        meaning: "Larvae that develop in soil enter through bare skin, usually of the feet, so footwear and sanitation prevent infection."
+        next: multiply
+  - id: mature
+    question: "Can the worm grow into an adult in a human?"
+    options:
+      - label: "Yes: adults live in the human intestine"
+        meaning: "Humans are its usual host. Adults release eggs that appear in a stool sample, and the number of worms follows the number of eggs swallowed."
+        next: ascaris
+      - label: "No: its larvae wander through the tissues"
+        meaning: "Humans are not its usual host, and the larvae cannot complete their development. They migrate through organs such as the liver, the lungs and the eye, provoking inflammation; no eggs appear in the faeces, so serology detects the infection."
+        next: toxocara
+  - id: multiply
+    question: "Can the worm multiply inside the host?"
+    options:
+      - label: "No: each adult came from a larva that entered from soil"
+        meaning: "The burden follows exposure, and the infection ends when the adult worms die, within a few years, unless the person is reinfected from soil."
+        next: hookworm
+      - label: "Yes: larvae mature in the gut and reinfect the same person"
+        meaning: "This autoinfection keeps the infection going for decades without new exposure. When corticosteroids suppress the host's defences, the number of larvae can rise to an overwhelming level."
+        next: strongyloides
+
+leaves:
+  - id: ascaris
+    name: "*Ascaris lumbricoides*"
+    tag: main
+    blurb: "The largest roundworm of the human intestine. Eggs from faeces need weeks in soil, then are swallowed; the larvae pass through the liver and lungs, causing cough and wheeze, before maturing in the small intestine. Heavy burdens in children block the intestine and impair nutrition, and an adult worm can block the bile duct."
+  - id: toxocara
+    name: "*Toxocara*"
+    tag: supporting
+    blurb: "Roundworms of dogs and cats. Children swallow eggs from soil contaminated with dog or cat faeces; the larvae wander through human tissues, including the eye, where they can damage sight, but cannot mature."
+  - id: hookworm
+    name: "Hookworms (*Necator americanus* and *Ancylostoma duodenale*)"
+    tag: main
+    blurb: "Larvae in soil burrow through the skin of bare feet, travel in the blood to the lungs, and are coughed up and swallowed. The adults attach to the lining of the small intestine and feed on blood, so heavy infection causes iron-deficiency anaemia, worst in children and pregnant women."
+  - id: strongyloides
+    name: "*Strongyloides stercoralis*"
+    tag: main
+    blurb: "Enters through the skin like hookworm, but its larvae can mature inside the host and reinfect it (autoinfection), so infection persists for decades. Corticosteroids can turn it into hyperinfection, in which larvae swarm through the body and carry gut bacteria into the blood."
+  - id: taenia
+    name: "*Taenia* (pork and beef tapeworms)"
+    tag: supporting
+    blurb: "Larval cysts eaten in undercooked pork or beef grow into an adult tapeworm in the intestine, usually with few symptoms. Eggs of the pork tapeworm, swallowed from the faeces of a person who carries the adult worm, release larvae that form cysts in the tissues, including the brain, where they can cause seizures."
+  - id: schistosomes
+    name: "Schistosomes (*Schistosoma*)"
+    tag: supporting
+    blurb: "Flukes whose larvae, released by freshwater snails, enter through the skin of people in fresh water. The adults live in the veins of the gut or the bladder, and eggs trapped in the tissues cause inflammation and scarring of the liver or the bladder."

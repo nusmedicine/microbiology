@@ -1,0 +1,40 @@
+id: profile-a-fumigatus
+name: "Aspergillus fumigatus"
+group: "Mould · spores in the air everywhere · disease set by the state of the lung and its defences"
+intro: "Predict two of the five slots. Everyone breathes this mould in; what follows depends on the host."
+
+slots:
+  - slot: identity
+    entry: "A mould: branching hyphae that form a mat and release spores into the air. The spores are a few micrometres across, small enough to reach the alveoli, and the fungus grows well at body temperature."
+  - slot: lifestyle
+    entry: "Grows in soil, compost and decaying plants. Its spores are in the air everywhere, indoors and outdoors, and everyone breathes them in every day. Not passed from person to person."
+  - slot: harm
+    predict:
+      stem: "Everyone breathes in *A. fumigatus* spores every day. Why do almost all people stay well?"
+      options:
+        - text: "Macrophages in the alveoli engulf the spores, and neutrophils attack any hyphae that form"
+          correct: true
+          feedback: "Two kinds of phagocyte share the work. Macrophages deal with the small spores; hyphae are too large to engulf, so neutrophils attack them, which is why a loss of neutrophils opens the way to invasion."
+        - text: "The spores are too large to reach the lungs"
+          correct: false
+          feedback: "The spores are only a few micrometres across, small enough to reach the alveoli. They are cleared there by phagocytes."
+        - text: "The fungus cannot grow at body temperature"
+          correct: false
+          feedback: "Most moulds grow poorly at 37 °C, but *A. fumigatus* grows well at it, which is one reason it causes disease. Phagocytes, not temperature, keep it in check."
+    entry: "Three patterns, set by the host. In asthma, it grows in the mucus of the airways without invading, and the allergic response to it inflames them. In a cavity left in the lung by earlier disease, it forms a fungus ball (aspergilloma). In prolonged neutropenia, hyphae invade the lung and its blood vessels, which clot, so the tissue they supply becomes necrotic."
+  - slot: consequence
+    predict:
+      stem: "Which of these patients is most at risk of invasive aspergillosis?"
+      options:
+        - text: "A patient with leukaemia whose neutrophil count has been very low for three weeks after chemotherapy"
+          correct: true
+          feedback: "Prolonged neutropenia removes the cells that attack hyphae, so spores that germinate in the lung grow on into the tissue and its blood vessels."
+        - text: "A healthy gardener who turns compost every week"
+          correct: false
+          feedback: "Compost is full of spores, but a healthy gardener's macrophages and neutrophils clear them. Invasion needs a failure of those defences."
+        - text: "A person with asthma"
+          correct: false
+          feedback: "Asthma is the setting for the allergic pattern, in which the fungus grows in the mucus of the airways without invading. Invasion needs a loss of neutrophils."
+    entry: "Invasive infection in prolonged neutropenia, as after chemotherapy for leukaemia or a transplant of blood-forming stem cells, which can spread in the blood to the brain. Allergy that makes asthma harder to control. A fungus ball in a cavity left by earlier disease, such as tuberculosis, which can make the person cough up blood."
+  - slot: contrast
+    entry: "Dermatophytes: also moulds, but they live in the keratin of the skin, hair and nails and are passed on by contact, so they infect healthy people and the infection stays at the surface."

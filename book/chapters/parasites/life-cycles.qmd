@@ -1,16 +1,319 @@
 # Life cycles and vectors
 
-> *A parasite's life cycle sets where it is caught, which stage causes disease, which stage is found in the laboratory, and where control can break the cycle.*
+> *A child swallows worm eggs from soil, and a traveller is bitten by a mosquito that carries the
+> malaria parasite. In both, the parasite's life cycle sets where it is caught, which stage causes
+> disease, which stage is found in the laboratory, and where control can break the cycle.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Distinguish protozoa from helminths by whether they multiply inside the human host, and explain
+  what that means for the size of an infection.
+- Define definitive host, intermediate host, and biological and mechanical vector, and identify each
+  in the life cycle of *Plasmodium falciparum*.
+- Sort parasites by the route by which they reach humans, and name the stage that enters by each
+  route.
+- Read a life cycle to say where a parasite is caught, which stage causes disease, which stage is
+  found in the laboratory and where control can break the cycle.
+- Choose the sample in which a parasite can be found, and explain when in the infection it appears
+  there.
+- Relate drugs against parasites to what parasites have and human cells lack.
 :::
 
-| Part of the chapter | Plan |
-|---|---|
-| Learning objectives | Read a life cycle diagram; identify definitive and intermediate hosts and vectors; relate the cycle to diagnosis and control |
-| Hosts and vectors | Definitive host, intermediate host, vector; a tree of how parasites reach humans |
-| Reading a life cycle | *Plasmodium falciparum* (anchor) as the worked example, drawn as a flow |
-| Control | Breaking the cycle: vectors, sanitation, treatment of the human reservoir |
-| Scenario questions | Which stage or exposure explains a described infection |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [Two kinds of parasite](#sec-life-kinds): protozoa multiply in the human host; helminths, with
+  few exceptions, do not
+- [Hosts, vectors and routes](#sec-life-hosts)
+  - [Hosts and vectors](#sec-life-vectors): definitive and intermediate hosts, biological and
+    mechanical vectors
+  - [How parasites reach humans](#sec-life-routes): five routes into the body
+- [Reading a life cycle](#sec-life-reading): four questions
+  - [*Plasmodium falciparum*](#sec-life-falciparum): the worked example
+  - [*Ascaris lumbricoides*](#sec-life-ascaris): a cycle without a vector
+- [Detection, control and drug targets](#sec-life-practice)
+  - [Finding the parasite](#sec-life-detect): the right sample at the right time
+  - [Breaking the cycle](#sec-life-control): a measure for each link
+  - [What parasites have that human cells lack](#sec-life-targets)
+:::
+
+## Two kinds of parasite {#sec-life-kinds}
+
+In medical microbiology, the word **parasite** usually refers to a protozoan or a helminth: a
+eukaryote that lives on or in a host at the host's expense. **Protozoa** are single-celled eukaryotes
+that move and feed independently. **Helminths** are parasitic worms, many-celled animals that develop
+from the egg into the adult through immature stages called **larvae** (singular larva). The anchors
+are *Plasmodium falciparum*, a protozoan, and *Ascaris lumbricoides*, a helminth
+(see the six questions answered for both in [*The microbial
+world*](../foundations/microbial-world.qmd#sec-world-six)).
+
+The two kinds differ in one property that shapes every infection they cause: whether the parasite
+multiplies inside the human host.
+
+| | Protozoa | Helminths |
+|---|---|---|
+| Built from | One eukaryotic cell | A many-celled animal with tissues and organs |
+| Multiply inside the human host? | Yes, by repeated division | With few exceptions, no: the eggs or larvae they produce must leave the host before they can infect anyone |
+| The size of an infection depends on | How far the parasite multiplies before the host controls it | How many eggs or larvae entered the body |
+
+A protozoan can therefore turn a small inoculum, the number of organisms received (see [*Microbes
+and their hosts*](../foundations/host-microbe.qmd#sec-host-factors)), into a large infection.
+
+::: {.example}
+A mosquito injects only a small number of *P. falciparum* parasites, but each one that reaches the
+liver gives rise to thousands, and these go on multiplying in red blood cells.
+:::
+
+A helminth infection is instead the sum of a person's exposures. Each adult *A. lumbricoides* in the
+intestine develops from one swallowed egg, and the eggs it lays leave in the faeces, so the number of
+worms, and the harm they do, rise with the number of eggs swallowed (see
+[*Helminths*](helminths.qmd)). A few helminths can add to their own numbers inside the host.
+
+::: {.example}
+One is *Strongyloides stercoralis*, a roundworm that enters through the skin: its larvae can become
+infective inside the gut and reinfect the same person, so an infection can persist for decades after
+the person has left the place where it was caught (see [*Helminths*](helminths.qmd)).
+:::
+
+Medically important protozoa are grouped by where in the body they live, and helminths by body form
+(see [*Protozoa*](protozoa.qmd) and [*Helminths*](helminths.qmd)).
+
+## Hosts, vectors and routes {#sec-life-hosts}
+
+### Hosts and vectors {#sec-life-vectors}
+
+Many parasites live in more than one host during their life cycle, and each host is named by what the
+parasite does in it:
+
+- The **definitive host** is the host in which the parasite reproduces sexually.
+- An **intermediate host** is a host in which the parasite develops or multiplies without reproducing
+  sexually.
+- A **vector** is an arthropod that carries an organism between hosts (see [*Transmission, outbreaks
+  and One Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)).
+
+A vector carries a parasite in one of two ways. In a **biological vector** the parasite develops or
+multiplies, and the vector cannot pass it on until it has done so. A **mechanical vector** carries an
+organism on its body or mouthparts, unchanged. A parasite that needs a biological vector is therefore
+found only where that vector can live.
+
+::: {.example}
+In the life cycle of *P. falciparum*, sexual reproduction takes place in the mosquito, so the
+mosquito is both the definitive host and a biological vector; humans, in whom the parasite
+multiplies only asexually, are the intermediate host.
+:::
+
+::: {.example}
+A housefly that walks on faeces and then on food can carry worm eggs on its legs and mouthparts;
+nothing develops in the fly, so it is a mechanical vector.
+:::
+
+*A. lumbricoides* has neither a vector nor an intermediate host: humans are its definitive host, and
+its eggs complete their development in soil. Many other helminths do pass through an intermediate
+host, and for several of them humans are the definitive host.
+
+::: {.example}
+The *Taenia* tapeworms live as adults in the human intestine, so humans are their definitive host;
+pigs or cattle are their intermediate hosts, carrying the larvae in cysts in their muscle (see
+[*Helminths*](helminths.qmd)).
+:::
+
+### How parasites reach humans {#sec-life-routes}
+
+The stage that enters a person is built for its route. Most parasites that are swallowed have first
+survived outside the body, as a helminth egg or as a **cyst**, a resistant stage that survives outside
+the body and is the infective form of many protozoa. A parasite that enters through the skin does so
+as a larva that can pierce it, and one carried by a vector enters as a stage that has developed inside
+the vector. Parasites reach humans by five routes (the organisms named are described in
+[*Protozoa*](protozoa.qmd) and [*Helminths*](helminths.qmd)):
+
+::: {.concept-tree}
+[How parasites reach humans]{.tree-title}
+
+- Swallowed
+  - Cysts in water or food contaminated with faeces: *Giardia duodenalis*
+  - Eggs that have matured in soil contaminated with faeces, carried to the mouth on hands or raw
+    vegetables: *A. lumbricoides*
+  - Larval cysts in undercooked meat: *Taenia* tapeworms, in pork or beef
+- Through the skin
+  - Larvae in soil contaminated with faeces: hookworms, through bare feet
+  - Larvae in fresh water: schistosomes, through the skin of people who wade, bathe or swim
+- The bite of a vector: *P. falciparum*, injected by a mosquito
+- Sexual contact: *Trichomonas vaginalis*
+- Across the placenta: *Toxoplasma gondii*, in a first infection during pregnancy
+:::
+
+The route predicts where a parasite is common and how it can be prevented. Parasites swallowed in
+material contaminated with faeces, or entering through the skin from soil, are common where
+sanitation is poor, and a parasite carried by a vector is found only where its vector lives.
+
+Sort each exposure below by the route through which the parasite enters.
+
+<div data-island="sorter" data-src="/diagrams/parasite-route-sorter.yml"></div>
+
+## Reading a life cycle {#sec-life-reading}
+
+A life cycle shows each stage of a parasite and where that stage lives. We read it with four
+questions:
+
+1. Where is it caught: which stage infects people, and where is that stage found?
+2. Which stage causes disease?
+3. Which stage is found in the laboratory, and in which sample?
+4. Where can control break the cycle?
+
+### *Plasmodium falciparum*: the worked example {#sec-life-falciparum}
+
+*P. falciparum* passes between people in the bite of a female *Anopheles* mosquito; only female
+mosquitoes feed on blood. The stage the mosquito injects is the **sporozoite**, which travels in the
+blood to the liver.
+
+::: {.flow}
+1. A bite injects sporozoites
+2. They multiply in liver cells, without symptoms
+3. New parasites invade red blood cells
+4. Repeated multiplication bursts red cells, with fever
+5. Some become male and female sexual forms
+6. A mosquito takes them up; sexual reproduction in its gut
+7. Sporozoites reach its salivary glands
+:::
+
+The cycle closes when the mosquito bites again.
+
+*Anopheles* mosquitoes bite mainly at night and pick up the parasite from infected people, so
+falciparum malaria is caught where both are found: mostly in sub-Saharan Africa, and in parts of Asia
+and South America. Most malaria diagnosed in Singapore is acquired abroad, so a history of travel is
+the main clue. Because the cycle in red cells can continue on its own, the parasite can also pass in
+transfused blood, without a mosquito or a liver stage.
+
+Only the blood stage causes disease. The liver stage causes no symptoms, so illness begins no sooner
+than about a week after the bite. In the blood, each cycle of multiplication ends with the infected
+red cells bursting, and material set free from them stimulates the host's white blood cells to
+release signals that cause fever. The destruction of red cells causes anaemia, and red cells infected with
+*P. falciparum* also stick to the walls of small blood vessels, the basis of severe falciparum
+malaria (see [*Protozoa*](protozoa.qmd)). The sexual forms cause no symptoms.
+
+The blood stage is also the one the laboratory finds. A stained blood film shows the parasites inside
+red cells and how many cells are infected, and an antigen test detects a parasite protein in a drop
+of blood, on a paper strip, within minutes. Early in the illness the parasites may be too few to see,
+so a single negative film does not exclude malaria, and the film is repeated while malaria is still
+suspected.
+
+Control can break the cycle at the mosquito, at infected people and at the person at risk. Bed nets
+treated with insecticide stop mosquitoes biting at night, and insecticide sprayed on the inside walls
+of homes kills mosquitoes that rest there after feeding; prompt treatment reduces the number of people whose blood can infect mosquitoes; and
+drugs taken by travellers prevent disease. Vaccines that act against the sporozoite, the stage the
+mosquito injects, are now given to young children in parts of Africa and give partial protection.
+
+### *Ascaris lumbricoides*: a cycle without a vector {#sec-life-ascaris}
+
+The cycle of *A. lumbricoides* passes through soil instead of a vector:
+
+::: {.flow}
+1. Eggs pass in faeces
+2. Weeks in warm, moist soil make them infective
+3. Swallowed eggs hatch in the gut
+4. Larvae cross the gut wall and travel through the liver to the lungs
+5. Larvae are coughed up and swallowed
+6. Adults mature in the small intestine
+:::
+
+Freshly passed eggs cannot infect anyone until they have spent weeks in soil, so the worm does not
+pass directly from person to person. The source of infection is soil contaminated with faeces, in
+which the eggs survive for months, and the eggs reach the mouth on hands or on raw vegetables grown in
+that soil. The adults do not multiply in the intestine, so every adult comes from one swallowed egg.
+
+Set side by side, the two anchors give different answers to every question:
+
+| Question | *P. falciparum* | *A. lumbricoides* |
+|---|---|---|
+| Where is it caught? | From the bite of an infected *Anopheles* mosquito, mostly in sub-Saharan Africa | By swallowing eggs that have matured in soil contaminated with faeces, where sanitation is poor, in the tropics and subtropics, including parts of South-East Asia |
+| Which stage causes disease? | The blood stage: bursting red cells cause fever, and their loss causes anaemia | Adult worms in the small intestine: heavy infections obstruct the intestine and impair children's nutrition (see [*Helminths*](helminths.qmd)); larvae passing through the lungs cause cough and wheeze |
+| Which stage is found in the laboratory? | Parasites inside red cells on a blood film; a parasite protein in an antigen test | Eggs in the stool, once the adults have matured and begun to lay |
+| Where can control break the cycle? | Bed nets and insecticides; prompt treatment; drugs for travellers; a vaccine for young children | Latrines; washing hands and raw vegetables; treating whole school-age populations at regular intervals |
+
+## Detection, control and drug targets {#sec-life-practice}
+
+### Finding the parasite {#sec-life-detect}
+
+A test can find a parasite only in a sample that contains one of its stages, taken when that stage is
+there. Protozoa and helminth eggs are large enough to see with a light microscope, so microscopy is
+still a main test for parasites (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-kinds)). The life cycle shows which sample to
+take:
+
+- Parasites that live in the blood are seen in a stained blood film, as *P. falciparum* is seen
+  inside red cells.
+- Parasites that live in the gut leave eggs, cysts or larvae in the stool, as *A. lumbricoides* leaves
+  its eggs. These are not passed evenly from day to day, so one negative stool sample does not exclude
+  infection, and samples from several days may be examined.
+- Parasites hidden in tissue leave nothing in the blood or stool to see. They are often detected by
+  serology, the detection of the patient's antibodies as evidence of exposure (see [*Detecting and
+  controlling microbes*](../foundations/detection-control.qmd#sec-det-serology)).
+
+::: {.example}
+Larvae of *Toxocara*, a roundworm of dogs and cats, wander through human tissues after a child
+swallows its eggs from soil, but they cannot mature in a human and lay no eggs, so the stool shows
+nothing and the infection is detected by serology (see [*Helminths*](helminths.qmd)).
+:::
+
+A sample taken at the wrong point in the cycle can miss the parasite even when the right sample is
+chosen.
+
+::: {.example}
+While *A. lumbricoides* larvae pass through the lungs, causing cough and wheeze, a stool sample shows
+no eggs: eggs appear only when the adults have matured in the intestine, two to three months after
+the eggs were swallowed.
+:::
+
+Antigen tests and nucleic acid amplification tests (NAATs), which copy a stretch of the parasite's DNA
+until it can be detected, find parasite molecules instead of the parasite itself. An antigen test
+needs no microscope, and a NAAT can detect parasites too few to see, but like every NAAT it reports
+only the organisms it was designed to detect (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-molecular)).
+
+### Breaking the cycle {#sec-life-control}
+
+Each link in a life cycle is a point at which it can be broken, as each link in the chain of infection
+is (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-chain)). The measure follows from the
+link:
+
+| Link in the cycle | Measure | Parasites it acts against |
+|---|---|---|
+| The vector | Bed nets treated with insecticide; insecticide sprayed on the inside walls of homes; removing standing water in which mosquito larvae develop | *P. falciparum* |
+| Faeces reaching soil, water or food | Latrines and sewage treatment; safe drinking water; keeping untreated human faeces off fields; washing hands and raw vegetables | *A. lumbricoides*, *G. duodenalis* |
+| Larvae in meat | Cooking meat thoroughly | *Taenia* tapeworms |
+| Larvae in soil | Wearing footwear | Hookworms |
+| Infected people, the source of new infections | Prompt treatment; treating whole school-age populations for worms at regular intervals | *P. falciparum*, *A. lumbricoides* |
+| The person at risk | Drugs taken by travellers to prevent disease; vaccines against the sporozoite for young children in parts of Africa (see [*Detecting and controlling microbes*](../foundations/detection-control.qmd#sec-det-prevent)) | *P. falciparum* |
+
+Treating whole populations of school-age children works against worms because the worms do not
+multiply in the host: removing most of them removes most of the harm, even if a few remain. The
+treatment does not reach the eggs in the soil, so where sanitation is unchanged the children are
+reinfected and the treatment has to be repeated.
+
+### What parasites have that human cells lack {#sec-life-targets}
+
+Protozoa and helminths are eukaryotes, so they share most of their machinery with human cells and
+offer fewer targets for drugs than bacteria do (see [*The microbial
+world*](../foundations/microbial-world.qmd#sec-world-kinds)). A drug can harm a parasite without
+harming the patient only by acting on something the parasite has and human cells lack:
+
+| Parasite | What the parasite has | What human cells have instead | Drugs that act on it |
+|---|---|---|---|
+| *P. falciparum* | Enzymes that make its own folate | No folate synthesis: they take folate from the diet | Drugs that block folate synthesis |
+| *P. falciparum* | A way to dispose of the haem released as it digests the haemoglobin of its red cell: it packs the haem, which is toxic to it, into harmless crystals | No such process | Drugs that stop the crystals forming, so that free haem poisons the parasite |
+| Helminths | Worm-specific nerve and muscle ion channels | Different channels, which the drugs affect far less | Drugs that act on these channels and paralyse the worm, which is then expelled from the gut |
+| Helminths | Worm tubulin, the protein of the worm's microtubules | Human tubulin, which these drugs bind far less tightly | Drugs that bind worm tubulin, used in school deworming |
+
+Resistance arises in parasites, as in bacteria, by mutation and selection. Falciparum malaria is
+therefore usually treated with a combination of drugs that act in different ways, so that a parasite
+resistant to one is killed by another, as in the treatment of HIV infection (see [*Detecting viruses
+and antiviral targets*](../viruses/detecting-viruses.qmd#sec-vdet-resistance)).
+
+## Check your understanding {#sec-life-quiz}
+
+<div data-island="quiz" data-src="/quizzes/life-cycles.quiz.yml"></div>
+
+## Review with flashcards {#sec-life-cards}
+
+<div data-island="flashcards" data-src="/decks/life-cycles.deck.yml"></div>

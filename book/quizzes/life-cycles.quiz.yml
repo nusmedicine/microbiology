@@ -1,0 +1,150 @@
+id: life-cycles
+title: "Check your understanding: life cycles and vectors"
+questions:
+  - id: lc1
+    stem: "A mosquito injects only a few *Plasmodium falciparum* parasites, yet the infection can grow until many red cells are infected. A child who swallows a few *Ascaris lumbricoides* eggs carries only a few worms. Which difference explains this?"
+    options:
+      - text: "*P. falciparum* multiplies inside the human host, and *A. lumbricoides* does not"
+        correct: true
+        feedback: "A protozoan divides again and again inside the host, so a small inoculum can become a large infection. Each adult *A. lumbricoides* comes from one swallowed egg, and the eggs it lays leave in the faeces, so the number of worms cannot exceed the number of eggs swallowed."
+      - text: "The mosquito injects the parasites straight into the blood, out of reach of the host's defences"
+        correct: false
+        feedback: "Sporozoites are injected into the skin and must reach the liver, and many are lost on the way. The infection grows because the survivors multiply, first in liver cells and then in red cells."
+      - text: "Stomach acid destroys most of the worm eggs that are swallowed"
+        correct: false
+        feedback: "Eggs of *A. lumbricoides* survive the stomach and hatch in the intestine. Worm numbers stay low because the adults do not multiply inside the host."
+      - text: "The worms multiply more slowly than the protozoan"
+        correct: false
+        feedback: "Adult worms do not multiply inside the host at all: their eggs leave in the faeces and must mature in soil. What separates the two is whether multiplication happens inside the host, not how fast it is."
+  - id: lc2
+    stem: "In the life cycle of *Plasmodium falciparum*, why is the mosquito the definitive host and the human the intermediate host?"
+    options:
+      - text: "The parasite reproduces sexually in the mosquito, and only asexually in humans"
+        correct: true
+        feedback: "Hosts are named by what the parasite does in them. The male and female forms made in human blood complete sexual reproduction only in the mosquito's gut, so the mosquito is the definitive host."
+      - text: "The mosquito carries the parasite from one person to the next"
+        correct: false
+        feedback: "Carrying the parasite between hosts makes the mosquito a vector. It is also the definitive host because sexual reproduction happens inside it; the two roles are separate."
+      - text: "The disease occurs in humans, not in the mosquito"
+        correct: false
+        feedback: "Where disease occurs does not name the host. The definitive host is the one in which the parasite reproduces sexually."
+      - text: "The parasite spends more time in humans than in the mosquito"
+        correct: false
+        feedback: "Time spent in a host does not decide its name. Sexual reproduction does, and for *P. falciparum* it takes place in the mosquito."
+  - id: lc3
+    stem: "A housefly walks on faeces and then on uncovered food, carrying worm eggs on its legs. Why is the fly a mechanical vector, while the mosquito is a biological vector of *Plasmodium falciparum*?"
+    options:
+      - text: "Nothing develops in the fly, whereas *P. falciparum* must develop in the mosquito before it can infect"
+        correct: true
+        feedback: "A mechanical vector carries an organism unchanged, on its body or mouthparts. In a biological vector the parasite develops: the mosquito cannot pass on *P. falciparum* until sporozoites have reached its salivary glands."
+      - text: "The fly does not bite, so it is not a true vector"
+        correct: false
+        feedback: "Biting is not what makes a vector: any arthropod that carries an organism between hosts is one. The fly is a mechanical vector because the eggs do not change on it."
+      - text: "The fly is the definitive host of the worm"
+        correct: false
+        feedback: "The eggs neither develop nor reproduce on the fly, so it is not a host of any kind. It only transports them from faeces to food."
+  - id: lc4
+    stem: "A 28-year-old woman flies from Singapore to a rural area of West Africa where malaria is common. Mosquitoes bite her on her first evening there, and on her third day she develops a fever. Which detail best explains why these bites cannot have caused this fever?"
+    options:
+      - text: "After a bite, the parasite multiplies in liver cells for about a week without causing symptoms"
+        correct: true
+        feedback: "Illness begins only when parasites leave the liver and multiply in red cells, no sooner than about a week after the bite. A fever on the third day has another cause, although malaria remains possible if fever begins later."
+      - text: "The parasite must first reproduce sexually in her blood"
+        correct: false
+        feedback: "Sexual reproduction takes place in the mosquito, never in people. The delay comes from the silent liver stage."
+      - text: "One night of bites injects too few parasites to cause disease"
+        correct: false
+        feedback: "One infected bite is enough, because the parasites multiply in the liver and then in red cells. Timing, not dose, rules out these bites."
+      - text: "Fever begins only when sexual forms appear in the blood"
+        correct: false
+        feedback: "The sexual forms cause no symptoms. Fever comes from red cells bursting in the blood stage, which begins after the liver stage."
+  - id: lc5
+    stem: "Two weeks after returning from a holiday in sub-Saharan Africa, a 35-year-old man has fever, chills and headache. A stained blood film shows parasites inside his red cells. Which event in the life cycle causes his fever?"
+    options:
+      - text: "Infected red cells bursting at the end of each cycle of multiplication"
+        correct: true
+        feedback: "Material released when the red cells burst makes his white blood cells release signals that cause fever. Each new cycle in the red cells brings another round of bursting."
+      - text: "Sporozoites entering his liver"
+        correct: false
+        feedback: "Sporozoites reached his liver soon after the infecting bite and caused no symptoms. His fever comes from the blood stage."
+      - text: "Multiplication of the parasite in his liver cells"
+        correct: false
+        feedback: "Multiplication in the liver is silent. Symptoms start only when parasites leave the liver and multiply in red cells."
+      - text: "The formation of sexual forms in his blood"
+        correct: false
+        feedback: "Sexual forms cause no symptoms; they are the stage a mosquito takes up. Fever comes from red cells bursting as new parasites are released."
+  - id: lc6
+    stem: "A 6-year-old girl in a village without latrines develops a dry cough and wheeze. A stool sample shows no worm eggs. Two months later, her stool contains many eggs of *Ascaris lumbricoides*. Which detail best explains why the first sample was negative?"
+    options:
+      - text: "Larvae were passing through her lungs and had not yet become egg-laying adults"
+        correct: true
+        feedback: "Eggs come only from adult worms in the small intestine, which begin to lay two to three months after the eggs are swallowed. While the larvae were in her lungs, causing the cough, the stool held nothing to find."
+      - text: "The eggs in her stool had not yet matured in soil"
+        correct: false
+        feedback: "Maturation in soil happens after eggs leave the body, so it does not affect what a stool sample shows. The first sample was negative because no adult worms were yet laying eggs."
+      - text: "Her cough had cleared the worms from her body"
+        correct: false
+        feedback: "Coughing brings the larvae up from the lungs to the throat, where they are swallowed and reach the intestine. It completes their migration and does not end the infection."
+      - text: "She was infected after the first sample was taken"
+        correct: false
+        feedback: "Her cough at the time of the first sample came from larvae already in her lungs. The infection was present, at a stage that leaves nothing in the stool."
+  - id: lc7
+    stem: "A 4-year-old girl often plays in a park where dogs defecate. Her blood contains antibodies to *Toxocara*, but several stool samples show no worm eggs. Which detail best explains the negative stool samples?"
+    options:
+      - text: "*Toxocara* larvae cannot mature in a human, so no adult worms lay eggs"
+        correct: true
+        feedback: "In a human, the larvae from swallowed eggs wander through the tissues but never become adults in the intestine. Nothing reaches the stool, so the infection is detected by serology."
+      - text: "Eggs appear in the stool only two to three months after infection"
+        correct: false
+        feedback: "That delay belongs to *Ascaris lumbricoides*, whose larvae mature in the human intestine. *Toxocara* larvae never mature in a human, however long the infection lasts."
+      - text: "She was infected through the skin, so the worms never reached her gut"
+        correct: false
+        feedback: "Children swallow *Toxocara* eggs from soil, and the larvae hatch in the gut before wandering into the tissues. The stool is empty because the larvae never become adults."
+      - text: "Her antibodies destroyed the eggs before they could be passed"
+        correct: false
+        feedback: "No eggs are laid in the first place, because only adult worms lay eggs. The antibodies are what make the infection detectable."
+  - id: lc8
+    stem: "A 24-year-old man returns from several months of volunteer work in a rural area, where he often waded across rivers and swam in a freshwater lake. Tests later show a worm infection that entered through his skin. Which parasite is most likely?"
+    options:
+      - text: "Schistosomes"
+        correct: true
+        feedback: "Schistosome larvae live in fresh water and enter through the skin of people who wade, bathe or swim. Contact with rivers and lakes is the clue."
+      - text: "Hookworms"
+        correct: false
+        feedback: "Hookworm larvae also enter through the skin, but they live in soil contaminated with faeces and usually enter through bare feet. Rivers and lakes point to schistosomes."
+      - text: "*Ascaris lumbricoides*"
+        correct: false
+        feedback: "*A. lumbricoides* is swallowed as eggs from soil and does not enter through the skin. Entry through the skin after contact with fresh water points to schistosomes."
+      - text: "*Taenia* tapeworms"
+        correct: false
+        feedback: "Infection with *Taenia* comes from larval cysts swallowed in undercooked meat. Entry through the skin after contact with fresh water points to schistosomes."
+  - id: lc9
+    stem: "A school in a village without latrines treats every child for worms. Six months later, many of the children again carry *Ascaris lumbricoides*. Which detail best explains this?"
+    options:
+      - text: "Treatment removed the worms but not the eggs maturing in the soil, so the children swallowed new eggs"
+        correct: true
+        feedback: "Drugs act on worms inside the body, while the source of infection is soil contaminated with faeces. Without sanitation, children are reinfected, and treatment has to be repeated at regular intervals."
+      - text: "The few worms that survived treatment multiplied in the children's intestines"
+        correct: false
+        feedback: "Adult *A. lumbricoides* do not multiply inside the host; every new worm comes from a newly swallowed egg. The children were reinfected from the soil."
+      - text: "Treated children passed eggs that infected their classmates directly"
+        correct: false
+        feedback: "Freshly passed eggs cannot infect anyone until they have spent weeks in soil. Reinfection came from soil contaminated with faeces."
+      - text: "The drugs killed the larvae but not the adult worms"
+        correct: false
+        feedback: "Treatment reduces the number of adult worms in the intestine, which is why it reduces disease. The worms returned because eggs in the soil were swallowed again."
+  - id: lc10
+    stem: "Drugs that block folate synthesis can kill *Plasmodium falciparum* with little harm to the patient. Which difference between the parasite and human cells explains this?"
+    options:
+      - text: "The parasite makes its own folate, whereas human cells take folate from the diet"
+        correct: true
+        feedback: "A drug spares the patient when it acts on something the parasite has and human cells lack. Blocking folate synthesis starves the parasite of folate, while human cells go on taking it from food."
+      - text: "Human cells do not need folate"
+        correct: false
+        feedback: "Human cells need folate to make DNA, as the parasite does. The difference lies in the source: human cells take folate from the diet and do not make it."
+      - text: "The parasite makes folate only while it is in the mosquito"
+        correct: false
+        feedback: "The drugs act on the parasite in the patient's red cells, where it makes its own folate. The mosquito stages play no part in treatment."
+      - text: "The drugs cannot enter human cells"
+        correct: false
+        feedback: "Whether the drugs enter human cells does not matter here: human cells have no folate synthesis to block, because they take folate from the diet."

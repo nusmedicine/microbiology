@@ -1,0 +1,40 @@
+id: profile-g-duodenalis
+name: "Giardia duodenalis"
+group: "Protozoan · attached to the lining of the small intestine; swallowed as cysts"
+intro: "Predict two of the five slots. Most of what this parasite does follows from where it lives: on the surface of the small intestine, without invading."
+
+slots:
+  - slot: identity
+    entry: "A single-celled protozoan with two forms: the cyst, which survives for long periods in cool water and is not reliably killed by chlorine at the levels used in drinking water, and the trophozoite, which attaches to the lining of the small intestine by a disc on its underside. Also called *Giardia lamblia* or *Giardia intestinalis*."
+  - slot: lifestyle
+    predict:
+      stem: "A few *G. duodenalis* cysts swallowed in water from a stream can start an infection. Why are so few enough?"
+      options:
+        - text: "The trophozoites that emerge multiply in the intestine, so a few become a large population"
+          correct: true
+          feedback: "Like other protozoa, *G. duodenalis* multiplies inside the host, so a small inoculum can produce a large infection."
+        - text: "The cysts multiply in the water before they are swallowed"
+          correct: false
+          feedback: "Cysts do not multiply. They are a resting stage that survives in water, and multiplication starts only when trophozoites emerge in the intestine."
+        - text: "Each cyst releases millions of trophozoites"
+          correct: false
+          feedback: "Each cyst releases two trophozoites. They become a large population because they multiply in the intestine."
+    entry: "Spread in water contaminated with faeces, and from person to person on hands, as among young children in childcare. A small number of cysts can infect. Illness is common in travellers and in people who drink untreated water."
+  - slot: harm
+    predict:
+      stem: "*G. duodenalis* trophozoites attach to the lining of the small intestine and do not invade it. Which illness is most likely?"
+      options:
+        - text: "Diarrhoea and bloating, with greasy stools and no blood"
+          correct: true
+          feedback: "Damage to the surface of the small intestine reduces the absorption of fat and sugars. Without invasion of the wall, no blood enters the stool."
+        - text: "Diarrhoea with blood and mucus"
+          correct: false
+          feedback: "Blood in the stool comes from invasion of the gut wall, as by *E. histolytica* in the colon. *G. duodenalis* stays on the surface."
+        - text: "A liver abscess"
+          correct: false
+          feedback: "To reach the liver, a parasite must invade the gut wall and enter its veins. *G. duodenalis* never leaves the surface of the intestine."
+    entry: "Damages the microvilli of the cells lining the small intestine without invading, so fat and sugars are poorly absorbed: diarrhoea, often greasy and foul-smelling, with bloating and malabsorption, and weight loss in some children."
+  - slot: consequence
+    entry: "Many infections cause no symptoms, and people without symptoms pass cysts that infect others. In others, diarrhoea and malabsorption last for weeks. The infection does not spread beyond the gut."
+  - slot: contrast
+    entry: "*Entamoeba histolytica*: also swallowed as cysts, but it lives in the colon, can invade the wall and cause dysentery, and can reach the liver in the portal vein."

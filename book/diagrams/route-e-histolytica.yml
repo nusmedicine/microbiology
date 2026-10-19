@@ -1,0 +1,37 @@
+id: route-e-histolytica
+title: "Routes through the body: *Entamoeba histolytica*"
+intro: "Most infections stay in the colon without symptoms and spread the parasite to others. In some, trophozoites invade the colon wall and travel to the liver."
+
+routes:
+  - name: "Carriage without symptoms"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Cysts passed in human faeces contaminate food or water where sanitation is poor. Their wall lets them survive outside the body."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "Swallowed cysts pass through the stomach. In the small intestine each cyst opens and releases trophozoites, which move on to the colon."
+      - at: gut
+        kind: lives
+        text: "Trophozoites live and multiply in the colon, feeding on bacteria and the gut contents. In most people they cause no symptoms."
+      - at: outside
+        kind: spreads
+        text: "Trophozoites in the colon form cysts, which pass in the faeces. A person without symptoms passes cysts for long periods and is the main source of new infections."
+
+  - name: "Dysentery and liver abscess"
+    steps:
+      - at: gut
+        kind: lives
+        text: "Trophozoites live in the colon, as in a carrier."
+      - at: gut
+        kind: damages
+        text: "In some people, trophozoites invade the wall of the colon. They attach to the cells lining it and kill them on contact, making ulcers, and blood passes in the stool: dysentery."
+      - at: liver
+        kind: damages
+        via: blood
+        ask: "From the ulcers, trophozoites enter small veins in the wall of the colon. Which organ does this blood reach first?"
+        options: [liver, heart, alveoli]
+        answer: [liver]
+        why: "Veins from the gut drain into the portal vein, which carries blood to the liver before it returns to the heart. The liver is therefore the first organ the trophozoites reach, and the usual site of spread beyond the gut."
+        text: "Carried in the portal vein, trophozoites reach the liver and destroy liver tissue, forming an abscess: a cavity of liquefied, necrotic liver tissue. It can appear months after the infection began, often without any dysentery."

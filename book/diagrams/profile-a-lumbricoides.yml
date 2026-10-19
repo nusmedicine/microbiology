@@ -1,0 +1,40 @@
+id: profile-a-lumbricoides
+name: "Ascaris lumbricoides"
+group: "Roundworm (nematode) · eggs swallowed from soil · adults in the small intestine"
+intro: "The helminth anchor. Predict two of the five slots: most of what this worm does follows from the fact that it cannot multiply inside the human host."
+
+slots:
+  - slot: identity
+    entry: "The largest roundworm of the human intestine, visible to the naked eye: a multicellular animal with a gut, and separate male and female worms. The females release very large numbers of thick-shelled eggs, which pass out in the faeces."
+  - slot: lifestyle
+    predict:
+      stem: "Eggs of *A. lumbricoides* passed in the faeces cannot infect anyone at first. How, then, does a new infection begin?"
+      options:
+        - text: "The eggs develop in soil for some weeks, and are then swallowed on food, in water or from hands"
+          correct: true
+          feedback: "A larva has to develop inside each egg first, which takes weeks in warm, moist soil. Infection therefore follows faeces in the soil, not direct contact with an infected person."
+        - text: "The eggs pass directly from person to person on unwashed hands"
+          correct: false
+          feedback: "Fresh eggs are not yet infective, so passing them straight from hand to mouth does not infect. They need weeks in soil first."
+        - text: "Larvae hatch in the soil and burrow through the skin of bare feet"
+          correct: false
+          feedback: "That is the route of hookworms and *Strongyloides stercoralis*. Eggs of *A. lumbricoides* stay intact in the soil until they are swallowed, and the larvae hatch in the intestine."
+    entry: "Lives in the human small intestine, where the adults survive for a year or two. Common wherever human faeces contaminate soil. Eggs need weeks in warm, moist soil before they can infect, survive there for months, and are swallowed on food, in water or from hands. The larvae hatch in the intestine and pass through the liver and lungs before maturing in the small intestine."
+  - slot: harm
+    entry: "Larvae passing through the lungs provoke inflammation, with cough, wheeze and eosinophilia. A heavy burden of adult worms impairs a child's nutrition and growth, and can form a mass that blocks the small intestine. A single adult can crawl into the bile duct and block it."
+  - slot: consequence
+    predict:
+      stem: "A heavily infected child is treated, and all her worms are expelled. She goes back to playing on the same contaminated soil. What happens to her worm burden?"
+      options:
+        - text: "It builds up again, one worm for each egg she swallows, so treatment is repeated at intervals"
+          correct: true
+          feedback: "Treatment clears the worms but not the eggs in the soil. Her burden returns only as fast as she swallows new eggs, which is why whole groups of children are treated again and again."
+        - text: "It stays at zero, because treatment leaves lasting immunity"
+          correct: false
+          feedback: "Children are commonly reinfected after treatment, so whatever immunity the worms leave does not prevent it. The burden rebuilds with each egg she swallows."
+        - text: "It rebounds within days, because eggs left in her intestine hatch and grow"
+          correct: false
+          feedback: "Eggs laid in the intestine pass out in the faeces and must spend weeks in soil before they can infect. The worms cannot multiply inside her, so the burden returns only with new eggs swallowed from the soil."
+    entry: "Disease follows the number of worms. Light infections are silent; heavy burdens, built up by swallowing eggs again and again, block the intestine and impair children's nutrition and growth. Reinfection after treatment is common, so whole communities, or all school-age children, are treated at intervals to keep burdens low."
+  - slot: contrast
+    entry: "Hookworms: also roundworms whose larvae pass through the lungs, but the larvae enter through the skin from soil, and the adults feed on blood, so heavy infection causes iron-deficiency anaemia."

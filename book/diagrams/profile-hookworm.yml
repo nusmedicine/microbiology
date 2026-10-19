@@ -1,0 +1,40 @@
+id: profile-hookworm
+name: "Hookworms"
+group: "Roundworms (nematodes) · larvae through the skin · adults feed on blood"
+intro: "Two species, *Necator americanus* and *Ancylostoma duodenale*, with the same way of life. Predict two slots: ask what a worm that feeds on blood takes from its host, and who can least afford to lose it."
+
+slots:
+  - slot: identity
+    entry: "Small roundworms, about a centimetre long, that attach to the lining of the small intestine with a mouth armed with teeth or cutting plates. Their eggs pass out in the faeces and hatch in soil."
+  - slot: lifestyle
+    entry: "Eggs hatch in warm, moist, shaded soil contaminated with human faeces, and the larvae develop there into an infective stage. The larvae burrow through the skin, usually of bare feet, travel in the blood to the lungs, are coughed up and swallowed, and mature in the small intestine. Common in rural areas of the tropics, including South-East Asia."
+  - slot: harm
+    predict:
+      stem: "Adult hookworms attach to the lining of the small intestine and feed on blood. What does a heavy infection cause over months?"
+      options:
+        - text: "Iron-deficiency anaemia, as iron is lost with the blood"
+          correct: true
+          feedback: "Each worm releases substances that stop the blood clotting, so the wound keeps bleeding. The steady loss removes iron faster than the diet replaces it, and too little haemoglobin can be made."
+        - text: "Blockage of the intestine by a mass of worms"
+          correct: false
+          feedback: "Blockage by a tangled mass is the harm of *Ascaris lumbricoides*, whose adults are many times longer. Hookworms are small and fixed to the lining; their harm is the blood they take."
+        - text: "Destruction of red cells inside the blood vessels"
+          correct: false
+          feedback: "Destroying red cells inside the circulation is the harm of *Plasmodium falciparum*. Hookworms take blood from the gut lining, and anaemia follows from the iron that is lost with it."
+    entry: "Each worm feeds on blood from the lining of the small intestine and releases substances that stop it clotting, so the wound keeps bleeding. In heavy infection the steady loss removes iron faster than the diet replaces it: iron-deficiency anaemia. Larvae entering the skin can cause an itchy rash."
+  - slot: consequence
+    predict:
+      stem: "Who is harmed most by a heavy hookworm burden?"
+      options:
+        - text: "Children and pregnant women, whose need for iron is high"
+          correct: true
+          feedback: "Growth and pregnancy both raise the need for iron, so the same loss of blood exhausts their stores sooner. A poor diet makes the anaemia worse."
+        - text: "People taking corticosteroids, in whom the worms multiply"
+          correct: false
+          feedback: "Hookworms cannot multiply in the host, so corticosteroids do not raise their number. Multiplication after corticosteroids is the danger of *Strongyloides stercoralis*."
+        - text: "Older adults, whose immunity is weakest"
+          correct: false
+          feedback: "The harm comes from loss of blood, not from a failure of immunity. Those whose need for iron is highest, children and pregnant women, suffer most."
+    entry: "Disease follows the number of worms and the body's supply of iron. Light infections are silent. Iron-deficiency anaemia is worst in children, in whom it harms growth, and in pregnant women. The worms do not multiply in the host, so the infection ends within a few years unless the person is reinfected from soil; footwear and sanitation prevent it."
+  - slot: contrast
+    entry: "*Strongyloides stercoralis*: also enters through the skin from soil, but its larvae can mature inside the host and reinfect it, so the infection lasts for decades and can overwhelm a person given corticosteroids."

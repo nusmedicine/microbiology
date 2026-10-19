@@ -5,9 +5,10 @@
 ::: {.concept-tree}
 [Map of this part]{.tree-title}
 
-- [Life cycles and vectors](life-cycles.qmd)
-- [Protozoa](protozoa.qmd)
-- [Helminths](helminths.qmd)
+- How parasites work
+  - [Life cycles and vectors](life-cycles.qmd)
+- The groups
+  - [Protozoa](protozoa.qmd), [Helminths](helminths.qmd)
 :::
 
 ## The six questions, answered for this part {.unnumbered}

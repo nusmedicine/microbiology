@@ -1,0 +1,43 @@
+id: route-s-stercoralis
+title: "Routes through the body: *Strongyloides stercoralis*"
+intro: "Two routes: the usual infection, which autoinfection keeps going for decades, and hyperinfection when corticosteroids suppress the host's defences."
+
+routes:
+  - name: "Infection and autoinfection"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Larvae live in warm, moist soil contaminated with human faeces, in the tropics and subtropics."
+      - at: skin
+        kind: enters
+        text: "Infective larvae burrow through the skin, usually of bare feet, as hookworm larvae do."
+      - at: gut
+        kind: lives
+        text: "The larvae travel through the body to the small intestine, and the female worms that develop from them live in its lining. Their eggs hatch there, so larvae, not eggs, pass into the faeces."
+      - at: [gut, skin]
+        kind: enters
+        ask: "Some larvae mature into the infective stage before they leave the body. Where can they re-enter the same person?"
+        options: [gut, skin, alveoli]
+        answer: [gut, skin]
+        why: "Infective larvae can burrow through the wall of the intestine, or through the skin around the anus as they leave in the faeces. Either way they reinfect the same person: autoinfection."
+        text: "Some larvae mature into the infective stage inside the gut and burrow back in through the wall of the intestine or the skin around the anus: autoinfection."
+      - at: gut
+        kind: multiplies
+        text: "The new larvae travel to the small intestine and mature, adding to the worms already there. Without any new exposure the cycle can continue for decades, usually with few worms and few symptoms."
+
+  - name: "Hyperinfection after corticosteroids"
+    steps:
+      - at: gut
+        kind: lives
+        text: "A person infected decades earlier, perhaps while growing up in South-East Asia, carries a few worms without symptoms. The host's defences keep the number of larvae low."
+      - at: gut
+        kind: multiplies
+        text: "Corticosteroids suppress those defences. Autoinfection speeds up, and the number of larvae in the gut rises enormously."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "Larvae cross the wall of the intestine in huge numbers and enter the blood, carrying bacteria from the gut with them."
+      - at: [alveoli, brain]
+        kind: damages
+        via: blood
+        text: "Larvae swarm through the lungs and can reach other organs, including the brain, and the gut bacteria they carried cause bloodstream infection and meningitis. Hyperinfection can be fatal."
