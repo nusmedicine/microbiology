@@ -69,9 +69,11 @@ therefore follow four rules.
 
 - **Anchor organisms.** Part I draws its examples from one small cast, reused in every chapter so
   that each new principle attaches to an organism already met: *Staphylococcus aureus*,
-  *Streptococcus pyogenes*, *Escherichia coli*, *Mycobacterium tuberculosis*, *Burkholderia
-  pseudomallei*, influenza virus, HIV, *Candida albicans* and *Plasmodium falciparum*. An organism
-  outside the cast needs a reason (a local study, a historical discovery).
+  *Streptococcus pyogenes*, *Escherichia coli*, *Bacteroides fragilis*, *Mycobacterium
+  tuberculosis*, *Burkholderia pseudomallei*, influenza virus, HIV, *Candida albicans*, *Plasmodium
+  falciparum* and *Ascaris lumbricoides*. An organism outside the cast needs a reason: a local study,
+  a historical discovery, the organism of a practice case, or the only common organism that shows a
+  trait (*Mycoplasma*, which has no wall).
 - **One example per idea**, plus at most one contrasting example when the idea is a distinction.
 - **One sentence of clinical detail**: only the fact that shows the principle. No symptoms, tests or
   treatment.

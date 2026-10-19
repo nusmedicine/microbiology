@@ -33,7 +33,7 @@ slots:
         - text: "Surviving for years inside macrophages"
           correct: false
           feedback: "That is the mycobacterial pattern. These enzymes let *S. pyogenes* spread through tissue."
-    entry: "Three patterns: **spread through tissue**, helped by enzymes that dissolve clots and connective-tissue gel; **toxins**, including superantigens like those of *S. aureus*; and **immune-mediated damage weeks later**, after the infection has gone."
+    entry: "Three patterns: spread through tissue, helped by enzymes that dissolve clots and connective-tissue gel; toxins, including superantigens like those of *S. aureus*; and immune-mediated damage weeks later, after the infection has gone."
   - slot: consequence
     predict:
       stem: "Weeks after a sore throat has cleared, some people develop inflammation of the heart. What is the most likely mechanism?"
@@ -47,6 +47,6 @@ slots:
         - text: "Toxin stored in the heart is slowly released"
           correct: false
           feedback: "Toxins act during infection. Weeks later, the damage comes from antibodies that cross-react with the person's own tissue."
-    entry: "Infection of the throat (pharyngitis) or spreading infection of the skin (cellulitis); toxin-mediated illness; and, weeks later, **post-infectious immune disease** such as rheumatic fever. The last is a damage-response lesson: the host causes the damage."
+    entry: "Infection of the throat (pharyngitis) or spreading infection of the skin (cellulitis); toxin-mediated illness; and, weeks later, post-infectious immune disease such as rheumatic fever. The last is a damage-response lesson: the host causes the damage."
   - slot: contrast
     entry: "*S. pneumoniae*: also a streptococcus, but alpha-haemolytic, in lancet-shaped pairs, defended mainly by its capsule rather than by enzymes and toxins."

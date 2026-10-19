@@ -43,4 +43,4 @@ items:
     why: "Every cell has ribosomes; only a virus lacks them."
   - text: "A cell with no nucleus that lives only inside host cells and has very little peptidoglycan"
     answer: bacterium
-    why: "Still a prokaryotic cell, with its own ribosomes: an obligate intracellular bacterium such as *Chlamydia*."
+    why: "Still a prokaryotic cell, with its own ribosomes: a bacterium, even though it can grow only inside host cells."

@@ -35,7 +35,7 @@ question:
   answer: 2
   feedback: >
     Crossing species. A mutation can only spread to the cell's own descendants, but a plasmid can pass
-    from *Klebsiella* to *E. coli* in the same gut, carrying a resistance gene that *E. coli* never
+    from another species to *E. coli* in the same gut, carrying a resistance gene that *E. coli* never
     evolved itself.
 
 principle: >

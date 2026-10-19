@@ -3,14 +3,54 @@
 > *Two practical problems run through clinical microbiology: finding out in the laboratory which
 > microbe is present, and removing unwanted microbes from instruments, surfaces and hands.*
 
-## What each method reads {#sec-det-reads}
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Relate each kind of laboratory method to the property it reads, and to what its result can and
+  cannot show.
+- Explain why a culture can be negative when an organism is present.
+- Read a minimum inhibitory concentration from a dilution series, and interpret a susceptibility
+  report.
+- Distinguish sterilisation, disinfection and antisepsis, and rank organisms by how hard they are to
+  kill.
+- Describe the kinds of vaccine, and explain why polysaccharide vaccines are conjugated to a protein.
+:::
+
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [Finding the microbe](#sec-det-reads)
+  - [Seeing](#sec-det-microscopy): stains and microscopy
+  - [Growing](#sec-det-culture): culture
+  - [Detecting molecules](#sec-det-molecular): nucleic acid and protein methods
+  - [Detecting the host's response](#sec-det-serology): serology
+- [Testing drug susceptibility](#sec-det-mic): the MIC and breakpoints
+- [Controlling microbes](#sec-det-control)
+  - [Sterilisation, disinfection and antisepsis](#sec-det-terms)
+  - [What survives](#sec-det-resistance): resistance to killing
+- [Preventing infection](#sec-det-prevent): vaccines and stewardship
+:::
+
+## Finding the microbe {#sec-det-reads}
 
 Each laboratory method detects one property of the organism, or of the host's response to it, and
 that property sets what a result can and cannot show.
 
+::: {.concept-tree}
+[Laboratory methods by what they read]{.tree-title}
+
+- The organism
+  - Its structure: stains and microscopy
+  - Its growth: culture
+  - Its molecules: nucleic acid amplification, MALDI-TOF, whole-genome sequencing
+- The host
+  - Its antibody response: serology
+:::
+
+Sort each method below by what it reads.
+
 <div data-island="sorter" data-src="/diagrams/method-sorter.yml"></div>
 
-## Seeing: stains and microscopy {#sec-det-microscopy}
+### Seeing: stains and microscopy {#sec-det-microscopy}
 
 Microscopy is fast, cheap and widely available, and it shows structure. The Gram stain distinguishes
 the two main envelope designs within minutes (see [*How bacteria are built and get
@@ -21,7 +61,7 @@ A stain gives a category, not a species: purple cocci in chains could be one of 
 also needs a large number of organisms in the sample, so a negative smear does not exclude infection.
 Organisms with no wall, or too thin to resolve, give nothing useful.
 
-## Growing: culture {#sec-det-culture}
+### Growing: culture {#sec-det-culture}
 
 Culture depends on growth, and its main advantage over every other method is that it yields a living
 isolate, which can then be identified, tested against drugs, and compared with isolates from other
@@ -38,17 +78,18 @@ reveal.
 Culture conditions decide what a laboratory can find. In each of the following situations, a
 negative culture does not mean that the sample contained nothing:
 
-- An anaerobe will not grow on a plate kept in air, as in the lab case in [*How bacteria are built
-  and get energy*](bacteria-build-energy.qmd#sec-bact-case).
-- A slow-growing organism is missed if plates are discarded too early, as in the *Helicobacter* case
-  in [*The microbial world*](microbial-world.qmd#sec-world-case).
-- An **obligate intracellular** organism, one that can grow only inside living host cells, such as
-  *Chlamydia*, will not grow on agar at all.
+- An anaerobe will not grow on a plate kept in air, as in the laboratory case in [*How bacteria are
+  built and get energy*](bacteria-build-energy.qmd#sec-bact-case).
+- A slow-growing organism is missed if plates are discarded too early: *Mycobacterium tuberculosis*
+  takes weeks to form a visible colony.
+- An **obligate intracellular** organism, one that can grow only inside living host cells, will not
+  grow on agar at all. The bacterium *Chlamydia* is one (see [*A map of the
+  bacteria*](../microbes/bacteria-map.qmd#sec-map-atypicals)).
 
-Culture is also slow. Many bacteria need overnight incubation, and mycobacteria can take weeks, which
-is the main reason molecular methods have become central.
+Culture is also slow. Many bacteria need overnight incubation and some need weeks, which is the main
+reason molecular methods have become central.
 
-## Detecting molecules {#sec-det-molecular}
+### Detecting molecules {#sec-det-molecular}
 
 **Nucleic acid amplification tests (NAATs)**, of which the polymerase chain reaction (PCR) is the
 best-known example, copy a target sequence many times until it can be detected. They are fast and
@@ -68,7 +109,7 @@ grown. It has largely replaced long series of biochemical tests. **Whole-genome 
 the entire genome, at a resolution that can show whether isolates from two patients belong to the same
 strain, and it is now standard in outbreak investigation.
 
-## Detecting the host's response: serology {#sec-det-serology}
+### Detecting the host's response: serology {#sec-det-serology}
 
 **Serology** detects the patient's antibodies, so it is evidence about the host's history rather than
 about the organism's presence now. IgM appears early and then falls; IgG appears later and persists,
@@ -100,23 +141,44 @@ the laboratory.
 
 ## Controlling microbes {#sec-det-control}
 
-**Sterilisation**, **disinfection** and **antisepsis** mean different things:
+### Sterilisation, disinfection and antisepsis {#sec-det-terms}
 
-- Sterilisation kills or removes all microbial life, including bacterial spores.
-- Disinfection removes most organisms from an inanimate object, but does not reliably kill spores.
-- Antisepsis applies the same idea to living tissue, as in skin preparation before a procedure.
+**Sterilisation**, **disinfection** and **antisepsis** differ in how much they remove and in what they
+are applied to.
+
+| Process | What it removes | Applied to | Example |
+|---|---|---|---|
+| Sterilisation | All microbial life, including bacterial spores | Instruments that enter sterile tissue or the bloodstream | Steam under pressure at 121 °C in an autoclave |
+| Disinfection | Most organisms, but not reliably spores | Inanimate objects: surfaces, and instruments that touch intact mucosa | Chlorine solution on a contaminated floor |
+| Antisepsis | Most organisms, but not reliably spores | Living tissue | Skin preparation before a procedure; alcohol hand rub |
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-sterilisation-disinfection.yml"></div>
 
-Organisms differ in what they survive:
+### What survives {#sec-det-resistance}
 
-- Bacterial spores survive boiling and alcohol, so instruments that enter sterile tissue are
-  autoclaved.
-- The lipid envelope of enveloped viruses is fragile, so alcohol and detergents inactivate these
-  viruses readily.
-- Non-enveloped viruses, such as the enteroviruses that cause hand, foot and mouth disease, are more
-  resistant.
-- Prions are not reliably inactivated by routine autoclaving and need specific, extended protocols.
+Infectious agents differ in how hard they are to inactivate, and the differences follow from their
+structure.
+
+::: {.spectrum}
+[Resistance to disinfection and sterilisation]{.tree-title}
+
+- Enveloped viruses, such as influenza virus: the lipid envelope is fragile
+- Most bacteria: killed by alcohol and other disinfectants
+- Non-enveloped viruses: more resistant to alcohol
+- Bacterial spores: survive boiling and alcohol
+- Prions: survive routine autoclaving
+
+[Easily inactivated]{.spectrum-end} [Hardest to inactivate]{.spectrum-end}
+:::
+
+Three practical rules follow:
+
+- Alcohol and detergents inactivate enveloped viruses readily, because they disrupt the lipid
+  envelope.
+- Instruments that enter sterile tissue are autoclaved, because bacterial spores survive boiling and
+  alcohol.
+- Prions are not reliably inactivated by routine autoclaving, and instruments that may carry them need
+  specific, extended protocols.
 
 From these differences we can predict when soap and water replace alcohol hand rub: when spores or
 non-enveloped viruses are a concern, because washing removes physically what alcohol does not kill.
@@ -126,18 +188,26 @@ non-enveloped viruses are a concern, because washing removes physically what alc
 Prevention acts on the links of the chain of infection (see [*Transmission, outbreaks and One
 Health*](transmission-outbreaks.qmd#sec-trans-chain)).
 
-**Vaccination** makes a host immune without causing disease. Vaccines differ in what they contain:
+**Vaccination** makes a host immune without causing disease. Vaccines differ in what they contain.
 
-- inactivated organisms;
-- live attenuated organisms;
-- purified components, such as proteins or capsular polysaccharides;
-- **toxoids** (inactivated protein toxins);
-- nucleic acid encoding an antigen.
+::: {.concept-tree}
+[Kinds of vaccine by what they contain]{.tree-title}
+
+- Whole organisms
+  - Inactivated organisms
+  - Live attenuated organisms
+- Purified parts of organisms
+  - Proteins
+  - Capsular polysaccharides, alone or linked to a protein
+  - **Toxoids**, inactivated protein toxins
+- Nucleic acid encoding an antigen
+:::
 
 Capsular polysaccharides alone produce a poor response in young children, so they are linked to a
 protein in a **conjugate vaccine**, which greatly improved protection against encapsulated bacteria.
 Vaccines that reduce carriage or transmission also protect unvaccinated people, the herd immunity
-effect; tetanus toxoid does not, because tetanus does not pass between people.
+effect. A vaccine against an infection acquired only from the environment, and never from another
+person, protects only the person who receives it.
 
 Antimicrobial stewardship (see [*How bacteria copy themselves and
 change*](bacterial-genetics.qmd#sec-gen-resistance)) limits selection for resistance by keeping

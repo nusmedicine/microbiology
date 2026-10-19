@@ -1,7 +1,7 @@
 id: bacteria-map
 title: "A map of the bacteria"
 intro: >
-  Each row is one of the groups you will hear named in lectures. Each column is a trait from the
+  Each row is one of the groups you will hear named in lectures. Each column is a trait from
   *How bacteria are built and get energy*. Click a group to see why it behaves as it does, or click a column heading to
   line the groups up by that trait.
 

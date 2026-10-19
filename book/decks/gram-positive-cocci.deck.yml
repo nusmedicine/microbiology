@@ -18,7 +18,7 @@ cards:
   - id: p4
     kind: how
     front: "Name *S. aureus*'s three patterns of harm."
-    back: "Invasion with pus and abscess; toxin without invasion (toxin made in food); toxin acting on the whole body (superantigen in toxic shock)."
+    back: "Infection (invasion with pus and abscess); intoxication (toxin already made in food, no infection); immune-mediated damage (a superantigen switches on huge numbers of T cells, as in toxic shock)."
   - id: p5
     kind: why
     front: "Why does staphylococcal food poisoning start within hours, and why does reheating not help?"

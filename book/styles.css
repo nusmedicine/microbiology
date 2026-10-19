@@ -20,6 +20,8 @@
   --dg-border: #d5e0ee;
 }
 
+.flow { container-type: inline-size; }
+
 .concept-tree,
 .flow {
   margin: 1.25rem 0 1.5rem;
@@ -108,6 +110,8 @@
 }
 .flow li {
   position: relative;
+  min-width: 0;
+  hyphens: auto;
   font-size: 0.9rem;
   margin: 0;
   padding: 0.5rem 0.65rem;
@@ -129,9 +133,21 @@
   color: var(--dg-accent);
   font-weight: 700;
 }
-@media (max-width: 640px) {
+/* Medium width: boxes wrap like words, arrows between them. */
+@container (max-width: 42rem) {
   .flow ol {
-    grid-auto-flow: row;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1.7rem;
+  }
+  .flow li {
+    flex: 0 1 auto;
+  }
+}
+/* Narrow: one column, arrows pointing down. */
+@container (max-width: 24rem) {
+  .flow ol {
+    flex-direction: column;
     gap: 1.4rem;
   }
   .flow li:not(:last-child)::after {
@@ -191,7 +207,7 @@
   border-radius: 6px;
   line-height: 1.35;
 }
-.spectrum li:nth-child(2) { text-align: center; }
+.spectrum li:not(:first-child):not(:last-child) { text-align: center; }
 .spectrum li:last-child { text-align: right; }
 .spectrum > p:last-child {
   display: flex;
@@ -211,7 +227,7 @@
     left: 0.15rem; right: auto; top: 0; bottom: 0; width: 0.45rem; height: auto;
     background: linear-gradient(180deg, #cfe0f5, var(--dg-accent));
   }
-  .spectrum li, .spectrum li:nth-child(2), .spectrum li:last-child { text-align: left; }
+  .spectrum li, .spectrum li:not(:first-child):not(:last-child), .spectrum li:last-child { text-align: left; }
   .spectrum > p:last-child { flex-direction: column; gap: 0.1rem; }
   .spectrum > p:last-child .spectrum-end:first-child::before { content: "Top: "; }
   .spectrum > p:last-child .spectrum-end:last-child::before { content: "Bottom: "; }

@@ -26,17 +26,17 @@ questions:
         correct: false
         feedback: "Drugs select; they do not supply genes. The genes arrive by horizontal transfer from other bacteria."
   - id: n3
-    stem: "Only strains of *Corynebacterium diphtheriae* that carry a particular phage cause diphtheria. What is this an example of?"
+    stem: "Only strains of *Escherichia coli* that carry a particular prophage make Shiga toxin. What is this an example of?"
     options:
       - text: "Lysogenic conversion: a prophage gene changes what the bacterium does"
         correct: true
-        feedback: "The diphtheria toxin gene is carried by the phage. Without the prophage, the bacterium makes no toxin."
+        feedback: "The Shiga toxin genes are carried by the phage. Without the prophage, the bacterium makes no toxin."
       - text: "The lytic cycle, which kills the bacterium"
         correct: false
-        feedback: "In the lytic cycle the phage destroys its host. Here the phage genome stays in the chromosome as a prophage and adds the toxin gene."
+        feedback: "In the lytic cycle the phage destroys its host. Here the phage genome stays in the chromosome as a prophage and adds the toxin genes."
       - text: "Transformation by free DNA"
         correct: false
-        feedback: "The toxin gene arrives with the phage itself, as a prophage. That is lysogenic conversion."
+        feedback: "The toxin genes arrive with the phage itself, as a prophage. That is lysogenic conversion."
   - id: n4
     stem: "Bacterial ribosomes are 70S and human cytoplasmic ribosomes are 80S. Why can some drugs that block bacterial ribosomes still affect human cells at high doses?"
     options:
@@ -73,3 +73,33 @@ questions:
       - text: "Changing the drug's target"
         correct: false
         feedback: "The target is unchanged. The drug simply cannot reach it in sufficient amounts because fewer porins let it in."
+  - id: n7
+    stem: "A woman in hospital has a urinary infection with *Escherichia coli* that is susceptible to most drugs. Two weeks later, after a course of treatment, the *E. coli* from her urine resists three unrelated drugs, and it carries a plasmid identical to one found in a different bacterial species on the same ward. Which detail best shows that her *E. coli* acquired the resistance by gene transfer and not by mutation?"
+    options:
+      - text: "The identical plasmid shared with another species"
+        correct: true
+        feedback: "A mutation changes only the cell's own DNA and passes only to its descendants. The same plasmid in two species means DNA moved between cells, most likely by conjugation."
+      - text: "Resistance to three unrelated drugs"
+        correct: false
+        feedback: "This fits a plasmid carrying several resistance genes, but on its own it does not show where the genes came from. The plasmid shared with another species does."
+      - text: "The course of treatment"
+        correct: false
+        feedback: "Treatment selects resistant bacteria whatever the origin of their resistance. It explains why resistant cells took over, not how they became resistant."
+      - text: "The site of infection, the urinary tract"
+        correct: false
+        feedback: "The site says nothing about how the genes arrived. The plasmid found in a second species is what shows that DNA crossed between cells."
+  - id: n8
+    stem: "In a laboratory, a resistant donor strain and a susceptible recipient strain are grown on either side of a filter that bacteria cannot cross but phages can. The recipient gains the donor's resistance gene, and adding an enzyme that destroys free DNA does not stop the transfer. Which route is most likely?"
+    options:
+      - text: "Transduction"
+        correct: true
+        feedback: "A phage can cross the filter, and the DNA it carries is packaged inside the phage, out of reach of the enzyme. Both details fit transduction and exclude the other routes."
+      - text: "Conjugation"
+        correct: false
+        feedback: "Conjugation needs direct contact between two cells, drawn together by a conjugative pilus. The filter keeps the cells apart."
+      - text: "Transformation"
+        correct: false
+        feedback: "Transformation is the uptake of free DNA, which the enzyme would destroy. Transfer continuing in its presence rules this route out."
+      - text: "A new mutation in the recipient"
+        correct: false
+        feedback: "A mutation changes the recipient's own DNA; it would not give the recipient the donor's own gene. The gene came from the other side of the filter."

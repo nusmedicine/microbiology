@@ -4,20 +4,43 @@
 > weeks after a sore throat. That range follows from a few traits the group shares and from the
 > mechanisms by which each organism causes harm.*
 
-## One bacterium, three illnesses {#sec-gpc-hook}
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Sort the Gram-positive cocci by catalase, coagulase, haemolysis and Lancefield group, and state
+  what each trait reveals about the organism.
+- Distinguish infection, intoxication and immune-mediated damage, using the three patterns of harm
+  of *Staphylococcus aureus*.
+- Explain why *S. aureus* infections tend to be walled off while *Streptococcus pyogenes* infections
+  spread, and how *S. pyogenes* can damage the heart after the infection has cleared.
+- Explain how the capsule lets *Streptococcus pneumoniae* cause disease, and why vaccines are made
+  from it.
+- Name the host, setting and route that let each main organism cause disease.
+- Tell *S. aureus* from *Staphylococcus epidermidis*, and *S. pyogenes* from *S. pneumoniae*, by
+  laboratory traits and pattern of harm.
+:::
 
-Three people fall ill:
+::: {.concept-tree}
+[Chapter map]{.tree-title}
 
-- A teenager develops a **furuncle** (boil): a hot, swollen, pus-filled nodule centred on a hair
-  follicle.
-- Forty wedding guests start vomiting two to three hours after lunch. Most are well by the next day.
-- A young woman develops a high fever, a rash and **hypotension** (abnormally low blood pressure)
-  severe enough to cause shock.
+- [The group](#sec-gpc-group)
+  - [The group in one sentence](#sec-gpc-sentence): what every member shares
+  - [Sorting the group](#sec-gpc-key): catalase, coagulase, haemolysis, Lancefield group
+- [Main organisms](#sec-gpc-main)
+  - [One bacterium, three illnesses](#sec-gpc-hook)
+  - [*S. aureus*](#sec-gpc-aureus): infection, intoxication, immune-mediated damage
+  - [*S. pyogenes*](#sec-gpc-pyogenes): spreading enzymes and delayed immune damage
+  - [*S. pneumoniae*](#sec-gpc-pneumoniae): the capsule
+- [Contrast pairs](#sec-gpc-pairs)
+  - [*S. aureus* and *S. epidermidis*](#sec-gpc-pair-staph)
+  - [*S. pyogenes* and *S. pneumoniae*](#sec-gpc-pair-strep)
+- [Beyond the main organisms](#sec-gpc-beyond)
+  - [Supporting organisms](#sec-gpc-supporting)
+  - [Later in the course](#sec-gpc-later)
+:::
 
-One organism, *Staphylococcus aureus*, can cause all three, by three different mechanisms, and each
-follows from how the bacterium works.
+## The group {#sec-gpc-group}
 
-## The group in one sentence {#sec-gpc-sentence}
+### The group in one sentence {#sec-gpc-sentence}
 
 Gram-positive cocci are thick-walled spheres that live on the skin and mucous membranes and cause harm
 mainly when they get past a barrier. Most of the six questions have one answer for the whole group;
@@ -32,49 +55,90 @@ its members differ mainly in how damage happens.
 | How does damage happen? | Three patterns: **pyogenic** (pus-forming) invasion, toxins, and immune-mediated damage |
 | What does it have that my cells lack? | A peptidoglycan wall, and the proteins that build it |
 
-## Sorting the group {#sec-gpc-key}
+### Sorting the group {#sec-gpc-key}
 
-A few traits separate every member of the group. **Haemolysis** is the destruction of red blood
-cells: on blood agar, a clear zone around a colony (beta-haemolysis) means the red cells have been
-lysed, while a green zone (alpha-haemolysis) means their haemoglobin has been damaged. The
-**Lancefield group** is a carbohydrate on the streptococcal cell wall, used to type streptococci.
+Four laboratory traits separate the members of the group:
 
-The key follows the order of laboratory tests, and each branch gives what the trait means about the
-organism.
+- **Catalase**, an enzyme that breaks down hydrogen peroxide
+- **Coagulase**, an enzyme that clots plasma
+- **Haemolysis**, the destruction of red blood cells, seen as a zone around colonies on blood agar
+- The **Lancefield group**, a carbohydrate on the streptococcal cell wall, used to type streptococci
+
+::: {.concept-tree}
+[Sorting the Gram-positive cocci]{.tree-title}
+
+- Catalase-positive, in clusters: staphylococci
+  - Coagulase-positive: *S. aureus*
+  - Coagulase-negative: *S. epidermidis* and related species
+- Catalase-negative, in chains or pairs: streptococci and enterococci
+  - Beta-haemolytic, typed by Lancefield group
+    - Group A: *S. pyogenes*
+    - Group B: *Streptococcus agalactiae*
+  - Alpha-haemolytic
+    - *S. pneumoniae*: lancet-shaped pairs with a capsule
+    - Viridans streptococci: chains, living in the mouth
+  - Non-haemolytic: *Enterococcus*
+:::
+
+On blood agar, haemolysis takes three forms:
+
+| Haemolysis | Around the colony | What has happened to the red cells |
+|---|---|---|
+| Beta | A clear zone | Lysed completely by bacterial toxins |
+| Alpha | A green zone | Damaged but not lysed: hydrogen peroxide from the bacteria oxidises haemoglobin to a green pigment |
+| Gamma | No change | Unaffected |
+
+Work through the key from the arrangement of the cells, and read at each branch what the trait
+reveals about the organism.
 
 <div data-island="sorting-key" data-src="/diagrams/gpc-key.yml"></div>
 
-## *Staphylococcus aureus*: three patterns of harm {#sec-gpc-aureus}
+## Main organisms {#sec-gpc-main}
+
+### One bacterium, three illnesses {#sec-gpc-hook}
+
+Three people fall ill:
+
+- A teenager develops a **furuncle** (boil): a hot, swollen, pus-filled nodule centred on a hair
+  follicle.
+- Forty wedding guests start vomiting two to three hours after lunch. Most are well by the next day.
+- A young woman develops a high fever, a rash and **hypotension** (abnormally low blood pressure)
+  severe enough to cause shock.
+
+One organism, *S. aureus*, can cause all three, by three different mechanisms, and each follows from
+how the bacterium works.
+
+### *Staphylococcus aureus*: infection, intoxication and immune-mediated damage {#sec-gpc-aureus}
 
 *S. aureus* lives in the nose of about one in three healthy people at any one time
 [@kluytmans1997carriage]. It carries an unusually large set of virulence factors, and different
 factors produce different illnesses. The factors include:
 
-- **coagulase**, an enzyme that clots plasma;
+- coagulase;
 - tissue-damaging enzymes;
 - many toxins.
 
+The three patterns of harm differ in what does the damage. In an infection, the bacteria multiply in
+tissue. An **intoxication** is illness caused by a toxin already formed outside the body, such as in
+food, without infection. In immune-mediated damage, the host's own response does most of the harm.
+
 | Pattern of harm | Mechanism | Example |
 |---|---|---|
-| Pyogenic invasion | Enters through a break in the skin; coagulase walls the bacteria in fibrin; neutrophils accumulate | Furuncle or abscess |
-| Toxin without invasion | Multiplies in food left warm and releases a heat-stable **enterotoxin**, a toxin that acts on the gut; the toxin, not the bacteria, causes the illness | Vomiting within hours of a meal [@argudin2010enterotoxins] |
-| Toxin acting on the whole body | A superantigen activates a large fraction of the body's T cells at once | **Toxic shock syndrome**: fever, rash and hypotension [@llewelyn2002superantigens] |
+| Infection | Enters through a break in the skin; coagulase walls the bacteria in fibrin; neutrophils accumulate | The teenager's furuncle, or an abscess |
+| Intoxication | Multiplies in food left warm and releases a heat-stable **enterotoxin**, a toxin that acts on the gut; the toxin, not the bacteria, causes the illness | The wedding guests, vomiting within hours of a meal [@argudin2010enterotoxins] |
+| Immune-mediated damage | A **superantigen**, a toxin that activates a large fraction of the body's T cells at once, sets off a damaging flood of inflammation | The young woman's **toxic shock syndrome**: fever, rash and hypotension [@llewelyn2002superantigens] |
 
-Each of the three people fits one pattern:
+Three conditions let *S. aureus* cause disease:
 
-- The teenager has an infection.
-- The wedding guests have no infection at all, because they swallowed toxin already present in the
-  food, which is an **intoxication**.
-- In the young woman, the host's own immune response does most of the damage.
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A carrier: about one in three healthy people have it in the nose | It lives on the nose and skin without harm, so people are its reservoir |
+| Where (setting) | Hands, surfaces, and food left warm | It survives drying; in warm food it multiplies and makes heat-stable enterotoxin |
+| How (route) | A break in the skin | Coagulase walls the bacteria in fibrin and neutrophils gather, forming an abscess |
 
 <div data-island="microbe-profile" data-src="/diagrams/gpc-profile-s-aureus.yml"></div>
 
-*Staphylococcus epidermidis* lives on everyone's skin and causes harm differently: it makes no
-coagulase and few toxins, but forms biofilm on implanted devices.
-
-<div data-island="contrast-pair" data-src="/diagrams/pair-saureus-sepidermidis.yml"></div>
-
-## *Streptococcus pyogenes*: tissue-damaging enzymes and delayed immune damage {#sec-gpc-pyogenes}
+### *Streptococcus pyogenes*: tissue-damaging enzymes and delayed immune damage {#sec-gpc-pyogenes}
 
 *S. pyogenes*, or group A streptococcus, lives on the throat and skin. Where *S. aureus* walls itself
 in, *S. pyogenes* breaks tissue barriers down, and some of its most serious effects appear after the
@@ -86,13 +150,23 @@ infection has gone.
 | Toxins | Streptolysins lyse cells; superantigens act as in *S. aureus* | Scarlet fever; streptococcal toxic shock syndrome |
 | Immune-mediated damage, weeks later | Antibodies against the bacterium cross-react with the host's own tissue (**molecular mimicry**) | **Rheumatic fever**, which can scar the heart valves [@carapetis2016rheumatic] |
 
-Immune-mediated damage is a clear case of the damage-response framework (see [*Microbes and their
-hosts*](../principles/host-microbe.qmd#sec-host-drf)): the bacteria are long gone, and the host's
-immune response causes the damage.
+::: {.example}
+In rheumatic fever the bacteria are gone by the time the heart is damaged, so the damage comes from
+the host's response alone (see [*Microbes and their
+hosts*](../principles/host-microbe.qmd#sec-host-drf)).
+:::
+
+Three conditions let *S. pyogenes* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A person who had a throat or skin infection weeks earlier | Antibodies against the bacterium cross-react with the host's own tissue, such as the heart valves |
+| Where (setting) | Close contact with a person who carries it | It lives on the throat and skin of humans only, and spreads by droplets and close contact |
+| How (route) | Into the throat, or through the skin into the tissue beneath | Its enzymes dissolve clots, DNA and the ground substance, so the infection spreads |
 
 <div data-island="microbe-profile" data-src="/diagrams/gpc-profile-s-pyogenes.yml"></div>
 
-## *Streptococcus pneumoniae*: the capsule {#sec-gpc-pneumoniae}
+### *Streptococcus pneumoniae*: the capsule {#sec-gpc-pneumoniae}
 
 *S. pneumoniae* has fewer tissue-damaging enzymes and toxins. It relies on its **capsule**, a slippery
 polysaccharide coat that stops phagocytes engulfing it. Many healthy young children carry it in the
@@ -106,9 +180,29 @@ and multiplies there.
 
 Antibodies against the capsule **opsonise** the bacteria, coating them so that phagocytes can engulf
 them, so pneumococcal vaccines are made from capsular polysaccharide. There are about 100 capsular
-**serotypes**, and vaccines include the commonest.
+**serotypes**, variants distinguished by the chemistry of the capsule, and vaccines include the
+commonest.
+
+Three conditions let *S. pneumoniae* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A person with **asplenia**, absence of a functioning spleen | The spleen clears antibody-coated, encapsulated bacteria from the blood; without it, clearance fails |
+| Where (setting) | The nasopharynx of a carrier, often a young child | It lives there harmlessly and spreads by respiratory droplets |
+| How (route) | From the nasopharynx into the middle ear, sinuses, lung or blood | The capsule resists phagocytes, so it multiplies there and the host's inflammation fills the space |
 
 <div data-island="microbe-profile" data-src="/diagrams/gpc-profile-s-pneumoniae.yml"></div>
+
+## Contrast pairs {#sec-gpc-pairs}
+
+### *S. aureus* and *S. epidermidis* {#sec-gpc-pair-staph}
+
+*S. epidermidis* lives on everyone's skin and causes harm differently from *S. aureus*: it makes no
+coagulase and few toxins, but forms biofilm on implanted devices.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-saureus-sepidermidis.yml"></div>
+
+### *S. pyogenes* and *S. pneumoniae* {#sec-gpc-pair-strep}
 
 The two streptococci cause harm in different ways. *S. pyogenes* damages tissue directly with enzymes
 and toxins, while *S. pneumoniae* does little direct damage and causes disease by resisting phagocytes
@@ -116,12 +210,14 @@ and provoking inflammation.
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-pyogenes-pneumoniae.yml"></div>
 
-## Supporting organisms {#sec-gpc-supporting}
+## Beyond the main organisms {#sec-gpc-beyond}
+
+### Supporting organisms {#sec-gpc-supporting}
 
 | Organism | Where it lives | What separates it | Why it matters |
 |---|---|---|---|
 | *S. epidermidis* and other coagulase-negative staphylococci | Everyone's skin | No coagulase; few toxins; forms biofilm on plastic and metal | Infects devices such as catheters and prosthetic joints; contaminates blood cultures [@otto2009epidermidis] |
-| *Streptococcus agalactiae* (group B) | Gut and vagina of about one in five pregnant women [@russell2017gbs] | Beta-haemolytic, Lancefield group B | Harmless to most adults; dangerous to **neonates** (newborn infants), who meet it at birth with immature defences |
+| *S. agalactiae* (group B) | Gut and vagina of about one in five pregnant women [@russell2017gbs] | Beta-haemolytic, Lancefield group B | Harmless to most adults; dangerous to **neonates** (newborn infants), who meet it at birth with immature defences |
 | Viridans streptococci | Mouth | Alpha-haemolytic, no large capsule | Some ferment sugar to acid that causes **dental caries**; in the blood, they can adhere to damaged heart valves and cause **infective endocarditis**, infection of the heart valves or the inner lining of the heart |
 | *Enterococcus* | Gut | Tolerates bile and salt; intrinsically resistant to several drugs | Persists in hospitals; strains with acquired resistance are difficult to treat |
 
@@ -135,7 +231,7 @@ selected the bacteria that already had it (see [*How bacteria copy themselves an
 change*](../principles/bacterial-genetics.qmd#sec-gen-resistance)).
 :::
 
-## Later in the course {#sec-gpc-later}
+### Later in the course {#sec-gpc-later}
 
 | Organism | Where it comes up again |
 |---|---|

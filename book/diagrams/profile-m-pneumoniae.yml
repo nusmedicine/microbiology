@@ -47,6 +47,6 @@ slots:
           feedback: "It copies its DNA with bacterial enzymes, which remain possible targets. What it lacks is a wall."
     entry: "Grips airway cells with a specialised tip and damages them, slowing the beating of their cilia. Wall-targeting drugs cannot touch it."
   - slot: consequence
-    entry: "Illness develops slowly. Much of the damage comes from the host's immune response, an idea the host–microbe chapter develops."
+    entry: "Illness develops slowly. Much of the damage comes from the host's immune response, an idea developed in *Microbes and their hosts*."
   - slot: contrast
     entry: "*Chlamydia*: also invisible on a Gram stain and absent from ordinary agar, but because it lives inside cells, not because it lacks a wall."

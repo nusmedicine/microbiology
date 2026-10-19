@@ -3,7 +3,39 @@
 > *A stain turns some bacteria purple and others pink, and some bacteria die in air while others
 > grow best in it. Both differences follow from how a bacterium is built and how it makes energy.*
 
-## A bacterium and a human cell {#sec-bact-glance}
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Compare a bacterium with a human cell, and relate each difference to selective toxicity.
+- Describe the four envelope designs, and explain how the Gram stain separates Gram-positive from
+  Gram-negative bacteria.
+- Explain what capsules, pili, flagella, biofilms and spores do for a bacterium and for the host.
+- Distinguish aerobic respiration, anaerobic respiration and fermentation.
+- Place a bacterium in an oxygen group from its metabolism, and predict where in the body it can
+  live.
+- Calculate the growth of a population from its doubling time.
+:::
+
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The bacterial cell](#sec-bact-cell)
+  - [A bacterium and a human cell](#sec-bact-glance)
+  - [The cell envelope](#sec-bact-envelope): four designs and the Gram stain
+  - [Shape and arrangement](#sec-bact-shape)
+  - [Capsules, appendages, biofilms and spores](#sec-bact-extras)
+- [Energy and oxygen](#sec-bact-metabolism)
+  - [Getting energy](#sec-bact-energy): respiration and fermentation
+  - [The oxygen spectrum](#sec-bact-oxygen): from obligate aerobe to obligate anaerobe
+  - [Oxygen in the body](#sec-bact-body)
+- [Growth](#sec-bact-growth): doubling time and the four phases
+- [Describing a bacterium](#sec-bact-describe)
+  - [Two microbe profiles](#sec-bact-profiles)
+  - [The trait toolkit](#sec-bact-toolkit)
+:::
+
+## The bacterial cell {#sec-bact-cell}
+
+### A bacterium and a human cell {#sec-bact-glance}
 
 Try two questions before reading on.
 
@@ -32,7 +64,7 @@ bacteria that came to live inside an ancestral cell, which is why mitochondria h
 circular DNA and bacterial-type ribosomes.
 :::
 
-## The cell envelope {#sec-bact-envelope}
+### The cell envelope {#sec-bact-envelope}
 
 A bacterium's **cell envelope** is its cell membrane and every layer outside it. The envelope has
 three functions:
@@ -57,7 +89,22 @@ separates the two groups before it is revealed.
 
 <div data-island="gram-stain" data-src="/diagrams/gram-stain.yml"></div>
 
-### What the envelope means for the host
+Two kinds of bacteria fit neither design. *Mycobacterium tuberculosis* has a wall packed with waxy
+**mycolic acids**. Gram's dyes barely penetrate it, so mycobacteria are detected with the
+**acid-fast stain**, in which the waxy wall keeps a red dye even when washed with acid-alcohol. At the
+other extreme, *Mycoplasma* has no wall at all. It does not show up on a Gram stain, and drugs aimed
+at the wall have nothing to act on.
+
+::: {.concept-tree}
+[Envelope designs]{.tree-title}
+
+- Bacterial envelopes
+  - With a wall
+    - Gram-positive: thick peptidoglycan, no outer membrane (*Staphylococcus aureus*)
+    - Gram-negative: thin peptidoglycan under an outer membrane with LPS (*Escherichia coli*)
+    - Acid-fast: a wall packed with waxy mycolic acids (*M. tuberculosis*)
+  - With no wall (*Mycoplasma*)
+:::
 
 The structure of the envelope has three consequences for the host:
 
@@ -69,14 +116,7 @@ The structure of the envelope has three consequences for the host:
 - Peptidoglycan has no counterpart in human cells, so drugs that block its construction harm
   bacteria and spare the host.
 
-### Bacteria that fit neither design
-
-*Mycobacterium tuberculosis* has a wall packed with waxy **mycolic acids**. Gram's dyes barely
-penetrate it, so mycobacteria are detected with the **acid-fast stain**, in which the waxy wall keeps a
-red dye even when washed with acid-alcohol. At the other extreme, *Mycoplasma* has no wall at all. It
-does not show up on a Gram stain, and drugs aimed at the wall have nothing to act on.
-
-## Shape and arrangement {#sec-bact-shape}
+### Shape and arrangement {#sec-bact-shape}
 
 Bacteria come in three basic shapes: **cocci** (spheres), **bacilli** (rods), and curved or spiral
 forms. Arrangement reflects how the cell divides. Cocci that divide in one plane stay attached in
@@ -85,7 +125,7 @@ Find the feature that separates the two in the activity below before the explana
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-staph-strep.yml"></div>
 
-## Capsules, appendages, biofilms and spores {#sec-bact-extras}
+### Capsules, appendages, biofilms and spores {#sec-bact-extras}
 
 Many bacteria carry structures beyond the envelope. Each solves a problem for the bacterium and has a
 consequence for the host.
@@ -111,7 +151,9 @@ Mostly not. Many spores survive boiling at 100 °C, and alcohol hand rubs do not
 hand hygiene).
 :::
 
-## Getting energy {#sec-bact-energy}
+## Energy and oxygen {#sec-bact-metabolism}
+
+### Getting energy {#sec-bact-energy}
 
 Bacteria make ATP with the same chemistry as human cells, but with more options. Human cells break
 down glucose by glycolysis and pass the electrons down an electron transport chain to oxygen. Many
@@ -126,23 +168,35 @@ bacteria use the same two stages, but oxygen need not be the final electron acce
 Human skeletal muscle ferments glucose to lactate during a sprint, when oxygen supply cannot keep up.
 Some bacteria live this way all the time.
 
-## The oxygen spectrum {#sec-bact-oxygen}
+### The oxygen spectrum {#sec-bact-oxygen}
 
 Oxygen is the most effective electron acceptor available, but it is also chemically dangerous.
 Partly reduced oxygen forms **reactive oxygen species**, such as superoxide and hydrogen peroxide,
 which damage proteins and DNA. We met these in cell biology as by-products of human mitochondria.
 
-Two questions sort bacteria by oxygen: can the organism use oxygen to make ATP, and is it harmed by
-oxygen at atmospheric levels? The **microaerophiles**, which need a little oxygen but are harmed by
-air, form a fifth group alongside the four that the two questions produce.
+Bacteria range from those that cannot grow without oxygen to those that oxygen kills:
+
+::: {.spectrum}
+[Relationship with oxygen]{.tree-title}
+
+- *M. tuberculosis*: makes ATP only with oxygen
+- *E. coli*: respires with oxygen, ferments without it
+- *Bacteroides fragilis*: killed by oxygen
+
+[Obligate aerobe]{.spectrum-end} [Obligate anaerobe]{.spectrum-end}
+:::
+
+Two questions place a bacterium along this range: can the organism use oxygen to make ATP, and is it
+harmed by oxygen at atmospheric levels? The **microaerophiles**, which need a little oxygen but are
+harmed by air, form a fifth group alongside the four that the two questions produce.
 
 | Group | Uses oxygen to make ATP? | Harmed by normal air? | Example |
 |---|---|---|---|
 | Obligate aerobe | Yes, and has no alternative | No | *M. tuberculosis* |
-| Facultative anaerobe | Yes, when oxygen is present; ferments otherwise | No | *Escherichia coli*, *Staphylococcus aureus* |
-| Microaerophile | Yes, but only at low oxygen levels | Yes, at atmospheric levels | *Campylobacter jejuni* |
-| Aerotolerant anaerobe | No; ferments only | No; its enzymes are not inactivated by oxygen | Streptococci, *Lactobacillus* |
-| Obligate anaerobe | No | Yes | *Bacteroides fragilis*, *Clostridium* species |
+| Facultative anaerobe | Yes, when oxygen is present; ferments otherwise | No | *E. coli*, *S. aureus* |
+| Microaerophile | Yes, but only at low oxygen levels | Yes, at atmospheric levels | *Helicobacter pylori*, a stomach bacterium ([*The microbial world*](microbial-world.qmd#sec-world-case)) |
+| Aerotolerant anaerobe | No; ferments only | No; its enzymes are not inactivated by oxygen | *Streptococcus pyogenes* |
+| Obligate anaerobe | No | Yes | *B. fragilis* |
 
 From how an organism handles energy and oxygen, we can work out where it will grow. Place each
 organism below, described only by its metabolism; its name appears after each choice.
@@ -158,7 +212,7 @@ iron–sulfur clusters or radical chemistry, which oxygen and reactive oxygen sp
 directly [@lu2021anaerobes].
 :::
 
-### Oxygen in the body
+### Oxygen in the body {#sec-bact-body}
 
 The human body has oxygen-rich and oxygen-poor sites:
 
@@ -180,21 +234,32 @@ Starting from $N_0$ cells, after time $t$ with doubling time $g$:
 
 $$ N = N_0 \times 2^{t/g} $$
 
+::: {.example}
 One *E. coli* cell doubling every 20 minutes becomes about 17 million cells in 8 hours, which is 24
 doublings. *M. tuberculosis* takes weeks to form a visible colony, so its culture also takes weeks.
+:::
 
 In a closed container, a population passes through four phases:
 
-| Phase | What happens |
-|---|---|
-| Lag | Cells adjust to new conditions; little division |
-| Exponential (log) | Steady doubling, as in the equation above |
-| Stationary | Nutrients run low and waste accumulates; division and death balance |
-| Death | More cells die than divide |
+::: {.flow}
+1. Lag phase
+2. Exponential (log) phase
+3. Stationary phase
+4. Death phase
+:::
+
+The balance of division and death changes from phase to phase:
+
+- In the lag phase, cells adjust to new conditions and divide little.
+- In the exponential phase, cells double steadily, as in the equation above.
+- In the stationary phase, nutrients run low and waste accumulates, so division and death balance.
+- In the death phase, more cells die than divide.
 
 Rapidly dividing cells are the most vulnerable to many antimicrobial drugs.
 
-## Two microbe profiles {#sec-bact-profiles}
+## Describing a bacterium {#sec-bact-describe}
+
+### Two microbe profiles {#sec-bact-profiles}
 
 A microbe profile records five facts about an organism:
 
@@ -217,7 +282,7 @@ actively promotes abscess formation [@tzianabos1993abscess]. They differ in enve
 against Gram-negative, and in their relationship with oxygen, facultative against obligately
 anaerobic.
 
-## The trait toolkit {#sec-bact-toolkit}
+### The trait toolkit {#sec-bact-toolkit}
 
 Five traits describe any bacterium:
 

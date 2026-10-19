@@ -4,6 +4,32 @@
 > and from phages, and neither process aims at an outcome. Yet these undirected processes are enough
 > to make bacteria resistant to drugs and to turn a harmless strain into a toxin producer.*
 
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Relate the differences between bacterial and human gene expression to the targets of drugs.
+- Explain how random mutation and selection by a drug produce a resistant population.
+- Distinguish transformation, transduction and conjugation, and explain how plasmids and
+  transposons carry resistance and virulence genes.
+- Contrast the lytic and lysogenic cycles of a phage, and explain lysogenic conversion.
+- Describe the four mechanisms of antimicrobial resistance, and distinguish intrinsic from acquired
+  resistance.
+- Explain why antimicrobial stewardship depends on every prescriber.
+:::
+
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [Copying the genome](#sec-gen-copy): chromosome, plasmids, and how bacterial gene expression
+  differs from ours
+- [How bacteria change](#sec-gen-change)
+  - [Mutation and selection](#sec-gen-mutation): change in the cell's own DNA
+  - [Gene transfer](#sec-gen-hgt): transformation, transduction, conjugation; mobile elements
+  - [Bacteriophages](#sec-gen-phage): lytic and lysogenic cycles
+- [Antimicrobial resistance](#sec-gen-resistance)
+  - [Mechanisms of resistance](#sec-gen-mechanisms)
+  - [Selection and stewardship](#sec-gen-stewardship)
+:::
+
 ## Copying the genome {#sec-gen-copy}
 
 A typical bacterium carries one circular chromosome. The chromosome of *Escherichia coli* has about
@@ -25,7 +51,24 @@ Bacteria follow the same central dogma as human cells, with differences that mat
 Each of these differences answers the question *what does it have that my cells lack?* for the
 machinery of inheritance, and each is a possible basis for selective toxicity.
 
-## Change by mutation {#sec-gen-mutation}
+## How bacteria change {#sec-gen-change}
+
+A bacterium gains a new trait in one of two ways: by a change in its own DNA, which passes to its
+descendants (vertical inheritance), or by acquiring DNA from another bacterium, from a phage or from
+its surroundings, which is **horizontal gene transfer**.
+
+::: {.concept-tree}
+[Routes of genetic change]{.tree-title}
+
+- A new trait in a bacterium
+  - Vertical: mutation in the cell's own DNA, inherited by its descendants
+  - Horizontal: DNA acquired from another source
+    - Transformation: free DNA taken up from dead cells
+    - Transduction: bacterial DNA carried by a phage
+    - Conjugation: a plasmid copied into a neighbour through direct contact
+:::
+
+### Mutation and selection {#sec-gen-mutation}
 
 A **mutation** is a change in the DNA sequence. Most arise as copying errors during replication: a
 **point mutation** replaces one base with another, while insertions and deletions add or remove bases.
@@ -61,23 +104,26 @@ residents [@lim2021singaporekap]. Resistance is a property of bacteria, and resi
 between people.
 :::
 
-## Change by gene transfer {#sec-gen-hgt}
+### Gene transfer {#sec-gen-hgt}
 
-Bacteria can also acquire whole genes from other bacteria. This is **horizontal gene transfer**, as
-distinct from vertical inheritance from a parent cell. There are three classic routes.
+Three routes move genes between bacteria:
 
-**Transformation** is the uptake of free DNA released by dead cells. Some species, including
-*Streptococcus pneumoniae* and *Neisseria*, are naturally **competent**: they actively take up DNA from
-their surroundings. Transformation was the first route discovered.
+- **Transformation** is the uptake of free DNA released by dead cells. Some species are naturally
+  **competent**: they actively take up DNA from their surroundings.
+- **Transduction** occurs when a **bacteriophage**, a virus that infects bacteria, packages a piece of
+  its host's DNA by mistake and injects it into the next bacterium it infects.
+- **Conjugation** is the transfer of a plasmid from one cell to another through direct contact. A
+  long **conjugative pilus**, distinct from the short attachment pili, draws the two cells together,
+  and the DNA passes through a channel between them.
 
-**Transduction** occurs when a **bacteriophage**, a virus that infects bacteria, packages a piece of
-its host's DNA by mistake and injects it into the next bacterium it infects.
+The older name "sex pilus" is misleading, because bacteria have no sexes and conjugation produces no
+offspring. It copies a plasmid into a neighbouring cell, which can belong to a different species.
 
-**Conjugation** is the transfer of a plasmid from one cell to another through direct contact. A long
-**conjugative pilus**, distinct from the short attachment pili, draws the two cells together, and the
-DNA passes through a channel between them. The older name "sex pilus" is misleading, because bacteria
-have no sexes and conjugation produces no offspring. It copies a plasmid into a neighbouring cell,
-which can belong to a different species.
+::: {.example}
+Transformation was the first route discovered. In 1928 Frederick Griffith found that live,
+unencapsulated *Streptococcus pneumoniae*, harmless on its own, killed mice when mixed with
+heat-killed encapsulated cells ([Practise: Griffith's mice](#sec-gen-case)).
+:::
 
 **Transposons** ("jumping genes") move genes within and between DNA molecules. They are DNA segments
 that can cut or copy themselves into a new position, for example from the chromosome onto a plasmid,
@@ -85,47 +131,68 @@ which can then carry them to another cell. Over time, plasmids and transposons c
 resistance genes together, so a single transfer can confer resistance to several drugs.
 
 Gene transfer also moves genes for **virulence**, the capacity to cause disease. Clusters of
-virulence genes acquired together in this way are called **pathogenicity islands**. Much of the
-difference between a harmless gut *E. coli* and a strain that causes bloody diarrhoea lies in acquired
-genes: a pathogenicity island for attaching to the gut lining, and Shiga toxin genes carried by a
-prophage (below).
+virulence genes acquired together in this way are called **pathogenicity islands**.
+
+::: {.example}
+The *E. coli* strains that cause bloody diarrhoea carry an acquired pathogenicity island for
+attaching to the gut lining, which the harmless gut strains lack.
+:::
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-vertical-horizontal.yml"></div>
 
-## Bacteriophages: lytic and lysogenic {#sec-gen-phage}
+### Bacteriophages: lytic and lysogenic cycles {#sec-gen-phage}
 
 Phages are the most numerous biological entities on Earth. After injecting its genome, a phage
-follows one of two paths. In the **lytic cycle**, the phage takes over the cell, makes hundreds of new
-phages, and **lyses** (bursts) the cell to release them. In the **lysogenic cycle**, the phage genome
-joins the bacterial chromosome as a **prophage** and is copied with it each time the cell divides;
-damage to the bacterium's DNA can later switch the prophage into the lytic cycle.
+follows one of two paths. In the **lytic cycle**, the phage multiplies and **lyses** (bursts) the
+cell. In the **lysogenic cycle**, the phage genome joins the bacterial chromosome as a **prophage**.
+
+|  | Lytic cycle | Lysogenic cycle |
+|---|---|---|
+| What the phage genome does | Takes over the cell and directs it to make hundreds of new phages | Joins the chromosome and is copied with it each time the cell divides |
+| Fate of the bacterium | Lysed, releasing the new phages | Survives and multiplies |
+| Effect on the bacterium's traits | None that last, because the cell dies | Prophage genes can give the bacterium new traits |
+
+Damage to the bacterium's DNA can later switch a prophage into the lytic cycle.
 
 A prophage can change what its host does, which is called **lysogenic conversion**. Several of the
-best-known bacterial toxins are encoded by prophage genes.
+best-known bacterial toxins are encoded by prophage genes, so only the strains that carry the prophage
+are **toxigenic** (toxin-producing).
 
-| Toxin | Organism | Effect of lysogenic conversion |
-|---|---|---|
-| Diphtheria toxin | *Corynebacterium diphtheriae* | Only strains carrying the phage are **toxigenic** (toxin-producing) and cause diphtheria |
-| Cholera toxin | *Vibrio cholerae* | The toxin genes arrived on a phage [@waldor1996cholera] |
-| Shiga toxins | Some *E. coli*, such as O157:H7 | Phage-borne toxin genes turned a harmless gut resident into a cause of bloody diarrhoea |
-| Pyrogenic exotoxins | *Streptococcus pyogenes* | Phage-borne genes for superantigens, toxins that activate a large fraction of T cells at once ([*Microbes and their hosts*](host-microbe.qmd#sec-host-drf)), behind scarlet fever |
+::: {.example}
+The Shiga toxins made by *E. coli* strains that cause bloody diarrhoea are encoded by prophage genes;
+gut *E. coli* without the prophage makes no toxin.
+:::
 
 The same species can therefore be harmless or dangerous depending on which phages it carries.
 
-## Resistance: what it is and how it spreads {#sec-gen-resistance}
+## Antimicrobial resistance {#sec-gen-resistance}
+
+### Mechanisms of resistance {#sec-gen-mechanisms}
 
 **Antimicrobial resistance** is the ability of a microbe to grow in the presence of a drug that would
-normally inhibit or kill it. Some resistance is **intrinsic**, a property of the whole species: drugs
-that act on the cell wall cannot affect *Mycoplasma*, which has no wall. Most clinically important
-resistance is **acquired**, by mutation or gene transfer. Whatever its origin, resistance works in one
-of four ways.
+normally inhibit or kill it. Some resistance is **intrinsic**, a property of the whole species.
+
+::: {.example}
+*Mycoplasma* has no cell wall, so drugs that act on the wall cannot affect it.
+:::
+
+Most clinically important resistance is **acquired**, by mutation or gene transfer. Whatever its
+origin, resistance works in one of four ways.
 
 | Mechanism | How it works | Usual genetic origin |
 |---|---|---|
 | Destroy or modify the drug | An enzyme breaks the drug down, or adds a chemical group that stops it binding its target | Genes on plasmids and transposons |
-| Change the target | The drug's target protein is altered so the drug binds poorly | Mutation, or an acquired gene for a different version of the target, as in meticillin-resistant *Staphylococcus aureus* (MRSA; [*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd#sec-gpc-supporting)) |
+| Change the target | The drug's target protein is altered so the drug binds poorly | Mutation, or an acquired gene for a different version of the target |
 | Keep the drug out | Fewer **porins**, the channels in the Gram-negative outer membrane, let less drug in | Mutation |
 | Pump the drug out | **Efflux pumps** in the membrane expel the drug | Mutation increasing pump production, or acquired pump genes |
+
+::: {.example}
+Meticillin-resistant *Staphylococcus aureus* (MRSA) has acquired a gene for an altered version of the
+protein that meticillin and related drugs act on, so the drugs bind it poorly [@lakhundi2018mrsa]
+([*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd#sec-gpc-supporting)).
+:::
+
+### Selection and stewardship {#sec-gen-stewardship}
 
 Every use of an antimicrobial, in people or in animals, selects resistant bacteria. Resistance genes
 on plasmids pass between species, so a drug used against one organism can enrich genes that later

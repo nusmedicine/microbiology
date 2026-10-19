@@ -3,28 +3,84 @@
 > *Lectures name bacteria by group: Gram-positive cocci, Enterobacterales, anaerobes, atypicals. Each
 > group shares a few traits, and from those traits we can read how its members live.*
 
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Describe a bacterial group by its envelope, shape, oxygen use, growth in the laboratory and where it
+  grows relative to host cells.
+- Distinguish extracellular, facultative intracellular and obligate intracellular bacteria.
+- Explain how what a bacterium needs predicts where it lives and how it spreads.
+- Explain why the atypical bacteria escape routine stains and culture, and what follows for their
+  detection and treatment.
+- Name the group a bacterium belongs to from a few of its traits.
+:::
+
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [Reading a group as a set of traits](#sec-map-idea)
+  - [Where bacteria grow](#sec-map-where): outside or inside host cells
+  - [Where group names come from](#sec-map-names)
+- [The map](#sec-map): ten groups side by side
+- [What the traits predict](#sec-map-predict)
+  - [Habitat](#sec-map-habitat): metabolism and needs
+  - [The atypicals](#sec-map-atypicals): no wall, or life inside cells
+- [Using the map](#sec-map-use)
+  - [The group chapters](#sec-map-template)
+  - [Reading the map backwards](#sec-map-test)
+:::
+
 ## Reading a group as a set of traits {#sec-map-idea}
 
 A bacterium is described by five traits: envelope, shape, additional structures, oxygen and growth
 rate (see [*How bacteria are built and get
-energy*](../principles/bacteria-build-energy.qmd#sec-bact-toolkit)).
-Whole groups also differ in where they grow relative to host cells:
+energy*](../principles/bacteria-build-energy.qmd#sec-bact-toolkit)). Groups also differ in what they
+need in the laboratory: ordinary media, enriched media, weeks of incubation, or living cells. A
+bacterial group can be described in those terms.
 
-- **Extracellular** bacteria grow outside host cells.
-- **Facultative intracellular** bacteria grow inside or outside them.
-- **Obligate intracellular** bacteria grow only inside them.
+::: {.example}
+Enterobacterales are Gram-negative rods that grow with or without oxygen, ferment sugars, and live in
+the gut.
+:::
 
-Groups also differ in what they need in the laboratory: ordinary media, enriched media, weeks of
-incubation, or living cells.
+### Where bacteria grow {#sec-map-where}
 
-A bacterial group can be described in those terms. Enterobacterales, for example, are Gram-negative
-rods that grow with or without oxygen, ferment sugars, and live in the gut.
+Whole groups differ in where they grow relative to host cells. **Extracellular** bacteria grow
+outside host cells, **facultative intracellular** bacteria grow inside or outside them, and **obligate
+intracellular** bacteria grow only inside them.
 
-Group names come from different sources:
+::: {.spectrum}
+[Where bacteria grow relative to host cells]{.tree-title}
 
-- Some are taxonomic (Enterobacterales is an order).
-- Some describe a single trait (anaerobes, spiral bacteria).
-- Some describe how the organisms behave in the laboratory (fastidious, atypical).
+- Extracellular: outside cells, such as Enterobacterales
+- Facultative intracellular: inside or outside cells, such as mycobacteria
+- Obligate intracellular: only inside cells, such as *Chlamydia*
+
+[Independent of host cells]{.spectrum-end} [Dependent on host cells]{.spectrum-end}
+:::
+
+The more a group depends on host cells, the more the laboratory has to supply: an obligate
+intracellular bacterium grows only in a culture of living cells.
+
+### Where group names come from {#sec-map-names}
+
+Group names come from three different sources.
+
+::: {.concept-tree}
+[Sources of group names]{.tree-title}
+
+- Taxonomy
+  - Enterobacterales, an order
+  - Mycobacteria, the genus *Mycobacterium*
+- Traits
+  - One trait: anaerobes (oxygen), spiral bacteria (shape)
+  - Two traits: Gram-positive cocci, Gram-negative cocci (envelope and shape)
+- Behaviour in the laboratory
+  - Fastidious Gram-negatives, which need enriched media
+  - Atypicals, which escape routine stains and culture
+:::
+
+Because the sources differ, the groups overlap: *Clostridium* is both a Gram-positive rod and an
+anaerobe.
 
 ## The map {#sec-map}
 
@@ -34,25 +90,34 @@ Sort the table by *Oxygen*, then by *Envelope*, using the column headings. Group
 line up on one trait, and a single trait, oxygen in the case of the anaerobes, can define a group on
 its own.
 
-## Metabolism predicts habitat {#sec-map-habitat}
+## What the traits predict {#sec-map-predict}
+
+### Metabolism and needs predict habitat {#sec-map-habitat}
 
 *Escherichia coli* and *Pseudomonas aeruginosa* are both Gram-negative rods, but the first lives in the
 gut and the second in water and soil, largely because of how each makes ATP.
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-ecoli-pseudomonas.yml"></div>
 
-A **fastidious** organism grows only when the laboratory meets special requirements. Often, as with
-*Haemophilus*, the reason is lost biosynthesis: over evolutionary time, a bacterium living on a rich
-host can lose the genes for making nutrients the host already supplies, and then depends on finding
-them. *Haemophilus* needs two factors found inside red blood cells, so the laboratory grows it on agar
-made with blood heated until the cells lyse, which is **chocolate agar**, named for its brown colour.
+A **fastidious** organism grows only when the laboratory meets special requirements. Often the reason
+is lost biosynthesis: over evolutionary time, a bacterium living on a rich host can lose the genes for
+making nutrients the host already supplies, and then depends on finding them.
 
+::: {.example}
+*Haemophilus* needs two factors found inside red blood cells, so the laboratory grows it on agar made
+with blood heated until the cells lyse, which is **chocolate agar**, named for its brown colour.
+:::
+
+Fragility outside the host limits spread in a related way. A bacterium that lives only in humans and
+dies quickly in air cannot travel through water, soil or surfaces, so it passes only by close contact.
+
+::: {.example}
 *Neisseria meningitidis* and *Neisseria gonorrhoeae*, the Gram-negative cocci that cause most disease,
-show a related trait. Both live only in humans and die quickly outside the body, drying out in air and
-needing enriched media in the laboratory, so both spread only by close contact: through respiratory
-secretions for *N. meningitidis* and sexual contact for *N. gonorrhoeae*.
+dry out in air and need enriched media in the laboratory. *N. meningitidis* spreads through
+respiratory secretions and *N. gonorrhoeae* by sexual contact.
+:::
 
-## Why "atypical"? {#sec-map-atypicals}
+### Why "atypical"? {#sec-map-atypicals}
 
 In this course, the **atypical** bacteria are three genera, *Mycoplasma*, *Chlamydia* and
 *Rickettsia*, from different branches of the bacterial tree, grouped because routine stains and
@@ -72,7 +137,7 @@ it.
 | Gram stain | No wall, so no Gram reaction | Too small, and hidden inside cells | Stains poorly |
 | Laboratory growth | Slowly, on media enriched with sterols | Only in living cells | Only in living cells |
 
-Starting from the missing wall, we can predict what follows from it.
+Starting from the missing wall, we can predict the other traits of *M. pneumoniae*.
 
 <div data-island="microbe-profile" data-src="/diagrams/profile-m-pneumoniae.yml"></div>
 
@@ -92,7 +157,9 @@ Much of how these infections are diagnosed and treated follows from the missing 
 inside cells: drugs that act on the wall cannot treat *Mycoplasma*, and drugs for *Chlamydia* and
 *Rickettsia* must enter host cells.
 
-## How the group chapters work {#sec-map-template}
+## Using the map {#sec-map-use}
+
+### The group chapters {#sec-map-template}
 
 Each group chapter covers one group from the map and has the same layout:
 
@@ -105,7 +172,7 @@ Each group chapter covers one group from the map and has the same layout:
 | Supporting organisms | One table row each |
 | Later in the course | Where the organ-system blocks add diseases, diagnosis and treatment |
 
-## Reading the map backwards {#sec-map-test}
+### Reading the map backwards {#sec-map-test}
 
 Given a few traits, name the group.
 

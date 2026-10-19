@@ -1,6 +1,6 @@
 id: size-ladder
 title: "How big is it? Put these in order"
-intro: "Microbiology spans a size range of about ten million times, from a virus to a worm you could hold in your hand. Pick the items from smallest to largest, then check."
+intro: "Microbiology spans a size range of more than a million times, from a virus to a worm you could hold in your hand. Pick the items from smallest to largest, then check."
 prompt: "Click the items from smallest to largest."
 
 axis:
@@ -14,18 +14,12 @@ axis:
   note: "Each tick is ten times the one before. The light microscope cannot resolve objects smaller than about 0.2 µm, so viruses were not seen until the electron microscope."
 
 items:
-  - id: polio
-    label: "Poliovirus (an enterovirus)"
-    plain: "Poliovirus"
-    value: 0.00000003
-    display: "about 30 nm"
-    why: "One of the smallest viruses that infect humans: a protein shell around a short RNA genome, with no envelope."
   - id: flu
     label: "Influenza virus"
     plain: "Influenza virus"
     value: 0.0000001
     display: "about 100 nm"
-    why: "Larger, because it carries a lipid envelope and eight RNA segments. Still below the resolving power of a light microscope."
+    why: "Eight RNA segments inside a protein coat and a lipid envelope. Below the resolving power of a light microscope, so it is seen only with an electron microscope."
   - id: saureus
     label: "*Staphylococcus aureus*"
     plain: "S. aureus"
@@ -64,7 +58,7 @@ items:
     why: "A many-celled animal. Helminths are studied in microbiology because they are infectious agents, not because they are microscopic."
 
 summary: >
-  Size predicts how you can see an agent and much of how it lives. Viruses are below the
+  Size predicts how an agent can be seen and much of how it lives. Viruses are below the
   light microscope's limit and must be detected by other means. Bacteria are small enough to grow
   quickly, because nutrients only have to diffuse a short distance into the cell. Eukaryotic
   microbes are larger, and helminths are visible to the naked eye.

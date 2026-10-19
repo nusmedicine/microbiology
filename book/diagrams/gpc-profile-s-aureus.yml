@@ -14,14 +14,14 @@ slots:
       options:
         - text: "Hiding inside cells for years, walled off in granulomas"
           correct: true
-          feedback: "That is the mycobacterial pattern. *S. aureus* invades tissue and forms pus, releases toxins locally, or releases toxins that act on the whole body."
+          feedback: "That is the mycobacterial pattern. *S. aureus* invades tissue and forms pus (infection), makes toxin in food (intoxication), or releases a superantigen that turns the immune response against the host."
         - text: "Invading tissue and attracting neutrophils, forming pus"
           correct: false
           feedback: "That is its commonest pattern: invasion with pus and abscess. The one it does not use is long-term survival inside cells in granulomas."
         - text: "Releasing a toxin that causes illness without any invasion"
           correct: false
-          feedback: "It does this in food poisoning: the toxin is already in the food. The pattern it does not use is long-term survival inside cells."
-    entry: "Three patterns: **invasion** with pus and abscess; **toxin without invasion**, as when toxin made in food causes vomiting within hours; and **toxin acting on the whole body**, as in toxic shock, where a superantigen switches on huge numbers of T cells."
+          feedback: "It does this in food poisoning, an intoxication: the toxin is already in the food. The pattern it does not use is long-term survival inside cells."
+    entry: "Three patterns: infection, with pus and abscess; intoxication, as when toxin made in food causes vomiting within hours without any infection; and immune-mediated damage, as in toxic shock, where a superantigen switches on huge numbers of T cells and the host's response does the harm."
   - slot: consequence
     predict:
       stem: "Coagulase wraps the bacteria in fibrin, and neutrophils pour in. What shape does the infection tend to take?"

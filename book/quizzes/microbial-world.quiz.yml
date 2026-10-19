@@ -50,7 +50,7 @@ questions:
         correct: false
         feedback: "The numbers are of the same order: about 3.8 × 10¹³ bacteria and 3.0 × 10¹³ human cells."
   - id: w5
-    stem: "*Mycobacterium leprae*, the cause of leprosy, has never been grown on laboratory media. Which of Koch's postulates does that block?"
+    stem: "A bacterium is seen in tissue from every case of a disease, but it has never been grown on laboratory media. Which of Koch's postulates does that block?"
     options:
       - text: "Growing the organism in pure culture"
         correct: true
@@ -72,4 +72,34 @@ questions:
         feedback: "Every virus carries a genome of DNA or RNA. The agent with no genome is the prion, a misfolded protein."
       - text: "An obligate intracellular bacterium"
         correct: false
-        feedback: "Obligate intracellular bacteria such as Chlamydia have their own DNA and ribosomes. The prion has no genome."
+        feedback: "Bacteria that live only inside host cells still have their own DNA and ribosomes. The prion has no genome."
+  - id: w7
+    stem: "A stool sample from a child is examined with a light microscope at low power. It contains many oval, thick-shelled objects about 60 µm across. Which kind of agent most likely produced them?"
+    options:
+      - text: "A helminth"
+        correct: true
+        feedback: "Objects 60 µm across, visible at low power, are far larger than any single bacterium or yeast cell. Helminths are many-celled animals that live in the intestine and release eggs of this size into stool."
+      - text: "A bacterium"
+        correct: false
+        feedback: "A bacterium is about 1–2 µm, some thirty times smaller, and has no shell. The 60 µm size points to the eggs of a helminth."
+      - text: "A virus"
+        correct: false
+        feedback: "Viruses are below the light microscope's limit of resolution, about 0.2 µm, so none would be seen at all. Thick-shelled objects of 60 µm in stool are helminth eggs."
+      - text: "A fungus"
+        correct: false
+        feedback: "A yeast cell such as *Candida albicans* is about 4 µm, smaller than a red blood cell. Objects fifteen times that size, with thick shells, are helminth eggs."
+  - id: w8
+    stem: "Brain tissue from a patient who died of a progressive neurodegenerative disease is studied to find the agent responsible. Which finding best identifies the kind of agent?"
+    options:
+      - text: "The infectious material contains a misfolded protein and no DNA or RNA"
+        correct: true
+        feedback: "Every cellular agent and every virus carries a genome. An infectious agent with none can only be a prion, a misfolded host protein that converts normal copies of itself."
+      - text: "No agent can be seen with a light microscope"
+        correct: false
+        feedback: "Viruses are also below the light microscope's limit, so this finding does not separate a prion from a virus. The absence of any genome does."
+      - text: "The disease began years after the likely exposure"
+        correct: false
+        feedback: "Prions do have long incubation periods, but a long delay alone does not identify the kind of agent. The decisive clue is the absence of DNA and RNA."
+      - text: "The damage is confined to the brain"
+        correct: false
+        feedback: "Many kinds of agent can damage the brain, so the site of damage does not identify the agent. Only a prion has no genome."

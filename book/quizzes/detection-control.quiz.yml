@@ -90,10 +90,40 @@ questions:
     options:
       - text: "Washing physically removes spores, which alcohol does not kill"
         correct: true
-        feedback: "Alcohol is faster and effective against most organisms, but spores and some naked viruses resist it."
+        feedback: "Alcohol is faster and effective against most organisms, but spores and non-enveloped viruses resist it."
       - text: "Alcohol does not work against any bacteria"
         correct: false
         feedback: "Alcohol is highly effective against most vegetative bacteria and enveloped viruses. Spores are the gap."
       - text: "Soap kills spores on contact"
         correct: false
         feedback: "Soap does not reliably kill spores either. The benefit is mechanical removal by washing and rinsing."
+  - id: d9
+    stem: "Sputum from a man who has coughed for three weeks is spread on agar, incubated in air at 37 °C, and discarded after two days with no growth. A nucleic acid amplification test on the same sample later detects *Mycobacterium tuberculosis*. Which detail best explains the negative culture?"
+    options:
+      - text: "The plates were discarded after two days"
+        correct: true
+        feedback: "*M. tuberculosis* divides about once a day and takes weeks to form a visible colony. The organism was in the sample, as the nucleic acid test shows, but had no time to grow."
+      - text: "The plates were incubated in air"
+        correct: false
+        feedback: "Air prevents the growth of anaerobes. *M. tuberculosis* needs oxygen, so incubation in air suits it; the problem was the time allowed."
+      - text: "The sample was sputum"
+        correct: false
+        feedback: "Sputum is the right sample for an infection of the lung, and the nucleic acid test found the organism in it. The sample was adequate; the incubation was too short."
+      - text: "The cough had lasted three weeks"
+        correct: false
+        feedback: "A long history fits a slow-growing organism, but it does not stop the organism growing on a plate. Growth failed because the plates were discarded before colonies could form."
+  - id: d10
+    stem: "Two patients on the same ward develop wound infections with *Staphylococcus aureus* in the same week. The infection-control team asks whether the organism passed from one patient to the other. Which method best answers that question?"
+    options:
+      - text: "Whole-genome sequencing of the two isolates"
+        correct: true
+        feedback: "The question is whether the two isolates are the same strain. Sequencing reads the whole genome, at a resolution that can show whether they are, which is why it is standard in outbreak investigation."
+      - text: "A Gram stain of each wound sample"
+        correct: false
+        feedback: "A stain gives a category, not a species or a strain. Both samples would show the same Gram-positive cocci, which says nothing about whether the infections are linked."
+      - text: "MALDI-TOF identification of each isolate"
+        correct: false
+        feedback: "MALDI-TOF identifies the species, which is already known to be *S. aureus* in both. It does not separate strains within a species."
+      - text: "Serology for antibodies against *S. aureus*"
+        correct: false
+        feedback: "Serology reads the host's response, not the organism. Antibodies show that each patient has met *S. aureus*, which many people carry, and cannot link the two isolates."

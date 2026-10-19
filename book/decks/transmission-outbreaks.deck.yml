@@ -6,7 +6,7 @@ cards:
   - id: tr1
     kind: how
     front: "Name the six links in the chain of infection."
-    back: "Reservoir, portal of exit, mode of transmission, portal of entry, susceptible host, infectious agent. Each is a point where the chain can be broken."
+    back: "Infectious agent, reservoir, portal of exit, mode of transmission, portal of entry, susceptible host. Each is a point where the chain can be broken."
   - id: tr2
     kind: why
     front: "Why can some infections be eradicated and others not?"
@@ -18,7 +18,7 @@ cards:
   - id: tr4
     kind: how
     front: "What is the herd immunity threshold, and how is it calculated?"
-    back: "The fraction immune at which R falls below 1: 1 − 1/R₀. For R₀ = 4 that is 75%; for a measles-like R₀ of 12 it is above 90%."
+    back: "The fraction immune at which R falls below 1: 1 − 1/R₀. For R₀ = 4 that is 75%; for an R₀ of 12 it is above 90%."
   - id: tr5
     kind: why
     front: "Why does reducing transmission lower *and* delay the epidemic peak?"

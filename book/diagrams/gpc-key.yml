@@ -8,10 +8,10 @@ nodes:
     question: "How are the cocci arranged?"
     options:
       - label: "Clusters"
-        meaning: "Division in several planes. Staphylococci also make **catalase**, so they cope with the hydrogen peroxide that neutrophils produce."
+        meaning: "Division in several planes. Staphylococci also make catalase, so they cope with the hydrogen peroxide that neutrophils produce."
         next: coagulase
       - label: "Chains or pairs"
-        meaning: "Division in one plane. Streptococci and enterococci make **no catalase** and only ferment."
+        meaning: "Division in one plane. Streptococci and enterococci make no catalase and only ferment."
         next: haemolysis
   - id: coagulase
     question: "Does it make coagulase (clots blood plasma)?"
@@ -57,7 +57,7 @@ leaves:
   - id: s-aureus
     name: "*Staphylococcus aureus*"
     tag: main
-    blurb: "Carried in the nose of about one in three people. Causes harm by invading tissue (pus and abscesses) or by toxins alone."
+    blurb: "Carried in the nose of about one in three people. Causes infection with pus and abscesses, intoxication from toxin made in food, and immune-mediated damage through superantigens."
   - id: cons
     name: "Coagulase-negative staphylococci (*S. epidermidis*)"
     tag: supporting

@@ -34,7 +34,7 @@ cards:
   - id: dc8
     kind: predict
     front: "Which organisms survive an alcohol hand rub?"
-    back: "Bacterial spores, and naked (non-enveloped) viruses are more resistant. Enveloped viruses are readily inactivated because their lipid envelope is fragile."
+    back: "Bacterial spores survive it, and non-enveloped viruses are more resistant. Enveloped viruses are readily inactivated because their lipid envelope is fragile."
   - id: dc9
     kind: why
     front: "Why conjugate a capsular polysaccharide to a protein in a vaccine?"

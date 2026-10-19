@@ -42,7 +42,7 @@ questions:
     options:
       - text: "Oxygen directly inactivates key enzymes they depend on; many anaerobes have those defence enzymes"
         correct: true
-        feedback: "Many anaerobes, including Bacteroides fragilis, make catalase and superoxide dismutase. Their weak point is central enzymes built around iron–sulfur clusters or radical chemistry, which oxygen breaks."
+        feedback: "Many anaerobes, including *Bacteroides fragilis*, make catalase and superoxide dismutase. Their weak point is central enzymes built around iron–sulfur clusters or radical chemistry, which oxygen breaks."
       - text: "Your friend is right; that is the whole explanation"
         correct: false
         feedback: "That explanation came from an early observation that was over-read. Many anaerobes do carry these enzymes. Oxygen damages the metabolic enzymes they depend on."
@@ -57,10 +57,10 @@ questions:
         feedback: "A facultative anaerobe can grow either way, but more ATP means faster growth where oxygen is available."
       - text: "Oxygen is toxic at the bottom of the tube"
         correct: false
-        feedback: "There is no oxygen at the bottom. E. coli grows there by fermentation, just more slowly, because fermentation yields less ATP."
+        feedback: "There is no oxygen at the bottom. *E. coli* grows there by fermentation, just more slowly, because fermentation yields less ATP."
       - text: "It is an obligate aerobe"
         correct: false
-        feedback: "An obligate aerobe would not grow at the bottom at all. E. coli grows throughout, best near the top: it is facultative."
+        feedback: "An obligate aerobe would not grow at the bottom at all. *E. coli* grows throughout, best near the top: it is facultative."
   - id: q6
     stem: "Staphylococci form clusters and streptococci form chains. What does the arrangement reflect?"
     options:
@@ -81,7 +81,37 @@ questions:
         feedback: "A spore is a dormant, dehydrated cell inside protective coats. Alcohol does not get through. Soap and water work by physically removing spores."
       - text: "Spores are made only by Gram-negative bacteria, whose outer membrane blocks alcohol"
         correct: false
-        feedback: "Spores are made by some Gram-positive rods, such as Bacillus and Clostridium. Their resistance comes from the spore's dehydrated core and coats."
+        feedback: "Spores are made by some Gram-positive rods, such as *Bacillus* and *Clostridium*. Their resistance comes from the spore's dehydrated core and coats."
       - text: "Spores can respire without oxygen"
         correct: false
         feedback: "Spores are dormant; they barely metabolise at all. Their resistance comes from their dehydrated core and protective coats."
+  - id: q8
+    stem: "Sputum from a man with a cough lasting three months is sent to the laboratory. A Gram stain shows almost no bacteria, but an acid-fast stain of the same sample shows many thin red rods. Culture takes three weeks to produce colonies. Which detail best explains why the Gram stain showed so little?"
+    options:
+      - text: "A wall packed with waxy mycolic acids"
+        correct: true
+        feedback: "Gram's dyes barely penetrate a waxy wall, so the organism is missed. The same wax holds the red dye against acid-alcohol, which is why the acid-fast stain shows it clearly."
+      - text: "Slow growth, taking weeks to form colonies"
+        correct: false
+        feedback: "Growth rate decides how long culture takes, not what a stain shows. The organisms are already present in the sputum; their waxy wall keeps the Gram dyes out."
+      - text: "No cell wall at all"
+        correct: false
+        feedback: "A wall-less bacterium would also be missed by the Gram stain, but it would not stay red after acid-alcohol. Holding the red dye requires a waxy wall of mycolic acids."
+      - text: "A need for oxygen to make ATP"
+        correct: false
+        feedback: "Oxygen use decides where an organism grows, and has no bearing on how its envelope takes up dye. The waxy wall explains both staining results."
+  - id: q9
+    stem: "Pus from a skin abscess that followed a cut is Gram-stained and shows purple cocci in grape-like clusters. The organism grows overnight on a plate in room air. Of these organisms, which is the most likely cause?"
+    options:
+      - text: "*Staphylococcus aureus*"
+        correct: true
+        feedback: "Purple means a thick Gram-positive wall, and clusters mean division in several planes: staphylococci. Growth in air fits a facultative anaerobe, and a break in the skin is how it usually reaches tissue."
+      - text: "*Streptococcus pyogenes*"
+        correct: false
+        feedback: "Streptococci are also purple cocci, but they divide in one plane and form chains. Grape-like clusters point to staphylococci."
+      - text: "*Escherichia coli*"
+        correct: false
+        feedback: "*E. coli* is a Gram-negative rod, so it would appear as pink rods. The purple cocci rule it out."
+      - text: "*Bacteroides fragilis*"
+        correct: false
+        feedback: "*B. fragilis* is a pink rod and an obligate anaerobe, so it would not grow on a plate in room air. Both the stain and the growth in air rule it out."

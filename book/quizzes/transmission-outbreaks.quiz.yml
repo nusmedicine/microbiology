@@ -85,3 +85,33 @@ questions:
       - text: "Veterinary drugs are chemically different, so they cannot affect humans"
         correct: false
         feedback: "Many belong to the same classes used in people, and the resistance they select can affect human treatment."
+  - id: t8
+    stem: "After a school sports day, the health team plots cases of vomiting and diarrhoea by date of onset. The first cases begin two days after the event. New cases then appear in waves about two days apart for three weeks, each wave larger than the last, and later cases include brothers and sisters who did not attend. What kind of outbreak is most likely?"
+    options:
+      - text: "A propagated outbreak, spread from person to person"
+        correct: true
+        feedback: "Successive waves about one incubation period apart, growing each time, are the signature of person-to-person spread. Cases in siblings who were never at the event confirm it."
+      - text: "A point-source outbreak from food served at the event"
+        correct: false
+        feedback: "A single shared exposure gives one cluster within one incubation period, and no new cases once the exposure is over. Waves for three weeks, and cases in children who were not there, rule this out."
+      - text: "Endemic disease at its usual level"
+        correct: false
+        feedback: "Endemic disease stays near a steady baseline. Waves that grow larger each time are a rise above the expected level."
+      - text: "A pandemic"
+        correct: false
+        feedback: "A pandemic is an epidemic across many countries. Nothing here extends beyond one school and its families."
+  - id: t9
+    stem: "Thirty of 80 guests at a company dinner develop vomiting and diarrhoea within a day. The outbreak team asks every guest, ill or well, what they ate. Which finding most strongly points to one dish as the source?"
+    options:
+      - text: "Almost every guest who ate the prawns fell ill, and almost none who skipped them did"
+        correct: true
+        feedback: "This compares exposure between the ill and the well, the test step of an investigation. A dish that separates the two groups this sharply is the likely source."
+      - text: "Most of the guests who fell ill had eaten the rice"
+        correct: false
+        feedback: "If nearly everyone ate the rice, most ill guests will have eaten it whatever the source. Without the well guests for comparison, this finding cannot pick out a dish."
+      - text: "The ill guests sat at tables all over the room"
+        correct: false
+        feedback: "This argues against a source confined to one table, but it does not identify a food. Only comparing what ill and well guests ate can do that."
+      - text: "The first guest to fall ill did so within a few hours"
+        correct: false
+        feedback: "The timing of one case says little about which dish was responsible. The comparison of exposures between ill and well guests is what points to the source."

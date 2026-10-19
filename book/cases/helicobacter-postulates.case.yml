@@ -51,7 +51,7 @@ nodes:
       - id: a
         text: "The organism grows slowly, and the lab's usual two-day rule was discarding it"
         correct: true
-        feedback: "Culture conditions decide what a lab can find, the same lesson as an anaerobe sample left in air. This organism also needs low oxygen (it is microaerophilic)."
+        feedback: "Culture conditions decide what a lab can find: plates discarded too early lose a slow-growing organism. This organism also needs a low level of oxygen to grow."
         effects: { quality: +1 }
         goto: q-postulate
       - id: b

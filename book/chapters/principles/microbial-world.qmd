@@ -4,7 +4,34 @@
 > and in how they are related to each other and to us, and only some of them have been proved to
 > cause disease.*
 
-## A matter of scale {#sec-world-scale}
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Place infectious agents in order of size, and explain what size means for seeing them and for how
+  fast they grow.
+- Distinguish prions, viruses, bacteria, fungi, protozoa and helminths by what they are built from.
+- Explain why a bacterium is easier to attack without harming the patient than a fungus or a
+  protozoan.
+- State Koch's postulates, and explain why many real pathogens fail them.
+- Use the six questions to compare a bacterium, a virus, a fungus, a protozoan and a helminth.
+:::
+
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [What microbes are](#sec-world-what)
+  - [A matter of scale](#sec-world-scale): from virus to worm
+  - [Six kinds of infectious agent](#sec-world-kinds): cells and non-cells
+- [Microbes and disease](#sec-world-disease)
+  - [Most microbes are harmless](#sec-world-harmless)
+  - [How microbes came to be blamed](#sec-world-history): germ theory and Koch's postulates
+- [Same questions, different answers](#sec-world-questions)
+  - [The anchor organisms](#sec-world-anchors)
+  - [Six questions for every agent](#sec-world-six)
+:::
+
+## What microbes are {#sec-world-what}
+
+### A matter of scale {#sec-world-scale}
 
 A **microorganism**, or microbe, is any living thing too small to see without a microscope. The term
 covers bacteria, archaea, fungi such as yeasts, and **protozoa**, single-celled eukaryotes that move
@@ -22,10 +49,30 @@ Viruses were first seen in the late 1930s with the electron microscope, and in c
 are usually detected through their nucleic acid or their proteins.
 
 Size also favours fast growth. A small cell has a large surface area for its volume, so nutrients
-reach every part of it quickly by diffusion. In good conditions some bacteria, such as *Escherichia
-coli*, can divide every 20 minutes, while human cells take many hours.
+reach every part of it quickly by diffusion.
 
-## Five kinds of infectious agent {#sec-world-kinds}
+::: {.example}
+In good conditions *Escherichia coli* can divide every 20 minutes, while human cells take many hours.
+:::
+
+### Six kinds of infectious agent {#sec-world-kinds}
+
+Six kinds of agent cause infection in humans. Four are cells and two are not:
+
+::: {.concept-tree}
+[Kinds of infectious agent]{.tree-title}
+
+- Cells
+  - Prokaryotes, with no nucleus
+    - Bacteria
+  - Eukaryotes, with a nucleus
+    - Fungi
+    - Protozoa
+    - Helminths
+- Not cells
+  - Viruses: a genome in a protein coat
+  - Prions: a misfolded protein with no genome
+:::
 
 All cellular life falls into three **domains**, defined by comparing the genes for ribosomal RNA
 [@woese1990domains]. Bacteria are **prokaryotes**, cells with no nucleus and no membrane-bound
@@ -51,7 +98,9 @@ Sort the descriptions below by their traits. None of them names the agent.
 
 <div data-island="sorter" data-src="/diagrams/agent-sorter.yml"></div>
 
-## Most microbes are harmless {#sec-world-harmless}
+## Microbes and disease {#sec-world-disease}
+
+### Most microbes are harmless {#sec-world-harmless}
 
 A **pathogen** is a microbe that can cause disease. Pathogens are a small minority of the microbial
 world: about 1,400 species are known to infect humans [@taylor2001risk], out of millions of microbial
@@ -78,12 +127,14 @@ Some microbes are directly useful to medicine:
 - In Singapore, *Wolbachia*, a bacterium that lives inside the cells of many insects, is being used
   against dengue.
 
+::: {.example}
 Male *Aedes aegypti* mosquitoes carrying *Wolbachia* are released in large numbers; when they mate
 with wild females, the eggs do not hatch, so the population of the mosquito that transmits dengue
 falls. In a cluster-randomised trial in Singapore, the releases reduced the odds of
 laboratory-confirmed dengue by about 70% [@lim2026wolbachia].
+:::
 
-## How microbes came to be blamed {#sec-world-history}
+### How microbes came to be blamed {#sec-world-history}
 
 Until the late nineteenth century most doctors attributed epidemics to bad air, or **miasma**, and to
 imbalances within the body. The **germ theory of disease**, the principle that specific microbes cause
@@ -107,8 +158,7 @@ taught, **Koch's postulates** require that:
 
 The postulates remain a sound way to think about causation, but many real pathogens fail them:
 
-- Some cannot be grown on laboratory media at all, such as *Mycobacterium leprae*, the cause of
-  leprosy.
+- Some cannot be grown on laboratory media at all.
 - Many cause disease in only some of the people they infect, so there are healthy **carriers**:
   people who harbour and can transmit the organism without being ill.
 - Others need a particular host factor, or cause disease only together with other microbes.
@@ -118,6 +168,26 @@ the organism's capacity to cause disease if inactivating it reduces disease and 
 the disease back [@falkow1988molecular].
 
 ## Same questions, different answers {#sec-world-questions}
+
+### The anchor organisms {#sec-world-anchors}
+
+The examples in Part I come from eleven anchor organisms, which recur in every chapter:
+
+| Organism | Kind of agent | What it is |
+|---|---|---|
+| *Staphylococcus aureus* | Bacterium | A spherical bacterium that many healthy people carry in the nose |
+| *Streptococcus pyogenes* | Bacterium | A spherical bacterium carried in the throat of some healthy people; a common cause of sore throat |
+| *Escherichia coli* | Bacterium | A rod-shaped bacterium of the healthy gut, and a common cause of bladder infection |
+| *Bacteroides fragilis* | Bacterium | A rod-shaped bacterium of the healthy colon that cannot grow in air |
+| *Mycobacterium tuberculosis* | Bacterium | A slow-growing bacterium with a waxy wall; the cause of tuberculosis |
+| *Burkholderia pseudomallei* | Bacterium | A bacterium of soil and surface water; the cause of melioidosis |
+| Influenza virus | Virus | An enveloped RNA virus that infects the cells lining the airway |
+| Human immunodeficiency virus (HIV) | Virus | An enveloped RNA virus that infects cells of the immune system; the cause of AIDS |
+| *Candida albicans* | Fungus | A yeast that lives harmlessly on the skin and in the gut and vagina of most people |
+| *Plasmodium falciparum* | Protozoan | A single-celled parasite, carried by mosquitoes, that lives in human liver and red blood cells; the most dangerous cause of malaria |
+| *Ascaris lumbricoides* | Helminth | A roundworm that lives in the human intestine; its eggs are swallowed from soil |
+
+### Six questions for every agent {#sec-world-six}
 
 The same six questions apply to every kind of microbe:
 
@@ -130,7 +200,7 @@ The same six questions apply to every kind of microbe:
 
 The answers differ sharply between kinds of agent:
 
-| | Bacterium (*Staphylococcus aureus*) | Virus (influenza virus) | Fungus (*Candida albicans*) | Protozoan (*Plasmodium falciparum*) | Helminth (*Ascaris lumbricoides*) |
+| | Bacterium (*S. aureus*) | Virus (influenza virus) | Fungus (*C. albicans*) | Protozoan (*P. falciparum*) | Helminth (*A. lumbricoides*) |
 |---|---|---|---|---|---|
 | Built from | Prokaryotic cell with a peptidoglycan wall | RNA genome, protein coat, lipid envelope | Eukaryotic cell with a chitin and glucan wall | Eukaryotic cell, no wall | Multicellular animal |
 | Energy | Its own metabolism | None of its own; uses the host cell's | Its own metabolism | Its own metabolism, using host nutrients | Its own metabolism, feeding on gut contents |

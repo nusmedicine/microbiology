@@ -99,7 +99,7 @@ nodes:
       - id: a
         text: "One is facultative and grows either way; the other is an obligate anaerobe."
         correct: true
-        feedback: "Growth in both conditions means facultative, like E. coli. Growth only without oxygen means obligate anaerobe, like Bacteroides. They look the same on the slide; oxygen separates them."
+        feedback: "Growth in both conditions means facultative, like *Escherichia coli*. Growth only without oxygen means obligate anaerobe, like *Bacteroides fragilis*. They look the same on the slide; oxygen separates them."
         effects: { quality: +1 }
         goto: q-mechanism
       - id: b
@@ -110,7 +110,7 @@ nodes:
       - id: c
         text: "The one that grew in air must be a contaminant from the lab."
         correct: false
-        feedback: "Possible in principle, but there is a simpler reading. Bowel bacteria include facultative species such as E. coli, which grow with or without oxygen."
+        feedback: "Possible in principle, but there is a simpler reading. Bowel bacteria include facultative species such as *E. coli*, which grow with or without oxygen."
         goto: q-mechanism
 
   - id: q-mechanism

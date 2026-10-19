@@ -22,7 +22,7 @@ cards:
   - id: g5
     kind: how
     front: "What is lysogenic conversion? Give one example."
-    back: "A prophage gene changes the host bacterium's traits. Example: only *C. diphtheriae* carrying the toxin-encoding phage produces diphtheria toxin."
+    back: "A prophage gene changes the host bacterium's traits. Example: only *E. coli* carrying the toxin-encoding prophage makes Shiga toxin."
   - id: g6
     kind: how
     front: "Name the four ways bacteria resist antimicrobial drugs."

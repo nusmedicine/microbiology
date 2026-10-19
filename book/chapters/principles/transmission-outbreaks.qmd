@@ -4,33 +4,101 @@
 > Controlling infection depends on knowing where microbes live between hosts, how they travel, and
 > where transmission can be interrupted.*
 
-## The chain of infection {#sec-trans-chain}
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- List the six links in the chain of infection, and name a measure that breaks each.
+- Classify routes of transmission, and explain why respiratory particles are not divided by a fixed
+  size cut-off.
+- Distinguish endemic, epidemic and pandemic disease.
+- Explain R₀, R and the herd immunity threshold, and calculate the threshold from R₀.
+- Distinguish point-source from propagated outbreaks by their epidemic curves, and describe the steps
+  of an outbreak investigation.
+- Explain the One Health principle with a local example.
+:::
+
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [How infection travels](#sec-trans-spread)
+  - [The chain of infection](#sec-trans-chain): six links, each a point of control
+  - [Routes of transmission](#sec-trans-routes)
+- [Spread in populations](#sec-trans-population)
+  - [Endemic, epidemic and pandemic](#sec-trans-levels)
+  - [Measuring how an infection spreads](#sec-trans-measures): R₀, R and herd immunity
+- [Outbreaks](#sec-trans-outbreak)
+  - [Point-source and propagated outbreaks](#sec-trans-curves)
+  - [Investigating an outbreak](#sec-trans-investigation)
+  - [Hand hygiene: the evidence came first](#sec-trans-semmelweis)
+- [One Health](#sec-trans-onehealth): human, animal and environmental health together
+:::
+
+## How infection travels {#sec-trans-spread}
+
+### The chain of infection {#sec-trans-chain}
 
 Transmission is usually described as a chain of six links. Each link is a point at which the chain
 can be broken, so the model is most useful as a checklist for control.
+
+::: {.flow}
+1. Infectious agent
+2. Reservoir
+3. Portal of exit
+4. Mode of transmission
+5. Portal of entry
+6. Susceptible host
+:::
 
 | Link | What it means | Example of breaking it |
 |---|---|---|
 | Infectious agent | The organism itself | Antimicrobial treatment; sterilisation |
 | Reservoir | Where the organism normally lives and multiplies: people, animals, soil or water | Treating infected people; controlling infection in animals; cleaning contaminated water systems |
 | Portal of exit | How it leaves the reservoir: respiratory particles, faeces, blood, skin | Covering coughs; dressing wounds |
-| Mode of transmission | How it travels (see below) | Hand hygiene; safe water; mosquito control |
+| Mode of transmission | How it travels ([routes of transmission](#sec-trans-routes)) | Hand hygiene; safe water; mosquito control |
 | Portal of entry | How it enters the next host: mouth, airway, broken skin, mucosa | Gloves; safe injection practice |
 | Susceptible host | A person who can be infected | Vaccination |
 
 From the reservoir we can predict whether eradication is possible. An organism whose only reservoir
-is humans can in principle be eradicated: smallpox was, and polio is close. An organism with an
-animal or environmental reservoir cannot be, because it persists whatever happens in the human
-population.
+is humans can in principle be eradicated. An organism with an animal or environmental reservoir
+cannot be, because it persists whatever happens in the human population.
+
+::: {.example}
+Smallpox, whose only reservoir was humans, has been eradicated; *Burkholderia pseudomallei*, which
+lives in soil and surface water, cannot be.
+:::
 
 A **zoonosis** is an infection transmitted from animals to humans. Around 60% of known human pathogen
-species, and about 75% of emerging ones, are zoonotic [@taylor2001risk]. A **vector** is an arthropod
-that carries an organism between hosts, usually a mosquito, tick, flea or louse. A **fomite** is an
-inanimate object that carries organisms, such as a door handle or a shared keyboard.
+species, and about 75% of emerging ones, are zoonotic [@taylor2001risk].
 
-## Routes of transmission {#sec-trans-routes}
+::: {.example}
+In 1999, Nipah virus spread from pigs imported from Malaysia to abattoir workers in Singapore
+[@paton1999nipah].
+:::
 
-<div data-island="sorter" data-src="/diagrams/transmission-sorter.yml"></div>
+### Routes of transmission {#sec-trans-routes}
+
+An organism reaches its next host by one of five routes:
+
+::: {.concept-tree}
+[Routes of transmission]{.tree-title}
+
+- From one host to the next
+  - Contact
+    - Direct: from person to person, as on hands
+    - Indirect: through a contaminated object
+  - Respiratory: particles breathed out and inhaled
+  - Faecal–oral: organisms in faeces, swallowed in food or water
+  - Vector-borne: carried by an arthropod
+  - Vertical: from mother to child, before or during birth or in breast milk
+:::
+
+A **fomite** is an inanimate object that carries organisms, such as a door handle or a shared
+keyboard. A **vector** is an arthropod that carries an organism between hosts, usually a mosquito,
+tick, flea or louse. Controlling the vector interrupts every infection it carries.
+
+::: {.example}
+In Singapore, dengue control acts on the mosquito vector, including the release of male mosquitoes
+carrying the bacterium *Wolbachia* ([*The microbial world*](microbial-world.qmd#sec-world-harmless)).
+:::
 
 The description of the respiratory route changed during the COVID-19 pandemic. Exhaled particles span
 a continuous range of sizes. The older teaching split them into **droplet** transmission, by particles
@@ -39,7 +107,33 @@ particles that stay suspended and can accumulate in poorly ventilated rooms. Tha
 recognised as too rigid [@wang2021airborne]. Control therefore combines distance with ventilation and
 shorter exposure.
 
-## Measuring how an infection spreads {#sec-trans-measures}
+<div data-island="sorter" data-src="/diagrams/transmission-sorter.yml"></div>
+
+## Spread in populations {#sec-trans-population}
+
+### Endemic, epidemic and pandemic {#sec-trans-levels}
+
+A disease that is **endemic** is constantly present in a population at a roughly steady level. An
+**epidemic** is a sharp rise above that baseline; a **pandemic** is an epidemic across many
+countries. An **outbreak** is more cases of a disease than expected in a given place and time, and
+the term is usually kept for an epidemic confined to one place.
+
+::: {.spectrum}
+[How far cases exceed the expected level, and how widely]{.tree-title}
+
+- Endemic: present at the expected level
+- Epidemic: well above the expected level in one population
+- Pandemic: an epidemic across many countries
+
+[Expected level, one population]{.spectrum-end} [Far above it, worldwide]{.spectrum-end}
+:::
+
+::: {.example}
+Influenza is endemic, with cases every year, but a new strain to which few people are immune can
+spread across many countries as a pandemic.
+:::
+
+### Measuring how an infection spreads {#sec-trans-measures}
 
 | Quantity | Question it answers | Note |
 |---|---|---|
@@ -50,8 +144,8 @@ shorter exposure.
 
 Because R falls as immunity rises, there is a level of immunity above which an outbreak cannot sustain
 itself. This **herd immunity threshold** is 1 − 1/R₀. For an organism with an R₀ of 2 it is 50%; for
-a highly transmissible one with an R₀ of 12 it is above 90%, which is why measles needs such high
-vaccination coverage.
+a highly transmissible one with an R₀ of 12 it is above 90%, so vaccination coverage against such an
+organism must be correspondingly high.
 
 <div data-island="epidemic-sim" data-src="/diagrams/epidemic-sim.yml"></div>
 
@@ -60,27 +154,49 @@ everyone has been infected. Reducing transmission both lowers the peak and delay
 reasoning behind measures intended to keep demand within hospital capacity. When R₀ is close to 1, a
 small change in it makes a large difference to the final number infected.
 
-## Investigating an outbreak {#sec-trans-outbreak}
+## Outbreaks {#sec-trans-outbreak}
 
-An **outbreak** is more cases of a disease than expected in a given place and time. **Endemic** means
-constantly present in a population; an **epidemic** is a sharp rise above that baseline; a **pandemic**
-is an epidemic across many countries.
+### Point-source and propagated outbreaks {#sec-trans-curves}
+
+An **epidemic curve**, a plot of cases against time of onset, indicates the type of source. Cases
+from a single shared exposure form a **point-source** outbreak; cases spread from person to person
+form a **propagated** outbreak.
+
+| Outbreak | Source | Epidemic curve | How it ends |
+|---|---|---|---|
+| Point source | One shared exposure, such as a contaminated meal | Cases cluster within one incubation period | Once the exposure is removed, no new cases follow |
+| Propagated | Each case infects others | Successive waves about one incubation period apart, each larger than the last | When R falls below 1 |
+
+::: {.example}
+At a wedding lunch, about a third of the guests began vomiting within three hours of the meal, a
+single tight cluster from one shared exposure
+([*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd#sec-gpc-case)).
+:::
+
+### Investigating an outbreak {#sec-trans-investigation}
 
 Investigation follows a standard sequence:
 
-1. Confirm that the cases are real, and define what counts as a case.
-2. Describe the cases by person, place and time.
-3. Use that description to form a hypothesis about the source.
-4. Test the hypothesis by comparing exposures between people who became ill and people who did not.
-5. Act to interrupt transmission, without waiting for the investigation to be complete.
+::: {.flow}
+1. Confirm and define cases
+2. Describe person, place, time
+3. Form a hypothesis
+4. Compare exposures
+5. Act to interrupt transmission
+:::
 
-An **epidemic curve**, a plot of cases against time of onset, indicates the type of source. Cases that
-cluster within one incubation period suggest a **point-source** outbreak from a single shared
-exposure; the wedding lunch case in [*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd#sec-gpc-case)
-is an example. Cases spread over successive incubation periods, each wave larger than the last,
-suggest a **propagated** outbreak, spread from person to person.
+The first step establishes that the excess of cases is real and sets a case definition, which
+decides who is counted. Describing the cases by person, place and time suggests a hypothesis about
+the source. The hypothesis is tested by comparing exposures between people who became ill and people
+who did not. Action to interrupt transmission does not wait for the investigation to be complete.
 
-## Hand hygiene: the evidence came first {#sec-trans-semmelweis}
+::: {.example}
+In London in 1854, John Snow mapped cholera deaths around the Broad Street water pump, found that
+neighbours who drank other water were spared, and persuaded the parish to remove the pump handle
+before the organism was known ([Practise: the Broad Street pump](#sec-trans-case)).
+:::
+
+### Hand hygiene: the evidence came first {#sec-trans-semmelweis}
 
 In the Vienna General Hospital in the 1840s, two maternity clinics had very different death rates from
 **puerperal fever**, infection after childbirth. Mortality was several times higher in the clinic
@@ -91,9 +207,9 @@ clinic fell from 11.4% in 1846 to about 1.3% in 1848 [@semmelweis1861].
 
 Germ theory was still decades away, so Semmelweis could not say what was being carried, and his
 colleagues largely rejected the finding. He acted on a route he could interrupt without knowing the
-agent, as John Snow did with the Broad Street pump. WHO guidance now treats hand hygiene as the
-primary measure for preventing **healthcare-associated infection**, infection acquired in the course
-of medical care [@who2009handhygiene].
+agent, as Snow did with the Broad Street pump. WHO guidance now treats hand hygiene as the primary
+measure for preventing **healthcare-associated infection**, infection acquired in the course of
+medical care [@who2009handhygiene].
 
 ## One Health {#sec-trans-onehealth}
 
@@ -105,16 +221,10 @@ that infections are best understood and controlled across all three. The connect
   direct contact.
 - Changes in land use, climate and travel alter where vectors can live and which animals humans meet.
 
-Singapore offers several examples of these connections:
-
-- Dengue control acts on the vector, including the release of male mosquitoes carrying *Wolbachia*
-  ([*The microbial world*](microbial-world.qmd#sec-world-harmless)).
-- In 1999, Nipah virus spread from pigs imported from Malaysia to abattoir workers in Singapore: 11
-  fell ill and one died [@paton1999nipah].
-- In 2015, an outbreak of severe group B streptococcal infection was linked to eating raw freshwater
-  fish, and the strain responsible also infects farmed fish [@kalimuddin2017gbs].
-- Melioidosis is acquired from soil and surface water, and cases rise after heavy rain ([*Microbes
-  and their hosts*](host-microbe.qmd#sec-host-case)).
+::: {.example}
+In 2015, an outbreak of severe group B streptococcal infection in Singapore was linked to eating raw
+freshwater fish, and the strain responsible also infects farmed fish [@kalimuddin2017gbs].
+:::
 
 ## Check your understanding {#sec-trans-quiz}
 

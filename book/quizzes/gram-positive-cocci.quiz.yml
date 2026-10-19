@@ -97,3 +97,48 @@ questions:
       - text: "*S. pneumoniae* lives in the spleen"
         correct: false
         feedback: "It lives in the nose and throat. The spleen matters because it clears encapsulated bacteria that reach the blood."
+  - id: g9
+    stem: "A 72-year-old man had his hip replaced with a prosthetic joint a year ago. The joint is now painful and loose. Cocci in clusters grow from the tissue around the implant; they make catalase but not coagulase. Which detail best explains why this organism caused disease in him?"
+    options:
+      - text: "The prosthetic joint"
+        correct: true
+        feedback: "Coagulase-negative staphylococci such as *S. epidermidis* live harmlessly on everyone's skin and make few toxins. A plastic or metal implant gives them a surface for biofilm, which shelters them: the device is the enabling condition."
+      - text: "His age"
+        correct: false
+        feedback: "Age shifts risk a little, but *S. epidermidis* lives on the skin of people of every age without harm. What it needs is a foreign surface for biofilm, which the implant provides."
+      - text: "The cocci grow in clusters"
+        correct: false
+        feedback: "Clusters and catalase identify a staphylococcus; they are laboratory traits, not the reason for disease. The missing coagulase points away from *S. aureus*, and the implant explains why a skin resident could cause harm."
+      - text: "A toxin made by the bacteria"
+        correct: false
+        feedback: "These bacteria make few toxins, so a toxin cannot explain the disease. The biofilm they form on the implant does."
+  - id: g10
+    stem: "A 9-year-old girl had a sore throat that settled within a week. Three weeks later she develops fever and inflammation of the heart. Cultures of her throat and blood now grow no pathogen. Of these organisms, which most likely began the illness?"
+    options:
+      - text: "*Streptococcus pyogenes*"
+        correct: true
+        feedback: "Two clues point to it: a throat infection weeks earlier, and heart damage with no bacteria present. Antibodies made against *S. pyogenes* cross-react with heart tissue (molecular mimicry), so the damage appears after the infection has cleared."
+      - text: "*Staphylococcus aureus*"
+        correct: false
+        feedback: "Its toxins act while the bacteria or the toxin are present: within hours in food poisoning, or during toxic shock. Damage that begins weeks after a cleared sore throat, with no bacteria found, points to cross-reacting antibodies after *S. pyogenes*."
+      - text: "*Streptococcus pneumoniae*"
+        correct: false
+        feedback: "This organism causes disease where it multiplies, such as the middle ear, lung or blood, and causes no immune disease weeks later. The delay and the absence of bacteria point to *S. pyogenes*."
+      - text: "*Staphylococcus epidermidis*"
+        correct: false
+        feedback: "A skin resident with few toxins, it causes disease mainly on implanted devices. Nothing here involves a device, and the timing after a sore throat points to *S. pyogenes*."
+  - id: g11
+    stem: "Two days after cutting his hand, a man has redness and swelling spreading quickly up his forearm, with no collection of pus. Gram-positive cocci in chains grow from the wound; they make no catalase and leave a clear zone on blood agar. Which organism is most likely?"
+    options:
+      - text: "*Streptococcus pyogenes*"
+        correct: true
+        feedback: "Chains without catalase mark a streptococcus, and a clear zone (beta-haemolysis) from a skin wound fits group A. An infection that spreads without pus fits its enzymes, which dissolve clots and the ground substance between cells."
+      - text: "*Staphylococcus aureus*"
+        correct: false
+        feedback: "Staphylococci grow in clusters and make catalase. *S. aureus* infection also tends to be walled off by coagulase as an abscess, rather than spreading without pus."
+      - text: "*Streptococcus pneumoniae*"
+        correct: false
+        feedback: "It forms lancet-shaped pairs, gives a green zone (alpha-haemolysis) and lives in the nasopharynx. Chains with beta-haemolysis from a skin wound point to *S. pyogenes*."
+      - text: "*Enterococcus*"
+        correct: false
+        feedback: "Enterococci are gut residents that leave blood agar unchanged. A clear zone and a spreading skin infection point to *S. pyogenes*."

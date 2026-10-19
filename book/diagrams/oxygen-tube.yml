@@ -39,12 +39,12 @@ organisms:
     pattern: gradient
     why: "It grows everywhere, but best near the top, because respiration yields far more ATP per glucose than fermentation."
   - name: "Organism 3"
-    example: "Campylobacter jejuni"
+    example: "Helicobacter pylori"
     clue: "Needs a little oxygen for respiration, but some of its enzymes are damaged by oxygen at normal air levels."
     pattern: band
     why: "It sits in a narrow band: deep enough to escape full air, shallow enough to find the little oxygen it needs."
   - name: "Organism 4"
-    example: "Lactobacillus (streptococci behave similarly)"
+    example: "Streptococcus pyogenes"
     clue: "Only ferments, so oxygen gives it no extra ATP. It does have enzymes that stop oxygen from harming it."
     pattern: even
     why: "Oxygen neither helps nor harms, so it grows the same at every depth."
@@ -58,11 +58,6 @@ organisms:
     clue: "Can respire with oxygen or ferment without it, whichever the conditions allow."
     pattern: gradient
     why: "Like Organism 2, it is flexible: growth throughout, densest where respiration is possible."
-  - name: "Organism 7"
-    example: "Clostridium perfringens"
-    clue: "Makes ATP only by fermentation and cannot cope with oxygen at the levels found in air."
-    pattern: bottom
-    why: "Like Organism 5, it is confined to the oxygen-free depths of the tube."
 
 summary: >
   The pattern follows from the metabolism. Ask two questions: can it use oxygen to make ATP, and
