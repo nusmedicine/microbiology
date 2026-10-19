@@ -8,7 +8,7 @@
 
 A **microorganism**, or microbe, is any living thing too small to see without a microscope. The term
 covers bacteria, archaea, fungi such as yeasts, and **protozoa**, single-celled eukaryotes that move
-and feed like tiny animals. Viruses are usually included, although they are not cells. Medical
+and feed independently. Viruses are usually included, although they are not cells. Medical
 microbiology also covers **helminths** (parasitic worms), most of which are visible to the naked eye,
 because they too are infectious agents.
 
@@ -16,36 +16,36 @@ Try putting these in order of size before you read on.
 
 <div data-island="rank-order" data-src="/diagrams/size-ladder.yml"></div>
 
-Size has two consequences. The first concerns what you can see. A light microscope cannot separate
-two points closer than about 0.2 µm, its limit of **resolution**, so stained bacteria are visible but
-viruses are not. Viruses were first seen in the late 1930s with the electron microscope, and in
-clinical practice they are usually detected through their nucleic acid or their proteins.
+Size sets what you can see. A light microscope cannot separate two points closer than about 0.2 µm,
+its limit of **resolution**, so stained bacteria are visible but viruses are not. Viruses were first
+seen in the late 1930s with the electron microscope, and in clinical practice they are usually
+detected through their nucleic acid or their proteins.
 
-The second concerns growth. A small cell has a large surface area for its volume, so nutrients reach
-every part of it quickly by diffusion. This is one reason bacteria can divide every 20 minutes in good
-conditions, while your own cells take many hours.
+Size also favours fast growth. A small cell has a large surface area for its volume, so nutrients
+reach every part of it quickly by diffusion. In good conditions some bacteria, such as *Escherichia
+coli*, can divide every 20 minutes, while your own cells take many hours.
 
 ## Five kinds of infectious agent {#sec-world-kinds}
 
 All cellular life falls into three **domains**, defined by comparing the genes for ribosomal RNA
-[@woese1990domains]. Bacteria are prokaryotic cells, and the domain includes every bacterial pathogen
-in this book. Archaea are also prokaryotic, but their membranes and enzymes differ so much from those
+[@woese1990domains]. Bacteria are **prokaryotes**, cells with no nucleus and no membrane-bound
+organelles. Archaea are also prokaryotes, but their membranes and enzymes differ so much from those
 of bacteria that they form a separate branch; some live in the human gut, but none is an established
-cause of human disease. Eukarya are cells with a nucleus. Fungi, protozoa and helminths belong here,
-alongside your own cells.
+cause of human disease. Eukarya are organisms whose cells have a nucleus. Fungi, protozoa and
+helminths belong here, alongside your own cells.
 
-Sharing a domain with a microbe has a practical cost. A bacterium has many structures your cells lack,
-so it is relatively easy to attack without harming you. A fungus or a protozoan shares most of its
-machinery with you, which leaves fewer safe targets. This is the book's sixth question, *what does it
-have that my cells lack?*, and the answer changes completely between domains.
+A bacterium has many structures your cells lack, so it is relatively easy to attack without harming
+you. A fungus or a protozoan shares most of its machinery with you, which leaves fewer safe targets.
+The answer to the question *what does it have that my cells lack?* therefore differs sharply between
+domains.
 
 Two kinds of agent sit outside the tree of life. **Viruses** are not cells: a virus particle, or
 **virion**, is a genome of DNA or RNA inside a protein coat, sometimes wrapped in a lipid envelope, and
 it can be copied only inside a living cell. **Prions** have no genome at all. A prion is a misfolded
 form of a normal host protein that converts other copies of the protein into the misfolded shape,
-causing slowly progressive brain disease. Prions are rare, but they matter in practice because they
-survive standard sterilisation ([*Detecting and controlling
-microbes*](detection-control.qmd#sec-det-control)).
+causing fatal neurodegenerative disease after an incubation period that can last years. Prions are
+rare, but they matter in practice because routine sterilisation does not reliably inactivate them
+([*Detecting and controlling microbes*](detection-control.qmd#sec-det-control)).
 
 Sort the descriptions below by their traits. None of them names the agent.
 
@@ -71,12 +71,12 @@ about 1.3 bacteria for every human cell, and a single bowel movement can shift i
 :::
 
 Some microbes are directly useful to medicine. The first recombinant human insulin, approved in 1982,
-was made by *Escherichia coli* carrying synthetic genes for the two insulin chains, and many antibiotics were first found
-as products of soil bacteria. In Singapore, a bacterium is being used against dengue. *Wolbachia*
-lives inside the cells of many insects. Male *Aedes aegypti* mosquitoes carrying it are released in
-large numbers; when they mate with wild females, the eggs do not hatch, so the population of the
-mosquito that transmits dengue falls. In a cluster-randomised trial in Singapore, the releases reduced
-the odds of laboratory-confirmed dengue by about 70% [@lim2026wolbachia].
+was made by *E. coli* carrying synthetic genes for the two insulin chains, and many antibiotics were
+first found as products of soil bacteria. In Singapore, *Wolbachia*, a bacterium that lives inside the
+cells of many insects, is being used against dengue. Male *Aedes aegypti* mosquitoes carrying it are
+released in large numbers; when they mate with wild females, the eggs do not hatch, so the population
+of the mosquito that transmits dengue falls. In a cluster-randomised trial in Singapore, the releases
+reduced the odds of laboratory-confirmed dengue by about 70% [@lim2026wolbachia].
 
 ## How microbes came to be blamed {#sec-world-history}
 
@@ -101,12 +101,13 @@ taught, **Koch's postulates** require that:
 4. The same organism can be recovered from that host.
 
 The postulates remain a sound way to think about causation, but many real pathogens fail them. Some
-cannot be grown in culture at all, such as *Treponema pallidum*, the cause of syphilis. Many cause
-disease in only some of the people they infect, so healthy **carriers** exist. Others need a particular
-host factor, or cause disease only together with other microbes. Modern versions of the postulates
-work with genes rather than whole organisms: a gene is linked to virulence if inactivating it reduces
-disease and restoring it brings the disease back [@falkow1988molecular]. The case at the end of this
-chapter follows one discovery that had to work around these limits.
+cannot be grown on laboratory media at all, such as *Mycobacterium leprae*, the cause of leprosy. Many
+cause disease in only some of the people they infect, so there are healthy **carriers**: people who
+harbour and can transmit the organism without being ill. Others need a particular host factor, or
+cause disease only together with other microbes. Modern versions of the postulates work with genes
+rather than whole organisms: a gene is linked to the organism's capacity to cause disease if
+inactivating it reduces disease and restoring it brings the disease back [@falkow1988molecular]. The
+case at the end of this chapter follows one discovery that had to work around these limits.
 
 ## Same questions, different answers {#sec-world-questions}
 
@@ -119,17 +120,16 @@ This book asks the same six questions of every kind of microbe:
 5. How does damage happen, and how much of it comes from the microbe and how much from the host?
 6. What does it have that my cells lack?
 
-Each kind of agent answers them differently. The table gives one example of each kind; every column
-returns later in its own chapter.
+The table gives one example of each kind of agent; every column returns later in its own chapter.
 
-| | Bacterium (*S. aureus*) | Virus (influenza) | Fungus (*Candida*) | Protozoan (*Plasmodium*) | Helminth (*Ascaris*) |
+| | Bacterium (*Staphylococcus aureus*) | Virus (influenza virus) | Fungus (*Candida albicans*) | Protozoan (*Plasmodium falciparum*) | Helminth (*Ascaris lumbricoides*) |
 |---|---|---|---|---|---|
-| Built from | Prokaryotic cell with a peptidoglycan wall | RNA genome, protein coat, lipid envelope | Eukaryotic cell with a chitin and glucan wall | Eukaryotic cell, no wall | Many-celled animal |
+| Built from | Prokaryotic cell with a peptidoglycan wall | RNA genome, protein coat, lipid envelope | Eukaryotic cell with a chitin and glucan wall | Eukaryotic cell, no wall | Multicellular animal |
 | Energy | Its own metabolism | None of its own; uses the host cell's | Its own metabolism | Its own metabolism, using host nutrients | Its own metabolism, feeding on gut contents |
 | Copying | Binary fission; exchanges genes | Copied inside host cells; genome segments reshuffle | Budding | Asexual cycles in humans, sexual stage in the mosquito | Sexual reproduction; eggs |
 | Home and spread | Nose and skin; contact | Airway; respiratory particles | Skin, gut, vagina | Human liver and red cells; mosquito bite | Human intestine; eggs swallowed from soil |
 | Damage | Invasion and toxins | Destroys airway cells; host inflammation | Overgrowth when defences fall | Destroys red cells; blocks small vessels | Heavy burdens obstruct the gut and impair nutrition |
-| Unlike my cells | Peptidoglycan wall; 70S ribosomes | Viral enzymes for copying its genome | Ergosterol in its membrane; chitin and glucan wall | Some metabolic pathways | Nerve and muscle receptors |
+| Unlike my cells | Peptidoglycan wall; 70S ribosomes | Viral enzymes for copying its genome | Ergosterol in its membrane; chitin and glucan wall | Its own folate synthesis (your cells take folate from the diet) | Worm-specific nerve and muscle ion channels |
 
 Part I works through the principles, starting with bacteria because they show most of the ideas most
 clearly. Part II, from [*A map of the bacteria*](../microbes/bacteria-map.qmd) onwards, takes each

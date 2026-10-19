@@ -35,6 +35,8 @@ some flags will be fine where they stand.
   tissues or general pathology. Pattern: the term in bold, then the definition in plain words, e.g.
   "**Pyogenic** (pus-forming) bacteria…" or "…an **abscess**, a walled-off collection of pus."
 - Later uses in the same chapter are plain text (no bold).
+- In a definition table (a column of terms with their meanings), the terms are not bolded: the table
+  itself marks them.
 - Every defined term also goes in the glossary (`book/glossary.qmd`), alphabetically, with the same
   definition. If a definition changes, change it in both places.
 - **Never cycle synonyms for a technical term** to avoid repetition ("organism", "microbe", "bug",
@@ -96,7 +98,6 @@ noting*.
   whether the answer was correct.
 - Wrong-answer feedback names the misconception and gives the mechanism, without scolding.
 - No two consecutive feedback strings with the same opening word.
-
 - Summary and principle fields in diagram data are plain sentences: no bolded one-line takeaway.
 - Flashcards carry no bold.
 

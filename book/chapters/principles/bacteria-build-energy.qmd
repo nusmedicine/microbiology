@@ -1,8 +1,7 @@
 # How bacteria are built and get energy
 
-> *A bacterium faces the same problems as one of your cells: it must hold its contents together and
-> make ATP. Its solutions explain why a stain turns some bacteria purple and why some bacteria die in
-> air.*
+> *Why does a stain turn some bacteria purple and others pink, and why do some bacteria die in air
+> while others grow best in it?*
 
 ## A bacterium and one of your cells {#sec-bact-glance}
 
@@ -10,24 +9,22 @@ Try two questions before you read on. A wrong guess followed by the answer still
 
 <div data-island="quiz" data-src="/quizzes/bacteria-warmup.quiz.yml"></div>
 
-A bacterium is a **prokaryote**: a cell with no nucleus and no membrane-bound organelles. As the size
-ladder in [*The microbial world*](microbial-world.qmd#sec-world-scale) showed, a typical bacterium is
-about the size of one of your mitochondria.
+A bacterium is a prokaryote, and as the size ladder in [*The microbial
+world*](microbial-world.qmd#sec-world-scale) showed, a typical bacterium is about the size of one of
+your mitochondria. The table compares a bacterium with the cells you studied in cell biology. Each
+difference in the last column is a possible basis for **selective toxicity**: harming the microbe
+without harming you, the principle behind most antimicrobial drugs.
 
-The table compares a bacterium with the cells you studied in cell biology. Read the last column with
-the sixth question in mind, *what does it have that my cells lack?* Each difference is a possible way
-to harm the bacterium without harming you, which is the principle the pharmacology block builds on.
-
-| Feature | Your cells | A bacterium | Why the difference matters later |
+| Feature | Your cells | A bacterium | Why the difference matters |
 |---|---|---|---|
 | Nucleus | DNA inside a nuclear envelope | No nucleus; one circular chromosome lies free in the cytoplasm | Transcription and translation happen together |
 | Mitochondria | Electron transport chain in the inner mitochondrial membrane | No mitochondria; electron transport chain in the cell membrane | Bacterial respiration happens at the cell surface |
 | Ribosomes | 80S | 70S, smaller and built differently | A target your cytoplasmic ribosomes do not share |
-| Cell wall | None | Usually a peptidoglycan wall outside the membrane | A structure with no human equivalent |
+| Cell wall | None | Usually a peptidoglycan wall outside the membrane | A structure your cells lack entirely |
 | Extra DNA | Mitochondrial DNA only | Often small circles of DNA called plasmids | Plasmids carry genes between bacteria |
 
-[*How bacteria copy themselves and change*](bacterial-genetics.qmd) returns to the differences in
-gene expression.
+[*How bacteria copy themselves and change*](bacterial-genetics.qmd#sec-gen-copy) returns to the
+differences in gene expression.
 
 ::: {.callout-important}
 ## A common idea, corrected: "bacteria have mitochondria"
@@ -38,15 +35,16 @@ bacteria that came to live inside an ancestral cell, which is why mitochondria h
 circular DNA and bacterial-type ribosomes.
 :::
 
-## The envelope {#sec-bact-envelope}
+## The cell envelope {#sec-bact-envelope}
 
-A bacterium's envelope holds the cell together, controls what enters and leaves, and carries most of
-the molecules your immune system recognises.
+A bacterium's **cell envelope**, its cell membrane and every layer outside it, holds the cell
+together, controls what enters and leaves, and carries most of the molecules your immune system
+recognises.
 
-The cytoplasm of a bacterium is full of dissolved molecules, so water tends to rush in. Without
-support, the membrane would swell and burst. The support comes from **peptidoglycan**, a mesh of
-sugar chains cross-linked by short peptides that surrounds the whole cell like a string bag
-[@silhavy2010envelope]. Human cells make nothing like it.
+The cytoplasm of a bacterium is full of dissolved molecules, so water enters by osmosis, and without
+support the cell would swell and burst (**osmotic lysis**). The support comes from **peptidoglycan**, a
+mesh of sugar chains cross-linked by short peptides that surrounds the whole cell like a string bag
+[@silhavy2010envelope].
 
 Most bacteria build their envelope in one of two ways. In **Gram-positive** bacteria, a thick
 peptidoglycan wall, many layers deep, lies directly outside the cell membrane, and there is no outer
@@ -54,56 +52,48 @@ membrane. In **Gram-negative** bacteria, a thin layer of peptidoglycan lies betw
 and a second, **outer membrane**, whose outer face is made of **lipopolysaccharide (LPS)**.
 
 The Gram stain, devised by Hans Christian Gram in 1884, reads this difference in a few minutes, and
-laboratories still use it to sort most bacteria. Step through it below, and predict the key step
-before you see it.
+laboratories still use it to sort most bacteria. Step through it below, and predict which step
+separates the two groups before you see it.
 
 <div data-island="gram-stain" data-src="/diagrams/gram-stain.yml"></div>
 
 ### What the envelope means for the host
 
-The difference between the two envelopes matters well beyond the slide.
-
-LPS acts as an alarm signal. Its lipid portion, lipid A, binds immune receptors and drives strong
-inflammation: the fever and the dilated, leaky vessels you met in general pathology
-[@raetz2002lps]. For this reason LPS is also called **endotoxin**. The immunology block explains the
-receptors.
-
-The outer membrane is also a barrier. It keeps out many molecules that reach a Gram-positive cell's
-membrane easily, including some drugs.
-
-Peptidoglycan, finally, has no human equivalent, so anything that blocks its construction harms
-bacteria and spares your cells.
+Lipid A, the lipid portion of LPS, binds immune receptors and drives strong inflammation: the fever
+and the dilated, leaky vessels you met in general pathology [@raetz2002lps]. Because this toxic
+molecule is part of the bacterial cell and is not secreted, LPS is also called **endotoxin**. The
+outer membrane also keeps out many molecules, including some drugs, that reach a Gram-positive cell's
+membrane easily. And because peptidoglycan has no counterpart in your cells, drugs that block its
+construction harm bacteria and spare you.
 
 ### Bacteria that fit neither design
 
 *Mycobacterium tuberculosis* has a wall packed with waxy **mycolic acids**. Gram's dyes barely
-penetrate it, so mycobacteria are detected with a different method, the **acid-fast stain**. At the
-other extreme, *Mycoplasma* has no wall at all. It does not show up on a Gram stain, and anything aimed
-at the wall has nothing to act on.
+penetrate it, so mycobacteria are detected with the **acid-fast stain**, in which the waxy wall keeps a
+red dye even when washed with acid-alcohol. At the other extreme, *Mycoplasma* has no wall at all. It
+does not show up on a Gram stain, and drugs aimed at the wall have nothing to act on.
 
 ## Shape and arrangement {#sec-bact-shape}
 
 Bacteria come in three basic shapes: **cocci** (spheres), **bacilli** (rods), and curved or spiral
-forms. Some stay attached to each other after dividing, in pairs, chains or clusters.
-
-Shape and arrangement are clues to how the cell is built and how it divides, which is the reason to
-learn them. The activity below puts two similar organisms side by side. Find what separates them
-before the explanation appears.
+forms. Arrangement reflects how the cell divides. Cocci that divide in one plane stay attached in
+chains, as streptococci do; cocci that divide in several planes form clusters, as staphylococci do.
+Find the feature that separates the two in the activity below before the explanation appears.
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-staph-strep.yml"></div>
 
 ## Capsules, appendages, biofilms and spores {#sec-bact-extras}
 
-Many bacteria carry structures beyond the envelope. Each solves a problem for the bacterium, and each
-has a consequence for the host.
+Many bacteria carry structures beyond the envelope. Each solves a problem for the bacterium and has a
+consequence for the host.
 
 | Structure | What it is | What it does for the bacterium | Why it matters to the host |
 |---|---|---|---|
-| **Capsule** | A slimy outer layer, usually polysaccharide | Hides the cell surface; resists drying | Phagocytes find it hard to engulf ([*Microbes and their hosts*](host-microbe.qmd)) |
-| **Pili** (fimbriae) | Short, hair-like protein fibres | Attach the cell to surfaces, including host cells | Attachment is often the first step of colonisation |
-| **Flagella** | Long, rotating protein filaments | Swimming towards nutrients | Let bacteria move into new sites |
-| **Biofilm** | A community of cells in a shared slime matrix | Shelter from drying, predators and chemicals | Forms on teeth and on medical devices such as catheters |
-| **Endospore** | A dormant, dehydrated cell inside protective coats | Survives starvation, heat and chemicals for years | Hard to kill with routine heat or disinfectants |
+| Capsule | A slimy outer layer, usually polysaccharide | Hides the cell surface; resists drying | Phagocytes find it hard to engulf ([*Microbes and their hosts*](host-microbe.qmd#sec-host-steps)) |
+| Pili (fimbriae) | Short, hair-like protein fibres | Attach the cell to surfaces, including host cells | Attachment is often the first step of colonisation |
+| Flagella | Long, rotating protein filaments | Swimming towards nutrients | Let bacteria move into new sites |
+| Biofilm | A community of cells in a shared slime matrix | Shelter from drying, predators and chemicals | Forms on teeth and on medical devices such as catheters |
+| Endospore | A dormant, dehydrated cell inside protective coats | Survives starvation, heat and chemicals for years | Hard to kill with routine heat or disinfectants |
 
 Spores are made by a few groups of Gram-positive rods, notably *Bacillus* and *Clostridium*. When
 nutrients run out, the cell builds a spore inside itself: a copy of its DNA wrapped in a dehydrated
@@ -113,23 +103,22 @@ back into a growing cell.
 ::: {.callout-tip collapse="true"}
 ## Predict: will boiling or an alcohol hand rub kill spores? (Click to check)
 Mostly not. Many spores survive boiling at 100 °C, and alcohol hand rubs do not kill them
-[@setlow2014spores]. Reliable killing needs pressurised steam at 121 °C, as in an autoclave. This is
-why some hospital wards ask staff to wash their hands with soap and water: friction and rinsing
-remove spores that alcohol leaves behind. [*Detecting and controlling
-microbes*](detection-control.qmd#sec-det-control) returns to this.
+[@setlow2014spores]. Reliable killing needs pressurised steam at 121 °C, as in an autoclave.
+[*Detecting and controlling microbes*](detection-control.qmd#sec-det-control) explains what this
+means for instruments and for hand hygiene.
 :::
 
 ## Getting energy {#sec-bact-energy}
 
 Bacteria make ATP with the same chemistry as your cells, but with more options. Your cells break down
 glucose by glycolysis and pass the electrons down an electron transport chain to oxygen. Many bacteria
-use the same two stages, with one difference: oxygen need not be the final electron acceptor.
+use the same two stages, but oxygen need not be the final electron acceptor.
 
 | Strategy | What happens | Final electron acceptor | ATP per glucose |
 |---|---|---|---|
-| **Aerobic respiration** | Glycolysis, then an electron transport chain in the cell membrane | Oxygen | High, similar to your cells |
-| **Anaerobic respiration** | The same, without oxygen | Another molecule, such as nitrate or sulfate | Lower |
-| **Fermentation** | Glycolysis only; pyruvate is converted to products such as lactate or ethanol | None; no electron transport chain | Low, about 2 |
+| Aerobic respiration | Glycolysis, then an electron transport chain in the cell membrane | Oxygen | High, similar to your cells |
+| Anaerobic respiration | The same, without oxygen | Another molecule, such as nitrate or sulfate | Lower |
+| Fermentation | Glycolysis only; pyruvate is converted to products such as lactate or ethanol | An organic molecule made from glucose, such as pyruvate; no electron transport chain | Low, about 2 |
 
 Your own skeletal muscle ferments glucose to lactate during a sprint, when oxygen supply cannot keep
 up. Some bacteria live this way all the time.
@@ -140,30 +129,31 @@ Oxygen is the most effective electron acceptor available, but it is also chemica
 Partly reduced oxygen forms **reactive oxygen species**, such as superoxide and hydrogen peroxide,
 which damage proteins and DNA. You met these as by-products of your own mitochondria.
 
-Every bacterium therefore has two answers to give: *can it use oxygen to make ATP*, and *does oxygen
-harm it?* Together the answers place it in one of five groups.
+Two questions sort bacteria by oxygen: can the organism use oxygen to make ATP, and is it harmed by
+oxygen at atmospheric levels? The **microaerophiles**, which need a little oxygen but are harmed by
+air, form a fifth group alongside the four that the two questions produce.
 
 | Group | Uses oxygen to make ATP? | Harmed by normal air? | Example |
 |---|---|---|---|
-| **Obligate aerobe** | Yes, and has no alternative | No | *Mycobacterium tuberculosis* |
-| **Facultative anaerobe** | Yes, when oxygen is present; ferments otherwise | No | *Escherichia coli*, *Staphylococcus aureus* |
-| **Microaerophile** | Yes, but only at low oxygen levels | Yes, at atmospheric levels | *Campylobacter jejuni* |
-| **Aerotolerant anaerobe** | No; ferments only | No; it has protective enzymes | Streptococci, *Lactobacillus* |
-| **Obligate anaerobe** | No | Yes | *Bacteroides fragilis*, *Clostridium* species |
+| Obligate aerobe | Yes, and has no alternative | No | *M. tuberculosis* |
+| Facultative anaerobe | Yes, when oxygen is present; ferments otherwise | No | *Escherichia coli*, *Staphylococcus aureus* |
+| Microaerophile | Yes, but only at low oxygen levels | Yes, at atmospheric levels | *Campylobacter jejuni* |
+| Aerotolerant anaerobe | No; ferments only | No; its enzymes are not inactivated by oxygen | Streptococci, *Lactobacillus* |
+| Obligate anaerobe | No | Yes | *Bacteroides fragilis*, *Clostridium* species |
 
-There is no need to memorise the table. If you know how an organism handles energy and oxygen, you can
-work out where it will grow. In the activity below, each organism is described only by its metabolism,
-and its name appears after you choose.
+If you know how an organism handles energy and oxygen, you can work out where it will grow. In the
+activity below, each organism is described only by its metabolism, and its name appears after you
+choose.
 
 <div data-island="oxygen-tube" data-src="/diagrams/oxygen-tube.yml"></div>
 
 ::: {.callout-important}
 ## A common idea, corrected: "anaerobes die because they lack catalase and superoxide dismutase"
 Older textbooks explain oxygen toxicity this way, extrapolating from an observation made in the
-1970s. Many anaerobes do carry these protective enzymes; *Bacteroides fragilis*, for example, makes
-both. Oxygen kills anaerobes by damaging the machinery they depend on: central enzymes built around
-exposed iron–sulfur clusters or radical chemistry, which oxygen and reactive oxygen species
-inactivate directly [@lu2021anaerobes].
+1970s. Many anaerobes do carry these protective enzymes; *B. fragilis*, for example, makes both.
+Oxygen kills anaerobes by damaging the machinery they depend on: central enzymes built around exposed
+iron–sulfur clusters or radical chemistry, which oxygen and reactive oxygen species inactivate
+directly [@lu2021anaerobes].
 :::
 
 ### Oxygen in the body
@@ -178,8 +168,8 @@ necrotic tissue, and the centre of an abscess, contain little oxygen and suit an
 ## Growth {#sec-bact-growth}
 
 Bacteria reproduce by **binary fission**: the cell copies its chromosome, grows, and splits in two.
-The time this takes is the **doubling time**. In ideal laboratory conditions *E. coli* doubles about
-every 20 minutes, while *M. tuberculosis* takes most of a day.
+The time a population takes to double in number is its **doubling time**. In ideal laboratory
+conditions *E. coli* doubles about every 20 minutes, while *M. tuberculosis* takes most of a day.
 
 Starting from $N_0$ cells, after time $t$ with doubling time $g$:
 
@@ -197,12 +187,11 @@ In a closed container, a population passes through four phases:
 | Stationary | Nutrients run low and waste accumulates; division and death balance |
 | Death | More cells die than divide |
 
-Rapidly dividing cells are the most vulnerable to many antimicrobial drugs, a point the pharmacology
-block returns to.
+Rapidly dividing cells are the most vulnerable to many antimicrobial drugs.
 
 ## Two microbe profiles {#sec-bact-profiles}
 
-Every organism in this book gets the same five-slot card: *identity and structure*, *lifestyle and
+Each main organism in this book gets the same five-slot card: *identity and structure*, *lifestyle and
 niche*, *mechanism of harm*, *general consequence*, and a *contrast partner* it is easily confused
 with. The organ-system blocks will later add where it infects, how it is diagnosed and how it is
 treated; the card gives those facts somewhere to go.
@@ -213,15 +202,16 @@ The first card below has three slots filled in, and you predict the other two. T
 
 <div data-island="microbe-profile" data-src="/diagrams/profile-b-fragilis.yml"></div>
 
-The two cards have a lot in common. Both organisms live harmlessly on or in many healthy people
-[@kluytmans1997carriage], and both cause harm mainly when they reach a site where they do not
-belong. Both tend to cause **pyogenic** (pus-forming) infection and abscesses, and the capsule of
-*B. fragilis* actively promotes abscess formation [@tzianabos1993abscess]. Their differences come
-from this chapter's two questions: one envelope design or the other, and tolerance of oxygen or not.
+*S. aureus* and *B. fragilis* both live harmlessly on or in many healthy people
+[@kluytmans1997carriage], and both cause harm mainly when they reach a site where they do not belong.
+Both tend to cause **pyogenic** (pus-forming) infection and abscesses, and the capsule of *B. fragilis*
+actively promotes abscess formation [@tzianabos1993abscess]. They differ in envelope, Gram-positive
+against Gram-negative, and in their relationship with oxygen, facultative against obligately
+anaerobic.
 
 ## The trait toolkit {#sec-bact-toolkit}
 
-The traits in this chapter are the toolkit that every later chapter uses to describe a bacterium.
+The traits in this chapter form the toolkit that every later chapter uses to describe a bacterium.
 
 | Trait | The options | What it tells you |
 |---|---|---|
@@ -231,8 +221,9 @@ The traits in this chapter are the toolkit that every later chapter uses to desc
 | Energy and oxygen | Aerobe, facultative, microaerophile, aerotolerant, anaerobe | Where in the body it can live; how a sample must be handled |
 | Growth rate | Doubling in minutes, or in about a day | How fast an infection develops; how long culture takes |
 
-[*How bacteria copy themselves and change*](bacterial-genetics.qmd) takes up the third question, and
-[*Microbes and their hosts*](host-microbe.qmd) the fifth.
+[*How bacteria copy themselves and change*](bacterial-genetics.qmd) takes up the question *how does it
+copy itself and change?*, and [*Microbes and their hosts*](host-microbe.qmd) the question *how does
+damage happen?*
 
 ## Check your understanding {#sec-bact-quiz}
 

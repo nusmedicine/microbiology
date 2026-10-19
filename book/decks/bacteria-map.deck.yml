@@ -30,7 +30,7 @@ cards:
   - id: b7
     kind: apart
     front: "*Mycoplasma* versus *Chlamydia*: which can grow without living cells, and why?"
-    back: "Mycoplasma, given sterols: it lives outside cells and makes its own ATP. *Chlamydia* lives inside cells and imports ATP from them."
+    back: "Mycoplasma, given sterols: it lives outside cells and makes its own ATP. *Chlamydia* lives only inside host cells and depends on them for ATP and nutrients."
   - id: b8
     kind: why
     front: "Why are mycobacteria walled off in granulomas?"

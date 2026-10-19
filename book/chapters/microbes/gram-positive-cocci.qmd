@@ -1,17 +1,17 @@
 # Gram-positive cocci
 
 > *Staphylococci and streptococci cause illnesses as different as food poisoning and heart disease
-> weeks after a sore throat. A few traits, and three ways of causing harm, account for nearly all of
-> them.*
+> weeks after a sore throat. Which traits and which mechanisms of harm lie behind that range?*
 
 ## One bacterium, three illnesses {#sec-gpc-hook}
 
 Consider three people:
 
-- A teenager scratches a mosquito bite. Two days later there is a **furuncle** (boil): a hot, swollen,
-  pus-filled nodule.
+- A teenager develops a **furuncle** (boil): a hot, swollen, pus-filled nodule centred on a hair
+  follicle.
 - Forty wedding guests start vomiting two to three hours after lunch. Most are well by the next day.
-- A young woman develops a high fever, a rash and **hypotension** (dangerously low blood pressure).
+- A young woman develops a high fever, a rash and **hypotension** (abnormally low blood pressure)
+  severe enough to cause shock.
 
 One organism, *Staphylococcus aureus*, can cause all three, by three different mechanisms. By the end
 of this chapter you should be able to explain each of them from how the bacterium works.
@@ -19,22 +19,26 @@ of this chapter you should be able to explain each of them from how the bacteriu
 ## The group in one sentence {#sec-gpc-sentence}
 
 Gram-positive cocci are thick-walled spheres that live on the skin and mucous membranes and cause harm
-mainly when they get past a barrier. The table answers the book's six questions for the whole group;
-the rest of the chapter shows how its members give different answers to the fifth.
+mainly when they get past a barrier. The table answers the six questions for the whole group; the rest
+of the chapter shows how its members differ in answering *how does damage happen?*
 
 | Question | Answer for the Gram-positive cocci |
 |---|---|
 | What is it built from? | Thick peptidoglycan wall and no outer membrane, so no LPS; many have a capsule or surface proteins that resist phagocytes |
 | How does it get energy? | Staphylococci respire or ferment; streptococci and enterococci only ferment, but tolerate oxygen |
 | How does it copy itself and change? | Binary fission; exchanges genes readily, which is how toxin genes and resistance spread |
-| Where does it live, and how does it spread? | Skin, nose, throat, mouth and gut of healthy people; spread by hands, droplets and contact |
-| How does damage happen? | Three patterns: invasion with pus, toxins, and immune-mediated damage |
+| Where does it live, and how does it spread? | Skin, nose, throat, mouth and gut of healthy people; spread by direct contact, often on hands, and by respiratory particles |
+| How does damage happen? | Three patterns: **pyogenic** (pus-forming) invasion, toxins, and immune-mediated damage |
 | What does it have that my cells lack? | A peptidoglycan wall, and the proteins that build it |
 
 ## Sorting the group {#sec-gpc-key}
 
 A few traits separate every member of the group. The key below follows the order a laboratory uses,
-but read each branch for what the trait means about the organism.
+but read each branch for what the trait means about the organism. Two of the traits need defining
+first. **Haemolysis** is the destruction of red blood cells: on blood agar, a clear zone around a
+colony (beta-haemolysis) means the red cells have been lysed, while a green zone (alpha-haemolysis)
+means their haemoglobin has been damaged. The **Lancefield group** is a carbohydrate on the
+streptococcal cell wall, used to type streptococci.
 
 <div data-island="sorting-key" data-src="/diagrams/gpc-key.yml"></div>
 
@@ -45,22 +49,24 @@ covered in one table at the end of the chapter.
 
 *S. aureus* lives in the nose of about one in three healthy people at any one time
 [@kluytmans1997carriage]. It carries an unusually large set of virulence factors, including
-coagulase, tissue-damaging enzymes and many toxins, and different factors produce different
-illnesses.
+**coagulase**, an enzyme that clots plasma, tissue-damaging enzymes and many toxins, and different
+factors produce different illnesses.
 
 | Pattern of harm | Mechanism | Example |
 |---|---|---|
-| Invasion with pus | Enters through a break in the skin; coagulase walls the bacteria in fibrin; neutrophils accumulate | Furuncle or abscess |
-| Toxin without invasion | Multiplies in food left warm and releases a heat-stable toxin; the toxin, not the bacteria, causes the illness | Vomiting within hours of a meal [@argudin2010enterotoxins] |
-| Toxin acting on the whole body | A **superantigen** activates a large fraction of the body's T cells at once | **Toxic shock syndrome**: fever, rash and hypotension [@llewelyn2002superantigens] |
+| Pyogenic invasion | Enters through a break in the skin; coagulase walls the bacteria in fibrin; neutrophils accumulate | Furuncle or abscess |
+| Toxin without invasion | Multiplies in food left warm and releases a heat-stable **enterotoxin**, a toxin that acts on the gut; the toxin, not the bacteria, causes the illness | Vomiting within hours of a meal [@argudin2010enterotoxins] |
+| Toxin acting on the whole body | A superantigen activates a large fraction of the body's T cells at once | **Toxic shock syndrome**: fever, rash and hypotension [@llewelyn2002superantigens] |
 
-These are the three people at the start of the chapter. The first has an infection. The second has no
-infection at all, because the guests swallowed toxin already present in the food; this is an
-**intoxication**. In the third, the host's own immune response does most of the damage.
+The table matches the three people at the start of the chapter. The teenager has an infection. The
+wedding guests have no infection at all, because they swallowed toxin already present in the food,
+which is an **intoxication**. In the young woman, the host's own immune response does most of the
+damage.
 
 <div data-island="microbe-profile" data-src="/diagrams/gpc-profile-s-aureus.yml"></div>
 
-A closely related staphylococcus lives on everyone's skin and causes harm in a quite different way.
+*Staphylococcus epidermidis* lives on everyone's skin and causes harm differently: it makes no
+coagulase and few toxins, but forms biofilm on implanted devices.
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-saureus-sepidermidis.yml"></div>
 
@@ -84,7 +90,7 @@ and the host's immune response causes the damage.
 
 ## *Streptococcus pneumoniae*: the capsule {#sec-gpc-pneumoniae}
 
-*S. pneumoniae* has fewer tissue-damaging weapons. It relies on its **capsule**, a slippery
+*S. pneumoniae* has fewer tissue-damaging enzymes and toxins. It relies on its **capsule**, a slippery
 polysaccharide coat that stops phagocytes engulfing it. Many healthy young children carry it in the
 nasopharynx [@weiser2018pneumococcus]. Disease begins when it reaches an adjacent space, or the blood,
 and multiplies there.
@@ -94,34 +100,35 @@ and multiplies there.
 | Multiplying where it does not belong | The capsule resists phagocytes; the host's inflammation fills the space | **Otitis media** (middle-ear infection), sinusitis, pneumonia |
 | Invasion of the blood and meninges | The capsule protects the bacteria in the bloodstream, most effectively when host defences are weak | **Bacteraemia** (bacteria in the blood), meningitis |
 
-The capsule also explains protection. Antibodies that coat the capsule allow phagocytes to engulf the
-bacteria, so pneumococcal vaccines are made from capsular material. The capsule comes in about 100
-types, so vaccines include the commonest ones.
+Antibodies against the capsule **opsonise** the bacteria, coating them so that phagocytes can engulf
+them, so pneumococcal vaccines are made from capsular polysaccharide. There are about 100 capsular
+**serotypes**, and vaccines include the commonest.
 
 <div data-island="microbe-profile" data-src="/diagrams/gpc-profile-s-pneumoniae.yml"></div>
 
-The two streptococci make a useful pair, because they illustrate two broad ways in which any pathogen
-can cause harm.
+The two streptococci cause harm in different ways. *S. pyogenes* damages tissue directly with enzymes
+and toxins, while *S. pneumoniae* does little direct damage and causes disease by resisting phagocytes
+and provoking inflammation.
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-pyogenes-pneumoniae.yml"></div>
 
 ## Supporting organisms {#sec-gpc-supporting}
 
-Each supporting organism can be understood as a variation on one of the main three. Learn the
-separating trait and the reason it matters; the organ-system blocks will add the rest.
+For each supporting organism, learn the separating trait and the reason it matters; the organ-system
+blocks will add the rest.
 
 | Organism | Where it lives | What separates it | Why it matters |
 |---|---|---|---|
-| *Staphylococcus epidermidis* and other coagulase-negative staphylococci | Everyone's skin | No coagulase; few toxins; forms biofilm on plastic and metal | Infects devices such as catheters and prosthetic joints; contaminates blood cultures [@otto2009epidermidis] |
+| *S. epidermidis* and other coagulase-negative staphylococci | Everyone's skin | No coagulase; few toxins; forms biofilm on plastic and metal | Infects devices such as catheters and prosthetic joints; contaminates blood cultures [@otto2009epidermidis] |
 | *Streptococcus agalactiae* (group B) | Gut and vagina of about one in five pregnant women [@russell2017gbs] | Beta-haemolytic, Lancefield group B | Harmless to most adults; dangerous to **neonates** (newborn infants), who meet it at birth with immature defences |
-| Viridans streptococci | Mouth | Alpha-haemolytic, no large capsule | Some ferment sugar to acid that causes **dental caries**; in the blood, they can adhere to damaged heart valves |
+| Viridans streptococci | Mouth | Alpha-haemolytic, no large capsule | Some ferment sugar to acid that causes **dental caries**; in the blood, they can adhere to damaged heart valves and cause **infective endocarditis**, infection of the heart valves or the inner lining of the heart |
 | *Enterococcus* | Gut | Tolerates bile and salt; intrinsically resistant to several drugs | Persists in hospitals; strains with acquired resistance are difficult to treat |
 
 ::: {.callout-important}
 ## A common idea, corrected: "*S. aureus* is a hospital superbug"
-Most *S. aureus* is neither resistant nor in hospitals: it lives harmlessly in the noses of about one
-in three people. **MRSA** (meticillin-resistant *S. aureus*) is *S. aureus* that has acquired a gene
-for an altered version of the protein targeted by a whole family of drugs, so the drugs bind it poorly
+Most *S. aureus* is not MRSA and is not in hospitals: it lives harmlessly in the noses of about one in
+three people. **MRSA** (meticillin-resistant *S. aureus*) is *S. aureus* that has acquired a gene for
+an altered version of the protein targeted by a whole family of drugs, so the drugs bind it poorly
 [@lakhundi2018mrsa]. Resistance is a trait that some strains carry, and it spread because drug use
 selected the bacteria that already had it. [*How bacteria copy themselves and
 change*](../principles/bacterial-genetics.qmd#sec-gen-resistance) explains the mechanism.
@@ -134,7 +141,7 @@ profile cards above.
 
 | Organism | Where it comes up again |
 |---|---|
-| *S. aureus* | Skin and soft-tissue, bone and joint infections; **infective endocarditis** (infection of the heart valves); food safety; MRSA in pharmacology |
+| *S. aureus* | Skin and soft-tissue, bone and joint infections; infective endocarditis; food safety; MRSA in pharmacology |
 | *S. epidermidis* | Infections of devices and implants |
 | *S. pyogenes* | Throat and skin infections; rheumatic heart disease in the cardiovascular block |
 | *S. pneumoniae* | Otitis media, sinusitis, pneumonia and meningitis; vaccines in immunology |

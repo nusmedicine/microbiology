@@ -1,24 +1,23 @@
 # A map of the bacteria
 
-> *Lectures name bacteria by group: Gram-positive cocci, Enterobacterales, anaerobes, atypicals. Each
-> group is a combination of a few traits, and the combination explains how the group behaves.*
+> *Lectures name bacteria by group: Gram-positive cocci, Enterobacterales, anaerobes, atypicals. What
+> traits does each group share, and what do those traits say about how its members live?*
 
 ## Reading a group as a set of traits {#sec-map-idea}
 
 [*How bacteria are built and get energy*](../principles/bacteria-build-energy.qmd#sec-bact-toolkit)
-gave you a trait toolkit: envelope, shape, relationship with oxygen and growth. Two more traits matter
-for whole groups of bacteria. The first is where the organism grows: outside cells, inside or outside
-cells, or only inside cells. The second is what it needs in the laboratory: ordinary media, enriched
-media, weeks of incubation, or living cells.
+described a bacterium by envelope, shape, additional structures, oxygen and growth rate. Whole groups
+also differ in where they grow: outside host cells (**extracellular**), inside or outside them
+(**facultative intracellular**), or only inside them (**obligate intracellular**). And they differ in
+what they need in the laboratory: ordinary media, enriched media, weeks of incubation, or living cells.
 
-A bacterial group can then be described in those terms. Enterobacterales, for example, are
-Gram-negative rods that grow with or without oxygen, ferment sugars, and live in the gut. Once you can
-read a group this way, its name becomes a summary of how the group lives.
+A bacterial group can be described in those terms. Enterobacterales, for example, are Gram-negative
+rods that grow with or without oxygen, ferment sugars, and live in the gut.
 
-Groups are named in different ways, which is part of what makes the list confusing. Some names come
-from the family tree (Enterobacterales). Some describe a single trait (anaerobes, spiral bacteria).
-Some describe a failure of the usual laboratory methods (fastidious, atypical). The map below puts them
-all on the same footing.
+Group names come from different sources, which is part of what makes the list confusing. Some are
+taxonomic (Enterobacterales is an order). Some describe a single trait (anaerobes, spiral bacteria).
+Some describe how the organisms behave in the laboratory (fastidious, atypical). The map below puts
+them all on the same footing.
 
 ## The map {#sec-map}
 
@@ -30,42 +29,43 @@ its own.
 
 ## Metabolism predicts habitat {#sec-map-habitat}
 
-Two groups on the map are both Gram-negative rods, yet one lives in the gut and the other in water and
-soil. The difference lies in how they make ATP.
+*Escherichia coli* and *Pseudomonas aeruginosa* are both Gram-negative rods, but the first lives in the
+gut and the second in water and soil, largely because of how each makes ATP.
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-ecoli-pseudomonas.yml"></div>
 
-The same reasoning explains the **fastidious** bacteria. Over evolutionary time, a bacterium that lives
-on a rich host can lose the genes for making nutrients the host already supplies, and then depends on
-finding them. *Haemophilus*, for example, needs two factors found inside red blood cells, so the
-laboratory grows it on agar made with blood heated until the cells lyse: **chocolate agar**, named for
-its brown colour. "Fastidious" therefore describes lost biosynthesis.
+A **fastidious** organism grows only when the laboratory meets special requirements. Often, as with
+*Haemophilus*, the reason is lost biosynthesis: over evolutionary time, a bacterium living on a rich
+host can lose the genes for making nutrients the host already supplies, and then depends on finding
+them. *Haemophilus* needs two factors found inside red blood cells, so the laboratory grows it on agar
+made with blood heated until the cells lyse, which is **chocolate agar**, named for its brown colour.
 
-The **Gram-negative cocci**, the *Neisseria* species, show the same logic from another angle. They live
-only in humans and die quickly outside the body, drying out in air and needing enriched media in the
-laboratory. A fragile organism can spread only by close contact between people, which is how both
-major *Neisseria* species spread.
+*Neisseria meningitidis* and *Neisseria gonorrhoeae*, the Gram-negative cocci that cause most disease,
+show a related trait. Both live only in humans and die quickly outside the body, drying out in air and
+needing enriched media in the laboratory, so both spread only by close contact: through respiratory
+secretions for *N. meningitidis* and sexual contact for *N. gonorrhoeae*.
 
 ## Worked example: why "atypical"? {#sec-map-atypicals}
 
-The **atypical** bacteria are three genera, *Mycoplasma*, *Chlamydia* and *Rickettsia*, that are not
-closely related. They are grouped because the usual microbiology toolkit fails on them. The name comes
-from the clinic: the chest infections some of them cause did not look like typical bacterial
-pneumonia, and did not respond to penicillin.
+In this course, the **atypical** bacteria are three genera, *Mycoplasma*, *Chlamydia* and
+*Rickettsia*, from different branches of the bacterial tree, grouped because routine stains and
+culture fail on them. Clinicians use the related term "atypical pneumonia" for an overlapping list of
+causes that includes *Mycoplasma pneumoniae*, *Chlamydia pneumoniae* and *Legionella*.
 
-A more useful question than "what are the atypicals?" is "why does the toolkit fail on them?" There are
-two different reasons, and each predicts a great deal.
+Routine methods fail for two reasons: *Mycoplasma* has no wall, and *Chlamydia* and *Rickettsia* grow
+only inside host cells. Each reason predicts how the organism is detected and which drugs can reach
+it.
 
 | | *Mycoplasma* | *Chlamydia* | *Rickettsia* |
 |---|---|---|---|
-| What is unusual | No cell wall at all | Lives only inside host cells; two-form life cycle | Lives only inside host cells, free in the cytoplasm |
+| What is unusual | No cell wall at all | Obligate intracellular; two-form life cycle | Obligate intracellular, free in the cytoplasm |
 | Envelope | Membrane only, stiffened with sterols | Gram-negative type, with very little peptidoglycan | Gram-negative type |
-| Energy | Makes its own ATP | Imports ATP from the host cell | Imports ATP from the host cell |
-| Transmission | Respiratory droplets | Direct contact, sexual or eye to eye | Bites of ticks, lice, fleas or mites |
-| Gram stain | Nothing to read | Too small, and hidden inside cells | Stains poorly |
+| Energy | Makes its own ATP | Takes ATP from the host cell as well as making some of its own | Takes ATP from the host cell as well as making its own |
+| Transmission | Respiratory particles | Sexual or eye-to-eye contact, or respiratory particles, depending on the species | Arthropod vectors: ticks, lice, fleas or mites |
+| Gram stain | No wall, so no Gram reaction | Too small, and hidden inside cells | Stains poorly |
 | Laboratory growth | Slowly, on media enriched with sterols | Only in living cells | Only in living cells |
 
-Start with the first reason, the missing wall, and predict what follows from it.
+Start with the missing wall, and predict what follows from it.
 
 <div data-island="microbe-profile" data-src="/diagrams/profile-m-pneumoniae.yml"></div>
 
@@ -75,15 +75,16 @@ Start with the first reason, the missing wall, and predict what follows from it.
 
 ::: {.callout-important}
 ## A common idea, corrected: "atypical means rare or unimportant"
-"Atypical" describes the laboratory toolkit, not how often these bacteria cause disease. *Chlamydia
-trachomatis* is one of the most common sexually transmitted bacteria in the world, and *Mycoplasma
-pneumoniae* is a common cause of pneumonia in children and young adults. Standard stains and cultures
-miss them, so laboratories usually detect them by their nucleic acid.
+"Atypical" refers to how these bacteria behave in the laboratory and the clinic, not to how often
+they cause disease. *Chlamydia trachomatis* is one of the most common sexually transmitted bacteria in
+the world, and *M. pneumoniae* is a common cause of pneumonia in children and young adults. Standard
+stains and cultures miss them, so laboratories usually detect them by their nucleic acid.
 :::
 
-In the respiratory and genitourinary blocks you will meet these organisms again, with the diseases they
-cause, how those diseases are diagnosed and how they are treated. Most of those facts follow from the
-two ideas on this page: no wall, or growth only inside cells.
+In the respiratory and genitourinary blocks you will meet these organisms again, with the diseases
+they cause, how those diseases are diagnosed and how they are treated. Many of those facts follow from
+the missing wall or the life inside cells: drugs that act on the wall cannot treat *Mycoplasma*, and
+drugs for *Chlamydia* and *Rickettsia* must enter host cells.
 
 ## How the group chapters work {#sec-map-template}
 

@@ -1,8 +1,8 @@
 # How bacteria copy themselves and change
 
-> *Bacteria change in two ways: through errors in copying their own DNA, and by taking in DNA from
-> other bacteria. Both happen at random, and drug use then selects whichever variants survive. That
-> sequence explains antimicrobial resistance, and also how a harmless strain can acquire a toxin.*
+> *Bacteria change through errors in copying their own DNA and by acquiring DNA from other bacteria
+> and from phages. Neither process aims at an outcome. How, then, do bacteria become resistant to
+> drugs, and how can a harmless strain become a toxin producer?*
 
 ## Copying the genome {#sec-gen-copy}
 
@@ -22,8 +22,8 @@ Bacteria follow the same central dogma as your cells, with differences that matt
 | Ribosomes | 80S (40S and 60S subunits) | 70S (30S and 50S subunits) | A major drug target; mitochondria have bacterial-type ribosomes, which explains some drug side effects |
 | DNA supercoiling | Human topoisomerases | DNA gyrase and topoisomerase IV | A target with no exact human equivalent |
 
-The right-hand column answers the sixth question for the machinery of inheritance. The pharmacology
-block names the drugs that use each target.
+The right-hand column applies the question *what does it have that my cells lack?* to the machinery
+of inheritance, and each row is a basis for selective toxicity.
 
 ## Change by mutation {#sec-gen-mutation}
 
@@ -46,9 +46,9 @@ Grow the population below, decide whether resistant cells exist yet, then add th
 
 <div data-island="selection-sim" data-src="/diagrams/selection-sim.yml"></div>
 
-The drug made no bacterium resistant. It killed the susceptible cells, and the resistant cells that
-were already present grew into the space. This is **selection**. Repeated across many patients and
-many courses of treatment, it is how resistance becomes common.
+The drug killed the susceptible cells, and resistant cells that were already present multiplied in
+their place. This process is **selection**; repeated across many patients and many courses of
+treatment, it makes resistance common.
 
 ::: {.callout-important}
 ## A common idea, corrected: "bacteria mutate in order to survive the drug"
@@ -74,19 +74,22 @@ case at the end of this chapter.
 **Transduction** occurs when a **bacteriophage**, a virus that infects bacteria, packages a piece of
 its host's DNA by mistake and injects it into the next bacterium it infects.
 
-**Conjugation** is the transfer of a plasmid from one cell to another through direct contact, usually
-through a thin tube called a pilus. The older name "sex pilus" is misleading, because bacteria have no
-sexes and conjugation produces no offspring. It copies a plasmid into a neighbouring cell, which can
-belong to a different species.
+**Conjugation** is the transfer of a plasmid from one cell to another through direct contact. A long
+**conjugative pilus**, distinct from the short attachment pili, draws the two cells together, and the
+DNA passes through a channel between them. The older name "sex pilus" is misleading, because bacteria
+have no sexes and conjugation produces no offspring. It copies a plasmid into a neighbouring cell,
+which can belong to a different species.
 
 **Transposons** ("jumping genes") move genes within and between DNA molecules. They are DNA segments
 that can cut or copy themselves into a new position, for example from the chromosome onto a plasmid,
 which can then carry them to another cell. Over time, plasmids and transposons collect several
 resistance genes together, so a single transfer can confer resistance to several drugs.
 
-Gene transfer moves virulence genes as well. Clusters of virulence genes acquired together in this way
-are called **pathogenicity islands**. Much of the difference between a harmless gut *E. coli* and a
-strain that causes bloody diarrhoea lies in genes of this kind.
+Gene transfer also moves genes for **virulence**, the capacity to cause disease. Clusters of
+virulence genes acquired together in this way are called **pathogenicity islands**. Much of the
+difference between a harmless gut *E. coli* and a strain that causes bloody diarrhoea lies in acquired
+genes: a pathogenicity island for attaching to the gut lining, and Shiga toxin genes carried by a
+prophage (below).
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-vertical-horizontal.yml"></div>
 
@@ -99,17 +102,17 @@ joins the bacterial chromosome as a **prophage** and is copied with it each time
 damage to the bacterium's DNA can later switch the prophage into the lytic cycle.
 
 A prophage can change what its host does, which is called **lysogenic conversion**. Several of the
-best-known bacterial toxins are encoded by phage genes rather than by the bacterium's own chromosome.
+best-known bacterial toxins are encoded by prophage genes.
 
 | Toxin | Organism | Effect of lysogenic conversion |
 |---|---|---|
 | Diphtheria toxin | *Corynebacterium diphtheriae* | Only strains carrying the phage are **toxigenic** (toxin-producing) and cause diphtheria |
 | Cholera toxin | *Vibrio cholerae* | The toxin genes arrived on a phage [@waldor1996cholera] |
-| Shiga toxins | Some *E. coli*, such as O157:H7 | Phage-borne toxin genes turned a gut commensal into a cause of bloody diarrhoea |
-| Pyrogenic exotoxins | *Streptococcus pyogenes* | Phage-borne superantigen genes, behind scarlet fever |
+| Shiga toxins | Some *E. coli*, such as O157:H7 | Phage-borne toxin genes turned a harmless gut resident into a cause of bloody diarrhoea |
+| Pyrogenic exotoxins | *Streptococcus pyogenes* | Phage-borne genes for superantigens, toxins that activate a large fraction of T cells at once ([*Microbes and their hosts*](host-microbe.qmd#sec-host-drf)), behind scarlet fever |
 
-The same species can therefore be harmless or dangerous depending on which phages it carries, which
-is the genetic side of the fifth question.
+The same species can therefore be harmless or dangerous depending on which phages it carries: part of
+the answer to *how does damage happen?*
 
 ## Resistance: what it is and how it spreads {#sec-gen-resistance}
 
@@ -121,21 +124,24 @@ of four ways.
 
 | Mechanism | How it works | Usual genetic origin |
 |---|---|---|
-| Destroy or modify the drug | An enzyme breaks the drug down or blocks its active site | Genes on plasmids and transposons |
-| Change the target | The drug's target protein is altered so the drug binds poorly | Mutation, or an acquired gene for a different version of the target, as in MRSA ([*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd)) |
+| Destroy or modify the drug | An enzyme breaks the drug down, or adds a chemical group that stops it binding its target | Genes on plasmids and transposons |
+| Change the target | The drug's target protein is altered so the drug binds poorly | Mutation, or an acquired gene for a different version of the target, as in meticillin-resistant *Staphylococcus aureus* (MRSA; [*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd#sec-gpc-supporting)) |
 | Keep the drug out | Fewer **porins**, the channels in the Gram-negative outer membrane, let less drug in | Mutation |
 | Pump the drug out | **Efflux pumps** in the membrane expel the drug | Mutation increasing pump production, or acquired pump genes |
 
-Three consequences follow. Every use of an antimicrobial, in people or in animals, selects resistant
-bacteria. Resistance genes on plasmids spread between species, so selection in one organism can create
-resistance in another. And resistance often carries a cost: without the drug, resistant bacteria may
-grow a little more slowly, which is one reason reducing drug use can help, although many resistance
+Every use of an antimicrobial, in people or in animals, selects resistant bacteria. Resistance genes
+on plasmids pass between species, so a drug used against one organism can enrich genes that later
+reach another. Resistance often carries a cost: without the drug, resistant bacteria may grow a little
+more slowly, which is one reason resistance can decline when drug use falls, although many resistance
 genes persist for years.
 
 **Antimicrobial stewardship** is the coordinated effort to use antimicrobials only when they are
 needed, at the right dose and for the right duration, so that selection is kept to a minimum. Because
-selection acts on populations, stewardship depends on every prescriber, not on infection specialists
-alone. The pharmacology block covers the drugs.
+resistance is selected by the total use of antimicrobials in a population, stewardship depends on
+every prescriber.
+
+[*Microbes and their hosts*](host-microbe.qmd) turns from the genes to what their products, such as
+toxins, do inside a host.
 
 ## Check your understanding {#sec-gen-quiz}
 

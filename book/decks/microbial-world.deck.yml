@@ -30,7 +30,7 @@ cards:
   - id: m7
     kind: why
     front: "Give two reasons real pathogens can fail Koch's postulates."
-    back: "Some cannot be cultured (for example *Treponema pallidum*), and many are carried by healthy people, so the organism is not confined to cases of disease."
+    back: "Some cannot be grown on laboratory media (for example *Mycobacterium leprae*), and many are carried by healthy people, so the organism is not confined to cases of disease."
   - id: m8
     kind: how
     front: "How does releasing male mosquitoes carrying *Wolbachia* reduce dengue?"

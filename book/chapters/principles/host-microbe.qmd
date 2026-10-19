@@ -6,15 +6,15 @@
 
 ## Four terms that are often confused {#sec-host-words}
 
-General pathology gave you the vocabulary of tissue injury. Microbiology adds four terms that students
+General pathology gave you the vocabulary of tissue injury. Microbiology adds terms that students
 often use interchangeably, although they describe different states.
 
 | Term | What it means | Example |
 |---|---|---|
-| **Contamination** | Microbes are present on a surface but not multiplying | Bacteria on an unwashed hand |
-| **Colonisation** | Microbes live and multiply at a site without causing damage | *Staphylococcus aureus* in the nose of a healthy person |
-| **Infection** | Microbes multiply in tissue, and the host responds | Bacteria multiplying in a wound, with local inflammation |
-| **Disease** | The host is damaged enough to produce signs and symptoms | Fever, pain and swelling from that wound |
+| Contamination | Microbes are present on a surface but not multiplying | Bacteria on an unwashed hand |
+| Colonisation | Microbes live and multiply at a site without causing damage | *Staphylococcus aureus* in the nose of a healthy person |
+| Infection | Microbes multiply in tissue, and the host responds | Bacteria multiplying in a wound, with local inflammation |
+| Disease | The host is damaged enough to produce signs and symptoms | Fever, pain and swelling from that wound |
 
 Infection does not always lead to disease. In one Singapore study, 42 of 245 healthy children
 attending childcare centres (17.1%) had enterovirus in their saliva with no symptoms of hand, foot and
@@ -24,9 +24,10 @@ organism without being ill is a **carrier**.
 ## The microbiota {#sec-host-microbiota}
 
 The **microbiota** is the community of microbes that normally lives on and in the body: in the colon,
-the mouth, the skin, the upper airway and the vagina. Its composition differs between sites because
-each site offers different conditions. Stomach acid, the dryness and salt of skin, and the near-absence
-of oxygen in the colon each select for different organisms.
+the mouth, the skin, the upper airway and the vagina. Most of these organisms are **commensals**,
+which live on a host without harming it. The composition of the microbiota differs between sites
+because each site offers different conditions: stomach acid, the dryness and salt of skin, and the
+near-absence of oxygen in the colon each select for different organisms.
 
 Resident microbes contribute to defence and to nutrition in several ways:
 
@@ -44,15 +45,17 @@ cause diarrhoea. Vaginal candidiasis after antibacterial treatment follows the s
 ::: {.callout-important}
 ## A common idea, corrected: "microbes are germs, and germs are harmful"
 Children as young as seven describe microorganisms as essentially harmful [@byrne2011children], and
-the idea persists into adult life. Pathogens are in fact a small minority, and the organisms behind
-most human infections are often the same ones that live on us harmlessly most of the time. Usually the
-organism is unchanged; what changes is the site it reaches, or the state of the host.
+the idea persists into adult life. Pathogens are in fact a small minority, and many common bacterial
+infections, such as urinary tract infections and skin abscesses, are caused by organisms that also
+live on people harmlessly. What usually changes is the site the organism reaches, or the state of the
+host.
 :::
 
 ## When a resident becomes a problem {#sec-host-opportunism}
 
-An **opportunistic pathogen** is an organism of low virulence that causes disease when the host's
-defences are impaired, or when it reaches a site it does not normally occupy. Three situations recur:
+**Virulence** is the degree to which an organism can cause disease. An **opportunistic pathogen** is an
+organism of low virulence that causes disease when the host's defences are impaired, or when it reaches
+a site it does not normally occupy. It usually gets that opportunity in one of these ways:
 
 1. A barrier is breached: skin is cut, a catheter crosses it, or surgery opens the bowel so that gut
    organisms reach the peritoneal cavity.
@@ -60,10 +63,10 @@ defences are impaired, or when it reaches a site it does not normally occupy. Th
    cell-mediated immunity in advanced HIV infection, or impaired neutrophil function in diabetes.
 3. The microbiota is disturbed, as described above.
 
-A **strict pathogen**, by contrast, causes disease in people with normal defences: *Mycobacterium
-tuberculosis*, *Salmonella* Typhi and influenza virus do not need a weakened host. Because the boundary
-is not sharp, a more useful question than "is this organism a pathogen?" is "what does it take, in
-this host, for this organism to cause damage?"
+A **primary** (or strict) **pathogen**, by contrast, causes disease in people with normal defences:
+*Mycobacterium tuberculosis*, *Salmonella* Typhi and influenza virus do not need a weakened host.
+Because the boundary is not sharp, ask instead what it takes, in a given host, for an organism to cause
+damage.
 
 ## Where the damage comes from {#sec-host-drf}
 
@@ -74,17 +77,16 @@ the host response, different organisms give differently shaped curves.
 
 <div data-island="damage-response" data-src="/diagrams/damage-response.yml"></div>
 
-Students usually find the right-hand side of these curves surprising, because it shows that a vigorous
-immune response is not always beneficial. Three examples recur in this book. In **toxic shock
-syndrome**, a **superantigen**, a toxin that activates a large fraction of T cells at once, triggers
-cytokine release that causes **hypotension** (dangerously low blood pressure). In **rheumatic fever**, antibodies
-raised against *Streptococcus pyogenes* cross-react with heart tissue weeks after the infection has
-cleared. In tuberculosis, much of the destruction of lung tissue is the work of the immune response
-to bacteria it cannot eliminate. [*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd) returns to
-the first two.
+On the right-hand side of these curves, damage rises as the immune response grows stronger. In **toxic
+shock syndrome**, a **superantigen**, a toxin that activates a large fraction of T cells at once,
+triggers cytokine release that causes **hypotension** (abnormally low blood pressure) and shock. In
+**rheumatic fever**, antibodies raised against *Streptococcus pyogenes* cross-react with heart tissue
+weeks after the infection has cleared. In tuberculosis, much of the destruction of lung tissue is the
+work of the immune response to bacteria it cannot eliminate. [*Gram-positive
+cocci*](../microbes/gram-positive-cocci.qmd) returns to the first two.
 
-General pathology makes the same point about inflammation: a response that protects in proportion can
-harm in excess. The immunology block supplies the mechanisms.
+General pathology made the same point about inflammation, which clears an infection but damages
+tissue when it is excessive or prolonged.
 
 ## Host factors {#sec-host-factors}
 
@@ -93,14 +95,18 @@ host. Casadevall and Pirofski group them under the mnemonic **MISTEACHING**: Mic
 Sex, Temperature, Environment, Age, Chance, History of exposure, Immunity, Nutrition and Genetics
 [@casadevall2018misteaching].
 
-Three of these matter most at this stage. The **inoculum**, the number of organisms received, affects
-both whether disease follows and how quickly it begins; for some organisms a few cells are enough,
-while for others many thousands must be swallowed. Immunity includes both the specific immunity left
-by earlier exposure or vaccination and the general competence of the defences: neutropenia, impaired
-cell-mediated immunity and **asplenia** (absence of a functioning spleen) each leave characteristic
-gaps. Other conditions shift the balance as well. Diabetes is the clearest local example: among
-patients with melioidosis in Singapore between 2003 and 2014, 56.7% had diabetes, against 19.3% of the
-general population of similar age [@pang2018melioidosis].
+Inoculum and immunity need detail now. The **inoculum**, the number of organisms received, affects
+both whether disease follows and how quickly it begins; for some organisms ten to a hundred cells are
+enough, while for others a million or more must be swallowed. Immunity includes the specific immunity left by
+earlier exposure or vaccination and the general competence of the defences. Each gap in the defences
+exposes a person to particular organisms: neutropenia to bacterial and fungal infection, impaired
+cell-mediated immunity to intracellular organisms such as *M. tuberculosis*, and **asplenia**
+(absence of a functioning spleen) to encapsulated bacteria such as *Streptococcus pneumoniae*.
+
+Other conditions shift the balance too. Diabetes is the clearest local example. Among patients in
+Singapore with **melioidosis**, infection with the soil bacterium *Burkholderia pseudomallei*, 56.7% had
+diabetes between 2003 and 2014, against 19.3% of the general population of similar age
+[@pang2018melioidosis].
 
 ## What a microbe has to do {#sec-host-steps}
 
@@ -115,9 +121,9 @@ steps are:
 5. Damage the host, directly or through the response it provokes.
 
 Attachment explains **tropism**, the range of tissues or cells an organism can occupy. A microbe can
-only settle where it finds the molecule it binds. This is why influenza virus infects cells lining the
-airway and not skin, and why strains of *E. coli* that bind receptors in the urinary tract cause
-urinary infection.
+settle only where it finds the molecule it binds. This is why influenza virus infects cells lining the
+airway and not skin, and why strains of *Escherichia coli* that bind receptors in the urinary tract
+cause urinary tract infection.
 
 <div data-island="sorter" data-src="/diagrams/pathogenesis-sorter.yml"></div>
 
@@ -128,10 +134,9 @@ respect.
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-exotoxin-endotoxin.yml"></div>
 
-The difference has clinical consequences. Protein exotoxins can be inactivated and used as **toxoid**
-vaccines, which is how tetanus and diphtheria are prevented. Lipopolysaccharide cannot, and the
-inflammatory response it drives is central to the deterioration seen in severe Gram-negative
-infection.
+Protein **exotoxins** can be inactivated and used as **toxoid** vaccines, which is how tetanus and
+diphtheria are prevented. Lipopolysaccharide cannot, and the inflammation it drives causes much of the
+septic shock in severe Gram-negative infection.
 
 ## The time course of infection {#sec-host-courses}
 
@@ -140,20 +145,19 @@ strategy.
 
 | Pattern | What happens | Typical strategy |
 |---|---|---|
-| **Acute** | Rapid onset; the organism is cleared or the host dies | Multiply fast, transmit, move on |
-| **Latent** | The organism persists silently and can reactivate | Survive inside cells, or in a site the immune response reaches poorly |
-| **Chronic** | Infection and inflammation continue for months or years | Resist clearance; damage accumulates from the ongoing response |
+| Acute | Rapid onset and a short course | Rapid multiplication and transmission before an immune response develops |
+| Latent | The organism persists silently and can reactivate | Survival inside cells, or in a site the immune response reaches poorly |
+| Chronic | Infection and inflammation continue for months or years | Resistance to clearance; damage accumulates from the ongoing response |
 
-Latency explains a clinical pattern you will meet repeatedly. An organism that persists where immune
-surveillance is limited, or inside the cells meant to destroy it, can return when immunity falls,
-sometimes decades later.
+Latency explains reactivation. Varicella-zoster virus persists in sensory ganglia after chickenpox and
+can return as shingles decades later, and latent tuberculosis can reactivate when immunity falls.
 
 ## Using this chapter in Part II {#sec-host-close}
 
-For each organism in Part II, ask two questions. How does it damage the host: by destroying cells, by
-toxins, by provoking a damaging inflammatory response, or by a combination? And where does it sit on
-the damage-response curve? If most of the damage comes from the host's response, a weakened host may
-show less visible disease, and removing the organism alone may not stop the damage.
+For each organism in Part II, ask how it damages the host: by destroying cells, by toxins, by
+provoking a damaging inflammatory response, or by a combination. Then place it on the damage-response
+curve. If most of the damage comes from the host's response, a weakened host may show less visible
+disease, and removing the organism alone may not stop the damage.
 
 ## Check your understanding {#sec-host-quiz}
 

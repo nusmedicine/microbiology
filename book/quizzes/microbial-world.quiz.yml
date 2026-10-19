@@ -50,14 +50,14 @@ questions:
         correct: false
         feedback: "The numbers are of the same order: about 3.8 × 10¹³ bacteria and 3.0 × 10¹³ human cells."
   - id: w5
-    stem: "*Treponema pallidum*, the cause of syphilis, cannot be grown on laboratory media. Which of Koch's postulates does that block?"
+    stem: "*Mycobacterium leprae*, the cause of leprosy, has never been grown on laboratory media. Which of Koch's postulates does that block?"
     options:
       - text: "Growing the organism in pure culture"
         correct: true
         feedback: "Without pure culture, the organism cannot be given to a healthy host from culture either. Many real pathogens fail the postulates for this reason."
       - text: "Finding the organism in cases of the disease"
         correct: false
-        feedback: "The organism can be seen and detected in lesions. What cannot be done is growing it in pure culture."
+        feedback: "The organism can be seen in tissue samples. What cannot be done is growing it in pure culture."
       - text: "None; the postulates do not require culture"
         correct: false
         feedback: "Isolation in pure culture is the second postulate, and it is the step that uncultivable organisms fail."

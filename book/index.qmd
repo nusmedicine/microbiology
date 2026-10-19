@@ -2,16 +2,17 @@
 
 You have just spent weeks learning how your own cells work: membranes, organelles, the electron
 transport chain, the path from DNA to protein. This book uses that knowledge from the first page. A
-microbe faces the problems your cells face. It needs a boundary, a source of energy, a way to copy
-itself and a place to live, and it solves each problem in its own way.
+microbe faces many of the problems your cells face: it needs a boundary, a source of energy and a way
+to copy itself. Its solutions differ from yours, and drugs and the immune system act on those
+differences.
 
-Microbiology is often taught as a long sequence of organisms, each with its own list of facts. Expert
-groups now recommend moving away from that approach in the early years of medical school
-[@bauler2026objectives]. This book instead asks the same six questions of every kind of microbe,
-starting with what it is built from and ending with what it has that your cells lack. [*The microbial
-world*](chapters/principles/microbial-world.qmd#sec-world-questions) sets out the six questions. Bacteria,
-viruses, fungi and parasites answer them differently, and those differences explain most of what you
-will later learn about infection.
+Microbiology is often taught as a long sequence of organisms, each with its own list of facts. The
+2026 revision of the microbiology core knowledge objectives for medical schools recommends moving away
+from that approach [@bauler2026objectives]. This book instead asks the same six questions of every
+kind of microbe, starting with what it is built from and ending with what it has that your cells lack.
+[*The microbial world*](chapters/principles/microbial-world.qmd#sec-world-questions) sets out the six
+questions. Bacteria, viruses, fungi and parasites answer them differently, and later chapters use
+those answers to explain how each group causes disease and how it is detected and controlled.
 
 ## What the book covers
 
@@ -19,12 +20,12 @@ The book has two parts. Part I, *Principles*, builds a toolkit: how microbes are
 energy and change, how they cause harm and spread, and how they are detected and controlled. Part II,
 *Meeting the microbes*, takes each group of organisms in turn and asks the six questions of it.
 
-The book covers the foundations. It leaves out where each infection occurs in the body, how it is
-diagnosed and how it is treated, because you will meet those in the organ-system blocks, and
-pharmacology will teach the drugs. The aim here is a framework that makes those later facts easier to
-place. A named organism appears as an example of a trait, and organisms usually appear in contrasting
-pairs, because comparing two similar things teaches more than studying either alone
-[@alfieri2013contrasting].
+The book leaves out where each infection occurs in the body, how it is diagnosed and how it is
+treated, because you will meet those in the organ-system blocks, and pharmacology will teach the drugs.
+The aim here is a framework that makes those later facts easier to place. A named organism appears as
+an example of a trait, and organisms usually appear in contrasting pairs, because students who compare
+two cases side by side apply the principle to new cases more often than students who study each case
+alone [@alfieri2013contrasting].
 
 Each technical term is defined where it first appears in a chapter, and all of them are collected in
 the [glossary](glossary.qmd).

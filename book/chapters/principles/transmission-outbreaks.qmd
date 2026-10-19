@@ -1,7 +1,7 @@
 # Transmission, outbreaks and One Health
 
-> *A pathogen that cannot reach a new host dies with the one it is in. Where do microbes live between
-> hosts, how do they travel, and where can transmission be interrupted?*
+> *A pathogen persists only if it reaches a new host or survives in a reservoir between hosts. Where
+> do microbes live between hosts, how do they travel, and where can transmission be interrupted?*
 
 ## The chain of infection {#sec-trans-chain}
 
@@ -10,44 +10,41 @@ can be broken, so the model is most useful as a checklist for control.
 
 | Link | What it means | Example of breaking it |
 |---|---|---|
-| **Infectious agent** | The organism itself | Antimicrobial treatment; sterilisation |
-| **Reservoir** | Where the organism normally lives and multiplies: people, animals, soil or water | Treating infected people; vector control |
-| **Portal of exit** | How it leaves the reservoir: respiratory particles, faeces, blood, skin | Covering coughs; dressing wounds |
-| **Mode of transmission** | How it travels (see below) | Hand hygiene; safe water; mosquito control |
-| **Portal of entry** | How it enters the next host: mouth, airway, broken skin, mucosa | Gloves; safe injection practice |
-| **Susceptible host** | A person who can be infected | Vaccination |
+| Infectious agent | The organism itself | Antimicrobial treatment; sterilisation |
+| Reservoir | Where the organism normally lives and multiplies: people, animals, soil or water | Treating infected people; controlling infection in animals; cleaning contaminated water systems |
+| Portal of exit | How it leaves the reservoir: respiratory particles, faeces, blood, skin | Covering coughs; dressing wounds |
+| Mode of transmission | How it travels (see below) | Hand hygiene; safe water; mosquito control |
+| Portal of entry | How it enters the next host: mouth, airway, broken skin, mucosa | Gloves; safe injection practice |
+| Susceptible host | A person who can be infected | Vaccination |
 
-Reservoirs differ in a way that matters for control. An organism whose only reservoir is humans can
-in principle be eradicated: smallpox was, and polio is close. An organism with an animal or
-environmental reservoir cannot be, because it persists whatever happens in the human population.
+An organism whose only reservoir is humans can in principle be eradicated: smallpox was, and polio is
+close. An organism with an animal or environmental reservoir cannot be, because it persists whatever
+happens in the human population.
 
-A **zoonosis** is an infection transmitted from animals to humans. Around 60% of known human
-infectious diseases, and about 75% of emerging ones, originate in animals [@taylor2001risk]. A
-**vector** is an arthropod that carries an organism between hosts, usually a mosquito, tick, flea or
-louse. A **fomite** is an inanimate object that carries organisms, such as a door handle or a shared
-keyboard.
+A **zoonosis** is an infection transmitted from animals to humans. Around 60% of known human pathogen
+species, and about 75% of emerging ones, are zoonotic [@taylor2001risk]. A **vector** is an arthropod
+that carries an organism between hosts, usually a mosquito, tick, flea or louse. A **fomite** is an
+inanimate object that carries organisms, such as a door handle or a shared keyboard.
 
 ## Routes of transmission {#sec-trans-routes}
 
 <div data-island="sorter" data-src="/diagrams/transmission-sorter.yml"></div>
 
-The respiratory route needs a further note, because its description changed during the COVID-19
-pandemic. Exhaled particles span a continuous range of sizes. Large particles fall to the ground
-within a short distance; small ones evaporate and stay suspended, so they accumulate in poorly
-ventilated rooms and can infect people further away. The older teaching split these into two
-categories at a fixed size cut-off, which is now recognised as too rigid [@wang2021airborne]. For
-control, distance, duration of exposure and ventilation all matter.
+The description of the respiratory route changed during the COVID-19 pandemic. Exhaled particles span
+a continuous range of sizes. The older teaching split them into **droplet** transmission, by particles
+larger than about 5 µm that fall within a metre or two, and **airborne** transmission, by smaller
+particles that stay suspended and can accumulate in poorly ventilated rooms. That fixed cut-off is now
+recognised as too rigid [@wang2021airborne]. Control therefore combines distance with ventilation and
+shorter exposure.
 
 ## Measuring how an infection spreads {#sec-trans-measures}
 
-Four quantities describe transmission, and each answers a different question.
-
 | Quantity | Question it answers | Note |
 |---|---|---|
-| **Incubation period** | How long between infection and symptoms? | Sets how long contacts are observed |
-| **Infectious period** | When can this person pass it on? | May begin before symptoms, which makes control much harder |
-| **Basic reproduction number, R₀** | How many people does one case infect in a fully susceptible population? | A property of the organism *and* of the population |
-| **Effective reproduction number, R** | How many does one case infect now, given immunity and control measures? | Above 1, cases grow; below 1, the outbreak shrinks |
+| Incubation period | How long between infection and symptoms? | Sets how long contacts are observed |
+| Infectious period | When can this person pass it on? | May begin before symptoms, which makes control much harder |
+| Basic reproduction number, R₀ | How many people does one case infect in a fully susceptible population? | A property of the organism *and* of the population |
+| Effective reproduction number, R | How many does one case infect now, given immunity and control measures? | Above 1, cases grow; below 1, the outbreak shrinks |
 
 Because R falls as immunity rises, there is a level of immunity above which an outbreak cannot sustain
 itself. This **herd immunity threshold** is 1 − 1/R₀. For an organism with an R₀ of 2 it is 50%; for
@@ -56,11 +53,10 @@ vaccination coverage.
 
 <div data-island="epidemic-sim" data-src="/diagrams/epidemic-sim.yml"></div>
 
-The model shows three general features. The outbreak ends while susceptible people remain, because
-transmission falls below replacement before everyone has been infected. Reducing transmission both
-lowers the peak and delays it, which is the reasoning behind measures intended to keep demand within
-hospital capacity. And a small change in R₀ makes a large difference to the final number infected,
-because the effect compounds with each generation of cases.
+In the model, the outbreak ends while susceptible people remain, because R falls below 1 before
+everyone has been infected. Reducing transmission both lowers the peak and delays it, which is the
+reasoning behind measures intended to keep demand within hospital capacity. When R₀ is close to 1, a
+small change in it makes a large difference to the final number infected.
 
 ## Investigating an outbreak {#sec-trans-outbreak}
 
@@ -76,24 +72,26 @@ Investigation follows a standard sequence:
 4. Test the hypothesis by comparing exposures between people who became ill and people who did not.
 5. Act to interrupt transmission, without waiting for the investigation to be complete.
 
-The shape of an **epidemic curve**, a plot of cases against time of onset, carries information. Cases
-that cluster within one incubation period suggest a single shared exposure; the wedding lunch case in
-[*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd#sec-gpc-case) is an example. Cases spread
-over successive incubation periods, each wave larger than the last, suggest spread from person to
-person.
+An **epidemic curve**, a plot of cases against time of onset, indicates the type of source. Cases that
+cluster within one incubation period suggest a **point-source** outbreak from a single shared
+exposure; the wedding lunch case in [*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd#sec-gpc-case)
+is an example. Cases spread over successive incubation periods, each wave larger than the last,
+suggest a **propagated** outbreak, spread from person to person.
 
 ## Hand hygiene: the evidence came first {#sec-trans-semmelweis}
 
 In the Vienna General Hospital in the 1840s, two maternity clinics had very different death rates from
-**puerperal fever**, infection after childbirth. In the clinic staffed by medical students, who came to
-deliveries from the autopsy room, mortality ran several times higher than in the midwives' clinic
-[@semmelweis1861]. Ignaz Semmelweis reasoned that something was being carried on hands from the dead
-to the living, and required staff to wash their hands in chlorinated lime. Deaths fell sharply.
+**puerperal fever**, infection after childbirth. Mortality was several times higher in the clinic
+staffed by medical students, who came to deliveries from the autopsy room, than in the midwives'
+clinic. Ignaz Semmelweis reasoned that something was being carried on hands from the dead to the
+living, and from May 1847 required staff to wash their hands in chlorinated lime. Mortality in his
+clinic fell from 11.4% in 1846 to about 1.3% in 1848 [@semmelweis1861].
 
-He could not say what was being carried, since germ theory was decades away, and his colleagues
-largely rejected the finding. The episode shows that an interruptible route is enough to act on, the
-same lesson as John Snow's investigation in the case at the end of this chapter. It is also why hand
-hygiene remains the single most effective measure against healthcare-associated infection.
+Germ theory was still decades away, so Semmelweis could not say what was being carried, and his
+colleagues largely rejected the finding. He acted on a route he could interrupt without knowing the
+agent, as John Snow did in the case at the end of this chapter. WHO guidance now treats hand hygiene as
+the primary measure for preventing **healthcare-associated infection**, infection acquired in the
+course of medical care [@who2009handhygiene].
 
 ## One Health {#sec-trans-onehealth}
 
@@ -105,13 +103,17 @@ that infections are best understood and controlled across all three. The connect
   direct contact.
 - Changes in land use, climate and travel alter where vectors can live and which animals humans meet.
 
-Singapore applies the approach in several ways. Dengue control acts on the vector, including the
-release of male mosquitoes carrying *Wolbachia* ([*The microbial
-world*](microbial-world.qmd#sec-world-harmless)). Surveillance of hand, foot and mouth disease covers
-childcare centres, where asymptomatic carriage is common. The 1999 outbreak of Nipah virus infection
-was traced to pigs imported from Malaysia and was controlled by acting on the animal side. Melioidosis
-is acquired from soil and surface water, and cases rise after heavy rain ([*Microbes and their
-hosts*](host-microbe.qmd#sec-host-case)).
+Singapore offers several examples. Dengue control acts on the vector, including the release of male
+mosquitoes carrying *Wolbachia* ([*The microbial world*](microbial-world.qmd#sec-world-harmless)). In
+1999, Nipah virus spread from pigs imported from Malaysia to abattoir workers in Singapore: 11 fell ill
+and one died [@paton1999nipah]. In 2015, an outbreak of severe group B streptococcal infection was
+linked to eating raw freshwater fish, and the strain responsible also infects farmed fish
+[@kalimuddin2017gbs]. Melioidosis is acquired from soil and surface water, and cases rise after heavy
+rain ([*Microbes and their hosts*](host-microbe.qmd#sec-host-case)).
+
+Controlling an outbreak depends on identifying the organism responsible and on removing it from hands,
+instruments and surfaces. Both are the subject of [*Detecting and controlling
+microbes*](detection-control.qmd).
 
 ## Check your understanding {#sec-trans-quiz}
 

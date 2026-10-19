@@ -26,7 +26,7 @@ rows:
     separates: true
   - feature: "Energy"
     a: "Makes its own ATP by fermentation"
-    b: "Imports ATP and nutrients from the host cell"
+    b: "Takes ATP and nutrients from the host cell, as well as making some ATP itself"
     separates: true
 
 question:
@@ -35,8 +35,8 @@ question:
   answer: 2
   feedback: >
     Where it lives. *Mycoplasma* lives outside cells and makes its own ATP, so it can grow without them
-    if it is given sterols. *Chlamydia* lives inside host cells and imports their ATP, so it needs living
-    cells to grow.
+    if it is given sterols. *Chlamydia* lives only inside host cells and depends on them for ATP and
+    nutrients, so it needs living cells to grow.
 
 principle: >
   The same failure can have different causes. Both are invisible on a Gram stain: *Mycoplasma*
@@ -54,9 +54,9 @@ sort:
   - text: "Has nothing for wall-targeting drugs to act on"
     answer: a
     why: "No wall at all: *Mycoplasma*."
-  - text: "Imports ATP from the cell it lives in"
+  - text: "Takes ATP from the cell it lives in"
     answer: b
-    why: "An energy borrower that must live inside cells: *Chlamydia*."
+    why: "It depends on its host cell for energy and nutrients: *Chlamydia*."
   - text: "Needs sterols added to its growth medium"
     answer: a
     why: "It uses sterols to stiffen its wall-less membrane: *Mycoplasma*."
