@@ -4,16 +4,13 @@
 
 ::: {.callout-note}
 ## In preparation
-This chapter will follow the same template as the *Gram-positive cocci* chapter. The outline below
-shows what it will cover.
+This chapter will follow the layout of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
 :::
 
-**The group in one sentence:** Bacteria with no wall, bacteria that live only inside cells, and bacteria with a waxy wall that resists staining.
-
-**How members differ (the sorting key):** No wall versus only inside cells versus waxy wall.
-
-**Main organisms (full profile cards):** *Mycoplasma pneumoniae*, *Chlamydia trachomatis*, *Mycobacterium tuberculosis*.
-
-**Supporting organisms (one table row each):** *Rickettsia* and its relative *Orientia*, *M. leprae*, non-tuberculous mycobacteria.
-
-**Later in the course:** Atypical pneumonia, chlamydia, tuberculosis and leprosy in the organ blocks; the atypicals worked example currently in *A map of the bacteria* moves here.
+| Part of the chapter | Plan |
+|---|---|
+| The group in one sentence | Bacteria with no wall, bacteria that live only inside cells, and bacteria with a waxy wall that resists staining |
+| Sorting key | No wall versus only inside cells versus waxy wall |
+| Main organisms | *Mycoplasma pneumoniae*, *Chlamydia trachomatis*, *Mycobacterium tuberculosis* |
+| Supporting organisms | *Rickettsia* and its relative *Orientia*, *M. leprae*, non-tuberculous mycobacteria |
+| Later in the course | Atypical pneumonia, chlamydia, tuberculosis and leprosy in the organ blocks; the atypicals worked example currently in *A map of the bacteria* moves here |

@@ -7,22 +7,22 @@ profiles:
     example: "Examples: *Candida albicans* in a person with very few neutrophils; *Pneumocystis jirovecii* in advanced HIV infection."
     points: [[0, 0.95], [0.2, 0.78], [0.4, 0.32], [0.6, 0.1], [1, 0.05]]
     zones:
-      weak: "**Damage comes from the microbe.** Defences are too weak to contain it, so it multiplies unchecked. These are **opportunistic pathogens**: in most people they live harmlessly or are cleared."
-      balanced: "**Little damage.** A normal response keeps the organism in check, as a commensal or by clearing it without symptoms."
-      strong: "**Little damage.** For this pattern, a vigorous response adds little harm: the microbe is controlled without much inflammation."
+      weak: "Damage comes from the microbe. Defences are too weak to contain it, so it multiplies unchecked. These are opportunistic pathogens: in most people they live harmlessly or are cleared."
+      balanced: "Little damage. A normal response keeps the organism in check, as a commensal or by clearing it without symptoms."
+      strong: "Little damage. For this pattern, a vigorous response adds little harm: the microbe is controlled without much inflammation."
   - label: "Damage at both extremes"
     example: "Example: *Mycobacterium tuberculosis*. With a weak response it spreads through the body; with an excessive one, the immune attack itself destroys lung tissue."
     points: [[0, 0.9], [0.25, 0.55], [0.5, 0.18], [0.75, 0.52], [1, 0.9]]
     zones:
-      weak: "**Damage comes from the microbe.** Too little response, for example in advanced HIV infection, lets the bacteria multiply and spread widely."
-      balanced: "**Little damage.** The bacteria are walled off in **granulomas**, which you met in general pathology. Many people carry contained, latent infection for life."
-      strong: "**Damage comes from the host.** An intense response causes caseous necrosis, and the dead tissue can liquefy and leave cavities in the lung."
+      weak: "Damage comes from the microbe. Too little response, for example in advanced HIV infection, lets the bacteria multiply and spread widely."
+      balanced: "Little damage. The bacteria are walled off in granulomas, which you met in general pathology. Many people carry contained, latent infection for life."
+      strong: "Damage comes from the host. An intense response causes caseous necrosis, and the necrotic tissue can liquefy and leave cavities in the lung."
   - label: "Damage when the response is strong"
     example: "Examples: toxic shock syndrome, where a superantigen over-activates T cells; rheumatic fever after *Streptococcus pyogenes* infection, where antibodies cross-react with heart tissue."
     points: [[0, 0.08], [0.4, 0.12], [0.6, 0.3], [0.8, 0.7], [1, 0.95]]
     zones:
-      weak: "**Little damage.** With a weak response there is little of the inflammation that drives disease in this pattern."
-      balanced: "**Limited damage.** A proportionate response clears the microbe with modest inflammation."
-      strong: "**Damage comes from the host.** The response, not the microbe, does most of the harm: cytokine release in toxic shock, cross-reacting antibodies in rheumatic fever."
+      weak: "Little damage. With a weak response there is little of the inflammation that drives disease in this pattern."
+      balanced: "Limited damage. A proportionate response clears the microbe with modest inflammation."
+      strong: "Damage comes from the host. The response, not the microbe, does most of the harm: cytokine release in toxic shock, cross-reacting antibodies in rheumatic fever."
 
 note: "Schematic curves, after the damage-response framework of Casadevall and Pirofski. Real organisms vary between strains and hosts."

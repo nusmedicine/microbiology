@@ -35,7 +35,7 @@ steps:
       options:
         - text: "The Gram-positive cell stays purple; the Gram-negative cell loses its colour."
           correct: true
-          feedback: "Right. Alcohol dehydrates the thick peptidoglycan wall, which shrinks and traps the complex. In the Gram-negative cell it dissolves the lipid outer membrane, and the thin wall beneath cannot hold the complex in."
+          feedback: "Alcohol dehydrates the thick peptidoglycan wall, which shrinks and traps the complex. In the Gram-negative cell it dissolves the lipid outer membrane, and the thin wall beneath cannot hold the complex in."
         - text: "Both cells lose their colour, because alcohol washes out the dye."
           correct: false
           feedback: "Only one cell loses it. The thick peptidoglycan of the Gram-positive wall shrinks when dehydrated and traps the complex. That difference in the wall is the whole basis of the stain."
@@ -51,7 +51,7 @@ steps:
     explain: "The colourless Gram-negative cell takes up the pink counterstain. The Gram-positive cell also takes some up, but the dark purple hides it."
 
 summary: >
-  **Purple means a thick peptidoglycan wall; pink means a thin wall plus an outer membrane.** The
+  Purple means a thick peptidoglycan wall; pink means a thin wall plus an outer membrane. The
   colour is a readout of envelope structure, and envelope structure matters well beyond the slide:
   the Gram-negative outer membrane carries lipopolysaccharide, which triggers strong inflammation.
 

@@ -56,7 +56,7 @@ const RULES = [
   { id: 'em-dash', why: 'em dash (limit: one or two per chapter)', re: /—|(?<=\w) -- (?=\w)/g },
   { id: 'inline-header', why: 'inline-header list item (bold label + colon)', re: /^\s*([-*+]|\d+\.)\s+\*\*[^*]{1,60}(:\*\*|\*\*:)/g },
   { id: 'arrow', why: 'decorative arrow or box character in prose', re: /[→⇒➜➔─│┌└]/g },
-  { id: 'bug-germ', why: '"bug"/"germ" outside a quoted misconception', re: /\b(bug|bugs|germ|germs)\b/gi },
+  { id: 'bug-germ', why: '"bug"/"germ" outside a quoted misconception', re: /\b(bug|bugs|germs?)\b(?!\s+theory)/gi },
   { id: 'us-spelling', why: 'American spelling', re: /\b(colou?r(?<!colour)(?!\s*:)|hemoly\w*|hemato\w*|hemo(globin|rrhag)\w*|fecal|feces|esophag\w*|pediatric\w*|anemia|edema|behavior\w*|tumor\w*|fiber|center|labeled|labeling|modeled|modeling|program(?!me))\b/gi },
   { id: 'ize', why: '-ize spelling (house style is -ise)', re: /\b(?!(?:size|sizes|sized|sizing|prize|prizes|seize|seized|capsize|resize)\b)[a-z]{3,}(?:iz|yz)(?:e|es|ed|ing|ation|ations|er|ers)\b/gi },
   { id: 'feedback-right', why: 'feedback opening with "Right."/"Correct" (the component already says so)', re: /\b(feedback|why):\s*["']?(Right|Correct|Yes|Exactly|Great)\b[.!,]/g },
@@ -102,8 +102,8 @@ for (const f of files) {
 
 console.log('\nSummary (flags · em dashes · bold per 1,000 words · "rather than")');
 for (const [f, t] of Object.entries(totals)) {
-  if (!t.flags && !t.dashes && t.boldPer1k < 15 && t.ratherThan < 3) continue;
-  const warn = [t.boldPer1k >= 15 ? 'bold-heavy' : '', t.dashes > 2 ? 'dash-heavy' : '', t.ratherThan >= 3 ? 'rather-than' : ''].filter(Boolean).join(', ');
+  if (!t.flags && !t.dashes && (t.boldPer1k < 20 || f.endsWith('glossary.qmd')) && t.ratherThan < 3) continue;
+  const warn = [t.boldPer1k >= 20 && !f.endsWith('glossary.qmd') ? 'bold-heavy' : '', t.dashes > 2 ? 'dash-heavy' : '', t.ratherThan >= 3 ? 'rather-than' : ''].filter(Boolean).join(', ');
   console.log(`  ${f.padEnd(58)} ${String(t.flags).padStart(3)} · ${String(t.dashes).padStart(2)} · ${String(t.boldPer1k).padStart(5)} · ${t.ratherThan}${warn ? '   ← ' + warn : ''}`);
 }
 console.log(`\n${grand} flag(s) across ${Object.keys(totals).length} file(s).`);

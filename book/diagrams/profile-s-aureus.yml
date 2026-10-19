@@ -14,7 +14,7 @@ slots:
       options:
         - text: "A break in the skin barrier, such as a cut or a wound"
           correct: true
-          feedback: "Right. Intact skin keeps it outside. A break lets it into tissue, where it can multiply and release toxins and tissue-damaging enzymes."
+          feedback: "Intact skin keeps it outside. A break lets it into tissue, where it can multiply and release toxins and tissue-damaging enzymes."
         - text: "Its spores germinating after a long dormancy"
           correct: false
           feedback: "Staphylococci do not form spores; spores belong to some Gram-positive rods. The trigger is usually a break in the barrier that lets it into tissue."
@@ -28,7 +28,7 @@ slots:
       options:
         - text: "Pus, often walled off as an abscess"
           correct: true
-          feedback: "Right. Dead neutrophils, bacteria and liquefied tissue form pus. Infections that do this are called pyogenic, or pus-forming."
+          feedback: "Dead neutrophils, bacteria and liquefied tissue form pus. Infections that do this are called pyogenic, or pus-forming."
         - text: "A granuloma"
           correct: false
           feedback: "Granulomas, from general pathology, form around microbes that survive inside macrophages. Staphylococci are killed by neutrophils, and the debris collects as pus."

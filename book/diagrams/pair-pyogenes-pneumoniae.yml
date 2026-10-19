@@ -19,7 +19,7 @@ rows:
     b: "Absent"
     separates: false
   - feature: "Blood agar"
-    a: "Clear zone (beta): toxins burst red cells"
+    a: "Clear zone (beta): toxins lyse red cells"
     b: "Green zone (alpha): peroxide damages haemoglobin"
     separates: true
   - feature: "Main defence against phagocytes"
@@ -45,7 +45,7 @@ question:
     ear or lung once it gets there.
 
 principle: >
-  **Weapons versus armour is a useful way to read any pathogen.** Some damage the host directly with
+  Weapons versus armour is a useful way to read any pathogen. Some damage the host directly with
   enzymes and toxins; others mainly avoid being killed and let numbers and the host's own inflammation do
   the damage. Most use both, in different proportions. Asking which dominates tells you what the infection
   is likely to look like.
@@ -56,7 +56,7 @@ sort:
     why: "Armour: *S. pneumoniae*."
   - text: "Leaves a clear zone around colonies on blood agar"
     answer: a
-    why: "Beta-haemolysis from toxins that burst red cells: *S. pyogenes*."
+    why: "Beta-haemolysis from toxins that lyse red cells: *S. pyogenes*."
   - text: "Vaccines are built from its surface sugar coat"
     answer: b
     why: "Antibodies to the capsule protect: *S. pneumoniae*."

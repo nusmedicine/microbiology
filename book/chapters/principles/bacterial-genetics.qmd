@@ -1,92 +1,90 @@
 # How bacteria copy themselves and change
 
-> *Bacteria change in two ways: by errors in copying their own DNA, and by taking in DNA from other
-> bacteria. Both happen at random. Drug use then selects whichever cells happen to survive. That
+> *Bacteria change in two ways: through errors in copying their own DNA, and by taking in DNA from
+> other bacteria. Both happen at random, and drug use then selects whichever variants survive. That
 > sequence explains antimicrobial resistance, and also how a harmless strain can acquire a toxin.*
 
 ## Copying the genome {#sec-gen-copy}
 
-A typical bacterium carries one circular chromosome. That of *Escherichia coli* has about
+A typical bacterium carries one circular chromosome. The chromosome of *Escherichia coli* has about
 4.6 million base pairs and some 4,300 genes. Many bacteria also carry **plasmids**: small, circular
-DNA molecules that replicate on their own and often carry genes the cell can live without, such as
+DNA molecules that replicate independently and often carry genes the cell can live without, such as
 genes for resistance or toxins. Before dividing by binary fission, the cell copies its chromosome,
 starting from a single origin and working round the circle in both directions.
 
-From cell biology you know how your own cells turn genes into proteins. Bacteria follow the same
-central dogma, with differences that matter clinically.
+Bacteria follow the same central dogma as your cells, with differences that matter clinically.
 
 | Step | Your cells | Bacteria | Why the difference matters |
 |---|---|---|---|
-| Where it happens | Transcription in the nucleus, translation in the cytoplasm | Both in the cytoplasm, at the same time: ribosomes start on an mRNA while it is still being made | Gene expression can change within minutes |
+| Where it happens | Transcription in the nucleus, translation in the cytoplasm | Both in the cytoplasm at the same time: ribosomes start on an mRNA while it is still being made | Gene expression can change within minutes |
 | Gene organisation | One gene per mRNA; genes interrupted by introns | Related genes often share one mRNA, as an **operon**; introns are rare | A whole pathway can be switched on at once |
-| RNA polymerase | Several polymerases | One core enzyme of a different structure | A target that human cells do not share |
+| RNA polymerase | Several polymerases | One core enzyme of a different structure | A target human cells do not share |
 | Ribosomes | 80S (40S and 60S subunits) | 70S (30S and 50S subunits) | A major drug target; mitochondria have bacterial-type ribosomes, which explains some drug side effects |
 | DNA supercoiling | Human topoisomerases | DNA gyrase and topoisomerase IV | A target with no exact human equivalent |
 
-The right-hand column answers the sixth question for the machinery of inheritance: what does a
-bacterium have that your cells lack? The pharmacology block names the drugs that use each target.
+The right-hand column answers the sixth question for the machinery of inheritance. The pharmacology
+block names the drugs that use each target.
 
 ## Change by mutation {#sec-gen-mutation}
 
-A **mutation** is a change in the DNA sequence. Most arise as copying errors during replication:
-a **point mutation** swaps one base for another, while insertions and deletions add or remove bases.
+A **mutation** is a change in the DNA sequence. Most arise as copying errors during replication: a
+**point mutation** replaces one base with another, while insertions and deletions add or remove bases.
 DNA-based microbes make roughly one new mutation for every 300 genomes copied [@drake1991constant].
-That sounds rare, but bacterial populations are huge, and resistance to a single drug can often
-arise from any one of several different mutations. In an infection containing billions of bacteria,
-resistant mutants are usually present before treatment begins.
+That rate sounds low, but bacterial populations are large, and resistance to a single drug can often
+arise from any one of several different mutations. An infection containing billions of bacteria
+usually already contains resistant mutants before treatment begins.
 
-Most mutations are neutral or harmful. A few, by chance, alter the protein a drug acts on, so that
-the drug binds poorly. Whether the drug is present has no bearing on which mutations occur. Salvador
-Luria and Max Delbrück showed this in 1943: the number of resistant bacteria varied wildly between
-parallel cultures, in the pattern expected if mutants arise at random during growth and not in
-response to the selecting agent [@luria1943mutations]. Joshua and Esther Lederberg later showed it
-directly: using replica plating, they picked colonies from a plate that had never been exposed to the
-selecting agent and found that they were already resistant [@lederberg1952replica].
+Most mutations are neutral or harmful. A few, by chance, alter the protein a drug acts on so that the
+drug binds poorly. Whether the drug is present has no bearing on which mutations occur. Salvador Luria
+and Max Delbrück showed this in 1943: the number of resistant bacteria varied widely between parallel
+cultures, in the pattern expected if mutants arise at random during growth and not in response to the
+selecting agent [@luria1943mutations]. Joshua and Esther Lederberg later showed it directly. Using
+replica plating, they picked colonies from a plate that had never been exposed to the selecting agent
+and found that they were already resistant [@lederberg1952replica].
 
-Try it below. Grow the population, decide whether resistant cells exist yet, then add the drug.
+Grow the population below, decide whether resistant cells exist yet, then add the drug.
 
 <div data-island="selection-sim" data-src="/diagrams/selection-sim.yml"></div>
 
-The drug did not make any bacterium resistant. It killed the susceptible cells, and the resistant
-ones that were already there grew into the space. This is **selection**. Repeated over many patients
-and many courses of treatment, it is how resistance becomes common.
+The drug made no bacterium resistant. It killed the susceptible cells, and the resistant cells that
+were already present grew into the space. This is **selection**. Repeated across many patients and
+many courses of treatment, it is how resistance becomes common.
 
 ::: {.callout-important}
 ## A common idea, corrected: "bacteria mutate in order to survive the drug"
 In one study, 81% of undergraduates agreed that bacteria develop mutations *in order to* become
 resistant [@richard2017intuitive]. Bacteria have no way of producing the mutation they need. Mutations
-arise at random, and the drug selects the cells that happen to carry a useful one. (Stress from some
-drugs can raise the overall mutation rate a little, but the mutations are still random with respect to
-resistance.) The related belief that the *body* becomes resistant is held by 62.5% of Singapore
-residents [@lim2021singaporekap]. Resistance is a property of the bacteria, and resistant bacteria
-spread between people.
+arise at random, and the drug selects the cells that happen to carry a useful one. Stress from some
+drugs can raise the overall mutation rate a little, but the mutations remain random with respect to
+resistance. A related belief, that the *body* becomes resistant, is held by 62.5% of Singapore
+residents [@lim2021singaporekap]. Resistance is a property of bacteria, and resistant bacteria spread
+between people.
 :::
 
 ## Change by gene transfer {#sec-gen-hgt}
 
-Bacteria can also gain whole genes from other bacteria, a process called **horizontal gene transfer**
-to distinguish it from vertical inheritance from parent to daughter cell. There are three classic
-routes.
+Bacteria can also acquire whole genes from other bacteria. This is **horizontal gene transfer**, as
+distinct from vertical inheritance from a parent cell. There are three classic routes.
 
 **Transformation** is the uptake of free DNA released by dead cells. Some species, including
 *Streptococcus pneumoniae* and *Neisseria*, are naturally **competent**: they actively take up DNA from
-their surroundings. This was the first route discovered, in the experiment at the end of this chapter.
+their surroundings. Transformation was the first route discovered, in the experiment followed by the
+case at the end of this chapter.
 
-**Transduction** happens when a **bacteriophage** (a virus that infects bacteria) accidentally packages a
-piece of its host's DNA and injects it into the next bacterium it infects.
+**Transduction** occurs when a **bacteriophage**, a virus that infects bacteria, packages a piece of
+its host's DNA by mistake and injects it into the next bacterium it infects.
 
 **Conjugation** is the transfer of a plasmid from one cell to another through direct contact, usually
-through a thin tube called a pilus. The older name "sex pilus" is misleading: bacteria have no sexes,
-and conjugation produces no offspring. It copies a plasmid into a neighbour, which can belong to a
-different species.
+through a thin tube called a pilus. The older name "sex pilus" is misleading, because bacteria have no
+sexes and conjugation produces no offspring. It copies a plasmid into a neighbouring cell, which can
+belong to a different species.
 
-A fourth process moves genes around inside and between DNA molecules. **Transposons** ("jumping
-genes") are DNA segments that can cut or copy themselves into a new position, for example from the
-chromosome onto a plasmid, which can then carry them to another cell. Over time, plasmids and
-transposons collect several resistance genes together, so one transfer can bring resistance to several
-drugs at once.
+**Transposons** ("jumping genes") move genes within and between DNA molecules. They are DNA segments
+that can cut or copy themselves into a new position, for example from the chromosome onto a plasmid,
+which can then carry them to another cell. Over time, plasmids and transposons collect several
+resistance genes together, so a single transfer can confer resistance to several drugs.
 
-Gene transfer also moves virulence genes. Clusters of virulence genes that arrived together in this way
+Gene transfer moves virulence genes as well. Clusters of virulence genes acquired together in this way
 are called **pathogenicity islands**. Much of the difference between a harmless gut *E. coli* and a
 strain that causes bloody diarrhoea lies in genes of this kind.
 
@@ -94,53 +92,50 @@ strain that causes bloody diarrhoea lies in genes of this kind.
 
 ## Bacteriophages: lytic and lysogenic {#sec-gen-phage}
 
-Bacteriophages, or phages, are the most numerous biological entities on Earth. A phage can follow one
-of two paths after injecting its genome:
-
-- In the **lytic cycle**, the phage takes over the cell, makes hundreds of new phages and bursts
-  (**lyses**) the cell to release them.
-- In the **lysogenic cycle**, the phage genome joins the bacterial chromosome as a **prophage** and is
-  copied along with it each time the cell divides. Damage to the bacterium's DNA can later switch the
-  prophage to the lytic cycle.
+Phages are the most numerous biological entities on Earth. After injecting its genome, a phage
+follows one of two paths. In the **lytic cycle**, the phage takes over the cell, makes hundreds of new
+phages, and **lyses** (bursts) the cell to release them. In the **lysogenic cycle**, the phage genome
+joins the bacterial chromosome as a **prophage** and is copied with it each time the cell divides;
+damage to the bacterium's DNA can later switch the prophage into the lytic cycle.
 
 A prophage can change what its host does, which is called **lysogenic conversion**. Several of the
-best-known bacterial toxins are encoded by phage genes, not by the bacterium's own chromosome.
+best-known bacterial toxins are encoded by phage genes rather than by the bacterium's own chromosome.
 
-| Toxin | Organism | Consequence of lysogenic conversion |
+| Toxin | Organism | Effect of lysogenic conversion |
 |---|---|---|
 | Diphtheria toxin | *Corynebacterium diphtheriae* | Only strains carrying the phage are **toxigenic** (toxin-producing) and cause diphtheria |
 | Cholera toxin | *Vibrio cholerae* | The toxin genes arrived on a phage [@waldor1996cholera] |
 | Shiga toxins | Some *E. coli*, such as O157:H7 | Phage-borne toxin genes turned a gut commensal into a cause of bloody diarrhoea |
 | Pyrogenic exotoxins | *Streptococcus pyogenes* | Phage-borne superantigen genes, behind scarlet fever |
 
-The same species can therefore be harmless or dangerous depending on which phages it carries. This is
-the genetic side of the fifth question, *how does damage happen?*
+The same species can therefore be harmless or dangerous depending on which phages it carries, which
+is the genetic side of the fifth question.
 
 ## Resistance: what it is and how it spreads {#sec-gen-resistance}
 
 **Antimicrobial resistance** is the ability of a microbe to grow in the presence of a drug that would
 normally inhibit or kill it. Some resistance is **intrinsic**, a property of the whole species: drugs
-that act on the cell wall cannot touch *Mycoplasma*, which has none. Most clinically important
-resistance is **acquired** by mutation or gene transfer. Whatever its origin, it works in one of four
-ways:
+that act on the cell wall cannot affect *Mycoplasma*, which has no wall. Most clinically important
+resistance is **acquired**, by mutation or gene transfer. Whatever its origin, resistance works in one
+of four ways.
 
 | Mechanism | How it works | Usual genetic origin |
 |---|---|---|
 | Destroy or modify the drug | An enzyme breaks the drug down or blocks its active site | Genes on plasmids and transposons |
-| Change the target | The drug's target protein is altered so the drug binds poorly | Mutation, or an acquired gene for a different version of the target (as in MRSA) |
-| Keep the drug out | Fewer **porins** (channels in the Gram-negative outer membrane) let less drug in | Mutation |
+| Change the target | The drug's target protein is altered so the drug binds poorly | Mutation, or an acquired gene for a different version of the target, as in MRSA ([*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd)) |
+| Keep the drug out | Fewer **porins**, the channels in the Gram-negative outer membrane, let less drug in | Mutation |
 | Pump the drug out | **Efflux pumps** in the membrane expel the drug | Mutation increasing pump production, or acquired pump genes |
 
-Three features of resistance follow from this chapter. Every use of an antimicrobial, in people or in
-animals, selects resistant bacteria. Resistance genes on plasmids spread between species, so selection
-in one organism can create resistance in another. And resistance often carries a cost: without the drug,
-resistant bacteria may grow a little more slowly, which is one reason reducing drug use can help, although
-many resistance genes persist for years.
+Three consequences follow. Every use of an antimicrobial, in people or in animals, selects resistant
+bacteria. Resistance genes on plasmids spread between species, so selection in one organism can create
+resistance in another. And resistance often carries a cost: without the drug, resistant bacteria may
+grow a little more slowly, which is one reason reducing drug use can help, although many resistance
+genes persist for years.
 
 **Antimicrobial stewardship** is the coordinated effort to use antimicrobials only when they are
-needed, in the right dose and for the right duration, so that selection is kept to a minimum. Because it
-works at the level of populations, it depends on every prescriber, not on infection specialists alone.
-The pharmacology block covers the drugs and the details.
+needed, at the right dose and for the right duration, so that selection is kept to a minimum. Because
+selection acts on populations, stewardship depends on every prescriber, not on infection specialists
+alone. The pharmacology block covers the drugs.
 
 ## Check your understanding {#sec-gen-quiz}
 

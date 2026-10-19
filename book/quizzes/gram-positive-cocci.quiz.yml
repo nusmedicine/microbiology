@@ -6,7 +6,7 @@ questions:
     options:
       - text: "*S. aureus* makes coagulase, which lays down fibrin; *S. pyogenes* makes enzymes that dissolve clots and tissue gel"
         correct: true
-        feedback: "Right. One builds a wall, the other dissolves barriers. The traits predict the shape of the infection."
+        feedback: "One builds a wall, the other dissolves barriers. The traits predict the shape of the infection."
       - text: "*S. aureus* is Gram-positive and *S. pyogenes* is Gram-negative"
         correct: false
         feedback: "Both are Gram-positive. The difference is coagulase (walling off) versus clot-dissolving enzymes (spreading)."
@@ -18,7 +18,7 @@ questions:
     options:
       - text: "The toxin switches on a huge number of T cells at once, flooding the body with inflammatory signals"
         correct: true
-        feedback: "Right. A normal antigen activates a tiny fraction of T cells; a superantigen bypasses that selectivity. Most of the damage comes from the host's own response."
+        feedback: "A normal antigen activates a tiny fraction of T cells; a superantigen bypasses that selectivity. Most of the damage comes from the host's own response."
       - text: "The bacteria multiply in every organ"
         correct: false
         feedback: "The bacteria can be few and local. The toxin activates huge numbers of T cells, and the resulting flood of inflammatory signals does the damage."
@@ -30,7 +30,7 @@ questions:
     options:
       - text: "Antibodies made against *S. pyogenes* cross-react with the child's own heart tissue"
         correct: true
-        feedback: "Right. Molecular mimicry: the infection is gone, and the host's antibodies do the damage."
+        feedback: "Molecular mimicry: the infection is gone, and the host's antibodies do the damage."
       - text: "*S. pyogenes* is hiding in the heart"
         correct: false
         feedback: "No bacteria are found there. Antibodies against the bacterium recognise similar molecules in heart tissue."
@@ -42,7 +42,7 @@ questions:
     options:
       - text: "Antibodies that coat the capsule let phagocytes engulf the bacteria"
         correct: true
-        feedback: "Right. The capsule's job is to stop phagocytosis; antibodies against it undo that defence."
+        feedback: "The capsule's job is to stop phagocytosis; antibodies against it undo that defence."
       - text: "The capsule is the toxin that causes disease"
         correct: false
         feedback: "The capsule is armour, not a toxin. Antibodies against it let phagocytes engulf the bacteria."
@@ -54,7 +54,7 @@ questions:
     options:
       - text: "It has acquired a gene for an altered version of the protein the drugs target"
         correct: true
-        feedback: "Right. This is how MRSA arose: an acquired gene makes a wall-building protein that the drugs bind poorly. Selection did the rest."
+        feedback: "This is how MRSA arose: an acquired gene makes a wall-building protein that the drugs bind poorly. Selection did the rest."
       - text: "The patient's body has become used to the drug"
         correct: false
         feedback: "Resistance belongs to the bacterium, not the person. MRSA carries an acquired gene for an altered drug target."
@@ -66,7 +66,7 @@ questions:
     options:
       - text: "A coagulase-negative staphylococcus living as a biofilm on the device"
         correct: true
-        feedback: "Right. A skin resident with few toxins, harmful mainly when a device gives it a surface for biofilm."
+        feedback: "A skin resident with few toxins, harmful mainly when a device gives it a surface for biofilm."
       - text: "*Staphylococcus aureus*"
         correct: false
         feedback: "*S. aureus* is coagulase-positive. Coagulase-negative clusters on a device suggest *S. epidermidis* in a biofilm."
@@ -78,7 +78,7 @@ questions:
     options:
       - text: "Evenly throughout"
         correct: true
-        feedback: "Right. Oxygen gives them no extra ATP and does them no harm: aerotolerant anaerobes, from the *How bacteria are built* chapter."
+        feedback: "Oxygen gives them no extra ATP and does them no harm: aerotolerant anaerobes, from *How bacteria are built and get energy*."
       - text: "Only at the top"
         correct: false
         feedback: "That is an obligate aerobe. Streptococci gain nothing from oxygen and are not harmed by it, so they grow evenly."
@@ -86,11 +86,11 @@ questions:
         correct: false
         feedback: "That is an obligate anaerobe, poisoned by oxygen. Streptococci tolerate oxygen, so they grow evenly."
   - id: g8
-    stem: "Why are people without a working spleen at particular risk from *S. pneumoniae*?"
+    stem: "Why are people with asplenia (no functioning spleen) at particular risk from *S. pneumoniae*?"
     options:
       - text: "The spleen is a key site for clearing antibody-coated, encapsulated bacteria from the blood"
         correct: true
-        feedback: "Right. A host factor decides the outcome: without the spleen, encapsulated bacteria in the blood are cleared poorly."
+        feedback: "A host factor decides the outcome: without the spleen, encapsulated bacteria in the blood are cleared poorly."
       - text: "The spleen makes the capsule"
         correct: false
         feedback: "The bacterium makes its own capsule. The spleen helps clear encapsulated bacteria from the blood."

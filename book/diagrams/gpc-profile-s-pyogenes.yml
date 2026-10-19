@@ -10,10 +10,10 @@ slots:
       options:
         - text: "It makes toxins that burst host cells"
           correct: true
-          feedback: "Right. The streptolysins that clear blood agar also damage host cells in tissue. The plate is showing you a weapon."
+          feedback: "The streptolysins that clear blood agar also damage host cells in tissue. The plate is showing you a weapon."
         - text: "It needs oxygen from red cells to grow"
           correct: false
-          feedback: "Streptococci only ferment, so they gain nothing from oxygen. The clearing comes from toxins that burst red cells."
+          feedback: "Streptococci only ferment, so they gain nothing from oxygen. The clearing comes from toxins that lyse red cells."
         - text: "It cannot grow near red cells"
           correct: false
           feedback: "It grows well on blood agar. The clear zone is red cells burst by its toxins."
@@ -26,7 +26,7 @@ slots:
       options:
         - text: "Spreading rapidly through tissue"
           correct: true
-          feedback: "Right. Where *S. aureus* builds a fibrin wall, *S. pyogenes* dissolves barriers. Its infections tend to spread rather than form abscesses."
+          feedback: "Where *S. aureus* builds a fibrin wall, *S. pyogenes* dissolves barriers. Its infections tend to spread rather than form abscesses."
         - text: "Forming a walled-off abscess"
           correct: false
           feedback: "Walling off is the *S. aureus* pattern, helped by coagulase. Enzymes that dissolve clots and tissue gel let *S. pyogenes* spread."
@@ -40,13 +40,13 @@ slots:
       options:
         - text: "Antibodies against the bacterium cross-react with the person's own tissue"
           correct: true
-          feedback: "Right. Antibodies made against parts of the bacterium also recognise similar molecules in the heart. This is molecular mimicry: the bacteria are gone, and the host does the damage."
+          feedback: "Antibodies made against parts of the bacterium also recognise similar molecules in the heart. This is molecular mimicry: the bacteria are gone, and the host does the damage."
         - text: "Bacteria left behind in the heart are still multiplying"
           correct: false
           feedback: "The infection has cleared. The damage comes from the immune response: antibodies against the bacterium cross-react with heart tissue."
         - text: "Toxin stored in the heart is slowly released"
           correct: false
           feedback: "Toxins act during infection. Weeks later, the damage comes from antibodies that cross-react with the person's own tissue."
-    entry: "Spreading infection of throat or skin; toxin-mediated illness; and, weeks later, **post-infectious immune disease** such as rheumatic fever. The last is a damage-response lesson: the host causes the damage."
+    entry: "Infection of the throat (pharyngitis) or spreading infection of the skin (cellulitis); toxin-mediated illness; and, weeks later, **post-infectious immune disease** such as rheumatic fever. The last is a damage-response lesson: the host causes the damage."
   - slot: contrast
     entry: "*S. pneumoniae*: also a streptococcus, but alpha-haemolytic, in lancet-shaped pairs, defended mainly by its capsule rather than by enzymes and toxins."

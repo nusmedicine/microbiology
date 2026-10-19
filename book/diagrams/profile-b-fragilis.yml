@@ -10,7 +10,7 @@ slots:
       options:
         - text: "An outer membrane containing lipopolysaccharide (LPS)"
           correct: true
-          feedback: "Right. Pink on the Gram stain means a thin wall plus an outer membrane, and LPS sits in that outer membrane."
+          feedback: "Pink on the Gram stain means a thin wall plus an outer membrane, and LPS sits in that outer membrane."
         - text: "A thick peptidoglycan wall"
           correct: false
           feedback: "That is the Gram-positive design. A Gram-negative cell has a thin wall plus an outer membrane with LPS."
@@ -24,7 +24,7 @@ slots:
       options:
         - text: "The colon, which is almost free of oxygen"
           correct: true
-          feedback: "Right. The colon is one of the most oxygen-poor places in the body, and anaerobes dominate it."
+          feedback: "The colon is one of the most oxygen-poor places in the body, and anaerobes dominate it."
         - text: "The surface of the skin"
           correct: false
           feedback: "Skin is exposed to air. An organism poisoned by oxygen needs somewhere oxygen-poor, such as the colon."
@@ -38,7 +38,7 @@ slots:
       options:
         - text: "It escapes the gut into tissue that has lost its blood supply, such as after a bowel injury"
           correct: true
-          feedback: "Right. Same organism, new place. Dead or poorly perfused tissue has little oxygen, so an anaerobe can grow there."
+          feedback: "Same organism, new place. Dead or poorly perfused tissue has little oxygen, so an anaerobe can grow there."
         - text: "It acquires the ability to use oxygen"
           correct: false
           feedback: "It does not need to change at all. What changes is where it is: tissue with a poor blood supply has little oxygen."
@@ -52,7 +52,7 @@ slots:
       options:
         - text: "A walled-off collection of pus: an abscess"
           correct: true
-          feedback: "Right. Its capsule is known to promote abscess formation. Inside an abscess, oxygen is low, which suits an anaerobe."
+          feedback: "Its capsule is known to promote abscess formation. Inside an abscess, oxygen is low, which suits an anaerobe."
         - text: "A spreading infection with no pus"
           correct: false
           feedback: "Its capsule promotes walling-off. The usual result is an abscess, whose low-oxygen centre suits an anaerobe."

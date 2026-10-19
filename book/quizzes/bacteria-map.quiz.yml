@@ -6,7 +6,7 @@ questions:
     options:
       - text: "They share one decisive trait: oxygen poisons them"
         correct: true
-        feedback: "Right. 'Anaerobe' is a one-trait group. That single trait predicts where they live, where they cause harm and how samples must be handled."
+        feedback: "'Anaerobe' is a one-trait group. That single trait predicts where they live, where they cause harm and how samples must be handled."
       - text: "They are all closely related in the family tree"
         correct: false
         feedback: "They are not; the group mixes Gram-negative rods such as Bacteroides with Gram-positive Clostridium. What unites them is their relationship with oxygen."
@@ -14,11 +14,11 @@ questions:
         correct: false
         feedback: "Only some, such as Clostridium, form spores. The shared trait is that oxygen poisons them."
   - id: m2
-    stem: "*Haemophilus* grows on chocolate agar (agar made with burst red cells) but not on ordinary agar. What is the best explanation?"
+    stem: "*Haemophilus* grows on chocolate agar (agar made with lysed red cells) but not on ordinary agar. What is the best explanation?"
     options:
       - text: "It has lost genes for making factors that red cells contain, so they must be supplied"
         correct: true
-        feedback: "Right. Fastidious bacteria depend on nutrients they no longer make. Bursting the red cells releases the factors it needs."
+        feedback: "Fastidious bacteria depend on nutrients they no longer make. Bursting the red cells releases the factors it needs."
       - text: "It needs the extra oxygen carried by red cells"
         correct: false
         feedback: "Oxygen is not the issue. It needs nutrient factors from inside red cells, which it can no longer make itself."
@@ -30,7 +30,7 @@ questions:
     options:
       - text: "They are fragile and die quickly outside the human body"
         correct: true
-        feedback: "Right. An organism that dries out and dies within hours outside a host cannot spread through water, soil or surfaces; it passes by close contact."
+        feedback: "An organism that dries out and dies within hours outside a host cannot spread through water, soil or surfaces; it passes by close contact."
       - text: "They are obligate anaerobes"
         correct: false
         feedback: "Neisseria use oxygen. Their limitation is fragility outside the body, which restricts spread to close contact."
@@ -42,7 +42,7 @@ questions:
     options:
       - text: "Mycoplasma has no wall; Chlamydia is tiny, has almost no peptidoglycan, and hides inside cells"
         correct: true
-        feedback: "Right. Same failure, different causes, and the cause predicts the rest: Mycoplasma can grow without cells if given sterols; Chlamydia cannot."
+        feedback: "Same failure, different causes, and the cause predicts the rest: Mycoplasma can grow without cells if given sterols; Chlamydia cannot."
       - text: "Both have no wall at all"
         correct: false
         feedback: "Only Mycoplasma has no wall. Chlamydia has a Gram-negative-type envelope with very little peptidoglycan, and lives inside cells."
@@ -54,7 +54,7 @@ questions:
     options:
       - text: "*Mycoplasma pneumoniae*"
         correct: true
-        feedback: "Right. There is no wall to build. 'What does it have that my cells lack?' Here, not a wall."
+        feedback: "There is no wall to build. 'What does it have that my cells lack?' Here, not a wall."
       - text: "*Staphylococcus aureus*"
         correct: false
         feedback: "S. aureus has a thick peptidoglycan wall, so wall-building is a possible target. Mycoplasma has no wall at all."
@@ -66,7 +66,7 @@ questions:
     options:
       - text: "Wet surfaces exposed to air, such as sinks"
         correct: true
-        feedback: "Right. Water plus oxygen suits a strict respirer. Metabolism predicts habitat."
+        feedback: "Water plus oxygen suits a strict respirer. Metabolism predicts habitat."
       - text: "The oxygen-free colon"
         correct: false
         feedback: "Without fermentation it struggles where there is no oxygen. Wet, air-exposed surfaces suit it."

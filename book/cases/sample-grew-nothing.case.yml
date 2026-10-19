@@ -57,7 +57,7 @@ nodes:
       - id: a
         text: "The bowel is full of anaerobes, and the centre of an abscess has little oxygen."
         correct: true
-        feedback: "Right. The source is rich in anaerobes, and the dead tissue and pus at an abscess's centre have no blood supply, so little oxygen. Both point the same way."
+        feedback: "The source is rich in anaerobes, and the necrotic tissue and pus at an abscess's centre have no blood supply, so little oxygen. Both point the same way."
         effects: { quality: +1 }
         goto: q-fix
       - id: b
@@ -78,7 +78,7 @@ nodes:
       - id: a
         text: "Send it in an oxygen-free transport container, quickly, and incubate plates in an anaerobic jar."
         correct: true
-        feedback: "Right. Keep oxygen away from collection to incubation. How a sample is handled decides what the lab can find."
+        feedback: "Keep oxygen away from collection to incubation. How a sample is handled decides what the lab can find."
         effects: { quality: +1 }
         goto: q-two
       - id: b
@@ -99,7 +99,7 @@ nodes:
       - id: a
         text: "One is facultative and grows either way; the other is an obligate anaerobe."
         correct: true
-        feedback: "Right. Growth in both conditions means facultative, like E. coli. Growth only without oxygen means obligate anaerobe, like Bacteroides. They look the same on the slide; oxygen separates them."
+        feedback: "Growth in both conditions means facultative, like E. coli. Growth only without oxygen means obligate anaerobe, like Bacteroides. They look the same on the slide; oxygen separates them."
         effects: { quality: +1 }
         goto: q-mechanism
       - id: b
@@ -120,7 +120,7 @@ nodes:
       - id: a
         text: "Oxygen and reactive oxygen species inactivate central enzymes it depends on."
         correct: true
-        feedback: "Right. Many anaerobes have catalase and superoxide dismutase. Their weakness is metabolic enzymes built around iron–sulfur clusters or radical chemistry, which oxygen breaks."
+        feedback: "Many anaerobes have catalase and superoxide dismutase. Their weakness is metabolic enzymes built around iron–sulfur clusters or radical chemistry, which oxygen breaks."
         effects: { quality: +1 }
         goto: route
       - id: b
@@ -148,7 +148,7 @@ nodes:
       The thread through every step is oxygen. The bowel and an abscess centre are oxygen-poor, so
       they hold anaerobes. A sample left in air and plates grown in air lose them. Growing with and
       without oxygen separates organisms that look identical on the slide. And oxygen kills
-      anaerobes by breaking enzymes they depend on, not simply because they lack defences. Replay
+      anaerobes by inactivating enzymes they depend on, even in anaerobes that carry protective enzymes. Replay
       and follow the oxygen at each step.
     next: end-partial
 

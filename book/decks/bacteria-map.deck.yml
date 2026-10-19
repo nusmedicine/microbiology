@@ -6,40 +6,40 @@ cards:
   - id: b1
     kind: how
     front: "Describe *Enterobacterales* in terms of traits."
-    back: "**Gram-negative rods**, **facultative** (ferment or respire), living in the **gut**. LPS in their outer membrane drives inflammation if they reach the blood."
+    back: "Gram-negative rods, facultative (ferment or respire), living in the gut. LPS in their outer membrane drives inflammation if they reach the blood."
   - id: b2
     kind: why
     front: "Why does a bacterium become 'fastidious'?"
-    back: "Living on a rich host, it **lost genes** for making nutrients the host supplies. It now needs them provided: by a host in nature, by enriched media in the lab."
+    back: "Living on a rich host, it lost genes for making nutrients the host supplies. It now needs them provided: by a host in nature, by enriched media in the lab."
   - id: b3
     kind: why
     front: "Why do *Neisseria* spread only by close contact?"
-    back: "They are **fragile**: they live only in humans and die quickly outside the body, so they cannot travel through the environment."
+    back: "They are fragile: they live only in humans and die quickly outside the body, so they cannot travel through the environment."
   - id: b4
     kind: apart
     front: "Two pink rods: one from the gut, one from a sink drain. What trait explains the difference?"
-    back: "**Energy.** The gut organism ferments (works without oxygen); the sink organism cannot ferment and must respire, so it lives where water meets air."
+    back: "Energy. The gut organism ferments (works without oxygen); the sink organism cannot ferment and must respire, so it lives where water meets air."
   - id: b5
     kind: why
     front: "What are the two reasons the 'atypical' bacteria fail the usual toolkit?"
-    back: "**No cell wall** (*Mycoplasma*), or **lives only inside host cells** (*Chlamydia*, *Rickettsia*)."
+    back: "No cell wall (*Mycoplasma*), or lives only inside host cells (*Chlamydia*, *Rickettsia*)."
   - id: b6
     kind: predict
     front: "An organism has no cell wall. Predict its Gram stain and whether wall-targeting drugs work."
-    back: "**No useful Gram stain** (nothing to hold or lose the dye), and **wall-targeting drugs cannot work** (nothing to act on)."
+    back: "No useful Gram stain (nothing to hold or lose the dye), and wall-targeting drugs cannot work (nothing to act on)."
   - id: b7
     kind: apart
     front: "*Mycoplasma* versus *Chlamydia*: which can grow without living cells, and why?"
-    back: "**Mycoplasma**, given sterols: it lives outside cells and makes its own ATP. *Chlamydia* lives inside cells and imports ATP from them."
+    back: "Mycoplasma, given sterols: it lives outside cells and makes its own ATP. *Chlamydia* lives inside cells and imports ATP from them."
   - id: b8
     kind: why
     front: "Why are mycobacteria walled off in granulomas?"
-    back: "They **survive inside macrophages**, so the host cannot simply kill them; it surrounds and contains them instead."
+    back: "They survive inside macrophages, so the host cannot simply kill them; it surrounds and contains them instead."
   - id: b9
     kind: how
     front: "How do spirochaetes move through tissue?"
-    back: "Their **flagella lie inside the envelope**, so the whole cell twists like a corkscrew and drills through tissue and gel."
+    back: "Their flagella lie inside the envelope, so the whole cell twists like a corkscrew and drills through tissue and gel."
   - id: b10
     kind: why
     front: "Why is 'anaerobes' a group even though it mixes Gram-positive and Gram-negative bacteria?"
-    back: "It is defined by **one trait: oxygen poisons them**, which predicts where they live and cause harm."
+    back: "It is defined by one trait: oxygen poisons them, which predicts where they live and cause harm."

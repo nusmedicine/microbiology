@@ -4,16 +4,13 @@
 
 ::: {.callout-note}
 ## In preparation
-This chapter will follow the same template as the *Gram-positive cocci* chapter. The outline below
-shows what it will cover.
+This chapter will follow the layout of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
 :::
 
-**The group in one sentence:** Thick-walled rods; some survive as spores in soil and food, and several cause harm mainly through a single toxin.
-
-**How members differ (the sorting key):** Spores or not; oxygen (Bacillus with oxygen, Clostridium without); growth inside cells.
-
-**Main organisms (full profile cards):** *Clostridium* (tetanus and botulinum toxins as single-toxin diseases), *Listeria* (cold growth, life inside cells).
-
-**Supporting organisms (one table row each):** *Bacillus cereus*, *Bacillus anthracis*, *Clostridioides difficile*, *Corynebacterium diphtheriae*.
-
-**Later in the course:** Tetanus, botulism, diphtheria and *C. difficile* in the infection, neurology and gut blocks; toxoid vaccines in immunology.
+| Part of the chapter | Plan |
+|---|---|
+| The group in one sentence | Thick-walled rods; some survive as spores in soil and food, and several cause harm mainly through a single toxin |
+| Sorting key | Spores or not; oxygen (Bacillus with oxygen, Clostridium without); growth inside cells |
+| Main organisms | *Clostridium* (tetanus and botulinum toxins as single-toxin diseases), *Listeria* (cold growth, life inside cells) |
+| Supporting organisms | *Bacillus cereus*, *Bacillus anthracis*, *Clostridioides difficile*, *Corynebacterium diphtheriae* |
+| Later in the course | Tetanus, botulism, diphtheria and *C. difficile* in the infection, neurology and gut blocks; toxoid vaccines in immunology |

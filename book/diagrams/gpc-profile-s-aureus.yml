@@ -14,7 +14,7 @@ slots:
       options:
         - text: "Hiding inside cells for years, walled off in granulomas"
           correct: true
-          feedback: "Right, that is the mycobacterial pattern. *S. aureus* invades tissue and forms pus, releases toxins locally, or releases toxins that act on the whole body."
+          feedback: "That is the mycobacterial pattern. *S. aureus* invades tissue and forms pus, releases toxins locally, or releases toxins that act on the whole body."
         - text: "Invading tissue and attracting neutrophils, forming pus"
           correct: false
           feedback: "That is its commonest pattern: invasion with pus and abscess. The one it does not use is long-term survival inside cells in granulomas."
@@ -28,7 +28,7 @@ slots:
       options:
         - text: "Localised and walled off: an abscess"
           correct: true
-          feedback: "Right. Fibrin and dead neutrophils wall the infection off. Compare *S. pyogenes*, which dissolves clots and spreads."
+          feedback: "Fibrin and dead neutrophils wall the infection off. Compare *S. pyogenes*, which dissolves clots and spreads."
         - text: "Spreading rapidly along tissue planes"
           correct: false
           feedback: "That is more typical of *S. pyogenes*, whose enzymes dissolve clots. Coagulase does the opposite: it walls *S. aureus* infections off as abscesses."

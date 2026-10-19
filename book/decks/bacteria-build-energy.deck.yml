@@ -6,48 +6,48 @@ cards:
   - id: c1
     kind: why
     front: "Why does a Gram-positive cell stay purple after the alcohol step?"
-    back: "Alcohol dehydrates its **thick peptidoglycan wall**, which shrinks and traps the large dye–iodine complex inside."
+    back: "Alcohol dehydrates its thick peptidoglycan wall, which shrinks and traps the large dye–iodine complex inside."
   - id: c2
     kind: why
     front: "Why does a Gram-negative cell lose the purple dye?"
-    back: "Alcohol dissolves its lipid **outer membrane**, and the **thin** peptidoglycan beneath cannot hold the dye–iodine complex. It then takes up the pink counterstain."
+    back: "Alcohol dissolves its lipid outer membrane, and the thin peptidoglycan beneath cannot hold the dye–iodine complex. It then takes up the pink counterstain."
   - id: c3
     kind: how
     front: "How does lipopolysaccharide (LPS) connect microbiology to general pathology?"
-    back: "Its lipid A is recognised by immune receptors and triggers **inflammation**, including fever. That is why LPS is called endotoxin."
+    back: "Its lipid A is recognised by immune receptors and triggers inflammation, including fever. That is why LPS is called endotoxin."
   - id: c4
     kind: apart
     front: "On a Gram stain, how do you tell staphylococci from streptococci?"
-    back: "Both are purple cocci. **Clusters** (division in several planes) mean staphylococci; **chains** (division in one plane) mean streptococci."
+    back: "Both are purple cocci. Clusters (division in several planes) mean staphylococci; chains (division in one plane) mean streptococci."
   - id: c5
     kind: apart
     front: "*E. coli* and *Bacteroides* are both pink rods from the colon. What separates them?"
-    back: "**Oxygen.** *E. coli* is facultative and grows in air; *Bacteroides* is an obligate anaerobe and grows only without oxygen."
+    back: "Oxygen. *E. coli* is facultative and grows in air; *Bacteroides* is an obligate anaerobe and grows only without oxygen."
   - id: c6
     kind: predict
     front: "An organism can respire with oxygen or ferment without it. Where will it grow in an oxygen-gradient tube?"
-    back: "**Throughout the tube, densest at the top**, because respiration gives more ATP than fermentation."
+    back: "Throughout the tube, densest at the top, because respiration gives more ATP than fermentation."
   - id: c7
     kind: predict
     front: "An organism only ferments and has enzymes that protect it from oxygen. Where will it grow in the tube?"
-    back: "**Evenly throughout.** Oxygen neither helps nor harms it: an aerotolerant anaerobe."
+    back: "Evenly throughout. Oxygen neither helps nor harms it: an aerotolerant anaerobe."
   - id: c8
     kind: why
     front: "Why does oxygen kill obligate anaerobes?"
-    back: "Oxygen and reactive oxygen species **inactivate central enzymes** they depend on, built around iron–sulfur clusters or radical chemistry. Lacking catalase or superoxide dismutase is not the main reason; many anaerobes have them."
+    back: "Oxygen and reactive oxygen species inactivate central enzymes they depend on, built around iron–sulfur clusters or radical chemistry. Lacking catalase or superoxide dismutase is not the main reason; many anaerobes have them."
   - id: c9
     kind: why
     front: "Bacteria have no mitochondria. How can they respire?"
-    back: "Their **electron transport chain sits in the cell membrane**. Mitochondria are descended from bacteria that did the same."
+    back: "Their electron transport chain sits in the cell membrane. Mitochondria are descended from bacteria that did the same."
   - id: c10
     kind: predict
     front: "Will an alcohol hand rub kill bacterial spores?"
-    back: "**No.** The dehydrated core and protective coats resist alcohol. Soap and water remove spores physically; an autoclave (steam at 121 °C) kills them."
+    back: "No. The dehydrated core and protective coats resist alcohol. Soap and water remove spores physically; an autoclave (steam at 121 °C) kills them."
   - id: c11
     kind: why
     front: "Why is peptidoglycan a good place to attack a bacterium?"
-    back: "**Human cells have nothing like it**, so blocking it harms the bacterium and spares you. This answers the question *what does it have that my cells lack?*"
+    back: "Human cells have nothing like it, so blocking it harms the bacterium and spares you. This answers the question *what does it have that my cells lack?*"
   - id: c12
     kind: how
     front: "Why do necrotic tissue and the centre of an abscess suit anaerobes?"
-    back: "They have **lost their blood supply**, so they contain little oxygen."
+    back: "They have lost their blood supply, so they contain little oxygen."

@@ -4,16 +4,13 @@
 
 ::: {.callout-note}
 ## In preparation
-This chapter will follow the same template as the *Gram-positive cocci* chapter. The outline below
-shows what it will cover.
+This chapter will follow the layout of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
 :::
 
-**The group in one sentence:** Eukaryotic microbes that grow as yeasts, moulds, or switch between the two with temperature.
-
-**How members differ (the sorting key):** Yeast, mould or dimorphic; ergosterol versus cholesterol; who gets infected (host factors).
-
-**Main organisms (full profile cards):** *Candida albicans* (commensal turned opportunist), *Aspergillus* (inhaled spores), *Cryptococcus* (capsule).
-
-**Supporting organisms (one table row each):** Dermatophytes, *Histoplasma*, *Pneumocystis*.
-
-**Later in the course:** Skin, lung and opportunistic infections in the organ blocks; antifungal drugs in pharmacology.
+| Part of the chapter | Plan |
+|---|---|
+| The group in one sentence | Eukaryotic microbes that grow as yeasts, moulds, or switch between the two with temperature |
+| Sorting key | Yeast, mould or dimorphic; ergosterol versus cholesterol; who gets infected (host factors) |
+| Main organisms | *Candida albicans* (commensal turned opportunist), *Aspergillus* (inhaled spores), *Cryptococcus* (capsule) |
+| Supporting organisms | Dermatophytes, *Histoplasma*, *Pneumocystis* |
+| Later in the course | Skin, lung and opportunistic infections in the organ blocks; antifungal drugs in pharmacology |

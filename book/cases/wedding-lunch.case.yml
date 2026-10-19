@@ -25,8 +25,8 @@ nodes:
       stomach cramps. Few had a fever, and most felt better by the next day.
 
       The menu included rice, a curry, and egg sandwiches and cream puffs that the caterer had prepared
-      by hand early that morning and kept at room temperature until serving. *"Let's work out what
-      happened,"* says Ms Tan.
+      by hand early that morning and kept at room temperature until serving. *"What happened here?"*
+      asks Ms Tan.
     next: q-timing
 
   - id: q-timing
@@ -36,7 +36,7 @@ nodes:
       - id: a
         text: "A toxin that was already in the food when it was eaten"
         correct: true
-        feedback: "Right. Bacteria that must first grow in the gut usually take a day or more. A gap of hours means the harmful substance was already made, in the food."
+        feedback: "Bacteria that must first grow in the gut usually take a day or more. A gap of hours means the harmful substance was already made, in the food."
         effects: { quality: +1 }
         goto: q-food
       - id: b
@@ -57,7 +57,7 @@ nodes:
       - id: a
         text: "The hand-made sandwiches and cream puffs, left warm for hours"
         correct: true
-        feedback: "Right. Food handled after cooking can pick up bacteria from hands, and hours at room temperature let them multiply and make toxin."
+        feedback: "Food handled after cooking can pick up bacteria from hands, and hours at room temperature let them multiply and make toxin."
         effects: { quality: +1 }
         goto: q-lab
       - id: b
@@ -78,7 +78,7 @@ nodes:
       - id: a
         text: "*Staphylococcus aureus*, from the nose or skin of a food handler"
         correct: true
-        feedback: "Right. Clusters, catalase and coagulase point to *S. aureus*. About one in three people carry it in the nose, and a small cut on a hand is another source."
+        feedback: "Clusters, catalase and coagulase point to *S. aureus*. About one in three people carry it in the nose, and a small cut on a hand is another source."
         effects: { quality: +1 }
         goto: q-reheat
       - id: b
@@ -99,7 +99,7 @@ nodes:
       - id: a
         text: "Reheating kills the bacteria but not the toxin, which survives heat"
         correct: true
-        feedback: "Right. This toxin is heat-stable. Once it has formed, cooking does not make the food safe. Prevention means stopping growth in the first place."
+        feedback: "This toxin is heat-stable. Once it has formed, cooking does not make the food safe. Prevention means stopping growth in the first place."
         effects: { quality: +1 }
         goto: q-why-ill
       - id: b
@@ -120,7 +120,7 @@ nodes:
       - id: a
         text: "The illness was caused by a dose of toxin, not a growing infection, so it ended once the toxin was cleared"
         correct: true
-        feedback: "Right. No bacteria were multiplying in the guests. Once the toxin had passed through, the illness was over."
+        feedback: "No bacteria were multiplying in the guests. Once the toxin had passed through, the illness was over."
         effects: { quality: +1 }
         goto: route
       - id: b

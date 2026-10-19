@@ -4,16 +4,13 @@
 
 ::: {.callout-note}
 ## In preparation
-This chapter will follow the same template as the *Gram-positive cocci* chapter. The outline below
-shows what it will cover.
+This chapter will follow the layout of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
 :::
 
-**The group in one sentence:** Gram-negative bacteria that depend on their host for nutrients, or die quickly outside it.
-
-**How members differ (the sorting key):** Growth needs (enriched media); fragility outside the body; capsule.
-
-**Main organisms (full profile cards):** *Neisseria meningitidis* (capsule in the blood), *Neisseria gonorrhoeae* (fragility, antigenic variation), *Haemophilus influenzae* (factors from blood).
-
-**Supporting organisms (one table row each):** *Bordetella pertussis*, *Legionella*, *Moraxella*, the HACEK group.
-
-**Later in the course:** Meningitis, gonorrhoea, whooping cough and Legionnaires disease in the organ blocks.
+| Part of the chapter | Plan |
+|---|---|
+| The group in one sentence | Gram-negative bacteria that depend on their host for nutrients, or die quickly outside it |
+| Sorting key | Growth needs (enriched media); fragility outside the body; capsule |
+| Main organisms | *Neisseria meningitidis* (capsule in the blood), *Neisseria gonorrhoeae* (fragility, antigenic variation), *Haemophilus influenzae* (factors from blood) |
+| Supporting organisms | *Bordetella pertussis*, *Legionella*, *Moraxella*, the HACEK group |
+| Later in the course | Meningitis, gonorrhoea, whooping cough and Legionnaires disease in the organ blocks |

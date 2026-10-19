@@ -5,7 +5,7 @@ intro: "Each description gives an exposure, not an organism. Sort each one by it
 categories:
   - key: contact
     label: "Contact"
-    summary: "direct contact between people, or indirect contact through a contaminated object (a **fomite**). Hand hygiene is the main interruption."
+    summary: "direct contact between people, or indirect contact through a contaminated object (a fomite). Hand hygiene is the main interruption."
   - key: respiratory
     label: "Respiratory"
     summary: "particles breathed out. Large droplets fall nearby; small particles stay airborne longer and travel further."

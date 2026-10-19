@@ -6,7 +6,7 @@ questions:
     options:
       - text: "In the bacterium's cell membrane"
         correct: true
-        feedback: "Right. Bacteria have no mitochondria. The electron transport chain sits in the cell membrane itself, which is where mitochondria's ancestors kept it too."
+        feedback: "Bacteria have no mitochondria. The electron transport chain sits in the cell membrane itself, which is where mitochondria's ancestors kept it too."
       - text: "In the bacterium's mitochondria"
         correct: false
         feedback: "Bacteria have no mitochondria, or any other membrane-bound organelle. The chain sits in the cell membrane. Mitochondria are in fact descended from bacteria."
@@ -18,7 +18,7 @@ questions:
     options:
       - text: "A nucleus"
         correct: true
-        feedback: "Right. A bacterium's DNA lies free in the cytoplasm, usually as one circular chromosome. That absence is what 'prokaryote' means."
+        feedback: "A bacterium's DNA lies free in the cytoplasm, usually as one circular chromosome. That absence is what 'prokaryote' means."
       - text: "Ribosomes"
         correct: false
         feedback: "Every cell that makes protein needs ribosomes. Bacterial ones are smaller (70S) than yours (80S). What a bacterium lacks is a nucleus."

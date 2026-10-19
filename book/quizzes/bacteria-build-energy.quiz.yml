@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Pink, and could be mistaken for Gram-negative"
         correct: true
-        feedback: "Right. Given long enough, even a thick wall lets the dye–iodine complex out. The cell then takes up the pink counterstain. The colour depends on the wall holding the complex during a short decolourising step."
+        feedback: "Given long enough, even a thick wall lets the dye–iodine complex out. The cell then takes up the pink counterstain. The colour depends on the wall holding the complex during a short decolourising step."
       - text: "Purple, as usual, because the wall is thick"
         correct: false
         feedback: "A thick wall slows the loss of dye; it does not stop it. Over-decolourising washes the complex out, and the cell turns pink."
@@ -18,7 +18,7 @@ questions:
     options:
       - text: "Its lipopolysaccharide (LPS) triggers strong inflammation in the host"
         correct: true
-        feedback: "Right. Lipid A, part of LPS, is recognised by immune receptors and drives fever and inflammation. That is why LPS is called endotoxin."
+        feedback: "Lipid A, part of LPS, is recognised by immune receptors and drives fever and inflammation. That is why LPS is called endotoxin."
       - text: "It is the thick layer that keeps the purple dye in"
         correct: false
         feedback: "That is the Gram-positive peptidoglycan wall. The Gram-negative outer membrane is lipid, and its LPS is a powerful trigger of inflammation."
@@ -30,7 +30,7 @@ questions:
     options:
       - text: "It needs some oxygen, but full air levels harm it"
         correct: true
-        feedback: "Right. That is a microaerophile: it uses oxygen for respiration but is damaged at normal air levels, so it lives where oxygen is low but present."
+        feedback: "That is a microaerophile: it uses oxygen for respiration but is damaged at normal air levels, so it lives where oxygen is low but present."
       - text: "It cannot use oxygen at all"
         correct: false
         feedback: "An organism that cannot use oxygen and is harmed by it grows at the bottom. A band near the top means it needs a little oxygen, but not much."
@@ -42,7 +42,7 @@ questions:
     options:
       - text: "Oxygen directly inactivates key enzymes they depend on; many anaerobes have those defence enzymes"
         correct: true
-        feedback: "Right. Many anaerobes, including Bacteroides fragilis, make catalase and superoxide dismutase. Their weak point is central enzymes built around iron–sulfur clusters or radical chemistry, which oxygen breaks."
+        feedback: "Many anaerobes, including Bacteroides fragilis, make catalase and superoxide dismutase. Their weak point is central enzymes built around iron–sulfur clusters or radical chemistry, which oxygen breaks."
       - text: "Your friend is right; that is the whole explanation"
         correct: false
         feedback: "That explanation came from an early observation that was over-read. Many anaerobes do carry these enzymes. Oxygen damages the metabolic enzymes they depend on."
@@ -54,7 +54,7 @@ questions:
     options:
       - text: "Respiration with oxygen yields far more ATP per glucose than fermentation"
         correct: true
-        feedback: "Right. A facultative anaerobe can grow either way, but more ATP means faster growth where oxygen is available."
+        feedback: "A facultative anaerobe can grow either way, but more ATP means faster growth where oxygen is available."
       - text: "Oxygen is toxic at the bottom of the tube"
         correct: false
         feedback: "There is no oxygen at the bottom. E. coli grows there by fermentation, just more slowly, because fermentation yields less ATP."
@@ -66,7 +66,7 @@ questions:
     options:
       - text: "How the cells divide: in several planes, or in one"
         correct: true
-        feedback: "Right. Division in several planes piles cells into clusters; division in one plane lines them up in chains."
+        feedback: "Division in several planes piles cells into clusters; division in one plane lines them up in chains."
       - text: "Whether the wall is thick or thin"
         correct: false
         feedback: "Both have thick Gram-positive walls. The arrangement records the plane of cell division."
@@ -78,7 +78,7 @@ questions:
     options:
       - text: "The spore's dehydrated core and tough coats resist alcohol"
         correct: true
-        feedback: "Right. A spore is a dormant, dehydrated cell inside protective coats. Alcohol does not get through. Soap and water work by physically removing spores."
+        feedback: "A spore is a dormant, dehydrated cell inside protective coats. Alcohol does not get through. Soap and water work by physically removing spores."
       - text: "Spores are made only by Gram-negative bacteria, whose outer membrane blocks alcohol"
         correct: false
         feedback: "Spores are made by some Gram-positive rods, such as Bacillus and Clostridium. Their resistance comes from the spore's dehydrated core and coats."

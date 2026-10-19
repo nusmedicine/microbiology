@@ -1,144 +1,141 @@
 # Detecting and controlling microbes
 
-> *This chapter closes Part I with the practical questions: how do we find out which microbe is
-> present, and how do we get rid of microbes we do not want? Both answers follow from the traits
-> in the earlier chapters.*
+> *How does a laboratory find out which microbe is present, and how are unwanted microbes removed? Both
+> answers follow from the traits described in the earlier chapters.*
 
-## Every method reads something {#sec-det-reads}
+## What each method reads {#sec-det-reads}
 
-A laboratory method never shows you "the organism". It reads one property, and what it reads sets
-what it can and cannot tell you. Keeping that in mind explains most of what seems arbitrary about
-diagnostic microbiology.
+A laboratory method does not show "the organism" directly. Each method reads one property, and what it
+reads sets what it can and cannot tell you. Keeping this in mind explains most of what seems arbitrary
+about diagnostic microbiology.
 
 <div data-island="sorter" data-src="/diagrams/method-sorter.yml"></div>
 
 ## Seeing: stains and microscopy {#sec-det-microscopy}
 
-Microscopy is fast, cheap and available everywhere, and it reads structure. You met the Gram stain in
-the *How bacteria are built and get energy* chapter: it reads the envelope, sorting most bacteria into
-two groups within minutes. The acid-fast stain reads a waxy, mycolic-acid wall, which is why it finds
-mycobacteria that the Gram stain misses.
+Microscopy is fast, cheap and widely available, and it reads structure. The Gram stain, from [*How
+bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-envelope), reads the envelope
+and sorts most bacteria into two groups within minutes. The acid-fast stain reads a waxy, mycolic-acid
+wall, so it finds mycobacteria that the Gram stain misses.
 
-The limits follow from what a stain reads. It gives a category, not a species: purple cocci in chains
-could be several organisms. It needs enough organisms to be present, typically around 10⁴ to 10⁵ per
-millilitre of fluid, so a negative result does not exclude infection. And organisms with no wall, or
-too thin to resolve, give nothing useful.
+The limits follow from what a stain reads. A stain gives a category, not a species: purple cocci in
+chains could be one of several organisms. It also needs enough organisms to be present, typically
+around 10⁴ to 10⁵ per millilitre of fluid, so a negative result does not exclude infection.
+Organisms with no wall, or too thin to resolve, give nothing useful.
 
 ## Growing: culture {#sec-det-culture}
 
-Culture reads growth. Its advantage over every other method is that it yields a **living isolate**,
-which can then be identified, tested against drugs, and compared with isolates from other patients in
-an outbreak investigation.
-
-Media are chosen for what they allow or reveal:
+Culture reads growth. Its main advantage over every other method is that it yields a living
+isolate, which can then be identified, tested against drugs, and compared with isolates from other
+patients during an outbreak investigation. Media are chosen for what they allow to grow or what they
+reveal.
 
 | Type of medium | What it does | Example of use |
 |---|---|---|
-| **Non-selective** | Supports a wide range of organisms | A general plate for a normally sterile sample |
+| **Non-selective** | Supports a wide range of organisms | A general plate for a sample from a normally sterile site |
 | **Enriched** | Adds nutrients that fastidious organisms cannot make | Chocolate agar, which supplies factors released from lysed red cells |
-| **Selective** | Contains agents that suppress unwanted organisms | Isolating one pathogen from a sample full of normal microbiota |
-| **Differential** | Makes colonies look different according to a metabolic property | Blood agar, where haemolysis distinguishes streptococci |
+| **Selective** | Contains agents that suppress unwanted organisms | Isolating one pathogen from a sample full of resident microbiota |
+| **Differential** | Makes colonies look different according to a metabolic property | Blood agar, on which haemolysis distinguishes streptococci |
 
-Culture conditions decide what a laboratory can find. An anaerobe will not grow on a plate left in
-air, as in the lab case in the *How bacteria are built and get energy* chapter. A slow-growing
-organism will be missed by a laboratory that discards plates too early, as in the Helicobacter case.
-An obligate intracellular organism will not grow on agar at all. None of these failures means the
-sample contained nothing.
+Culture conditions decide what a laboratory can find. An anaerobe will not grow on a plate kept in air,
+as in the lab case in [*How bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-case).
+A slow-growing organism is missed if plates are discarded too early, as in the *Helicobacter* case in
+[*The microbial world*](microbial-world.qmd#sec-world-case). An obligate intracellular organism will not
+grow on agar at all. In none of these situations does a negative culture mean the sample contained
+nothing.
 
-Culture is also slow. Many bacteria need overnight incubation, and mycobacteria can take weeks. That
-delay is the main reason molecular methods have become central.
+Culture is also slow. Many bacteria need overnight incubation, and mycobacteria can take weeks, which
+is the main reason molecular methods have become central.
 
 ## Detecting molecules {#sec-det-molecular}
 
-**Nucleic acid amplification tests (NAATs)**, of which the polymerase chain reaction is the familiar
-example, copy a target sequence many times until it can be detected. They are fast, extremely
-sensitive, and can find organisms that cannot be cultured.
+**Nucleic acid amplification tests (NAATs)**, of which the polymerase chain reaction (PCR) is the
+best-known example, copy a target sequence many times until it can be detected. They are fast and
+highly sensitive, and they can detect organisms that cannot be cultured. Three consequences follow from
+what they read:
 
-Three consequences of what they read are worth knowing:
+- They detect sequence, not viability. Dead organisms, or nucleic acid remaining after an infection has
+  resolved, can give a positive result, so a positive test does not always mean active infection.
+- They detect only their target. A test designed for one organism will not report another, whereas
+  culture can grow an organism nobody was looking for.
+- Their sensitivity makes contamination a real risk, which is why laboratories separate the work
+  done before and after amplification.
 
-- They detect *sequence, not life*. A positive result can come from dead organisms or residual
-  nucleic acid after an infection has resolved, so a positive test does not always mean a current,
-  active infection.
-- They find *only what they look for*. A test designed for one organism will not report another,
-  unlike culture, which can grow the unexpected.
-- Their sensitivity makes **contamination** a real problem, which is why laboratories separate
-  pre- and post-amplification work.
-
-**MALDI-TOF mass spectrometry** reads the protein profile of a colony and matches it against a
-database, identifying most organisms in minutes once they have grown. It has largely replaced long
-sequences of biochemical tests. **Whole-genome sequencing** reads the entire genome, at a resolution
-that can establish whether two patients' isolates are the same strain, which is now standard in
-outbreak investigation.
+**MALDI-TOF mass spectrometry** reads the protein profile of a colony and matches it against a database,
+identifying most organisms within minutes once they have grown. It has largely replaced long series of
+biochemical tests. **Whole-genome sequencing** reads the entire genome, at a resolution that can show
+whether isolates from two patients belong to the same strain, and it is now standard in outbreak
+investigation.
 
 ## Reading the host: serology {#sec-det-serology}
 
-Serology detects the patient's **antibodies**, so it is evidence about the host's experience rather
-than about the organism's current presence. Two patterns carry most of the interpretation. IgM
-appears early and falls; IgG appears later and persists, sometimes for life. A **rise in antibody
-level between paired samples** taken one to two weeks apart indicates recent infection.
+**Serology** detects the patient's antibodies, so it is evidence about the host's history rather than
+about the organism's presence now. Two patterns carry most of the interpretation. IgM appears early and
+then falls; IgG appears later and persists, sometimes for life. A rise in antibody level between
+**paired sera**, samples taken one to two weeks apart, indicates recent infection.
 
-The usual pitfall follows directly: a single positive IgG result may reflect an infection years ago,
-or vaccination. Serology is most useful for organisms that are hard to culture, for infections
-diagnosed after the organism has gone, and for assessing immunity.
+The usual pitfall follows directly: a single positive IgG result may reflect an infection years ago, or
+vaccination. Serology is most useful for organisms that are hard to culture, for infections diagnosed
+after the organism has gone, and for assessing immunity.
 
 ## Testing drug susceptibility {#sec-det-mic}
 
-Once an organism has been grown, its susceptibility can be measured. The standard quantity is the
-**minimum inhibitory concentration (MIC)**: the lowest concentration of a drug that prevents visible
-growth.
+Once an organism has been grown, its susceptibility to drugs can be measured. The standard quantity is
+the **minimum inhibitory concentration (MIC)**, the lowest concentration of a drug that prevents
+visible growth.
 
 <div data-island="mic-reader" data-src="/diagrams/mic-reader.yml"></div>
 
 The laboratory converts the MIC into a category using a **breakpoint**, the concentration agreed to
-separate organisms likely to respond from those that are not. Breakpoints come from committees such
-as EUCAST and CLSI and are revised as evidence accumulates, so they are looked up rather than
-memorised. Two cautions matter at this stage. A report of "susceptible" describes the organism in a
-tube, not the patient: the drug still has to reach the site of infection at an adequate
-concentration. And a result is only as good as the sample, which is why samples are ideally taken
-before treatment starts.
+separate organisms likely to respond from those that are not. Breakpoints are set by committees such as
+EUCAST and CLSI and are revised as evidence accumulates, so they are looked up rather than memorised.
+Two cautions apply at this stage. A report of "susceptible" describes the organism in a tube, not the
+patient: the drug still has to reach the site of infection at an adequate concentration. And a result
+is only as good as the sample, which is why samples are ideally taken before treatment starts.
 
 ## Controlling microbes {#sec-det-control}
 
 Three terms are used precisely in practice and loosely in conversation. **Sterilisation** kills or
-removes all microbial life, including bacterial spores. **Disinfection** removes most organisms from
-an inanimate object, but not reliably spores. **Antisepsis** is the same idea applied to living
-tissue, such as skin preparation before a procedure.
+removes all microbial life, including bacterial spores. **Disinfection** removes most organisms from an
+inanimate object, but does not reliably kill spores. **Antisepsis** applies the same idea to living
+tissue, as in skin preparation before a procedure.
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-sterilisation-disinfection.yml"></div>
 
-Methods differ in what survives them, and the survivors are predictable from earlier chapters.
-Bacterial spores survive boiling and alcohol, so instruments entering sterile tissue are autoclaved.
-Enveloped viruses are easily inactivated by alcohol and detergents, because their lipid envelope is
-fragile, while naked viruses are more resistant, which is why hand washing matters in outbreaks of
-hand, foot and mouth disease. Prions resist routine sterilisation entirely and need specific extended
-protocols.
+What survives each method can be predicted from earlier chapters. Bacterial spores survive boiling
+and alcohol, so instruments that enter sterile tissue are autoclaved. Enveloped viruses are readily
+inactivated by alcohol and detergents, because their lipid envelope is fragile; non-enveloped viruses
+are more resistant, which is why hand washing matters in outbreaks of hand, foot and mouth disease.
+Prions resist routine sterilisation entirely and need specific, extended protocols.
 
-For hands, the practical rule follows the same logic. An alcohol rub is faster and more effective for
-most organisms, but when spores are a concern, soap and water are preferred, because washing removes
-physically what alcohol does not kill.
+The same logic applies to hands. An alcohol hand rub is faster and more effective against most
+organisms, but when spores are a concern, soap and water are preferred, because washing physically
+removes what alcohol does not kill.
 
 ## Preventing infection {#sec-det-prevent}
 
-Prevention works at the links of the chain in the previous chapter. Two deserve naming here.
+Prevention acts on the links of the chain of infection in [*Transmission, outbreaks and One
+Health*](transmission-outbreaks.qmd#sec-trans-chain). Two measures need introducing here.
 
-**Vaccination** makes a host immune without disease. Vaccines contain inactivated organisms, live
-attenuated organisms, purified components such as proteins or capsular polysaccharides, **toxoids**
-(inactivated protein toxins), or nucleic acid encoding an antigen. Two principles recur. Capsular
-polysaccharides alone produce a poor response in young children, so they are **conjugated** to a
-protein, which is why conjugate vaccines transformed protection against encapsulated organisms. And
-vaccination protects the unvaccinated too, by reducing transmission, which is the herd immunity
-effect from the previous chapter. The immunology block covers the mechanisms.
+**Vaccination** makes a host immune without causing disease. Vaccines contain inactivated organisms,
+live attenuated organisms, purified components such as proteins or capsular polysaccharides,
+**toxoids** (inactivated protein toxins), or nucleic acid encoding an antigen. Two principles recur.
+Capsular polysaccharides alone produce a poor response in young children, so they are linked to a
+protein in a **conjugate vaccine**, which greatly improved protection against encapsulated bacteria.
+And vaccination protects unvaccinated people too, by reducing transmission: the herd immunity effect.
+The immunology block covers the mechanisms.
 
-**Antimicrobial stewardship** reduces selection for resistance by using antimicrobials only when
-indicated, at the right dose and duration. The *How bacteria copy themselves and change* chapter
-explains why this is a population-level problem rather than an individual one.
+**Antimicrobial stewardship** limits selection for resistance by using antimicrobials only when
+indicated, at the right dose and for the right duration. [*How bacteria copy themselves and
+change*](bacterial-genetics.qmd#sec-gen-resistance) explains why this is a problem of populations as
+much as of individual patients.
 
-## Where Part I has got to {#sec-det-close}
+## From principles to organisms {#sec-det-close}
 
-You now have the toolkit the rest of the book uses: how microbes are built, how they get energy, how
-they change, how they cause damage, how they spread, and how they are found and controlled. Part II
-takes each group of organisms in turn and asks the same six questions of it. The answers differ; the
-questions do not.
+Part I has covered how microbes are built, how they obtain energy and change, how they cause damage,
+how they spread, and how they are detected and controlled. Part II begins with [*A map of the
+bacteria*](../microbes/bacteria-map.qmd), which uses these traits to organise the bacterial groups you
+will hear named in lectures.
 
 ## Check your understanding {#sec-det-quiz}
 

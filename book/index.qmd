@@ -1,62 +1,49 @@
 # Preface {.unnumbered}
 
-You have just spent weeks learning how your own cells work: membranes, organelles, the
-electron transport chain, DNA to RNA to protein. This book uses that knowledge straight away.
-Every microbe you meet here is a living system solving the same problems your cells solve.
-It needs a boundary, energy, a way to copy itself and a place to live. It simply solves
-them differently.
+You have just spent weeks learning how your own cells work: membranes, organelles, the electron
+transport chain, the path from DNA to protein. This book uses that knowledge from the first page. A
+microbe faces the problems your cells face. It needs a boundary, a source of energy, a way to copy
+itself and a place to live, and it solves each problem in its own way.
 
-That is the idea behind the whole book. Microbiology is often taught as a long parade of
-organisms, each with its own list of facts. Expert groups now recommend moving away from that
-approach for the foundation years [@bauler2026objectives]. Instead, we ask the **same six
-questions** of every kind of microbe:
+Microbiology is often taught as a long sequence of organisms, each with its own list of facts. Expert
+groups now recommend moving away from that approach in the early years of medical school
+[@bauler2026objectives]. This book instead asks the same six questions of every kind of microbe,
+starting with what it is built from and ending with what it has that your cells lack. [*The microbial
+world*](chapters/principles/microbial-world.qmd#sec-world-questions) sets out the six questions. Bacteria,
+viruses, fungi and parasites answer them differently, and those differences explain most of what you
+will later learn about infection.
 
-1. **What is it built from?**
-2. **How does it get energy, and what does it need to grow?**
-3. **How does it copy itself and change?**
-4. **Where does it live, and how does it spread?**
-5. **How does damage happen, and how much is the microbe versus the host?**
-6. **What does it have that my cells lack?**
+## What the book covers
 
-Bacteria, viruses, fungi and parasites give different answers. Those differences are the
-diversity of the microbial world, and they explain most of what you will later learn about
-infection.
+The book has two parts. Part I, *Principles*, builds a toolkit: how microbes are built, how they obtain
+energy and change, how they cause harm and spread, and how they are detected and controlled. Part II,
+*Meeting the microbes*, takes each group of organisms in turn and asks the six questions of it.
 
-## What this book is, and is not
+The book covers the foundations. It leaves out where each infection occurs in the body, how it is
+diagnosed and how it is treated, because you will meet those in the organ-system blocks, and
+pharmacology will teach the drugs. The aim here is a framework that makes those later facts easier to
+place. A named organism appears as an example of a trait, and organisms usually appear in contrasting
+pairs, because comparing two similar things teaches more than studying either alone
+[@alfieri2013contrasting].
 
-The book has two parts. **Principles** builds the toolkit: how microbes are built, get energy, change,
-cause harm, spread and are controlled. **Meeting the microbes** then takes each group of organisms in
-turn and asks the six questions of it.
-
-This book covers the **foundations**. It deliberately leaves out where each infection occurs
-in the body, how it is diagnosed and how it is treated. You will meet those in the
-organ-system blocks, and pharmacology will teach the drugs. Here, the goal is a framework that
-makes those later facts easier to place.
-
-When a named organism appears, it is there as an **example of a trait**, not as an entry to
-memorise. Organisms appear in contrasting pairs, because comparing two similar things teaches
-more than studying either one alone [@alfieri2013contrasting].
+Each technical term is defined where it first appears in a chapter, and all of them are collected in
+the [glossary](glossary.qmd).
 
 ## How to use the interactive parts
 
-Each chapter has things to do as well as things to read:
+| Activity | What you do |
+|---|---|
+| Predict, then reveal | Commit to a prediction before the answer appears. Guess even when unsure: a wrong prediction followed by feedback still helps you learn |
+| Contrast pairs | Find the one feature that separates two similar organisms, then sort descriptions between them |
+| Check your understanding | Answer a short quiz at the end of each chapter. Most questions ask why something happens |
+| Flashcards | Review the chapter's ideas over the following weeks; the deck spaces each card further apart as you get it right |
+| Practise | Work through a short branching case using the chapter's ideas |
 
-- **Predict, then reveal.** Many diagrams ask you to commit to a prediction before showing the
-  answer. Guess even when unsure; a wrong prediction followed by feedback still helps you learn.
-- **Compare pairs.** Contrast activities ask you to find the one feature that tells two similar
-  organisms apart.
-- **Check your understanding.** Each chapter ends with a short quiz and a set of flashcards.
-  The questions ask *why*, not just *what*.
-- **Practise.** A short branching case lets you reason through a problem using the chapter's
-  ideas.
-
-Your answers are saved only in your own browser. Nothing is sent anywhere, and there is no
-login.
+Your answers are saved only in your own browser. Nothing is sent anywhere, and there is no login.
 
 ::: {.callout-warning}
 ## Draft
-This is a pilot. Three chapters are written in full: **How bacteria are built and get energy**,
-**A map of the bacteria** and **Gram-positive cocci**, the test case for the organism-group
-chapters. The others show their planned content. All content is awaiting
-review by teaching staff. Notes for teaching staff are in the appendix.
+This is a pilot. Part I is complete. In Part II, *A map of the bacteria* and *Gram-positive cocci* are
+written in full; the other chapters show their planned content. All content is awaiting review by
+teaching staff, and notes for teaching staff are in the appendix.
 :::

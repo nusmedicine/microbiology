@@ -1,6 +1,6 @@
 id: gpc-key
 title: "Sorting the Gram-positive cocci"
-intro: "Three or four traits separate the whole group. Pick a branch at each step and read what that trait tells you about the organism, not just where it leads."
+intro: "Three or four traits separate the whole group. Pick a branch at each step and read what each trait tells you about the organism as well as where it leads."
 start: arrangement
 
 nodes:
@@ -26,7 +26,7 @@ nodes:
     question: "What happens to the red cells around a colony on blood agar?"
     options:
       - label: "Cleared completely (beta)"
-        meaning: "A toxin bursts red cells outright, leaving a clear zone. A sign of an organism armed with cell-damaging toxins."
+        meaning: "A toxin lyses the red cells completely, leaving a clear zone. A sign of an organism armed with cell-damaging toxins."
         next: lancefield
       - label: "Turned green (alpha)"
         meaning: "Hydrogen peroxide from the bacteria oxidises haemoglobin to a green pigment; the cells are damaged, not burst."
@@ -69,7 +69,7 @@ leaves:
   - id: s-agalactiae
     name: "*Streptococcus agalactiae* (group B)"
     tag: supporting
-    blurb: "Harmless in most adults; dangerous to newborns, who meet it during birth with immature defences."
+    blurb: "Harmless in most adults; dangerous to neonates, who meet it during birth with immature defences."
   - id: s-pneumoniae
     name: "*Streptococcus pneumoniae*"
     tag: main
@@ -77,7 +77,7 @@ leaves:
   - id: viridans
     name: "Viridans streptococci"
     tag: supporting
-    blurb: "Mouth residents. Some ferment sugar to acid that dissolves enamel; if they reach the blood, they can stick to damaged heart valves."
+    blurb: "Mouth residents. Some ferment sugar to acid that causes dental caries; if they reach the blood, they can adhere to damaged heart valves and cause infective endocarditis."
   - id: enterococcus
     name: "*Enterococcus*"
     tag: supporting

@@ -10,7 +10,7 @@ slots:
       options:
         - text: "Nothing useful: there is no wall to hold or lose the dye"
           correct: true
-          feedback: "Right. The Gram stain reads the wall. With no wall, there is nothing for it to read."
+          feedback: "The Gram stain reads the wall. With no wall, there is nothing for it to read."
         - text: "Purple cells, because the membrane holds the dye"
           correct: false
           feedback: "The dye–iodine complex is held by peptidoglycan, which it lacks. With no wall there is nothing for the stain to read."
@@ -24,7 +24,7 @@ slots:
       options:
         - text: "Serum, which supplies sterols"
           correct: true
-          feedback: "Right. Sterol-rich media let it grow without cells, slowly, as tiny colonies."
+          feedback: "Sterol-rich media let it grow without cells, slowly, as tiny colonies."
         - text: "Extra oxygen"
           correct: false
           feedback: "Oxygen is not its problem. It needs sterols supplied, usually from serum added to the medium."
@@ -38,7 +38,7 @@ slots:
       options:
         - text: "Blocking the building of the cell wall"
           correct: true
-          feedback: "Right. There is no wall to build, so wall-targeting drugs have nothing to act on. This answers the sixth question: what does it have that my cells lack? Not a wall."
+          feedback: "There is no wall to build, so wall-targeting drugs have nothing to act on. This answers the sixth question: what does it have that my cells lack? Not a wall."
         - text: "Blocking its ribosomes"
           correct: false
           feedback: "It has bacterial ribosomes, which differ from yours, so they remain a possible target. What it lacks is a wall."

@@ -4,16 +4,13 @@
 
 ::: {.callout-note}
 ## In preparation
-This chapter will follow the same template as the *Gram-positive cocci* chapter. The outline below
-shows what it will cover.
+This chapter will follow the layout of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
 :::
 
-**The group in one sentence:** Thin, coiled bacteria with flagella inside the envelope, hard to stain and often impossible to culture.
-
-**How members differ (the sorting key):** Reservoir (humans, ticks, rats); curved gut bacteria versus spirochaetes.
-
-**Main organisms (full profile cards):** *Treponema pallidum* (cannot be cultured on ordinary media), *Leptospira* (rats and flood water, Singapore relevance).
-
-**Supporting organisms (one table row each):** *Borrelia*, *Campylobacter*, *Helicobacter pylori*.
-
-**Later in the course:** Syphilis, leptospirosis and Lyme disease in the organ blocks.
+| Part of the chapter | Plan |
+|---|---|
+| The group in one sentence | Thin, coiled bacteria with flagella inside the envelope, hard to stain and often impossible to culture |
+| Sorting key | Reservoir (humans, ticks, rats); curved gut bacteria versus spirochaetes |
+| Main organisms | *Treponema pallidum* (cannot be cultured on ordinary media), *Leptospira* (rats and flood water, Singapore relevance) |
+| Supporting organisms | *Borrelia*, *Campylobacter*, *Helicobacter pylori* |
+| Later in the course | Syphilis, leptospirosis and Lyme disease in the organ blocks |

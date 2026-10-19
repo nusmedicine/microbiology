@@ -4,16 +4,13 @@
 
 ::: {.callout-note}
 ## In preparation
-This chapter will follow the same template as the *Gram-positive cocci* chapter. The outline below
-shows what it will cover.
+This chapter will follow the layout of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
 :::
 
-**The group in one sentence:** Bacteria poisoned by oxygen that dominate the body's oxygen-poor places and cause harm where tissue loses its blood supply.
-
-**How members differ (the sorting key):** Gram-positive or Gram-negative; spores or not; where in the body they live.
-
-**Main organisms (full profile cards):** *Bacteroides fragilis* (colon, capsule, abscess), *Clostridium perfringens* (dead tissue, toxins).
-
-**Supporting organisms (one table row each):** *Fusobacterium*, *Prevotella*, *Cutibacterium acnes*.
-
-**Later in the course:** Abdominal, dental and soft-tissue infections in the organ blocks.
+| Part of the chapter | Plan |
+|---|---|
+| The group in one sentence | Bacteria poisoned by oxygen that dominate the body's oxygen-poor places and cause harm where tissue loses its blood supply |
+| Sorting key | Gram-positive or Gram-negative; spores or not; where in the body they live |
+| Main organisms | *Bacteroides fragilis* (colon, capsule, abscess), *Clostridium perfringens* (dead tissue, toxins) |
+| Supporting organisms | *Fusobacterium*, *Prevotella*, *Cutibacterium acnes* |
+| Later in the course | Abdominal, dental and soft-tissue infections in the organ blocks |

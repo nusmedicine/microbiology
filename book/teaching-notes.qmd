@@ -8,10 +8,10 @@ approach used in this draft, as a starting point for discussion.
 
 ## The proposal in brief {#sec-tn-brief}
 
-**Keep the sessions organised by bacterial class, but change what holds each one together.** At
-present a class session tends to run *organism → infections → diagnosis → antibiotics*, repeated for
-each organism. Students meet many organism–disease–drug combinations with no shared structure, so
-they try to memorise them.
+The proposal keeps the sessions organised by bacterial class and changes what holds each session
+together. At present a class session tends to run from organism to infections, then to diagnosis and
+then to antibiotics, repeated for each organism. Students meet many organism–disease–drug combinations
+with no shared structure, so they try to memorise them.
 
 The alternative keeps the same classes and asks the same six questions of each:
 
@@ -19,117 +19,115 @@ The alternative keeps the same classes and asks the same six questions of each:
 2. How does it get energy, and what does it need to grow?
 3. How does it copy itself and change?
 4. Where does it live, and how does it spread?
-5. How does damage happen, and how much is microbe versus host?
+5. How does damage happen, and how much of it comes from the microbe and how much from the host?
 6. What does it have that my cells lack?
 
-Each class session then teaches **why the class behaves as it does**. The specific infections,
+Each class session then explains why the class behaves as it does. The specific infections,
 diagnostic pathways and drug choices move to the organ-system blocks and pharmacology, where students
 attach them to a structure they already have.
 
-**Why this is worth trying.** No trial has compared the two approaches in medical students, so the
-case rests on expert consensus and learning science from other fields:
+No trial has compared the two approaches in medical students, so the case rests on expert consensus
+and on learning research from other fields:
 
-- The 2026 AMSMIC core objectives make the foundational layer pathogen-free and call for moving beyond
-  the "bug parade" [@bauler2026objectives].
-- Students taught causal mechanisms kept more after a week than students taught feature lists (62%
-  versus 51%), in non-infectious conditions.
+- The 2026 AMSMIC core objectives make the foundational layer pathogen-free and call for medical
+  microbiology to move beyond the "bug parade" [@bauler2026objectives].
+- Students taught the causal mechanisms behind clinical features kept more a week later than students
+  taught feature lists: 62% against 51% correct, in neurological and rheumatological conditions
+  [@woods2006basic].
 - Actively comparing two similar cases teaches more than studying each alone [@alfieri2013contrasting].
-- Retrieval practice with feedback, spaced over weeks, is one of the best-supported study methods.
+- Retrieval practice with feedback, spaced over weeks, is among the best-supported study methods.
 
 The full evidence review is in the project's research report.
 
 ## Session crosswalk {#sec-tn-crosswalk}
 
-For each session: what stays as foundation content, what can move later, and where the draft
-already shows it. Chapter names in italics are chapters of this book.
+For each session, the table shows what stays as foundation content, what can move later, and where
+this draft already covers it. Names in italics are chapters of this book; "outline" marks a chapter
+that is planned but not yet written.
 
 ::: {.column-page}
 
 | Session | Keep at foundation level | Move to organ-system blocks | Move to pharmacology | In this draft |
 |------------------|------------------------------------|------------------|------------|----------------|
-| Introduction to microbiology and infectious diseases | Scale; prokaryote versus eukaryote; most microbes are harmless; the six questions | — | — | *The microbial world*; *How bacteria are built* |
-| How microbes cause disease | Colonisation versus disease; damage from microbe versus host; toxins, invasion, survival in cells; host factors | Named diseases | — | *Microbes and their hosts* (outline) |
-| Staphylococci and streptococci | Gram-positive cocci; clusters versus chains; catalase; why infections form pus; carriage | Skin, throat, heart and bone infections | Drug choice; MRSA | **Gram-positive cocci (full test chapter)** |
-| Infections caused by Enterobacterales | Gram-negative facultative gut rods; LPS; harmless residents versus strains with extra genes | Gut, urinary and bloodstream infections | Resistant strains in detail | *Enterobacterales* (outline); map and pair in *A map of the bacteria* |
-| Case studies (F2F) | Recast as mechanism or investigation cases rather than diagnose-and-treat | Clinical cases | — | Lab case in *How bacteria are built*; outbreak case in *Gram-positive cocci* |
-| Epidemiology of infectious diseases | Reservoirs, routes, incubation, carriers, outbreaks, One Health | Syndrome-specific epidemiology | — | *Transmission, outbreaks and One Health* (outline) |
-| Diagnostic bacteriology | What each method reads: stains read the envelope, culture reads growth needs, tests read metabolism, DNA tests bypass culture | Which test for which syndrome | — | Gram stain and oxygen tube in *How bacteria are built*; *Detecting and controlling microbes* (outline) |
+| Introduction to microbiology and infectious diseases | Scale; prokaryote versus eukaryote; most microbes are harmless; the six questions | None | None | *The microbial world*; *How bacteria are built and get energy* |
+| How microbes cause disease | Colonisation versus disease; damage from microbe versus host; toxins, invasion, survival in cells; host factors | Named diseases | None | *Microbes and their hosts* |
+| Staphylococci and streptococci | Gram-positive cocci; clusters versus chains; catalase; why infections are pyogenic; carriage | Skin, throat, heart and bone infections | Drug choice; MRSA | *Gram-positive cocci* (the full test chapter) |
+| Infections caused by Enterobacterales | Gram-negative facultative gut rods; LPS; harmless residents versus strains with extra genes | Gut, urinary and bloodstream infections | Resistant strains in detail | *Enterobacterales* (outline); map and contrast pair in *A map of the bacteria* |
+| Case studies (F2F) | Recast as mechanism or investigation cases instead of diagnose-and-treat cases | Clinical cases | None | One case per chapter, for example the lab case in *How bacteria are built and get energy* and the outbreak case in *Gram-positive cocci* |
+| Epidemiology of infectious diseases | Reservoirs, routes, incubation, carriers, outbreaks, One Health | Syndrome-specific epidemiology | None | *Transmission, outbreaks and One Health* |
+| Diagnostic bacteriology | What each method reads: stains read the envelope, culture reads growth needs, molecular tests read sequence, serology reads the host | Which test for which syndrome | None | *Detecting and controlling microbes*; Gram stain and oxygen tube in *How bacteria are built and get energy* |
 | Fastidious Gram-negative infections | "Fastidious" as lost biosynthesis; why enriched media work | Respiratory and heart-valve infections | Drug choice | *Fastidious Gram-negatives and Gram-negative cocci* (outline) |
-| Pseudomonads, vibrios and Burkholderia | Environmental Gram-negatives; metabolism predicts habitat; natural resistance; melioidosis and diabetes as a host-factor anchor | Hospital infections; cholera; melioidosis presentations | Anti-pseudomonal drugs | *Environmental Gram-negatives* (outline); pair in *A map of the bacteria* |
+| Pseudomonads, vibrios and Burkholderia | Environmental Gram-negatives; metabolism predicts habitat; intrinsic resistance; melioidosis and diabetes as a host-factor example | Healthcare-associated infections; cholera; melioidosis presentations | Anti-pseudomonal drugs | *Environmental Gram-negatives* (outline); contrast pair in *A map of the bacteria*; melioidosis case in *Microbes and their hosts* |
 | Infections caused by Gram-negative cocci | Fragility explains close-contact spread; the capsule in the blood | Meningitis; gonorrhoea | Treatment and prophylaxis | *Fastidious Gram-negatives and Gram-negative cocci* (outline) |
-| Anaerobic infections | Why oxygen harms anaerobes; oxygen-poor niches; abscess logic; sample handling | Abdominal, dental and other mixed infections | Drug choice | Oxygen sections and lab case in *How bacteria are built*; *Anaerobes* (outline) |
+| Anaerobic infections | Why oxygen harms anaerobes; oxygen-poor niches; abscess formation; sample handling | Abdominal, dental and other mixed infections | Drug choice | Oxygen sections and lab case in *How bacteria are built and get energy*; *Anaerobes* (outline) |
 | Infections caused by Gram-positive bacilli | Spores; disease from a single toxin; *Listeria* growing in the cold and inside cells | Tetanus, botulism, diphtheria presentations | Drug choice | *Gram-positive rods* (outline) |
 | Infections caused by spiral bacteria | Internal flagella and corkscrew motility; hard to see or grow, so detected indirectly; ticks and rats as reservoirs | Syphilis stages; leptospirosis; Lyme disease | Drug choice | *Spiral bacteria* (outline) |
-| Atypical infections: *Chlamydia*, *Mycoplasma*, *Rickettsia* | Two reasons the toolkit fails: no wall, or only inside cells; what each predicts for staining, culture and drug targets | Atypical pneumonia; sexually transmitted chlamydia; rickettsial fevers | Drug choice | Worked example in *A map of the bacteria*; *Atypicals and mycobacteria* (outline) |
-| Infection control practical and STD case management (F2F) | Sterilisation versus disinfection; why alcohol rub misses spores; transmission routes | Case management | — | *Detecting and controlling microbes* (outline); spores in *How bacteria are built* |
-| Antibiotic resistance: threats and stewardship | Selection acts on existing variation; gene transfer; "the body becomes resistant" corrected; stewardship as a population idea | Resistance in specific infections | Drug classes and mechanisms | *How bacteria copy themselves and change* (outline); MRSA in *Gram-positive cocci* |
+| Atypical infections: *Chlamydia*, *Mycoplasma*, *Rickettsia* | Two reasons the toolkit fails: no wall, or growth only inside cells; what each predicts for staining, culture and drug targets | Atypical pneumonia; sexually transmitted chlamydia; rickettsial fevers | Drug choice | Worked example in *A map of the bacteria*; *Atypicals and mycobacteria* (outline) |
+| Infection control practical and STD case management (F2F) | Sterilisation versus disinfection; why alcohol rub misses spores; transmission routes | Case management | None | *Detecting and controlling microbes*; *Transmission, outbreaks and One Health* |
+| Antibiotic resistance: threats and stewardship | Selection acts on existing variation; gene transfer; the belief that "the body becomes resistant" corrected; stewardship as a population measure | Resistance in specific infections | Drug classes and mechanisms | *How bacteria copy themselves and change*; MRSA in *Gram-positive cocci* |
 
 :::
 
 ## Before and after: the atypicals session {#sec-tn-before-after}
 
-The same 60-minute self-directed session, in two shapes. The first column is a typical class-based
+The same 60-minute self-directed session, in two forms. The first column is a typical class-based
 outline, not a transcript of any particular session.
 
-| | Class-based outline | Trait-logic outline |
+| | Class-based outline | Trait-based outline |
 |---|---|---|
-| Spine | Three organisms, each in turn | Two reasons the usual toolkit fails |
-| Opening | Definitions and classification | Predict: "A bacterium has no wall. What will the Gram stain, culture and wall-targeting drugs do?" |
-| Middle | For each organism: features, diseases, clinical picture, diagnosis, treatment | *Mycoplasma* profile, predicted slot by slot (about 15 min); *Mycoplasma* versus *Chlamydia* contrast and sort (10 min); *Rickettsia* as a second "inside cells" example, adding vectors (5 min) |
-| Practice | End-of-session MCQs on facts | Mixed retrieval on the bacteria map: name the group from its traits (10 min) |
-| Disease detail | Full, for each organism | A short "you will meet these again in the respiratory and genitourinary blocks" list |
-| What students carry away | About 15 organism–disease–drug facts | Two ideas that predict those facts when they meet them later |
+| Organising idea | Three organisms, each in turn | Two reasons the usual toolkit fails |
+| Opening | Definitions and classification | Predict: "A bacterium has no wall. What will the Gram stain, culture and wall-targeting drugs show?" |
+| Main part | For each organism: features, diseases, clinical picture, diagnosis, treatment | *Mycoplasma* profile, predicted slot by slot (about 15 minutes); *Mycoplasma* versus *Chlamydia* contrast and sort (10 minutes); *Rickettsia* as a second organism that grows only inside cells, adding vectors (5 minutes) |
+| Practice | End-of-session MCQs on facts | Mixed retrieval on the bacteria map: name the group from its traits (10 minutes) |
+| Disease detail | Full, for each organism | A short list of where students will meet each organism again in the respiratory and genitourinary blocks |
+| What students take away | About 15 organism–disease–drug facts | Two ideas that predict those facts when students meet them later |
 
-The trait-logic version is built in this draft: see **Worked example: why "atypical"?** in the
-*A map of the bacteria* chapter.
+The trait-based version is built in this draft, in the section *Worked example: why "atypical"?* of
+*A map of the bacteria*.
 
 ## Depth and coverage: the group-chapter budget {#sec-tn-depth}
 
-The *Gram-positive cocci* chapter is the test case for how deep a group chapter should go. It covers
-the content of the "Staphylococci and streptococci" session within this budget:
+*Gram-positive cocci* is the test case for how deep a group chapter should go. It covers the content
+of the "Staphylococci and streptococci" session within this budget:
 
 | Element | Budget in the test chapter |
 |---|---|
-| Main organisms | 3 (*S. aureus*, *S. pyogenes*, *S. pneumoniae*), each with a full profile card |
-| Supporting organisms | 4, one table row each: where it lives, the separating trait, why it matters |
-| Diseases | Only as **patterns of harm**: mechanism, then one named example. No clinical features or diagnostic criteria |
-| Lab tests | Only those that read a trait: catalase, coagulase, haemolysis, Lancefield group |
+| Main organisms | Three (*S. aureus*, *S. pyogenes*, *S. pneumoniae*), each with a full profile card |
+| Supporting organisms | Four, one table row each: where it lives, the separating trait, why it matters |
+| Diseases | Only as patterns of harm: a mechanism, then one named example. No clinical features or diagnostic criteria |
+| Laboratory tests | Only those that read a trait: catalase, coagulase, haemolysis, Lancefield group |
 | Drugs | None by name. Resistance appears once, as a concept (MRSA as an altered drug target) |
-| Activities | Sorting key, three profiles, two contrast pairs, quiz with mixed items, flashcards, one outbreak case |
-| Length | About 2,500 words of prose, roughly one self-directed session |
+| Activities | Sorting key, three profiles, two contrast pairs, a quiz with mixed items, flashcards, one outbreak case |
+| Length | About 2,500 to 3,000 words, roughly one self-directed session |
 
-**Questions for the meeting:** Is three main organisms right, or too few? Are any of the supporting
-organisms important enough to be main? Is "one named example per mechanism" enough for MD1140, or does
-the course need more disease names at this stage?
+Three questions for the meeting follow from the budget. Are three main organisms enough? Are any of the
+supporting organisms important enough to be main organisms? And is one named example per mechanism
+enough for MD1140, or does the course need more disease names at this stage?
 
 ## What a session looks like in this format {#sec-tn-template}
 
-Each class session in this draft uses the same parts, which makes sessions quicker to write and
-easier for students to navigate:
+Each class session in this draft uses the same parts, which makes sessions quicker to write and easier
+for students to navigate:
 
 - [ ] Open with one prediction that students can answer by reasoning from earlier material.
 - [ ] Answer the six questions at foundation level only.
-- [ ] One or two **contrast pairs**, chosen from the confusions students actually make.
-- [ ] A **microbe profile** card for each example organism, with some slots left for students to predict.
-- [ ] A refutation box wherever a common misconception exists.
-- [ ] A short "later in the course" note naming what the organ-system blocks will add.
-- [ ] Quiz items that ask *why*, with feedback that explains the mechanism.
-- [ ] A few flashcards for spaced review.
+- [ ] Include one or two contrast pairs, chosen from the confusions students actually make.
+- [ ] Give each example organism a profile card, with some slots left for students to predict.
+- [ ] Add a refutation box wherever a common misconception exists.
+- [ ] End with a short "later in the course" note naming what the organ-system blocks will add.
+- [ ] Write quiz items that ask why, with feedback that explains the mechanism.
+- [ ] Add a few flashcards for spaced review.
 
 ## Questions for discussion {#sec-tn-questions}
 
-1. **Scope.** Which disease, diagnosis and drug facts must stay in MD1140, and which can move to the
-   organ-system blocks or pharmacology?
-2. **Contrast pairs.** Which organisms do students most often confuse? Those pairs should drive the
-   comparison activities.
-3. **Session titles.** Should "Infections caused by Enterobacterales" become something like "How
-   Enterobacterales live", to signal the change in emphasis?
-4. **Assessment.** If teaching shifts to mechanisms, should MCQs shift to *why* questions too?
-5. **Other organisms.** Viruses, fungi and parasites are only outlined here. Would you like to co-design
-   those units?
-6. **Evaluation.** Could one session be piloted next year, with a short concept check before and after?
-   No data on Singapore medical students' microbiology misconceptions exist, so the results would also
-   be publishable.
+| Topic | Question |
+|---|---|
+| Scope | Which disease, diagnosis and drug facts must stay in MD1140, and which can move to the organ-system blocks or pharmacology? |
+| Contrast pairs | Which organisms do students most often confuse? Those pairs should drive the comparison activities |
+| Session titles | Should "Infections caused by Enterobacterales" become something like "How Enterobacterales live", to signal the change in emphasis? |
+| Assessment | If teaching shifts to mechanisms, should MCQs shift to questions that ask why? |
+| Other organisms | Viruses, fungi and parasites are only outlined here. Would you like to co-design those chapters? |
+| Evaluation | Could one session be piloted next year, with a short concept check before and after? No data exist on Singapore medical students' misconceptions about microbiology, so the results would also be publishable |
 
 ## References {.unnumbered}
 

@@ -60,7 +60,7 @@ questions:
         feedback: "The reason is microbiological: alcohol does not reliably kill spores, and instruments entering sterile tissue must be sterile."
       - text: "Autoclaving is faster"
         correct: false
-        feedback: "It is not faster. It is used because it reliably kills spores, which disinfection does not."
+        feedback: "Autoclaving takes longer than wiping. It is used because it reliably kills spores, which disinfection does not."
   - id: d6
     stem: "A single positive IgG result against an organism is found in a well patient. What does it indicate?"
     options:

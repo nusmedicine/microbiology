@@ -97,8 +97,31 @@ noting*.
 - Wrong-answer feedback names the misconception and gives the mechanism, without scolding.
 - No two consecutive feedback strings with the same opening word.
 
-## 4. Before review
+- Summary and principle fields in diagram data are plain sentences: no bolded one-line takeaway.
+- Flashcards carry no bold.
+
+## 4. Organisation
+
+- **Chapter opener.** One italic blockquote of one or two sentences that states the chapter's question
+  in concrete terms. Do not write "This chapter…" or "This chapter asks the Nth question…".
+- **Chapter ending.** The last content section hands on to the next chapter or to Part II; it does
+  not restate what the chapter covered. Then, in this order: *Check your understanding* (quiz),
+  *Review with flashcards*, *Practise: …* (case), *References*.
+- **Reading order.** Part I chapters must not assume anything first taught in Part II. When a Part I
+  chapter mentions a Part II example, phrase it as a forward reference and link to it.
+- **Cross-references** use the exact chapter title in italics as a link, with a section anchor where
+  useful: `[*Microbes and their hosts*](host-microbe.qmd#sec-host-drf)`. From `principles/` to
+  `microbes/` the path is `../microbes/…`. Island data cannot hold links, so it uses the italic title
+  alone.
+- **Section IDs** are prefixed by chapter (`sec-world-`, `sec-bact-`, `sec-gen-`, `sec-host-`,
+  `sec-trans-`, `sec-det-`, `sec-map-`, `sec-gpc-`), so links stay unique across the book.
+- **One home per topic.** Each concept is taught fully in one chapter; other chapters give one
+  sentence and a link. The six questions live in *The microbial world*; the microbiota in *Microbes
+  and their hosts*; spores and hand rub in *Detecting and controlling microbes*.
+
+## 5. Before review
 
 1. `node scripts/copy-audit.mjs` and reread every flagged line.
 2. Grep the chapter's defined terms against `book/glossary.qmd`.
 3. Check every organism-specific number against its cited source.
+4. After rendering, check that internal links and anchors resolve.

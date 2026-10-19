@@ -12,7 +12,7 @@ slots:
       options:
         - text: "The nose and throat, especially of young children"
           correct: true
-          feedback: "Right. Many healthy children carry it in the nasopharynx. Most of the time nothing happens; disease starts when it reaches a place it does not belong."
+          feedback: "Many healthy children carry it in the nasopharynx. Most of the time nothing happens; disease starts when it reaches a place it does not belong."
         - text: "The colon"
           correct: false
           feedback: "The colon belongs to anaerobes and Enterobacterales. *S. pneumoniae* lives in the nose and throat, especially of young children."
@@ -26,7 +26,7 @@ slots:
       options:
         - text: "Being engulfed by phagocytes"
           correct: true
-          feedback: "Right. Phagocytes struggle to grab encapsulated bacteria unless antibodies coat the capsule first. That is why vaccines are built from capsule material."
+          feedback: "Phagocytes struggle to grab encapsulated bacteria unless antibodies coat the capsule first. That is why vaccines are built from capsule material."
         - text: "Oxygen"
           correct: false
           feedback: "It ferments and tolerates oxygen without help. The capsule's job is resisting phagocytes."
@@ -38,15 +38,15 @@ slots:
     predict:
       stem: "The spleen removes antibody-coated bacteria from the blood. Who is most at risk of severe infection?"
       options:
-        - text: "People without a working spleen"
+        - text: "People with asplenia (no functioning spleen)"
           correct: true
-          feedback: "Right. Without a spleen, encapsulated bacteria in the blood are cleared poorly. A host factor, not a change in the bacterium, decides the outcome."
+          feedback: "Without a functioning spleen, encapsulated bacteria in the blood are cleared poorly. A host factor, not a change in the bacterium, decides the outcome."
         - text: "People with high blood oxygen"
           correct: false
-          feedback: "Oxygen is irrelevant here. The host factor that matters is clearance: people without a working spleen clear encapsulated bacteria poorly."
+          feedback: "Oxygen is irrelevant here. The host factor that matters is clearance: people with asplenia clear encapsulated bacteria poorly."
         - text: "Nobody in particular; everyone is at equal risk"
           correct: false
-          feedback: "Host factors change outcomes. Very young children, older adults and people without a working spleen are at higher risk."
-    entry: "Infection of spaces next to where it lives (ear, sinus, lung), and invasive infection of blood and meninges when defences are weak. Very young children, older adults and people without a working spleen are most at risk. Antibodies to the capsule protect, which is the basis of pneumococcal vaccines."
+          feedback: "Host factors change outcomes. Very young children, older adults and people with asplenia are at higher risk."
+    entry: "Infection of spaces next to where it lives (otitis media, sinusitis, pneumonia), and invasion of the blood and meninges when defences are weak. Very young children, older adults and people with asplenia are most at risk. Antibodies to the capsule protect, which is the basis of pneumococcal vaccines."
   - slot: contrast
     entry: "Viridans streptococci: also alpha-haemolytic mouth and throat residents, but with no large capsule, so they rarely invade unless they reach the blood."
