@@ -15,13 +15,14 @@ questions:
         feedback: "A vaccine was essential to the campaign, but the decisive feature was that smallpox had no non-human reservoir."
   - id: t2
     stem: "An organism has R₀ of 4 in a fully susceptible population. What fraction must be immune for the outbreak to shrink?"
+    ordered: true
     options:
-      - text: "About 75%"
-        correct: true
-        feedback: "The herd immunity threshold is 1 − 1/R₀ = 1 − 0.25 = 0.75. Above that, each case infects fewer than one other person on average."
       - text: "About 25%"
         correct: false
         feedback: "That is 1/R₀, the fraction that can remain susceptible. The fraction that must be immune is 1 − 1/R₀ = 75%."
+      - text: "About 75%"
+        correct: true
+        feedback: "The herd immunity threshold is 1 − 1/R₀ = 1 − 0.25 = 0.75. Above that, each case infects fewer than one other person on average."
       - text: "100%"
         correct: false
         feedback: "Transmission stops below complete immunity, because each case must infect fewer than one other person on average. Here that happens at about 75%."

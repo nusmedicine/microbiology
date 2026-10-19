@@ -3,6 +3,7 @@
   import yaml from 'js-yaml';
   import { md, mdInline } from './lib/md.js';
   import { load, save } from './lib/store.js';
+  import { optionOrder } from './lib/order.js';
 
   let { src } = $props();
 
@@ -50,7 +51,8 @@
       <div class="q">
         <p class="stem">{qi + 1}. {@html mdInline(q.stem)}</p>
         <div class="opts" role="group" aria-label={'Question ' + (qi + 1) + ' options'}>
-          {#each q.options as o, oi}
+          {#each optionOrder(q.options.length, quiz.id + ':' + q.id, q.ordered) as oi}
+            {@const o = q.options[oi]}
             {@const answered = answers[q.id] != null}
             {@const chosen = answers[q.id] === oi}
             <button type="button" onclick={() => pick(q.id, oi)} disabled={answered}

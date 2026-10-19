@@ -15,16 +15,17 @@ questions:
         feedback: "Antibodies are detected by serology. Culture reads growth, and provides a living isolate."
   - id: d3
     stem: "A dilution series shows growth at 0.5 and 1 mg/L, no growth at 2 mg/L, and no growth in every tube above. What is the MIC?"
+    ordered: true
     options:
-      - text: "2 mg/L"
-        correct: true
-        feedback: "The MIC is the lowest concentration with no visible growth, above which all tubes are also clear."
-      - text: "1 mg/L"
-        correct: false
-        feedback: "The organism still grew at 1 mg/L. The MIC is the lowest concentration that prevented growth: 2 mg/L."
       - text: "0.5 mg/L"
         correct: false
         feedback: "That is the lowest concentration tested, and growth occurred there. The MIC is 2 mg/L."
+      - text: "1 mg/L"
+        correct: false
+        feedback: "The organism still grew at 1 mg/L. The MIC is the lowest concentration that prevented growth: 2 mg/L."
+      - text: "2 mg/L"
+        correct: true
+        feedback: "The MIC is the lowest concentration with no visible growth, above which all tubes are also clear."
   - id: d4
     stem: "A susceptibility report says 'susceptible'. What does that tell you?"
     options:

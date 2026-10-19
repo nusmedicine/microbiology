@@ -9,6 +9,7 @@
   import { onMount } from 'svelte';
   import { loadManifest } from './lib/manifest.js';
   import { md, mdInline } from './lib/md.js';
+  import { optionOrder } from './lib/order.js';
 
   let { src } = $props();
 
@@ -160,7 +161,8 @@
           <div class="predict" class:nudge bind:this={predictEl}>
             <p class="pstem">{data.predict.stem}</p>
             <div class="opts">
-              {#each data.predict.options as o, oi}
+              {#each optionOrder(data.predict.options.length, data.id + ':predict', data.predict.ordered) as oi}
+                {@const o = data.predict.options[oi]}
                 <button type="button" class="opt" disabled={guess != null}
                   class:correct={guess != null && o.correct} class:wrong={guess === oi && !o.correct}
                   onclick={() => (guess = oi)}>{@html mdInline(o.text)}</button>

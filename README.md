@@ -49,6 +49,11 @@ Embed with `<div data-island="<key>" data-src="/<folder>/<file>.yml"></div>`.
 | `bacteria-map` | `BacteriaMap.svelte` | `diagrams/` | Bacterial groups as trait combinations: explore and sort by trait, or name the group from its traits (`extends` + `mode: identify`) |
 | `body-map` | `BodyMap.svelte` | `diagrams/` | An organism's route through a schematic of the body systems (after the Year 1 systems-integration diagram). Step kinds: `lives`, `enters`, `multiplies`, `spreads`, `latent`, `reactivates`, `damages`, `defence`; `via` (`blood`, `lymph`, `nerve`, `air`, `direct`, `swallowed`) highlights the network; `arrow: false` drops the arrow where the network shows the path. Steps can ask for a prediction first (`ask`, `options`, `answer`, `why`); several routes per organism as tabs. Sites: `outside`, `ear-sinus`, `skin`, `genital`, `fetus`, `eye`, `nose-throat`, `airway`, `alveoli`, `heart`, `blood`, `liver`, `gut`, `urinary`, `brain`, `nerves`, `lymph`, `spleen`, `tissue`, `bone` |
 
+Answer options in quizzes, cases, profile and body-map predictions and the simulations are shown in
+a shuffled order seeded by the item's id, so the same question looks the same on every visit and the
+correct option is not always first. Authors can write options in any order. `ordered: true` on an
+item keeps the authored order, for options that form a scale (concentrations, percentages).
+
 ## Develop
 Toolchain as for book-health (portable Node and Quarto under `%LOCALAPPDATA%`).
 

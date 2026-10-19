@@ -7,6 +7,7 @@
   import { load, save } from './lib/store.js';
   import { loadManifest } from './lib/manifest.js';
   import { md, mdInline } from './lib/md.js';
+  import { optionOrder } from './lib/order.js';
 
   let { src } = $props();
 
@@ -139,7 +140,8 @@
         <div class="predict">
           <p class="pstem">Predict first: {cur.predict.stem}</p>
           <div class="opts">
-            {#each cur.predict.options as o, oi}
+            {#each optionOrder(cur.predict.options.length, data.id + ':' + step, cur.predict.ordered) as oi}
+              {@const o = cur.predict.options[oi]}
               <button type="button" class="opt"
                 class:correct={guess != null && o.correct}
                 class:wrong={guess === oi && !o.correct}

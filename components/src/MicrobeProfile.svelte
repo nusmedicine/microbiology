@@ -8,6 +8,7 @@
   import { load, save } from './lib/store.js';
   import { loadManifest } from './lib/manifest.js';
   import { md, mdInline } from './lib/md.js';
+  import { optionOrder } from './lib/order.js';
 
   let { src } = $props();
 
@@ -80,8 +81,8 @@
             {#if !open}
               <p class="pstem">{@html mdInline(s.predict.stem)}</p>
               <div class="opts">
-                {#each s.predict.options as o, oi}
-                  <button type="button" class="opt" onclick={() => choose(si, oi)}>{@html mdInline(o.text)}</button>
+                {#each optionOrder(s.predict.options.length, data.id + ':' + s.slot, s.predict.ordered) as oi}
+                  <button type="button" class="opt" onclick={() => choose(si, oi)}>{@html mdInline(s.predict.options[oi].text)}</button>
                 {/each}
               </div>
             {:else}

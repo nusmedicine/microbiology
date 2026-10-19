@@ -11,6 +11,7 @@
   import { load, save } from './lib/store.js';
   import { loadManifest } from './lib/manifest.js';
   import { mdInline } from './lib/md.js';
+  import { optionOrder } from './lib/order.js';
 
   let { src } = $props();
 
@@ -317,7 +318,7 @@
           {#if step.ask}
             <p class="ask">{@html mdInline(step.ask)}</p>
             <div class="opts">
-              {#each list(step.options) as k}
+              {#each optionOrder(list(step.options).length, data.id + ':' + akey, step.ordered).map((i) => list(step.options)[i]) as k}
                 <button type="button" class="opt" disabled={!pending}
                   class:correct={!pending && accepted.includes(k)} class:wrong={!pending && chosen === k && !accepted.includes(k)}
                   onpointerenter={() => pending && (hover = k)} onpointerleave={() => (hover = null)}
