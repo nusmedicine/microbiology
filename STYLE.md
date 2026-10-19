@@ -176,6 +176,11 @@ noting*.
     diagram does not teach a false either/or.
   - A *table* when categories are compared on the same attributes.
   - A *flow* (`::: {.flow}`) for a sequence of four to seven steps.
+  - A *body map* (the `body-map` island) for an organism's route through the body: where it lives,
+    enters, spreads and does damage. Each step names a structure from the Year 1 overview of body
+    systems and says, in one or two sentences, what happens there; a structure the overview did not
+    cover is explained in the step itself. In a group chapter it follows each main organism's
+    "who, where, how" table.
 - **One home per topic.** Each concept is taught fully in one chapter; other chapters give one
   sentence and a link. The six questions live in *The microbial world*; the microbiota in *Microbes
   and their hosts*; spores and hand rub in *Detecting and controlling microbes*.

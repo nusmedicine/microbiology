@@ -46,6 +46,7 @@ Embed with `<div data-island="<key>" data-src="/<folder>/<file>.yml"></div>`.
 | `epidemic-sim` | `EpidemicSim.svelte` | `diagrams/` | SIR model with R0 and vaccination sliders, crosshair readout and table view |
 | `mic-reader` | `MicReader.svelte` | `diagrams/` | Broth-dilution series: pick the MIC, then classify against breakpoints |
 | `bacteria-map` | `BacteriaMap.svelte` | `diagrams/` | Bacterial groups as trait combinations: explore and sort by trait, or name the group from its traits (`extends` + `mode: identify`) |
+| `body-map` | `BodyMap.svelte` | `diagrams/` | An organism's route through a schematic of the body systems (after the Year 1 systems-integration diagram): lives, enters, multiplies, spreads (in blood, lymph, nerves or air), damages, host defence. Steps can ask for a prediction first; several routes per organism as tabs. Sites: `outside`, `ear-sinus`, `nose-throat`, `airway`, `alveoli`, `heart`, `blood`, `liver`, `gut`, `urinary`, `genital`, `skin`, `brain`, `nerves`, `lymph`, `spleen`, `tissue`, `bone` |
 
 ## Develop
 Toolchain as for book-health (portable Node and Quarto under `%LOCALAPPDATA%`).

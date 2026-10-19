@@ -14,6 +14,7 @@ import SelectionSim from './SelectionSim.svelte';
 import DamageResponse from './DamageResponse.svelte';
 import EpidemicSim from './EpidemicSim.svelte';
 import MicReader from './MicReader.svelte';
+import BodyMap from './BodyMap.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -33,6 +34,7 @@ const REGISTRY = {
   'selection-sim': SelectionSim,
   'sorter': Sorter,
   'rank-order': RankOrder,
+  'body-map': BodyMap,
 };
 
 function init() {

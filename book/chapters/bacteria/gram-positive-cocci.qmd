@@ -136,6 +136,10 @@ Three conditions let *S. aureus* cause disease:
 | Where (setting) | Hands, surfaces, and food left warm | It survives drying; in warm food it multiplies and makes heat-stable enterotoxin |
 | How (route) | A break in the skin | Coagulase walls the bacteria in fibrin and neutrophils gather, forming an abscess |
 
+Step through the three routes *S. aureus* takes through the body.
+
+<div data-island="body-map" data-src="/diagrams/route-s-aureus.yml"></div>
+
 <div data-island="microbe-profile" data-src="/diagrams/gpc-profile-s-aureus.yml"></div>
 
 ### *Streptococcus pyogenes*: tissue-damaging enzymes and delayed immune damage {#sec-gpc-pyogenes}
@@ -164,6 +168,10 @@ Three conditions let *S. pyogenes* cause disease:
 | Where (setting) | Close contact with a person who carries it | It lives on the throat and skin of humans only, and spreads by droplets and close contact |
 | How (route) | Into the throat, or through the skin into the tissue beneath | Its enzymes dissolve clots, DNA and the ground substance, so the infection spreads |
 
+Step through the two routes *S. pyogenes* takes through the body.
+
+<div data-island="body-map" data-src="/diagrams/route-s-pyogenes.yml"></div>
+
 <div data-island="microbe-profile" data-src="/diagrams/gpc-profile-s-pyogenes.yml"></div>
 
 ### *Streptococcus pneumoniae*: the capsule {#sec-gpc-pneumoniae}
@@ -190,6 +198,10 @@ Three conditions let *S. pneumoniae* cause disease:
 | Who (host) | A person with **asplenia**, absence of a functioning spleen | The spleen clears antibody-coated, encapsulated bacteria from the blood; without it, clearance fails |
 | Where (setting) | The nasopharynx of a carrier, often a young child | It lives there harmlessly and spreads by respiratory droplets |
 | How (route) | From the nasopharynx into the middle ear, sinuses, lung or blood | The capsule resists phagocytes, so it multiplies there and the host's inflammation fills the space |
+
+Step through the route *S. pneumoniae* takes from the nasopharynx.
+
+<div data-island="body-map" data-src="/diagrams/route-s-pneumoniae.yml"></div>
 
 <div data-island="microbe-profile" data-src="/diagrams/gpc-profile-s-pneumoniae.yml"></div>
 

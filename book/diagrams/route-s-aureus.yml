@@ -1,0 +1,58 @@
+id: route-s-aureus
+title: "Routes through the body: *Staphylococcus aureus*"
+intro: "One organism, three routes, matching the three people at the start of the chapter. The map shows the body systems from the overview of systems."
+
+routes:
+  - name: "Abscess"
+    steps:
+      - at: [nose-throat, skin]
+        kind: lives
+        text: "Lives harmlessly in the nose of about one in three people, and on the skin, from where it reaches the hands."
+      - at: skin
+        kind: enters
+        text: "Enters the tissue through a break in the skin, such as a cut, or along a hair follicle."
+      - at: tissue
+        kind: damages
+        text: "Multiplies in the tissue under the skin. Coagulase walls the bacteria in fibrin, neutrophils gather, and pus collects as an abscess, or as a furuncle around a hair follicle."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "Bacteria can escape from the infected tissue into the blood, which carries them to every organ the circulation feeds."
+      - at: [heart, bone]
+        kind: damages
+        via: blood
+        ask: "Carried in the blood, where can the bacteria settle and multiply?"
+        options: [heart, bone, ear-sinus]
+        answer: [heart, bone]
+        why: "Bacteria in the blood reach every organ, and *S. aureus* settles most often on the heart valves and in bones and joints. The middle ear is reached from the throat, not from the blood."
+        text: "They can settle on the heart valves, causing infective endocarditis, or in bones and joints, far from the skin where they entered."
+
+  - name: "Food poisoning"
+    steps:
+      - at: [nose-throat, skin]
+        kind: lives
+        text: "A food handler who carries *S. aureus* in the nose or on the skin transfers it to food by hand."
+      - at: outside
+        kind: multiplies
+        text: "In food left warm, the bacteria multiply and release enterotoxin, which later heating does not destroy."
+      - at: gut
+        kind: damages
+        via: swallowed
+        ask: "The toxin is swallowed with the food. Where does it act?"
+        options: [gut, blood, urinary]
+        answer: [gut]
+        why: "Enterotoxin acts on the gut itself. Vomiting begins within hours because no infection has to develop: the toxin was already in the food."
+        text: "The swallowed toxin acts on the gut, and vomiting starts two to three hours after the meal. The bacteria need not infect the person at all: this is an intoxication."
+
+  - name: "Toxic shock"
+    steps:
+      - at: tissue
+        kind: multiplies
+        text: "Multiplies at a local site, such as an infected wound, and releases a superantigen."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "The toxin, not the bacteria, enters the blood and reaches the whole body."
+      - at: [blood, skin]
+        kind: damages
+        text: "The superantigen activates a large fraction of the body's T cells at once. The flood of inflammation causes fever, a rash on the skin, and hypotension severe enough to cause shock."

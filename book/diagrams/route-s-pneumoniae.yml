@@ -1,0 +1,29 @@
+id: route-s-pneumoniae
+title: "Route through the body: *Streptococcus pneumoniae*"
+intro: "From the nasopharynx, the bacteria can reach the spaces next to it or the blood. At one step, predict where they can go before the answer appears."
+
+routes:
+  - name: "From the nasopharynx"
+    steps:
+      - at: nose-throat
+        kind: lives
+        text: "Lives harmlessly in the nasopharynx of many healthy young children, and spreads to others in respiratory droplets."
+      - at: [ear-sinus, alveoli]
+        kind: damages
+        via: air
+        ask: "From the nasopharynx, which spaces can the bacteria reach directly?"
+        options: [ear-sinus, alveoli, urinary, bone]
+        answer: [ear-sinus, alveoli]
+        why: "The nasopharynx opens into the middle ear and the sinuses, and air passes down the airway to the alveoli. The bladder and the bones have no opening to it; bacteria reach them, if at all, only through the blood."
+        text: "It reaches the air spaces next to the nasopharynx: the middle ear and sinuses, or the alveoli of the lung. The capsule resists phagocytes, so the bacteria multiply, and the host's inflammation fills the space: otitis media, sinusitis or pneumonia."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "From the lung the bacteria can invade the blood. The capsule protects them there too."
+      - at: spleen
+        kind: defence
+        text: "The spleen removes antibody-coated, encapsulated bacteria from the blood. Without a functioning spleen, in asplenia, this clearance fails and the infection can become severe within hours."
+      - at: brain
+        kind: damages
+        via: blood
+        text: "From the blood the bacteria can cross into the meninges, the membranes around the brain, and cause meningitis."

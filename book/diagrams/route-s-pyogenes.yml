@@ -1,0 +1,34 @@
+id: route-s-pyogenes
+title: "Routes through the body: *Streptococcus pyogenes*"
+intro: "Two routes: through the throat, with damage to the heart weeks later, and through the skin."
+
+routes:
+  - name: "Sore throat, then the heart"
+    steps:
+      - at: [nose-throat, skin]
+        kind: lives
+        text: "Lives on the throat and skin of humans only, and passes between people in respiratory droplets and by close contact."
+      - at: nose-throat
+        kind: damages
+        text: "Infects the throat and causes a sore throat, which settles as the infection is cleared."
+      - at: heart
+        kind: damages
+        via: blood
+        ask: "Weeks after the sore throat has settled, which part of the body can be damaged?"
+        options: [heart, liver, nerves]
+        answer: [heart]
+        why: "Antibodies made against the bacterium circulate in the blood and cross-react with proteins of the heart valves that resemble bacterial proteins: molecular mimicry."
+        text: "Weeks later, antibodies made against the bacterium cross-react with the heart valves. The bacteria have gone, so the damage comes from the host's response alone: rheumatic fever, which can scar the valves."
+
+  - name: "Cellulitis"
+    steps:
+      - at: [skin, nose-throat]
+        kind: lives
+        text: "Lives on the skin as well as in the throat."
+      - at: skin
+        kind: enters
+        text: "Enters through a break in the skin."
+      - at: tissue
+        kind: damages
+        via: direct
+        text: "Its enzymes digest clots, DNA and the material between cells, so the infection spreads through the skin and the tissue beneath it: cellulitis. *S. aureus*, by contrast, walls itself in as an abscess."
