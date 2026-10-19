@@ -64,7 +64,7 @@ that is planned but not yet written.
 | Infections caused by spiral bacteria | Internal flagella and corkscrew motility; hard to see or grow, so detected indirectly; ticks and rats as reservoirs | Syphilis stages; leptospirosis; Lyme disease | Drug choice | *Spiral bacteria* (outline) |
 | Atypical infections: *Chlamydia*, *Mycoplasma*, *Rickettsia* | Two reasons the toolkit fails: no wall, or growth only inside cells; what each predicts for staining, culture and drug targets | Atypical pneumonia; sexually transmitted chlamydia; rickettsial fevers | Drug choice | Worked example in *A map of the bacteria*; *Atypicals and mycobacteria* (outline) |
 | Infection control practical and STD case management (F2F) | Sterilisation versus disinfection; why alcohol rub misses spores; transmission routes | Case management | None | *Detecting and controlling microbes*; *Transmission, outbreaks and One Health* |
-| Antibiotic resistance: threats and stewardship | Selection acts on existing variation; gene transfer; the belief that "the body becomes resistant" corrected; stewardship as a population measure | Resistance in specific infections | Drug classes and mechanisms | *How bacteria copy themselves and change*; MRSA in *Gram-positive cocci* |
+| Antibiotic resistance: threats and stewardship | Selection acts on existing variation; gene transfer; the belief that "the body becomes resistant" addressed; stewardship as a population measure | Resistance in specific infections | Drug classes and mechanisms | *How bacteria copy themselves and change*; MRSA in *Gram-positive cocci* |
 
 :::
 

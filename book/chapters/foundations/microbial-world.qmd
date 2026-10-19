@@ -112,7 +112,7 @@ Far more microbes live alongside humans without causing harm. The human body car
 hosts*](host-microbe.qmd#sec-host-microbiota)).
 
 ::: {.callout-important}
-## A common idea, corrected: "bacteria outnumber human cells ten to one"
+## Do bacteria outnumber human cells ten to one?
 This figure is still widely quoted. It came from a rough 1970s estimate that assumed every gram of
 the gut contained as many bacteria as a gram of faeces. A careful recount in 2016 put the ratio at
 about 1.3 bacteria for every human cell, and a single bowel movement can shift it noticeably

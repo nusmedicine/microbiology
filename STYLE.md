@@ -160,7 +160,11 @@ noting*.
   folders the path is `../bacteria/…`. Island data cannot hold links, so it uses the italic title
   alone.
 - **Section IDs** are prefixed by chapter (`sec-world-`, `sec-bact-`, `sec-gen-`, `sec-host-`,
-  `sec-trans-`, `sec-det-`, `sec-dbac-`, `sec-bdam-`, `sec-map-`, `sec-gpc-`), so links stay unique across the book.
+  `sec-trans-`, `sec-det-`, `sec-dbac-`, `sec-bdam-`, `sec-map-`, `sec-gpc-`), so links stay unique
+  across the book.
+- **Common beliefs.** A callout that addresses a widely held belief is headed with a neutral
+  question ("Do bacteria have mitochondria?"), states the belief and where it comes from, then gives
+  the evidence. Avoid "corrected", "myth", "wrong" and other words that judge the reader.
 - **Learning objectives.** After the opener, a simple note callout headed *Learning objectives*
   lists four to six things a student should be able to do, as verb phrases ("Distinguish…",
   "Explain…"). They are the chapter's answer to "what do I need to know?".

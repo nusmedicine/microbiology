@@ -94,7 +94,7 @@ place. This process is **selection**; repeated across many patients and many cou
 treatment, it makes resistance common.
 
 ::: {.callout-important}
-## A common idea, corrected: "bacteria mutate in order to survive the drug"
+## Do bacteria mutate in order to survive the drug?
 In one study, 81% of undergraduates agreed that bacteria develop mutations *in order to* become
 resistant [@richard2017intuitive]. Bacteria have no way of producing the mutation they need. Mutations
 arise at random, and the drug selects the cells that happen to carry a useful one. Stress from some

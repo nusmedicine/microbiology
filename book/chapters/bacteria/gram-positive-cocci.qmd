@@ -222,7 +222,7 @@ and provoking inflammation.
 | *Enterococcus* | Gut | Tolerates bile and salt; intrinsically resistant to several drugs | Persists in hospitals; strains with acquired resistance are difficult to treat |
 
 ::: {.callout-important}
-## A common idea, corrected: "*S. aureus* is a hospital superbug"
+## Is *S. aureus* a hospital superbug?
 Most *S. aureus* is not MRSA and is not in hospitals: it lives harmlessly in the noses of about one in
 three people. **MRSA** (meticillin-resistant *S. aureus*) is *S. aureus* that has acquired a gene for
 an altered version of the protein targeted by a whole family of drugs, so the drugs bind it poorly

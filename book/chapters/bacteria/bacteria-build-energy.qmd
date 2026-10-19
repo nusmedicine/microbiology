@@ -56,7 +56,7 @@ principle behind most antimicrobial drugs.
 | Extra DNA | Mitochondrial DNA only | Often small circles of DNA called plasmids | Plasmids carry genes between bacteria |
 
 ::: {.callout-important}
-## A common idea, corrected: "bacteria have mitochondria"
+## Do bacteria have mitochondria?
 Students starting microbiology often credit prokaryotes with mitochondria
 [@briggs2017misconceptions]. The slip is understandable, because bacteria do respire, but they
 respire on their own cell membrane. The likeness runs the other way: mitochondria descend from
@@ -204,7 +204,7 @@ organism below, described only by its metabolism; its name appears after each ch
 <div data-island="oxygen-tube" data-src="/diagrams/oxygen-tube.yml"></div>
 
 ::: {.callout-important}
-## A common idea, corrected: "anaerobes die because they lack catalase and superoxide dismutase"
+## Do anaerobes die because they lack catalase and superoxide dismutase?
 Older textbooks explain oxygen toxicity this way, extrapolating from an observation made in the
 1970s. Many anaerobes do carry these protective enzymes; *B. fragilis*, for example, makes both.
 Oxygen kills anaerobes by damaging the machinery they depend on: central enzymes built around exposed

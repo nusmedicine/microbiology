@@ -21,6 +21,8 @@
   let guess = $state(null);
   let seed = $state(11);
   let hover = $state(-1);
+  let nudge = $state(false); // the learner tried to dose before answering the prediction
+  let predictEl = $state(null);
   let showTable = $state(false);
   let rng = () => 0;
 
@@ -83,7 +85,12 @@
     record('grow', transfer ? 'Grow overnight (gene transfer on)' : 'Grow overnight');
   }
   function dose() {
-    if (needGuess) return;
+    if (needGuess) {
+      nudge = true;
+      predictEl?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      predictEl?.querySelector('.opt')?.focus({ preventScroll: true });
+      return;
+    }
     const g = grid.map((c) => (c === 1 ? 0 : c));
     grid = g;
     record('drug', 'Add the drug');
@@ -142,30 +149,30 @@
         </ul>
         <div class="controls">
           <button type="button" class="btn" onclick={grow}>Grow overnight</button>
-          <button type="button" class="btn drug" onclick={dose} disabled={needGuess || alive === 0}>Add the drug</button>
+          <button type="button" class="btn drug" onclick={dose} disabled={alive === 0} aria-describedby={needGuess ? 'ss-lock' : undefined}>Add the drug</button>
           <label class="tog"><input type="checkbox" bind:checked={transfer} /> Allow gene transfer between neighbours</label>
           <div class="small">
             <button type="button" class="txt" onclick={start}>Restart this run</button>
             <button type="button" class="txt" onclick={newRun}>New random run</button>
           </div>
         </div>
+        {#if data.predict && !dosed}
+          <div class="predict" class:nudge bind:this={predictEl}>
+            <p class="pstem">{data.predict.stem}</p>
+            <div class="opts">
+              {#each data.predict.options as o, oi}
+                <button type="button" class="opt" disabled={guess != null}
+                  class:correct={guess != null && o.correct} class:wrong={guess === oi && !o.correct}
+                  onclick={() => (guess = oi)}>{@html mdInline(o.text)}</button>
+              {/each}
+            </div>
+            {#if guess != null}<div class="fb">{@html md(data.predict.options[guess].feedback)}</div>{/if}
+            {#if guess == null}<p class="lock" id="ss-lock">{nudge ? 'Answer this first, then add the drug.' : 'Answer this before adding the drug.'}</p>{/if}
+          </div>
+        {/if}
       </div>
     </div>
 
-    {#if data.predict && !dosed}
-      <div class="predict">
-        <p class="pstem">{data.predict.stem}</p>
-        <div class="opts">
-          {#each data.predict.options as o, oi}
-            <button type="button" class="opt" disabled={guess != null}
-              class:correct={guess != null && o.correct} class:wrong={guess === oi && !o.correct}
-              onclick={() => (guess = oi)}>{@html mdInline(o.text)}</button>
-          {/each}
-        </div>
-        {#if guess != null}<div class="fb">{@html md(data.predict.options[guess].feedback)}</div>{/if}
-        {#if guess == null}<p class="lock">Answer this before adding the drug.</p>{/if}
-      </div>
-    {/if}
 
     <div class="chartwrap">
       <p class="ctitle">Resistant cells as a percentage of the population, after each step</p>
@@ -232,6 +239,7 @@
   .ss .tog { font-size:.86rem; display:flex; gap:6px; align-items:center; }
   .ss .small { display:flex; gap:12px; }
   .ss .txt { border:none; background:none; color:var(--brand); font-size:.82rem; text-decoration:underline; padding:2px; }
+  .ss .predict.nudge { border-color:#d08a2c; box-shadow:0 0 0 3px #fdf1e3; }
   .ss .predict { margin-top:12px; background:#f7f9fb; border:1px solid var(--line); border-radius:9px; padding:10px 14px; }
   .ss .pstem { font-weight:600; margin:0 0 8px; }
   .ss .opts { display:flex; flex-direction:column; gap:6px; }

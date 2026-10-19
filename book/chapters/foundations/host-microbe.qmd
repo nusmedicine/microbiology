@@ -79,7 +79,7 @@ vaginal bacteria and allow the yeast *Candida albicans* to overgrow.
 :::
 
 ::: {.callout-important}
-## A common idea, corrected: "microbes are germs, and germs are harmful"
+## Are most microbes harmful?
 Children as young as seven describe microorganisms as essentially harmful [@byrne2011children], and
 the idea persists into adult life. Pathogens are in fact a small minority, and many common bacterial
 infections are caused by organisms that also live on people harmlessly. *Escherichia coli*, for

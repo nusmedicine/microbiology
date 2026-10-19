@@ -146,7 +146,7 @@ Starting from the missing wall, we can predict the other traits of *M. pneumonia
 <div data-island="contrast-pair" data-src="/diagrams/pair-mycoplasma-chlamydia.yml"></div>
 
 ::: {.callout-important}
-## A common idea, corrected: "atypical means rare or unimportant"
+## Does "atypical" mean rare or unimportant?
 "Atypical" refers to how these bacteria behave in the laboratory and the clinic, not to how often
 they cause disease. *Chlamydia trachomatis* is one of the most common sexually transmitted bacteria in
 the world, and *M. pneumoniae* is a common cause of pneumonia in children and young adults. Standard
