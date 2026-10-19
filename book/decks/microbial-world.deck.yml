@@ -1,0 +1,37 @@
+id: microbial-world
+title: "Flashcards: the microbial world"
+intro: "Answer each card in a sentence before you turn it over."
+
+cards:
+  - id: m1
+    kind: why
+    front: "Why can you see a stained bacterium with a light microscope but not a virus?"
+    back: "The light microscope cannot resolve objects smaller than about 0.2 µm. Bacteria are about 1–2 µm; most viruses are 20–300 nm."
+  - id: m2
+    kind: how
+    front: "What are the three domains of cellular life, and which contain human pathogens?"
+    back: "Bacteria, Archaea and Eukarya. Pathogens are found among bacteria and eukaryotes (fungi, protozoa, helminths); no archaeon is an established human pathogen."
+  - id: m3
+    kind: apart
+    front: "How does a virus differ from a bacterium in what it is built from?"
+    back: "A bacterium is a cell with ribosomes and its own metabolism. A virus is a genome in a protein coat, sometimes enveloped, copied only inside a host cell."
+  - id: m4
+    kind: how
+    front: "What is a prion?"
+    back: "A misfolded form of a host protein that converts normal copies into the misfolded shape. It has no DNA or RNA and survives standard sterilisation."
+  - id: m5
+    kind: why
+    front: "Why does being eukaryotic make a microbe harder to treat?"
+    back: "It shares most of its cell machinery with human cells, so there are fewer structures unique to the microbe that a drug can target safely."
+  - id: m6
+    kind: how
+    front: "State Koch's postulates."
+    back: "The organism is found in every case; it is grown in pure culture; the culture causes disease in a healthy host; the same organism is recovered from that host."
+  - id: m7
+    kind: why
+    front: "Give two reasons real pathogens can fail Koch's postulates."
+    back: "Some cannot be cultured (for example *Treponema pallidum*), and many are carried by healthy people, so the organism is not confined to cases of disease."
+  - id: m8
+    kind: how
+    front: "How does releasing male mosquitoes carrying *Wolbachia* reduce dengue?"
+    back: "When they mate with wild females, the eggs do not hatch, so the *Aedes aegypti* population that transmits dengue falls."

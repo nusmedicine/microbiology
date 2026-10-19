@@ -1,22 +1,126 @@
 # Transmission, outbreaks and One Health
 
-> *Where do microbes live outside us, and how do they travel between people, animals and the environment?*
+> *A pathogen that cannot reach a new host dies with the one it is in. This chapter asks the fourth
+> question of the book: where does a microbe live, and how does it travel? The answer explains both
+> how outbreaks behave and where they can be interrupted.*
 
-::: {.callout-note}
-## In preparation
-This unit is planned but not yet written. The outline below shows what it will cover.
+## The chain of infection {#sec-trans-chain}
+
+Transmission is usually described as a chain of six links. Each link is a place the chain can be
+broken, which is why the model is worth learning as a checklist rather than a list of words.
+
+| Link | What it means | Example of breaking it |
+|---|---|---|
+| **Reservoir** | Where the organism normally lives and multiplies: people, animals, soil or water | Treating infected people; vector control |
+| **Portal of exit** | How it leaves the reservoir: respiratory particles, faeces, blood, skin | Covering coughs; wound dressings |
+| **Mode of transmission** | How it travels (below) | Hand hygiene; safe water; mosquito control |
+| **Portal of entry** | How it enters the next host: mouth, airway, broken skin, mucosa | Gloves; safe injection practice |
+| **Susceptible host** | A person able to be infected | Vaccination |
+| **Infectious agent** | The organism itself | Antimicrobial treatment; sterilisation |
+
+**Reservoirs** differ in a way that matters for control. An organism whose only reservoir is humans
+can in principle be eradicated: smallpox was, and polio is close. An organism with an animal or
+environmental reservoir cannot be, because it persists whatever happens in the human population.
+
+A **zoonosis** is an infection transmitted from animals to humans. Around 60% of known human
+infectious diseases and about 75% of emerging ones have an animal origin [@taylor2001risk]. A
+**vector** is an arthropod that carries an organism between hosts, usually a mosquito, tick, flea or
+louse. A **fomite** is an inanimate object that carries organisms, such as a door handle or a shared
+keyboard.
+
+## Routes of transmission {#sec-trans-routes}
+
+<div data-island="sorter" data-src="/diagrams/transmission-sorter.yml"></div>
+
+Two points about the respiratory route are worth stating, because the distinction was argued over
+publicly during the COVID-19 pandemic. Particles breathed out span a continuous range of sizes. Large
+ones fall to the ground within a short distance; small ones evaporate and stay suspended, so they
+accumulate in poorly ventilated rooms and can infect people further away. The older teaching, which
+split these into two separate categories with a fixed size cut-off, is now recognised as too rigid
+[@wang2021airborne]. For control, what matters is distance, time and ventilation.
+
+## Measuring how an infection spreads {#sec-trans-measures}
+
+Four quantities describe transmission. Each answers a different question.
+
+| Quantity | Question it answers | Note |
+|---|---|---|
+| **Incubation period** | How long between infection and symptoms? | Sets how long contacts are observed |
+| **Infectious period** | When can this person pass it on? | May start before symptoms, which makes control much harder |
+| **Basic reproduction number, R₀** | How many people does one case infect in a fully susceptible population? | A property of the organism *and* the population, not of the organism alone |
+| **Effective reproduction number, R** | How many does one case infect now, given immunity and control measures? | R > 1: cases grow. R < 1: the outbreak shrinks |
+
+Because R falls as immunity rises, there is a threshold above which an outbreak cannot sustain
+itself. If a fraction of the population is immune, the **herd immunity threshold** is 1 − 1/R₀. For
+an organism with R₀ of 2, that is 50%; for a highly transmissible one with R₀ of 12, it is above 90%,
+which is why measles requires such high vaccination coverage.
+
+<div data-island="epidemic-sim" data-src="/diagrams/epidemic-sim.yml"></div>
+
+Three features of the model are worth noticing because they are general. The outbreak stops while
+susceptible people remain: transmission falls below replacement before everyone has been infected.
+Reducing transmission lowers the peak *and* delays it, which is the reasoning behind measures
+intended to keep demand within hospital capacity. And a small change in R₀ makes a large difference
+to the final size, because the effect compounds.
+
+## Investigating an outbreak {#sec-trans-outbreak}
+
+An **outbreak** is more cases of a disease than expected in a place and time. **Endemic** means
+constantly present in a population; **epidemic** means a sharp rise above that baseline; **pandemic**
+means an epidemic across many countries.
+
+Investigation follows a standard sequence: confirm that the cases are real and define what counts
+as a case; describe the cases by **person, place and time**; use that description to generate a
+hypothesis about the source; test the hypothesis by comparing exposures between people who became
+ill and people who did not; and act to interrupt transmission. Action does not wait for certainty.
+
+The shape of an **epidemic curve**, a plot of cases against time of onset, carries information.
+Cases that cluster within one incubation period suggest a single shared exposure, as in the wedding
+lunch in the *Gram-positive cocci* chapter. Cases spread over successive incubation periods, each
+wave larger, suggest spread from person to person.
+
+<div data-island="case" data-src="/cases/broad-street.case.yml"></div>
+
+## Hand hygiene: the evidence came first {#sec-trans-semmelweis}
+
+In the Vienna General Hospital in the 1840s, two maternity clinics had very different death rates
+from puerperal fever, the infection that follows childbirth. In the clinic staffed by medical
+students, who came to deliveries from the autopsy room, mortality ran several times higher than in
+the midwives' clinic [@semmelweis1861]. Ignaz Semmelweis reasoned that something was being carried on
+hands from the dead to the living, and required staff to wash in chlorinated lime. Deaths fell
+sharply.
+
+He could not say what was being carried, germ theory being decades away, and his colleagues largely
+rejected the finding. The episode makes the same point as Snow's pump: an interruptible route is
+enough to act on. It is also why hand hygiene remains the single most effective measure against
+healthcare-associated infection.
+
+## One Health {#sec-trans-onehealth}
+
+**One Health** is the principle that human, animal and environmental health are interdependent, and
+that infections are best understood and controlled across all three. The connections are practical
+rather than abstract:
+
+- Most emerging infections come from animals, so surveillance in animals gives earlier warning.
+- Antimicrobials used in animals select resistant bacteria that reach people through food, water and
+  direct contact.
+- Changes in land use, climate and travel alter where vectors can live and which animals humans meet.
+
+Singapore shows the approach in several forms. Dengue control works on the vector, including the
+release of male mosquitoes carrying *Wolbachia*. Hand, foot and mouth disease surveillance covers
+childcare centres, where asymptomatic carriage is common. The 1999 Nipah virus outbreak was traced
+to pigs imported from Malaysia and was controlled by acting on the animal side. Melioidosis comes
+from soil and surface water, and cases rise after heavy rain.
+
+## Check your understanding {#sec-trans-quiz}
+
+<div data-island="quiz" data-src="/quizzes/transmission-outbreaks.quiz.yml"></div>
+
+## Review with flashcards {#sec-trans-cards}
+
+<div data-island="flashcards" data-src="/decks/transmission-outbreaks.deck.yml"></div>
+
+## References {.unnumbered}
+
+::: {#refs}
 :::
-
-## Planned content
-
-- Reservoirs, routes, incubation and carriers
-- Zoonoses and One Health
-- History as investigation: Snow and cholera, Semmelweis and hand washing
-- Singapore examples: Nipah 1999, SARS 2003, hand, foot and mouth disease, melioidosis
-
-## Planned interactives
-
-- An epidemic model to explore
-- An outbreak-investigation branching case
-
-**Links to other teaching:** Public health; organ-system blocks.

@@ -1,0 +1,87 @@
+id: transmission-outbreaks
+title: "Check your understanding: transmission, outbreaks and One Health"
+questions:
+  - id: t1
+    stem: "Why could smallpox be eradicated while melioidosis cannot?"
+    options:
+      - text: "Smallpox had only a human reservoir; *B. pseudomallei* lives in soil and water"
+        correct: true
+        feedback: "An organism with an environmental or animal reservoir persists whatever happens in the human population."
+      - text: "Smallpox was less transmissible"
+        correct: false
+        feedback: "Smallpox was highly transmissible. What made eradication possible was the absence of any reservoir outside humans."
+      - text: "Melioidosis has no vaccine, and smallpox did"
+        correct: false
+        feedback: "A vaccine was essential to the campaign, but the decisive feature was that smallpox had no non-human reservoir."
+  - id: t2
+    stem: "An organism has R₀ of 4 in a fully susceptible population. What fraction must be immune for the outbreak to shrink?"
+    options:
+      - text: "About 75%"
+        correct: true
+        feedback: "The herd immunity threshold is 1 − 1/R₀ = 1 − 0.25 = 0.75. Above that, each case infects fewer than one other person on average."
+      - text: "About 25%"
+        correct: false
+        feedback: "That is 1/R₀, the fraction that can remain susceptible. The fraction that must be immune is 1 − 1/R₀ = 75%."
+      - text: "100%"
+        correct: false
+        feedback: "Transmission stops below complete immunity, because each case must infect fewer than one other person on average. Here that happens at about 75%."
+  - id: t3
+    stem: "Why is an infection that transmits before symptoms begin especially hard to control?"
+    options:
+      - text: "People spread it while they still feel well, so isolating only the symptomatic misses transmission"
+        correct: true
+        feedback: "Control then depends on measures that do not rely on recognising illness, such as contact tracing, ventilation and vaccination."
+      - text: "It always has a higher R₀"
+        correct: false
+        feedback: "R₀ depends on several factors. The specific difficulty here is that transmission is already under way before anyone knows to act."
+      - text: "It cannot be detected in the laboratory"
+        correct: false
+        feedback: "Detection is usually possible. The problem is behavioural and logistic: infectious people have no reason to seek testing yet."
+  - id: t4
+    stem: "An epidemic curve shows all cases clustered within a single incubation period. What does this suggest?"
+    options:
+      - text: "A single shared exposure, such as one contaminated meal"
+        correct: true
+        feedback: "A point-source outbreak. Spread from person to person would give successive waves, one incubation period apart."
+      - text: "Spread from person to person"
+        correct: false
+        feedback: "That gives successive waves of cases, each about one incubation period after the last. A single tight cluster points to one shared exposure."
+      - text: "An endemic disease at its usual level"
+        correct: false
+        feedback: "Endemic disease produces a steady baseline. A tight cluster of cases above baseline indicates a point-source outbreak."
+  - id: t5
+    stem: "Semmelweis reduced deaths from puerperal fever by requiring hand washing, decades before germ theory was accepted. What does this illustrate?"
+    options:
+      - text: "Breaking the chain of transmission does not require knowing the agent"
+        correct: true
+        feedback: "The same reasoning as Snow's pump handle: a route you can interrupt is enough to act on."
+      - text: "He had already identified the bacterium responsible"
+        correct: false
+        feedback: "He had not; bacteria were not accepted as causes of disease for decades. He identified a route and interrupted it."
+      - text: "Hand hygiene works only in maternity settings"
+        correct: false
+        feedback: "Hand hygiene remains the single most effective measure against healthcare-associated infection generally."
+  - id: t6
+    stem: "Which statement best reflects current understanding of respiratory transmission?"
+    options:
+      - text: "Exhaled particles span a continuous range of sizes; distance, time and ventilation determine risk"
+        correct: true
+        feedback: "The older split into two fixed categories with a strict size cut-off is now recognised as too rigid."
+      - text: "Particles are either large droplets falling within one metre or airborne particles, with nothing in between"
+        correct: false
+        feedback: "This traditional dichotomy does not match the physics. Particle sizes form a continuum, and small ones accumulate in poorly ventilated spaces."
+      - text: "All respiratory organisms spread equally well at any distance"
+        correct: false
+        feedback: "They differ considerably. What is common is that distance, duration of exposure and ventilation all affect risk."
+  - id: t7
+    stem: "Why does One Health treat antimicrobial use in animals as a human health issue?"
+    options:
+      - text: "It selects resistant bacteria that reach people through food, water and direct contact"
+        correct: true
+        feedback: "Selection anywhere adds to the pool of resistance genes, and those genes move between bacteria and between species."
+      - text: "Animals and humans are infected by identical organisms in every case"
+        correct: false
+        feedback: "Many organisms differ, but resistance genes move between bacteria regardless, and resistant organisms reach people by several routes."
+      - text: "Veterinary drugs are chemically different, so they cannot affect humans"
+        correct: false
+        feedback: "Many belong to the same classes used in people, and the resistance they select can affect human treatment."

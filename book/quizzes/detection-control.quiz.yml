@@ -1,0 +1,99 @@
+id: detection-control
+title: "Check your understanding: detecting and controlling microbes"
+questions:
+  - id: d1
+    stem: "A nucleic acid amplification test is positive three weeks after a patient's symptoms resolved. What is the most likely explanation?"
+    options:
+      - text: "Residual nucleic acid from organisms that are no longer viable"
+        correct: true
+        feedback: "These tests read sequence, not life. A positive result does not always mean current, active infection."
+      - text: "The infection must still be active"
+        correct: false
+        feedback: "It may be, but detection of nucleic acid alone does not establish it. Dead organisms and residual material give positive results too."
+      - text: "The test must be faulty"
+        correct: false
+        feedback: "A true positive for residual nucleic acid is not a fault. It reflects what the method reads."
+  - id: d2
+    stem: "Why does culture remain valuable despite being slower than molecular methods?"
+    options:
+      - text: "It yields a living isolate for susceptibility testing, identification and strain comparison"
+        correct: true
+        feedback: "It can also grow organisms nobody thought to look for, which a targeted molecular test cannot."
+      - text: "It is more sensitive than any molecular method"
+        correct: false
+        feedback: "Molecular methods are generally more sensitive. Culture's advantage is that it produces a living isolate to work with."
+      - text: "It detects antibodies as well as organisms"
+        correct: false
+        feedback: "Antibodies are detected by serology. Culture reads growth, and provides a living isolate."
+  - id: d3
+    stem: "A dilution series shows growth at 0.5 and 1 mg/L, no growth at 2 mg/L, and no growth in every tube above. What is the MIC?"
+    options:
+      - text: "2 mg/L"
+        correct: true
+        feedback: "The MIC is the lowest concentration with no visible growth, above which all tubes are also clear."
+      - text: "1 mg/L"
+        correct: false
+        feedback: "The organism still grew at 1 mg/L. The MIC is the lowest concentration that prevented growth: 2 mg/L."
+      - text: "0.5 mg/L"
+        correct: false
+        feedback: "That is the lowest concentration tested, and growth occurred there. The MIC is 2 mg/L."
+  - id: d4
+    stem: "A susceptibility report says 'susceptible'. What does that tell you?"
+    options:
+      - text: "The organism was inhibited in the laboratory at a concentration below the breakpoint"
+        correct: true
+        feedback: "Whether the patient responds also depends on whether the drug reaches the site at an adequate concentration, on the host and on the source of infection."
+      - text: "The patient will certainly respond to that drug"
+        correct: false
+        feedback: "The test describes the organism in a tube. Reaching the site of infection and host factors also determine the outcome."
+      - text: "The organism has no resistance genes"
+        correct: false
+        feedback: "The test measures inhibition at a given concentration, not the presence of genes."
+  - id: d5
+    stem: "Why are instruments that enter sterile tissue autoclaved rather than wiped with alcohol?"
+    options:
+      - text: "Bacterial spores survive alcohol; steam under pressure kills them"
+        correct: true
+        feedback: "Anything entering sterile tissue bypasses the body's barriers, so no surviving organism is acceptable."
+      - text: "Alcohol damages metal instruments"
+        correct: false
+        feedback: "The reason is microbiological: alcohol does not reliably kill spores, and instruments entering sterile tissue must be sterile."
+      - text: "Autoclaving is faster"
+        correct: false
+        feedback: "It is not faster. It is used because it reliably kills spores, which disinfection does not."
+  - id: d6
+    stem: "A single positive IgG result against an organism is found in a well patient. What does it indicate?"
+    options:
+      - text: "Past exposure or vaccination, not necessarily current infection"
+        correct: true
+        feedback: "IgG persists, sometimes for life. Recent infection is shown by IgM, or by a rise between paired samples."
+      - text: "Active infection requiring treatment"
+        correct: false
+        feedback: "IgG can persist for years after exposure or vaccination. Recent infection needs IgM or a rise in paired samples."
+      - text: "That the patient is not immune"
+        correct: false
+        feedback: "The opposite is closer: IgG usually indicates previous exposure or vaccination."
+  - id: d7
+    stem: "Why are capsular polysaccharides conjugated to a protein in some vaccines?"
+    options:
+      - text: "Polysaccharide alone produces a poor response in young children"
+        correct: true
+        feedback: "Conjugation to a protein recruits T-cell help, giving a stronger and longer-lasting response and protecting the age group most at risk."
+      - text: "The protein is what the antibodies recognise"
+        correct: false
+        feedback: "The protective antibodies are against the capsule. The protein is there to improve the immune response to it."
+      - text: "To make the vaccine cheaper to manufacture"
+        correct: false
+        feedback: "Conjugation adds cost. It is done because polysaccharide alone works poorly in young children."
+  - id: d8
+    stem: "Why is soap and water sometimes preferred to an alcohol hand rub?"
+    options:
+      - text: "Washing physically removes spores, which alcohol does not kill"
+        correct: true
+        feedback: "Alcohol is faster and effective against most organisms, but spores and some naked viruses resist it."
+      - text: "Alcohol does not work against any bacteria"
+        correct: false
+        feedback: "Alcohol is highly effective against most vegetative bacteria and enveloped viruses. Spores are the gap."
+      - text: "Soap kills spores on contact"
+        correct: false
+        feedback: "Soap does not reliably kill spores either. The benefit is mechanical removal by washing and rinsing."

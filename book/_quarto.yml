@@ -39,6 +39,7 @@ book:
         - chapters/microbes/fungi.qmd
         - chapters/microbes/parasites.qmd
   appendices:
+    - glossary.qmd
     - teaching-notes.qmd
 
 bibliography: references.bib

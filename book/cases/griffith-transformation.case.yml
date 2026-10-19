@@ -1,0 +1,145 @@
+id: griffith-transformation
+label: "History case"
+title: "Griffith's mice and the transforming principle"
+objectives:
+  - "Predict the outcome of Griffith's experiments from what you know about the pneumococcal capsule."
+  - "Explain transformation as uptake of DNA that changes a bacterium's traits."
+  - "Connect transformation to how resistance genes spread between related bacteria today."
+difficulty: intro
+estimatedMinutes: 8
+tags: [microbiology, history, genetics, transformation, pneumococcus]
+start: intro
+variables: { quality: 0 }
+
+nodes:
+  - id: intro
+    type: info
+    title: "London, 1928"
+    body: |
+      Frederick Griffith, a medical officer at the Ministry of Health, is studying *Streptococcus
+      pneumoniae*. On agar, encapsulated strains form smooth, glistening colonies (**S** strains).
+      Strains that have lost the capsule form rough colonies (**R** strains). From the *Gram-positive
+      cocci* chapter you know why the capsule matters: it stops phagocytes engulfing the bacteria.
+
+      Griffith injects mice with different preparations and watches what happens.
+    next: q-r
+
+  - id: q-r
+    type: mcq
+    stem: "First, he injects live R bacteria (no capsule). What do you predict?"
+    options:
+      - id: a
+        text: "The mice survive: without a capsule, phagocytes clear the bacteria"
+        correct: true
+        feedback: "Unencapsulated pneumococci are engulfed and killed. Live S bacteria, by contrast, kill the mice."
+        effects: { quality: +1 }
+        goto: q-heat
+      - id: b
+        text: "The mice die, because the bacteria are alive"
+        correct: false
+        feedback: "Being alive is not enough. Without its capsule, *S. pneumoniae* is engulfed by phagocytes and cleared. The capsule is what makes it dangerous."
+        goto: q-heat
+
+  - id: q-heat
+    type: mcq
+    stem: "Next, he injects S bacteria killed by heat. The mice survive. Then he injects a mixture of heat-killed S and live R bacteria, neither of which kills mice on its own. What happens?"
+    options:
+      - id: a
+        text: "The mice die, and live encapsulated S bacteria are recovered from their blood"
+        correct: true
+        feedback: "Something from the dead S cells turned the live R cells into encapsulated, virulent S cells. Griffith called it the transforming principle."
+        effects: { quality: +1 }
+        goto: q-what
+      - id: b
+        text: "The mice survive, because neither preparation is harmful alone"
+        correct: false
+        feedback: "That was the expected result, and it is not what happened. The mice died, and live S bacteria grew from their blood: the dead cells had passed something to the living ones."
+        goto: q-what
+      - id: c
+        text: "The mice die, but only dead bacteria are found"
+        correct: false
+        feedback: "Live, encapsulated bacteria were recovered, and their offspring stayed encapsulated. The R cells had been permanently changed."
+        goto: q-what
+
+  - id: q-what
+    type: mcq
+    stem: "In 1944, Oswald Avery, Colin MacLeod and Maclyn McCarty purify the transforming principle. Destroying the extract's protein or RNA leaves transformation intact. Destroying its DNA abolishes it. What is the conclusion?"
+    options:
+      - id: a
+        text: "DNA carries the genetic information that made the R cells encapsulated"
+        correct: true
+        feedback: "This was among the first direct evidence that genes are made of DNA. The R cells had taken up the DNA for capsule synthesis and used it."
+        effects: { quality: +1 }
+        goto: q-today
+      - id: b
+        text: "Protein carries the information, and DNA is only a scaffold"
+        correct: false
+        feedback: "Destroying protein left transformation intact; destroying DNA abolished it. The information was in the DNA."
+        goto: q-today
+
+  - id: q-today
+    type: mcq
+    stem: "Pneumococci are naturally competent: they readily take up DNA from their surroundings. Many penicillin-resistant pneumococci carry genes for wall-building proteins that are patchworks of pneumococcal DNA and DNA from related mouth streptococci. How did the patches most likely arrive?"
+    options:
+      - id: a
+        text: "By transformation: pneumococci took up DNA released by related streptococci living in the same throat"
+        correct: true
+        feedback: "The same process Griffith saw in mice now moves resistance between species that share a home. Transformation needs no phage and no contact, only free DNA and a competent cell."
+        effects: { quality: +1 }
+        goto: route
+      - id: b
+        text: "The pneumococci mutated each base one by one until the genes matched"
+        correct: false
+        feedback: "Mutation changes a few bases at a time and cannot copy long stretches of another species' gene. Patchwork genes are the signature of DNA taken up from neighbours."
+        goto: route
+      - id: c
+        text: "The patient's immune system inserted the genes"
+        correct: false
+        feedback: "Hosts do not insert genes into bacteria. Competent pneumococci took up free DNA released by related streptococci."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 3"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    title: "Dead cells, living genes"
+    body: |
+      The thread is that DNA from dead bacteria can change living ones. The capsule explains why S
+      strains kill mice and R strains do not. Heat-killed S cells released DNA that live R cells took up,
+      which made them encapsulated and virulent. Avery and colleagues showed the active ingredient was
+      DNA. Today the same process spreads resistance between related streptococci. Replay and follow the
+      DNA.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "From mice to resistance genes"
+    body: |
+      You followed one of the founding experiments of molecular biology from the capsule to the gene.
+      Transformation explains how a harmless strain became virulent in Griffith's mice, and how
+      pneumococci today pick up resistance from the streptococci living next to them.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "The capsule makes *S. pneumoniae* virulent; losing it makes the bacteria easy to clear."
+        - "Transformation is the uptake of free DNA that changes a bacterium's traits."
+        - "Gene transfer between species that share a site is one way resistance spreads."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You got part of the story. Replay it and follow what moved from the dead cells to the living ones,
+      and how the same process works in the throat today.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "DNA from dead bacteria can change living ones."
+        - "That is transformation, one route of horizontal gene transfer."

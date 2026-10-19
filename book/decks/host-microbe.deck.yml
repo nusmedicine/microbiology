@@ -1,0 +1,49 @@
+id: host-microbe
+title: "Flashcards: microbes and their hosts"
+intro: "Each card asks for a mechanism or a distinction. Say the answer before you check it."
+
+cards:
+  - id: hm1
+    kind: apart
+    front: "Colonisation, infection, disease: what separates them?"
+    back: "**Colonisation:** multiplying at a site without damage. **Infection:** multiplying in tissue with a host response. **Disease:** damage sufficient to produce signs and symptoms."
+  - id: hm2
+    kind: how
+    front: "How does the resident microbiota protect against incoming pathogens?"
+    back: "**Colonisation resistance:** residents occupy attachment sites, consume nutrients, and produce inhibitory substances. They also help develop and regulate immunity."
+  - id: hm3
+    kind: why
+    front: "Why can an antibacterial course lead to *C. difficile* diarrhoea?"
+    back: "It disturbs the resident community, removing colonisation resistance, so an organism that tolerates the disturbance multiplies."
+  - id: hm4
+    kind: apart
+    front: "Opportunistic versus strict pathogen?"
+    back: "An **opportunist** needs a breached barrier, weakened defences or a disturbed microbiota. A **strict pathogen** causes disease in people with normal defences."
+  - id: hm5
+    kind: how
+    front: "What does the damage-response framework say disease is?"
+    back: "Disease is **host damage**, which can come from the microbe, from the host's response, or from both. The balance differs by organism and by host."
+  - id: hm6
+    kind: why
+    front: "Give two examples where the host response causes most of the damage."
+    back: "**Toxic shock:** a superantigen drives massive cytokine release. **Rheumatic fever:** antibodies against *S. pyogenes* cross-react with heart tissue after the infection has cleared."
+  - id: hm7
+    kind: how
+    front: "What are the steps a microbe must complete to cause infection?"
+    back: "**Attach** to a surface; **invade** or act from the surface; **evade** defences; **obtain nutrients**, especially iron; **damage** the host directly or through its response."
+  - id: hm8
+    kind: why
+    front: "What determines a microbe's tropism?"
+    back: "The **receptor it binds**. An organism can only settle where its attachment molecule is present, which is why influenza infects airway cells and not skin."
+  - id: hm9
+    kind: apart
+    front: "Exotoxin versus endotoxin: three differences."
+    back: "**Protein versus lipopolysaccharide**; **secreted versus structural** (Gram-negative outer membrane); **specific action versus non-specific inflammation**. Only exotoxins make toxoid vaccines."
+  - id: hm10
+    kind: why
+    front: "Why can the same exposure make one person ill and not another?"
+    back: "**Host factors**: inoculum, immunity (including vaccination and past exposure), age, other conditions such as diabetes, the microbiota, genetics and chance."
+  - id: hm11
+    kind: apart
+    front: "Acute, latent and chronic infection?"
+    back: "**Acute:** rapid onset, then cleared. **Latent:** persists silently and can reactivate. **Chronic:** continuing infection and inflammation, with damage accumulating."

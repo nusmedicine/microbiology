@@ -1,0 +1,87 @@
+id: host-microbe
+title: "Check your understanding: microbes and their hosts"
+questions:
+  - id: h1
+    stem: "A healthy child has enterovirus in the saliva but no symptoms. Which term fits best?"
+    options:
+      - text: "Carriage: the organism is present and transmissible without causing disease"
+        correct: true
+        feedback: "Infection does not always mean disease. In one Singapore study 17.1% of healthy childcare children carried enterovirus without symptoms."
+      - text: "Contamination, because the virus is only on a surface"
+        correct: false
+        feedback: "Contamination means present but not multiplying. Virus in saliva that can be passed on indicates carriage."
+      - text: "Disease, because the organism is detectable"
+        correct: false
+        feedback: "Disease requires damage with signs or symptoms. Detecting an organism in a well person indicates carriage."
+  - id: h2
+    stem: "Why does disturbing the gut microbiota make *Clostridioides difficile* diarrhoea more likely?"
+    options:
+      - text: "Resident bacteria normally occupy sites and consume nutrients that *C. difficile* would need"
+        correct: true
+        feedback: "This is colonisation resistance. Remove the residents and an organism that tolerates the disturbance can multiply."
+      - text: "Antibacterial drugs make *C. difficile* more virulent"
+        correct: false
+        feedback: "The organism does not change. What changes is the competition it faces, once the resident community is disturbed."
+      - text: "The gut wall becomes permanently damaged by the drug"
+        correct: false
+        feedback: "The mechanism is ecological rather than structural: the loss of colonisation resistance lets *C. difficile* multiply."
+  - id: h3
+    stem: "In toxic shock syndrome, most of the damage comes from:"
+    options:
+      - text: "The host response, driven by a superantigen that activates many T cells at once"
+        correct: true
+        feedback: "A clear case of the right-hand side of the damage-response curve: a strong response causes the harm."
+      - text: "Bacteria multiplying throughout the bloodstream"
+        correct: false
+        feedback: "The bacteria can be few and local. The toxin provokes a massive T-cell response, and that response does the damage."
+      - text: "Lipopolysaccharide in the Gram-positive cell wall"
+        correct: false
+        feedback: "Gram-positive bacteria have no LPS. The driver here is a protein superantigen acting through the host's T cells."
+  - id: h4
+    stem: "Which statement about exotoxins and endotoxin is correct?"
+    options:
+      - text: "Exotoxins are proteins and can be made into toxoid vaccines; endotoxin is lipopolysaccharide and cannot"
+        correct: true
+        feedback: "Tetanus and diphtheria are prevented with toxoids. Lipid A is a lipid that provokes inflammation but is a poor target for protective antibodies."
+      - text: "Both are proteins released by living bacteria"
+        correct: false
+        feedback: "Endotoxin is lipopolysaccharide, a structural part of the Gram-negative outer membrane, not a secreted protein."
+      - text: "Endotoxin acts on one specific target, exotoxins act broadly"
+        correct: false
+        feedback: "It is the other way round. Exotoxins act specifically; endotoxin acts non-specifically by triggering inflammation."
+  - id: h5
+    stem: "Why does influenza virus infect airway cells rather than skin?"
+    options:
+      - text: "It can only attach where its receptor is present, which determines its tropism"
+        correct: true
+        feedback: "Attachment is the first step, and the distribution of the receptor sets the sites an organism can occupy."
+      - text: "Skin is too cold for any virus"
+        correct: false
+        feedback: "Temperature matters for some organisms, but the main reason here is attachment: the receptor it binds is on airway cells."
+      - text: "Skin cells have no nucleus for the virus to use"
+        correct: false
+        feedback: "Skin cells are nucleated. The limiting step is attachment to a specific receptor found on airway cells."
+  - id: h6
+    stem: "Two gardeners work the same wet soil and only one develops melioidosis. He has poorly controlled diabetes. What does this illustrate?"
+    options:
+      - text: "Host factors determine who becomes ill after the same exposure"
+        correct: true
+        feedback: "Among Singapore patients with melioidosis, 56.7% had diabetes, against 19.3% of similar-aged people in the general population."
+      - text: "He must have met a more virulent strain"
+        correct: false
+        feedback: "Strains vary, but the shared exposure and the known effect of diabetes on neutrophil function point to a host factor."
+      - text: "Melioidosis spreads from person to person"
+        correct: false
+        feedback: "Spread between people is very rare. The reservoir is soil and surface water, and host factors decide the outcome."
+  - id: h7
+    stem: "A microbe needs iron, but the host keeps iron bound to proteins such as transferrin. What is this an example of?"
+    options:
+      - text: "Nutritional immunity: the host withholds a nutrient the microbe needs"
+        correct: true
+        feedback: "Pathogens counter it with siderophores and receptors that strip iron from host proteins."
+      - text: "A toxin produced by the host"
+        correct: false
+        feedback: "No toxin is involved. The host restricts access to iron, and pathogens evolve ways to take it back."
+      - text: "Colonisation resistance"
+        correct: false
+        feedback: "Colonisation resistance is competition from resident microbes. Withholding iron is a host defence."

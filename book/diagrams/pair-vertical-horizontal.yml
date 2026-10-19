@@ -1,0 +1,65 @@
+id: pair-vertical-horizontal
+title: "Contrast pair: two ways a bacterium gains a new trait"
+intro: "Both routes can turn a susceptible bacterium into a resistant one. Read across and find the difference that explains why resistance can jump between species."
+
+a:
+  name: "Mutation (vertical inheritance)"
+b:
+  name: "Horizontal gene transfer"
+
+rows:
+  - feature: "Where the new DNA comes from"
+    a: "A copying error in the bacterium's own genome"
+    b: "Another bacterium, a phage, or free DNA from a dead cell"
+    separates: true
+  - feature: "Who inherits it"
+    a: "The cell's own descendants"
+    b: "The receiving cell and its descendants, and often further cells it passes the DNA to"
+    separates: true
+  - feature: "Can it cross species?"
+    a: "No"
+    b: "Yes, for many plasmids and transposons"
+    separates: true
+  - feature: "Typical size of the change"
+    a: "One or a few bases"
+    b: "Whole genes or clusters of genes"
+    separates: true
+  - feature: "Selected by drug use?"
+    a: "Yes"
+    b: "Yes"
+    separates: false
+
+question:
+  stem: "Which difference explains how a resistance gene can appear in a species that never had it?"
+  options: [0, 2, 4]
+  answer: 2
+  feedback: >
+    Crossing species. A mutation can only spread to the cell's own descendants, but a plasmid can pass
+    from *Klebsiella* to *E. coli* in the same gut, carrying a resistance gene that *E. coli* never
+    evolved itself.
+
+principle: >
+  **Mutation changes what a bacterium has; gene transfer shares what other bacteria have.** Both
+  produce variation at random, and both are selected by drug use. Gene transfer is why resistance can
+  spread so quickly through a hospital or a community: one plasmid can carry several resistance genes at
+  once, across several species.
+
+sort:
+  - text: "A single base change in the gene for the drug's target protein"
+    answer: a
+    why: "A copying error in the bacterium's own DNA: mutation."
+  - text: "A plasmid passed from one cell to another through direct contact"
+    answer: b
+    why: "Conjugation, one route of horizontal transfer."
+  - text: "A phage carries a toxin gene into a previously harmless strain"
+    answer: b
+    why: "Transduction or lysogenic conversion: horizontal transfer."
+  - text: "Spreads only to the daughter cells of the cell in which it arose"
+    answer: a
+    why: "Vertical inheritance: mutation."
+  - text: "Brings three resistance genes into a cell at once"
+    answer: b
+    why: "Plasmids and transposons often carry several genes together."
+  - text: "Free DNA from a dead related species is taken up and swapped into the chromosome"
+    answer: b
+    why: "Transformation, the route Griffith discovered."

@@ -1,0 +1,65 @@
+id: pair-sterilisation-disinfection
+title: "Contrast pair: sterilisation and disinfection"
+intro: "Both reduce the microbes on an object, and the words are often used loosely. Read across and find the difference that decides which one a given instrument needs."
+
+a:
+  name: "Sterilisation"
+b:
+  name: "Disinfection"
+
+rows:
+  - feature: "What it achieves"
+    a: "Kills or removes all microbial life, including bacterial spores"
+    b: "Removes most organisms, but not reliably spores"
+    separates: true
+  - feature: "Typical methods"
+    a: "Steam under pressure (autoclave, 121 °C), dry heat, some gases and plasma"
+    b: "Chemical agents such as alcohols, chlorine compounds, aldehydes"
+    separates: true
+  - feature: "Used on"
+    a: "Instruments that enter sterile tissue or the bloodstream"
+    b: "Surfaces, and instruments that touch intact mucosa"
+    separates: true
+  - feature: "Reduces microbial numbers"
+    a: "Yes"
+    b: "Yes"
+    separates: false
+  - feature: "Effective against prions"
+    a: "Not by routine cycles; prions need more severe treatment"
+    b: "No"
+    separates: true
+
+question:
+  stem: "Which difference decides whether an instrument must be sterilised rather than disinfected?"
+  options: [0, 2, 3]
+  answer: 2
+  feedback: >
+    Where the instrument goes. An item that enters sterile tissue or the bloodstream must be sterile,
+    because any surviving organism is introduced directly past the body's barriers. An item that only
+    touches intact skin or mucosa carries less risk, and disinfection is sufficient.
+
+principle: >
+  **Match the method to the risk, and remember what resists it.** Bacterial spores survive boiling and
+  alcohol, which is why an autoclave is needed for instruments entering sterile tissue, and why soap
+  and water are preferred to alcohol hand rub when spores are a concern: washing removes physically
+  what alcohol does not kill.
+
+sort:
+  - text: "A surgical instrument that will enter the abdominal cavity"
+    answer: a
+    why: "It enters sterile tissue, so it must be sterile."
+  - text: "Wiping a ward bench between patients"
+    answer: b
+    why: "A surface that touches no sterile site: disinfection."
+  - text: "Steam at 121 °C under pressure in an autoclave"
+    answer: a
+    why: "The standard method that reliably kills spores."
+  - text: "Alcohol hand rub between patient contacts"
+    answer: b
+    why: "It reduces organisms on the hands but does not kill spores."
+  - text: "Needed because bacterial spores survive boiling"
+    answer: a
+    why: "Resistance of spores is precisely why sterilisation is defined as it is."
+  - text: "Chlorine solution used on a contaminated floor"
+    answer: b
+    why: "A chemical agent applied to a surface: disinfection."

@@ -1,0 +1,176 @@
+id: broad-street
+label: "Outbreak case"
+title: "The Broad Street pump"
+objectives:
+  - "Use the distribution of cases in place and time to generate a hypothesis about a source."
+  - "Explain how exceptions to a pattern can strengthen rather than weaken a conclusion."
+  - "Explain why an outbreak can be stopped before the organism responsible is known."
+difficulty: intro
+estimatedMinutes: 9
+tags: [microbiology, epidemiology, outbreak, history, cholera, water]
+start: intro
+variables: { quality: 0 }
+
+nodes:
+  - id: intro
+    type: info
+    title: "Soho, London, September 1854"
+    body: |
+      In three days, more than 120 people die of cholera in a few streets around Broad Street. Most
+      physicians attribute the outbreak to **miasma**, bad air rising from filth. John Snow, a
+      physician, doubts this: he has argued that cholera is spread by something swallowed, because it
+      begins in the gut rather than the lungs.
+
+      No one has yet seen the organism responsible, and there is no treatment. Snow has a map, a list
+      of deaths and the ability to ask questions.
+    next: q-pattern
+
+  - id: q-pattern
+    type: mcq
+    stem: "Snow plots each death at the address where it occurred. The deaths cluster tightly around one of the neighbourhood's public water pumps. What does that pattern suggest, and what does it not yet prove?"
+    options:
+      - id: a
+        text: "It suggests a source at or near the pump, but proximity alone could also fit bad air from the same spot"
+        correct: true
+        feedback: "A spatial cluster narrows the search. It cannot by itself distinguish between something in the water and something in the air at the same location."
+        effects: { quality: +1 }
+        goto: q-exceptions
+      - id: b
+        text: "It proves the pump water is the source"
+        correct: false
+        feedback: "Clustering around a point fits several explanations, including a smell or vapour at the same place. Snow needed more than the map."
+        goto: q-exceptions
+      - id: c
+        text: "It shows nothing, because people move around during the day"
+        correct: false
+        feedback: "Movement adds noise, but a cluster this tight is informative. It points to a source near the pump without yet identifying what it is."
+        goto: q-exceptions
+
+  - id: q-exceptions
+    type: mcq
+    stem: "Snow follows up two apparent exceptions. The workhouse, with over 500 inmates inside the cluster, has few deaths; it has its own well. The brewery nearby has none; its workers drink the beer it brews, and it too has its own supply. How do these exceptions affect his argument?"
+    options:
+      - id: a
+        text: "They strengthen it: people inside the area who did not drink pump water were largely spared"
+        correct: true
+        feedback: "An exception that follows the hypothesis is powerful evidence. Bad air would have affected the workhouse and brewery along with their neighbours."
+        effects: { quality: +1 }
+        goto: q-distant
+      - id: b
+        text: "They weaken it: the pattern is inconsistent, so the pump cannot be the source"
+        correct: false
+        feedback: "These are not random inconsistencies. Both groups were inside the area and both avoided the pump water, which is exactly what the hypothesis predicts."
+        goto: q-distant
+      - id: c
+        text: "They are irrelevant, because neither group was typical of the neighbourhood"
+        correct: false
+        feedback: "Their atypical feature is the point: a different water supply. That is what separates them from their neighbours."
+        goto: q-distant
+
+  - id: q-distant
+    type: mcq
+    stem: "A widow living several kilometres away in Hampstead also dies of cholera, as does her niece visiting from elsewhere. Snow learns that the widow liked the taste of Broad Street water and had a bottle brought to her regularly. What does this add?"
+    options:
+      - id: a
+        text: "A case outside the area linked only by the water itself, which air cannot explain"
+        correct: true
+        feedback: "The exposure travelled with the water. This is the kind of observation that separates two competing explanations."
+        effects: { quality: +1 }
+        goto: q-action
+      - id: b
+        text: "Nothing: one case is too few to matter"
+        correct: false
+        feedback: "A single well-documented case can be decisive when it separates two hypotheses. Bad air in Soho cannot reach Hampstead; a bottle of water can."
+        goto: q-action
+      - id: c
+        text: "It suggests cholera spreads from person to person in Hampstead"
+        correct: false
+        feedback: "The niece shared the water, not prolonged contact. The common factor linking all three locations is the Broad Street water."
+        goto: q-action
+
+  - id: q-action
+    type: mcq
+    stem: "Snow presents his evidence to the parish authorities, who remove the pump handle. The organism causing cholera will not be widely accepted for another thirty years. Was it reasonable to act?"
+    options:
+      - id: a
+        text: "Yes: the chain of transmission can be broken without knowing the organism"
+        correct: true
+        feedback: "Public health often acts on the route rather than the agent. Identifying the organism refines control measures but is not a precondition for them."
+        effects: { quality: +1 }
+        goto: q-today
+      - id: b
+        text: "No: without identifying the organism, any action is guesswork"
+        correct: false
+        feedback: "Knowing how an agent travels is enough to interrupt it. Semmelweis improved survival by hand washing before germ theory was accepted, for the same reason."
+        goto: q-today
+      - id: c
+        text: "No, because the outbreak was already declining"
+        correct: false
+        feedback: "Case numbers were indeed falling, partly because many residents had fled, and historians debate how much the removal changed. The reasoning still holds: an interruptible route justifies action."
+        goto: q-today
+
+  - id: q-today
+    type: mcq
+    stem: "An outbreak team today investigates a cluster of diarrhoeal illness. Which first step follows Snow's logic most closely?"
+    options:
+      - id: a
+        text: "Map the cases in place and time and compare exposures between those affected and those not affected"
+        correct: true
+        feedback: "Describe first by person, place and time, then compare exposures. The laboratory identifies the organism; the comparison identifies the source."
+        effects: { quality: +1 }
+        goto: route
+      - id: b
+        text: "Wait for laboratory confirmation before asking any questions"
+        correct: false
+        feedback: "Laboratory work and field investigation run together. Waiting loses exposure details that people forget and allows further cases."
+        goto: route
+      - id: c
+        text: "Treat everyone in the area and assume the source will emerge"
+        correct: false
+        feedback: "Without finding the source, exposure continues. Describing cases and comparing exposures is what points to it."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 4"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    title: "Pattern, exception, action"
+    body: |
+      Three moves carry the investigation. The map generates a hypothesis. The exceptions test it: the
+      workhouse and the brewery were inside the area but drank different water, and a death far away
+      was linked by water carried to the house. And action came before the organism was known, because
+      knowing the route is enough to interrupt it. Replay and follow the water.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "The route, before the organism"
+    body: |
+      You followed an investigation that defined a method still in use: describe cases by person, place
+      and time; look hard at the exceptions; compare exposures between those affected and those not;
+      and interrupt the route without waiting for the agent to be identified.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "A cluster in place and time generates a hypothesis; it does not prove a cause."
+        - "Exceptions that follow the hypothesis, such as the workhouse and the brewery, are strong evidence."
+        - "Breaking the chain of transmission does not require knowing the organism."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You got part of the reasoning. Replay it and watch how each exception either strengthens or
+      weakens the hypothesis that something in the pump water was carrying the disease.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Map cases, then compare exposures between affected and unaffected people."
+        - "Exceptions are evidence, not noise."

@@ -1,0 +1,70 @@
+id: size-ladder
+title: "How big is it? Put these in order"
+intro: "Microbiology spans a size range of about ten million times, from a virus to a worm you could hold in your hand. Pick the items from smallest to largest, then check."
+prompt: "Click the items from smallest to largest."
+
+axis:
+  type: log
+  min: 0.00000001
+  max: 1
+  bands:
+    - { label: "electron microscope only", from: 0.00000001, to: 0.0000002 }
+    - { label: "light microscope", from: 0.0000002, to: 0.0001 }
+    - { label: "naked eye", from: 0.0001, to: 1 }
+  note: "Each tick is ten times the one before. The light microscope cannot resolve objects smaller than about 0.2 µm, so viruses were not seen until the electron microscope."
+
+items:
+  - id: polio
+    label: "Poliovirus (an enterovirus)"
+    plain: "Poliovirus"
+    value: 0.00000003
+    display: "about 30 nm"
+    why: "One of the smallest viruses that infect humans: a protein shell around a short RNA genome, with no envelope."
+  - id: flu
+    label: "Influenza virus"
+    plain: "Influenza virus"
+    value: 0.0000001
+    display: "about 100 nm"
+    why: "Larger, because it carries a lipid envelope and eight RNA segments. Still below the resolving power of a light microscope."
+  - id: saureus
+    label: "*Staphylococcus aureus*"
+    plain: "S. aureus"
+    value: 0.000001
+    display: "about 1 µm"
+    why: "A typical coccus. At this size a bacterium is easily seen with a light microscope once it is stained."
+  - id: ecoli
+    label: "*Escherichia coli*"
+    plain: "E. coli"
+    value: 0.000002
+    display: "about 2 µm long"
+    why: "A typical rod, roughly the length of a mitochondrion, which is itself descended from a bacterium."
+  - id: candida
+    label: "*Candida albicans* (yeast cell)"
+    plain: "Candida yeast"
+    value: 0.000004
+    display: "about 4 µm"
+    why: "A eukaryotic cell, with a nucleus and mitochondria, so larger than a bacterium but smaller than a red cell."
+  - id: rbc
+    label: "Red blood cell"
+    plain: "Red blood cell"
+    value: 0.0000075
+    display: "about 7.5 µm"
+    why: "A useful ruler: on a blood film, anything much smaller than a red cell is likely to be a bacterium or a parasite inside a cell."
+  - id: egg
+    label: "*Ascaris* egg"
+    plain: "Ascaris egg"
+    value: 0.00006
+    display: "about 60 µm"
+    why: "Helminth eggs are large enough to recognise in a stool sample with a light microscope at low power."
+  - id: worm
+    label: "Adult *Ascaris lumbricoides* (roundworm)"
+    plain: "Adult Ascaris"
+    value: 0.25
+    display: "15 to 35 cm"
+    why: "A many-celled animal. Helminths are studied in microbiology because they are infectious agents, not because they are microscopic."
+
+summary: >
+  **Size predicts how you can see an agent and much of how it lives.** Viruses are below the
+  light microscope's limit and must be detected by other means. Bacteria are small enough to grow
+  quickly, because nutrients only have to diffuse a short distance into the cell. Eukaryotic
+  microbes are larger, and helminths are visible to the naked eye.

@@ -1,0 +1,31 @@
+id: mic-reader
+title: "Reading a dilution series"
+intro: "Each tube holds broth, the organism, and twice as much drug as the tube before it. After overnight incubation, cloudy means growth. Click the tube that gives the **minimum inhibitory concentration (MIC)**: the lowest concentration with no visible growth."
+concentrations: [0.25, 0.5, 1, 2, 4, 8, 16, 32]
+
+scenarios:
+  - text: "Isolate 1. A straightforward result."
+    growth: [true, true, true, false, false, false, false, false]
+    breakpoints: { susceptible: 2, resistant: 8 }
+    explain: "Growth stops between 1 and 2 mg/L, so the MIC is 2 mg/L: the first tube with no growth."
+    reportNote: "At or below the susceptible breakpoint, so the organism is reported as susceptible."
+  - text: "Isolate 2. The same drug, a different patient."
+    growth: [true, true, true, true, true, true, false, false]
+    breakpoints: { susceptible: 2, resistant: 8 }
+    explain: "The organism grows up to 8 mg/L and is inhibited at 16 mg/L, so the MIC is 16 mg/L."
+    reportNote: "Above the resistant breakpoint. A higher MIC means more drug is needed to inhibit the organism, which is what resistance means in practice."
+  - text: "Isolate 3. Look carefully before you click: one tube does not fit the pattern."
+    growth: [true, true, false, true, false, false, false, false]
+    breakpoints: { susceptible: 4, resistant: 16 }
+    explain: "This is a **skipped well**. The clear tube at 1 mg/L is followed by growth at 2 mg/L, so it cannot be the MIC: the MIC is the lowest concentration above which every tube is clear, here 4 mg/L. A single skipped well usually means a pipetting or inoculation error, and the test should be repeated."
+    reportNote: "Reported as susceptible on repeat testing. One anomalous tube is a reason to repeat, not to report."
+  - text: "Isolate 4. The organism grows in every tube."
+    growth: [true, true, true, true, true, true, true, true]
+    explain: "There is no tube without growth, so the MIC is above the highest concentration tested. It would be reported as greater than 32 mg/L; testing a wider range or a different drug is needed."
+
+note: >
+  The MIC measures what a drug does to an organism in a tube. It does not measure what will happen in
+  a patient, which also depends on whether the drug reaches the site at a sufficient concentration, on
+  the host's defences and on the source of infection. A **breakpoint** is the concentration, agreed by
+  committees such as EUCAST and CLSI, that separates organisms likely to respond from those that are
+  not. Breakpoints are revised as evidence changes, so they are looked up rather than memorised.

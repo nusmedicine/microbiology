@@ -13,7 +13,7 @@ Consider three people:
 - A young woman suddenly develops a high fever, a rash and dangerously low blood pressure.
 
 The same organism, *Staphylococcus aureus*, can cause all three. That sounds like three facts to
-memorise. It is really one organism using **three different mechanisms**, and by the end of this
+memorise. It is really one organism using three different mechanisms, and by the end of this
 chapter you should be able to explain each from how the bacterium works.
 
 ## The group in one sentence {#sec-gpc-sentence}

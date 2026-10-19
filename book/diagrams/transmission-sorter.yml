@@ -1,0 +1,52 @@
+id: transmission-sorter
+title: "How did it get there?"
+intro: "Each description gives an exposure, not an organism. Sort each one by its route of transmission."
+
+categories:
+  - key: contact
+    label: "Contact"
+    summary: "direct contact between people, or indirect contact through a contaminated object (a **fomite**). Hand hygiene is the main interruption."
+  - key: respiratory
+    label: "Respiratory"
+    summary: "particles breathed out. Large droplets fall nearby; small particles stay airborne longer and travel further."
+  - key: faecal
+    label: "Faecal–oral"
+    summary: "organisms leave in faeces and are swallowed in contaminated food or water. Sanitation and food hygiene interrupt it."
+  - key: vector
+    label: "Vector-borne"
+    summary: "carried by an arthropod. Vector control is often the most effective interruption."
+  - key: vertical
+    label: "Vertical"
+    summary: "from mother to child across the placenta, during birth, or through breast milk."
+
+items:
+  - text: "A nurse's hands carry an organism from one patient to the next"
+    answer: contact
+    why: "Direct contact spread between people, interrupted by hand hygiene."
+  - text: "A mosquito feeds on an infected person, then on someone else days later"
+    answer: vector
+    why: "The organism develops in the mosquito before it can be passed on: vector-borne."
+  - text: "Drinking water contaminated by sewage after a flood"
+    answer: faecal
+    why: "Organisms leave in faeces and are swallowed: the faecal–oral route."
+  - text: "An infant acquires an organism from the birth canal during delivery"
+    answer: vertical
+    why: "Mother to child at birth: vertical transmission."
+  - text: "Someone sitting several metres away in a poorly ventilated room becomes infected"
+    answer: respiratory
+    why: "Distance and ventilation point to small airborne particles rather than large droplets."
+  - text: "An organism on a shared keyboard reaches the next user's hands"
+    answer: contact
+    why: "Indirect contact through a contaminated object, or fomite."
+  - text: "Salad washed in contaminated water causes diarrhoea in several diners"
+    answer: faecal
+    why: "Food contaminated with faecal organisms and then eaten."
+  - text: "An infection crosses the placenta and affects fetal development"
+    answer: vertical
+    why: "Mother to fetus before birth."
+  - text: "Several people in a clinic waiting room develop the same respiratory illness after a coughing patient sat there"
+    answer: respiratory
+    why: "Particles produced by coughing, inhaled by people nearby."
+  - text: "A tick attaches during a walk through long grass"
+    answer: vector
+    why: "An arthropod carries the organism to a new host."

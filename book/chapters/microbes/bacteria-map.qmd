@@ -2,7 +2,7 @@
 
 > *Lectures and textbooks name bacteria by group: Gram-positive cocci, Enterobacterales, anaerobes,
 > spiral bacteria, atypicals. It can feel like a long list to memorise. This chapter shows that each
-> group is a **combination of a few traits** you already know from "How bacteria are built and get energy", and that the
+> group is a combination of a few traits you already know from "How bacteria are built and get energy", and that the
 > combination explains how the group behaves.*
 
 ## Same questions, different answers {#sec-map-idea}

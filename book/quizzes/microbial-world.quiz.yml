@@ -1,0 +1,75 @@
+id: microbial-world
+title: "Check your understanding: the microbial world"
+questions:
+  - id: w1
+    stem: "Why can a stained bacterium be seen with a light microscope while a virus cannot?"
+    options:
+      - text: "Most viruses are smaller than about 0.2 µm, the light microscope's limit of resolution"
+        correct: true
+        feedback: "Resolution, not magnification, sets the limit. A typical bacterium is 1–2 µm; most viruses are 20–300 nm."
+      - text: "Viruses are transparent to light"
+        correct: false
+        feedback: "Bacteria are nearly transparent too, which is why they are stained. The problem with viruses is size: they are below the limit of resolution, about 0.2 µm."
+      - text: "Viruses only exist inside cells, so they are hidden"
+        correct: false
+        feedback: "Virions exist outside cells too, between hosts. They are invisible because they are smaller than the light microscope can resolve."
+  - id: w2
+    stem: "Which statement about archaea is correct?"
+    options:
+      - text: "They are prokaryotes that live in the human gut, but none is an established cause of human disease"
+        correct: true
+        feedback: "Archaea are a separate domain of prokaryotes. Some live in the colon, but no archaeon is an established human pathogen."
+      - text: "They are an early form of virus"
+        correct: false
+        feedback: "Archaea are cells, with ribosomes and their own metabolism. Viruses are not cells."
+      - text: "They are a group of bacteria that cause most gut infections"
+        correct: false
+        feedback: "Archaea are a separate domain from bacteria, and none is an established cause of human disease."
+  - id: w3
+    stem: "Why is it generally easier to find drugs that harm bacteria than drugs that harm fungi without harming the patient?"
+    options:
+      - text: "Bacteria are prokaryotes with many structures human cells lack; fungi are eukaryotes like us"
+        correct: true
+        feedback: "The more machinery a microbe shares with your cells, the fewer safe targets there are. This is the sixth question: what does it have that my cells lack?"
+      - text: "Fungi are larger, so drugs cannot reach them"
+        correct: false
+        feedback: "Size is not the problem. Fungi share most of their cell machinery with human cells, which leaves fewer targets unique to the fungus."
+      - text: "Bacteria have no cell wall"
+        correct: false
+        feedback: "Most bacteria have a peptidoglycan wall, and that wall is one of the best targets precisely because human cells lack it."
+  - id: w4
+    stem: "A friend says that bacteria outnumber human cells in the body ten to one. What is the better estimate?"
+    options:
+      - text: "Roughly equal numbers: about 1.3 bacteria for every human cell"
+        correct: true
+        feedback: "The 2016 recount put bacteria at about 3.8 × 10¹³ and human cells at about 3.0 × 10¹³. The ten-to-one figure came from a rough 1970s extrapolation."
+      - text: "Ten to one is correct"
+        correct: false
+        feedback: "That figure came from a rough 1970s extrapolation. A careful recount in 2016 found about 1.3 bacteria per human cell."
+      - text: "Human cells outnumber bacteria a thousand to one"
+        correct: false
+        feedback: "The numbers are of the same order: about 3.8 × 10¹³ bacteria and 3.0 × 10¹³ human cells."
+  - id: w5
+    stem: "*Treponema pallidum*, the cause of syphilis, cannot be grown on laboratory media. Which of Koch's postulates does that block?"
+    options:
+      - text: "Growing the organism in pure culture"
+        correct: true
+        feedback: "Without pure culture, the organism cannot be given to a healthy host from culture either. Many real pathogens fail the postulates for this reason."
+      - text: "Finding the organism in cases of the disease"
+        correct: false
+        feedback: "The organism can be seen and detected in lesions. What cannot be done is growing it in pure culture."
+      - text: "None; the postulates do not require culture"
+        correct: false
+        feedback: "Isolation in pure culture is the second postulate, and it is the step that uncultivable organisms fail."
+  - id: w6
+    stem: "Which agent has no genome at all?"
+    options:
+      - text: "A prion"
+        correct: true
+        feedback: "A prion is a misfolded host protein that converts normal copies of itself. Every other infectious agent carries DNA or RNA."
+      - text: "A virus"
+        correct: false
+        feedback: "Every virus carries a genome of DNA or RNA. The agent with no genome is the prion, a misfolded protein."
+      - text: "An obligate intracellular bacterium"
+        correct: false
+        feedback: "Obligate intracellular bacteria such as Chlamydia have their own DNA and ribosomes. The prion has no genome."

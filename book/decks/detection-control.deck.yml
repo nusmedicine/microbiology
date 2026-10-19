@@ -1,0 +1,45 @@
+id: detection-control
+title: "Flashcards: detecting and controlling microbes"
+intro: "Each card links a method to the property it reads, or a control measure to what survives it."
+
+cards:
+  - id: dc1
+    kind: how
+    front: "What does each of the four kinds of method read?"
+    back: "**Stains and microscopy:** structure. **Culture:** growth. **Nucleic acid and protein tests:** molecules. **Serology:** the host's antibody response."
+  - id: dc2
+    kind: why
+    front: "Why can a nucleic acid test be positive after an infection has resolved?"
+    back: "It reads **sequence, not life**. Dead organisms and residual nucleic acid still give a positive result."
+  - id: dc3
+    kind: why
+    front: "Why is culture still worth the wait?"
+    back: "It produces a **living isolate** for susceptibility testing, identification and strain comparison, and it can grow organisms nobody specifically looked for."
+  - id: dc4
+    kind: apart
+    front: "Selective versus differential medium?"
+    back: "**Selective:** suppresses unwanted organisms so a target can be isolated. **Differential:** makes colonies look different according to a metabolic property, such as haemolysis on blood agar."
+  - id: dc5
+    kind: how
+    front: "Define the MIC."
+    back: "The **minimum inhibitory concentration**: the lowest drug concentration that prevents visible growth. A breakpoint converts it into susceptible or resistant."
+  - id: dc6
+    kind: why
+    front: "Why does a 'susceptible' report not guarantee that a patient will respond?"
+    back: "The test describes the organism **in a tube**. The drug must also reach the site at an adequate concentration, and host factors and the source of infection matter."
+  - id: dc7
+    kind: apart
+    front: "Sterilisation, disinfection, antisepsis?"
+    back: "**Sterilisation:** kills all microbial life including spores. **Disinfection:** removes most organisms from objects, not reliably spores. **Antisepsis:** the same applied to living tissue."
+  - id: dc8
+    kind: predict
+    front: "Which organisms survive an alcohol hand rub?"
+    back: "**Bacterial spores**, and naked (non-enveloped) viruses are more resistant. Enveloped viruses are readily inactivated because their lipid envelope is fragile."
+  - id: dc9
+    kind: why
+    front: "Why conjugate a capsular polysaccharide to a protein in a vaccine?"
+    back: "Polysaccharide alone gives a **poor response in young children**. Conjugation recruits T-cell help, giving a stronger, longer-lasting response in the age group most at risk."
+  - id: dc10
+    kind: apart
+    front: "What does IgM tell you that a single IgG result does not?"
+    back: "IgM suggests **recent** infection. IgG persists for years, so a single positive may reflect old exposure or vaccination; a **rise between paired samples** indicates recent infection."

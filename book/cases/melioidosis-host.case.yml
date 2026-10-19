@@ -1,0 +1,162 @@
+id: melioidosis-host
+label: "Investigation case"
+title: "Same soil, different outcomes"
+objectives:
+  - "Identify an environmental reservoir and a portal of entry from an exposure history."
+  - "Explain why the same exposure causes disease in one person and not another, using host factors."
+  - "Explain how a soil organism that does not need humans can still have virulence factors."
+difficulty: intro
+estimatedMinutes: 8
+tags: [microbiology, host-factors, melioidosis, burkholderia, singapore, one-health]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Dr Rahman"
+  occupation: "infectious diseases physician"
+  presentation: "You are attached to Dr Rahman's team for the week. A new patient has been admitted overnight."
+
+nodes:
+  - id: intro
+    type: info
+    title: "\"Two of them did the same job\""
+    body: |
+      Mr Lee, 54, and his colleague, 49, landscape the grounds of a housing estate. After a week of
+      heavy rain they spent two days replanting beds, working barehanded in wet soil, and both had
+      small cuts on their hands. Ten days later Mr Lee was admitted with high fever, cough and
+      **hypotension** (dangerously low blood pressure). His colleague is well. Mr Lee has had **type 2
+      diabetes** for eight years, poorly controlled.
+
+      His blood culture grows a Gram-negative rod: *Burkholderia pseudomallei*, the cause of
+      **melioidosis**. It lives in soil and surface water across South-East Asia and northern Australia.
+    next: q-reservoir
+
+  - id: q-reservoir
+    type: mcq
+    stem: "What is the reservoir of the organism, and how did it most likely enter Mr Lee?"
+    options:
+      - id: a
+        text: "Wet soil, entering through cuts on his hands"
+        correct: true
+        feedback: "*B. pseudomallei* is an environmental organism. It enters through broken skin, and can also be inhaled or swallowed; heavy rain brings it to the surface."
+        effects: { quality: +1 }
+        goto: q-why-him
+      - id: b
+        text: "Another person, through respiratory droplets"
+        correct: false
+        feedback: "Spread between people is very rare. The reservoir is soil and surface water, and the cuts on his hands gave it a way in."
+        goto: q-why-him
+      - id: c
+        text: "His own gut microbiota"
+        correct: false
+        feedback: "*B. pseudomallei* is not part of the normal microbiota. It came from the environment, through the cuts in his skin."
+        goto: q-why-him
+
+  - id: q-why-him
+    type: mcq
+    stem: "Both men had the same exposure. Why did only Mr Lee become seriously ill?"
+    options:
+      - id: a
+        text: "Poorly controlled diabetes impairs neutrophil function, so he cleared the bacteria less well"
+        correct: true
+        feedback: "Host factors decide outcomes. In Singapore, 56.7% of patients with melioidosis had diabetes, against 19.3% of people of similar age in the general population."
+        effects: { quality: +1 }
+        goto: q-virulence
+      - id: b
+        text: "He must have met a more virulent strain"
+        correct: false
+        feedback: "Strains do vary, but they worked the same soil. The difference that best explains the outcome is a host factor: his diabetes."
+        goto: q-virulence
+      - id: c
+        text: "Chance alone; host factors do not matter for environmental organisms"
+        correct: false
+        feedback: "Chance plays a part, but host factors matter a great deal here. Most people with melioidosis have a risk factor, and diabetes is the commonest."
+        goto: q-virulence
+
+  - id: q-virulence
+    type: mcq
+    stem: "*B. pseudomallei* lives on decaying matter in soil and does not need humans to survive. Why does it have traits that let it survive inside human phagocytes?"
+    options:
+      - id: a
+        text: "The same traits help it survive soil amoebae, which engulf bacteria much as phagocytes do"
+        correct: true
+        feedback: "Virulence can evolve in the environment. Traits selected by soil predators happen to work against human phagocytes too, which makes it an accidental pathogen."
+        effects: { quality: +1 }
+        goto: q-control
+      - id: b
+        text: "It evolved them in order to infect humans"
+        correct: false
+        feedback: "Evolution has no goals, and humans are a dead end for this organism, since it rarely passes between people. Its traits were selected in the soil, by predators such as amoebae."
+        goto: q-control
+      - id: c
+        text: "It acquired them from Mr Lee's diabetes"
+        correct: false
+        feedback: "Diabetes is a host factor; it changes the host, not the bacterium. The bacterium's traits were selected in the soil, by predators such as amoebae."
+        goto: q-control
+
+  - id: q-control
+    type: mcq
+    stem: "The ward nurse asks whether Mr Lee's colleague, or the staff, are at risk from Mr Lee. What is the best answer?"
+    options:
+      - id: a
+        text: "Spread between people is very rare; prevention is about soil exposure: gloves, boots and wound care, especially for people with diabetes"
+        correct: true
+        feedback: "The chain of transmission runs from the environment, not from person to person. Standard precautions are enough on the ward."
+        effects: { quality: +1 }
+        goto: route
+      - id: b
+        text: "Everyone who shared a room with him should be isolated"
+        correct: false
+        feedback: "Melioidosis is acquired from soil and water. Person-to-person spread is very rare, so isolating contacts would not help."
+        goto: route
+      - id: c
+        text: "The colleague is now a carrier and will spread it to his family"
+        correct: false
+        feedback: "There is no evidence of carriage and spread here. The organism's reservoir is the environment."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 3"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    title: "Reservoir, route, host"
+    body: |
+      Three ideas carry the case. The reservoir is the environment: wet soil and surface water. The
+      route was broken skin. The difference between the two men was a host factor: poorly controlled
+      diabetes. The organism's ability to survive phagocytes was selected by soil amoebae, not by humans.
+      Replay and follow the chain from soil to bloodstream.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Explained from reservoir to host"
+    body: |
+      You traced a serious infection from its reservoir in wet soil, through a portal of entry in the
+      skin, to a host whose defences were weakened by diabetes, and you explained why an organism that
+      does not need humans can still harm them. That is the damage-response view in practice: the
+      outcome depends on the microbe and the host together.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "An exposure history identifies the reservoir and the portal of entry."
+        - "Host factors such as diabetes decide who becomes ill after the same exposure."
+        - "Virulence can be selected in the environment, for example by soil amoebae."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You got part of the chain. Replay it and follow the bacterium from the soil to the bloodstream,
+      and ask at each step what the host contributed.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Reservoir: soil and surface water. Route: broken skin."
+        - "Host factors decide outcomes."

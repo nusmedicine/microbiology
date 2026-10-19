@@ -1,0 +1,21 @@
+id: selection-sim
+title: "Selection on a plate"
+intro: "Each square is one bacterium. Grow the population overnight, then add a drug that kills susceptible cells. Watch what the drug does, and what it does not do."
+seed: 11
+mutationRate: 0.006
+transferRate: 0.08
+
+predict:
+  stem: "Before any drug has been added, are there resistant cells in the population?"
+  options:
+    - text: "Yes, a few, from random mutations during growth"
+      correct: true
+      feedback: "Mutations arise at random every time DNA is copied, whether or not a drug is present. In a large population, a few cells already carry resistance before the first dose. The drug does not create them; it removes their competitors."
+    - text: "No. Resistance only appears once the bacteria meet the drug"
+      correct: false
+      feedback: "This is the commonest misconception about resistance. Luria and Delbrück showed in 1943 that resistant mutants arise at random before selection. Look at the plate: the orange cells were there before any drug."
+    - text: "Only if the patient has taken this drug before"
+      correct: false
+      feedback: "Resistance belongs to the bacteria, not to the patient. Random mutation produces a few resistant cells in any large population, whatever the patient's history."
+
+note: "The mutation rate here is exaggerated so that resistant cells appear on a plate of 400. Real rates for a single resistance mutation are typically between about one in ten million and one in a billion divisions, but an infection can contain billions of bacteria."

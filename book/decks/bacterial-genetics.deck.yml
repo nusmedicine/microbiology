@@ -1,0 +1,41 @@
+id: bacterial-genetics
+title: "Flashcards: how bacteria copy themselves and change"
+intro: "These cards are about mechanisms. Explain each one before you check."
+
+cards:
+  - id: g1
+    kind: why
+    front: "Why are resistant mutants usually present before a drug is given?"
+    back: "Mutations arise at random during every round of DNA copying, and an infection can hold billions of bacteria. A few resistant cells exist by chance; the drug then selects them."
+  - id: g2
+    kind: how
+    front: "What did Luria and Delbrück show in 1943?"
+    back: "Resistant mutants arise at random before selection: their numbers varied wildly between parallel cultures, in the pattern expected of random mutation during growth."
+  - id: g3
+    kind: apart
+    front: "Transformation, transduction and conjugation: how does DNA travel in each?"
+    back: "Transformation: free DNA from dead cells is taken up. Transduction: a phage carries bacterial DNA. Conjugation: a plasmid is copied into a neighbour through direct contact."
+  - id: g4
+    kind: why
+    front: "Why is the name 'sex pilus' misleading?"
+    back: "Bacteria have no sexes, and conjugation produces no offspring. The pilus simply connects two cells so a plasmid can be copied across."
+  - id: g5
+    kind: how
+    front: "What is lysogenic conversion? Give one example."
+    back: "A prophage gene changes the host bacterium's traits. Example: only *C. diphtheriae* carrying the toxin-encoding phage produces diphtheria toxin."
+  - id: g6
+    kind: how
+    front: "Name the four ways bacteria resist antimicrobial drugs."
+    back: "Destroy or modify the drug; change the target; keep the drug out (fewer porins); pump it out (efflux pumps)."
+  - id: g7
+    kind: why
+    front: "Why can resistance to several drugs arrive in one step?"
+    back: "Plasmids and transposons often carry several resistance genes together, so one transfer brings them all."
+  - id: g8
+    kind: apart
+    front: "Intrinsic versus acquired resistance?"
+    back: "Intrinsic: a property of the whole species, such as *Mycoplasma*'s lack of a wall. Acquired: gained by a particular strain through mutation or gene transfer."
+  - id: g9
+    kind: why
+    front: "Why does every prescriber matter for antimicrobial stewardship?"
+    back: "Every use selects resistant bacteria, and resistant bacteria and their genes spread between people and species. Selection is a population effect."

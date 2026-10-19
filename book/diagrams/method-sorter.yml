@@ -1,0 +1,46 @@
+id: method-sorter
+title: "What does this method read?"
+intro: "Every laboratory method detects one kind of thing. Sort each method by what it actually reads, because that determines what it can and cannot tell you."
+
+categories:
+  - key: structure
+    label: "Structure"
+    summary: "stains and microscopy read shape and envelope. Fast and cheap, but they show a category rather than a species."
+  - key: growth
+    label: "Growth"
+    summary: "culture reads whether the organism multiplies in given conditions. It yields a living isolate for further testing, but needs time and the right conditions."
+  - key: molecule
+    label: "Molecules"
+    summary: "nucleic acid and protein methods read sequence or mass. Fast and sensitive, but they detect dead organisms too, and only what they are designed to find."
+  - key: hostresponse
+    label: "Host response"
+    summary: "serology reads the patient's antibodies, which is evidence of exposure rather than of the organism's presence now."
+
+items:
+  - text: "Gram stain of a sample seen under a light microscope"
+    answer: structure
+    why: "It reads the envelope and the shape, within minutes."
+  - text: "Growing an organism on agar in an oxygen-free jar"
+    answer: growth
+    why: "It reads whether the organism multiplies under those conditions."
+  - text: "A nucleic acid amplification test for a specific target sequence"
+    answer: molecule
+    why: "It reads sequence, and finds only the target it was designed for."
+  - text: "Testing a patient's blood for IgM antibodies against an organism"
+    answer: hostresponse
+    why: "It reads the patient's immune response, not the organism."
+  - text: "Identifying a colony by the mass pattern of its proteins (MALDI-TOF)"
+    answer: molecule
+    why: "It reads a protein profile, matched against a database, usually from a grown colony."
+  - text: "Acid-fast stain for organisms with waxy walls"
+    answer: structure
+    why: "Another stain that reads the envelope, for organisms the Gram stain cannot."
+  - text: "A dilution series to find the lowest concentration that prevents growth"
+    answer: growth
+    why: "The reading is whether the organism grows at each concentration."
+  - text: "A rising antibody level between samples taken two weeks apart"
+    answer: hostresponse
+    why: "Paired samples showing a rise indicate recent infection, again by reading the host."
+  - text: "Whole-genome sequencing of two isolates to see whether they are the same strain"
+    answer: molecule
+    why: "It reads sequence, at a resolution that can link cases in an outbreak."

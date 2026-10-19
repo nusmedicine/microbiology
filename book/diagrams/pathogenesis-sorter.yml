@@ -1,0 +1,52 @@
+id: pathogenesis-sorter
+title: "Which step of infection does this tool serve?"
+intro: "A **virulence factor** is any microbial product or structure that helps the microbe infect or damage a host. Sort each one by the step of infection it serves."
+
+categories:
+  - key: attach
+    label: "Attach"
+    summary: "colonisation starts with a specific grip on a host surface. The receptor a microbe binds largely decides its tropism."
+  - key: spread
+    label: "Invade and spread"
+    summary: "enzymes and motility let a microbe move beyond the surface it first reached."
+  - key: evade
+    label: "Evade defences"
+    summary: "capsules, changing surface proteins and enzymes against antibodies keep the microbe ahead of the immune response."
+  - key: iron
+    label: "Obtain iron"
+    summary: "the host locks iron away in proteins such as transferrin, so pathogens need tools to take it back."
+  - key: damage
+    label: "Damage the host"
+    summary: "toxins harm cells directly, and some, such as superantigens, harm the host by provoking its own response."
+
+items:
+  - text: "Fimbriae that bind sugars on the cells lining the urinary tract"
+    answer: attach
+    why: "A specific grip on a host surface."
+  - text: "A polysaccharide capsule that phagocytes cannot grip"
+    answer: evade
+    why: "It blocks phagocytosis."
+  - text: "Siderophores: small molecules that strip iron from host proteins"
+    answer: iron
+    why: "They capture iron that the host has locked away."
+  - text: "An enzyme that cleaves IgA antibodies on mucosal surfaces"
+    answer: evade
+    why: "It disarms the main antibody of mucosal defence."
+  - text: "An enzyme that breaks down hyaluronic acid between cells"
+    answer: spread
+    why: "It loosens tissue so the microbe can move through it."
+  - text: "A toxin that stops protein synthesis in host cells"
+    answer: damage
+    why: "It kills the cells it enters."
+  - text: "Switching its pilin protein to a version the existing antibodies do not recognise"
+    answer: evade
+    why: "Antigenic variation keeps it ahead of antibodies."
+  - text: "Actin tails that push the bacterium from one host cell directly into the next"
+    answer: spread
+    why: "Cell-to-cell spread that never exposes the bacterium to antibodies outside cells."
+  - text: "Adhesins that bind fibronectin on a damaged heart valve"
+    answer: attach
+    why: "A specific grip, here on an exposed matrix protein."
+  - text: "A superantigen that activates a large share of T cells at once"
+    answer: damage
+    why: "It harms the host through the host's own cytokine response."

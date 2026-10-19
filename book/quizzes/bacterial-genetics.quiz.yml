@@ -1,0 +1,75 @@
+id: bacterial-genetics
+title: "Check your understanding: how bacteria copy themselves and change"
+questions:
+  - id: n1
+    stem: "A patient is given a drug, and two days later most of the bacteria in a sample are resistant. What is the best explanation?"
+    options:
+      - text: "A few resistant mutants were already present; the drug killed the susceptible cells and the resistant ones multiplied"
+        correct: true
+        feedback: "Selection, not instruction. The drug changed which cells survived, not which mutations occurred."
+      - text: "The bacteria mutated in response to the drug in order to survive"
+        correct: false
+        feedback: "Bacteria cannot produce the mutation they need. Mutations arise at random; the drug selects the cells that already carry a useful one."
+      - text: "The patient's body became resistant to the drug"
+        correct: false
+        feedback: "Resistance is a property of the bacteria. The patient's body has not changed; the bacterial population has."
+  - id: n2
+    stem: "Why can a resistance gene appear in a species that has never carried it before?"
+    options:
+      - text: "Plasmids and transposons can move between species by horizontal gene transfer"
+        correct: true
+        feedback: "Conjugation in particular can pass a plasmid from one species to another living in the same place, such as the gut."
+      - text: "Mutation can copy genes from neighbouring species"
+        correct: false
+        feedback: "Mutation changes a cell's own DNA a few bases at a time. Genes arrive from other species by horizontal transfer."
+      - text: "Drugs insert resistance genes into bacteria"
+        correct: false
+        feedback: "Drugs select; they do not supply genes. The genes arrive by horizontal transfer from other bacteria."
+  - id: n3
+    stem: "Only strains of *Corynebacterium diphtheriae* that carry a particular phage cause diphtheria. What is this an example of?"
+    options:
+      - text: "Lysogenic conversion: a prophage gene changes what the bacterium does"
+        correct: true
+        feedback: "The diphtheria toxin gene is carried by the phage. Without the prophage, the bacterium makes no toxin."
+      - text: "The lytic cycle, which kills the bacterium"
+        correct: false
+        feedback: "In the lytic cycle the phage destroys its host. Here the phage genome stays in the chromosome as a prophage and adds the toxin gene."
+      - text: "Transformation by free DNA"
+        correct: false
+        feedback: "The toxin gene arrives with the phage itself, as a prophage. That is lysogenic conversion."
+  - id: n4
+    stem: "Bacterial ribosomes are 70S and human cytoplasmic ribosomes are 80S. Why can some drugs that block bacterial ribosomes still affect human cells at high doses?"
+    options:
+      - text: "Human mitochondria have bacterial-type ribosomes"
+        correct: true
+        feedback: "Mitochondria descend from bacteria and kept bacterial-type ribosomes. Drugs aimed at 70S ribosomes can reach them too."
+      - text: "Human cells have 70S ribosomes in the nucleus"
+        correct: false
+        feedback: "Ribosomes are not in the nucleus, and cytoplasmic ones are 80S. The bacterial-type ribosomes in human cells are in mitochondria."
+      - text: "Bacteria and humans have identical ribosomes"
+        correct: false
+        feedback: "The difference between 70S and 80S ribosomes is what makes them a target. The exception is mitochondria, which have bacterial-type ribosomes."
+  - id: n5
+    stem: "In Griffith's experiment, live unencapsulated (R) pneumococci mixed with heat-killed encapsulated (S) cells killed mice. Which process explains this?"
+    options:
+      - text: "Transformation: the R cells took up DNA for capsule synthesis released by the dead S cells"
+        correct: true
+        feedback: "Avery, MacLeod and McCarty later showed that the transforming principle was DNA."
+      - text: "Conjugation between the live and dead cells"
+        correct: false
+        feedback: "Conjugation needs two living cells in contact. Here living cells took up free DNA from dead ones: transformation."
+      - text: "The heat-killed cells came back to life"
+        correct: false
+        feedback: "Heat-killed cells stay dead. Live R cells were changed by taking up DNA from them."
+  - id: n6
+    stem: "A Gram-negative bacterium becomes resistant after a mutation reduces the number of channels in its outer membrane. Which mechanism is this?"
+    options:
+      - text: "Keeping the drug out, through fewer porins"
+        correct: true
+        feedback: "Porins are the channels many drugs use to cross the outer membrane. Fewer porins means less drug inside."
+      - text: "Destroying the drug with an enzyme"
+        correct: false
+        feedback: "No enzyme is involved. Fewer outer-membrane channels (porins) means less drug gets in."
+      - text: "Changing the drug's target"
+        correct: false
+        feedback: "The target is unchanged. The drug simply cannot reach it in sufficient amounts because fewer porins let it in."

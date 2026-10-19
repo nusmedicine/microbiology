@@ -1,0 +1,154 @@
+id: helicobacter-postulates
+label: "History case"
+title: "Proving a cause: the bacterium in the stomach"
+objectives:
+  - "Explain why finding an organism at the site of disease does not prove that it causes the disease."
+  - "Apply Koch's postulates, and recognise where they fail."
+  - "Explain why carriage without disease does not rule out a microbe as a cause."
+difficulty: intro
+estimatedMinutes: 8
+tags: [microbiology, history, koch-postulates, helicobacter, causation]
+start: intro
+variables: { quality: 0 }
+
+nodes:
+  - id: intro
+    type: info
+    title: "Perth, 1979"
+    body: |
+      Robin Warren, a pathologist at Royal Perth Hospital, notices curved bacteria on the lining of
+      stomach biopsies from patients with **gastritis** (inflammation of the stomach lining). At the
+      time, most doctors believe that the stomach is too acidic for bacteria to live in, and that
+      **peptic ulcers** (breaches in the lining of the stomach or duodenum) are caused by stress and
+      acid. A young physician, Barry Marshall, joins him to find out what the bacteria are doing.
+    next: q-association
+
+  - id: q-association
+    type: mcq
+    stem: "The bacteria are seen in most biopsies with gastritis. Is that enough to say they cause it?"
+    options:
+      - id: a
+        text: "No. They might cause the gastritis, or they might simply thrive in an already inflamed stomach"
+        correct: true
+        feedback: "An association can run either way, or both can share a third cause. Causation needs more than presence at the scene."
+        effects: { quality: +1 }
+        goto: q-culture
+      - id: b
+        text: "Yes. Bacteria found at the site of disease are the cause"
+        correct: false
+        feedback: "Many harmless microbes live at sites of disease. Presence fits causation, but it also fits a bystander that likes inflamed tissue."
+        goto: q-culture
+      - id: c
+        text: "No, because bacteria cannot survive stomach acid"
+        correct: false
+        feedback: "The biopsies show that these bacteria do survive there. The open question is whether they cause the gastritis or merely live in it."
+        goto: q-culture
+
+  - id: q-culture
+    type: mcq
+    stem: "To apply Koch's postulates, the bacterium must be grown in pure culture. For months, every culture plate is thrown away blank after two days. In April 1982, plates are left in the incubator over a long Easter weekend, and colonies appear on day five. What does that tell you?"
+    options:
+      - id: a
+        text: "The organism grows slowly, and the lab's usual two-day rule was discarding it"
+        correct: true
+        feedback: "Culture conditions decide what a lab can find, the same lesson as an anaerobe sample left in air. This organism also needs low oxygen (it is microaerophilic)."
+        effects: { quality: +1 }
+        goto: q-postulate
+      - id: b
+        text: "The bacterium was a contaminant that arrived over the weekend"
+        correct: false
+        feedback: "A contaminant would not match the curved bacteria seen in the biopsies, and the same organism grew from further patients once plates were kept longer. It is simply slow-growing."
+        goto: q-postulate
+      - id: c
+        text: "Nothing useful: culture results cannot inform causation"
+        correct: false
+        feedback: "Pure culture is the second of Koch's postulates. Without it, the organism cannot be given to a healthy host to test whether it causes disease."
+        goto: q-postulate
+
+  - id: q-postulate
+    type: mcq
+    stem: "In 1984 Marshall drinks a culture of the organism. Within about a week he develops gastritis, and the bacterium is found again in his stomach. Which part of Koch's postulates does this test?"
+    options:
+      - id: a
+        text: "That the organism causes the disease when given to a healthy host, and can be recovered again"
+        correct: true
+        feedback: "These are the third and fourth postulates. Human self-experiment is rare and risky, but here it supplied the step that animal models could not."
+        effects: { quality: +1 }
+        goto: q-carriers
+      - id: b
+        text: "That the organism is found in every patient with the disease"
+        correct: false
+        feedback: "That is the first postulate, tested by the biopsy studies. Swallowing the organism tests whether it causes disease in a healthy host."
+        goto: q-carriers
+      - id: c
+        text: "That the organism can be grown in pure culture"
+        correct: false
+        feedback: "Culture had already succeeded in 1982. The self-experiment tests whether the organism causes disease in a healthy host."
+        goto: q-carriers
+
+  - id: q-carriers
+    type: mcq
+    stem: "The organism, now called *Helicobacter pylori*, turns out to live in the stomachs of a large share of the world's population, and most of them never develop an ulcer. Does that weaken the case that it causes ulcers?"
+    options:
+      - id: a
+        text: "No. Many pathogens are carried without disease; host and microbial factors decide who becomes ill"
+        correct: true
+        feedback: "Koch's first postulate, as originally stated, expects the organism to be absent from healthy people. Carriage is common for many established pathogens, which is one reason the postulates are a guide, not a rule."
+        effects: { quality: +1 }
+        goto: route
+      - id: b
+        text: "Yes. A true cause must produce disease in everyone who carries it"
+        correct: false
+        feedback: "Very few pathogens make everyone ill. Whether infection becomes disease depends on the strain, the dose and the host."
+        goto: route
+      - id: c
+        text: "Yes. It proves the bacterium is a harmless commensal"
+        correct: false
+        feedback: "Carriage without disease is compatible with causation. Removing the organism also heals most ulcers and stops them coming back, which is strong evidence that it causes them."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 3"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    title: "Presence, culture, challenge, carriage"
+    body: |
+      The case for causation was built in steps: the organism was seen at the site of disease; it was
+      grown in pure culture once the lab gave it enough time; it caused gastritis when given to a
+      healthy person and was recovered again. Carriage without disease does not undo that case,
+      because host factors decide who becomes ill. Replay and follow the steps.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Cause established, dogma overturned"
+    body: |
+      You followed how Warren and Marshall showed that a bacterium causes gastritis and peptic ulcers:
+      association first, then culture, then challenge of a healthy host. They shared the 2005 Nobel
+      Prize in Physiology or Medicine. You also saw where Koch's postulates bend: slow-growing
+      organisms and healthy carriers.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "Finding a microbe at the site of disease shows association, not cause."
+        - "Koch's postulates: present in disease, grown in pure culture, causes disease in a healthy host, recovered again."
+        - "Healthy carriers and organisms that are hard to culture mean the postulates are a guide, not a rule."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You got part of the argument. Replay it and follow the steps from association to causation, and
+      what healthy carriers do and do not tell you.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Association is not causation."
+        - "Carriage without disease is common for real pathogens."

@@ -1,0 +1,46 @@
+id: agent-sorter
+title: "Which kind of agent is it?"
+intro: "Each description gives traits, not a name. Sort each one into the right kind of infectious agent."
+
+categories:
+  - key: bacterium
+    label: "Bacterium"
+    summary: "a prokaryotic cell: no nucleus, 70S ribosomes, usually a peptidoglycan wall."
+  - key: eukaryote
+    label: "Fungus or protozoan"
+    summary: "a single eukaryotic cell (or a fungal network of cells) with a nucleus and mitochondria."
+  - key: helminth
+    label: "Helminth"
+    summary: "a many-celled animal with organs, usually visible to the naked eye as an adult."
+  - key: virus
+    label: "Virus"
+    summary: "not a cell: a genome inside a protein coat, sometimes with a lipid envelope, copied only inside a host cell."
+  - key: prion
+    label: "Prion"
+    summary: "a misfolded host protein that converts normal copies of itself; it has no genome at all."
+
+items:
+  - text: "A single cell, 1 µm across, with a circular chromosome, no nucleus and a peptidoglycan wall"
+    answer: bacterium
+    why: "No nucleus and a peptidoglycan wall: a prokaryote."
+  - text: "An RNA genome inside a protein shell and a lipid envelope taken from the last cell it left"
+    answer: virus
+    why: "No cell at all, and an envelope borrowed from the host membrane."
+  - text: "A single cell with a nucleus and mitochondria and a wall of chitin and glucans, growing as budding yeast"
+    answer: eukaryote
+    why: "A nucleus and a chitin wall: a fungus."
+  - text: "A misfolded protein, with no DNA or RNA, that converts the normal form of the same protein in the brain"
+    answer: prion
+    why: "No genome at all: a prion."
+  - text: "A worm 20 cm long, with a gut and reproductive organs, whose eggs appear in stool"
+    answer: helminth
+    why: "Many cells and organs: a helminth."
+  - text: "A single cell with a nucleus and no cell wall that swims using flagella"
+    answer: eukaryote
+    why: "A nucleus and no wall, moving with flagella: a protozoan."
+  - text: "Has no ribosomes of its own, so it cannot make protein outside a host cell"
+    answer: virus
+    why: "Every cell has ribosomes; only a virus lacks them."
+  - text: "A cell with no nucleus that lives only inside host cells and has very little peptidoglycan"
+    answer: bacterium
+    why: "Still a prokaryotic cell, with its own ribosomes: an obligate intracellular bacterium such as *Chlamydia*."

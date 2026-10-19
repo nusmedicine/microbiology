@@ -1,0 +1,22 @@
+id: epidemic-sim
+title: "How an outbreak unfolds"
+intro: "A town of 10,000 people, ten of them infectious on day zero. Move the sliders and watch what changes: the height of the peak, when it comes, and how many people are infected in total."
+days: 180
+infectiousDays: 7
+r0: 2.5
+cover: 0
+
+predict:
+  stem: "If vaccination halves the number of people who can be infected, what happens to the peak?"
+  options:
+    - text: "It is both lower and later"
+      correct: true
+      feedback: "Fewer susceptible people means each infection passes on to fewer others, so the outbreak grows more slowly and never reaches as many people at once. Try 0% and then 50% and watch both the height and the timing."
+    - text: "It is half as high, at the same time"
+      correct: false
+      feedback: "The relationship is not proportional. Fewer susceptible people slow the growth as well as lower it, so the peak moves later as well as down. Try it."
+    - text: "It is unchanged, because the same organism is circulating"
+      correct: false
+      feedback: "Transmission depends on contact between an infectious person and a susceptible one. Removing susceptible people changes the outbreak even though the organism is the same."
+
+note: "A deterministic SIR model: everyone mixes evenly, immunity is complete and lasting, and no one is born, dies or travels. Real outbreaks depart from all four assumptions, which is why models like this one show the shape of an epidemic rather than predicting case numbers."

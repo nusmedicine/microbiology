@@ -1,23 +1,155 @@
 # The microbial world
 
-> *How big are microbes, how are they related to each other and to us, and why are most of them harmless?*
+> *Most of the living things on Earth are too small to see, and almost all of them are harmless.
+> This chapter sets the scale, sorts infectious agents into five kinds, and introduces the six
+> questions the rest of the book asks of every one of them.*
 
-::: {.callout-note}
-## In preparation
-This unit is planned but not yet written. The outline below shows what it will cover.
+## A matter of scale {#sec-world-scale}
+
+A **microorganism**, or microbe, is any living thing too small to see without a microscope:
+bacteria, archaea, fungi such as yeasts, and **protozoa** (single-celled eukaryotes that move and
+feed like tiny animals). Viruses are usually included, although they are not cells. Medical
+microbiology also covers **helminths** (parasitic worms), most of which are visible to the naked eye,
+because they are infectious agents too.
+
+The range of sizes is enormous. Try putting these in order before you read on.
+
+<div data-island="rank-order" data-src="/diagrams/size-ladder.yml"></div>
+
+Two consequences follow from size. The first is about seeing. A light microscope cannot separate
+two points closer than about 0.2 µm, its limit of **resolution**, so bacteria are visible once
+stained but viruses are not. Viruses were first seen in the late 1930s with the electron microscope, and
+in clinical practice they are usually detected by their nucleic acid or their proteins instead.
+
+The second is about growth. A small cell has a large surface area for its volume, so nutrients
+reach every part of it quickly by diffusion. That is one reason bacteria can divide every 20 minutes
+in good conditions, while your own cells take many hours.
+
+## Five kinds of infectious agent {#sec-world-kinds}
+
+All cellular life falls into three **domains**, defined by comparing the genes for ribosomal RNA
+[@woese1990domains]:
+
+- **Bacteria**, prokaryotic cells that include every bacterial pathogen in this book.
+- **Archaea**, also prokaryotic, but with membranes and enzymes so different from bacteria that they
+  form a separate branch. Archaea live in the human gut, but none is an established cause of
+  human disease.
+- **Eukarya**, cells with a nucleus. Fungi, protozoa and helminths belong here, alongside your own
+  cells.
+
+That close relationship matters. A bacterium has many structures your cells lack, so it is
+relatively easy to attack without harming you. A fungus or a protozoan shares most of its machinery
+with you, which leaves fewer safe targets. This is the sixth question of the book, *what does it
+have that my cells lack?*, and the answer changes completely between the domains.
+
+Two kinds of agent sit outside the tree of life. **Viruses** are not cells: a virus particle, or
+**virion**, is a genome of DNA or RNA inside a protein coat, sometimes wrapped in a lipid envelope,
+and it can only be copied inside a living cell. **Prions** have no genome at all. A prion is a
+misfolded form of a normal host protein that converts other copies of the protein into the
+misfolded shape, causing slowly progressive brain disease. Prions are rare, but they matter in
+practice because they survive standard sterilisation, a point the *Detecting and controlling
+microbes* chapter returns to.
+
+Sort the descriptions below by their traits. None of them gives a name.
+
+<div data-island="sorter" data-src="/diagrams/agent-sorter.yml"></div>
+
+## Most microbes are harmless {#sec-world-harmless}
+
+A **pathogen** is a microbe that can cause disease. Pathogens are a small minority of the microbial
+world. About 1,400 species are known to infect humans [@taylor2001risk], out of millions of
+microbial species, and most of those 1,400 cause disease only in some people, some of the time.
+
+Far more microbes live with us without harm. The human body carries about 3.8 × 10^13^ bacteria,
+mostly in the colon, compared with about 3.0 × 10^13^ human cells [@sender2016cells]. These resident
+communities, the **microbiota**, digest food we cannot, compete with pathogens for space, and help
+train the immune system. The *Microbes and their hosts* chapter describes them in detail.
+
+::: {.callout-important}
+## A common idea, corrected: "bacteria outnumber human cells ten to one"
+This figure is still widely quoted. It came from a rough 1970s estimate that assumed every gram of
+the gut contained as many bacteria as a gram of faeces. A careful recount in 2016 put the ratio at
+about 1.3 bacteria for every human cell, with large swings: a single bowel movement can shift it
+noticeably [@sender2016cells].
 :::
 
-## Planned content
+Some microbes are useful to medicine in direct ways. The first recombinant human insulin, approved
+in 1982, was made by *Escherichia coli* carrying the human insulin genes, and many antibiotics were
+first found as products of soil bacteria. In Singapore, a bacterium is being used against dengue.
+*Wolbachia* lives inside the cells of many insects. Male *Aedes aegypti* mosquitoes carrying it are
+released in large numbers; when they mate with wild females, the eggs do not hatch, so the mosquito
+population that transmits dengue falls. In a cluster-randomised trial in Singapore, releases reduced
+the odds of laboratory-confirmed dengue by about 70% [@lim2026wolbachia].
 
-- Size and scale, from a red blood cell to a bacterium to a virus
-- The tree of life: bacteria, archaea, eukaryotic microbes, and viruses outside the tree
-- Most microbes are harmless or useful; pathogens are a small minority
-- Prokaryote versus eukaryote, building on cell biology
+## How microbes came to be blamed {#sec-world-history}
 
-## Planned interactives
+Until the late nineteenth century most doctors attributed epidemics to bad air, or **miasma**, and
+to imbalances within the body. The idea that specific microbes cause specific diseases, the **germ
+theory of disease**, was built from several lines of work:
 
-- A zoom across size scales
-- Sorting organisms onto the tree of life
-- Example: Wolbachia, a bacterium used to stop mosquitoes spreading dengue
+| When | Who | What it showed |
+|---|---|---|
+| 1670s | Antonie van Leeuwenhoek | Microbes exist: he described "animalcules" seen through his hand-made lenses |
+| 1840s | Ignaz Semmelweis | Hand washing with chlorinated lime cut deaths from fever after childbirth (the *Transmission* chapter) |
+| 1860s | Louis Pasteur | Microbes cause fermentation and do not arise spontaneously in sterile broth |
+| 1867 | Joseph Lister | Carbolic acid on wounds and instruments reduced post-operative infection |
+| 1876–1882 | Robert Koch | *Bacillus anthracis* causes anthrax and *Mycobacterium tuberculosis* causes tuberculosis |
 
-**Links to other teaching:** Cell biology.
+Koch's group also set out the logic for proving that a microbe causes a disease. In the form usually
+taught, **Koch's postulates** require that:
+
+1. The organism is found in every case of the disease.
+2. It can be isolated and grown in pure culture.
+3. The cultured organism causes the disease when introduced into a healthy, susceptible host.
+4. The same organism can be recovered from that host.
+
+The postulates are still a good way to think about causation, but many real pathogens fail them.
+Some cannot be grown in culture at all, such as *Treponema pallidum*, the cause of syphilis. Many
+cause disease in only some of the people they infect, so healthy **carriers** exist. Others need a
+particular host factor, or cause disease only in combination with other microbes. Modern versions of
+the postulates use genes rather than whole organisms: a gene is linked to virulence if inactivating
+it reduces disease and restoring it brings disease back [@falkow1988molecular]. The case at the end
+of this chapter follows one discovery that had to work around these problems.
+
+## Same questions, different answers {#sec-world-questions}
+
+This book asks the same six questions of every kind of microbe:
+
+1. What is it built from?
+2. How does it get energy, and what does it need to grow?
+3. How does it copy itself and change?
+4. Where does it live, and how does it spread?
+5. How does damage happen, and how much is microbe versus host?
+6. What does it have that my cells lack?
+
+Each kind of agent gives a different answer to each question. The table below shows one example of
+each kind. Every row returns later, in its own chapter.
+
+| | Bacterium (*S. aureus*) | Virus (influenza) | Fungus (*Candida*) | Protozoan (*Plasmodium*) | Helminth (*Ascaris*) |
+|---|---|---|---|---|---|
+| Built from | Prokaryotic cell with a peptidoglycan wall | RNA genome, protein coat, lipid envelope | Eukaryotic cell with a chitin and glucan wall | Eukaryotic cell, no wall | Many-celled animal |
+| Energy | Its own metabolism | None of its own; uses the host cell's | Its own metabolism | Its own metabolism, using host nutrients | Its own metabolism, feeding on gut contents |
+| Copying | Binary fission; swaps genes | Copied inside host cells; segments reshuffle | Budding | Asexual cycles in humans, sexual stage in the mosquito | Sexual reproduction; eggs |
+| Home and spread | Nose and skin; contact | Airway; respiratory particles | Skin, gut, vagina | Human liver and red cells; mosquito bite | Human intestine; eggs swallowed from soil |
+| Damage | Invasion and toxins | Destroys airway cells; host inflammation | Overgrowth when defences fall | Destroys red cells; blocks small vessels | Heavy burdens obstruct the gut and impair nutrition |
+| Unlike my cells | Peptidoglycan wall; 70S ribosomes | Viral enzymes for copying its genome | Ergosterol in its membrane; chitin and glucan wall | Some metabolic pathways | Nerve and muscle receptors unlike ours |
+
+The rest of the book fills in this table. Part I covers the principles, starting with bacteria
+because they show most of the ideas most clearly. Part II takes each group of organisms in turn.
+
+## Check your understanding {#sec-world-quiz}
+
+<div data-island="quiz" data-src="/quizzes/microbial-world.quiz.yml"></div>
+
+## Review with flashcards {#sec-world-cards}
+
+<div data-island="flashcards" data-src="/decks/microbial-world.deck.yml"></div>
+
+## Practise: proving a cause {#sec-world-case}
+
+<div data-island="case" data-src="/cases/helicobacter-postulates.case.yml"></div>
+
+## References {.unnumbered}
+
+::: {#refs}
+:::

@@ -8,6 +8,12 @@ import MicrobeProfile from './MicrobeProfile.svelte';
 import Flashcards from './Flashcards.svelte';
 import BacteriaMap from './BacteriaMap.svelte';
 import SortingKey from './SortingKey.svelte';
+import RankOrder from './RankOrder.svelte';
+import Sorter from './Sorter.svelte';
+import SelectionSim from './SelectionSim.svelte';
+import DamageResponse from './DamageResponse.svelte';
+import EpidemicSim from './EpidemicSim.svelte';
+import MicReader from './MicReader.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -21,6 +27,12 @@ const REGISTRY = {
   flashcards: Flashcards,
   'bacteria-map': BacteriaMap,
   'sorting-key': SortingKey,
+  'mic-reader': MicReader,
+  'epidemic-sim': EpidemicSim,
+  'damage-response': DamageResponse,
+  'selection-sim': SelectionSim,
+  'sorter': Sorter,
+  'rank-order': RankOrder,
 };
 
 function init() {

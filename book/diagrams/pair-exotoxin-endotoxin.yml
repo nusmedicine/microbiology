@@ -1,0 +1,68 @@
+id: pair-exotoxin-endotoxin
+title: "Contrast pair: exotoxin and endotoxin"
+intro: "Both are bacterial products that cause disease, and both are called toxins. Read across and find the property that explains why one can be turned into a vaccine and the other cannot."
+
+a:
+  name: "Exotoxin"
+b:
+  name: "Endotoxin"
+
+rows:
+  - feature: "Chemical nature"
+    a: "Protein"
+    b: "Lipopolysaccharide; the toxic part is lipid A"
+    separates: true
+  - feature: "Where it comes from"
+    a: "Secreted by living bacteria, Gram-positive and Gram-negative"
+    b: "Part of the Gram-negative outer membrane, released as bacteria divide or die"
+    separates: true
+  - feature: "How it acts"
+    a: "Specifically, on a particular target in particular cells"
+    b: "Non-specifically, by triggering inflammation through immune receptors"
+    separates: true
+  - feature: "Potency"
+    a: "Often extreme: nanograms of some exotoxins are lethal"
+    b: "Much lower per gram"
+    separates: true
+  - feature: "Effect of heat"
+    a: "Most are destroyed, with exceptions such as staphylococcal enterotoxins"
+    b: "Stable"
+    separates: true
+  - feature: "Toxoid vaccine possible?"
+    a: "Yes"
+    b: "No"
+    separates: true
+
+question:
+  stem: "Which property best explains why tetanus and diphtheria can be prevented with vaccines made from inactivated toxin, but there is no such vaccine against endotoxin?"
+  options: [0, 2, 4]
+  answer: 0
+  feedback: >
+    Chemical nature. A protein toxin can be treated, classically with formaldehyde, so that it is no
+    longer toxic but still has the shape antibodies recognise. That is a **toxoid**. Lipid A is a lipid
+    that provokes inflammation but is a poor target for protective antibodies.
+
+principle: >
+  **Exotoxins are weapons; endotoxin is an alarm.** An exotoxin damages a specific target. Endotoxin
+  does little harm by itself; the damage comes from the host's response to it, which at high levels
+  causes fever, dilated and leaky blood vessels, and septic shock.
+
+sort:
+  - text: "Lipid A binds an immune receptor on macrophages and triggers fever"
+    answer: b
+    why: "Endotoxin works through the host's inflammatory response."
+  - text: "Blocks the release of acetylcholine at the neuromuscular junction"
+    answer: a
+    why: "A specific target: botulinum toxin, an exotoxin."
+  - text: "Released in large amounts when Gram-negative bacteria are killed"
+    answer: b
+    why: "Endotoxin is part of the outer membrane, released as the bacteria break up."
+  - text: "Inactivated with formaldehyde to make a vaccine"
+    answer: a
+    why: "That is a toxoid, made from a protein exotoxin."
+  - text: "Present in the outer membrane of *E. coli*"
+    answer: b
+    why: "Every Gram-negative outer membrane carries LPS."
+  - text: "Made by the Gram-positive *Clostridium tetani*"
+    answer: a
+    why: "Gram-positive bacteria have no LPS; tetanus toxin is an exotoxin."
