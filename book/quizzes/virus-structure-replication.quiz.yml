@@ -1,0 +1,108 @@
+id: virus-structure-replication
+title: "Check your understanding: how viruses are built and copy themselves"
+questions:
+  - id: vs1
+    stem: "Which part of an influenza virion was made by the host cell and not by the virus?"
+    options:
+      - text: "The lipid bilayer of the envelope"
+        correct: true
+        feedback: "The envelope is taken from a host membrane as the virion buds out of the cell. The virus inserts its own proteins, haemagglutinin and neuraminidase, into that borrowed bilayer."
+      - text: "The capsid"
+        correct: false
+        feedback: "Capsid proteins are viral, translated by host ribosomes from viral mRNA. Only the lipid of the envelope comes ready-made from the cell."
+      - text: "Haemagglutinin"
+        correct: false
+        feedback: "Haemagglutinin sits in the envelope, but it is a viral protein encoded by the viral genome. Only the lipid bilayer around it is host material."
+      - text: "The eight RNA segments"
+        correct: false
+        feedback: "These are copies of the viral genome, made by the viral RNA-dependent RNA polymerase. Human cells cannot copy RNA from an RNA template."
+  - id: vs2
+    stem: "Several patients and staff on a hospital ward develop vomiting and diarrhoea over a week, although staff clean their hands with alcohol rub between patients. Electron microscopy of a stool sample shows small virus particles with a protein surface and no membrane. Which property of the virus best explains why the hand rub failed to stop its spread?"
+    options:
+      - text: "It has no envelope"
+        correct: true
+        feedback: "Alcohol inactivates a virus mainly by disrupting the lipid envelope. A capsid without an envelope resists alcohol, so the virus survives on hands; washing with soap and water removes it physically."
+      - text: "Its genome is RNA"
+        correct: false
+        feedback: "Influenza virus also has an RNA genome, and alcohol inactivates it readily. What alcohol acts on is the envelope, which this virus lacks."
+      - text: "It is too small to see with a light microscope"
+        correct: false
+        feedback: "All viruses are below the resolution of the light microscope, including enveloped viruses that alcohol inactivates easily. Size does not decide whether alcohol works."
+      - text: "It can multiply only inside living cells"
+        correct: false
+        feedback: "Every virus multiplies only inside cells, so this cannot explain a difference between viruses. The deciding feature is the missing envelope."
+  - id: vs3
+    stem: "Why must a negative-sense RNA virus, such as influenza virus, carry its own RNA-dependent RNA polymerase inside the virion?"
+    options:
+      - text: "Its genome cannot be translated, and human cells have no enzyme that makes RNA from an RNA template"
+        correct: true
+        feedback: "A negative-sense strand is complementary to mRNA, so ribosomes cannot read it. The enzyme that makes mRNA from it must arrive ready-made in the virion."
+      - text: "The host RNA polymerase works only in the nucleus"
+        correct: false
+        feedback: "Location is not the problem. Host RNA polymerase uses DNA templates only, so it cannot transcribe an RNA genome wherever the genome is."
+      - text: "The polymerase forms part of the capsid"
+        correct: false
+        feedback: "The capsid is a protein shell that protects the genome. The polymerase is packaged with the genome because the cell has no enzyme that could make mRNA from it."
+  - id: vs4
+    stem: "In a laboratory, purified RNA from a virus, with no viral proteins at all, is introduced into cultured cells. Two days later the cells are releasing new virions. Which kind of genome does this virus most likely have?"
+    options:
+      - text: "Positive-sense RNA"
+        correct: true
+        feedback: "A positive-sense genome is itself an mRNA. Host ribosomes translate it at once, making the viral polymerase and every other protein the virus needs."
+      - text: "Negative-sense RNA, like influenza virus"
+        correct: false
+        feedback: "Ribosomes cannot translate a negative-sense genome, and the cell cannot make mRNA from it. Without the polymerase the virion normally carries, the naked RNA is not infectious."
+      - text: "Retroviral RNA, like HIV"
+        correct: false
+        feedback: "Reverse transcriptase and integrase, which normally arrive inside the virion, must copy retroviral RNA into DNA and integrate it before any mRNA is made. Naked retroviral RNA has neither enzyme."
+  - id: vs5
+    stem: "Influenza virus is grown in cultured airway cells with a drug that blocks neuraminidase. Which observation is most likely?"
+    options:
+      - text: "New virions bud from infected cells but stay stuck to their surface, and few neighbouring cells become infected"
+        correct: true
+        feedback: "Haemagglutinin on new virions binds sialic acid on the cell they bud from. Neuraminidase normally cuts that sugar; without it, the virions stay attached and cannot spread."
+      - text: "No virions can attach to the cells"
+        correct: false
+        feedback: "Attachment uses haemagglutinin, which the drug does not block. The block falls at release, the last step."
+      - text: "Infected cells make no viral proteins"
+        correct: false
+        feedback: "Genome expression depends on the viral polymerase and host ribosomes, which are untouched. Proteins are made and virions assemble; they fail to leave."
+      - text: "The virions lose their envelope"
+        correct: false
+        feedback: "Neuraminidase plays no part in holding the envelope together. Its job is to free finished virions from the cell surface."
+  - id: vs6
+    stem: "A man with HIV infection has taken drugs that block reverse transcriptase and integrase for several years, and HIV has not been detectable in his blood. He stops treatment, with no new exposure, and within weeks HIV is again detectable in his blood. Which detail best explains its return?"
+    options:
+      - text: "Proviruses integrated in the DNA of his T cells, which the drugs could not remove"
+        correct: true
+        feedback: "The drugs prevent new cells from being infected, but a provirus already in a chromosome is part of the cell's genome. Once treatment stops, transcribed proviruses produce virions that infect new cells."
+      - text: "Virions that survived in his blood outside cells throughout treatment"
+        correct: false
+        feedback: "A virion outside a cell cannot multiply and does not persist for years. The new virus has to come from cells that still carry viral DNA."
+      - text: "Resistance to the drugs that developed during treatment"
+        correct: false
+        feedback: "Resistance would let the virus return while he was still taking the drugs. Here it returned only when treatment stopped, which points to a source the drugs could not reach."
+  - id: vs7
+    stem: "How does an influenza virion acquire its envelope?"
+    options:
+      - text: "By budding through the plasma membrane of the cell that made it"
+        correct: true
+        feedback: "Viral proteins collect in a patch of host membrane, the capsid pushes out through it, and the membrane closes behind it."
+      - text: "By assembling a lipid bilayer from viral genes"
+        correct: false
+        feedback: "Viruses encode no enzymes for making lipid. The envelope is a piece of host membrane, with viral proteins inserted into it."
+      - text: "By lysis of the infected cell"
+        correct: false
+        feedback: "Lysis releases virions by breaking the cell open, and it is how many non-enveloped viruses leave. An envelope is gained by budding."
+  - id: vs8
+    stem: "A patient with influenza is given an antibacterial drug that blocks the building of peptidoglycan. Why does it have no effect on the virus?"
+    options:
+      - text: "The virus has no peptidoglycan wall, or any other structure the drug acts on"
+        correct: true
+        feedback: "Antibacterial drugs act on structures bacteria have and human cells lack. A virus has no wall and uses the host's ribosomes, so the drug finds no target."
+      - text: "The virus is too small for the drug to reach it"
+        correct: false
+        feedback: "Size is not the barrier; drug molecules are far smaller than virions. The drug fails because its target does not exist in a virus."
+      - text: "The envelope keeps the drug out"
+        correct: false
+        feedback: "Even a virus without an envelope has no peptidoglycan. Without a target, a drug has nothing to act on, however easily it reaches the virion."

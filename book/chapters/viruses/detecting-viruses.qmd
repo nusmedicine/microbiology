@@ -1,15 +1,244 @@
 # Detecting viruses and antiviral targets
 
-> *Viruses are too small for the light microscope and grow only in living cells, so they are usually detected by their nucleic acid, their proteins or the antibodies they provoke.*
+> *Viruses are too small for the light microscope and multiply only inside living cells, so the
+> stains and agar plates that find bacteria miss them. They are detected instead by their nucleic
+> acid, their proteins or the antibodies they provoke, and drugs can act only on the few enzymes and
+> proteins a virus brings into the cell.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Explain why viruses are not detected by light microscopy or by culture on agar.
+- Match NAATs, viral load, antigen tests, serology and cell culture to what each detects, and state
+  what a positive and a negative result can and cannot show.
+- Choose a test for a stated clinical question about a viral infection.
+- Name the step of the replication cycle that each class of antiviral drug blocks.
+- Explain why antiviral drugs are fewer and narrower in range than antibacterial drugs, and why they
+  cannot clear a latent virus.
+- Explain why HIV infection is treated with a combination of drugs.
 :::
 
-| Part of the chapter | Plan |
-|---|---|
-| Learning objectives | Choose between nucleic acid tests, antigen tests and serology for a question about a viral infection; name the steps of the replication cycle that drugs block |
-| Detection | NAATs, antigen tests, serology (IgM and paired sera), with what each result means; cell culture in reference laboratories |
-| Antiviral targets | A flow of the replication cycle marked with the steps drugs act on; why there are fewer antiviral than antibacterial drugs |
-| Scenario questions | Which test best answers a described clinical question |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [Finding a virus](#sec-vdet-finding)
+  - [Why the bacterial methods fail](#sec-vdet-why): too small to see, no growth on agar
+  - [Methods that detect viruses](#sec-vdet-methods): NAATs and viral load, antigen tests,
+    serology, cell culture
+  - [Choosing a test](#sec-vdet-choosing) for a clinical question
+- [Treating viral infections](#sec-vdet-treat)
+  - [Antiviral targets](#sec-vdet-targets) along the replication cycle
+  - [Why antiviral drugs are few](#sec-vdet-few)
+  - [Resistance and combination therapy](#sec-vdet-resistance)
+:::
+
+## Finding a virus {#sec-vdet-finding}
+
+### Why the bacterial methods fail {#sec-vdet-why}
+
+Two methods that identify most bacteria fail for viruses, and each failure follows from how a virus
+is built (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-structure)):
+
+- Most virus particles are smaller than the smallest object a light microscope can resolve, so a
+  stain shows nothing useful (compare the Gram stain in [*Detecting bacteria and testing
+  susceptibility*](../bacteria/detecting-bacteria.qmd#sec-dbac-microscopy)).
+- A virus has no ribosomes and no energy supply of its own, so it cannot grow on agar. Like the
+  obligate intracellular bacteria, it multiplies only inside living cells (see [*Detecting bacteria
+  and testing susceptibility*](../bacteria/detecting-bacteria.qmd#sec-dbac-culture)).
+
+Electron microscopy can show virus particles, but it needs many of them in the sample and identifies
+only the family from the shape, so it has little place in routine diagnosis. Clinical virology
+therefore relies on detecting viral molecules and the host's antibodies, the two kinds of method that
+work in the same way for every kind of agent (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-kinds)). Cell culture, the viral counterpart
+of growing bacteria, is kept for reference laboratories.
+
+### Methods that detect viruses {#sec-vdet-methods}
+
+Five methods are in routine use. What each detects sets how quickly it answers and what its result can
+and cannot show.
+
+| Method | What it detects | Time to result | A positive result shows | What a result cannot show |
+|---|---|---|---|---|
+| NAAT | Viral DNA or RNA | Hours | The viral genome is in the sample | Whether the virus is still infectious; viral nucleic acid can remain after recovery |
+| Quantitative NAAT (viral load) | The amount of viral nucleic acid, usually in blood | Hours | How much virus is present, and whether it is rising or falling | Whether the virus has gone: viral DNA kept inside resting cells is not measured |
+| Antigen test | A viral protein | Minutes | Virus is present in large amounts at the site sampled | Absence of infection: a negative result can miss smaller amounts of virus |
+| Serology | The patient's antibodies to the virus | Minutes to hours | The person has met the virus, or a vaccine, at some time | Whether the virus is present now; early in infection, antibodies may not yet have formed |
+| Cell culture | Infectious virus that multiplies in cultured cells | Days to weeks | Live virus was in the sample | An answer in time for most treatment decisions; many viruses grow poorly or not at all in culture |
+
+NAATs are the usual first test for most acute viral infections, because they are fast and sensitive
+and need no living virus. Their limits are those of
+every NAAT (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-molecular)): a positive result shows the
+sequence, and a test reports only the viruses it was designed to detect. Influenza virus is detected
+in this way on a swab from the nose or throat.
+
+A NAAT can also be made quantitative. The **viral load** is the amount of viral nucleic
+acid in a sample, usually plasma, measured by a quantitative NAAT. The trend over time matters more
+than a single value: a falling viral load shows that treatment is suppressing replication, and a rise
+during treatment suggests that the virus has become resistant or that doses are being missed.
+
+::: {.example}
+HIV infection is monitored by repeated viral load measurements. Effective treatment brings HIV RNA in
+the blood below the level the test can detect, while the integrated viral DNA remains in resting
+CD4 T cells (see [*Viruses and the host*](virus-host.qmd#sec-vhost-persistence)).
+:::
+
+An **antigen test** detects a viral protein in a sample, usually with antibodies
+fixed to a paper strip that shows a coloured line when the protein binds, and gives a result within
+minutes without a laboratory. Nothing is amplified, so an antigen test needs far more virus than a
+NAAT to turn positive. A positive result in an ill person is usually reliable; a negative result does
+not exclude infection.
+
+::: {.example}
+Rapid antigen tests for influenza virus on a nasal swab give a result during a clinic visit, but they
+miss a substantial proportion of the infections that a NAAT on the same swab detects.
+:::
+
+Serology for viruses follows the rules for reading antibody results that apply to every agent
+(see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-serology)): IgM, or a fourfold rise in titre
+between paired sera, indicates recent infection, and IgG alone may reflect past infection or
+vaccination. For viruses, serology has three main uses:
+
+- Diagnosing an infection after the virus has left the body.
+- Establishing immunity, for example after vaccination.
+- Diagnosing a lifelong infection, in which antibodies and virus are present together.
+
+HIV infection is the main example of the last use. HIV persists despite the antibody response, so a
+positive antibody test in an adult means current infection. Antibodies take some weeks to appear
+after infection, and the interval in which an infected person still tests negative is the **window
+period**. Detecting a viral protein alongside the antibodies, as HIV tests usually do, shortens the
+window period, and a NAAT shortens it further.
+
+In cell culture, virus from a sample is added to layers of cells grown in the laboratory. A virus
+that multiplies in them changes or kills the cells in a way visible under the microscope, the
+cytopathic effect (see [*Viruses and the host*](virus-host.qmd#sec-vhost-damage)). Culture is slow and
+grows only viruses suited to the cells used, so it is rarely used to diagnose an individual patient.
+Its advantage, as with bacterial culture, is a living isolate whose properties can be studied.
+
+::: {.example}
+Reference laboratories grow influenza virus from samples collected across the world and compare the
+circulating strains with those in the current vaccine, to guide the choice of strains for the next
+vaccine (see [*How viruses change*](virus-change.qmd#sec-vchg-consequences)).
+:::
+
+### Choosing a test {#sec-vdet-choosing}
+
+The choice follows from the clinical question: whether the virus is present now, how much of it there
+is, or whether the person has ever met it.
+
+| Clinical question | Best first test | Reason |
+|---|---|---|
+| Does this ill adult have influenza now? | NAAT on a nasal or throat swab | Sensitive, detects current infection, result within hours |
+| Is influenza likely, with an answer needed during the visit? | Antigen test | Result within minutes; a negative result does not exclude influenza |
+| Has this adult been infected with HIV? | Antibody test combined with detection of a viral protein | HIV persists, so antibodies indicate current infection; the viral protein shortens the window period |
+| Is this person's HIV treatment working? | Viral load | A falling or undetectable viral load shows that replication is suppressed |
+| Is this health worker immune after vaccination? | Serology for IgG | The antibody response is the question; no virus is present to detect |
+
+::: {.example}
+An infant born to a mother with HIV infection carries the mother's antibodies to HIV, because IgG
+crosses the placenta and persists in the infant for many months. An antibody test is therefore
+positive whether or not the infant is infected, and infection in the infant is diagnosed by a NAAT
+for HIV nucleic acid.
+:::
+
+## Treating viral infections {#sec-vdet-treat}
+
+### Antiviral targets along the replication cycle {#sec-vdet-targets}
+
+A virus uses the host cell's ribosomes, energy and building blocks, and brings only a few enzymes and
+proteins of its own. Antiviral drugs act on these viral molecules, at the steps of the replication
+cycle where each one works (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-cycle)).
+
+::: {.flow}
+1. Attach
+2. Enter
+3. Uncoat
+4. Copy the genome
+5. Assemble
+6. Release
+:::
+
+Drug classes are named by their target, and each acts at one of these steps:
+
+| Step | Drug class | What the drug blocks | Anchor virus |
+|---|---|---|---|
+| Attach and enter | Entry and fusion inhibitors | Binding of the virus to the cell, or fusion of the viral envelope with the cell membrane | HIV |
+| Copy the genome | Polymerase inhibitors | The viral polymerase that copies the genome | Used against several DNA and RNA viruses |
+| Copy the genome | Reverse transcriptase inhibitors | Copying of the RNA genome into DNA by [reverse transcriptase](virus-structure-replication.qmd#sec-vstr-genomes) | HIV |
+| Copy the genome | Integrase inhibitors | [Integration](virus-structure-replication.qmd#sec-vstr-genomes) of the DNA copy into a host chromosome | HIV |
+| Assemble | Protease inhibitors | Cutting of long viral proteins into their working parts, so new virions form but cannot infect | HIV |
+| Release | Neuraminidase inhibitors | Release of new virions from the cell surface, by blocking [neuraminidase](virus-structure-replication.qmd#sec-vstr-structure) | Influenza virus |
+
+::: {.example}
+New influenza virions bud from the cell but stay held to its surface by haemagglutinin until
+neuraminidase cuts the receptors that hold them. A neuraminidase inhibitor leaves the virions stuck
+to the cell, so the infection spreads more slowly to neighbouring cells.
+:::
+
+These drugs stop new virus being made or released; they do not destroy virus already made, and the
+infected cells are cleared by the immune response. They therefore help most while the virus is still
+multiplying rapidly, which in influenza means early in the illness.
+
+### Why antiviral drugs are few {#sec-vdet-few}
+
+Antibacterial drugs act on structures that bacteria have and human cells lack, such as peptidoglycan
+and the 70S ribosome (see [*How bacteria are built and get
+energy*](../bacteria/bacteria-build-energy.qmd#sec-bact-glance)). A virus offers far fewer such
+targets, and three consequences follow:
+
+- A drug that blocked the host's ribosomes or energy supply would harm the host, so antiviral drugs
+  must act on viral enzymes and proteins, and a virus encodes only a few of them.
+- Viral enzymes differ between families, so most antiviral drugs act on one virus or one family,
+  whereas one antibacterial drug can treat many species. The virus usually has to be identified
+  before a drug is chosen.
+- A latent virus offers no target. Its genome sits in the cell without being copied, so drugs that
+  block copying, assembly or release have nothing to act on (see [*Viruses and the
+  host*](virus-host.qmd#sec-vhost-persistence)).
+
+::: {.example}
+In HIV infection, the integrated viral DNA persists in resting CD4 T cells that make no virus. Drugs
+suppress replication in active cells but leave this reservoir untouched, so treatment continues for
+life.
+:::
+
+Antibacterial drugs have no effect on viral replication (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-targets)). In a viral illness they help only
+when a bacterial infection follows, as bacterial pneumonia can follow influenza.
+
+Because antiviral drugs are few and narrow, and act only while a virus is replicating, vaccines are
+the main means of preventing viral infection (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-prevent)).
+
+### Resistance and combination therapy {#sec-vdet-resistance}
+
+Many viral polymerases, reverse transcriptase among them, copy without proofreading, so a large viral
+population already contains variants with mutations in a drug's target before treatment begins (see
+[*How viruses change*](virus-change.qmd#sec-vchg-mutation)). A single drug suppresses the susceptible
+virus and leaves these variants to multiply, the same selection that produces resistance in bacteria
+(see [*How viruses change*](virus-change.qmd#sec-vchg-consequences)).
+
+**Combination therapy** is treatment with two or more drugs at once, acting on different targets, so
+that a variant resistant to one drug is still suppressed by the others. A variant that escapes every
+drug needs several resistance mutations at the same time, which is far less likely than one.
+
+::: {.example}
+HIV infection is treated with a combination of drugs, usually from two or more classes, such as
+reverse transcriptase inhibitors together with an integrase inhibitor. Missed doses let drug levels
+fall while the virus is still exposed to some drug, the conditions that select resistant variants.
+:::
+
+When the viral load rises during treatment, resistance is looked for by sequencing the viral genes
+that encode the drug targets. This is the viral counterpart of susceptibility testing in bacteria (see
+[*Detecting bacteria and testing susceptibility*](../bacteria/detecting-bacteria.qmd#sec-dbac-mic)),
+and it needs no culture.
+
+## Check your understanding {#sec-vdet-quiz}
+
+<div data-island="quiz" data-src="/quizzes/detecting-viruses.quiz.yml"></div>
+
+## Review with flashcards {#sec-vdet-cards}
+
+<div data-island="flashcards" data-src="/decks/detecting-viruses.deck.yml"></div>

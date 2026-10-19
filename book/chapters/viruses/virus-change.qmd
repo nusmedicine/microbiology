@@ -1,16 +1,234 @@
 # How viruses change
 
-> *Viruses change faster than any other microbe. Error-prone copying, reshuffling of genome segments and recombination produce new variants within months.*
+> *An influenza vaccine chosen for one winter can protect poorly in the next, and HIV treated with a
+> single drug soon stops responding to it. Both follow from how quickly viral genomes change, and from
+> what selects the variants that spread.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Describe the three routes by which a viral genome changes: mutation, reassortment and
+  recombination.
+- Explain why RNA viruses and retroviruses accumulate mutations faster than DNA viruses and bacteria.
+- Explain how antibodies and antiviral drugs select variants from a large viral population.
+- Distinguish antigenic drift from antigenic shift in influenza virus, and explain why shift can cause
+  a pandemic.
+- Relate viral change to the updating of influenza vaccines and to the combining of drugs in HIV
+  infection.
 :::
 
-| Part of the chapter | Plan |
-|---|---|
-| Learning objectives | Explain why RNA viruses mutate fast; distinguish antigenic drift from antigenic shift; relate change to vaccine updates and drug resistance |
-| Mutation | Error-prone RNA polymerases; quasispecies; selection by immunity and drugs |
-| Reassortment and recombination | Segmented genomes (influenza) and pandemics; diagram as a contrast of drift and shift |
-| Consequences | Annual influenza vaccine updates; HIV drug resistance and combination therapy |
-| Scenario questions | Which mechanism explains a new strain in a described outbreak |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [How a viral genome changes](#sec-vchg-routes)
+  - [Mutation](#sec-vchg-mutation): copying errors that are not corrected
+  - [Reassortment](#sec-vchg-reassortment): exchange of whole genome segments
+  - [Recombination](#sec-vchg-recombination): parts of two genomes joined into one
+- [Selection of variants](#sec-vchg-selection) by antibodies and drugs
+- [Drift and shift in influenza](#sec-vchg-influenza)
+- [Consequences](#sec-vchg-consequences)
+  - [Vaccines](#sec-vchg-vaccines) against changing viruses
+  - [Resistance](#sec-vchg-resistance) to antiviral drugs
+:::
+
+## How a viral genome changes {#sec-vchg-routes}
+
+A virus gains a new trait through a change in its genome, which the virus particles copied from that
+genome inherit. The change comes from an error in copying the genome, or from an exchange of genetic
+material between two viruses that infect the same cell. The same two kinds of route give bacteria new
+traits (see [*How bacteria copy themselves and
+change*](../bacteria/bacterial-genetics.qmd#sec-gen-change)).
+
+::: {.concept-tree}
+[Routes of change in a viral genome]{.tree-title}
+
+- A new viral genome
+  - A change in the genome's own sequence
+    - Mutation: copying errors left uncorrected; fastest in RNA viruses and retroviruses
+  - Exchange between two viruses infecting one cell
+    - Reassortment: whole segments swapped; only viruses with segmented genomes, such as influenza
+      virus
+    - Recombination: parts of two related genomes joined into one, as in HIV
+:::
+
+### Mutation {#sec-vchg-mutation}
+
+A mutation is a change in the genome sequence, and most mutations arise as copying errors (see [*How
+bacteria copy themselves and change*](../bacteria/bacterial-genetics.qmd#sec-gen-mutation)). Whether
+an error stays in the new genome depends on the enzyme that makes the copy. The DNA polymerases of
+human cells and bacteria proofread: they check each base as it is added and remove one that is wrongly
+paired, and repair systems correct most of the errors that remain. DNA viruses copy their genomes with
+DNA polymerases, their own or the host cell's, that also proofread.
+
+RNA viruses copy their genomes with an RNA polymerase that uses RNA as its template, an enzyme human
+cells do not have. The RNA polymerases of most RNA viruses do not proofread, and nothing repairs the
+new RNA afterwards. Retroviruses such as HIV copy their RNA genome into DNA with reverse transcriptase
+(see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-genomes)), which also lacks proofreading. In
+both cases the errors stay, so many of the genomes made in one infected cell differ from the genome
+that infected it.
+
+| What is copied | Enzyme that copies it | Proofreading | Copying errors left in the genome |
+|---|---|---|---|
+| DNA of human cells and bacteria | DNA polymerase | Yes | Few |
+| Genome of a DNA virus | DNA polymerase, viral or the host cell's | Yes | Few |
+| Genome of an RNA virus, such as influenza virus | Viral RNA polymerase | No | Many |
+| Genome of a retrovirus, such as HIV | Reverse transcriptase | No | Many |
+
+::: {.example}
+Over years of untreated infection, the HIV in one person becomes a population of many related
+variants, which differ from each other and from the virus that began the infection.
+:::
+
+### Reassortment {#sec-vchg-reassortment}
+
+Some viruses carry their genome as several separate pieces, a segmented genome; influenza virus has
+eight segments of RNA (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-genomes)). When two related viruses with
+segmented genomes infect the same cell, each new particle assembled in that cell can package segments
+from either parent. **Reassortment** is this exchange: the formation of a new virus that carries a mix
+of genome segments from two parent viruses that infected the same cell.
+
+Reassortment makes a large change in one step. A whole gene, such as the gene for haemagglutinin, can
+be replaced by a different version from another virus. It requires a segmented genome and a cell
+infected by both parents at once.
+
+::: {.example}
+In an airway cell infected with two different influenza viruses, the new particles can carry any
+combination of the two parents' eight segments, including a haemagglutinin segment from one parent
+and the other seven segments from the other.
+:::
+
+### Recombination {#sec-vchg-recombination}
+
+**Recombination** is the joining of parts of two related viral genomes into one new genome, in a cell
+infected by both. The copying enzyme switches from one template to the other partway through, so the
+new genome carries a stretch of each. Recombination does not need a segmented genome.
+
+HIV packages two copies of its RNA genome in each particle. A cell infected by two different HIV
+strains can release particles that carry one RNA of each strain. When such a particle infects its next
+cell, reverse transcriptase can move between the two RNA templates as it copies them, and the DNA it
+makes is a mosaic of both strains.
+
+::: {.example}
+A person infected with two HIV strains can produce recombinant viruses that combine genes of both, and
+some recombinant HIV strains now spread between people as strains in their own right.
+:::
+
+## Selection of variants {#sec-vchg-selection}
+
+Copying errors produce variants at random. Whether a variant becomes common depends on selection, as
+it does in bacteria (see [*How bacteria copy themselves and
+change*](../bacteria/bacterial-genetics.qmd#sec-gen-mutation)). Viral populations are well placed for
+selection to act quickly. An infected person carries a very large number of virus particles, and new
+generations are produced continually throughout the infection. With so many genomes copied, a variant
+carrying any particular single mutation is likely to be present before a drug or an antibody first
+meets the virus.
+
+Most variants are no fitter than the parent virus, and many cannot copy themselves at all. Two
+pressures favour the few that differ in a useful way:
+
+- Antibodies, proteins made by the immune system after infection or vaccination that bind a
+  particular shape on a microbe, stop virus particles from attaching to cells. A variant whose surface
+  protein has changed where antibodies bind escapes them and goes on infecting cells.
+- An antiviral drug blocks a viral enzyme, such as reverse transcriptase or neuraminidase. A variant
+  whose enzyme has changed where the drug binds goes on copying itself while the parent virus is
+  blocked.
+
+::: {.flow}
+1. Copying errors make many variants
+2. Antibodies or a drug block most of them
+3. A variant that escapes keeps multiplying
+4. It replaces the original population
+5. It spreads to other hosts
+:::
+
+As in bacteria, the antibody or the drug does not cause the mutation it selects. The variant existed
+before the pressure was applied.
+
+## Drift and shift in influenza {#sec-vchg-influenza}
+
+Haemagglutinin and neuraminidase, the two proteins on the surface of influenza virus (see [*How
+viruses are built and copy themselves*](virus-structure-replication.qmd#sec-vstr-structure)), are the
+main targets of protective antibodies. They are the virus's main surface antigens, the molecules that
+antibodies recognise. They change in two ways, which differ in size and in consequence.
+
+### Antigenic drift {#sec-vchg-drift}
+
+**Antigenic drift** is the gradual change in a virus's surface antigens through the accumulation of
+point mutations. In influenza virus, mutations in the haemagglutinin and neuraminidase genes alter a
+few amino acids in the regions that antibodies bind. Antibodies left by earlier infection or
+vaccination bind the new variants less well, so those variants are selected and spread. Immunity from
+earlier years therefore protects only partly, and influenza continues to cause epidemics year after
+year.
+
+### Antigenic shift {#sec-vchg-shift}
+
+The haemagglutinins of influenza A viruses fall into distinct subtypes, numbered H1, H2, H3 and so on,
+and the neuraminidases into N subtypes. Antibodies against one subtype do not protect against another.
+Viruses are named by the pair, such as H1N1 or H3N2. Wild water birds carry influenza A viruses of
+many subtypes that do not circulate in people.
+
+**Antigenic shift** is the sudden appearance in human influenza A viruses of a haemagglutinin, often
+with a neuraminidase, of a subtype new to the human population, usually acquired by reassortment
+between a human influenza virus and an animal influenza virus. Reassortment needs one cell infected by
+both viruses. Pigs can be infected by both bird and human influenza viruses, so reassortment can occur
+in a pig, or in a person infected with both. Few or no people have antibodies to the new subtype, so
+the virus can spread through every age group and across many countries as a pandemic (see
+[*Transmission, outbreaks and One Health*](../foundations/transmission-outbreaks.qmd#sec-trans-levels)).
+
+The new segment comes from an animal virus. The passage of a virus from an animal host into people,
+**spillover**, is the route by which most new human infections arise (see [*Transmission, outbreaks and
+One Health*](../foundations/transmission-outbreaks.qmd#sec-trans-onehealth)).
+
+::: {.example}
+The 1968 pandemic virus arose when a human influenza virus acquired a new haemagglutinin segment, H3,
+from a bird influenza virus by reassortment; its H3N2 descendants still circulate and change by drift.
+:::
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-drift-shift.yml"></div>
+
+## Consequences {#sec-vchg-consequences}
+
+### Vaccines against changing viruses {#sec-vchg-vaccines}
+
+A vaccine produces antibodies against the virus as it was when the vaccine was made (see [*Detecting
+and controlling microbes*](../foundations/detection-control.qmd#sec-det-prevent)). For influenza
+virus, drift moves the circulating strains away from the vaccine strains each season. Laboratories
+therefore track the influenza viruses circulating worldwide, and the strains in the vaccine are
+reviewed every year and replaced when drift has made the previous ones a poor match. A virus produced
+by shift needs a new vaccine altogether, and making one takes months after the virus appears.
+
+::: {.example}
+Measles virus is also an RNA virus whose polymerase lacks proofreading, yet the same measles vaccine
+has protected for decades. Its surface proteins have not changed in ways that let it escape the
+antibodies the vaccine produces, so rapid mutation makes escape possible without making it certain.
+:::
+
+The variation of HIV, within one person and between people, is one reason why no vaccine against HIV
+has yet succeeded.
+
+### Resistance to antiviral drugs {#sec-vchg-resistance}
+
+Antiviral drugs block viral enzymes and other viral proteins (see [*Detecting viruses and antiviral
+targets*](detecting-viruses.qmd#sec-vdet-targets)). A mutation in the gene for the drug's target can
+make the drug bind poorly, and the drug then selects the variant that carries it. Influenza virus, for
+example, can become resistant to neuraminidase inhibitors through a mutation in its neuraminidase gene.
+
+HIV becomes resistant quickly when one drug is used alone, because the virus population in an
+untreated person is large and copied continually with errors, so variants resistant to any single drug
+are likely to exist before treatment starts. HIV infection is therefore treated with a combination of
+drugs (see [*Detecting viruses and antiviral targets*](detecting-viruses.qmd#sec-vdet-resistance)).
+
+::: {.example}
+When reverse transcriptase inhibitors were first given alone in HIV infection, resistant variants
+replaced the original virus in many patients, whereas combinations of drugs keep the virus suppressed
+for many years in people who take them consistently.
+:::
+
+## Check your understanding {#sec-vchg-quiz}
+
+<div data-island="quiz" data-src="/quizzes/virus-change.quiz.yml"></div>
+
+## Review with flashcards {#sec-vchg-cards}
+
+<div data-island="flashcards" data-src="/decks/virus-change.deck.yml"></div>

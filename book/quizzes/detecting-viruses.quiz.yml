@@ -1,0 +1,111 @@
+id: detecting-viruses
+title: "Check your understanding: detecting viruses and antiviral targets"
+questions:
+  - id: vd1
+    stem: "Why is influenza virus not identified by a Gram stain of a nasal swab, or by culture on agar?"
+    options:
+      - text: "The virus is smaller than a light microscope can resolve, and it multiplies only inside living cells"
+        correct: true
+        feedback: "Both methods depend on the organism's structure and its own growth. A virus is below the resolution of the light microscope and has no ribosomes or energy supply, so it needs living cells to multiply."
+      - text: "Its envelope repels the stain, but it would grow on enriched agar"
+        correct: false
+        feedback: "Enrichment supplies nutrients to bacteria that cannot make them. A virus has no machinery to use nutrients at all: it multiplies only inside a living cell."
+      - text: "Influenza virus is Gram-negative and too slow-growing for routine plates"
+        correct: false
+        feedback: "The Gram stain reads the bacterial cell envelope, which viruses do not have. Slow growth is a problem for some bacteria; a virus does not grow on agar at any speed."
+  - id: vd2
+    stem: "A 30-year-old man with fever, cough and muscle aches during the influenza season has a negative rapid antigen test for influenza. A NAAT on the same swab is positive for influenza virus. Which detail best explains the difference?"
+    options:
+      - text: "An antigen test amplifies nothing, so it needs more virus in the sample than a NAAT"
+        correct: true
+        feedback: "A NAAT copies its target many times, so it detects small amounts of virus. An antigen test detects the protein as it is, which makes it fast but less sensitive: a negative result does not exclude influenza."
+      - text: "The NAAT detected antibodies that the antigen test missed"
+        correct: false
+        feedback: "Neither test detects antibodies. A NAAT detects viral nucleic acid and an antigen test detects a viral protein; detecting antibodies is serology."
+      - text: "The NAAT result reflects an infection from years ago"
+        correct: false
+        feedback: "A single positive IgG can reflect an old infection, but influenza virus does not persist in the airway for years. In an ill man during the season, the NAAT shows current infection."
+      - text: "The patient's illness is caused by a bacterium, and the NAAT is a false positive"
+        correct: false
+        feedback: "Nothing points to a false positive, and a NAAT for influenza does not react with bacteria. The usual reason for this pattern is the lower sensitivity of antigen tests."
+  - id: vd3
+    stem: "A 3-month-old infant born to a mother with HIV infection has a positive HIV antibody test. Which detail best explains why this result does not show that the infant is infected?"
+    options:
+      - text: "The mother's IgG crossed the placenta and persists in the infant for many months"
+        correct: true
+        feedback: "The antibodies detected may be the mother's, so the test is positive whether or not the infant is infected. A NAAT for HIV nucleic acid detects the virus itself and is used instead."
+      - text: "Infants cannot make antibodies, so the test detected viral protein"
+        correct: false
+        feedback: "An antibody test detects antibodies. The problem is that the antibodies present may have come from the mother across the placenta."
+      - text: "HIV antibody tests are positive in all infants"
+        correct: false
+        feedback: "Infants of uninfected mothers have no HIV antibodies to inherit. The positive result here reflects the mother's infection, and possibly but not certainly the infant's."
+      - text: "The infant is in the window period"
+        correct: false
+        feedback: "The window period would make an antibody test falsely negative, not positive. Here the antibodies are present, and their likely source is the mother."
+  - id: vd4
+    stem: "A woman taking treatment for HIV infection has had an undetectable viral load for two years. She asks whether the infection has now gone. Which is the best explanation?"
+    options:
+      - text: "HIV DNA integrated in resting CD4 T cells is not copied, so the drugs have nothing to act on, and it persists"
+        correct: true
+        feedback: "Viral load measures virus in the blood. The integrated viral DNA in resting cells is latent: it offers no target to drugs that block copying, assembly or release, which is why treatment continues for life."
+      - text: "The virus has been cleared, because the test can no longer detect it"
+        correct: false
+        feedback: "An undetectable viral load shows that replication is suppressed. It does not measure the integrated viral DNA in resting cells, which can restart replication if treatment stops."
+      - text: "The virus has become resistant and hides from the test"
+        correct: false
+        feedback: "Resistance would let the virus replicate, so the viral load would rise. A stable undetectable load shows that treatment is working."
+  - id: vd5
+    stem: "Neuraminidase inhibitors are used against influenza virus. Which step of the replication cycle do they block?"
+    options:
+      - text: "Release of new virions from the cell surface"
+        correct: true
+        feedback: "New virions stay held to the cell by haemagglutinin until neuraminidase cuts the receptors. With neuraminidase blocked, they stay stuck, and spread to neighbouring cells slows."
+      - text: "Attachment of the virus to the airway cell"
+        correct: false
+        feedback: "Attachment uses haemagglutinin. Neuraminidase acts at the end of the cycle, freeing new virions from the cell."
+      - text: "Copying of the RNA genome"
+        correct: false
+        feedback: "Copying the genome is the work of the viral polymerase, the target of polymerase inhibitors. Neuraminidase acts at release."
+      - text: "Integration of the viral genome into a host chromosome"
+        correct: false
+        feedback: "Influenza virus does not integrate its genome. Integration is a step of the retrovirus cycle, blocked in HIV by integrase inhibitors."
+  - id: vd6
+    stem: "Why are there far fewer antiviral drugs than antibacterial drugs?"
+    options:
+      - text: "A virus uses the host's ribosomes and energy, so drugs must act on the few viral enzymes and proteins, which differ between families"
+        correct: true
+        feedback: "Blocking the host machinery a virus uses would harm the host. The remaining targets are few and specific to a virus or family, so each drug has a narrow range."
+      - text: "Viruses mutate too fast for any drug to work"
+        correct: false
+        feedback: "Fast mutation causes resistance, which combination therapy counters. The shortage of drugs comes from the shortage of targets: a virus carries few enzymes of its own."
+      - text: "Antiviral drugs cannot enter human cells"
+        correct: false
+        feedback: "Many antiviral drugs act inside infected cells, on viral enzymes such as reverse transcriptase. The limit is the number of viral targets."
+  - id: vd7
+    stem: "Why is HIV infection treated with drugs from two or more classes at once?"
+    options:
+      - text: "A variant resistant to one drug is still suppressed by the others, and escaping all of them needs several mutations at once"
+        correct: true
+        feedback: "Reverse transcriptase makes many errors, so variants resistant to any single drug already exist in a large viral population. A combination leaves almost no variant able to multiply."
+      - text: "Each drug acts on a different virus that infects people with HIV"
+        correct: false
+        feedback: "All the drugs in the combination act on HIV, at different steps of its cycle. The aim is to prevent the selection of resistant HIV."
+      - text: "Combining drugs makes the virus mutate more slowly"
+        correct: false
+        feedback: "Drugs do not change the error rate of reverse transcriptase. They change which variants can multiply, and a combination leaves resistant variants no room."
+  - id: vd8
+    stem: "A man taking combination treatment for HIV infection has a viral load that was undetectable but has risen over two measurements. He admits missing many doses. Which next step best answers why the treatment is failing?"
+    options:
+      - text: "Sequence the viral genes that encode the drug targets"
+        correct: true
+        feedback: "Missed doses let drug levels fall while some drug remains, the conditions that select resistant variants. Sequencing the target genes detects resistance mutations, the viral counterpart of susceptibility testing, without culture."
+      - text: "Repeat the HIV antibody test"
+        correct: false
+        feedback: "Antibodies stay positive throughout HIV infection, so the test cannot show whether treatment is working or why it is failing."
+      - text: "Grow the virus on agar to measure an MIC"
+        correct: false
+        feedback: "Viruses do not grow on agar. Resistance in HIV is detected by sequencing the genes for the drug targets."
+      - text: "Perform a rapid antigen test"
+        correct: false
+        feedback: "An antigen test detects viral protein but gives no information about resistance. The question here is which mutations the virus carries."

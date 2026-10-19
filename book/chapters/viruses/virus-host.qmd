@@ -1,17 +1,247 @@
 # Viruses and the host
 
-> *Viral disease comes from the death of infected cells, from the immune response that removes them, and from viruses that persist for life.*
+> *Influenza virus makes a person ill for about a week and is then cleared, whereas HIV stays for
+> life and causes disease years after infection. The difference lies in which cells each virus can
+> infect, how the host responds to the infection, and whether the virus can persist.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Relate the cells a virus infects to the receptors it binds, using influenza virus and HIV.
+- Distinguish a local infection at the site of entry from systemic spread through lymph, blood or
+  nerves.
+- Describe four patterns of viral damage, and give an anchor example of each.
+- Explain how the loss of CD4 T cells in HIV infection allows opportunistic infections.
+- Distinguish acute, latent and chronic viral infection, and relate each to when damage occurs.
 :::
 
-| Part of the chapter | Plan |
-|---|---|
-| Learning objectives | Relate tropism to receptors; place viral damage on the damage-response framework; distinguish acute, latent and chronic viral infection |
-| Tropism and spread in the body | Receptors, entry sites, spread by blood and nerves |
-| Patterns of damage | Cytopathic effect; immune-mediated damage; transformation and cancer; a table of mechanisms with anchor examples |
-| Persistence | Latency and reactivation (herpesviruses), chronic infection (HIV); a spectrum from acute to lifelong |
-| Interferons and immunity | Brief link to the immunology course |
-| Scenario questions | Which host factor or pattern best explains a presentation |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [Entry and spread](#sec-vhost-entry)
+  - [Receptors and tropism](#sec-vhost-receptors): which cells a virus can infect
+  - [Local and systemic infection](#sec-vhost-spread): spread through lymph, blood and nerves
+- [Patterns of damage](#sec-vhost-damage)
+  - [Death of infected cells](#sec-vhost-cpe) and [the host response](#sec-vhost-immune)
+  - [Loss of the cells the virus infects](#sec-vhost-cd4) and [cancer](#sec-vhost-cancer)
+- [Persistence](#sec-vhost-persistence)
+  - [Acute](#sec-vhost-acute), [latent](#sec-vhost-latency) and [chronic](#sec-vhost-chronic)
+    infection
+:::
+
+## Entry and spread {#sec-vhost-entry}
+
+### Receptors and tropism {#sec-vhost-receptors}
+
+A virus begins its replication cycle by attaching to a molecule on the surface of a host cell, its
+**receptor** (see [*How viruses are built and copy themselves*](virus-structure-replication.qmd#sec-vstr-cycle)).
+Only cells that carry the receptor can be infected, so the distribution of the receptor sets the
+virus's tropism, the range of cells and tissues it can occupy (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-steps)). Tropism in turn decides which organ is
+damaged.
+
+::: {.example}
+Influenza virus attaches by its haemagglutinin (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-envelope)) to sialic acid, a sugar on the
+epithelial cells lining the airway, so it infects the airway and the alveoli.
+:::
+
+Some viruses need two molecules on the cell surface. HIV attaches first to **CD4**, a protein on the
+surface of **CD4 T cells** (helper T cells), the lymphocytes that coordinate the immune response,
+including the activity of macrophages and of the T cells that kill infected cells. It then binds a
+second molecule, a **co-receptor**, before its envelope fuses with the cell membrane.
+
+::: {.example}
+CD4 and a co-receptor are found together on CD4 T cells and macrophages, so these are the cells HIV
+infects, and the immune system is what it damages.
+:::
+
+### Local and systemic infection {#sec-vhost-spread}
+
+A virus enters at a body surface: the airway, the gut, the genital tract, or the skin, through a
+bite or a needle. Some viruses stay at the site of entry and cause a local infection. Others spread
+through the body and cause a systemic infection. **Viraemia** is the presence of virus in the blood,
+and it carries a virus to organs far from where it entered.
+
+::: {.concept-tree}
+[Where a virus goes after entry]{.tree-title}
+
+- After entry at a body surface
+  - Stays local: infects the epithelium at the site of entry, as influenza virus does in the airway
+  - Spreads beyond the site of entry
+    - In lymph: to the regional lymph nodes, where lymphocytes and macrophages gather
+    - In blood (viraemia): free in the plasma or inside infected white blood cells, to organs
+      throughout the body
+    - In nerves: along the axon to the nerve cell body ([latent infection](#sec-vhost-latency))
+:::
+
+::: {.example}
+New influenza virus buds from the surface of the epithelial cell that faces the airway lumen, so it
+is released into the airway, where it infects neighbouring cells and is breathed out to the next
+host; it rarely enters the blood.
+:::
+
+A local infection does not have to spread through the body first, so its incubation period (see
+[*Transmission, outbreaks and One Health*](../foundations/transmission-outbreaks.qmd#sec-trans-measures))
+is short: a few days for influenza.
+
+::: {.example}
+HIV that enters through the genital or rectal mucosa infects CD4 T cells and macrophages there, is
+carried in lymph to the regional lymph nodes, which are full of CD4 T cells, and then reaches the
+blood, which carries it to lymphoid tissue throughout the body.
+:::
+
+A virus that circulates in the blood can also be transmitted by blood, through shared needles or
+transfusion (see [*Blood-borne and sexually transmitted viruses*](bloodborne-viruses.qmd)).
+
+## Patterns of damage {#sec-vhost-damage}
+
+Viruses damage the host in four ways, and a single infection often combines more than one.
+
+| Pattern | Mechanism | Anchor example |
+|---|---|---|
+| Death of infected cells | The virus takes over the cell's machinery, and the cell dies | Influenza virus killing the ciliated epithelium of the airway |
+| Damage by the immune response | Cytotoxic T cells kill infected cells; inflammation damages the tissue around them | Inflammation in the airway and alveoli in severe influenza |
+| Loss of the cells the virus infects | The infected cells have a function the body needs, and their loss leaves a gap in it | HIV depleting CD4 T cells, so that cell-mediated immunity fails |
+| Transformation to cancer | Viral proteins override the cell's controls on division | Human papillomavirus and cancer of the cervix |
+
+On the damage-response framework (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-drf)), death of infected cells and transformation
+are damage done by the virus, and immune-mediated damage is done by the host's response. Most viral
+diseases involve both.
+
+### Death of infected cells {#sec-vhost-cpe}
+
+An infected cell makes viral proteins and genomes with its own ribosomes, energy and building
+blocks, and many viruses shut down the cell's own protein synthesis. The damage that results, often
+ending in the death of the cell, is the **cytopathic effect**. The same changes can be seen when a
+virus is grown in cells in the laboratory (see [*Detecting viruses and antiviral
+targets*](detecting-viruses.qmd#sec-vdet-methods)). Viruses that leave the cell by budding (see [*How
+viruses are built and copy themselves*](virus-structure-replication.qmd#sec-vstr-cycle)) can release
+new particles for some time before the cell dies, whereas many non-enveloped viruses are released
+when the cell bursts.
+
+::: {.example}
+Influenza virus kills the ciliated epithelial cells of the trachea and bronchi, and the damaged lining
+clears mucus and bacteria poorly, so a bacterial pneumonia, for example with *Staphylococcus aureus*,
+can follow.
+:::
+
+### The host response {#sec-vhost-immune}
+
+The first defence against a virus begins within the infected tissue. An infected cell releases
+**interferon**, a signal that puts neighbouring cells into an antiviral state in which they resist
+infection. Interferon and other signals released early in infection also contribute to the fever and
+aching of an acute viral illness.
+
+Later, the adaptive immune response clears the virus. **Cytotoxic T cells** recognise viral proteins
+displayed on the surface of an infected cell and kill that cell. Killing the cell removes a source of
+new virus, but the dead cells are the host's own. Antibodies bind virus particles outside cells and
+block their attachment to new ones. Inflammation recruits these cells and fluid to the site, and, as
+in general pathology, inflammation that clears an infection also damages the tissue in which it
+occurs.
+
+::: {.example}
+In severe influenza, inflammation extends from the airway into the alveoli, and fluid and
+inflammatory cells in the alveoli impair gas exchange.
+:::
+
+Where much of the damage comes from the response, a stronger response can mean more disease, as on
+the right-hand side of the damage-response curves.
+
+### Loss of the cells the virus infects {#sec-vhost-cd4}
+
+When the cells a virus infects have a function the body cannot do without, their loss causes
+disease far from the site of infection. HIV kills CD4 T cells, both directly and through cytotoxic T
+cells that recognise infected cells, and over years their number falls.
+
+::: {.flow}
+1. HIV infects CD4 T cells
+2. Infected cells are killed
+3. CD4 T-cell count falls over years
+4. Cell-mediated immunity fails
+5. Opportunistic infections
+:::
+
+Without CD4 T cells, cell-mediated immunity fails: the defence against organisms that live inside
+host cells (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-factors)).
+Organisms that a person with intact defences controls can then cause disease, as opportunistic
+infections. This advanced stage of HIV infection is the **acquired immunodeficiency syndrome
+(AIDS)**.
+
+::: {.example}
+Tuberculosis is a common opportunistic infection in advanced HIV infection, because the control of
+*Mycobacterium tuberculosis*, which survives inside macrophages, depends on cell-mediated immunity.
+:::
+
+### Viruses and cancer {#sec-vhost-cancer}
+
+A few viruses can change an infected cell so that it divides without normal control, and over years
+such cells can give rise to a cancer. A virus that can cause cancer is an **oncogenic virus**. The
+change in the cell is called transformation, a word that means something different in bacteria,
+where it is the uptake of free DNA (see [*How bacteria copy themselves and
+change*](../bacteria/bacterial-genetics.qmd#sec-gen-hgt)). Cancer follows in only a small proportion
+of infected people, and only after years, because further changes in the cell are needed.
+
+::: {.example}
+Human papillomavirus causes almost all cancers of the cervix. Two of its proteins inactivate the
+cell's tumour-suppressor proteins, which normally halt the division of a cell with damaged DNA, and
+infection that persists for years can lead to cancer.
+:::
+
+## Persistence {#sec-vhost-persistence}
+
+Viral infections follow the acute, latent and chronic time courses (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-courses)). For viruses these are points on a range,
+set by how much virus is produced after the first illness.
+
+::: {.spectrum}
+[Virus produced after the first illness]{.tree-title}
+
+- Acute, influenza virus: cleared within days to weeks
+- Latent, herpesviruses: the genome stays silent in cells for life, and virus is produced only when
+  it reactivates
+- Chronic, HIV: virus produced continuously for years
+
+[None]{.spectrum-end} [Continuous]{.spectrum-end}
+:::
+
+### Acute infection {#sec-vhost-acute}
+
+In an acute infection the virus multiplies rapidly, is transmitted, and is cleared by the immune
+response within days to weeks. Influenza virus is the anchor. Immunity to that strain remains after
+recovery, although the virus changes enough to infect the same person again in later years (see
+[*How viruses change*](virus-change.qmd#sec-vchg-consequences)). Damage comes early and from both
+sources: the cytopathic effect in the airway epithelium and the inflammation that clears it.
+
+### Latent infection {#sec-vhost-latency}
+
+In a latent infection the viral genome stays in a cell without producing new virus. The cell makes
+few or no viral proteins, so cytotoxic T cells cannot recognise it. From time to time the virus
+reactivates, produces new virus, and can cause disease and be transmitted again. Little damage occurs
+between reactivations.
+
+::: {.example}
+Herpes simplex virus, the common example of latency in nerve cells, travels along sensory nerves
+from the skin or mucosa to the nerve cell bodies, persists there for life, and can return along the
+nerve to cause recurrent lesions at the same site (see [*Herpesviruses*](herpesviruses.qmd)).
+:::
+
+Reactivation is more frequent and more damaging when cell-mediated immunity falls, as in advanced HIV
+infection. The same principle explains why HIV is never cleared: its provirus (see [*How viruses are
+built and copy themselves*](virus-structure-replication.qmd#sec-vstr-genomes)) persists in
+long-lived resting CD4 T cells that make no virus, out of reach of the immune response.
+
+### Chronic infection {#sec-vhost-chronic}
+
+In a chronic infection the virus continues to replicate for months or years despite an immune
+response. HIV is the anchor: virus is produced continuously, the CD4 T-cell count falls slowly, and
+disease appears years after infection. Damage accumulates over that time as CD4 T cells are lost, and
+the infected person can transmit the virus throughout, often without knowing of the infection.
+
+## Check your understanding {#sec-vhost-quiz}
+
+<div data-island="quiz" data-src="/quizzes/virus-host.quiz.yml"></div>
+
+## Review with flashcards {#sec-vhost-cards}
+
+<div data-island="flashcards" data-src="/decks/virus-host.deck.yml"></div>

@@ -1,17 +1,226 @@
 # How viruses are built and copy themselves
 
-> *A virus particle carries no machinery for making energy or protein. Its structure is a delivery system for a genome, and its replication cycle uses the host cell for everything else.*
+> *A virus particle carries no machinery for making energy or protein. Its structure is a delivery
+> system for a genome, and its replication cycle uses the host cell for everything else.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Describe the parts of a virion, and distinguish enveloped from non-enveloped viruses.
+- Predict from its envelope how readily a virus is inactivated outside the host.
+- List the six steps of the replication cycle, and distinguish release by budding from release by
+  lysis.
+- Explain how a DNA virus, a positive-sense RNA virus, a negative-sense RNA virus and a retrovirus
+  each make mRNA, and place influenza virus and HIV in this scheme.
+- Explain why the enzymes a virus brings or encodes, and not the host machinery it uses, are the
+  basis of selective toxicity against viruses.
 :::
 
-| Part of the chapter | Plan |
-|---|---|
-| Learning objectives | Describe the parts of a virion; relate enveloped and non-enveloped structure to survival; describe the steps of the replication cycle |
-| Structure | Genome (DNA or RNA, single- or double-stranded), capsid, envelope; diagram as a tree of structural types |
-| The replication cycle | Flow: attach, enter, uncoat, express and copy the genome, assemble, release |
-| Genome types | How a DNA virus, a positive-strand RNA virus, a negative-strand RNA virus and a retrovirus each make mRNA (a simplified Baltimore scheme as a table) |
-| Anchor organisms | Influenza virus (enveloped, segmented RNA) and HIV (retrovirus), from the anchor set |
-| Scenario questions | Which property of a virus explains a finding, such as survival on hands after alcohol rub |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The virion](#sec-vstr-virion)
+  - [Parts of a virion](#sec-vstr-structure): genome, capsid, envelope
+  - [Enveloped and non-enveloped viruses](#sec-vstr-envelope) and survival outside the host
+- [The replication cycle](#sec-vstr-cycle): six steps, ending in budding or lysis
+- [From genome to mRNA](#sec-vstr-genomes): DNA, positive-sense RNA, negative-sense RNA, retroviruses
+- [What a virus has that human cells lack](#sec-vstr-targets): viral enzymes as drug targets
+:::
+
+## The virion {#sec-vstr-virion}
+
+### Parts of a virion {#sec-vstr-structure}
+
+A virion, the virus particle outside a cell, is a genome packaged for delivery to a new cell (see
+[*The microbial world*](../foundations/microbial-world.qmd#sec-world-kinds)). It has no ribosomes,
+no mitochondria and no enzymes for making ATP, so it does nothing until it enters a cell whose
+machinery it can use. Every virion has two parts, and some have a third:
+
+- The genome is DNA or RNA, never both. It carries the genes for the virion's own proteins and, in
+  many viruses, for enzymes that copy the genome.
+- The **capsid** is a protein shell, built from many copies of one or a few viral proteins, that
+  encloses and protects the genome.
+- The **envelope**, present in some viruses, is a lipid bilayer around the capsid. The virus takes
+  the bilayer from a membrane of the cell in which it was made, and inserts its own proteins into it.
+
+A virus with an envelope is **enveloped**; a virus whose outer surface is the capsid is
+**non-enveloped**. Either way, proteins on the outer surface bind the virion to a new host cell.
+
+::: {.concept-tree}
+[Parts of a virion]{.tree-title}
+
+- Virion
+  - Genome: DNA or RNA
+    - DNA: usually double-stranded
+    - RNA: usually single-stranded; positive-sense or negative-sense; one molecule or several
+      segments
+  - Capsid: a protein shell around the genome
+  - Envelope, in enveloped viruses only: a lipid bilayer from a host membrane, carrying viral
+    proteins
+:::
+
+A genome divided into several separate molecules is a **segmented genome**. When two strains of a
+segmented virus infect the same cell, new virions can package segments from both, which is one way
+influenza viruses change (see [*How viruses change*](virus-change.qmd#sec-vchg-reassortment)).
+
+::: {.example}
+The influenza virion is enveloped, and its genome is single-stranded RNA in eight segments. Its
+envelope carries two viral proteins: **haemagglutinin**, which binds the virion to airway epithelial
+cells, and **neuraminidase**, an enzyme that frees new virions from the cell that made them.
+:::
+
+Virions are much smaller than cells. An influenza virion is about 100 nm across, roughly a tenth the
+diameter of *Staphylococcus aureus* and below the resolution of the light microscope (see the size
+ladder in [*The microbial world*](../foundations/microbial-world.qmd#sec-world-scale)). A particle
+this small holds a genome of few genes, and the virus relies on the host cell for its ribosomes, its energy and
+most of its enzymes.
+
+### Enveloped and non-enveloped viruses {#sec-vstr-envelope}
+
+The envelope is a lipid membrane and has the weaknesses of one. Drying, detergents, alcohol and bile
+disrupt it, and a virion that loses its envelope loses the proteins it needs to attach to a cell, so
+it can no longer infect. A capsid without an envelope is a protein shell that withstands these
+conditions much better. Enveloped viruses therefore lie at the easily inactivated end of the
+resistance spectrum, and non-enveloped viruses further along it (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-resistance)).
+
+Three consequences follow from the difference:
+
+- Enveloped viruses survive poorly outside the host, and most spread by respiratory particles, blood,
+  sexual contact or close contact, which carry them quickly from one host to the next.
+- Many non-enveloped viruses survive for long periods on hands, surfaces, food and water, and
+  withstand stomach acid and bile, so many spread by the faecal–oral route.
+- Alcohol hand rub inactivates enveloped viruses readily. Against non-enveloped viruses, washing with
+  soap and water, which removes them physically, is more reliable.
+
+::: {.example}
+Alcohol hand rub inactivates influenza virus on hands by disrupting its envelope. Norovirus, a
+non-enveloped virus that causes vomiting and diarrhoea, is less reliably inactivated by alcohol, so
+hands are washed with soap and water during norovirus outbreaks.
+:::
+
+Find the property that explains the difference in survival before the explanation appears.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-enveloped-nonenveloped.yml"></div>
+
+## The replication cycle {#sec-vstr-cycle}
+
+A bacterium grows and divides in two by binary fission (see [*How bacteria are built and get
+energy*](../bacteria/bacteria-build-energy.qmd#sec-bact-growth)). A virus multiplies differently: the
+virion comes apart inside a host cell, the cell makes viral parts separately, and many new virions
+are assembled from those parts. Every virus passes through the same six steps.
+
+::: {.flow}
+1. Attachment
+2. Entry
+3. Uncoating
+4. Genome expression and copying
+5. Assembly
+6. Release
+:::
+
+1. In **attachment**, a protein on the virion surface binds a specific receptor on the host cell,
+   which sets the cells the virus can infect, its tropism (see [*Microbes and their
+   hosts*](../foundations/host-microbe.qmd#sec-host-steps)).
+2. In **entry**, the virion gets into the cell, either by fusion of its envelope with the plasma
+   membrane or by endocytosis.
+3. In **uncoating**, the capsid comes apart and releases the genome inside the cell.
+4. In **genome expression and copying**, the virus makes mRNA, which the cell's ribosomes translate
+   into viral proteins, and viral or host enzymes make new copies of the genome.
+5. In **assembly**, new copies of the genome are packaged into new capsids.
+6. In **release**, new virions leave the cell, by budding or by lysis.
+
+Enveloped viruses leave by **budding**. Viral envelope proteins collect in a patch of host membrane,
+the capsid pushes out through it, and the membrane closes behind it, so the virion leaves wrapped in
+an envelope taken from the cell. Budding does not by itself break the cell open, and a cell can
+release virions for some time before it dies. Many non-enveloped viruses are released when the
+infected cell lyses, as a bacterium does at the end of a phage's lytic cycle (see [*How bacteria
+copy themselves and change*](../bacteria/bacterial-genetics.qmd#sec-gen-phage)). Lysis kills the
+cell, which is one way viral infection damages tissue (see [*Viruses and the
+host*](virus-host.qmd#sec-vhost-damage)).
+
+::: {.example}
+Influenza virus attaches when haemagglutinin binds sialic acid, a sugar on the surface of airway
+epithelial cells. New virions bud from the cell surface and stay stuck to the same sugar until
+neuraminidase cuts it, which frees them to infect neighbouring cells.
+:::
+
+## From genome to mRNA {#sec-vstr-genomes}
+
+Every virus must present the host cell's ribosomes with mRNA, because the cell has no other way to
+make protein. How a virus does so depends on its genome. A single strand of RNA is
+**positive-sense** if its sequence is that of an mRNA, so that ribosomes can translate it directly,
+and **negative-sense** if it is complementary to mRNA, so that it must be copied before it can be
+translated. Human cells make RNA only from DNA and have no enzyme that copies RNA from an RNA
+template, so every RNA virus needs its own **RNA-dependent RNA polymerase**, a viral enzyme that
+makes RNA from an RNA template.
+
+| Genome | How mRNA is made | What the virus must supply |
+|---|---|---|
+| Double-stranded DNA | Host RNA polymerase transcribes the viral DNA, as it transcribes the cell's own genes | No enzyme for making mRNA; some DNA viruses encode their own DNA polymerase to copy the genome |
+| Positive-sense RNA | The genome is itself an mRNA: host ribosomes translate it as soon as it is uncoated | An RNA-dependent RNA polymerase, translated from the genome, which copies the genome |
+| Negative-sense RNA | The viral RNA-dependent RNA polymerase transcribes mRNA from the genome | An RNA-dependent RNA polymerase carried inside the virion, because the genome cannot be translated to make one |
+| Retrovirus: positive-sense RNA copied into DNA | Reverse transcriptase copies the RNA into DNA; integrase joins the DNA into a host chromosome; host RNA polymerase transcribes it | Reverse transcriptase and integrase, carried inside the virion |
+
+Influenza virus has a segmented, negative-sense RNA genome and belongs in the third row. HIV is a
+retrovirus and belongs in the fourth.
+
+::: {.example}
+Influenza virus packages its RNA-dependent RNA polymerase with each of its eight negative-sense
+segments, so that mRNA can be made as soon as the segments are uncoated.
+:::
+
+A **retrovirus** is an RNA virus that copies its genome into DNA inside the cell, reversing the usual
+flow of information from DNA to RNA. The enzyme that makes this copy is **reverse transcriptase**, a
+viral DNA polymerase that uses RNA as its template. The viral enzyme integrase then cuts a host
+chromosome and joins the viral DNA into it, a step called **integration**. The integrated viral DNA
+is a **provirus**: it is part of the cell's genome, transcribed by host RNA polymerase and copied with
+the chromosomes each time the cell divides, much like the prophage of a bacteriophage (see [*How
+bacteria copy themselves and change*](../bacteria/bacterial-genetics.qmd#sec-gen-phage)). A provirus
+that is not being transcribed makes no viral proteins, so neither the immune response nor drugs aimed
+at viral enzymes can remove it, and HIV infection persists for life (see [*Viruses and the
+host*](virus-host.qmd#sec-vhost-persistence)).
+
+::: {.example}
+HIV binds CD4, a protein on the surface of CD4 T cells (lymphocytes that coordinate immune
+responses), together with a second receptor, and its envelope fuses with the plasma membrane. Reverse
+transcriptase then copies the RNA genome into DNA, and integrase inserts that DNA into a chromosome of
+the T cell as a provirus.
+:::
+
+## What a virus has that human cells lack {#sec-vstr-targets}
+
+Selective toxicity, harming the microbe without harming the host, is harder to achieve against a
+virus than against a bacterium (see [*How bacteria are built and get
+energy*](../bacteria/bacteria-build-energy.qmd#sec-bact-glance)). A virus uses the host cell's
+ribosomes, energy and most of its enzymes, and a drug that blocked these would harm the patient's
+cells as well. The targets that remain are the few proteins the virus brings or encodes for itself,
+which human cells lack or make in a form different enough for a drug to tell them apart.
+
+| Viral enzyme | What it does | Step of the cycle | Anchor virus |
+|---|---|---|---|
+| RNA-dependent RNA polymerase | Makes RNA from an RNA template, which human cells cannot do | Genome expression and copying | Influenza virus |
+| Reverse transcriptase | Copies the RNA genome into DNA | Genome expression and copying | HIV |
+| Integrase | Joins the viral DNA into a host chromosome | Genome expression and copying | HIV |
+| Protease | Cuts long viral precursor proteins into working proteins, so that new virions become infectious | Assembly and release | HIV |
+| Neuraminidase | Cuts sialic acid to free new virions from the cell surface | Release | Influenza virus |
+
+Each of these enzymes is the target of a class of antiviral drugs named after it, such as reverse
+transcriptase inhibitors and neuraminidase inhibitors (see [*Detecting viruses and antiviral
+targets*](detecting-viruses.qmd#sec-vdet-targets) for where along the cycle each class acts).
+
+::: {.callout-important}
+## Do antibacterial drugs act on viruses?
+Antibacterial drugs are often expected to help viral infections such as influenza. The expectation is
+understandable, because bacterial and viral infections of the airway can produce the same symptoms,
+and "antibiotic" is used loosely for any drug against microbes. Antibacterial drugs act on structures
+that bacteria have and human cells lack, such as the peptidoglycan wall and 70S ribosomes. A virus has
+no wall and uses the host cell's own 80S ribosomes, so these drugs have nothing in it to act on.
+:::
+
+## Check your understanding {#sec-vstr-quiz}
+
+<div data-island="quiz" data-src="/quizzes/virus-structure-replication.quiz.yml"></div>
+
+## Review with flashcards {#sec-vstr-cards}
+
+<div data-island="flashcards" data-src="/decks/virus-structure-replication.deck.yml"></div>

@@ -1,0 +1,45 @@
+id: virus-change
+title: "Flashcards: how viruses change"
+intro: "Each card asks for a mechanism or a distinction. Say the answer before you check it."
+
+cards:
+  - id: vcc1
+    kind: why
+    front: "Why do RNA viruses and retroviruses mutate faster than DNA viruses and bacteria?"
+    back: "Their copying enzymes, the viral RNA polymerase and reverse transcriptase, do not proofread, and nothing repairs the new genome afterwards. DNA polymerases proofread, so fewer errors remain."
+  - id: vcc2
+    kind: apart
+    front: "Mutation, reassortment and recombination?"
+    back: "Mutation: copying errors in one genome. Reassortment: whole segments exchanged between two viruses with segmented genomes in one cell. Recombination: parts of two related genomes joined into one during copying."
+  - id: vcc3
+    kind: how
+    front: "What does reassortment need?"
+    back: "A segmented genome, as in influenza virus, and one cell infected by two related viruses at once, so that new particles can package segments from either parent."
+  - id: vcc4
+    kind: how
+    front: "How does recombination happen in HIV?"
+    back: "Each particle carries two RNA genomes. If they come from different strains, reverse transcriptase can switch between them while copying, making DNA that is a mosaic of both."
+  - id: vcc5
+    kind: how
+    front: "How do antibodies and drugs change a viral population?"
+    back: "They select. Variants arise at random; antibodies or a drug block the parent virus, and a variant whose surface protein or drug target has changed keeps multiplying and replaces it."
+  - id: vcc6
+    kind: apart
+    front: "Antigenic drift versus antigenic shift?"
+    back: "Drift: gradual change in haemagglutinin and neuraminidase by point mutation and selection. Shift: a new haemagglutinin subtype, often with a new neuraminidase, acquired suddenly by reassortment, usually with an animal influenza virus."
+  - id: vcc7
+    kind: why
+    front: "Why can antigenic shift cause a pandemic when drift does not?"
+    back: "After shift, few or no people have antibodies to the new subtype, so the virus spreads through every age group and many countries. After drift, existing antibodies still protect partly."
+  - id: vcc8
+    kind: why
+    front: "Why are the strains in influenza vaccines reviewed every year?"
+    back: "Drift moves the circulating viruses away from last year's vaccine strains, so antibodies the old vaccine produces bind them less well."
+  - id: vcc9
+    kind: why
+    front: "Why does HIV treatment combine drugs?"
+    back: "Variants resistant to any single drug exist before treatment and are selected by it. A variant resistant to all the drugs at once is very unlikely, and suppressed copying makes few new variants."
+  - id: vcc10
+    kind: how
+    front: "Where does the new haemagglutinin in antigenic shift come from?"
+    back: "From an animal influenza virus, usually from birds, by reassortment in a cell infected with both, for example in a pig. The passage of animal viruses into people is spillover."

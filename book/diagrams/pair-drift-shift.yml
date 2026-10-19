@@ -1,0 +1,73 @@
+id: pair-drift-shift
+title: "Contrast pair: antigenic drift and antigenic shift"
+intro: "Both change the haemagglutinin and neuraminidase of influenza virus, and both let the virus infect people who were immune before. Read across and find the property that explains why only one of them can cause a pandemic."
+
+a:
+  name: "Antigenic drift"
+b:
+  name: "Antigenic shift"
+
+rows:
+  - feature: "How the change arises"
+    a: "Point mutations, from copying errors by the viral RNA polymerase"
+    b: "Reassortment: a whole haemagglutinin segment, sometimes with a neuraminidase segment, from another influenza virus"
+    separates: true
+  - feature: "Where the new genetic material comes from"
+    a: "The virus's own genome"
+    b: "Another influenza virus, usually one from birds or pigs"
+    separates: true
+  - feature: "Size of the change"
+    a: "A few amino acids in the existing haemagglutinin and neuraminidase"
+    b: "A haemagglutinin, and sometimes a neuraminidase, of a different subtype"
+    separates: true
+  - feature: "Pace"
+    a: "Gradual and continuous, season after season"
+    b: "Sudden and occasional"
+    separates: true
+  - feature: "Antibodies already in the population"
+    a: "Bind less well, but still protect partly"
+    b: "Few or none against the new subtype"
+    separates: true
+  - feature: "Typical outcome"
+    a: "Epidemics year after year; vaccine strains updated"
+    b: "A pandemic is possible"
+    separates: true
+  - feature: "Changes the surface antigens?"
+    a: "Yes"
+    b: "Yes"
+    separates: false
+
+question:
+  stem: "Which property best explains why a virus produced by antigenic shift can spread across many countries, while drifted viruses cause epidemics year after year?"
+  options: [3, 4, 6]
+  answer: 4
+  feedback: >
+    Antibodies already in the population. After drift, antibodies from earlier infection or vaccination
+    still bind the new variant partly, which slows its spread. After shift, almost nobody has antibodies
+    to the new haemagglutinin subtype, so the virus can infect people of every age everywhere. The
+    suddenness of shift matters less than the absence of immunity it leaves.
+
+principle: >
+  Drift is the slow accumulation of small changes by mutation and selection. Shift is a single large
+  change by reassortment, which brings in a surface protein the human population has not met. Drift
+  explains why influenza vaccines are updated; shift explains influenza pandemics.
+
+sort:
+  - text: "A few amino acids in haemagglutinin change, and antibodies from last winter bind less well"
+    answer: a
+    why: "Small changes by point mutation are drift."
+  - text: "A human influenza virus acquires an H3 segment from a bird influenza virus"
+    answer: b
+    why: "A new haemagglutinin subtype by reassortment is shift."
+  - text: "The reason the strains in influenza vaccines are reviewed every year"
+    answer: a
+    why: "Drift moves circulating strains away from the vaccine strains each season."
+  - text: "Requires one cell to be infected by two different influenza viruses"
+    answer: b
+    why: "Reassortment, the usual route to shift, needs both parents in one cell."
+  - text: "Arises from copying errors that the viral RNA polymerase does not correct"
+    answer: a
+    why: "Uncorrected copying errors are point mutations, the basis of drift."
+  - text: "Almost no one in the world has antibodies to the new haemagglutinin"
+    answer: b
+    why: "A subtype new to the human population is the mark of shift."

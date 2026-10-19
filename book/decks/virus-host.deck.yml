@@ -1,0 +1,45 @@
+id: virus-host
+title: "Flashcards: viruses and the host"
+intro: "Each card asks for a mechanism or a distinction. Say the answer before you check it."
+
+cards:
+  - id: vhd1
+    kind: why
+    front: "Why does influenza virus infect the airway?"
+    back: "Its haemagglutinin binds sialic acid on the epithelial cells lining the airway. A virus can infect only cells that carry its receptor."
+  - id: vhd2
+    kind: how
+    front: "How does HIV enter a cell, and which cells does it infect?"
+    back: "It binds CD4 and then a co-receptor, and its envelope fuses with the cell membrane. Both molecules are found on CD4 T cells and macrophages."
+  - id: vhd3
+    kind: apart
+    front: "Local versus systemic viral infection?"
+    back: "Local: the virus stays in the epithelium at the site of entry, as influenza virus does in the airway. Systemic: it spreads in lymph, blood (viraemia) or nerves to distant organs, as HIV spreads to lymphoid tissue."
+  - id: vhd4
+    kind: how
+    front: "What are the four patterns of viral damage?"
+    back: "Death of infected cells (cytopathic effect); damage by the immune response; loss of the cells the virus infects; transformation to cancer."
+  - id: vhd5
+    kind: apart
+    front: "Interferon versus cytotoxic T cells?"
+    back: "Interferon is released early by infected cells and puts neighbouring cells into an antiviral state. Cytotoxic T cells come later and kill cells that display viral proteins."
+  - id: vhd6
+    kind: why
+    front: "Why can bacterial pneumonia follow influenza?"
+    back: "Influenza virus kills the ciliated airway epithelium, which normally clears mucus and bacteria, so bacteria such as *Staphylococcus aureus* can reach and multiply in the lung."
+  - id: vhd7
+    kind: why
+    front: "Why does advanced HIV infection lead to opportunistic infections such as tuberculosis?"
+    back: "HIV kills CD4 T cells over years. Without them, cell-mediated immunity fails, and organisms that live inside host cells, such as *Mycobacterium tuberculosis*, are no longer controlled."
+  - id: vhd8
+    kind: how
+    front: "How can human papillomavirus cause cancer?"
+    back: "Its proteins inactivate the cell's tumour-suppressor proteins. Persistent infection over years, with further changes in the cell, can lead to cancer of the cervix."
+  - id: vhd9
+    kind: apart
+    front: "Acute, latent and chronic viral infection?"
+    back: "Acute: virus multiplies and is cleared within days to weeks (influenza). Latent: the genome stays silent in cells for life and can reactivate (herpesviruses). Chronic: virus is produced continuously for years (HIV)."
+  - id: vhd10
+    kind: why
+    front: "Why can a latent virus escape cytotoxic T cells?"
+    back: "A latently infected cell makes few or no viral proteins, so there is nothing for cytotoxic T cells to recognise until the virus reactivates."

@@ -1,0 +1,45 @@
+id: virus-structure-replication
+title: "Flashcards: how viruses are built and copy themselves"
+intro: "Each card asks for a mechanism or a distinction. Say the answer before you check it."
+
+cards:
+  - id: vsr1
+    kind: apart
+    front: "Capsid versus envelope?"
+    back: "The capsid is a protein shell, made from viral proteins, that encloses the genome. The envelope, present only in some viruses, is a lipid bilayer taken from a host membrane, with viral proteins inserted into it."
+  - id: vsr2
+    kind: why
+    front: "Why does alcohol hand rub inactivate influenza virus more reliably than a non-enveloped virus?"
+    back: "Alcohol disrupts lipid. Without its envelope, influenza virus loses the proteins it attaches with. A capsid without an envelope is protein and resists alcohol, so soap and water, which remove it physically, are used instead."
+  - id: vsr3
+    kind: how
+    front: "What are the six steps of the viral replication cycle?"
+    back: "Attachment to a receptor; entry by fusion or endocytosis; uncoating of the genome; genome expression and copying; assembly of new virions; release by budding or lysis."
+  - id: vsr4
+    kind: apart
+    front: "Release by budding versus release by lysis?"
+    back: "Budding: an enveloped virion pushes out through host membrane and takes its envelope from it; the cell can keep releasing virions for a time. Lysis: the infected cell breaks open and dies, releasing many non-enveloped viruses."
+  - id: vsr5
+    kind: apart
+    front: "Positive-sense versus negative-sense RNA?"
+    back: "Positive-sense RNA has the sequence of an mRNA and is translated directly. Negative-sense RNA is complementary to mRNA and must be copied by a viral RNA-dependent RNA polymerase before any protein is made."
+  - id: vsr6
+    kind: why
+    front: "Why does influenza virus carry its own polymerase inside the virion?"
+    back: "Its eight segments are negative-sense RNA, which ribosomes cannot read, and human cells have no enzyme that makes RNA from an RNA template. The polymerase must arrive with the genome."
+  - id: vsr7
+    kind: how
+    front: "How does HIV turn its RNA genome into mRNA?"
+    back: "Reverse transcriptase copies the RNA into DNA; integrase joins that DNA into a host chromosome as a provirus; host RNA polymerase then transcribes the provirus into mRNA."
+  - id: vsr8
+    kind: how
+    front: "What do haemagglutinin and neuraminidase do for influenza virus?"
+    back: "Haemagglutinin binds sialic acid on airway epithelial cells, attaching the virion. Neuraminidase cuts sialic acid so that new virions are freed from the cell surface and can infect other cells."
+  - id: vsr9
+    kind: why
+    front: "Why can drugs against HIV enzymes not clear the infection?"
+    back: "They stop new cells from being infected, but an integrated provirus is part of the cell's genome. A provirus that is not being transcribed makes no viral proteins, so neither drugs nor the immune response can remove it."
+  - id: vsr10
+    kind: why
+    front: "Why are antiviral drug targets mostly viral enzymes?"
+    back: "A virus uses the host cell's ribosomes, energy and most enzymes, so blocking those would harm the patient. Enzymes the virus brings or encodes, such as reverse transcriptase or neuraminidase, are absent from human cells or different enough to target selectively."

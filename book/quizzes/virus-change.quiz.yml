@@ -1,0 +1,120 @@
+id: virus-change
+title: "Check your understanding: how viruses change"
+questions:
+  - id: vc1
+    stem: "Why do RNA viruses accumulate mutations faster than bacteria?"
+    options:
+      - text: "Their RNA polymerases do not proofread, so copying errors stay in the new genomes"
+        correct: true
+        feedback: "Bacterial DNA polymerases remove wrongly paired bases as they copy, and repair systems fix most of the rest. Most viral RNA polymerases do neither, and the same is true of reverse transcriptase in HIV."
+      - text: "Antibodies and drugs cause mutations in the virus"
+        correct: false
+        feedback: "Mutations arise at random during copying. Antibodies and drugs select variants that already exist; they do not create them."
+      - text: "RNA viruses have larger genomes, with more bases to go wrong"
+        correct: false
+        feedback: "RNA virus genomes are small compared with a bacterial chromosome. The difference lies in the copying enzyme, which leaves its errors uncorrected."
+      - text: "RNA breaks down inside the virus particle between infections"
+        correct: false
+        feedback: "Damage to a particle's RNA usually leaves a virus that cannot infect. New variants come from errors made while the genome is copied inside a cell."
+  - id: vc2
+    stem: "What does reassortment between two influenza viruses require?"
+    options:
+      - text: "One cell infected by both viruses at the same time"
+        correct: true
+        feedback: "New particles package segments from the genomes present in the cell where they are assembled, so both parents must be in one cell."
+      - text: "A high mutation rate in one of the two viruses"
+        correct: false
+        feedback: "Mutation and reassortment are separate routes. Reassortment swaps whole segments that already exist, whatever the error rate of the polymerase."
+      - text: "Integration of both viral genomes into the host cell's DNA"
+        correct: false
+        feedback: "Influenza virus does not integrate. Integration is a step in the retrovirus cycle, and it plays no part in exchanging segments."
+      - text: "The two viruses infecting the same person, in any tissue"
+        correct: false
+        feedback: "Infection of the same person is not enough. The segments are mixed only in a cell that contains both genomes."
+  - id: vc3
+    stem: "A laboratory compares influenza viruses collected over five winters. Each year's haemagglutinin gene differs from the previous year's at a few positions, and antibodies raised against the oldest viruses bind the newest ones less well. Which process best explains these findings?"
+    options:
+      - text: "Antigenic drift"
+        correct: true
+        feedback: "Small, year-by-year changes from point mutations, selected because they let the virus escape existing antibodies, are what drift means."
+      - text: "Antigenic shift"
+        correct: false
+        feedback: "Shift replaces the haemagglutinin with one of a different subtype in a single step. A few changed positions accumulating each year point to gradual change."
+      - text: "Mutations caused by vaccination of the population"
+        correct: false
+        feedback: "Vaccination produces antibodies that select variants; the mutations themselves arise at random during copying."
+      - text: "Recombination with a bird influenza virus"
+        correct: false
+        feedback: "Exchange with a bird virus would bring in a large new piece of genome. Scattered changes at a few positions are the signature of point mutation."
+  - id: vc4
+    stem: "A new influenza A virus spreads across many countries within months, and adults of every age fall ill. Its haemagglutinin belongs to a subtype that has not circulated in people for decades and closely resembles one found in birds; its other segments resemble those of current human influenza viruses. Which process most likely produced this virus?"
+    options:
+      - text: "Reassortment between a human and a bird influenza virus, antigenic shift"
+        correct: true
+        feedback: "A haemagglutinin segment from a bird virus combined with human-virus segments is reassortment. Almost no one has antibodies to the new subtype, which is why it spread widely."
+      - text: "Antigenic drift of a current human virus"
+        correct: false
+        feedback: "Drift changes a few amino acids at a time and keeps the subtype. A haemagglutinin of a different subtype, resembling a bird virus, cannot arise that way within one season."
+      - text: "Recombination between influenza virus and human DNA"
+        correct: false
+        feedback: "Influenza virus has an RNA genome and does not exchange genes with human DNA. The evidence points to segments from two influenza viruses."
+      - text: "A sudden rise in the virus's mutation rate"
+        correct: false
+        feedback: "Faster mutation would still produce scattered point changes. A whole segment matching a bird virus shows that a segment was exchanged."
+  - id: vc5
+    stem: "A man with HIV infection is given a single drug that blocks reverse transcriptase. The amount of virus in his blood falls, then rises again within weeks although he takes every dose. Which explanation is most likely?"
+    options:
+      - text: "Variants with a changed reverse transcriptase, already present among his viruses, were selected by the drug"
+        correct: true
+        feedback: "His virus population was large and copied with errors, so variants resistant to one drug existed before treatment. The drug blocked the rest and left those variants to multiply."
+      - text: "The drug made the virus mutate so that it could survive"
+        correct: false
+        feedback: "Mutations arise at random during copying, with or without the drug. The drug selects the variants that happen to resist it."
+      - text: "His body became resistant to the drug"
+        correct: false
+        feedback: "Resistance is a property of the virus. The drug still acts on susceptible virus; the virus now in his blood carries a changed target."
+      - text: "He was reinfected with a different HIV strain"
+        correct: false
+        feedback: "Reinfection is possible but much less likely than selection, which happens predictably whenever one drug is used alone against a large, varied population."
+  - id: vc6
+    stem: "Why does treatment of HIV infection combine drugs that act on different targets?"
+    options:
+      - text: "A variant would need resistance to every drug at once, which is very unlikely to exist, and suppressed copying makes few new variants"
+        correct: true
+        feedback: "Variants resistant to one drug are likely to be present before treatment. Variants resistant to all the drugs together almost never are."
+      - text: "Each drug alone is too weak to block its target"
+        correct: false
+        feedback: "A single drug can block its target well, and the amount of virus falls at first. The problem is the resistant variants it selects."
+      - text: "Combining drugs prevents mutations from occurring"
+        correct: false
+        feedback: "Drugs cannot make reverse transcriptase accurate. By stopping most copying, they reduce how many new variants arise, and they block those that resist only one drug."
+      - text: "Two drugs together kill the infected cells directly"
+        correct: false
+        feedback: "Antiviral drugs block viral enzymes and other viral proteins; they do not kill cells. The benefit of combining them is protection against resistant variants."
+  - id: vc7
+    stem: "Why are the strains in the influenza vaccine reviewed every year?"
+    options:
+      - text: "Drift changes haemagglutinin and neuraminidase, so antibodies made against last year's strains bind circulating viruses less well"
+        correct: true
+        feedback: "Selection by antibodies in the population moves circulating strains away from the vaccine strains, season by season."
+      - text: "A new subtype appears by antigenic shift every year"
+        correct: false
+        feedback: "Shift is occasional and unpredictable. The yearly review responds to the gradual change of drift."
+      - text: "Live virus in the vaccine mutates after it is given"
+        correct: false
+        feedback: "The changes that matter happen in the influenza viruses circulating in the population, which are copied in enormous numbers."
+  - id: vc8
+    stem: "A woman is infected with two different HIV strains. Some years later, her blood contains HIV whose genome combines stretches from both strains. Which process best explains this?"
+    options:
+      - text: "Recombination, as reverse transcriptase moved between two different RNA genomes packaged in one particle"
+        correct: true
+        feedback: "HIV packages two RNA copies, and a cell infected by both strains can release particles holding one of each. Switching templates during copying joins parts of both into one DNA."
+      - text: "Reassortment of genome segments"
+        correct: false
+        feedback: "Reassortment needs a segmented genome, which HIV lacks, so whole segments cannot be swapped. Its genes are mixed by template switching during copying."
+      - text: "Antigenic shift"
+        correct: false
+        feedback: "Shift describes influenza A acquiring a new haemagglutinin subtype by reassortment. The joining of two HIV genomes is recombination."
+      - text: "Point mutations in one of the strains"
+        correct: false
+        feedback: "Point mutations change single bases. Long stretches matching each of the two strains show that the genomes were joined."

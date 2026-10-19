@@ -1,0 +1,68 @@
+id: pair-enveloped-nonenveloped
+title: "Contrast pair: enveloped and non-enveloped viruses"
+intro: "Both are viruses with a genome inside a protein capsid, and both infect only by entering a cell. Read across and find the difference that explains why one is inactivated by alcohol hand rub and the other survives it."
+
+a:
+  name: "Enveloped virus"
+b:
+  name: "Non-enveloped virus"
+
+rows:
+  - feature: "Outer layer"
+    a: "A lipid bilayer from a host membrane, carrying viral proteins"
+    b: "The protein capsid"
+    separates: true
+  - feature: "Genome"
+    a: "DNA or RNA"
+    b: "DNA or RNA"
+    separates: false
+  - feature: "Effect of alcohol, detergent and drying"
+    a: "The envelope is disrupted, and the virion can no longer attach to a cell"
+    b: "Largely withstood"
+    separates: true
+  - feature: "Survival outside the host"
+    a: "Generally short"
+    b: "Often long, on hands, surfaces, food and water"
+    separates: true
+  - feature: "Usual way out of the cell"
+    a: "Budding, which can continue for a time before the cell dies"
+    b: "Often lysis of the cell"
+    separates: true
+  - feature: "Typical spread"
+    a: "Respiratory particles, blood, sexual contact or close contact"
+    b: "Often the faecal–oral route, including contaminated hands and surfaces"
+    separates: true
+
+question:
+  stem: "Which property best explains why alcohol hand rub reliably inactivates influenza virus on hands but is less reliable against a non-enveloped virus?"
+  options: [0, 1, 4]
+  answer: 0
+  feedback: >
+    The outer layer. Alcohol and detergents disrupt lipid, so they break up the envelope and with it
+    the viral proteins the virion needs to attach to a cell. A non-enveloped virus has no lipid layer
+    to disrupt, and its protein capsid withstands alcohol much better.
+
+principle: >
+  The envelope is borrowed host membrane, and it is the weak point of an enveloped virus outside the
+  body. Enveloped viruses depend on quick transfer between hosts; non-enveloped viruses can survive on
+  hands, surfaces and food until they reach a new host.
+
+sort:
+  - text: "Inactivated by alcohol hand rub because its lipid layer is disrupted"
+    answer: a
+    why: "Alcohol acts on lipid, and only enveloped viruses have a lipid layer."
+  - text: "Its outer surface is a protein shell"
+    answer: b
+    why: "Without an envelope, the capsid is the outermost layer."
+  - text: "Leaves the cell by budding, taking a piece of host membrane with it"
+    answer: a
+    why: "Budding is how an enveloped virus acquires its envelope."
+  - text: "Spreads through a hospital ward although staff use alcohol hand rub"
+    answer: b
+    why: "A capsid without an envelope resists alcohol, so soap and water are needed to remove it."
+  - text: "Carries haemagglutinin and neuraminidase in its outer layer"
+    answer: a
+    why: "These are influenza virus proteins, inserted into its envelope."
+  - text: "Survives stomach acid and bile, and often spreads by the faecal–oral route"
+    answer: b
+    why: "Bile disrupts lipid envelopes; a protein capsid withstands it."

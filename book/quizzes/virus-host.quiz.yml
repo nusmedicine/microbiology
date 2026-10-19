@@ -1,0 +1,108 @@
+id: virus-host
+title: "Check your understanding: viruses and the host"
+questions:
+  - id: vh1
+    stem: "Why does HIV infect CD4 T cells and macrophages but not the epithelial cells lining the airway?"
+    options:
+      - text: "CD4 and a co-receptor, the molecules HIV must bind to enter, are found together on CD4 T cells and macrophages"
+        correct: true
+        feedback: "Attachment comes first in the replication cycle, so a virus can infect only cells that carry its receptor. The distribution of CD4 and the co-receptor sets HIV's tropism."
+      - text: "Airway cells have no nucleus for the virus to use"
+        correct: false
+        feedback: "Airway epithelial cells are nucleated, and influenza virus replicates in them. HIV fails to infect them because they lack the molecules it binds."
+      - text: "HIV is destroyed by the mucus in the airway"
+        correct: false
+        feedback: "Mucus is a barrier for many organisms, but it does not explain which cells HIV infects once it reaches tissue. The limiting step is attachment to CD4 and a co-receptor."
+  - id: vh2
+    stem: "Influenza virus usually stays in the airway, whereas HIV spreads through the body. Which difference best explains this?"
+    options:
+      - text: "Influenza virus is released into the airway lumen, while HIV infects cells that travel in lymph and blood"
+        correct: true
+        feedback: "New influenza virus buds from the airway-facing surface of the epithelium and rarely enters the blood. HIV infects CD4 T cells and macrophages, which carry it to the lymph nodes and into the blood."
+      - text: "Influenza virus is too large to enter the blood"
+        correct: false
+        feedback: "Size is not the barrier: both viruses are far smaller than a red blood cell. What matters is where new virus is released and which cells carry it."
+      - text: "HIV multiplies faster than influenza virus"
+        correct: false
+        feedback: "Speed of replication does not decide the route. Influenza virus multiplies quickly yet stays local because of where it is released; HIV spreads because the cells it infects circulate."
+  - id: vh3
+    stem: "What does interferon do in a viral infection?"
+    options:
+      - text: "It is released by infected cells and puts neighbouring cells into an antiviral state"
+        correct: true
+        feedback: "Interferon is the first response, made within the infected tissue before the adaptive response begins. It protects cells that have not yet been infected."
+      - text: "It kills cells that display viral proteins"
+        correct: false
+        feedback: "Killing infected cells is the work of cytotoxic T cells, which arrive later. Interferon acts on uninfected neighbours, making them resist infection."
+      - text: "It binds virus particles outside cells and blocks their attachment"
+        correct: false
+        feedback: "That describes antibodies. Interferon is a signal between cells, not a molecule that binds the virus."
+  - id: vh4
+    stem: "In severe influenza, fluid and inflammatory cells fill the alveoli. On the damage-response framework, where does this damage mainly come from?"
+    options:
+      - text: "The host response: inflammation that clears the virus also damages the alveoli"
+        correct: true
+        feedback: "Influenza damages the airway in two ways, by killing infected cells and through the inflammation that removes them. In the alveoli, the inflammatory response is what impairs gas exchange."
+      - text: "A toxin secreted by influenza virus"
+        correct: false
+        feedback: "Influenza virus secretes no toxin. It damages tissue by killing the cells it infects and by provoking inflammation."
+      - text: "Loss of CD4 T cells"
+        correct: false
+        feedback: "Depletion of CD4 T cells is the pattern of HIV infection. Influenza virus infects epithelial cells, and the damage here comes from the response to that infection."
+  - id: vh5
+    stem: "A 72-year-old man is recovering from influenza when, a week after his first symptoms, he develops a new fever and a productive cough. *Staphylococcus aureus* grows from his sputum. Which detail best explains why the bacterium could cause pneumonia?"
+    options:
+      - text: "Influenza virus killed the ciliated epithelium of his airway"
+        correct: true
+        feedback: "The cytopathic effect of influenza strips the ciliated lining, which normally clears mucus and bacteria, so bacteria can reach and multiply in the lung."
+      - text: "Influenza virus in his blood carried the bacteria to the lung"
+        correct: false
+        feedback: "Viruses do not carry bacteria, and influenza virus rarely enters the blood. The damage is local, to the airway lining the virus infected."
+      - text: "The bacterium acquired virulence genes from influenza virus"
+        correct: false
+        feedback: "Influenza virus infects human airway cells, not bacteria, and does not pass genes to them. The change is in the host: a damaged airway lining."
+      - text: "Interferon released during the infection damaged his lungs"
+        correct: false
+        feedback: "Interferon contributes to fever and aching, but it protects cells against viruses. The opportunity for the bacterium comes from the loss of the ciliated epithelium."
+  - id: vh6
+    stem: "A 38-year-old man has had untreated HIV infection for about ten years. He develops pulmonary tuberculosis, and his CD4 T-cell count is very low. Which detail best explains why tuberculosis developed?"
+    options:
+      - text: "Loss of CD4 T cells has impaired his cell-mediated immunity"
+        correct: true
+        feedback: "*Mycobacterium tuberculosis* survives inside macrophages, and its control depends on cell-mediated immunity. As HIV depletes CD4 T cells, that defence fails and the organism causes disease."
+      - text: "HIV infected and damaged the epithelium of his airway"
+        correct: false
+        feedback: "Airway epithelial cells lack CD4 and the co-receptor, so HIV does not infect them. The damage that matters is the loss of the immune cells HIV does infect."
+      - text: "HIV made *M. tuberculosis* more virulent"
+        correct: false
+        feedback: "HIV infects human cells and does not alter the bacterium. What changed is the host's defence."
+      - text: "Viraemia carried the bacteria to his lungs"
+        correct: false
+        feedback: "Viraemia spreads the virus, not bacteria. Tuberculosis follows because the defences that normally contain *M. tuberculosis* have failed."
+  - id: vh7
+    stem: "How can human papillomavirus lead to cancer of the cervix?"
+    options:
+      - text: "Viral proteins inactivate the cell's tumour-suppressor proteins, and infection that persists for years allows further changes in the cell"
+        correct: true
+        feedback: "An oncogenic virus changes the controls on cell division. Cancer follows only in a small proportion of infected people, after years, because further changes in the cell are needed."
+      - text: "The virus kills infected cells, and the dead cells become cancer cells"
+        correct: false
+        feedback: "A dead cell cannot divide. Cancer arises from cells that survive infection and divide without normal control."
+      - text: "The virus depletes CD4 T cells, so cancer cells are not removed"
+        correct: false
+        feedback: "Depletion of CD4 T cells is how HIV causes disease. Human papillomavirus acts inside the cell it infects, on the proteins that control division."
+  - id: vh8
+    stem: "A 25-year-old woman has had painful blisters at the same spot on her lip several times a year since adolescence, often after a fever. Between episodes the lip is normal. Which pattern of infection best explains this?"
+    options:
+      - text: "Latent infection with reactivation"
+        correct: true
+        feedback: "The same site, the long history and the normal lip between episodes fit a virus that persists silently in sensory nerve cells and returns along the nerve when it reactivates."
+      - text: "Chronic infection"
+        correct: false
+        feedback: "In a chronic infection, virus is produced continuously, as in HIV infection. Here the lip is normal between episodes, so the virus is silent most of the time."
+      - text: "Repeated acute infections caught from other people"
+        correct: false
+        feedback: "New infections from different contacts would not keep returning to exactly the same spot over years. A recurrence at one site points to a virus that stays in the body."
+      - text: "Cancer caused by an oncogenic virus"
+        correct: false
+        feedback: "Transformation produces a growth that persists and enlarges. Blisters that come and go, with normal tissue between, point to reactivation of a latent virus."

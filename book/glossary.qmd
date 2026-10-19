@@ -6,17 +6,22 @@ biology, tissues or general pathology are not repeated here.
 | Term | Meaning | Introduced in |
 |---|---|---|
 | **Acid-fast stain** | A stain that detects organisms with waxy, mycolic-acid walls, which resist the Gram stain | *How bacteria are built and get energy* |
+| **Acquired immunodeficiency syndrome (AIDS)** | The advanced stage of HIV infection, in which loss of CD4 T cells lets opportunistic infections cause disease | *Viruses and the host* |
 | **Acquired resistance** | Resistance gained by a particular strain through mutation or gene transfer | *How bacteria copy themselves and change* |
 | **Acute infection** | Rapid onset, then either clearance or death of the host | *Microbes and their hosts* |
 | **Aerobic respiration** | Making ATP with an electron transport chain that passes electrons to oxygen | *How bacteria are built and get energy* |
 | **Aerotolerant anaerobe** | Ferments only, gains nothing from oxygen, but is not harmed by it | *How bacteria are built and get energy* |
 | **Airborne transmission** | Spread by small exhaled particles that stay suspended in air and can travel beyond a metre or two | *Transmission, outbreaks and One Health* |
 | **Anaerobic respiration** | Making ATP with an electron transport chain that passes electrons to a molecule other than oxygen, such as nitrate | *How bacteria are built and get energy* |
+| **Antigen test** | A test that detects a viral protein in a sample, usually on a paper strip, giving a result within minutes without a laboratory | *Detecting viruses and antiviral targets* |
+| **Antigenic drift** | Gradual change in a virus's surface antigens through the accumulation of point mutations | *How viruses change* |
+| **Antigenic shift** | The sudden appearance in human influenza A viruses of a haemagglutinin, often with a neuraminidase, of a subtype new to the human population, usually by reassortment with an animal influenza virus | *How viruses change* |
 | **Antimicrobial resistance** | The ability of a microbe to grow despite a drug that would normally inhibit or kill it | *How bacteria copy themselves and change* |
 | **Antimicrobial stewardship** | Coordinated effort to use antimicrobials only when needed, at the right dose and duration, to limit selection for resistance | *How bacteria copy themselves and change* |
 | **Antisepsis** | Reducing microbes on living tissue, such as skin preparation before a procedure | *Detecting and controlling microbes* |
 | **Archaea** | A domain of prokaryotes distinct from bacteria; none is an established human pathogen | *The microbial world* |
 | **Asplenia** | Absence of a functioning spleen | *Microbes and their hosts* |
+| **Attachment** | The first step of the viral replication cycle: a protein on the virion surface binds a specific receptor on the host cell | *How viruses are built and copy themselves* |
 | **Atypical** | Of bacteria: grouped in this course because routine stains and culture fail on them, either because there is no cell wall or because the organism grows only inside host cells | *A map of the bacteria* |
 | **Bacillus (pl. bacilli)** | A rod-shaped bacterium | *How bacteria are built and get energy* |
 | **Bacteraemia** | Bacteria in the bloodstream | *Gram-positive cocci* |
@@ -24,9 +29,13 @@ biology, tissues or general pathology are not repeated here.
 | **Binary fission** | Division of one bacterial cell into two | *How bacteria are built and get energy* |
 | **Biofilm** | A community of microbes embedded in a shared matrix on a surface | *How bacteria are built and get energy* |
 | **Breakpoint** | The drug concentration that separates organisms likely to respond from those that are not | *Detecting bacteria and testing susceptibility* |
+| **Budding** | Release of an enveloped virion through a patch of host membrane, which becomes its envelope | *How viruses are built and copy themselves* |
+| **Capsid** | The protein shell that encloses and protects a virus genome | *How viruses are built and copy themselves* |
 | **Capsule** | A polysaccharide layer outside the cell wall that resists phagocytosis | *How bacteria are built and get energy* |
 | **Carrier** | A person who harbours and can transmit an organism without being ill | *The microbial world* |
 | **Catalase** | An enzyme that breaks down hydrogen peroxide | *Gram-positive cocci* |
+| **CD4** | A protein on the surface of CD4 T cells to which HIV attaches first | *Viruses and the host* |
+| **CD4 T cells (helper T cells)** | Lymphocytes that coordinate the immune response, including the activity of macrophages and of cytotoxic T cells | *Viruses and the host* |
 | **Cell envelope** | A bacterium's cell membrane and every layer outside it | *How bacteria are built and get energy* |
 | **Cellulitis** | Spreading infection of the skin and the tissue beneath it | *Gram-positive cocci* |
 | **Chain of infection** | The six links of transmission: infectious agent, reservoir, portal of exit, mode of transmission, portal of entry and susceptible host | *Transmission, outbreaks and One Health* |
@@ -36,12 +45,16 @@ biology, tissues or general pathology are not repeated here.
 | **Coccus (pl. cocci)** | A spherical bacterium | *How bacteria are built and get energy* |
 | **Colonisation** | Microbes living and multiplying at a site without causing damage | *Microbes and their hosts* |
 | **Colonisation resistance** | Protection given by resident microbes, which occupy sites and consume nutrients that incoming organisms need | *Microbes and their hosts* |
+| **Combination therapy** | Treatment with two or more drugs acting on different targets, so that a variant resistant to one is still suppressed by the others | *Detecting viruses and antiviral targets* |
 | **Commensal** | An organism that lives on a host without harming it | *Microbes and their hosts* |
 | **Competent** | Of a bacterium: able to take up DNA from its surroundings | *How bacteria copy themselves and change* |
 | **Conjugate vaccine** | A vaccine in which a polysaccharide is linked to a protein to improve the immune response, particularly in young children | *Detecting and controlling microbes* |
 | **Conjugation** | Transfer of a plasmid from one bacterium to another through direct contact | *How bacteria copy themselves and change* |
 | **Conjugative pilus** | A long pilus that draws two bacteria together for conjugation; distinct from the short attachment pili | *How bacteria copy themselves and change* |
 | **Contamination** | Microbes present on a surface without multiplying | *Microbes and their hosts* |
+| **Co-receptor** | The second cell-surface molecule HIV binds, after CD4, before its envelope fuses with the cell membrane | *Viruses and the host* |
+| **Cytopathic effect** | Damage to a cell caused by the virus taking over its machinery, often ending in the cell's death; also visible when a virus grows in cultured cells | *Viruses and the host* |
+| **Cytotoxic T cells** | Lymphocytes that recognise viral proteins displayed on an infected cell and kill that cell | *Viruses and the host* |
 | **Damage-response framework** | The view that disease is defined by host damage, which may come from the microbe, from the host's response, or from both | *Microbes and their hosts* |
 | **Dental caries** | Tooth decay, caused by acid from bacterial fermentation of sugar | *Gram-positive cocci* |
 | **Differential medium** | A medium on which colonies look different according to a metabolic property | *Detecting bacteria and testing susceptibility* |
@@ -56,6 +69,8 @@ biology, tissues or general pathology are not repeated here.
 | **Endotoxin** | Lipopolysaccharide of the Gram-negative outer membrane; called endotoxin because it is part of the cell and not secreted. Its lipid A triggers inflammation | *How bacteria are built and get energy* |
 | **Enriched medium** | A medium with added nutrients for organisms that cannot make them | *Detecting bacteria and testing susceptibility* |
 | **Enterotoxin** | A toxin that acts on the gut | *Gram-positive cocci* |
+| **Envelope (viral)** | A lipid bilayer around the capsid of some viruses, taken from a host-cell membrane and carrying viral proteins | *How viruses are built and copy themselves* |
+| **Enveloped virus** | A virus whose capsid is surrounded by an envelope | *How viruses are built and copy themselves* |
 | **Epidemic** | A sharp rise in cases above the endemic baseline | *Transmission, outbreaks and One Health* |
 | **Epidemic curve** | A plot of cases against time of onset; its shape distinguishes point-source from person-to-person spread | *Transmission, outbreaks and One Health* |
 | **Eukarya** | The domain of organisms whose cells have a nucleus, including fungi, protozoa, helminths and humans | *The microbial world* |
@@ -70,9 +85,10 @@ biology, tissues or general pathology are not repeated here.
 | **Furuncle** | A boil: a hot, swollen, pus-filled nodule centred on a hair follicle | *Gram-positive cocci* |
 | **Gastritis** | Inflammation of the stomach lining | *The microbial world* |
 | **Germ theory of disease** | The principle that specific microbes cause specific diseases | *The microbial world* |
+| **Gram stain** | A stain that sorts bacteria by cell envelope: purple (thick peptidoglycan) or pink (thin wall plus outer membrane) | *How bacteria are built and get energy* |
 | **Gram-negative** | Having a thin peptidoglycan layer and an outer membrane containing lipopolysaccharide; pink on a Gram stain | *How bacteria are built and get energy* |
 | **Gram-positive** | Having a thick peptidoglycan wall and no outer membrane; purple on a Gram stain | *How bacteria are built and get energy* |
-| **Gram stain** | A stain that sorts bacteria by cell envelope: purple (thick peptidoglycan) or pink (thin wall plus outer membrane) | *How bacteria are built and get energy* |
+| **Haemagglutinin** | An influenza envelope protein that binds the virion to sialic acid on airway epithelial cells | *How viruses are built and copy themselves* |
 | **Haemolysis** | Destruction of red blood cells; on blood agar, a clear zone (beta) or a green zone (alpha) around colonies | *Gram-positive cocci* |
 | **Healthcare-associated infection** | Infection acquired in the course of medical care | *Transmission, outbreaks and One Health* |
 | **Helminth** | A parasitic worm; a many-celled animal | *The microbial world* |
@@ -84,6 +100,8 @@ biology, tissues or general pathology are not repeated here.
 | **Infectious period** | The time during which a person can transmit an organism | *Transmission, outbreaks and One Health* |
 | **Infective endocarditis** | Infection of the heart valves or the inner lining of the heart | *Gram-positive cocci* |
 | **Inoculum** | The number of organisms a host receives | *Microbes and their hosts* |
+| **Integration** | The joining of a retrovirus's DNA copy into a host chromosome by the viral enzyme integrase | *How viruses are built and copy themselves* |
+| **Interferon** | A signal released by an infected cell that puts neighbouring cells into an antiviral state | *Viruses and the host* |
 | **Intoxication** | Illness caused by a toxin already formed outside the body, such as in food, without infection | *Gram-positive cocci* |
 | **Intrinsic resistance** | Resistance that is a property of a whole species | *How bacteria copy themselves and change* |
 | **Ischaemic** | Receiving too little blood supply | *How bacteria are built and get energy* |
@@ -108,13 +126,17 @@ biology, tissues or general pathology are not repeated here.
 | **MRSA** | Meticillin-resistant *Staphylococcus aureus*: strains carrying an acquired gene for an altered wall-building protein that binds a whole family of drugs poorly | *Gram-positive cocci* |
 | **Mutation** | A change in the DNA sequence, usually a copying error | *How bacteria copy themselves and change* |
 | **Mycolic acid** | The waxy wall component of mycobacteria that resists the Gram stain | *How bacteria are built and get energy* |
+| **Negative-sense RNA** | A single RNA strand complementary to mRNA, which must be copied before it can be translated | *How viruses are built and copy themselves* |
 | **Neonate** | A newborn infant, in the first four weeks of life | *Gram-positive cocci* |
+| **Neuraminidase** | An influenza envelope enzyme that cuts sialic acid to free new virions from the cell that made them | *How viruses are built and copy themselves* |
 | **Neutropenia** | An abnormally low neutrophil count | *Microbes and their hosts* |
+| **Non-enveloped virus** | A virus whose outer surface is the capsid | *How viruses are built and copy themselves* |
 | **Non-selective medium** | A medium that supports a wide range of organisms | *Detecting bacteria and testing susceptibility* |
 | **Nucleic acid amplification test (NAAT)** | A test that copies a target sequence many times until it can be detected | *Detecting and controlling microbes* |
 | **Obligate aerobe** | Can make ATP only with oxygen | *How bacteria are built and get energy* |
 | **Obligate anaerobe** | Poisoned by oxygen; grows only where oxygen is absent | *How bacteria are built and get energy* |
 | **Obligate intracellular** | Able to grow only inside living host cells | *Detecting bacteria and testing susceptibility* |
+| **Oncogenic virus** | A virus that can cause cancer | *Viruses and the host* |
 | **One Health** | The principle that human, animal and environmental health are interdependent | *Transmission, outbreaks and One Health* |
 | **Operon** | A group of related bacterial genes transcribed onto one mRNA | *How bacteria copy themselves and change* |
 | **Opportunistic pathogen** | An organism of low virulence that causes disease when defences are impaired or when it reaches a site it does not normally occupy | *Microbes and their hosts* |
@@ -137,25 +159,35 @@ biology, tissues or general pathology are not repeated here.
 | **Porin** | A channel in the Gram-negative outer membrane through which small molecules pass | *How bacteria copy themselves and change* |
 | **Portal of entry** | The route by which an organism enters a host | *Transmission, outbreaks and One Health* |
 | **Portal of exit** | The route by which an organism leaves its reservoir | *Transmission, outbreaks and One Health* |
+| **Positive-sense RNA** | A single RNA strand with the sequence of an mRNA, which ribosomes can translate directly | *How viruses are built and copy themselves* |
 | **Primary pathogen** | An organism that causes disease in people with normal defences; also called a strict pathogen | *Microbes and their hosts* |
 | **Prion** | A misfolded host protein that converts normal copies of itself; it has no genome | *The microbial world* |
 | **Prokaryote** | A cell without a nucleus or membrane-bound organelles | *The microbial world* |
 | **Propagated outbreak** | An outbreak spread from person to person; cases appear in successive waves | *Transmission, outbreaks and One Health* |
 | **Prophage** | A phage genome integrated into a bacterial chromosome | *How bacteria copy themselves and change* |
 | **Protozoan (pl. protozoa)** | A single-celled eukaryote that moves and feeds independently | *The microbial world* |
+| **Provirus** | Viral DNA integrated into a host chromosome, transcribed by the host and copied with the chromosome | *How viruses are built and copy themselves* |
 | **Puerperal fever** | Infection following childbirth | *Transmission, outbreaks and One Health* |
 | **Pyogenic** | Pus-forming | *How bacteria are built and get energy* |
 | **Reactive oxygen species** | Partly reduced forms of oxygen, such as superoxide and hydrogen peroxide, that damage proteins and DNA | *How bacteria are built and get energy* |
+| **Reassortment** | Formation of a new virus carrying a mix of genome segments from two parent viruses that infected the same cell | *How viruses change* |
+| **Receptor** | The molecule on a host cell to which a virus attaches to begin its replication cycle | *Viruses and the host* |
+| **Recombination (viral)** | The joining of parts of two related viral genomes into one new genome, in a cell infected by both | *How viruses change* |
 | **Reproduction number (R₀, R)** | R₀: cases generated by one case in a fully susceptible population. R: cases generated under current conditions | *Transmission, outbreaks and One Health* |
 | **Reservoir** | Where an organism normally lives and multiplies | *Transmission, outbreaks and One Health* |
 | **Resolution** | The smallest separation at which two points can be distinguished; about 0.2 µm for a light microscope | *The microbial world* |
+| **Retrovirus** | An RNA virus that copies its genome into DNA inside the cell | *How viruses are built and copy themselves* |
+| **Reverse transcriptase** | A viral DNA polymerase that uses RNA as its template | *How viruses are built and copy themselves* |
 | **Rheumatic fever** | Inflammation of the heart, joints and other tissues weeks after *Streptococcus pyogenes* infection, caused by cross-reacting antibodies | *Gram-positive cocci* |
+| **RNA-dependent RNA polymerase** | A viral enzyme that makes RNA from an RNA template, which human cells cannot do | *How viruses are built and copy themselves* |
+| **Segmented genome** | A virus genome divided into several separate molecules | *How viruses are built and copy themselves* |
 | **Selection** | Differential survival and multiplication of variants already present in a population | *How bacteria copy themselves and change* |
 | **Selective medium** | A medium containing agents that suppress unwanted organisms | *Detecting bacteria and testing susceptibility* |
 | **Selective toxicity** | Harming a microbe without harming the host, by acting on something the microbe has and the host lacks | *How bacteria are built and get energy* |
 | **Serology** | Detection of a patient's antibodies as evidence of exposure | *Detecting and controlling microbes* |
 | **Serotype** | A variant of an organism distinguished by its surface antigens, such as the capsule | *Gram-positive cocci* |
 | **Siderophore** | A molecule that captures iron bound to host proteins | *Microbes and their hosts* |
+| **Spillover** | The passage of a virus from an animal host into people | *How viruses change* |
 | **Sterilisation** | Killing or removing all microbial life, including spores | *Detecting and controlling microbes* |
 | **Superantigen** | A toxin that activates a large fraction of T cells at once, causing damaging cytokine release | *Gram-positive cocci* |
 | **Toxic shock syndrome** | Fever, rash and hypotension caused by a superantigen toxin | *Gram-positive cocci* |
@@ -165,11 +197,15 @@ biology, tissues or general pathology are not repeated here.
 | **Transformation** | Uptake of free DNA from the surroundings by a competent bacterium | *How bacteria copy themselves and change* |
 | **Transposon** | A DNA segment that can move to a new position, including from chromosome to plasmid | *How bacteria copy themselves and change* |
 | **Tropism** | The specific tissues or cells an organism can occupy, set largely by the receptor it binds | *Microbes and their hosts* |
+| **Uncoating** | The step of the viral replication cycle in which the capsid comes apart and releases the genome inside the cell | *How viruses are built and copy themselves* |
 | **Vaccination** | Making a host immune without causing disease, by giving a vaccine | *Detecting and controlling microbes* |
 | **Vector** | An arthropod that carries an organism between hosts | *Transmission, outbreaks and One Health* |
+| **Viraemia** | The presence of virus in the blood | *Viruses and the host* |
+| **Viral load** | The amount of viral nucleic acid in a sample, usually plasma, measured by a quantitative NAAT | *Detecting viruses and antiviral targets* |
 | **Virion** | A single virus particle | *The microbial world* |
 | **Virulence** | The capacity of an organism to cause disease, and the degree of damage it can cause | *How bacteria copy themselves and change* |
 | **Virulence factor** | Any microbial product or structure that helps it infect or damage a host | *Microbes and their hosts* |
 | **Virus** | An infectious agent that is not a cell: a genome inside a protein coat, sometimes enveloped, copied only inside living cells | *The microbial world* |
 | **Whole-genome sequencing** | Reading an organism's entire genome, at a resolution that can link cases in an outbreak | *Detecting and controlling microbes* |
+| **Window period** | The interval after infection in which an infected person still tests negative because antibodies have not yet appeared | *Detecting viruses and antiviral targets* |
 | **Zoonosis** | An infection transmitted from animals to humans | *Transmission, outbreaks and One Health* |

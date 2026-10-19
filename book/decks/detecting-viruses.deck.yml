@@ -1,0 +1,45 @@
+id: detecting-viruses
+title: "Flashcards: detecting viruses and antiviral targets"
+intro: "Each card asks for a mechanism or a distinction. Say the answer before you check it."
+
+cards:
+  - id: dv1
+    kind: why
+    front: "Why are viruses not detected by light microscopy or culture on agar?"
+    back: "Most are smaller than the light microscope can resolve, and they have no ribosomes or energy supply of their own, so they multiply only inside living cells."
+  - id: dv2
+    kind: apart
+    front: "NAAT versus antigen test?"
+    back: "A NAAT amplifies viral nucleic acid: sensitive, result in hours. An antigen test detects a viral protein without amplification: result in minutes, but less sensitive, so a negative result does not exclude infection."
+  - id: dv3
+    kind: how
+    front: "What is the viral load, and what is it used for?"
+    back: "The amount of viral nucleic acid in a sample, usually plasma, measured by a quantitative NAAT. Repeated measurements show whether treatment of HIV infection is suppressing replication."
+  - id: dv4
+    kind: why
+    front: "Why does a positive HIV antibody test in an adult mean current infection?"
+    back: "HIV persists despite the antibody response, so antibodies and virus are present together for life."
+  - id: dv5
+    kind: why
+    front: "Why is an infant born to a mother with HIV infection tested by NAAT and not by antibody test?"
+    back: "The mother's IgG crosses the placenta and persists for many months, so an antibody test is positive whether or not the infant is infected. A NAAT detects the virus itself."
+  - id: dv6
+    kind: apart
+    front: "What does cell culture offer that a NAAT does not, and why is it rarely used for diagnosis?"
+    back: "It yields live virus, seen as a cytopathic effect, whose properties can be studied. It takes days to weeks and many viruses grow poorly in culture."
+  - id: dv7
+    kind: how
+    front: "Which step of the replication cycle does each antiviral drug class block?"
+    back: "Entry and fusion inhibitors: attachment and entry. Polymerase, reverse transcriptase and integrase inhibitors: copying the genome. Protease inhibitors: assembly of infectious virions. Neuraminidase inhibitors: release."
+  - id: dv8
+    kind: why
+    front: "Why are antiviral drugs fewer and narrower than antibacterial drugs?"
+    back: "A virus uses the host's ribosomes and energy, so drugs must act on the few viral enzymes and proteins, which differ between families. Most drugs therefore act on one virus or family."
+  - id: dv9
+    kind: why
+    front: "Why can drugs suppress HIV but not clear it?"
+    back: "Integrated viral DNA in resting CD4 T cells is latent: it is not copied, so drugs that block copying, assembly or release have nothing to act on."
+  - id: dv10
+    kind: why
+    front: "Why is HIV infection treated with a combination of drugs?"
+    back: "Resistant variants to any one drug already exist in a large population. With drugs acting on different targets, a variant must carry several resistance mutations at once to escape, which is far less likely."
