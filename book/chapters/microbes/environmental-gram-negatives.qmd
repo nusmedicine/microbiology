@@ -1,0 +1,19 @@
+# Environmental Gram-negatives: pseudomonads, vibrios and Burkholderia
+
+> *What happens when bacteria adapted to water and soil meet a human host?*
+
+::: {.callout-note}
+## In preparation
+This chapter will follow the same template as the *Gram-positive cocci* chapter. The outline below
+shows what it will cover.
+:::
+
+**The group in one sentence:** Gram-negative rods that live in water, soil and the sea, hardy and naturally resistant to many chemicals.
+
+**How members differ (the sorting key):** Must respire or can ferment; salt tolerance; where in the environment they live.
+
+**Main organisms (full profile cards):** *Pseudomonas aeruginosa* (water, natural resistance), *Burkholderia pseudomallei* (soil, diabetes as host factor, Singapore relevance), *Vibrio cholerae* (a single toxin).
+
+**Supporting organisms (one table row each):** *Vibrio vulnificus*, *Vibrio parahaemolyticus*.
+
+**Later in the course:** Hospital infections, melioidosis and cholera in the organ blocks.

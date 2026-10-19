@@ -2,12 +2,12 @@
 
 > *Lectures and textbooks name bacteria by group: Gram-positive cocci, Enterobacterales, anaerobes,
 > spiral bacteria, atypicals. It can feel like a long list to memorise. This chapter shows that each
-> group is a **combination of a few traits** you already know from the previous chapter, and that the
+> group is a **combination of a few traits** you already know from "How bacteria are built and get energy", and that the
 > combination explains how the group behaves.*
 
 ## Same questions, different answers {#sec-map-idea}
 
-The previous chapter gave you a trait toolkit: envelope, shape, relationship with oxygen and growth.
+The *How bacteria are built and get energy* chapter gave you a trait toolkit: envelope, shape, relationship with oxygen and growth.
 This chapter adds two traits that matter for whole groups of bacteria:
 
 - **Where it grows:** outside cells, able to live inside cells, or *only* inside cells.
@@ -45,7 +45,7 @@ for its brown colour. "Fastidious" is a description of lost biosynthesis, not of
 sake.
 
 ::: {.callout-note}
-## Bridge from the previous chapter
+## The same logic, another group
 **Gram-negative cocci** (*Neisseria*) show the same logic from another angle. They live only in
 humans and die quickly outside the body: they dry out, and they need enriched media in the lab. A
 fragile organism can only spread by close contact between people, which is exactly how the two main
@@ -92,6 +92,19 @@ standard stains and cultures miss them, which is why labs usually detect them by
 will meet each of these organisms again, with the diseases they cause, how they are diagnosed and how
 they are treated. You will not need to memorise those facts as a separate list. Each one follows from
 two ideas on this page: *no wall*, or *lives only inside cells*.
+
+## How the group chapters work {#sec-map-template}
+
+Each chapter that follows takes one group from the map and uses the same template, so you always
+know where to look:
+
+1. **The group in one sentence**, from its row on the map.
+2. **A sorting key:** the few traits that tell members of the group apart, and what each trait means.
+3. **Two or three main organisms**, each with a full profile card and its **patterns of harm**: how a
+   mechanism leads to a kind of damage, with one example.
+4. **Contrast pairs** for the organisms most easily confused.
+5. **Supporting organisms**, one table row each.
+6. **Later in the course:** where the organ-system blocks will add diseases, diagnosis and treatment.
 
 ## Test yourself on the map {#sec-map-test}
 

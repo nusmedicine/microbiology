@@ -1,0 +1,19 @@
+# Anaerobes
+
+> *Why does one trait, oxygen sensitivity, define a whole group of unrelated bacteria?*
+
+::: {.callout-note}
+## In preparation
+This chapter will follow the same template as the *Gram-positive cocci* chapter. The outline below
+shows what it will cover.
+:::
+
+**The group in one sentence:** Bacteria poisoned by oxygen that dominate the body's oxygen-poor places and cause harm where tissue loses its blood supply.
+
+**How members differ (the sorting key):** Gram-positive or Gram-negative; spores or not; where in the body they live.
+
+**Main organisms (full profile cards):** *Bacteroides fragilis* (colon, capsule, abscess), *Clostridium perfringens* (dead tissue, toxins).
+
+**Supporting organisms (one table row each):** *Fusobacterium*, *Prevotella*, *Cutibacterium acnes*.
+
+**Later in the course:** Abdominal, dental and soft-tissue infections in the organ blocks.

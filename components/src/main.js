@@ -7,6 +7,7 @@ import ContrastPair from './ContrastPair.svelte';
 import MicrobeProfile from './MicrobeProfile.svelte';
 import Flashcards from './Flashcards.svelte';
 import BacteriaMap from './BacteriaMap.svelte';
+import SortingKey from './SortingKey.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -19,6 +20,7 @@ const REGISTRY = {
   'microbe-profile': MicrobeProfile,
   flashcards: Flashcards,
   'bacteria-map': BacteriaMap,
+  'sorting-key': SortingKey,
 };
 
 function init() {

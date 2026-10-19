@@ -1,0 +1,19 @@
+# Parasites
+
+> *How do life cycles explain where a parasite is caught, where it lives, and how it is found?*
+
+::: {.callout-note}
+## In preparation
+This chapter will follow the same template as the *Gram-positive cocci* chapter. The outline below
+shows what it will cover.
+:::
+
+**The group in one sentence:** Eukaryotic organisms that live on or in a host: single-celled protozoa and many-celled worms (helminths).
+
+**How members differ (the sorting key):** Protozoa versus helminths; life cycle (infective and diagnostic stages); definitive and intermediate hosts.
+
+**Main organisms (full profile cards):** *Plasmodium* (mosquito and human stages), *Giardia* (cysts in water), *Toxoplasma* (cats and other hosts), *Ascaris* (eggs in soil).
+
+**Supporting organisms (one table row each):** *Entamoeba*, *Cryptosporidium*, hookworms, *Strongyloides*, tapeworms, *Schistosoma*.
+
+**Later in the course:** Malaria, gut parasites and others in the organ blocks; antiparasitic drugs in pharmacology.

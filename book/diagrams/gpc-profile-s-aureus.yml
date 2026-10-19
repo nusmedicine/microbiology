@@ -1,0 +1,40 @@
+id: gpc-profile-s-aureus
+name: "Staphylococcus aureus"
+group: "Gram-positive coccus in clusters · catalase and coagulase positive"
+intro: "You met this organism's basic profile earlier. This card goes one level deeper: predict its patterns of harm."
+
+slots:
+  - slot: identity
+    entry: "Gram-positive coccus in clusters. Thick peptidoglycan wall. Makes catalase and coagulase, plus a large set of toxins and tissue-damaging enzymes."
+  - slot: lifestyle
+    entry: "Facultative anaerobe. Lives in the nose of about one in three healthy people at any one time, and on skin. Survives drying, so it persists on hands and surfaces."
+  - slot: harm
+    predict:
+      stem: "*S. aureus* has three distinct ways of causing harm. Which of these is NOT one of them?"
+      options:
+        - text: "Hiding inside cells for years, walled off in granulomas"
+          correct: true
+          feedback: "Right, that is the mycobacterial pattern. *S. aureus* invades tissue and forms pus, releases toxins locally, or releases toxins that act on the whole body."
+        - text: "Invading tissue and attracting neutrophils, forming pus"
+          correct: false
+          feedback: "That is its commonest pattern: invasion with pus and abscess. The one it does not use is long-term survival inside cells in granulomas."
+        - text: "Releasing a toxin that causes illness without any invasion"
+          correct: false
+          feedback: "It does this in food poisoning: the toxin is already in the food. The pattern it does not use is long-term survival inside cells."
+    entry: "Three patterns: **invasion** with pus and abscess; **toxin without invasion**, as when toxin made in food causes vomiting within hours; and **toxin acting on the whole body**, as in toxic shock, where a superantigen switches on huge numbers of T cells."
+  - slot: consequence
+    predict:
+      stem: "Coagulase wraps the bacteria in fibrin, and neutrophils pour in. What shape does the infection tend to take?"
+      options:
+        - text: "Localised and walled off: an abscess"
+          correct: true
+          feedback: "Right. Fibrin and dead neutrophils wall the infection off. Compare *S. pyogenes*, which dissolves clots and spreads."
+        - text: "Spreading rapidly along tissue planes"
+          correct: false
+          feedback: "That is more typical of *S. pyogenes*, whose enzymes dissolve clots. Coagulase does the opposite: it walls *S. aureus* infections off as abscesses."
+        - text: "No visible tissue response"
+          correct: false
+          feedback: "*S. aureus* provokes a strong neutrophil response. With fibrin from coagulase, the result is a walled-off abscess."
+    entry: "Localised, pus-filled abscesses, walled off by fibrin and dead neutrophils. Toxin-driven illness, by contrast, can occur with few or no bacteria at the site."
+  - slot: contrast
+    entry: "*S. epidermidis*: also a staphylococcus in clusters, but coagulase-negative, with few toxins; it causes harm mainly by forming biofilm on devices."

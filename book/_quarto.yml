@@ -16,21 +16,28 @@ book:
   search: true
   chapters:
     - index.qmd
-    - part: "I · The microbial toolkit"
+    - part: "I · Principles"
       chapters:
-        - chapters/01-microbial-world.qmd
-        - chapters/02-bacteria-build-energy.qmd
-        - chapters/03-bacteria-map.qmd
-        - chapters/04-bacterial-genetics.qmd
-        - chapters/05-viruses.qmd
-        - chapters/06-fungi-parasites.qmd
-    - part: "II · Microbes and their hosts"
+        - chapters/principles/microbial-world.qmd
+        - chapters/principles/bacteria-build-energy.qmd
+        - chapters/principles/bacterial-genetics.qmd
+        - chapters/principles/host-microbe.qmd
+        - chapters/principles/transmission-outbreaks.qmd
+        - chapters/principles/detection-control.qmd
+    - part: "II · Meeting the microbes"
       chapters:
-        - chapters/07-host-microbe.qmd
-        - chapters/08-transmission-outbreaks.qmd
-    - part: "III · Finding and controlling microbes"
-      chapters:
-        - chapters/09-detection-control.qmd
+        - chapters/microbes/bacteria-map.qmd
+        - chapters/microbes/gram-positive-cocci.qmd
+        - chapters/microbes/gram-positive-rods.qmd
+        - chapters/microbes/enterobacterales.qmd
+        - chapters/microbes/environmental-gram-negatives.qmd
+        - chapters/microbes/fastidious-gram-negatives.qmd
+        - chapters/microbes/anaerobes.qmd
+        - chapters/microbes/spiral-bacteria.qmd
+        - chapters/microbes/atypicals-mycobacteria.qmd
+        - chapters/microbes/viruses.qmd
+        - chapters/microbes/fungi.qmd
+        - chapters/microbes/parasites.qmd
   appendices:
     - teaching-notes.qmd
 

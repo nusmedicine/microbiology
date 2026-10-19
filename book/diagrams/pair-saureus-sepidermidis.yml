@@ -1,0 +1,70 @@
+id: pair-saureus-sepidermidis
+title: "Contrast pair: the invader and the settler"
+intro: "Both are staphylococci in clusters, and both live on everyone's skin. One is a frequent invader; the other rarely causes harm unless something foreign is in the body."
+
+a:
+  name: "Staphylococcus aureus"
+  morph: clusters
+b:
+  name: "Staphylococcus epidermidis"
+  morph: clusters
+
+rows:
+  - feature: "Gram stain and arrangement"
+    a: "Purple cocci in clusters"
+    b: "Purple cocci in clusters"
+    separates: false
+  - feature: "Catalase"
+    a: "Present"
+    b: "Present"
+    separates: false
+  - feature: "Coagulase"
+    a: "Present: wraps itself in fibrin"
+    b: "Absent"
+    separates: true
+  - feature: "Toxins and tissue-damaging enzymes"
+    a: "Many"
+    b: "Few"
+    separates: true
+  - feature: "Main way it causes harm"
+    a: "Invades tissue, or acts through toxins"
+    b: "Forms biofilm on plastic and metal devices"
+    separates: true
+  - feature: "Where it lives"
+    a: "Nose of about one in three people; skin"
+    b: "Everyone's skin"
+    separates: false
+
+question:
+  stem: "Which test result tells them apart in the lab?"
+  options: [0, 1, 2]
+  answer: 2
+  feedback: >
+    Coagulase. They look identical on a slide and both make catalase. Coagulase is also a clue to
+    behaviour: it is one of the tools that makes *S. aureus* invasive.
+
+principle: >
+  **A lab test is most useful when it reads a trait that matters.** Coagulase separates the two, and it
+  also marks the organism armed for invasion. *S. epidermidis* needs a surface, such as a catheter or an
+  artificial joint, where its biofilm protects it. Because it is on everyone's skin, it is also a common
+  contaminant when blood samples are taken.
+
+sort:
+  - text: "Grows as a slimy biofilm on the inside of a plastic catheter"
+    answer: b
+    why: "Biofilm on devices is its main strategy: *S. epidermidis*."
+  - text: "Clots blood plasma in a test tube"
+    answer: a
+    why: "That is coagulase: *S. aureus*."
+  - text: "Causes vomiting within hours through a toxin made in food"
+    answer: a
+    why: "Toxins are an *S. aureus* weapon; *S. epidermidis* makes few."
+  - text: "Present on the skin of virtually every person"
+    answer: b
+    why: "Everyone carries *S. epidermidis*; about a third carry *S. aureus* in the nose."
+  - text: "Forms a walled-off abscess after a small cut"
+    answer: a
+    why: "Invasion with pus and an abscess: *S. aureus*."
+  - text: "Grows in a blood sample because skin was not cleaned well before the needle went in"
+    answer: b
+    why: "A skin resident picked up by the needle: a common contaminant, *S. epidermidis*."

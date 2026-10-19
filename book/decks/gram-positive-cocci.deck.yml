@@ -1,0 +1,49 @@
+id: gram-positive-cocci
+title: "Flashcards: Gram-positive cocci"
+intro: "Explain each answer from a trait. If you find yourself reciting a list, slow down and ask *why*."
+
+cards:
+  - id: p1
+    kind: apart
+    front: "Staphylococci versus streptococci: two traits that separate them, and what each means."
+    back: "**Clusters versus chains** (division in several planes versus one) and **catalase present versus absent** (staphylococci can break down hydrogen peroxide)."
+  - id: p2
+    kind: why
+    front: "Why do *S. aureus* infections tend to form abscesses?"
+    back: "**Coagulase** lays down fibrin around the bacteria, and the neutrophil response adds pus: the infection is walled off."
+  - id: p3
+    kind: why
+    front: "Why do *S. pyogenes* infections tend to spread?"
+    back: "Its **enzymes dissolve clots, DNA and connective-tissue gel**, breaking down the barriers that would contain it."
+  - id: p4
+    kind: how
+    front: "Name *S. aureus*'s three patterns of harm."
+    back: "**Invasion** with pus and abscess; **toxin without invasion** (toxin made in food); **toxin acting on the whole body** (superantigen in toxic shock)."
+  - id: p5
+    kind: why
+    front: "Why does staphylococcal food poisoning start within hours, and why does reheating not help?"
+    back: "The **toxin is already in the food**, so no growth in the gut is needed; and it is **heat-stable**, so killing the bacteria leaves it intact."
+  - id: p6
+    kind: how
+    front: "How does a superantigen cause harm?"
+    back: "It **switches on huge numbers of T cells at once**, flooding the body with inflammatory signals. The host's response does most of the damage."
+  - id: p7
+    kind: why
+    front: "How can *S. pyogenes* damage the heart weeks after a sore throat has cleared?"
+    back: "**Antibodies against the bacterium cross-react with heart tissue** (molecular mimicry). The host causes the damage."
+  - id: p8
+    kind: why
+    front: "What is the capsule of *S. pneumoniae* for, and why do vaccines target it?"
+    back: "It **blocks phagocytosis**. Antibodies that coat it let phagocytes engulf the bacteria, so vaccines contain capsule material."
+  - id: p9
+    kind: apart
+    front: "*S. aureus* versus *S. epidermidis*: what separates them, and how does each cause harm?"
+    back: "**Coagulase.** *S. aureus* invades and makes toxins; *S. epidermidis* mainly forms **biofilm on devices**."
+  - id: p10
+    kind: how
+    front: "What does the colour around a streptococcal colony on blood agar tell you?"
+    back: "**Clear (beta):** toxins burst red cells. **Green (alpha):** peroxide damages haemoglobin. **Unchanged (gamma):** no red-cell damage."
+  - id: p11
+    kind: why
+    front: "What changed in MRSA?"
+    back: "It **acquired a gene for an altered wall-building protein** that the drugs bind poorly. The drug selected bacteria that already had it."

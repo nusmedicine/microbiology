@@ -1,0 +1,99 @@
+id: gram-positive-cocci
+title: "Check your understanding: Gram-positive cocci"
+questions:
+  - id: g1
+    stem: "*S. aureus* infections tend to form walled-off abscesses, while *S. pyogenes* infections tend to spread. Which pair of traits best explains this?"
+    options:
+      - text: "*S. aureus* makes coagulase, which lays down fibrin; *S. pyogenes* makes enzymes that dissolve clots and tissue gel"
+        correct: true
+        feedback: "Right. One builds a wall, the other dissolves barriers. The traits predict the shape of the infection."
+      - text: "*S. aureus* is Gram-positive and *S. pyogenes* is Gram-negative"
+        correct: false
+        feedback: "Both are Gram-positive. The difference is coagulase (walling off) versus clot-dissolving enzymes (spreading)."
+      - text: "*S. aureus* uses oxygen and *S. pyogenes* does not"
+        correct: false
+        feedback: "Oxygen use does differ, but it does not decide the shape of infection. Coagulase walls off; clot-dissolving enzymes spread."
+  - id: g2
+    stem: "Why is toxic shock, caused by a superantigen, so severe?"
+    options:
+      - text: "The toxin switches on a huge number of T cells at once, flooding the body with inflammatory signals"
+        correct: true
+        feedback: "Right. A normal antigen activates a tiny fraction of T cells; a superantigen bypasses that selectivity. Most of the damage comes from the host's own response."
+      - text: "The bacteria multiply in every organ"
+        correct: false
+        feedback: "The bacteria can be few and local. The toxin activates huge numbers of T cells, and the resulting flood of inflammatory signals does the damage."
+      - text: "The toxin destroys the immune system"
+        correct: false
+        feedback: "The opposite: it over-activates T cells. The damage comes from too much immune response, not too little."
+  - id: g3
+    stem: "Weeks after a sore throat, a child develops inflammation of the heart. No bacteria are found there. What is the most likely mechanism?"
+    options:
+      - text: "Antibodies made against *S. pyogenes* cross-react with the child's own heart tissue"
+        correct: true
+        feedback: "Right. Molecular mimicry: the infection is gone, and the host's antibodies do the damage."
+      - text: "*S. pyogenes* is hiding in the heart"
+        correct: false
+        feedback: "No bacteria are found there. Antibodies against the bacterium recognise similar molecules in heart tissue."
+      - text: "A toxin left over from the sore throat"
+        correct: false
+        feedback: "Toxins act during infection. Weeks later, the damage comes from cross-reacting antibodies."
+  - id: g4
+    stem: "Why are pneumococcal vaccines made from capsule material?"
+    options:
+      - text: "Antibodies that coat the capsule let phagocytes engulf the bacteria"
+        correct: true
+        feedback: "Right. The capsule's job is to stop phagocytosis; antibodies against it undo that defence."
+      - text: "The capsule is the toxin that causes disease"
+        correct: false
+        feedback: "The capsule is armour, not a toxin. Antibodies against it let phagocytes engulf the bacteria."
+      - text: "The capsule is the only part of the bacterium that stays the same between strains"
+        correct: false
+        feedback: "The capsule varies a lot, with about 100 types, which is why vaccines include the commonest ones. Antibodies to it enable phagocytosis."
+  - id: g5
+    stem: "An *S. aureus* strain becomes resistant to a whole family of drugs that block wall-building. What has most likely changed?"
+    options:
+      - text: "It has acquired a gene for an altered version of the protein the drugs target"
+        correct: true
+        feedback: "Right. This is how MRSA arose: an acquired gene makes a wall-building protein that the drugs bind poorly. Selection did the rest."
+      - text: "The patient's body has become used to the drug"
+        correct: false
+        feedback: "Resistance belongs to the bacterium, not the person. MRSA carries an acquired gene for an altered drug target."
+      - text: "The bacteria learned to avoid the drug because they needed to survive"
+        correct: false
+        feedback: "Bacteria do not change because they need to. A gene for an altered target already existed and spread; the drug selected for bacteria that carried it."
+  - id: g6
+    stem: "Purple cocci in clusters, catalase-positive and coagulase-negative, are growing on a long-term intravenous catheter. What is the best interpretation?"
+    options:
+      - text: "A coagulase-negative staphylococcus living as a biofilm on the device"
+        correct: true
+        feedback: "Right. A skin resident with few toxins, harmful mainly when a device gives it a surface for biofilm."
+      - text: "*Staphylococcus aureus*"
+        correct: false
+        feedback: "*S. aureus* is coagulase-positive. Coagulase-negative clusters on a device suggest *S. epidermidis* in a biofilm."
+      - text: "A streptococcus"
+        correct: false
+        feedback: "Streptococci form chains and make no catalase. These are staphylococci, and coagulase-negative ones."
+  - id: g7
+    stem: "Streptococci only ferment, but they have enzymes that protect them from oxygen. Where will they grow in an oxygen-gradient tube?"
+    options:
+      - text: "Evenly throughout"
+        correct: true
+        feedback: "Right. Oxygen gives them no extra ATP and does them no harm: aerotolerant anaerobes, from the *How bacteria are built* chapter."
+      - text: "Only at the top"
+        correct: false
+        feedback: "That is an obligate aerobe. Streptococci gain nothing from oxygen and are not harmed by it, so they grow evenly."
+      - text: "Only at the bottom"
+        correct: false
+        feedback: "That is an obligate anaerobe, poisoned by oxygen. Streptococci tolerate oxygen, so they grow evenly."
+  - id: g8
+    stem: "Why are people without a working spleen at particular risk from *S. pneumoniae*?"
+    options:
+      - text: "The spleen is a key site for clearing antibody-coated, encapsulated bacteria from the blood"
+        correct: true
+        feedback: "Right. A host factor decides the outcome: without the spleen, encapsulated bacteria in the blood are cleared poorly."
+      - text: "The spleen makes the capsule"
+        correct: false
+        feedback: "The bacterium makes its own capsule. The spleen helps clear encapsulated bacteria from the blood."
+      - text: "*S. pneumoniae* lives in the spleen"
+        correct: false
+        feedback: "It lives in the nose and throat. The spleen matters because it clears encapsulated bacteria that reach the blood."

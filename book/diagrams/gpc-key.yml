@@ -1,0 +1,84 @@
+id: gpc-key
+title: "Sorting the Gram-positive cocci"
+intro: "Three or four traits separate the whole group. Pick a branch at each step and read what that trait tells you about the organism, not just where it leads."
+start: arrangement
+
+nodes:
+  - id: arrangement
+    question: "How are the cocci arranged?"
+    options:
+      - label: "Clusters"
+        meaning: "Division in several planes. Staphylococci also make **catalase**, so they cope with the hydrogen peroxide that neutrophils produce."
+        next: coagulase
+      - label: "Chains or pairs"
+        meaning: "Division in one plane. Streptococci and enterococci make **no catalase** and only ferment."
+        next: haemolysis
+  - id: coagulase
+    question: "Does it make coagulase (clots blood plasma)?"
+    options:
+      - label: "Yes"
+        meaning: "Coagulase turns fibrinogen into fibrin, wrapping the bacteria in a clot that shields them from phagocytes. A marker of the most invasive staphylococcus."
+        next: s-aureus
+      - label: "No"
+        meaning: "No clotting factor: less invasive, but good at forming biofilms on plastic and metal."
+        next: cons
+  - id: haemolysis
+    question: "What happens to the red cells around a colony on blood agar?"
+    options:
+      - label: "Cleared completely (beta)"
+        meaning: "A toxin bursts red cells outright, leaving a clear zone. A sign of an organism armed with cell-damaging toxins."
+        next: lancefield
+      - label: "Turned green (alpha)"
+        meaning: "Hydrogen peroxide from the bacteria oxidises haemoglobin to a green pigment; the cells are damaged, not burst."
+        next: alpha
+      - label: "Unchanged (gamma)"
+        meaning: "No red-cell damage. Often a sign of a hardy gut organism rather than a toxin-rich one."
+        next: enterococcus
+  - id: lancefield
+    question: "Which group sugar is on its wall (Lancefield group)?"
+    options:
+      - label: "Group A"
+        meaning: "A wall carbohydrate that labs use to type streptococci. Group A carries the M protein, which resists phagocytosis."
+        next: s-pyogenes
+      - label: "Group B"
+        meaning: "A different wall carbohydrate. Group B lives in the gut and vagina of many healthy adults."
+        next: s-agalactiae
+  - id: alpha
+    question: "What does it look like, and where does it live?"
+    options:
+      - label: "Lancet-shaped pairs with a thick capsule"
+        meaning: "The capsule is its main defence against phagocytes, and the reason it can invade."
+        next: s-pneumoniae
+      - label: "Chains, living in the mouth"
+        meaning: "No large capsule; adapted to stick to teeth and gums."
+        next: viridans
+
+leaves:
+  - id: s-aureus
+    name: "*Staphylococcus aureus*"
+    tag: main
+    blurb: "Carried in the nose of about one in three people. Causes harm by invading tissue (pus and abscesses) or by toxins alone."
+  - id: cons
+    name: "Coagulase-negative staphylococci (*S. epidermidis*)"
+    tag: supporting
+    blurb: "A normal resident of everyone's skin. Harmful mainly when a plastic or metal device gives it a surface for biofilm."
+  - id: s-pyogenes
+    name: "*Streptococcus pyogenes* (group A)"
+    tag: main
+    blurb: "Throat and skin. Spreads through tissue with enzymes, makes toxins, and can trigger immune-mediated disease weeks later."
+  - id: s-agalactiae
+    name: "*Streptococcus agalactiae* (group B)"
+    tag: supporting
+    blurb: "Harmless in most adults; dangerous to newborns, who meet it during birth with immature defences."
+  - id: s-pneumoniae
+    name: "*Streptococcus pneumoniae*"
+    tag: main
+    blurb: "Carried in the nose and throat, especially of young children. Its capsule lets it invade; antibodies to the capsule protect."
+  - id: viridans
+    name: "Viridans streptococci"
+    tag: supporting
+    blurb: "Mouth residents. Some ferment sugar to acid that dissolves enamel; if they reach the blood, they can stick to damaged heart valves."
+  - id: enterococcus
+    name: "*Enterococcus*"
+    tag: supporting
+    blurb: "Gut residents that tolerate bile and salt. Naturally resistant to several drugs, so they persist in hospitals."

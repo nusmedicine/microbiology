@@ -41,28 +41,28 @@ The full evidence review is in the project's research report.
 ## Session crosswalk {#sec-tn-crosswalk}
 
 For each session: what stays as foundation content, what can move later, and where the draft
-already shows it. "Unit" refers to the chapters of this book.
+already shows it. Chapter names in italics are chapters of this book.
 
 ::: {.column-page}
 
 | Session | Keep at foundation level | Move to organ-system blocks | Move to pharmacology | In this draft |
 |------------------|------------------------------------|------------------|------------|----------------|
-| Introduction to microbiology and infectious diseases | Scale; prokaryote versus eukaryote; most microbes are harmless; the six questions | — | — | Units 1–2 |
-| How microbes cause disease | Colonisation versus disease; damage from microbe versus host; toxins, invasion, survival in cells; host factors | Named diseases | — | Unit 7 (outline) |
-| Staphylococci and streptococci | Gram-positive cocci; clusters versus chains; catalase; why infections form pus; carriage | Skin, throat, heart and bone infections | Drug choice; MRSA | Unit 2 (pair, profile); Unit 3 map |
-| Infections caused by Enterobacterales | Gram-negative facultative gut rods; LPS; harmless residents versus strains with extra genes | Gut, urinary and bloodstream infections | Resistant strains in detail | Unit 2 pair; Unit 3 map |
-| Case studies (F2F) | Recast as mechanism or investigation cases rather than diagnose-and-treat | Clinical cases | — | Unit 2 lab case |
-| Epidemiology of infectious diseases | Reservoirs, routes, incubation, carriers, outbreaks, One Health | Syndrome-specific epidemiology | — | Unit 8 (outline) |
-| Diagnostic bacteriology | What each method reads: stains read the envelope, culture reads growth needs, tests read metabolism, DNA tests bypass culture | Which test for which syndrome | — | Unit 2 Gram stain and oxygen tube; Unit 9 (outline) |
-| Fastidious Gram-negative infections | "Fastidious" as lost biosynthesis; why enriched media work | Respiratory and heart-valve infections | Drug choice | Unit 3 map |
-| Pseudomonads, vibrios and Burkholderia | Environmental Gram-negatives; metabolism predicts habitat; natural resistance; melioidosis and diabetes as a host-factor anchor | Hospital infections; cholera; melioidosis presentations | Anti-pseudomonal drugs | Unit 3 map and pair |
-| Infections caused by Gram-negative cocci | Fragility explains close-contact spread; the capsule in the blood | Meningitis; gonorrhoea | Treatment and prophylaxis | Unit 3 map |
-| Anaerobic infections | Why oxygen harms anaerobes; oxygen-poor niches; abscess logic; sample handling | Abdominal, dental and other mixed infections | Drug choice | Unit 2 oxygen sections and case |
-| Infections caused by Gram-positive bacilli | Spores; disease from a single toxin; *Listeria* growing in the cold and inside cells | Tetanus, botulism, diphtheria presentations | Drug choice | Unit 3 map; spores in Unit 2 |
-| Infections caused by spiral bacteria | Internal flagella and corkscrew motility; hard to see or grow, so detected indirectly; ticks and rats as reservoirs | Syphilis stages; leptospirosis; Lyme disease | Drug choice | Unit 3 map |
-| Atypical infections: *Chlamydia*, *Mycoplasma*, *Rickettsia* | Two reasons the toolkit fails: no wall, or only inside cells; what each predicts for staining, culture and drug targets | Atypical pneumonia; sexually transmitted chlamydia; rickettsial fevers | Drug choice | **Unit 3 worked example** |
-| Infection control practical and STD case management (F2F) | Sterilisation versus disinfection; why alcohol rub misses spores; transmission routes | Case management | — | Unit 9 (outline); spores in Unit 2 |
-| Antibiotic resistance: threats and stewardship | Selection acts on existing variation; gene transfer; "the body becomes resistant" corrected; stewardship as a population idea | Resistance in specific infections | Drug classes and mechanisms | Unit 4 (outline) |
+| Introduction to microbiology and infectious diseases | Scale; prokaryote versus eukaryote; most microbes are harmless; the six questions | — | — | *The microbial world*; *How bacteria are built* |
+| How microbes cause disease | Colonisation versus disease; damage from microbe versus host; toxins, invasion, survival in cells; host factors | Named diseases | — | *Microbes and their hosts* (outline) |
+| Staphylococci and streptococci | Gram-positive cocci; clusters versus chains; catalase; why infections form pus; carriage | Skin, throat, heart and bone infections | Drug choice; MRSA | **Gram-positive cocci (full test chapter)** |
+| Infections caused by Enterobacterales | Gram-negative facultative gut rods; LPS; harmless residents versus strains with extra genes | Gut, urinary and bloodstream infections | Resistant strains in detail | *Enterobacterales* (outline); map and pair in *A map of the bacteria* |
+| Case studies (F2F) | Recast as mechanism or investigation cases rather than diagnose-and-treat | Clinical cases | — | Lab case in *How bacteria are built*; outbreak case in *Gram-positive cocci* |
+| Epidemiology of infectious diseases | Reservoirs, routes, incubation, carriers, outbreaks, One Health | Syndrome-specific epidemiology | — | *Transmission, outbreaks and One Health* (outline) |
+| Diagnostic bacteriology | What each method reads: stains read the envelope, culture reads growth needs, tests read metabolism, DNA tests bypass culture | Which test for which syndrome | — | Gram stain and oxygen tube in *How bacteria are built*; *Detecting and controlling microbes* (outline) |
+| Fastidious Gram-negative infections | "Fastidious" as lost biosynthesis; why enriched media work | Respiratory and heart-valve infections | Drug choice | *Fastidious Gram-negatives and Gram-negative cocci* (outline) |
+| Pseudomonads, vibrios and Burkholderia | Environmental Gram-negatives; metabolism predicts habitat; natural resistance; melioidosis and diabetes as a host-factor anchor | Hospital infections; cholera; melioidosis presentations | Anti-pseudomonal drugs | *Environmental Gram-negatives* (outline); pair in *A map of the bacteria* |
+| Infections caused by Gram-negative cocci | Fragility explains close-contact spread; the capsule in the blood | Meningitis; gonorrhoea | Treatment and prophylaxis | *Fastidious Gram-negatives and Gram-negative cocci* (outline) |
+| Anaerobic infections | Why oxygen harms anaerobes; oxygen-poor niches; abscess logic; sample handling | Abdominal, dental and other mixed infections | Drug choice | Oxygen sections and lab case in *How bacteria are built*; *Anaerobes* (outline) |
+| Infections caused by Gram-positive bacilli | Spores; disease from a single toxin; *Listeria* growing in the cold and inside cells | Tetanus, botulism, diphtheria presentations | Drug choice | *Gram-positive rods* (outline) |
+| Infections caused by spiral bacteria | Internal flagella and corkscrew motility; hard to see or grow, so detected indirectly; ticks and rats as reservoirs | Syphilis stages; leptospirosis; Lyme disease | Drug choice | *Spiral bacteria* (outline) |
+| Atypical infections: *Chlamydia*, *Mycoplasma*, *Rickettsia* | Two reasons the toolkit fails: no wall, or only inside cells; what each predicts for staining, culture and drug targets | Atypical pneumonia; sexually transmitted chlamydia; rickettsial fevers | Drug choice | Worked example in *A map of the bacteria*; *Atypicals and mycobacteria* (outline) |
+| Infection control practical and STD case management (F2F) | Sterilisation versus disinfection; why alcohol rub misses spores; transmission routes | Case management | — | *Detecting and controlling microbes* (outline); spores in *How bacteria are built* |
+| Antibiotic resistance: threats and stewardship | Selection acts on existing variation; gene transfer; "the body becomes resistant" corrected; stewardship as a population idea | Resistance in specific infections | Drug classes and mechanisms | *How bacteria copy themselves and change* (outline); MRSA in *Gram-positive cocci* |
 
 :::
 
@@ -82,6 +82,25 @@ outline, not a transcript of any particular session.
 
 The trait-logic version is built in this draft: see **Worked example: why "atypical"?** in the
 *A map of the bacteria* chapter.
+
+## Depth and coverage: the group-chapter budget {#sec-tn-depth}
+
+The *Gram-positive cocci* chapter is the test case for how deep a group chapter should go. It covers
+the content of the "Staphylococci and streptococci" session within this budget:
+
+| Element | Budget in the test chapter |
+|---|---|
+| Main organisms | 3 (*S. aureus*, *S. pyogenes*, *S. pneumoniae*), each with a full profile card |
+| Supporting organisms | 4, one table row each: where it lives, the separating trait, why it matters |
+| Diseases | Only as **patterns of harm**: mechanism, then one named example. No clinical features or diagnostic criteria |
+| Lab tests | Only those that read a trait: catalase, coagulase, haemolysis, Lancefield group |
+| Drugs | None by name. Resistance appears once, as a concept (MRSA as an altered drug target) |
+| Activities | Sorting key, three profiles, two contrast pairs, quiz with mixed items, flashcards, one outbreak case |
+| Length | About 2,500 words of prose, roughly one self-directed session |
+
+**Questions for the meeting:** Is three main organisms right, or too few? Are any of the supporting
+organisms important enough to be main? Is "one named example per mechanism" enough for MD1140, or does
+the course need more disease names at this stage?
 
 ## What a session looks like in this format {#sec-tn-template}
 

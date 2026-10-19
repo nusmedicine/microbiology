@@ -1,0 +1,71 @@
+id: pair-pyogenes-pneumoniae
+title: "Contrast pair: weapons versus armour"
+intro: "Both are streptococci from the throat. They cause harm in very different ways. Read across and find the trait that explains the difference."
+
+a:
+  name: "Streptococcus pyogenes"
+  morph: chains
+b:
+  name: "Streptococcus pneumoniae"
+  morph: diplococci
+
+rows:
+  - feature: "Gram stain"
+    a: "Purple cocci in chains"
+    b: "Purple lancet-shaped pairs"
+    separates: true
+  - feature: "Catalase"
+    a: "Absent"
+    b: "Absent"
+    separates: false
+  - feature: "Blood agar"
+    a: "Clear zone (beta): toxins burst red cells"
+    b: "Green zone (alpha): peroxide damages haemoglobin"
+    separates: true
+  - feature: "Main defence against phagocytes"
+    a: "M protein on its surface"
+    b: "A thick polysaccharide capsule"
+    separates: true
+  - feature: "Main strategy"
+    a: "Weapons: enzymes and toxins that spread through and damage tissue"
+    b: "Armour: a capsule that lets it multiply where it does not belong"
+    separates: true
+  - feature: "Immune disease weeks later"
+    a: "Yes, for example rheumatic fever"
+    b: "No"
+    separates: true
+
+question:
+  stem: "Which trait best explains why one spreads through tissue and the other mainly multiplies where it lands?"
+  options: [0, 2, 4]
+  answer: 4
+  feedback: >
+    Their main strategy. *S. pyogenes* carries enzymes and toxins that break down tissue and spread.
+    *S. pneumoniae* relies on its capsule to survive phagocytes, multiplying in spaces such as the middle
+    ear or lung once it gets there.
+
+principle: >
+  **Weapons versus armour is a useful way to read any pathogen.** Some damage the host directly with
+  enzymes and toxins; others mainly avoid being killed and let numbers and the host's own inflammation do
+  the damage. Most use both, in different proportions. Asking which dominates tells you what the infection
+  is likely to look like.
+
+sort:
+  - text: "Protected mainly by a thick polysaccharide capsule"
+    answer: b
+    why: "Armour: *S. pneumoniae*."
+  - text: "Leaves a clear zone around colonies on blood agar"
+    answer: a
+    why: "Beta-haemolysis from toxins that burst red cells: *S. pyogenes*."
+  - text: "Vaccines are built from its surface sugar coat"
+    answer: b
+    why: "Antibodies to the capsule protect: *S. pneumoniae*."
+  - text: "Can trigger inflammation of the heart weeks after a sore throat"
+    answer: a
+    why: "Post-infectious immune disease: *S. pyogenes*."
+  - text: "Releases enzymes that dissolve clots and connective-tissue gel"
+    answer: a
+    why: "Weapons that help it spread: *S. pyogenes*."
+  - text: "Seen as lancet-shaped pairs on a Gram stain"
+    answer: b
+    why: "Lancet-shaped diplococci: *S. pneumoniae*."

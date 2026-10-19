@@ -1,0 +1,19 @@
+# Enterobacterales
+
+> *How do harmless gut residents and dangerous strains of the same species differ?*
+
+::: {.callout-note}
+## In preparation
+This chapter will follow the same template as the *Gram-positive cocci* chapter. The outline below
+shows what it will cover.
+:::
+
+**The group in one sentence:** Gram-negative rods that ferment sugars, cope with or without oxygen, and live in the gut.
+
+**How members differ (the sorting key):** Extra genes (toxins, adhesins, capsules); lactose fermentation as a lab readout.
+
+**Main organisms (full profile cards):** *E. coli* (residents versus strains with extra genes), *Klebsiella* (capsule), *Salmonella* (survival inside cells).
+
+**Supporting organisms (one table row each):** *Shigella*, *Proteus*, *Yersinia*.
+
+**Later in the course:** Gut, urinary and bloodstream infections in the organ blocks; resistant strains in pharmacology.

@@ -1,0 +1,52 @@
+id: gpc-profile-s-pneumoniae
+name: "Streptococcus pneumoniae"
+group: "Gram-positive lancet-shaped diplococcus · alpha-haemolytic · encapsulated"
+intro: "This time everything follows from one structure, the capsule. Predict three slots."
+
+slots:
+  - slot: identity
+    entry: "Gram-positive cocci in lancet-shaped pairs; catalase-negative; alpha-haemolytic. Surrounded by a thick polysaccharide **capsule**, which comes in about 100 chemical types (serotypes)."
+  - slot: lifestyle
+    predict:
+      stem: "Where would you expect to find it in healthy people?"
+      options:
+        - text: "The nose and throat, especially of young children"
+          correct: true
+          feedback: "Right. Many healthy children carry it in the nasopharynx. Most of the time nothing happens; disease starts when it reaches a place it does not belong."
+        - text: "The colon"
+          correct: false
+          feedback: "The colon belongs to anaerobes and Enterobacterales. *S. pneumoniae* lives in the nose and throat, especially of young children."
+        - text: "Nowhere: it is only found in sick people"
+          correct: false
+          feedback: "Carriage without disease is common, especially in young children's noses and throats."
+    entry: "Carried in the nose and throat, especially of young children. Spreads by respiratory droplets."
+  - slot: harm
+    predict:
+      stem: "The capsule is slippery and hides the bacterial surface. What does it protect against?"
+      options:
+        - text: "Being engulfed by phagocytes"
+          correct: true
+          feedback: "Right. Phagocytes struggle to grab encapsulated bacteria unless antibodies coat the capsule first. That is why vaccines are built from capsule material."
+        - text: "Oxygen"
+          correct: false
+          feedback: "It ferments and tolerates oxygen without help. The capsule's job is resisting phagocytes."
+        - text: "Drying out in the environment"
+          correct: false
+          feedback: "Capsules can slow drying, but this one matters most inside the host: it stops phagocytes engulfing the bacteria."
+    entry: "The capsule blocks phagocytosis, so the bacteria can multiply when they escape from the nose and throat into neighbouring spaces (middle ear, sinuses, lungs) or the blood. A toxin, pneumolysin, adds tissue damage."
+  - slot: consequence
+    predict:
+      stem: "The spleen removes antibody-coated bacteria from the blood. Who is most at risk of severe infection?"
+      options:
+        - text: "People without a working spleen"
+          correct: true
+          feedback: "Right. Without a spleen, encapsulated bacteria in the blood are cleared poorly. A host factor, not a change in the bacterium, decides the outcome."
+        - text: "People with high blood oxygen"
+          correct: false
+          feedback: "Oxygen is irrelevant here. The host factor that matters is clearance: people without a working spleen clear encapsulated bacteria poorly."
+        - text: "Nobody in particular; everyone is at equal risk"
+          correct: false
+          feedback: "Host factors change outcomes. Very young children, older adults and people without a working spleen are at higher risk."
+    entry: "Infection of spaces next to where it lives (ear, sinus, lung), and invasive infection of blood and meninges when defences are weak. Very young children, older adults and people without a working spleen are most at risk. Antibodies to the capsule protect, which is the basis of pneumococcal vaccines."
+  - slot: contrast
+    entry: "Viridans streptococci: also alpha-haemolytic mouth and throat residents, but with no large capsule, so they rarely invade unless they reach the blood."

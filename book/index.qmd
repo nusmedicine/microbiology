@@ -24,6 +24,10 @@ infection.
 
 ## What this book is, and is not
 
+The book has two parts. **Principles** builds the toolkit: how microbes are built, get energy, change,
+cause harm, spread and are controlled. **Meeting the microbes** then takes each group of organisms in
+turn and asks the six questions of it.
+
 This book covers the **foundations**. It deliberately leaves out where each infection occurs
 in the body, how it is diagnosed and how it is treated. You will meet those in the
 organ-system blocks, and pharmacology will teach the drugs. Here, the goal is a framework that
@@ -51,7 +55,8 @@ login.
 
 ::: {.callout-warning}
 ## Draft
-This is a pilot. Two units are written in full: **How bacteria are built and get energy** and
-**A map of the bacteria**. The other units show their planned content. All content is awaiting
+This is a pilot. Three chapters are written in full: **How bacteria are built and get energy**,
+**A map of the bacteria** and **Gram-positive cocci**, the test case for the organism-group
+chapters. The others show their planned content. All content is awaiting
 review by teaching staff. Notes for teaching staff are in the appendix.
 :::

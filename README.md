@@ -11,8 +11,10 @@ presenting a catalogue of organisms. The evidence behind this is in
 [Teaching foundation microbiology without a bug parade](https://claude.ai/code/artifact/ac5d12dc-9872-4a3b-8792-13f553836cd6).
 
 ## Status: pilot
-- Written in full: Unit 2, **How bacteria are built and get energy**, and Unit 3, **A map of the
-  bacteria** (with Atypicals as the worked example). The other seven units are outline stubs.
+- Two parts: **Principles** (`book/chapters/principles/`) and **Meeting the microbes**
+  (`book/chapters/microbes/`), one chapter per organism group, mirroring the MD1140 sessions.
+- Written in full: *How bacteria are built and get energy*, *A map of the bacteria* (Atypicals worked
+  example) and *Gram-positive cocci* (the test case for group-chapter depth). The rest are outlines.
 - `book/teaching-notes.qmd` (appendix) maps the current MD1140 bacteriology sessions onto this
   approach, for discussion with teaching staff.
 - All content awaits review by teaching staff. The author line in `book/_quarto.yml` is a
@@ -30,6 +32,7 @@ Embed with `<div data-island="<key>" data-src="/<folder>/<file>.yml"></div>`.
 | `contrast-pair` | `ContrastPair.svelte` | `diagrams/` | Two similar organisms side by side: find the separating feature, then sort descriptions A or B |
 | `microbe-profile` | `MicrobeProfile.svelte` | `diagrams/` | The five-slot organism card; each slot is worked or predict-first, so support can fade |
 | `flashcards` | `Flashcards.svelte` | `decks/` | Spaced-repetition deck (Leitner boxes, local only) with Anki export |
+| `sorting-key` | `SortingKey.svelte` | `diagrams/` | Branching identification key where each branch explains what the trait means; whole-key view |
 | `bacteria-map` | `BacteriaMap.svelte` | `diagrams/` | Bacterial groups as trait combinations: explore and sort by trait, or name the group from its traits (`extends` + `mode: identify`) |
 
 ## Develop

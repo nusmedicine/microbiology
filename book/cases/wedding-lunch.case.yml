@@ -1,0 +1,180 @@
+id: wedding-lunch
+label: "Outbreak case"
+title: "The wedding lunch"
+objectives:
+  - "Use the time from eating to illness to tell toxin already in food from bacteria growing in the gut."
+  - "Explain why reheating food does not make it safe once a heat-stable toxin has formed."
+  - "Trace an outbreak back to how the organism lives: carriage on people, growth in food left warm."
+difficulty: intro
+estimatedMinutes: 8
+tags: [microbiology, outbreak, toxin, staphylococcus, food-safety]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Ms Tan"
+  occupation: "public health officer"
+  presentation: "You are shadowing Ms Tan, who investigates food-borne outbreaks. A call has just come in."
+
+nodes:
+  - id: intro
+    type: info
+    title: "\"Forty guests, all within a few hours\""
+    body: |
+      A wedding lunch was served at 1 pm. By 4 pm, about 40 of the 120 guests were vomiting, with
+      stomach cramps. Few had a fever, and most felt better by the next day.
+
+      The menu included rice, a curry, and egg sandwiches and cream puffs that the caterer had prepared
+      by hand early that morning and kept at room temperature until serving. *"Let's work out what
+      happened,"* says Ms Tan.
+    next: q-timing
+
+  - id: q-timing
+    type: mcq
+    stem: "Illness began two to three hours after eating. What does such a short gap suggest?"
+    options:
+      - id: a
+        text: "A toxin that was already in the food when it was eaten"
+        correct: true
+        feedback: "Right. Bacteria that must first grow in the gut usually take a day or more. A gap of hours means the harmful substance was already made, in the food."
+        effects: { quality: +1 }
+        goto: q-food
+      - id: b
+        text: "Bacteria multiplying in the guests' intestines"
+        correct: false
+        feedback: "Growing to harmful numbers in the gut takes longer, usually a day or more. Two to three hours points to toxin already in the food."
+        goto: q-food
+      - id: c
+        text: "A virus spreading from guest to guest at the party"
+        correct: false
+        feedback: "Person-to-person spread would give a slower, staggered pattern. Nearly everyone falling ill within hours of one meal points to toxin in the food."
+        goto: q-food
+
+  - id: q-food
+    type: mcq
+    stem: "Which food is the most likely source, and why?"
+    options:
+      - id: a
+        text: "The hand-made sandwiches and cream puffs, left warm for hours"
+        correct: true
+        feedback: "Right. Food handled after cooking can pick up bacteria from hands, and hours at room temperature let them multiply and make toxin."
+        effects: { quality: +1 }
+        goto: q-lab
+      - id: b
+        text: "The freshly cooked curry, served hot"
+        correct: false
+        feedback: "Cooking kills most bacteria, and serving hot gives little time for growth. Food handled after cooking and then left warm is the higher risk."
+        goto: q-lab
+      - id: c
+        text: "All foods equally; the source cannot be narrowed down"
+        correct: false
+        feedback: "Outbreak teams narrow it down by asking what ill and well guests ate. The best candidates are foods handled after cooking and left warm."
+        goto: q-lab
+
+  - id: q-lab
+    type: mcq
+    stem: "Leftover sandwiches show purple cocci in clusters that make catalase and coagulase. What is the organism, and where did it probably come from?"
+    options:
+      - id: a
+        text: "*Staphylococcus aureus*, from the nose or skin of a food handler"
+        correct: true
+        feedback: "Right. Clusters, catalase and coagulase point to *S. aureus*. About one in three people carry it in the nose, and a small cut on a hand is another source."
+        effects: { quality: +1 }
+        goto: q-reheat
+      - id: b
+        text: "*Streptococcus pyogenes*, from the eggs"
+        correct: false
+        feedback: "Streptococci form chains and make no catalase. Clusters with catalase and coagulase point to *S. aureus*, which people carry."
+        goto: q-reheat
+      - id: c
+        text: "*Bacteroides*, from the soil"
+        correct: false
+        feedback: "*Bacteroides* is a Gram-negative anaerobe from the colon. Purple clusters with catalase and coagulase mean *S. aureus*, carried by people."
+        goto: q-reheat
+
+  - id: q-reheat
+    type: mcq
+    stem: "The caterer says: \"We reheated the leftovers thoroughly, so they're safe now.\" What do you tell them?"
+    options:
+      - id: a
+        text: "Reheating kills the bacteria but not the toxin, which survives heat"
+        correct: true
+        feedback: "Right. This toxin is heat-stable. Once it has formed, cooking does not make the food safe. Prevention means stopping growth in the first place."
+        effects: { quality: +1 }
+        goto: q-why-ill
+      - id: b
+        text: "That is correct; heat destroys both the bacteria and their toxin"
+        correct: false
+        feedback: "The bacteria die, but this toxin survives heat. Reheated food can still make people ill."
+        goto: q-why-ill
+      - id: c
+        text: "Reheating makes it worse, because heat makes the bacteria grow faster"
+        correct: false
+        feedback: "Thorough heating kills the bacteria. The problem is that the toxin they already made survives the heat."
+        goto: q-why-ill
+
+  - id: q-why-ill
+    type: mcq
+    stem: "A guest asks why they recovered within a day without any treatment. What is the best explanation?"
+    options:
+      - id: a
+        text: "The illness was caused by a dose of toxin, not a growing infection, so it ended once the toxin was cleared"
+        correct: true
+        feedback: "Right. No bacteria were multiplying in the guests. Once the toxin had passed through, the illness was over."
+        effects: { quality: +1 }
+        goto: route
+      - id: b
+        text: "The bacteria were killed by their immune system within hours"
+        correct: false
+        feedback: "There was no real infection to fight. The illness was caused by a dose of toxin eaten in the food, and it ended once that was cleared."
+        goto: route
+      - id: c
+        text: "The bacteria moved on to another part of the body"
+        correct: false
+        feedback: "The bacteria were not growing in the guests. They swallowed toxin that had already formed in the food."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 4"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    title: "Follow the toxin"
+    body: |
+      The thread is a toxin made in the food before anyone ate it. That explains the short gap before
+      illness, why reheating did not help, and why guests recovered quickly. The bacteria came from people:
+      *S. aureus* is carried by about one in three of us, and food handled after cooking and left warm
+      lets it grow. Replay and follow the toxin.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Outbreak explained from the organism's biology"
+    body: |
+      You explained a whole outbreak from how *S. aureus* lives: carried by people, picked up by food
+      handled after cooking, multiplying in food left warm, and making a heat-stable toxin that caused
+      illness within hours and ended once the toxin was cleared.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "A gap of hours between eating and illness points to toxin already in the food."
+        - "Heat kills the bacteria, but some toxins survive it: reheating does not make food safe."
+        - "Prevention follows the organism's life: hand hygiene, and keeping food hot or cold, not warm."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You got part of the outbreak. Replay it and follow the toxin: when it was made, why heat did not
+      destroy it, and why the illness ended so quickly.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Short incubation means toxin in the food, not bacteria growing in the gut."
+        - "Heat-stable toxin survives reheating."

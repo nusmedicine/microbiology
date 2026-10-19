@@ -60,6 +60,8 @@
       {#each [[40,22],[52,18],[64,22],[46,32],[58,32],[70,30],[52,42],[64,42],[40,40],[76,40],[58,52],[46,50]] as [x, y]}<circle cx={x} cy={y} r="6" class="pos" />{/each}
     {:else if kind === 'chains'}
       {#each [10,22,34,46,58,70,82,94,106] as x, i}<circle cx={x} cy={30 + (i % 2 ? 3 : -3)} r="6" class="pos" />{/each}
+    {:else if kind === 'diplococci'}
+      {#each [[18,22,-20],[78,18,15],[46,42,5]] as [x, y, r]}<g transform="rotate({r} {x + 12} {y})"><ellipse cx={x + 6} cy={y} rx="7" ry="5" class="pos" /><ellipse cx={x + 19} cy={y} rx="7" ry="5" class="pos" /></g>{/each}
     {:else if kind === 'rods-neg'}
       {#each [[14,18,0],[52,14,20],[88,22,-15],[30,40,10],[70,44,-5]] as [x, y, r]}<rect x={x} y={y} width="26" height="10" rx="5" class="neg" transform="rotate({r} {x + 13} {y + 5})" />{/each}
     {/if}
