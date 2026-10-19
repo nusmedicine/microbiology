@@ -12,10 +12,10 @@ that property sets what a result can and cannot show.
 
 ## Seeing: stains and microscopy {#sec-det-microscopy}
 
-Microscopy is fast, cheap and widely available, and it shows structure. The Gram stain, from [*How
-bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-envelope), distinguishes the
-two main envelope designs within minutes, and the acid-fast stain detects the waxy wall of
-mycobacteria, which the Gram stain misses.
+Microscopy is fast, cheap and widely available, and it shows structure. The Gram stain distinguishes
+the two main envelope designs within minutes (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-envelope)), and the acid-fast stain detects the waxy wall
+of mycobacteria, which the Gram stain misses.
 
 A stain gives a category, not a species: purple cocci in chains could be one of several organisms. It
 also needs a large number of organisms in the sample, so a negative smear does not exclude infection.
@@ -123,8 +123,8 @@ non-enveloped viruses are a concern, because washing removes physically what alc
 
 ## Preventing infection {#sec-det-prevent}
 
-Prevention acts on the links of the chain of infection in [*Transmission, outbreaks and One
-Health*](transmission-outbreaks.qmd#sec-trans-chain).
+Prevention acts on the links of the chain of infection (see [*Transmission, outbreaks and One
+Health*](transmission-outbreaks.qmd#sec-trans-chain)).
 
 **Vaccination** makes a host immune without causing disease. Vaccines differ in what they contain:
 
@@ -142,11 +142,6 @@ effect; tetanus toxoid does not, because tetanus does not pass between people.
 Antimicrobial stewardship (see [*How bacteria copy themselves and
 change*](bacterial-genetics.qmd#sec-gen-resistance)) limits selection for resistance by keeping
 antimicrobial use to what is needed.
-
-## From principles to organisms {#sec-det-close}
-
-We turn next to Part II. In [*A map of the bacteria*](../microbes/bacteria-map.qmd) we combine the
-traits from Part I to sort the bacterial groups named in lectures.
 
 ## Check your understanding {#sec-det-quiz}
 

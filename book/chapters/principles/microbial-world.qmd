@@ -1,7 +1,7 @@
 # The microbial world
 
-> *Most living things are too small to see, and most of those cause no harm. We need to know how
-> small they are, how they are related to each other and to us, and how some of them were proved to
+> *Most living things are too small to see, and most of those cause no harm. Microbes differ in size
+> and in how they are related to each other and to us, and only some of them have been proved to
 > cause disease.*
 
 ## A matter of scale {#sec-world-scale}
@@ -59,8 +59,8 @@ species, and most of those 1,400 cause disease only in some people, some of the 
 
 Far more microbes live alongside humans without causing harm. The human body carries about
 3.8 × 10^13^ bacteria, mostly in the colon, against about 3.0 × 10^13^ human cells
-[@sender2016cells]. These resident communities are the **microbiota**, and we study them in
-[*Microbes and their hosts*](host-microbe.qmd#sec-host-microbiota).
+[@sender2016cells]. These resident communities are the **microbiota** (see [*Microbes and their
+hosts*](host-microbe.qmd#sec-host-microbiota)).
 
 ::: {.callout-important}
 ## A common idea, corrected: "bacteria outnumber human cells ten to one"
@@ -115,12 +115,11 @@ The postulates remain a sound way to think about causation, but many real pathog
 
 Modern versions of the postulates work with genes rather than whole organisms: a gene is linked to
 the organism's capacity to cause disease if inactivating it reduces disease and restoring it brings
-the disease back [@falkow1988molecular]. In the case at the end of this chapter, we follow one
-discovery that had to work around these limits.
+the disease back [@falkow1988molecular].
 
 ## Same questions, different answers {#sec-world-questions}
 
-We ask the same six questions of every kind of microbe:
+The same six questions apply to every kind of microbe:
 
 1. What is it built from?
 2. How does it get energy, and what does it need to grow?
@@ -129,7 +128,7 @@ We ask the same six questions of every kind of microbe:
 5. How does damage happen, and how much of it comes from the microbe and how much from the host?
 6. What does it have that my cells lack?
 
-The table gives one example of each kind of agent; each kind is treated later in its own chapter.
+The answers differ sharply between kinds of agent:
 
 | | Bacterium (*Staphylococcus aureus*) | Virus (influenza virus) | Fungus (*Candida albicans*) | Protozoan (*Plasmodium falciparum*) | Helminth (*Ascaris lumbricoides*) |
 |---|---|---|---|---|---|
@@ -139,10 +138,6 @@ The table gives one example of each kind of agent; each kind is treated later in
 | Home and spread | Nose and skin; contact | Airway; respiratory particles | Skin, gut, vagina | Human liver and red cells; mosquito bite | Human intestine; eggs swallowed from soil |
 | Damage | Invasion and toxins | Destroys airway cells; host inflammation | Overgrowth when defences fall | Destroys red cells; blocks small vessels | Heavy burdens obstruct the gut and impair nutrition |
 | Unlike my cells | Peptidoglycan wall; 70S ribosomes | Viral enzymes for copying its genome | Ergosterol in its membrane; chitin and glucan wall | Its own folate synthesis (human cells take folate from the diet) | Worm-specific nerve and muscle ion channels |
-
-We work through the principles first, in Part I, starting with bacteria because they show most of
-the ideas most clearly. Each group of organisms then follows in turn in Part II, from [*A map of the
-bacteria*](../microbes/bacteria-map.qmd) onwards.
 
 ## Check your understanding {#sec-world-quiz}
 

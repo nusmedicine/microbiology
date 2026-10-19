@@ -1,13 +1,41 @@
 # Microbes and their hosts
 
 > *Most people carry potential pathogens without harm, yet the same organism can make one person ill
-> and leave another well. When illness does follow, we need to know how much of the damage comes from
-> the microbe and how much from the host's own response.*
+> and leave another well. Whether disease follows, and whether the damage comes from the microbe or
+> from the host's own response, depends on properties of both.*
 
-## Four terms that are often confused {#sec-host-words}
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Distinguish contamination, colonisation, infection and disease, and define a carrier.
+- Explain how the resident microbiota protects the host, and what follows when it is disturbed.
+- Relate each major gap in host defence to the kind of organism it allows to cause disease.
+- Place a pathogen on the range from opportunistic to primary, and name the opportunities an
+  opportunist needs.
+- Describe the steps of infection, and distinguish exotoxins from endotoxin.
+- Use the damage-response framework to judge whether damage comes mainly from the microbe, the host
+  response, or both.
+:::
 
-The vocabulary of tissue injury comes from general pathology. Microbiology adds terms that students
-often use interchangeably, although they describe different states.
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [States of the encounter](#sec-host-words): contamination, colonisation, infection, disease
+- [The host](#sec-host-host)
+  - [The resident microbiota](#sec-host-microbiota) and the protection it gives
+  - [Host factors](#sec-host-factors): immunity, inoculum and others
+- [The microbe](#sec-host-microbe)
+  - [Virulence](#sec-host-opportunism): opportunistic and primary pathogens
+  - [Steps of infection](#sec-host-steps) and the virulence factors that achieve them
+  - [Toxins](#sec-host-toxins): exotoxins and endotoxin
+- [The outcome](#sec-host-outcome)
+  - [Source of the damage](#sec-host-drf): the microbe, the host response, or both
+  - [Time course](#sec-host-courses): acute, latent, chronic
+:::
+
+## States of the encounter {#sec-host-words}
+
+Four terms describe how far an encounter between a microbe and a host has progressed. They are often
+used interchangeably, although each describes a different state.
 
 | Term | What it means | Example |
 |---|---|---|
@@ -16,12 +44,17 @@ often use interchangeably, although they describe different states.
 | Infection | Microbes multiply in tissue, and the host responds | Bacteria multiplying in a wound, with local inflammation |
 | Disease | The host is damaged enough to produce signs and symptoms | Fever, pain and swelling from that wound |
 
-Infection does not always lead to disease. In one Singapore study, 42 of 245 healthy children
-attending childcare centres (17.1%) had enterovirus in their saliva with no symptoms of hand, foot and
-mouth disease at the time of sampling [@min2021hfmd]. A person who harbours and can transmit an
-organism without being ill is a **carrier**.
+Infection does not always lead to disease. A person who harbours and can transmit an organism without
+being ill is a **carrier**.
 
-## The microbiota {#sec-host-microbiota}
+::: {.example}
+About a fifth of healthy people carry *S. aureus* in the nose persistently, and can pass it on by
+hand, without being ill [@kluytmans1997carriage].
+:::
+
+## The host {#sec-host-host}
+
+### The resident microbiota {#sec-host-microbiota}
 
 The **microbiota** is the community of microbes that normally lives on and in the body: in the colon,
 the mouth, the skin, the upper airway and the vagina. Most of these organisms are **commensals**,
@@ -38,110 +71,151 @@ Resident microbes contribute to defence and to nutrition in several ways:
 - Gut bacteria ferment dietary fibre the host cannot digest, and synthesise vitamin K and several B
   vitamins.
 
-Disturbing the community removes this protection. A course of antibacterial treatment, for example,
-can allow *Clostridioides difficile*, which tolerates the disturbance, to multiply in the colon and
-cause diarrhoea. Vaginal candidiasis after antibacterial treatment follows the same logic.
+Disturbing the community removes this protection, and an organism that the disturbance spares can
+multiply in place of the residents.
+
+::: {.example}
+Antibacterial drugs do not act on fungi. A course of antibacterial treatment can therefore reduce the
+vaginal bacteria and allow the yeast *Candida albicans* to overgrow.
+:::
 
 ::: {.callout-important}
 ## A common idea, corrected: "microbes are germs, and germs are harmful"
 Children as young as seven describe microorganisms as essentially harmful [@byrne2011children], and
 the idea persists into adult life. Pathogens are in fact a small minority, and many common bacterial
-infections, such as urinary tract infections and skin abscesses, are caused by organisms that also
-live on people harmlessly. What usually changes is the site the organism reaches, or the state of the
-host.
+infections are caused by organisms that also live on people harmlessly. *Escherichia coli*, for
+example, lives harmlessly in the gut but causes infection when it reaches the bladder. What usually
+changes is the site the organism reaches, or the state of the host.
 :::
 
-## When a resident becomes a problem {#sec-host-opportunism}
-
-**Virulence** is the degree to which an organism can cause disease. An **opportunistic pathogen** is an
-organism of low virulence that causes disease when the host's defences are impaired, or when it reaches
-a site it does not normally occupy. It usually gets that opportunity in one of these ways:
-
-1. A barrier is breached: skin is cut, a catheter crosses it, or surgery opens the bowel so that gut
-   organisms reach the peritoneal cavity.
-2. Defences are weakened: **neutropenia** (a low neutrophil count) after chemotherapy, impaired
-   cell-mediated immunity in advanced HIV infection, or impaired neutrophil function in diabetes.
-3. The microbiota is disturbed, as described above.
-
-A **primary** (or strict) **pathogen**, by contrast, causes disease in people with normal defences:
-*Mycobacterium tuberculosis*, *Salmonella* Typhi and influenza virus do not need a weakened host.
-Because the boundary is not sharp, a more useful question is what it takes, in a given host, for an
-organism to cause damage.
-
-## Where the damage comes from {#sec-host-drf}
-
-The **damage-response framework** of Casadevall and Pirofski answers that question
-[@casadevall2003damage]. It holds that disease is defined by host damage, and that damage can come
-from the microbe, from the host's response, or from both. If we plot damage against the strength of
-the host response, different organisms give differently shaped curves.
-
-<div data-island="damage-response" data-src="/diagrams/damage-response.yml"></div>
-
-On the right-hand side of these curves, damage rises as the immune response grows stronger. In **toxic
-shock syndrome**, a **superantigen**, a toxin that activates a large fraction of T cells at once,
-triggers cytokine release that causes **hypotension** (abnormally low blood pressure) and shock. In
-**rheumatic fever**, antibodies raised against *Streptococcus pyogenes* cross-react with heart tissue
-weeks after the infection has cleared. In tuberculosis, much of the destruction of lung tissue is the
-work of the immune response to bacteria it cannot eliminate. We return to the first two in
-[*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd).
-
-We met the same point about inflammation in general pathology: inflammation clears an infection but
-damages tissue when it is excessive or prolonged.
-
-## Host factors {#sec-host-factors}
+### Host factors {#sec-host-factors}
 
 When two people meet the same organism and only one becomes ill, the reasons usually lie with the
 host. Casadevall and Pirofski group them under the mnemonic **MISTEACHING**: Microbiota, Inoculum,
 Sex, Temperature, Environment, Age, Chance, History of exposure, Immunity, Nutrition and Genetics
-[@casadevall2018misteaching].
+[@casadevall2018misteaching]. Two of these factors account for most differences between patients.
 
-Inoculum and immunity need detail now. The **inoculum**, the number of organisms received, affects
-both whether disease follows and how quickly it begins; for some organisms ten to a hundred cells are
-enough, while for others a million or more must be swallowed. Immunity includes the specific
-immunity left by earlier exposure or vaccination and the general competence of the defences. Each
-gap in the defences exposes a person to particular organisms:
+The **inoculum**, the number of organisms received, affects both whether disease follows and how
+quickly it begins: for some organisms ten to a hundred cells are enough, while for others a million or
+more must be swallowed.
 
-- Neutropenia, to bacterial and fungal infection.
-- Impaired cell-mediated immunity, to intracellular organisms such as *M. tuberculosis*.
-- The absence of a functioning spleen, **asplenia**, to encapsulated bacteria such as
-  *Streptococcus pneumoniae*.
+**Immunity** includes the specific immunity left by earlier exposure or vaccination and the general
+competence of the defences. Each gap in the defences allows a particular kind of organism to cause
+disease:
 
-Other conditions shift the balance too. Diabetes is the clearest local example. Among patients in
-Singapore with **melioidosis**, infection with the soil bacterium *Burkholderia pseudomallei*, 56.7% had
-diabetes between 2003 and 2014, against 19.3% of the general population of similar age
-[@pang2018melioidosis].
+::: {.concept-tree}
+[Gaps in host defence and the organisms they let through]{.tree-title}
 
-## What a microbe has to do {#sec-host-steps}
+- Defences impaired
+  - **Neutropenia**, a low neutrophil count, as after chemotherapy: bacteria and fungi, such as
+    *C. albicans*
+  - Impaired cell-mediated immunity, as in advanced HIV infection: organisms that live inside host
+    cells, such as *Mycobacterium tuberculosis*
+  - **Asplenia**, absence of a functioning spleen: bacteria with a polysaccharide capsule
+  - Diabetes, which impairs neutrophil function: several bacteria, such as *Burkholderia
+    pseudomallei*
+:::
+
+::: {.example}
+**Melioidosis** is infection with *B. pseudomallei*, a bacterium of soil and surface water. In
+Singapore, more than half of patients with melioidosis had diabetes, about three times the proportion
+in the general population of similar age [@pang2018melioidosis].
+:::
+
+## The microbe {#sec-host-microbe}
+
+### Virulence {#sec-host-opportunism}
+
+**Virulence** is the degree to which an organism can cause disease. Pathogens are commonly divided by
+virulence into **opportunistic pathogens**, which cause disease only when the host's defences are
+impaired or when they reach a site they do not normally occupy, and **primary** (or strict)
+**pathogens**, which cause disease in people with normal defences. The two groups are the ends of a
+continuous range.
+
+::: {.spectrum}
+[Host defence that must fail before disease occurs]{.tree-title}
+
+- *C. albicans*: disease mainly when defences fail
+- *S. aureus*: colonises healthy people; disease when it crosses a barrier
+- *M. tuberculosis*: disease in people with normal defences
+
+[Opportunistic pathogen]{.spectrum-end} [Primary pathogen]{.spectrum-end}
+:::
+
+An opportunistic pathogen gets its opportunity in one of three ways:
+
+1. A barrier is breached: skin is cut, a catheter crosses it, or surgery lets gut organisms into the
+   peritoneal cavity.
+2. Defences are weakened ([host factors](#sec-host-factors)).
+3. The microbiota is disturbed ([the resident microbiota](#sec-host-microbiota)).
+
+Because the boundary between the groups is not sharp, the damage-response framework replaces them with
+a single measure: how much damage an organism causes in a particular host (see [Source of the
+damage](#sec-host-drf)).
+
+### Steps of infection {#sec-host-steps}
 
 To cause an infection, a microbe has to complete a sequence of steps. Anything it uses to complete
-them is a **virulence factor**: a product or structure that helps it infect or damage a host. The
-steps are:
+them is a **virulence factor**: a product or structure that helps it infect or damage a host.
 
-1. Reach a surface and attach to it.
-2. Invade beyond the surface, or stay on it and act from there.
-3. Evade host defences long enough to multiply.
-4. Obtain nutrients, iron in particular, which the host keeps bound to proteins.
-5. Damage the host, directly or through the response it provokes.
+::: {.flow}
+1. Attach to a surface
+2. Invade, or act from the surface
+3. Evade defences
+4. Obtain nutrients
+5. Damage the host
+:::
+
+Iron is the nutrient most often in short supply, because the host keeps it bound to proteins. Damage,
+the last step, can be done by the microbe directly or by the response it provokes.
 
 Attachment explains **tropism**, the range of tissues or cells an organism can occupy. A microbe can
-settle only where it finds the molecule it binds. This is why influenza virus infects cells lining the
-airway and not skin, and why strains of *Escherichia coli* that bind receptors in the urinary tract
-cause urinary tract infection.
+settle only where it finds the molecule it binds.
+
+::: {.example}
+Influenza virus binds a receptor carried by cells lining the airway, so it infects the airway and not
+the skin.
+:::
 
 <div data-island="sorter" data-src="/diagrams/pathogenesis-sorter.yml"></div>
 
-## Two meanings of "toxin" {#sec-host-toxins}
+### Toxins {#sec-host-toxins}
 
-Students meet two things called toxins and often merge them, although they differ in almost every
-respect.
+Two different kinds of molecule are called toxins. **Exotoxins** are proteins that bacteria secrete.
+**Endotoxin** is lipopolysaccharide (LPS), a structural part of the Gram-negative outer membrane
+(see [*How bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-envelope)).
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-exotoxin-endotoxin.yml"></div>
 
-Protein **exotoxins** can be inactivated and used as **toxoid** vaccines, which is how tetanus and
-diphtheria are prevented. Lipopolysaccharide cannot, and the inflammation it drives causes much of the
-septic shock in severe Gram-negative infection.
+Because exotoxins are proteins, they can be inactivated and used as **toxoid** vaccines. LPS cannot,
+and the inflammation it drives causes much of the shock in severe Gram-negative infection.
 
-## The time course of infection {#sec-host-courses}
+## The outcome {#sec-host-outcome}
+
+### Source of the damage {#sec-host-drf}
+
+The **damage-response framework** of Casadevall and Pirofski defines disease by host damage, and holds
+that damage can come from the microbe, from the host's response, or from both
+[@casadevall2003damage].
+
+| Main source of damage | Mechanism | Example |
+|---|---|---|
+| The microbe | Destruction of host cells; toxins | *C. albicans* multiplying unchecked in a person with neutropenia |
+| The host response | Excessive inflammation; immune reactions against the host's own tissue | *S. aureus* toxic shock syndrome, in which a toxin activates a large fraction of T cells at once; rheumatic fever after *Streptococcus pyogenes* infection, in which antibodies cross-react with heart tissue |
+| Both | Microbial growth and the response to it, varying with the strength of the response | *M. tuberculosis*: spreads when the response is weak, destroys lung tissue when it is strong |
+
+If damage is plotted against the strength of the host response, different organisms give differently
+shaped curves.
+
+<div data-island="damage-response" data-src="/diagrams/damage-response.yml"></div>
+
+On the right-hand side of these curves, damage rises as the immune response grows stronger. General
+pathology made the same point about inflammation, which clears an infection but damages tissue when it
+is excessive or prolonged. Where most of the damage comes from the host's response, two consequences
+follow: a weakened host may show less visible disease, and removing the organism alone may not stop
+the damage.
+
+### Time course {#sec-host-courses}
 
 Infections differ in how they unfold over time, and the pattern often follows from the organism's
 strategy.
@@ -152,15 +226,10 @@ strategy.
 | Latent | The organism persists silently and can reactivate | Survival inside cells, or in a site the immune response reaches poorly |
 | Chronic | Infection and inflammation continue for months or years | Resistance to clearance; damage accumulates from the ongoing response |
 
-Latency explains reactivation. Varicella-zoster virus persists in sensory ganglia after chickenpox and
-can return as shingles decades later, and latent tuberculosis can reactivate when immunity falls.
-
-## Applying these ideas in Part II {#sec-host-close}
-
-For each organism in Part II, we ask how it damages the host: by destroying cells, by toxins, by
-provoking a damaging inflammatory response, or by a combination. We then place it on the
-damage-response curve. If most of the damage comes from the host's response, a weakened host may
-show less visible disease, and removing the organism alone may not stop the damage.
+::: {.example}
+*M. tuberculosis* can persist for years in a contained, latent infection and reactivate when immunity
+falls, for example in advanced HIV infection.
+:::
 
 ## Check your understanding {#sec-host-quiz}
 

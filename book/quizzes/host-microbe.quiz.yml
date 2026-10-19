@@ -2,29 +2,29 @@ id: host-microbe
 title: "Check your understanding: microbes and their hosts"
 questions:
   - id: h1
-    stem: "A healthy child has enterovirus in the saliva but no symptoms. Which term fits best?"
+    stem: "A healthy nurse has *Staphylococcus aureus* growing in her nose but no symptoms. Which term fits best?"
     options:
       - text: "Carriage: the organism is present and transmissible without causing disease"
         correct: true
-        feedback: "Infection does not always mean disease. In one Singapore study 17.1% of healthy childcare children carried enterovirus without symptoms."
-      - text: "Contamination, because the virus is only on a surface"
+        feedback: "About a fifth of healthy people carry *S. aureus* in the nose persistently, and can pass it on by hand."
+      - text: "Contamination, because the bacteria are only on a surface"
         correct: false
-        feedback: "Contamination means present but not multiplying. Virus in saliva that can be passed on indicates carriage."
+        feedback: "Contamination means present but not multiplying. Bacteria multiplying in the nose, and able to spread, indicate carriage."
       - text: "Disease, because the organism is detectable"
         correct: false
         feedback: "Disease requires damage with signs or symptoms. Detecting an organism in a well person indicates carriage."
   - id: h2
-    stem: "Why does disturbing the gut microbiota make *Clostridioides difficile* diarrhoea more likely?"
+    stem: "Why can a course of antibacterial treatment be followed by overgrowth of the yeast *Candida albicans*?"
     options:
-      - text: "Resident bacteria normally occupy sites and consume nutrients that *C. difficile* would need"
+      - text: "The drug reduces the resident bacteria, which normally occupy sites and consume nutrients the yeast would need, and it does not act on fungi"
         correct: true
-        feedback: "This is colonisation resistance. Remove the residents and an organism that tolerates the disturbance can multiply."
-      - text: "Antibacterial drugs make *C. difficile* more virulent"
+        feedback: "This is the loss of colonisation resistance. The drug removes the competitors and spares the yeast, which multiplies in their place."
+      - text: "Antibacterial drugs make *C. albicans* more virulent"
         correct: false
-        feedback: "The organism does not change. What changes is the competition it faces, once the resident community is disturbed."
-      - text: "The gut wall becomes permanently damaged by the drug"
+        feedback: "The yeast does not change. What changes is the competition it faces once the resident bacteria are reduced."
+      - text: "The drug damages the lining, letting the yeast invade"
         correct: false
-        feedback: "The mechanism is ecological rather than structural: the loss of colonisation resistance lets *C. difficile* multiply."
+        feedback: "The mechanism is ecological rather than structural: the loss of competing bacteria lets the yeast multiply."
   - id: h3
     stem: "In toxic shock syndrome, most of the damage comes from:"
     options:
@@ -42,7 +42,7 @@ questions:
     options:
       - text: "Exotoxins are proteins and can be made into toxoid vaccines; endotoxin is lipopolysaccharide and cannot"
         correct: true
-        feedback: "Tetanus and diphtheria are prevented with toxoids. Lipid A is a lipid that provokes inflammation but is a poor target for protective antibodies."
+        feedback: "Inactivated protein toxins make toxoid vaccines. Lipid A is a lipid that provokes inflammation but is a poor target for protective antibodies."
       - text: "Both are proteins released by living bacteria"
         correct: false
         feedback: "Endotoxin is lipopolysaccharide, a structural part of the Gram-negative outer membrane, not a secreted protein."
@@ -66,7 +66,7 @@ questions:
     options:
       - text: "Host factors determine who becomes ill after the same exposure"
         correct: true
-        feedback: "Among Singapore patients with melioidosis, 56.7% had diabetes, against 19.3% of similar-aged people in the general population."
+        feedback: "In Singapore, more than half of patients with melioidosis had diabetes, about three times the proportion in the general population of similar age."
       - text: "He must have met a more virulent strain"
         correct: false
         feedback: "Strains vary, but the shared exposure and the known effect of diabetes on neutrophil function point to a host factor."
@@ -85,3 +85,33 @@ questions:
       - text: "Colonisation resistance"
         correct: false
         feedback: "Colonisation resistance is competition from resident microbes. Withholding iron is a host defence."
+  - id: h8
+    stem: "A 60-year-old woman receiving chemotherapy for leukaemia has a neutrophil count close to zero. A week later she develops a fever, and the yeast *Candida albicans* grows from her blood. Which detail best explains why this organism caused disease in her?"
+    options:
+      - text: "Her neutropenia"
+        correct: true
+        feedback: "*C. albicans* lives harmlessly on most people. Neutrophils normally contain it; without them it multiplies and invades. The host factor is the enabling condition."
+      - text: "Her fever"
+        correct: false
+        feedback: "Fever is a consequence of the infection and accompanies almost any infection, so it cannot explain why this organism caused disease."
+      - text: "Her age"
+        correct: false
+        feedback: "Age shifts risk a little, but most 60-year-olds carry *C. albicans* without harm. The absence of neutrophils is what allowed it to invade."
+      - text: "A toxin made by the yeast"
+        correct: false
+        feedback: "The damage here comes from unchecked growth of an opportunist, not from a toxin. The deciding factor is the host's missing neutrophils."
+  - id: h9
+    stem: "A 55-year-old rice farmer with poorly controlled diabetes develops pneumonia during the rainy season. Of these organisms, which is the most likely cause?"
+    options:
+      - text: "*Burkholderia pseudomallei*"
+        correct: true
+        feedback: "Two enabling conditions point to it: exposure to wet soil and surface water, its reservoir, and diabetes, the host factor most strongly linked to melioidosis."
+      - text: "*Candida albicans*"
+        correct: false
+        feedback: "*C. albicans* causes invasive disease mainly when neutrophils are absent or a barrier is breached. Nothing here suggests either, and the soil exposure points elsewhere."
+      - text: "Influenza virus"
+        correct: false
+        feedback: "Influenza can cause pneumonia, but nothing in the history points to it in particular. The soil exposure and diabetes are the discriminating details."
+      - text: "*Plasmodium falciparum*"
+        correct: false
+        feedback: "*P. falciparum* is carried by mosquitoes and infects red blood cells; it does not cause pneumonia after soil exposure."

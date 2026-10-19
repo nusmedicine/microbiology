@@ -1,0 +1,239 @@
+/* Diagrams written in Markdown (see STYLE.md §4, "Overview and hierarchy diagrams").
+ *
+ *   ::: {.concept-tree}       a nested bulleted list drawn as a tree
+ *   [Title]{.tree-title}
+ *   - Root
+ *     - Child
+ *   :::
+ *
+ *   ::: {.flow}               a numbered list drawn as boxes joined by arrows
+ *   1. Step
+ *   2. Step
+ *   :::
+ */
+
+:root {
+  --dg-line: #9db8d9;
+  --dg-accent: #2a78d6;
+  --dg-bg: #f5f8fc;
+  --dg-node-bg: #ffffff;
+  --dg-border: #d5e0ee;
+}
+
+.concept-tree,
+.flow {
+  margin: 1.25rem 0 1.5rem;
+  padding: 0.9rem 1rem 0.6rem;
+  background: var(--dg-bg);
+  border: 1px solid var(--dg-border);
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+
+.tree-title {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #4a5a70;
+}
+
+/* Tree */
+.concept-tree ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 1.4rem;
+}
+.concept-tree > ul {
+  padding-left: 0;
+}
+.concept-tree li {
+  position: relative;
+  margin: 0;
+  padding: 0.25rem 0 0.25rem 1.1rem;
+  line-height: 1.4;
+}
+.concept-tree li p {
+  margin: 0;
+}
+.concept-tree > ul > li {
+  padding-left: 0;
+  font-weight: 600;
+  color: #1d3557;
+}
+.concept-tree > ul > li li {
+  font-weight: 400;
+  color: inherit;
+}
+.concept-tree > ul > li + li {
+  margin-top: 0.35rem;
+}
+/* connector lines for every nested item */
+.concept-tree ul ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-left: 2px solid var(--dg-line);
+}
+.concept-tree ul ul > li:last-child::before {
+  bottom: auto;
+  height: 1.05rem;
+}
+.concept-tree ul ul > li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1.05rem;
+  width: 0.8rem;
+  border-top: 2px solid var(--dg-line);
+}
+.concept-tree a {
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+
+/* Flow */
+.flow ol {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 1.6rem;
+  list-style: none;
+  margin: 0 0 0.3rem;
+  padding: 0;
+}
+.flow li {
+  position: relative;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0.5rem 0.65rem;
+  background: var(--dg-node-bg);
+  border: 1px solid var(--dg-border);
+  border-top: 3px solid var(--dg-accent);
+  border-radius: 6px;
+  line-height: 1.35;
+}
+.flow li p {
+  margin: 0;
+}
+.flow li:not(:last-child)::after {
+  content: "\2192";
+  position: absolute;
+  right: -1.3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--dg-accent);
+  font-weight: 700;
+}
+@media (max-width: 640px) {
+  .flow ol {
+    grid-auto-flow: row;
+    gap: 1.4rem;
+  }
+  .flow li:not(:last-child)::after {
+    content: "\2193";
+    right: auto;
+    left: 50%;
+    top: auto;
+    bottom: -1.35rem;
+    transform: translateX(-50%);
+  }
+}
+
+/* Spectrum: a bulleted list placed along a graded bar, ends labelled.
+ *
+ *   ::: {.spectrum}
+ *   [Title]{.tree-title}
+ *   - left item
+ *   - middle item
+ *   - right item
+ *
+ *   [Left end]{.spectrum-end} [Right end]{.spectrum-end}
+ *   :::
+ */
+.spectrum {
+  margin: 1.25rem 0 1.5rem;
+  padding: 0.9rem 1rem 0.8rem;
+  background: var(--dg-bg);
+  border: 1px solid var(--dg-border);
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+.spectrum ul {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  list-style: none;
+  margin: 0;
+  padding: 1.1rem 0 0;
+}
+.spectrum ul::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.2rem;
+  height: 0.45rem;
+  border-radius: 1rem;
+  background: linear-gradient(90deg, #cfe0f5, var(--dg-accent));
+}
+.spectrum li {
+  flex: 1 1 0;
+  margin: 0;
+  padding: 0.45rem 0.55rem;
+  background: var(--dg-node-bg);
+  border: 1px solid var(--dg-border);
+  border-radius: 6px;
+  line-height: 1.35;
+}
+.spectrum li:nth-child(2) { text-align: center; }
+.spectrum li:last-child { text-align: right; }
+.spectrum > p:last-child {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0 0;
+}
+.spectrum-end {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4a5a70;
+}
+@media (max-width: 640px) {
+  .spectrum ul { flex-direction: column; padding: 0 0 0 1.1rem; }
+  .spectrum ul::before {
+    left: 0.15rem; right: auto; top: 0; bottom: 0; width: 0.45rem; height: auto;
+    background: linear-gradient(180deg, #cfe0f5, var(--dg-accent));
+  }
+  .spectrum li, .spectrum li:nth-child(2), .spectrum li:last-child { text-align: left; }
+  .spectrum > p:last-child { flex-direction: column; gap: 0.1rem; }
+  .spectrum > p:last-child .spectrum-end:first-child::before { content: "Top: "; }
+  .spectrum > p:last-child .spectrum-end:last-child::before { content: "Bottom: "; }
+}
+
+/* Example: one anchor organism illustrating a principle (STYLE.md §2, "Examples"). */
+.example {
+  margin: 0.9rem 0 1.1rem;
+  padding: 0.55rem 0.85rem 0.6rem;
+  border-left: 4px solid #1baf7a;
+  background: #f2faf6;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.93rem;
+}
+.example::before {
+  content: "Example";
+  display: block;
+  margin-bottom: 0.15rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #137a56;
+}
+.example p { margin: 0; }

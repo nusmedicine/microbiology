@@ -1,23 +1,22 @@
 # Preface {.unnumbered}
 
 This book is written for medical students who have just spent weeks learning how human cells work:
-membranes, organelles, the electron transport chain, the path from DNA to protein. We build on that
-knowledge from the first page. A microbe faces many of the problems a human cell faces: it needs a
-boundary, a source of energy and a way to copy itself. Its solutions differ from those of human
-cells, and drugs and the immune system act on those differences.
+membranes, organelles, the electron transport chain, the path from DNA to protein. A microbe faces
+many of the problems a human cell faces: it needs a boundary, a source of energy and a way to copy
+itself. Its solutions differ from those of human cells, and drugs and the immune system act on those
+differences.
 
 Microbiology is often taught as a long sequence of organisms, each with its own list of facts. The
 2026 revision of the microbiology core knowledge objectives for medical schools recommends moving away
 from that approach [@bauler2026objectives]. Instead, we ask the same six questions of every kind of
-microbe, starting with what it is built from and ending with what it has that human cells lack. The
-six questions are set out in [*The microbial
-world*](chapters/principles/microbial-world.qmd#sec-world-questions). Bacteria, viruses, fungi and
-parasites answer them differently, and those answers explain how each group causes disease and how it
-is detected and controlled.
+microbe, starting with what it is built from and ending with what it has that human cells lack (see
+[*The microbial world*](chapters/principles/microbial-world.qmd#sec-world-questions)). Bacteria,
+viruses, fungi and parasites answer them differently, and those answers explain how each group causes
+disease and how it is detected and controlled.
 
 ## Contents and scope
 
-The book has two parts. In Part I, *Principles*, we build a toolkit:
+The book has two parts. Part I, *Principles*, covers:
 
 - how microbes are built
 - how they obtain energy and change

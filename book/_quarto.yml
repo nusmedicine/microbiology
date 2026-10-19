@@ -47,6 +47,7 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
+    css: styles.css
     toc: true
     number-sections: true
     html-math-method: katex

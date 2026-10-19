@@ -25,8 +25,9 @@ some flags will be fine where they stand.
   may use the imperative or *you*, because they are instructions.
 - The book, a part, a chapter or a section is never the subject of an action verb: not "This book
   asks…", "*Gram-positive cocci* returns to…" or "The next chapter takes up…". Write "We ask the same
-  six questions…", "We return to both in [*Gram-positive cocci*](…)", or give the reference in
-  parentheses: "(see [*Gram-positive cocci*](…))".
+  six questions…", or give the reference in parentheses after the fact it supports: "(see
+  [*Gram-positive cocci*](…))". Parentheses are preferred: a sentence whose only job is to point
+  elsewhere is metacommentary (§3).
 - Plain, direct sentences. Prefer *is*, *has*, *does* over *serves as*, *stands as*, *functions as*,
   *represents*, *boasts*, *features*.
 - One idea per sentence where possible. Vary sentence length; do not stack short dramatic sentences.
@@ -60,6 +61,23 @@ some flags will be fine where they stand.
   Informal group names are roman and lower case (staphylococci, streptococci, enterococci).
 - Units: SI with a space (37 °C, 2 µm, 121 °C). Numbers: digits for measurements and statistics.
 
+### Examples
+
+Students in this course tend to memorise every named disease in case it is examined, and detail
+they cannot yet place pulls attention from the principle (the seductive-details effect). Examples
+therefore follow four rules.
+
+- **Anchor organisms.** Part I draws its examples from one small cast, reused in every chapter so
+  that each new principle attaches to an organism already met: *Staphylococcus aureus*,
+  *Streptococcus pyogenes*, *Escherichia coli*, *Mycobacterium tuberculosis*, *Burkholderia
+  pseudomallei*, influenza virus, HIV, *Candida albicans* and *Plasmodium falciparum*. An organism
+  outside the cast needs a reason (a local study, a historical discovery).
+- **One example per idea**, plus at most one contrasting example when the idea is a distinction.
+- **One sentence of clinical detail**: only the fact that shows the principle. No symptoms, tests or
+  treatment.
+- **Marked as an example.** Put it in an example box (`::: {.example}`), so the principle and its
+  illustration are visibly different.
+
 ## 3. Copy-audit checklist
 
 Based on the Wikipedia guide *Signs of AI writing* (WikiProject AI Cleanup) and Pangram's corpus
@@ -89,6 +107,7 @@ noting*.
 | Vague attribution | "experts agree", "studies show", "it is widely believed" | Name the source and cite it |
 | Section summaries | a closing paragraph that restates the section | Delete, or replace with the next question |
 | Rhetorical scaffolding | "So what does this mean?", "Here's the thing", "This is where X comes in" | Delete; start with the content |
+| Metacommentary | "Inoculum and immunity need detail now."; "Two of the traits need defining first."; "The table answers the six questions."; "We start with three people."; "…are enough at this stage"; "We turn next to…" | Delete, or replace with a sentence about the subject. Structure is shown by headings and overview diagrams, not narrated |
 | Hedging filler | "may potentially", "can often sometimes" | One hedge, where the evidence needs it |
 | False ranges | "from bacteria to parasites" when no scale is meant | List the items, or say "several groups" |
 
@@ -121,9 +140,13 @@ noting*.
 
 - **Chapter opener.** One italic blockquote of one or two sentences that states the chapter's problem
   in concrete terms, as a statement. *We* is allowed; "This chapter…" is not.
-- **Chapter ending.** The last content section hands on to the next chapter or to Part II ("We turn
-  next to…"); it does not restate what the chapter covered. Then, in this order: *Check your understanding* (quiz),
-  *Review with flashcards*, *Practise: …* (case), *References*.
+- **Chapter ending.** The chapter ends with its last content section, without a summary or a
+  sentence announcing the next chapter (the page footer links to it). Then, in this order: *Check
+  your understanding* (quiz), *Review with flashcards*, *Practise: …* (case), *References*.
+- **No metacommentary.** Sentences describe the subject, not the text, the reader's progress or the
+  pace of the course. A sentence that introduces a table, list or island states its content ("Three
+  routes move genes between bacteria:"), not its purpose ("The table answers…"). One short
+  instruction before an island is allowed.
 - **Reading order.** Part I chapters must not assume anything first taught in Part II. When a Part I
   chapter mentions a Part II example, phrase it as a forward reference and link to it.
 - **Cross-references** use the exact chapter title in italics as a link, with a section anchor where
@@ -133,6 +156,17 @@ noting*.
   alone.
 - **Section IDs** are prefixed by chapter (`sec-world-`, `sec-bact-`, `sec-gen-`, `sec-host-`,
   `sec-trans-`, `sec-det-`, `sec-map-`, `sec-gpc-`), so links stay unique across the book.
+- **Learning objectives.** After the opener, a simple note callout headed *Learning objectives*
+  lists four to six things a student should be able to do, as verb phrases ("Distinguish…",
+  "Explain…"). They are the chapter's answer to "what do I need to know?".
+- **Overview and hierarchy diagrams** (styles in `book/styles.css`):
+  - A *chapter map* (`::: {.concept-tree}`) after the objectives: at most four branches, each
+    linked to its section. Section headings follow the map.
+  - A *tree* for a classification with real subdivisions (no more than three levels).
+  - A *spectrum* (`::: {.spectrum}`) when the categories are ends of a continuous range, so the
+    diagram does not teach a false either/or.
+  - A *table* when categories are compared on the same attributes.
+  - A *flow* (`::: {.flow}`) for a sequence of four to seven steps.
 - **One home per topic.** Each concept is taught fully in one chapter; other chapters give one
   sentence and a link. The six questions live in *The microbial world*; the microbiota in *Microbes
   and their hosts*; spores and hand rub in *Detecting and controlling microbes*.

@@ -5,26 +5,23 @@
 
 ## A bacterium and a human cell {#sec-bact-glance}
 
-Try two questions before reading on. A wrong guess followed by the answer still aids learning.
+Try two questions before reading on.
 
 <div data-island="quiz" data-src="/quizzes/bacteria-warmup.quiz.yml"></div>
 
 A bacterium is a prokaryote, and a typical bacterium is about the size of one human mitochondrion
-(see the size ladder in [*The microbial world*](microbial-world.qmd#sec-world-scale)). The table
-compares a bacterium with the human cells studied in cell biology. Each difference in the last column
-is a possible basis for **selective toxicity**: harming the microbe without harming the host, the
+(see the size ladder in [*The microbial world*](microbial-world.qmd#sec-world-scale)). It differs
+from a human cell in its nucleus, mitochondria, ribosomes, wall and extra DNA. Each difference is a
+possible basis for **selective toxicity**: harming the microbe without harming the host, the
 principle behind most antimicrobial drugs.
 
 | Feature | Human cells | A bacterium | Why the difference matters |
 |---|---|---|---|
-| Nucleus | DNA inside a nuclear envelope | No nucleus; one circular chromosome lies free in the cytoplasm | Transcription and translation happen together |
+| Nucleus | DNA inside a nuclear envelope | No nucleus; one circular chromosome lies free in the cytoplasm | Transcription and translation happen together (see [*How bacteria copy themselves and change*](bacterial-genetics.qmd#sec-gen-copy)) |
 | Mitochondria | Electron transport chain in the inner mitochondrial membrane | No mitochondria; electron transport chain in the cell membrane | Bacterial respiration happens at the cell surface |
 | Ribosomes | 80S | 70S, smaller and built differently | A target human cytoplasmic ribosomes do not share |
 | Cell wall | None | Usually a peptidoglycan wall outside the membrane | A structure human cells lack entirely |
 | Extra DNA | Mitochondrial DNA only | Often small circles of DNA called plasmids | Plasmids carry genes between bacteria |
-
-We return to the differences in gene expression in [*How bacteria copy themselves and
-change*](bacterial-genetics.qmd#sec-gen-copy).
 
 ::: {.callout-important}
 ## A common idea, corrected: "bacteria have mitochondria"
@@ -109,9 +106,9 @@ back into a growing cell.
 ::: {.callout-tip collapse="true"}
 ## Predict: will boiling or an alcohol hand rub kill spores? (Click to check)
 Mostly not. Many spores survive boiling at 100 °C, and alcohol hand rubs do not kill them
-[@setlow2014spores]. Reliable killing needs pressurised steam at 121 °C, as in an autoclave.
-We return to what this means for instruments and for hand hygiene in [*Detecting and controlling
-microbes*](detection-control.qmd#sec-det-control).
+[@setlow2014spores]. Reliable killing needs pressurised steam at 121 °C, as in an autoclave (see
+[*Detecting and controlling microbes*](detection-control.qmd#sec-det-control) for instruments and
+hand hygiene).
 :::
 
 ## Getting energy {#sec-bact-energy}
@@ -147,8 +144,8 @@ air, form a fifth group alongside the four that the two questions produce.
 | Aerotolerant anaerobe | No; ferments only | No; its enzymes are not inactivated by oxygen | Streptococci, *Lactobacillus* |
 | Obligate anaerobe | No | Yes | *Bacteroides fragilis*, *Clostridium* species |
 
-From how an organism handles energy and oxygen, we can work out where it will grow. In the activity
-below, each organism is described only by its metabolism, and its name appears after each choice.
+From how an organism handles energy and oxygen, we can work out where it will grow. Place each
+organism below, described only by its metabolism; its name appears after each choice.
 
 <div data-island="oxygen-tube" data-src="/diagrams/oxygen-tube.yml"></div>
 
@@ -199,16 +196,13 @@ Rapidly dividing cells are the most vulnerable to many antimicrobial drugs.
 
 ## Two microbe profiles {#sec-bact-profiles}
 
-Each main organism in this book gets the same card with five slots:
+A microbe profile records five facts about an organism:
 
 - *identity and structure*;
 - *lifestyle and niche*;
 - *mechanism of harm*;
 - *general consequence*;
 - a *contrast partner* it is easily confused with.
-
-The organ-system blocks will later add where it infects, how it is diagnosed and how it is treated;
-the card gives those facts somewhere to go.
 
 The first card below has three slots filled in; predict the other two. The second has one.
 
@@ -225,7 +219,7 @@ anaerobic.
 
 ## The trait toolkit {#sec-bact-toolkit}
 
-The traits in this chapter form the toolkit we use in every later chapter to describe a bacterium.
+Five traits describe any bacterium:
 
 | Trait | The options | What it indicates |
 |---|---|---|
@@ -234,10 +228,6 @@ The traits in this chapter form the toolkit we use in every later chapter to des
 | Additional structures | Capsule, pili, flagella, biofilm, spores | How it attaches, moves, hides and survives outside a host |
 | Energy and oxygen | Aerobe, facultative, microaerophile, aerotolerant, anaerobe | Where in the body it can live; how a sample must be handled |
 | Growth rate | Doubling in minutes, or in about a day | How fast an infection develops; how long culture takes |
-
-We turn next to the question *how does it copy itself and change?* (see [*How bacteria copy
-themselves and change*](bacterial-genetics.qmd)), and then to *how does damage happen?* (see
-[*Microbes and their hosts*](host-microbe.qmd)).
 
 ## Check your understanding {#sec-bact-quiz}
 

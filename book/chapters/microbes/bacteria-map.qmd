@@ -5,8 +5,9 @@
 
 ## Reading a group as a set of traits {#sec-map-idea}
 
-We have described a bacterium by envelope, shape, additional structures, oxygen and growth rate (see
-[*How bacteria are built and get energy*](../principles/bacteria-build-energy.qmd#sec-bact-toolkit)).
+A bacterium is described by five traits: envelope, shape, additional structures, oxygen and growth
+rate (see [*How bacteria are built and get
+energy*](../principles/bacteria-build-energy.qmd#sec-bact-toolkit)).
 Whole groups also differ in where they grow relative to host cells:
 
 - **Extracellular** bacteria grow outside host cells.
@@ -19,13 +20,11 @@ incubation, or living cells.
 A bacterial group can be described in those terms. Enterobacterales, for example, are Gram-negative
 rods that grow with or without oxygen, ferment sugars, and live in the gut.
 
-Group names come from different sources, which is part of what makes the list confusing:
+Group names come from different sources:
 
 - Some are taxonomic (Enterobacterales is an order).
 - Some describe a single trait (anaerobes, spiral bacteria).
 - Some describe how the organisms behave in the laboratory (fastidious, atypical).
-
-The map below puts them all on the same footing.
 
 ## The map {#sec-map}
 
@@ -53,7 +52,7 @@ show a related trait. Both live only in humans and die quickly outside the body,
 needing enriched media in the laboratory, so both spread only by close contact: through respiratory
 secretions for *N. meningitidis* and sexual contact for *N. gonorrhoeae*.
 
-## Worked example: why "atypical"? {#sec-map-atypicals}
+## Why "atypical"? {#sec-map-atypicals}
 
 In this course, the **atypical** bacteria are three genera, *Mycoplasma*, *Chlamydia* and
 *Rickettsia*, from different branches of the bacterial tree, grouped because routine stains and
@@ -89,15 +88,13 @@ the world, and *M. pneumoniae* is a common cause of pneumonia in children and yo
 stains and cultures miss them, so laboratories usually detect them by their nucleic acid.
 :::
 
-These organisms come up again in the respiratory and genitourinary blocks, with the diseases they
-cause, how those diseases are diagnosed and how they are treated. Many of those facts follow from
-the missing wall or the life inside cells: drugs that act on the wall cannot treat *Mycoplasma*, and
-drugs for *Chlamydia* and *Rickettsia* must enter host cells.
+Much of how these infections are diagnosed and treated follows from the missing wall or the life
+inside cells: drugs that act on the wall cannot treat *Mycoplasma*, and drugs for *Chlamydia* and
+*Rickettsia* must enter host cells.
 
 ## How the group chapters work {#sec-map-template}
 
-In the chapters that follow, we take one group from the map at a time and set out each group in the
-same layout.
+Each group chapter covers one group from the map and has the same layout:
 
 | Part of the chapter | Content |
 |---|---|
@@ -110,9 +107,7 @@ same layout.
 
 ## Reading the map backwards {#sec-map-test}
 
-The map is most useful when it can be read backwards: given a few traits, we should be able to name
-the group. The questions below mix the groups deliberately, because practice with mixed examples makes
-similar groups easier to tell apart.
+Given a few traits, name the group.
 
 <div data-island="bacteria-map" data-src="/diagrams/bacteria-map-test.yml"></div>
 

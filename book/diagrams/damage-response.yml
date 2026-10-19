@@ -4,7 +4,7 @@ intro: "Disease is host damage, and damage can come from the microbe, from the h
 
 profiles:
   - label: "Damage when the response is weak"
-    example: "Examples: *Candida albicans* in a person with very few neutrophils; *Pneumocystis jirovecii* in advanced HIV infection."
+    example: "Example: *Candida albicans* in a person with very few neutrophils."
     points: [[0, 0.95], [0.2, 0.78], [0.4, 0.32], [0.6, 0.1], [1, 0.05]]
     zones:
       weak: "Damage comes from the microbe. Defences are too weak to contain it, so it multiplies unchecked. These are opportunistic pathogens: in most people they live harmlessly or are cleared."
@@ -18,7 +18,7 @@ profiles:
       balanced: "Little damage. The bacteria are walled off in granulomas, which you met in general pathology. Many people carry contained, latent infection for life."
       strong: "Damage comes from the host. An intense response causes caseous necrosis, and the necrotic tissue can liquefy and leave cavities in the lung."
   - label: "Damage when the response is strong"
-    example: "Examples: toxic shock syndrome, where a superantigen over-activates T cells; rheumatic fever after *Streptococcus pyogenes* infection, where antibodies cross-react with heart tissue."
+    example: "Examples: *Staphylococcus aureus* toxic shock syndrome, where a toxin over-activates T cells; rheumatic fever after *Streptococcus pyogenes* infection, where antibodies cross-react with heart tissue."
     points: [[0, 0.08], [0.4, 0.12], [0.6, 0.3], [0.8, 0.7], [1, 0.95]]
     zones:
       weak: "Little damage. With a weak response there is little of the inflammation that drives disease in this pattern."

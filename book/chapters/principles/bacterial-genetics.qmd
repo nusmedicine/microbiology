@@ -22,8 +22,8 @@ Bacteria follow the same central dogma as human cells, with differences that mat
 | Ribosomes | 80S (40S and 60S subunits) | 70S (30S and 50S subunits) | A major drug target; mitochondria have bacterial-type ribosomes, which explains some drug side effects |
 | DNA supercoiling | Human topoisomerases | DNA gyrase and topoisomerase IV | A target with no exact human equivalent |
 
-In the right-hand column we apply the question *what does it have that my cells lack?* to the
-machinery of inheritance, and each row is a basis for selective toxicity.
+Each of these differences answers the question *what does it have that my cells lack?* for the
+machinery of inheritance, and each is a possible basis for selective toxicity.
 
 ## Change by mutation {#sec-gen-mutation}
 
@@ -46,8 +46,8 @@ Grow the population below, decide whether resistant cells exist yet, then add th
 
 <div data-island="selection-sim" data-src="/diagrams/selection-sim.yml"></div>
 
-The drug killed the susceptible cells, and resistant cells that were already present multiplied in
-their place. This process is **selection**; repeated across many patients and many courses of
+A drug kills the susceptible cells, and resistant cells that were already present multiply in their
+place. This process is **selection**; repeated across many patients and many courses of
 treatment, it makes resistance common.
 
 ::: {.callout-important}
@@ -68,8 +68,7 @@ distinct from vertical inheritance from a parent cell. There are three classic r
 
 **Transformation** is the uptake of free DNA released by dead cells. Some species, including
 *Streptococcus pneumoniae* and *Neisseria*, are naturally **competent**: they actively take up DNA from
-their surroundings. Transformation was the first route discovered, in the experiment followed by the
-case at the end of this chapter.
+their surroundings. Transformation was the first route discovered.
 
 **Transduction** occurs when a **bacteriophage**, a virus that infects bacteria, packages a piece of
 its host's DNA by mistake and injects it into the next bacterium it infects.
@@ -111,8 +110,7 @@ best-known bacterial toxins are encoded by prophage genes.
 | Shiga toxins | Some *E. coli*, such as O157:H7 | Phage-borne toxin genes turned a harmless gut resident into a cause of bloody diarrhoea |
 | Pyrogenic exotoxins | *Streptococcus pyogenes* | Phage-borne genes for superantigens, toxins that activate a large fraction of T cells at once ([*Microbes and their hosts*](host-microbe.qmd#sec-host-drf)), behind scarlet fever |
 
-The same species can therefore be harmless or dangerous depending on which phages it carries: part of
-the answer to *how does damage happen?*
+The same species can therefore be harmless or dangerous depending on which phages it carries.
 
 ## Resistance: what it is and how it spreads {#sec-gen-resistance}
 
@@ -139,9 +137,6 @@ genes persist for years.
 needed, at the right dose and for the right duration, so that selection is kept to a minimum. Because
 resistance is selected by the total use of antimicrobials in a population, stewardship depends on
 every prescriber.
-
-We turn next from the genes to what their products, such as toxins, do inside a host (see
-[*Microbes and their hosts*](host-microbe.qmd)).
 
 ## Check your understanding {#sec-gen-quiz}
 

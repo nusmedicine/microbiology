@@ -6,7 +6,7 @@
 
 ## One bacterium, three illnesses {#sec-gpc-hook}
 
-We start with three people:
+Three people fall ill:
 
 - A teenager develops a **furuncle** (boil): a hot, swollen, pus-filled nodule centred on a hair
   follicle.
@@ -20,8 +20,8 @@ follows from how the bacterium works.
 ## The group in one sentence {#sec-gpc-sentence}
 
 Gram-positive cocci are thick-walled spheres that live on the skin and mucous membranes and cause harm
-mainly when they get past a barrier. The table answers the six questions for the whole group. In the
-rest of the chapter, we look at how its members differ in answering *how does damage happen?*
+mainly when they get past a barrier. Most of the six questions have one answer for the whole group;
+its members differ mainly in how damage happens.
 
 | Question | Answer for the Gram-positive cocci |
 |---|---|
@@ -34,17 +34,15 @@ rest of the chapter, we look at how its members differ in answering *how does da
 
 ## Sorting the group {#sec-gpc-key}
 
-A few traits separate every member of the group. The key below follows the order a laboratory uses,
-but each branch is best read for what the trait means about the organism. Two of the traits need
-defining first. **Haemolysis** is the destruction of red blood cells: on blood agar, a clear zone around a
-colony (beta-haemolysis) means the red cells have been lysed, while a green zone (alpha-haemolysis)
-means their haemoglobin has been damaged. The **Lancefield group** is a carbohydrate on the
-streptococcal cell wall, used to type streptococci.
+A few traits separate every member of the group. **Haemolysis** is the destruction of red blood
+cells: on blood agar, a clear zone around a colony (beta-haemolysis) means the red cells have been
+lysed, while a green zone (alpha-haemolysis) means their haemoglobin has been damaged. The
+**Lancefield group** is a carbohydrate on the streptococcal cell wall, used to type streptococci.
+
+The key follows the order of laboratory tests, and each branch gives what the trait means about the
+organism.
 
 <div data-island="sorting-key" data-src="/diagrams/gpc-key.yml"></div>
-
-The three main organisms in the key each have a profile card below. The supporting organisms are
-covered in one table at the end of the chapter.
 
 ## *Staphylococcus aureus*: three patterns of harm {#sec-gpc-aureus}
 
@@ -62,7 +60,7 @@ factors produce different illnesses. The factors include:
 | Toxin without invasion | Multiplies in food left warm and releases a heat-stable **enterotoxin**, a toxin that acts on the gut; the toxin, not the bacteria, causes the illness | Vomiting within hours of a meal [@argudin2010enterotoxins] |
 | Toxin acting on the whole body | A superantigen activates a large fraction of the body's T cells at once | **Toxic shock syndrome**: fever, rash and hypotension [@llewelyn2002superantigens] |
 
-The table matches the three people at the start of the chapter:
+Each of the three people fits one pattern:
 
 - The teenager has an infection.
 - The wedding guests have no infection at all, because they swallowed toxin already present in the
@@ -88,9 +86,9 @@ infection has gone.
 | Toxins | Streptolysins lyse cells; superantigens act as in *S. aureus* | Scarlet fever; streptococcal toxic shock syndrome |
 | Immune-mediated damage, weeks later | Antibodies against the bacterium cross-react with the host's own tissue (**molecular mimicry**) | **Rheumatic fever**, which can scar the heart valves [@carapetis2016rheumatic] |
 
-The third pattern is the clearest case in this book of the damage-response framework from
-[*Microbes and their hosts*](../principles/host-microbe.qmd#sec-host-drf): the bacteria are long gone,
-and the host's immune response causes the damage.
+Immune-mediated damage is a clear case of the damage-response framework (see [*Microbes and their
+hosts*](../principles/host-microbe.qmd#sec-host-drf)): the bacteria are long gone, and the host's
+immune response causes the damage.
 
 <div data-island="microbe-profile" data-src="/diagrams/gpc-profile-s-pyogenes.yml"></div>
 
@@ -120,9 +118,6 @@ and provoking inflammation.
 
 ## Supporting organisms {#sec-gpc-supporting}
 
-For each supporting organism, the separating trait and the reason it matters are enough at this stage;
-the rest comes in the organ-system blocks.
-
 | Organism | Where it lives | What separates it | Why it matters |
 |---|---|---|---|
 | *S. epidermidis* and other coagulase-negative staphylococci | Everyone's skin | No coagulase; few toxins; forms biofilm on plastic and metal | Infects devices such as catheters and prosthetic joints; contaminates blood cultures [@otto2009epidermidis] |
@@ -136,14 +131,11 @@ Most *S. aureus* is not MRSA and is not in hospitals: it lives harmlessly in the
 three people. **MRSA** (meticillin-resistant *S. aureus*) is *S. aureus* that has acquired a gene for
 an altered version of the protein targeted by a whole family of drugs, so the drugs bind it poorly
 [@lakhundi2018mrsa]. Resistance is a trait that some strains carry, and it spread because drug use
-selected the bacteria that already had it. We met the mechanism in [*How bacteria copy themselves
-and change*](../principles/bacterial-genetics.qmd#sec-gen-resistance).
+selected the bacteria that already had it (see [*How bacteria copy themselves and
+change*](../principles/bacterial-genetics.qmd#sec-gen-resistance)).
 :::
 
 ## Later in the course {#sec-gpc-later}
-
-These organisms come up again in the organ-system blocks, and each new fact from those blocks can be
-added to the profile cards above.
 
 | Organism | Where it comes up again |
 |---|---|
@@ -156,9 +148,6 @@ added to the profile cards above.
 | *Enterococcus* | Urinary and healthcare-associated infections; resistance in pharmacology |
 
 ## Check your understanding {#sec-gpc-quiz}
-
-Some of these questions draw on earlier chapters, because practice with mixed topics makes them easier
-to tell apart.
 
 <div data-island="quiz" data-src="/quizzes/gram-positive-cocci.quiz.yml"></div>
 
