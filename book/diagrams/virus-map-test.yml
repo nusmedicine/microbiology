@@ -1,0 +1,150 @@
+id: virus-map-test
+title: "Name the group from its traits"
+mode: identify
+intro: >
+  Each row is one of the five groups of the viral world, with the traits most of its members share.
+  Click a group to see why its members belong together, or click a column heading to line the groups
+  up by that trait.
+identifyIntro: "Each set of traits belongs to a virus in one of the five groups. Name the group, then read why its members share those traits."
+
+traits:
+  - key: genome
+    label: "Genome"
+    values:
+      dna: { label: "DNA", color: "#5a2387" }
+      pos: { label: "Positive-sense RNA", color: "#2f7fbf" }
+      neg: { label: "Negative-sense RNA", color: "#d14d80" }
+      retro: { label: "Retrovirus", color: "#b03a2e" }
+      rna: { label: "RNA", color: "#41637a" }
+      mostrna: { label: "Mostly RNA", color: "#6c7682" }
+      mixed: { label: "DNA or RNA", color: "#6c7682" }
+  - key: envelope
+    label: "Envelope"
+    values:
+      env: { label: "Enveloped", color: "#3c9a6b" }
+      naked: { label: "Non-enveloped", color: "#a0602a" }
+      mostenv: { label: "Mostly enveloped", color: "#6c7682" }
+  - key: route
+    label: "Route"
+    values:
+      resp: { label: "Respiratory", color: "#2f7fbf" }
+      faecal: { label: "Faecal–oral", color: "#8a5a14" }
+      bloodsex: { label: "Blood and sexual contact", color: "#b03a2e" }
+      blood: { label: "Mainly blood", color: "#7a3b2e" }
+      mosquito: { label: "Mosquito bite", color: "#3d8d7a" }
+      arthropod: { label: "Mosquito or tick bite", color: "#3d8d7a" }
+      contact: { label: "Close contact", color: "#5a2387" }
+  - key: persistence
+    label: "Persistence"
+    values:
+      acute: { label: "Acute", color: "#3c9a6b" }
+      latent: { label: "Latent", color: "#c08a1e" }
+      some: { label: "Chronic in some", color: "#a0602a" }
+      often: { label: "Often chronic", color: "#a0602a" }
+      chronic: { label: "Chronic", color: "#b03a2e" }
+
+groups:
+  - id: resp
+    name: "Respiratory viruses"
+    examples: "Influenza virus, SARS-CoV-2, respiratory syncytial virus; rhinoviruses, adenoviruses, measles virus"
+    genome: mostrna
+    envelope: mostenv
+    route: resp
+    persistence: acute
+    home: "The human airway"
+    logic: >
+      Viruses that infect the airway and spread in respiratory particles and on hands. Most are
+      enveloped RNA viruses that multiply where they enter, so their incubation periods are short, and
+      people are infected again because immunity wanes or the virus changes. Measles virus is the
+      exception: it spreads through the body, takes longer to cause illness and leaves lifelong
+      immunity. Rhinoviruses and adenoviruses have no envelope and also spread on hands and surfaces,
+      and adenoviruses have DNA genomes.
+  - id: entv
+    name: "Viruses spread by the faecal–oral route"
+    examples: "Norovirus, rotavirus, enteroviruses; hepatitis A and E viruses"
+    genome: rna
+    envelope: naked
+    route: faecal
+    persistence: acute
+    home: "The human gut, and the liver for hepatitis A and E viruses"
+    logic: >
+      Non-enveloped RNA viruses that survive drying, stomach acid, bile and alcohol better than
+      enveloped viruses, so they pass from faeces to mouth on hands, surfaces, food and water. They
+      infect the gut or reach the liver from it, and cause acute infection. Safe water, sanitation and
+      hand washing with soap and water interrupt their spread.
+  - id: bbv
+    name: "Blood-borne and sexually transmitted viruses"
+    examples: "HIV, hepatitis B virus, hepatitis C virus; human papillomavirus"
+    genome: mixed
+    envelope: mostenv
+    route: bloodsex
+    persistence: often
+    home: "Humans: CD4 T cells, the liver, or the skin and genital tract"
+    logic: >
+      DNA and RNA viruses from four families, grouped because they pass in blood, by sexual contact or
+      from mother to child. Several persist for years without symptoms while the person can transmit
+      them, so screening of donated blood and of pregnant women, safe injection practice and
+      vaccination are the main controls. Persistence explains their late damage: AIDS, cirrhosis, and
+      cancers of the liver and cervix.
+  - id: arbo
+    name: "Arthropod-borne viruses"
+    examples: "Dengue virus, Zika virus, chikungunya virus; Japanese encephalitis virus"
+    genome: pos
+    envelope: env
+    route: arthropod
+    persistence: acute
+    home: "Humans or animals, and the mosquitoes or ticks that carry the virus between them"
+    logic: >
+      Enveloped RNA viruses that multiply in a blood-feeding mosquito or tick, which carries them
+      between vertebrate hosts. Passing from blood to vector to blood, they never need to survive
+      drying, so the envelope is no disadvantage. Where and when they spread follows the vector, so
+      removing breeding sites and preventing bites are the main controls.
+  - id: herp
+    name: "Herpesviruses"
+    examples: "Herpes simplex viruses, varicella-zoster virus, cytomegalovirus; Epstein–Barr virus"
+    genome: dna
+    envelope: env
+    route: contact
+    persistence: latent
+    home: "Humans; latent in nerve cells or white blood cells"
+    logic: >
+      A family: enveloped viruses with a double-stranded DNA genome that stay latent for life in
+      particular cells after the first infection and can reactivate. Most spread by close contact with
+      saliva, skin or genital secretions, often from people without symptoms, and varicella-zoster
+      virus also by respiratory particles. Disease is most severe when cell-mediated immunity, which
+      holds the latent virus in check, is impaired.
+
+identify:
+  - clues: { genome: neg, envelope: env, route: resp, persistence: acute }
+    extra: "Infects the airway; antibodies left by last year's infection protect only partly, because its surface proteins drift."
+    answer: resp
+  - clues: { envelope: naked, route: faecal, persistence: acute }
+    extra: "Causes sudden vomiting and diarrhoea in outbreaks in care homes and on cruise ships, and infects with a very small dose."
+    answer: entv
+  - clues: { genome: dna, envelope: env, persistence: latent }
+    extra: "Blisters return again and again at the same spot on the lip."
+    answer: herp
+  - clues: { genome: retro, envelope: env, route: bloodsex, persistence: chronic }
+    extra: "Destroys CD4 T cells over years of infection."
+    answer: bbv
+  - clues: { genome: pos, envelope: env, route: mosquito, persistence: acute }
+    extra: "Has four serotypes; a second infection with a different serotype is more likely to be severe."
+    answer: arbo
+  - clues: { genome: pos, envelope: naked, route: faecal, persistence: acute }
+    extra: "Reaches the liver from the gut and causes hepatitis that never becomes chronic."
+    answer: entv
+  - clues: { genome: dna, envelope: env, route: resp, persistence: latent }
+    extra: "A widespread rash of blisters in childhood; decades later, a painful band of blisters along one nerve."
+    answer: herp
+  - clues: { genome: pos, envelope: env, route: blood, persistence: chronic }
+    extra: "Infects the liver and stays silent for decades; antiviral drugs now cure most infections."
+    answer: bbv
+  - clues: { genome: dna, envelope: naked, route: resp, persistence: acute }
+    extra: "Survives for long periods on surfaces; causes sore throat and conjunctivitis."
+    answer: resp
+  - clues: { genome: dna, envelope: naked, route: contact, persistence: some }
+    extra: "Infection with some types that persists for years can lead to cancer of the cervix."
+    answer: bbv
+  - clues: { genome: pos, envelope: env, route: mosquito }
+    extra: "Carried by mosquitoes from pigs and wading birds; people who are infected do not pass it on."
+    answer: arbo

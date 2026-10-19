@@ -1,0 +1,45 @@
+id: arboviruses
+title: "Flashcards: arthropod-borne viruses"
+intro: "Explain each answer from the vector, its hosts and what each virus does in the body. Say the answer before you check it."
+
+cards:
+  - id: abd1
+    kind: why
+    front: "Why does the spread of dengue follow the *Aedes* mosquito?"
+    back: "The virus must multiply in the mosquito before the mosquito can pass it on, and it does not spread between people by touch or respiratory particles. Where the mosquito cannot breed and bite, the virus cannot spread."
+  - id: abd2
+    kind: how
+    front: "How does an *Aedes* mosquito become able to pass on dengue virus?"
+    back: "A female mosquito takes up the virus in the blood of a person with viraemia. The virus multiplies in its gut and spreads to its salivary glands, and days later the mosquito injects it at every bite for the rest of its life."
+  - id: abd3
+    kind: apart
+    front: "*Aedes* mosquitoes versus *Culex* mosquitoes?"
+    back: "*Aedes* mosquitoes breed in small containers of clean water near homes, bite by day, and carry dengue, Zika and chikungunya viruses from person to person. The *Culex* mosquitoes that carry Japanese encephalitis virus from pigs and wading birds breed in rice fields and bite in the evening and at night."
+  - id: abd4
+    kind: why
+    front: "Why is a second dengue infection with a different serotype more likely to be severe than the first?"
+    back: "Antibodies from the first infection bind the new serotype without neutralising it, and help it into white blood cells that carry receptors for antibodies. More cells are infected and more virus is made: antibody-dependent enhancement."
+  - id: abd5
+    kind: why
+    front: "Why is the time when the fever settles the dangerous phase of dengue?"
+    back: "Around then, usually between the third and seventh day of illness, small blood vessels leak plasma for a day or two. The blood becomes concentrated and its volume falls, so shock can develop while the patient seems to be recovering."
+  - id: abd6
+    kind: how
+    front: "How does Zika virus harm a fetus?"
+    back: "Virus in the mother's blood crosses the placenta and infects the dividing cells that form the nerve cells of the fetal brain. These cells die or stop dividing, so the brain does not grow: microcephaly, even when the mother had no symptoms."
+  - id: abd7
+    kind: how
+    front: "How can a pregnant woman who has not been bitten be infected with Zika virus?"
+    back: "By sex with an infected partner. Zika virus persists in semen for weeks, and sometimes months, after it has cleared from the blood."
+  - id: abd8
+    kind: apart
+    front: "Dengue virus versus chikungunya virus: which feature best separates them?"
+    back: "The main danger. Dengue virus can make small blood vessels leak as the fever settles, which can lead to shock, more often in a second infection. Chikungunya virus inflames the joints, and the pain can last for months, but it rarely causes shock. Both are carried by the same mosquitoes."
+  - id: abd9
+    kind: why
+    front: "Why does Japanese encephalitis not spread from person to person through mosquitoes, as dengue does?"
+    back: "Humans are dead-end hosts: too little virus reaches human blood, for too short a time, to infect a mosquito. The cycle runs through pigs and wading birds, in which the virus reaches high levels in the blood."
+  - id: abd10
+    kind: how
+    front: "How does releasing male *Aedes aegypti* carrying *Wolbachia* reduce dengue in Singapore?"
+    back: "Male mosquitoes do not bite. When they mate with wild females, the eggs do not hatch, so the number of *Aedes aegypti*, the main vector of dengue, falls."

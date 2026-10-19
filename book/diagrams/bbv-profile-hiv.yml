@@ -1,0 +1,40 @@
+id: bbv-profile-hiv
+name: "HIV"
+group: "Enveloped RNA virus · retrovirus · spread by sexual contact, by blood and from mother to child"
+intro: "Predict two of the five slots. Most of what this virus does follows from two facts: it infects the CD4 T cells that coordinate immunity, and its DNA copy stays in their chromosomes for life."
+
+slots:
+  - slot: identity
+    entry: "A retrovirus: two copies of a positive-sense RNA genome in a capsid, inside an envelope. Reverse transcriptase copies the RNA into DNA, and integrase joins that DNA into a host chromosome as a provirus. It binds CD4 and a co-receptor, so it infects CD4 T cells and macrophages."
+  - slot: lifestyle
+    predict:
+      stem: "HIV is enveloped and survives poorly outside the body. Which of these exposures can transmit it?"
+      options:
+        - text: "Sex without a condom with a partner whose infection is untreated"
+          correct: true
+          feedback: "Untreated infection puts virus into semen, vaginal fluid and rectal secretions, which reach the mucosa directly during sex, so the envelope never has to survive outside the body."
+        - text: "Sharing meals and cutlery with an infected person"
+          correct: false
+          feedback: "Food and cutlery do not carry blood or genital secretions from one person into another, and HIV survives poorly outside the body. Everyday contact does not spread it."
+        - text: "The bite of a mosquito that has fed on an infected person"
+          correct: false
+          feedback: "HIV does not multiply in mosquitoes, and a mosquito does not inject the blood it has taken from a previous person, so it does not carry HIV between people."
+    entry: "Humans only. Carried in blood, semen, vaginal fluid, rectal secretions and breast milk; spread by sexual contact, by shared needles and syringes or unscreened blood, and from mother to child during pregnancy, at birth and in breast milk. Not spread by everyday contact, by food or by mosquitoes."
+  - slot: harm
+    entry: "Early infection, when the viral load is highest, can cause a short illness with fever, sore throat, rash and enlarged lymph nodes. Over years without symptoms, CD4 T cells are lost until cell-mediated immunity fails, and opportunistic infections such as tuberculosis follow: advanced HIV infection, AIDS."
+  - slot: consequence
+    predict:
+      stem: "A man with HIV has taken antiretroviral therapy every day, and his viral load has been undetectable for a year. What follows if he stops taking it?"
+      options:
+        - text: "Virus returns from the provirus in resting CD4 T cells, and the viral load rises again"
+          correct: true
+          feedback: "Resting CD4 T cells carry the provirus but make no virus, so the drugs have nothing to act on in them. Once the drugs stop, virus produced from these cells is no longer suppressed, and it returns within weeks."
+        - text: "He stays free of virus, because treatment has cleared the infection"
+          correct: false
+          feedback: "An undetectable viral load shows that replication is suppressed, not that the virus has gone. The provirus persists in resting CD4 T cells for life."
+        - text: "Nothing changes, because his CD4 T-cell count has recovered"
+          correct: false
+          feedback: "A recovered CD4 T-cell count reflects suppression by the drugs. Without them, the virus multiplies again and CD4 T cells are lost once more."
+    entry: "Lifelong infection. Antiretroviral therapy, a combination of drugs from two or more classes, suppresses replication, lets CD4 T cells recover and, once it has kept the viral load undetectable for six months, stops sexual transmission, but it cannot remove the provirus, so it continues for life. Prevention: condoms, treatment of infected people, drugs taken before or after exposure, screened blood and sterile injecting equipment. No vaccine."
+  - slot: contrast
+    entry: "Hepatitis C virus: also spread by blood and persistent for years without symptoms, but an RNA virus with no DNA stage, so drugs taken for a few months cure most infections."

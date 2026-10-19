@@ -1,0 +1,64 @@
+id: anae-key
+title: "Sorting the anaerobes"
+intro: "Oxygen defines the group, so the Gram stain, spores and where each anaerobe lives separate its members. The key sorts the anaerobic rods; anaerobic cocci also take part in mixed infections. Pick a branch at each step and read what the trait predicts as well as where it leads."
+start: gram
+
+nodes:
+  - id: gram
+    question: "What does the Gram stain show?"
+    options:
+      - label: "Pink (Gram-negative) rods"
+        meaning: "A thin wall under an outer membrane with LPS. These anaerobes form no spores; they come from the person's own colon or mouth, and infection follows a breach of the surface where they live."
+        next: neg-site
+      - label: "Purple (Gram-positive) rods"
+        meaning: "A thick peptidoglycan wall and no outer membrane. Whether the rod forms spores decides whether the infection can come from outside the body."
+        next: spores
+  - id: neg-site
+    question: "Where in the body does it live?"
+    options:
+      - label: "The colon"
+        meaning: "It reaches tissue when the bowel is perforated or opened at surgery, together with facultative anaerobes from the gut such as *E. coli*. The infection is mixed and ends in abscesses in the abdomen."
+        next: b-fragilis
+      - label: "The mouth, around the teeth and gums"
+        meaning: "It reaches tissue from an infected tooth or gum, or the lungs when saliva is inhaled, and causes abscesses of the teeth, throat, neck or lung, usually with other mouth anaerobes."
+        next: mouth
+  - id: mouth
+    question: "What shape are the rods?"
+    options:
+      - label: "Long and thin, with pointed ends"
+        meaning: "This shape in a Gram stain of pus suggests *Fusobacterium* days before culture without oxygen can confirm it."
+        next: fusobacterium
+      - label: "Short"
+        meaning: "Many obligate and facultative anaerobes are short pink rods, so the stain alone cannot name it; culture without oxygen identifies *Prevotella*."
+        next: prevotella
+  - id: spores
+    question: "Does it form spores?"
+    options:
+      - label: "Yes"
+        meaning: "Spores survive for years in soil and survive cooking, so infection can come from outside the body: from soil carried into a deep wound, or from food. The bacteria grow from the spores only where oxygen is low."
+        next: c-perfringens
+      - label: "No"
+        meaning: "It lives in the hair follicles of the skin, so infection comes from the person's own skin, usually onto a device implanted at surgery. Skin carried into a blood culture bottle when blood is drawn also makes it a common contaminant of blood cultures."
+        next: c-acnes
+
+leaves:
+  - id: b-fragilis
+    name: "*Bacteroides fragilis*"
+    tag: main
+    blurb: "An obligate anaerobe of the colon. After the bowel is breached, it multiplies in the abdomen once facultative anaerobes such as *E. coli* have used up the oxygen, and its capsule provokes the host to wall the infection off in abscesses. Makes a beta-lactamase that destroys many wall-acting drugs."
+  - id: fusobacterium
+    name: "*Fusobacterium*"
+    tag: supporting
+    blurb: "Lives in the mouth and throat. Contributes to periodontal disease, and causes abscesses of the throat and neck, such as an abscess beside a tonsil. After a sore throat in a young adult, it can cause an infected clot in the jugular vein that seeds the lungs."
+  - id: prevotella
+    name: "*Prevotella*"
+    tag: supporting
+    blurb: "Lives in the mouth, and also in the gut and vagina. Causes dental abscesses, and pneumonia and abscess of the lung after saliva is inhaled."
+  - id: c-perfringens
+    name: "*Clostridium perfringens*"
+    tag: main
+    blurb: "Spores in soil and the gut. In crushed or dead muscle, its toxins destroy muscle and blood cells and the vessels that supply them, causing gas gangrene that spreads within hours. In large dishes of meat cooled slowly, it causes food poisoning."
+  - id: c-acnes
+    name: "*Cutibacterium acnes*"
+    tag: supporting
+    blurb: "Lives in the hair follicles of the skin and tolerates some oxygen. Contributes to acne, infects implanted devices such as artificial joints, and often grows in blood cultures from skin carried into the bottle. The nitroimidazoles do not act on it."

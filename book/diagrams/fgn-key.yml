@@ -1,0 +1,72 @@
+id: fgn-key
+title: "Sorting the fastidious Gram-negatives and Gram-negative cocci"
+intro: "The shape of the cells on a Gram stain divides the group, and where each member lives predicts how it spreads and what it does. Pick a branch at each step and read what the trait predicts as well as where it leads."
+start: shape
+
+nodes:
+  - id: shape
+    question: "What shape are the Gram-negative cells?"
+    options:
+      - label: "Cocci in pairs (diplococci)"
+        meaning: "The Gram-negative diplococci of medical importance live only on human mucosa. The two *Neisseria* species also die quickly when dried or cooled, so they pass from person to person only by close contact. Where on the body each one lives decides how it spreads."
+        next: diplococci
+      - label: "Small rods, many so short that they look almost round (coccobacilli)"
+        meaning: "Small, fastidious Gram-negative rods that need a medium supplying nutrients they cannot make. Where each one comes from, the human airway, the mouth or water, predicts how it reaches a patient."
+        next: rods
+  - id: diplococci
+    question: "Where does it live, and how far does it spread in the body?"
+    options:
+      - label: "The nasopharynx; it can invade the blood and meninges"
+        meaning: "It passes in respiratory droplets between people who live close together. A polysaccharide capsule protects it from phagocytes and complement in the blood, so a newly acquired strain can invade, and once it does, meningitis and sepsis can develop within hours."
+        next: n-meningitidis
+      - label: "The genital tract; it infects mucosal surfaces, often silently"
+        meaning: "It passes in sex, and to an infant's eyes during birth. It has no capsule and seldom spreads beyond the mucosa, but silent infection of the cervix can ascend to the fallopian tubes."
+        next: n-gonorrhoeae
+      - label: "The nasopharynx; it infects the spaces next to it"
+        meaning: "It passes in respiratory droplets and stays on mucosal surfaces, infecting the middle ear, the sinuses and airways damaged by chronic lung disease."
+        next: m-catarrhalis
+  - id: rods
+    question: "Where does it come from?"
+    options:
+      - label: "The human nasopharynx; it needs haem and NAD from red blood cells"
+        meaning: "It grows on chocolate agar, in which heating has lysed the red cells and released both factors. Strains with the type b capsule can invade the blood and meninges of young children; strains without a capsule infect the spaces next to the nasopharynx."
+        next: h-influenzae
+      - label: "The human airway; it attaches to the cilia and makes toxins"
+        meaning: "It passes in respiratory droplets. Its toxins paralyse the cilia and kill the ciliated cells of the airway, so mucus is not cleared and the person coughs for weeks; young infants are most at risk."
+        next: b-pertussis
+      - label: "Water systems, where it lives inside amoebae"
+        meaning: "It is inhaled in aerosols of contaminated water, and not caught from other people. In the lung it multiplies inside macrophages, as it does inside amoebae."
+        next: legionella
+      - label: "The mouth; it grows slowly"
+        meaning: "It can reach the blood from the mouth and settle on the heart valves. Its slow growth can delay its detection in blood cultures."
+        next: hacek
+
+leaves:
+  - id: n-meningitidis
+    name: "*Neisseria meningitidis*"
+    tag: main
+    blurb: "Carried in the nasopharynx of healthy people and spread in close contact. Its capsule protects it in the blood, and the endotoxin it sheds causes sepsis with purpura, and meningitis, within hours. Prevented by vaccines against the commonest serogroups; close contacts of a case are given antibiotics."
+  - id: n-gonorrhoeae
+    name: "*Neisseria gonorrhoeae*"
+    tag: main
+    blurb: "Spread in sex, and to a neonate's eyes during birth. Causes urethritis in men; often silent in women, in whom it can ascend to the fallopian tubes and cause infertility. Its surface keeps changing, so infection gives no lasting immunity and no vaccine reliably prevents it; resistance to drugs is rising."
+  - id: m-catarrhalis
+    name: "*Moraxella catarrhalis*"
+    tag: supporting
+    blurb: "A diplococcus of the nasopharynx, especially of young children. Causes otitis media and sinusitis in children, and exacerbations of chronic lung disease in adults."
+  - id: h-influenzae
+    name: "*Haemophilus influenzae*"
+    tag: main
+    blurb: "Needs haem and NAD, so it grows on chocolate agar. Type b caused meningitis and epiglottitis in young children until conjugate vaccines made them rare; strains without a capsule cause otitis media, sinusitis and exacerbations of chronic lung disease."
+  - id: b-pertussis
+    name: "*Bordetella pertussis*"
+    tag: supporting
+    blurb: "Causes whooping cough, most dangerous in young infants. Immunity fades after vaccination or infection, so older children and adults pass it on; vaccinating women during pregnancy protects infants."
+  - id: legionella
+    name: "*Legionella*"
+    tag: supporting
+    blurb: "Lives in warm water systems such as cooling towers. Inhaled in aerosols, it causes Legionnaires' disease, a pneumonia most severe in older adults, smokers and people with chronic disease; it is not passed from person to person."
+  - id: hacek
+    name: "The HACEK group"
+    tag: supporting
+    blurb: "Slow-growing, fastidious Gram-negative rods of the mouth that can reach the blood and cause infective endocarditis."

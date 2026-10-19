@@ -1,16 +1,294 @@
 # Environmental Gram-negatives: pseudomonads, vibrios and Burkholderia
 
-> *What happens when bacteria adapted to water and soil meet a human host?*
+> *A tap in a hospital ward, a flooded field and a well contaminated with faeces are the sources of
+> three dangerous infections. None of these bacteria needs a human host, and the traits that keep each
+> one alive in water or soil decide what it does to a patient.*
 
-::: {.callout-note}
-## In preparation
-The layout will match that of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Sort the environmental Gram-negatives by how they make ATP, by salt tolerance and by where they
+  live, and state what each trait predicts about how a person meets them.
+- Explain why *Pseudomonas aeruginosa* resists many drugs and disinfectants before it acquires any
+  new gene, and why it damages tissue whose barrier or local defence has failed.
+- Explain how *Burkholderia pseudomallei* reaches the body from soil and surface water, why diabetes
+  is the commonest host factor, and what its survival inside phagocytes means for relapse.
+- Explain how one toxin of *Vibrio cholerae* produces diarrhoea severe enough to kill within hours,
+  and why replacing fluid and salts treats it.
+- Name the host, setting and route that let each main organism cause disease.
+- Tell *P. aeruginosa* from *B. pseudomallei* by setting, host factor, life inside cells and latency.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-egn-group)
+  - [The group in one sentence](#sec-egn-sentence): what every member shares
+  - [Sorting the group](#sec-egn-key): fermentation, salt and habitat
+- [Main organisms](#sec-egn-main)
+  - [*P. aeruginosa*](#sec-egn-pseudomonas): water, biofilm and natural resistance
+  - [*B. pseudomallei*](#sec-egn-burkholderia): soil, diabetes and life inside cells
+  - [*V. cholerae*](#sec-egn-vibrio): one toxin and litres of water
+- [Contrast pair](#sec-egn-pairs)
+  - [*P. aeruginosa* and *B. pseudomallei*](#sec-egn-pair-pseudomonas-burkholderia)
+- [Beyond the main organisms](#sec-egn-beyond)
+  - [Supporting organisms](#sec-egn-supporting)
+  - [Later in the course](#sec-egn-later)
+:::
+
+## The group {#sec-egn-group}
+
+### The group in one sentence {#sec-egn-sentence}
+
+Environmental Gram-negatives are Gram-negative rods whose home is water, wet soil or the sea, and
+which reach people from that home rather than from another person. Most of the six questions have one
+answer for the whole group; its members differ mainly in which part of the environment they live in
+and in how they damage the host.
+
+| Question | Answer for the environmental Gram-negatives |
 |---|---|
-| The group in one sentence | Gram-negative rods that live in water, soil and the sea, hardy and naturally resistant to many chemicals |
-| Sorting key | Must respire or can ferment; salt tolerance; where in the environment they live |
-| Main organisms | *Pseudomonas aeruginosa* (water, natural resistance), *Burkholderia pseudomallei* (soil, diabetes as host factor, Singapore relevance), *Vibrio cholerae* (a single toxin) |
-| Supporting organisms | *Vibrio vulnificus*, *Vibrio parahaemolyticus* |
-| Later in the course | Hospital infections, melioidosis and cholera in the organ blocks |
+| What is it built from? | A Gram-negative envelope: thin peptidoglycan under an outer membrane whose outer face is lipopolysaccharide (LPS); straight rods in *Pseudomonas* and *Burkholderia*, curved rods in the vibrios; flagella for swimming |
+| How does it get energy? | *Pseudomonas* and *Burkholderia* cannot ferment sugars and depend on respiration, usually with oxygen; the vibrios respire or ferment, and tolerate salt. All of them are oxidase positive, so the oxidase test, which detects a respiratory enzyme, separates the whole group from the gut Gram-negative rods such as *Escherichia coli* (see [*A map of the bacteria*](bacteria-map.qmd#sec-map-habitat)) |
+| How does it copy itself and change? | Binary fission; several of them resist many antibacterial drugs as a property of the species, and acquire further resistance by mutation and gene transfer |
+| Where does it live, and how does it spread? | Water, plumbing, wet soil and the sea; people meet these bacteria through broken skin, in inhaled spray, in contaminated drinking water or in seafood. Spread between people is unusual, although *P. aeruginosa* passes from patient to patient in hospital on hands and equipment, and the faeces of a patient infected with *V. cholerae* contaminate the water that infects the next person |
+| How does damage happen? | *P. aeruginosa* multiplies in tissue whose barrier has failed; *B. pseudomallei* survives inside phagocytes and forms abscesses; *V. cholerae* acts through a single toxin on the gut lining; and in all of them LPS drives inflammation once they reach the blood |
+| What does it have that my cells lack? | A peptidoglycan wall and the proteins that build it, although the outer membrane and pumps in the cell membrane keep many drugs away from those targets |
+
+Life outside a host makes these bacteria hardy. They need few nutrients, tolerate a wide range of
+temperatures and survive in water for long periods, so they persist in plumbing, in equipment and in
+soil, and they grow overnight on ordinary media in air. Their envelope carries LPS, so the
+inflammation that follows their arrival in the blood is the inflammation of any Gram-negative
+infection (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-envelope)).
+
+*Pseudomonas* and *Burkholderia* cannot ferment sugars, so they depend on respiration and do best in
+wet places that air reaches: wet surfaces, damp soil and standing water (see [*A map of the
+bacteria*](bacteria-map.qmd#sec-map-habitat) and [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-oxygen)). Oxygen is not the only acceptor available to
+them: *P. aeruginosa* can respire with nitrate instead, which lets it grow in thick, oxygen-poor
+mucus and in the gut of some hospital patients. Neither organism competes well with the fermenters of
+the colon, so neither is a resident of the gut.
+
+### Sorting the group {#sec-egn-key}
+
+Three traits separate the members of the group:
+
+- Whether the organism can ferment sugars, which separates the strict respirers from the vibrios
+- Salt tolerance, which marks the organisms of the sea
+- Where in the environment it lives, which decides how a person meets it
+
+::: {.concept-tree}
+[Sorting the environmental Gram-negatives]{.tree-title}
+
+- Cannot ferment sugars; depends on respiration, usually with oxygen
+  - Water and moist surfaces, including hospital sinks, taps and equipment: *Pseudomonas aeruginosa*
+  - Wet soil and surface water in the tropics: *Burkholderia pseudomallei*
+- Ferments as well as respiring, and tolerates salt: the vibrios, curved rods
+  - Fresh or brackish water contaminated with human faeces: *Vibrio cholerae*
+  - Warm seawater, and the shellfish that filter it: *Vibrio vulnificus*
+  - Coastal seawater, in raw or undercooked seafood: *Vibrio parahaemolyticus*
+:::
+
+Where the organism lives predicts how a person meets it and what follows:
+
+| Where it lives | How a person meets it | What follows |
+|---|---|---|
+| Water and moist surfaces, including hospital sinks, taps, drains and equipment | Through skin lost to a burn, along a device, or into an airway held open by a tube | Infection of damaged tissue and of devices; healthy tissue is seldom harmed |
+| Wet soil and surface water in the tropics | Through broken skin, inhaled in spray and dust, or swallowed, mostly in the rainy season | Pneumonia, abscesses in several organs and spread in the blood, above all in people with diabetes |
+| Fresh or brackish water contaminated with human faeces | Swallowed in water or food | Profuse watery diarrhoea from a toxin, and death from dehydration within hours if fluid is not replaced |
+| Warm seawater, and raw or undercooked seafood | Swallowed, or through a wound exposed to seawater | **Gastroenteritis**, inflammation of the stomach and intestines that causes vomiting, diarrhoea or both; with *V. vulnificus*, severe wound infection and spread to the blood, especially in chronic liver disease |
+
+Work through the key from how the organism makes ATP, and read at each branch what the trait predicts
+about the organism.
+
+<div data-island="sorting-key" data-src="/diagrams/egn-key.yml"></div>
+
+## Main organisms {#sec-egn-main}
+
+### *Pseudomonas aeruginosa*: water, biofilm and natural resistance {#sec-egn-pseudomonas}
+
+*P. aeruginosa* is a Gram-negative rod of water and moist surfaces. It grows in sinks, taps, drains,
+the water in flower vases, humidifiers and ventilator tubing, and in solutions of disinfectant that
+have become contaminated, and its colonies make a blue-green pigment that can colour the pus of an
+infected wound.
+
+Three features of the cell resist antibacterial drugs and disinfectants before the organism acquires
+anything. Its outer membrane admits fewer molecules than that of *E. coli*; **efflux pumps**,
+membrane proteins that expel drugs from the cell, remove much of what does enter; and an enzyme
+encoded in its chromosome, a beta-lactamase, destroys several beta-lactam drugs. Resistance that is
+a property of a whole species in this way is **intrinsic resistance**, and strains
+acquire further resistance by mutation and gene transfer (see [*How bacteria copy themselves and
+change*](bacterial-genetics.qmd#sec-gen-mechanisms)). On a surface the bacteria grow as a
+**biofilm**, a community of microbes embedded in a shared matrix on a surface, which shelters them
+from drugs and from phagocytes (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-extras)).
+
+::: {.callout-important}
+## Is resistance always something a bacterium acquires?
+Resistance is widely assumed to be acquired strain by strain wherever antibacterial drugs have been
+used heavily, and much of it is: MRSA carries an acquired gene for an altered drug target (see [*How
+bacteria copy themselves and change*](bacterial-genetics.qmd#sec-gen-mechanisms)).
+
+Much of the resistance of *P. aeruginosa* belongs to the species itself, so a strain from a patient
+who has never been treated already resists several drugs that act well on Enterobacterales.
+Treatment starts from a shorter list of drugs than for a gut Gram-negative rod, and acquired
+resistance shortens that list further.
+:::
+
+*P. aeruginosa* seldom harms intact tissue, and it is an opportunistic pathogen in the sense used in
+[*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-opportunism): disease follows
+when a barrier or a local defence has failed.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Infection of tissue that has lost its barrier | The bacteria multiply in warm, moist, damaged tissue and destroy it with secreted enzymes, and neutrophils gather | Infection of a burn; **otitis externa**, inflammation of the ear canal, after water remains in the ear |
+| Infection on a surface the bacteria have colonised | Biofilm on plastic or on a lens shelters them from drugs and from phagocytes | **Keratitis**, inflammation of the cornea, in a contact lens wearer, which can destroy the cornea within days |
+| Persistent infection of an airway that cannot clear its secretions | Thick mucus and biofilm hold the bacteria where neither coughing nor drugs remove them, and years of inflammation damage the airway wall | Chronic infection of the lungs in **cystic fibrosis**, an inherited disease in which the secretions of the airway are thick and difficult to clear; pneumonia in a ventilated patient |
+| Spread to the blood | From infected tissue or a device the bacteria enter the blood, where LPS drives inflammation (see [*How bacteria cause damage*](bacterial-damage.qmd#sec-bdam-endotoxin)) | **Sepsis**, life-threatening organ dysfunction caused by a dysregulated host response to infection, in a patient with extensive burns or with too few neutrophils |
+
+Three conditions let *P. aeruginosa* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A person whose barrier or local defence has failed: extensive burns, cystic fibrosis, an airway held open by a tube, a cornea under a contact lens; or a person whose neutrophils are too few, as after cancer chemotherapy | Each has lost the skin, the mucus clearance or the intact epithelium that keeps the bacteria out of tissue, or the neutrophils that kill the bacteria that get in (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-factors)) |
+| Where (setting) | Moist places, including hospital sinks, taps, drains and equipment | The organism needs few nutrients and survives in water, so it persists in plumbing and on wet equipment |
+| How (route) | Through skin lost to a burn, along a device or a lens, or into an airway bypassed by a tube | It multiplies in damaged tissue, and on a surface it forms biofilm, where drugs and phagocytes reach it poorly |
+
+Step through the two routes *P. aeruginosa* takes, from hospital water into a burn and into a damaged
+airway.
+
+<div data-island="body-map" data-src="/diagrams/route-p-aeruginosa.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/egn-profile-p-aeruginosa.yml"></div>
+
+### *Burkholderia pseudomallei*: soil, diabetes and life inside cells {#sec-egn-burkholderia}
+
+*B. pseudomallei* lives in wet soil and surface water across South-East Asia, including Singapore,
+and northern Australia, where it is most common; it is also found across South Asia and southern
+China, and is increasingly recognised elsewhere in the tropics. **Melioidosis** is infection with
+this soil bacterium. Heavy rain brings the bacteria to the surface, so cases follow the rainy season,
+and they reach people in three ways: through broken skin in contact with soil or water, inhaled in
+spray and dust, and swallowed in contaminated water. Most illness begins one to three weeks after
+such an exposure. Diabetes, which impairs neutrophil function, is the commonest host factor; others
+are hazardous alcohol use and chronic kidney disease, and some patients have none of them (see
+[*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-case), where two gardeners who
+worked the same wet soil had different outcomes).
+
+Phagocytes engulf *B. pseudomallei* and it survives inside them, so it grows both inside and outside
+host cells (see [*A map of the bacteria*](bacteria-map.qmd#sec-map-where)). Bacteria inside cells are
+out of reach of antibodies and of drugs that do not enter cells, so treatment continues for months
+and the infection can relapse. The same shelter allows a **latent infection**, persistence of an
+organism in a silent state, with the possibility of reactivation (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-courses)); disease after years of latency is
+uncommon but well documented. The organism is also naturally resistant to several classes of
+antibacterial drug, so the choice of treatment is narrow from the start. In the laboratory its
+colonies can be mistaken for a contaminant or misidentified, and it can infect laboratory staff, so
+the clinician warns the laboratory when melioidosis is suspected.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Infection at the site of entry | The bacteria multiply in the tissue they enter, and pus collects | A skin abscess or ulcer where wet soil entered a cut |
+| Pneumonia | Inhaled bacteria multiply in the alveoli, and bacteria carried in the blood can settle there as well | Fever and cough in a man who worked wet soil after heavy rain |
+| Abscesses in several organs | Carried in the blood, the bacteria survive inside the phagocytes of the organs they reach, and pus collects there | Abscesses in the liver and spleen in a patient with fever and weight loss |
+| Sepsis | Large numbers of bacteria in the blood, with LPS and other bacterial components driving inflammation | Hypotension and organ failure within days of the first symptoms |
+| Disease after a latent period | Bacteria persist inside cells without causing illness and multiply again when defences weaken | Melioidosis beginning years after the person left the region where the organism lives, an uncommon pattern |
+
+Three conditions let *B. pseudomallei* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Most often a person with diabetes, above all when it is poorly controlled, and sometimes one with hazardous alcohol use or chronic kidney disease; some patients have no such factor at all | Diabetes impairs neutrophil function, so the bacteria that enter are cleared less well |
+| Where (setting) | Wet soil and surface water in the tropics, above all in South-East Asia, including Singapore, and northern Australia, especially in the rainy season | The organism lives in the environment and needs no host, and heavy rain brings it to the surface |
+| How (route) | Through broken skin in soil or water, inhaled in spray and dust, or swallowed | Once inside, it survives within phagocytes, which carries it in the blood to other organs and lets it persist |
+
+Step through the two routes *B. pseudomallei* takes: through the skin to the organs, and inhaled, with
+disease years later.
+
+<div data-island="body-map" data-src="/diagrams/route-b-pseudomallei.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/egn-profile-b-pseudomallei.yml"></div>
+
+### *Vibrio cholerae*: one toxin and litres of water {#sec-egn-vibrio}
+
+*V. cholerae* is a curved Gram-negative rod of fresh and brackish water, which ferments as well as
+respiring and tolerates salt. **Cholera** is the illness it causes: profuse watery diarrhoea, from a
+single toxin, that can kill by dehydration within hours. Only strains carrying the gene for that
+toxin cause it, and most *V. cholerae* in the environment do not. Spread is faecal–oral (see
+[*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)): faeces from an infected person
+reach drinking water or food, and the next person swallows the bacteria. Stomach acid kills most of
+them, so a large inoculum must arrive, and contaminated water and food matter more than contact
+between people (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-factors)).
+
+::: {.example}
+Deaths from cholera in London in 1854 clustered around a single water pump, which was evidence that
+the cause is swallowed in water (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-case)).
+:::
+
+The bacteria stay in the lumen of the small intestine. They attach to its lining and release a single
+toxin, which enters the lining cells and raises the concentration of cyclic AMP in them (see [*How
+bacteria cause damage*](bacterial-damage.qmd#sec-bdam-exotoxins)). The cells then secrete chloride,
+and water and other salts follow it into the gut: in severe cholera, up to a litre an hour. The stool
+is watery and pale, flecked with mucus, with no blood, and there is usually no fever, because the
+wall of the gut is never invaded.
+
+Death comes from the loss of fluid and salts, so treatment is their replacement, by mouth where the
+patient can drink and into a vein when the circulation is failing. A solution of glucose and salts is
+absorbed while the toxin is still acting, because the transport that carries sodium into the lining
+cells alongside glucose keeps working. Antibacterial drugs shorten the illness and the period of
+shedding, and they do nothing for the volume already lost.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Loss of fluid and salts into the gut | The toxin raises cyclic AMP in the cells lining the small intestine, which secrete chloride, and water and other salts follow | Watery diarrhoea, pale and flecked with mucus, beginning abruptly and continuing for days |
+| Dehydration and shock | Fluid leaves the circulation faster than the patient can drink to replace it | Collapse within hours of the first stool in an untreated patient |
+
+Three conditions let *V. cholerae* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Anyone who swallows enough bacteria; the harm falls hardest on young children and on anyone unable to drink as fast as the fluid is lost | Fluid loss at this rate empties a small circulation first, and recovery depends on replacing what is lost |
+| Where (setting) | Water or food contaminated with human faeces, where clean water and sanitation have failed | The bacteria live in fresh and brackish water, and faeces from patients return them to it |
+| How (route) | Swallowed; the bacteria remain in the lumen of the small intestine | Stomach acid kills most of them, so a large number must arrive; survivors attach to the lining and release toxin |
+
+Step through the route *V. cholerae* takes, from contaminated water to the gut and back to the water.
+
+<div data-island="body-map" data-src="/diagrams/route-v-cholerae.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/egn-profile-v-cholerae.yml"></div>
+
+## Contrast pair {#sec-egn-pairs}
+
+### *P. aeruginosa* and *B. pseudomallei* {#sec-egn-pair-pseudomonas-burkholderia}
+
+Both are environmental Gram-negative rods that depend on respiration, and both are naturally
+resistant to many antibacterial drugs. Compare them feature by feature before reading the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-pseudomonas-burkholderia.yml"></div>
+
+## Beyond the main organisms {#sec-egn-beyond}
+
+### Supporting organisms {#sec-egn-supporting}
+
+| Organism | Where it lives | What separates it | Why it matters |
+|---|---|---|---|
+| *V. vulnificus* | Warm seawater, and the shellfish that filter it | Needs salt to grow, and multiplies fast in tissue | Infection of a wound exposed to seawater, which can destroy skin and the tissue beneath it within hours, and sepsis after raw shellfish; both are most dangerous in people with chronic liver disease |
+| *V. parahaemolyticus* | Coastal seawater and seafood | Needs salt; stays in the gut | A common cause of diarrhoea and abdominal pain hours to a day after raw or undercooked seafood |
+
+### Later in the course {#sec-egn-later}
+
+| Organism | Where it comes up again |
+|---|---|
+| *P. aeruginosa* | Healthcare-associated infection, burns and intensive care; respiratory medicine (cystic fibrosis and ventilated patients); ophthalmology (keratitis); anti-pseudomonal drugs in pharmacology |
+| *B. pseudomallei* | Infectious diseases in Singapore and the region (melioidosis); infection in diabetes in endocrinology |
+| *V. cholerae* | Gastroenterology (acute watery diarrhoea and rehydration); public health (water, sanitation and outbreak control) |
+| *V. vulnificus* | Emergency medicine and surgery (severe wound infection); hepatology |
+| *V. parahaemolyticus* | Gastroenterology and food safety |
+
+## Check your understanding {#sec-egn-quiz}
+
+<div data-island="quiz" data-src="/quizzes/environmental-gram-negatives.quiz.yml"></div>
+
+## Review with flashcards {#sec-egn-cards}
+
+<div data-island="flashcards" data-src="/decks/environmental-gram-negatives.deck.yml"></div>

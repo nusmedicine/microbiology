@@ -1,16 +1,275 @@
 # A map of the viruses
 
-> *Viruses are classified by genome and structure, but they are encountered by how they spread. A map that shows both connects the biology to the patient.*
+> *Virologists sort viruses by genome and structure, but a patient catches a virus by a route: a
+> breath, a meal, a needle or a mosquito bite. Structure predicts how a virus survives, changes and
+> can be treated, and the route predicts who catches it and how its spread is prevented.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Describe a virus by its genome, envelope, main route of spread and persistence.
+- Distinguish a virus group named for a family from one named for a route of spread, and give an
+  example of each.
+- Predict from its envelope how well a virus survives outside the body and by which routes it can
+  spread.
+- Relate the genome of a virus on the map to how fast it changes, and to what follows for vaccines
+  and drugs.
+- Relate persistence to spread without symptoms, to disease years after infection and to screening.
+- Name the group a virus belongs to from a few of its traits.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [How viruses are grouped](#sec-vmap-grouping)
+  - [By genome and structure](#sec-vmap-structure), or [by route of spread](#sec-vmap-route)
+  - [Where group names come from](#sec-vmap-names): a family, a route or an organ
+- [What the traits predict](#sec-vmap-predict)
+  - [The envelope](#sec-vmap-envelope): survival and route
+  - [The genome](#sec-vmap-change): how fast a virus changes
+  - [Persistence](#sec-vmap-persistence): silent spread and late disease
+- [The map](#sec-vmap): the viruses of the five groups side by side
+- [Using the map](#sec-vmap-use)
+  - [The group chapters](#sec-vmap-template)
+  - [Reading the map backwards](#sec-vmap-test)
+:::
+
+## How viruses are grouped {#sec-vmap-grouping}
+
+Four traits describe a virus well enough to place it: its genome, whether it has an envelope, the
+route by which it spreads, and whether it persists after the first illness. The first two are fixed
+by the structure of the virion (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-structure)); the last two describe how the
+virus reaches its host and whether it stays. A virus that does not stay causes an **acute
+infection**: rapid onset, then either clearance or death of the host. A virus that stays causes a
+**latent infection**, persistence of an organism in a silent state, with the possibility of
+reactivation, or a **chronic infection**, infection and inflammation continuing for months or years
+(see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-courses)).
+
+::: {.example}
+Influenza virus is an enveloped virus with a negative-sense RNA genome that spreads in respiratory
+particles and causes acute infection.
+:::
+
+Viruses are grouped either by genome and structure or by route of spread, and the two groupings
+predict different things.
+
+### By genome and structure {#sec-vmap-structure}
+
+Virologists classify viruses into families, each a set of related viruses that share a kind of
+genome, a way of copying it and a structure. Genome and structure predict three things about a
+virus:
+
+- How well it survives outside the body, which depends on whether it has an envelope
+- Which enzymes it must bring or encode to copy its genome, and so which drugs can act on it
+- How fast it changes, which depends on whether the enzyme that copies its genome proofreads (checks
+  each base as it is added and removes a wrong one)
+
+The viruses on the map have five kinds of genome, and the kind of genome decides which enzymes the
+virus must carry or encode (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-genomes)).
+
+| Genome | Viruses on the map |
 |---|---|
-| Learning objectives | Describe a virus by genome type, envelope and route of spread; name the group chapter for a described virus |
-| The map | An interactive table of virus groups by genome, envelope, route of spread and persistence, like *A map of the bacteria* |
-| Why the groups are named as they are | Family names (herpesviruses) and route names (arboviruses) side by side |
-| How the group chapters work | The same layout as the bacterial group chapters: the group in one sentence, sorting key, main viruses with profiles and a who, where, how table, contrast pairs, supporting viruses, later in the course |
-| Scenario questions | Given a few traits, name the group |
+| DNA | Herpesviruses, adenoviruses, human papillomavirus, hepatitis B virus |
+| Positive-sense RNA | SARS-CoV-2, rhinoviruses, norovirus, enteroviruses, hepatitis A, C and E viruses, dengue virus, Zika virus, chikungunya virus, Japanese encephalitis virus |
+| Negative-sense RNA | Influenza virus, respiratory syncytial virus, measles virus |
+| Double-stranded RNA | Rotavirus |
+| Retrovirus: RNA copied into DNA | HIV |
+
+### By route of spread {#sec-vmap-route}
+
+Grouped by route of spread (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)), viruses from unrelated
+families fall together, and the route predicts who is exposed and which measures interrupt spread.
+Spread by bites needs a **vector**, an arthropod that carries an organism between hosts.
+
+| Route | What carries the virus | Who is exposed | Main means of prevention |
+|---|---|---|---|
+| Respiratory | Particles breathed out, and hands that carry secretions to the nose and eyes | People who share air or are in close contact with an infected person | Vaccines against several; ventilation, masks and hand hygiene |
+| Faecal–oral | Water, food, hands and surfaces contaminated with faeces | People without safe water or food, and people living in close quarters, such as care homes | Safe water, sanitation, food hygiene and hand washing; vaccines against some |
+| Blood and sexual contact | Blood, semen and vaginal fluid, and passage from mother to child | Sexual partners, people exposed to blood or shared needles, and infants of infected mothers | Screening of donated blood and of pregnant women; sterile needles and condoms; antiviral drugs that make an infected person less infectious or that protect before exposure; vaccines against some |
+| Arthropod bite | A mosquito or tick that has fed on an infected host | People where the vector lives and bites | Removing breeding sites and preventing bites; vaccines against some |
+
+### Where group names come from {#sec-vmap-names}
+
+Virus group names come from three sources.
+
+::: {.concept-tree}
+[Sources of virus group names]{.tree-title}
+
+- A family: related viruses that share a genome and a structure
+  - Herpesviruses: enveloped, with double-stranded DNA, latent for life
+- A route of spread
+  - Respiratory viruses, viruses spread by the faecal–oral route, and blood-borne and sexually
+    transmitted viruses
+  - Arthropod-borne viruses (arboviruses)
+- The organ infected
+  - Hepatitis viruses A, B, C and E: unrelated viruses that all infect the liver
+:::
+
+An **arbovirus** (arthropod-borne virus) is a virus carried between vertebrate hosts by blood-feeding
+arthropods, such as mosquitoes or ticks, in which it multiplies. The name says how the virus travels
+and nothing about its structure, so a group named for a route can cut across families.
+
+::: {.example}
+Dengue, Zika and Japanese encephalitis viruses belong to one family and are carried by mosquitoes,
+while hepatitis C virus belongs to the same family and spreads in blood. Chikungunya virus, carried
+by the same mosquitoes as dengue virus, belongs to a different family.
+:::
+
+A name taken from the organ says least about the virus. Hepatitis A and E viruses spread by the
+faecal–oral route and cause acute infection, whereas hepatitis B and C viruses spread in blood and
+can persist for decades. The four belong to four different families and to two different groups.
+
+The five groups of the viral world take their names from one family and four routes:
+
+| Group | Named for | What most members share | Members on the map (main; supporting) |
+|---|---|---|---|
+| [*Respiratory viruses*](respiratory-viruses.qmd) | Route: respiratory particles and hands | Enveloped RNA viruses that infect the airway; acute infection, often repeated | Influenza virus, SARS-CoV-2, respiratory syncytial virus; rhinoviruses, adenoviruses, measles virus |
+| [*Viruses spread by the faecal–oral route*](enteric-viruses.qmd) | Route: from faeces to mouth | Non-enveloped RNA viruses that survive drying, acid and bile; infect the gut or reach the liver from it; acute infection | Norovirus, rotavirus, enteroviruses; hepatitis A and E viruses |
+| [*Blood-borne and sexually transmitted viruses*](bloodborne-viruses.qmd) | Route: blood, sexual contact, mother to child | DNA and RNA viruses, several of which persist for years without symptoms | HIV, hepatitis B virus, hepatitis C virus; human papillomavirus |
+| [*Arthropod-borne viruses*](arboviruses.qmd) | Route: the bite of a mosquito or tick | Enveloped RNA viruses whose spread follows the vector; acute infection | Dengue virus, Zika virus, chikungunya virus; Japanese encephalitis virus |
+| [*Herpesviruses*](herpesviruses.qmd) | Family | Enveloped double-stranded DNA viruses, latent for life after the first infection | Herpes simplex viruses, varicella-zoster virus, cytomegalovirus; Epstein–Barr virus |
+
+::: {.callout-important}
+## Is "stomach flu" caused by influenza virus?
+Vomiting and diarrhoea that spread through a household or a ward are often called "stomach flu", and
+the name suggests that influenza virus causes them and that the influenza vaccine prevents them. The
+belief comes from the loose use of "flu" for any short illness with fever and aching. Viral
+gastroenteritis, the illness the name usually refers to, is caused mostly by norovirus and, in young
+children, rotavirus. Both are non-enveloped viruses of the faecal–oral group, unrelated to influenza
+virus, which is an enveloped respiratory virus, and the influenza vaccine does not protect against
+them.
+:::
+
+## What the traits predict {#sec-vmap-predict}
+
+### The envelope predicts survival and route {#sec-vmap-envelope}
+
+Drying, detergents, alcohol and bile disrupt a lipid envelope, whereas a capsid alone withstands them
+much better (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-envelope)). On the map, the envelope lines up
+with the route of spread:
+
+- Every faecal–oral virus on the map is non-enveloped. Each must survive on hands, in food or water,
+  and through stomach acid and bile before it reaches the cells it infects.
+- The enveloped viruses travel in ways that spare them from drying: in respiratory particles (mostly
+  between people who are close together), in blood and genital fluids, inside a mosquito, or by
+  direct contact with saliva or skin. Measles and varicella-zoster viruses are carried farther,
+  through the air across a room.
+- Rhinoviruses and adenoviruses, the respiratory viruses without an envelope, also spread on hands
+  and surfaces.
+
+::: {.example}
+Hepatitis A virus and hepatitis B virus both infect the liver. Hepatitis A virus has no envelope and
+survives in water and food contaminated with faeces; hepatitis B virus is enveloped and passes in
+blood and sexual fluids.
+:::
+
+The envelope predicts survival only roughly. Hepatitis B virus, although enveloped, stays infectious
+in dried blood on surfaces for at least a week, so it can spread on a shared razor or toothbrush or
+on unsterile medical or dental equipment (see [*Blood-borne and sexually transmitted
+viruses*](bloodborne-viruses.qmd#sec-bbv-hbv)).
+
+The envelope also predicts the choice of hand hygiene. Alcohol hand rub inactivates enveloped viruses
+readily, whereas soap and water, which remove viruses physically, are more reliable against the
+non-enveloped viruses of the faecal–oral group (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-resistance)).
+
+### The genome predicts how fast a virus changes {#sec-vmap-change}
+
+Most RNA viruses copy their genomes with polymerases that do not proofread, and retroviruses copy
+theirs with a reverse transcriptase that does not proofread either, so both accumulate mutations
+faster than DNA viruses (see [*How viruses change*](virus-change.qmd#sec-vchg-mutation)). Most of
+the viruses on the map are RNA viruses, and they include the viruses whose change has the clearest
+consequences for vaccines and drugs (see [*How viruses
+change*](virus-change.qmd#sec-vchg-consequences)):
+
+- Influenza virus, whose vaccine is updated as the virus drifts
+- Norovirus, whose new variants infect people who have been infected before
+- HIV, which becomes resistant to any single drug and is therefore treated with a combination of
+  drugs
+
+Herpesviruses, adenoviruses and human papillomavirus copy their DNA with polymerases that proofread,
+so they change slowly. Hepatitis B virus, although a DNA virus, copies its genome by way of an RNA
+copy, using its own reverse transcriptase, which does not proofread, so it changes faster than the
+other DNA viruses on the map (see [*Blood-borne and sexually transmitted
+viruses*](bloodborne-viruses.qmd#sec-bbv-hbv)).
+
+### Persistence predicts silent spread and late disease {#sec-vmap-persistence}
+
+Most viruses on the map cause acute infection: they multiply, are shed for days to weeks and are
+cleared. The others persist after the first illness, as latent or chronic infection (see [*Viruses
+and the host*](virus-host.qmd#sec-vhost-persistence)).
+
+| Persistence | Viruses on the map | What follows |
+|---|---|---|
+| Acute | The respiratory, faecal–oral and arthropod-borne viruses, in people with normal immunity | Spread during a short illness; protection afterwards depends on how long immunity lasts and how much the virus changes |
+| Latent | The herpesviruses | Shedding without symptoms, disease again at reactivation, and severe disease when immunity is suppressed |
+| Chronic | HIV; hepatitis C virus in most infections; hepatitis B virus in most people infected in infancy and fewer infected later (see [*Blood-borne and sexually transmitted viruses*](bloodborne-viruses.qmd#sec-bbv-hbv)); human papillomavirus in a minority of infections | Transmission for years without symptoms, and damage long after infection |
+
+A few of the acute viruses can also persist. Adenoviruses can stay silently in lymphoid tissue, such
+as the tonsils, and reactivate to cause severe disease when immunity is suppressed, and hepatitis E
+virus can become a chronic infection after an organ transplant.
+
+Persistence has four consequences in medicine:
+
+- A person who carries a persistent virus can transmit it for years, often without knowing of the
+  infection, so donated blood and pregnant women are screened for blood-borne viruses.
+- Disease can appear years or decades after infection: AIDS after HIV infection; **cirrhosis**
+  (scarring of the liver in which bands of fibrous tissue and nodules of regenerating liver cells
+  replace its normal structure, so that the liver works poorly) and liver cancer after hepatitis B or
+  C virus infection; shingles after chickenpox.
+- Every virus on the map that is linked to cancer persists: human papillomavirus, hepatitis B and C
+  viruses and Epstein–Barr virus (see [*Viruses and the host*](virus-host.qmd#sec-vhost-cancer)).
+- Drugs that block replication cannot remove a viral genome that is not being copied, so they
+  suppress some persistent infections without clearing them (see [*Detecting viruses and antiviral
+  targets*](detecting-viruses.qmd#sec-vdet-few) and, for the hepatitis viruses, [*Blood-borne and
+  sexually transmitted viruses*](bloodborne-viruses.qmd#sec-bbv-key)).
+
+## The map {#sec-vmap}
+
+Sort the table by *Group chapter*, then by *Route* and by *Genome*, using the column headings.
+
+<div data-island="bacteria-map" data-src="/diagrams/virus-map.yml"></div>
+
+The herpesviruses share a genome, an envelope and latency but not a route, whereas the respiratory
+and faecal–oral viruses each share a route but not a genome.
+
+## Using the map {#sec-vmap-use}
+
+### The group chapters {#sec-vmap-template}
+
+Each viral group has a chapter of its own, laid out like the bacterial group chapters (see [*A map of
+the bacteria*](../bacteria/bacteria-map.qmd#sec-map-template)):
+
+| Part of the chapter | Content |
+|---|---|
+| The group in one sentence | The traits the members share, and the six questions answered for the group |
+| Sorting the group | The few traits that separate the members: a tree, a table of what each trait predicts, and a sorting key |
+| Main viruses | Two or three viruses, each with its patterns of harm (how a mechanism leads to a kind of damage, with one example), the host, setting and route that let it cause disease, its path through the body on a body map, and a profile card |
+| Contrast pair | Two viruses most easily confused, side by side |
+| Supporting viruses | One table row each |
+| Later in the course | Where the organ-system blocks add diseases, diagnosis and treatment |
+
+Within a group, the members are sorted by the traits that separate them, which are often not the
+traits on the map. The herpesviruses, for example, share every trait on the map except route, and
+are sorted by the kind of cell in which each becomes latent (see
+[*Herpesviruses*](herpesviruses.qmd#sec-herp-key)).
+
+### Reading the map backwards {#sec-vmap-test}
+
+Four of the groups are named for a route, so on this map the route usually points to the group, but
+latency outweighs it: varicella-zoster virus spreads in respiratory particles, yet latency places it
+with the herpesviruses. Chronic infection points to the blood-borne and sexually transmitted viruses.
+Given a few traits, name the group.
+
+<div data-island="bacteria-map" data-src="/diagrams/virus-map-test.yml"></div>
+
+## Check your understanding {#sec-vmap-quiz}
+
+<div data-island="quiz" data-src="/quizzes/virus-map.quiz.yml"></div>
+
+## Review with flashcards {#sec-vmap-cards}
+
+<div data-island="flashcards" data-src="/decks/virus-map.deck.yml"></div>

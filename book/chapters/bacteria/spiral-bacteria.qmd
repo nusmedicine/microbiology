@@ -1,16 +1,311 @@
 # Spiral bacteria
 
-> *How does a corkscrew shape let a bacterium move through tissue, and why are these bacteria so hard to see and grow?*
+> *A painless genital ulcer that heals on its own can be the first sign of an infection that damages
+> the aorta decades later, and a week of fever after wading through flood water can end in kidney
+> failure. Both are caused by spirochaetes, thin coiled bacteria that bore through tissue and are hard
+> to see or grow, and where each one lives decides how it reaches people.*
 
-::: {.callout-note}
-## In preparation
-The layout will match that of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Explain how flagella that lie inside the envelope let spirochaetes bore through tissue, and why
+  spirochaetes are seldom seen on a Gram stain or grown in routine culture.
+- Sort the spiral bacteria by shape and reservoir, and predict from the reservoir how each reaches
+  people and whether it passes from person to person.
+- Describe the stages of syphilis caused by *Treponema pallidum*, and explain why an infection without
+  symptoms can still harm a fetus.
+- Explain how *Leptospira* passes from rats to people through water and soil, and why leptospirosis
+  follows floods.
+- Name the host, setting and route that let each main organism cause disease.
+- Tell *T. pallidum* from *Leptospira* by reservoir, route and time course.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-spir-group)
+  - [The group in one sentence](#sec-spir-sentence): what every spirochaete shares
+  - [Sorting the group](#sec-spir-key): shape, then reservoir
+- [Main organisms](#sec-spir-main)
+  - [*Treponema pallidum*](#sec-spir-treponema): syphilis, in stages over years
+  - [*Leptospira*](#sec-spir-leptospira): from rat urine, through water and soil
+- [Contrast pair](#sec-spir-pairs)
+  - [*T. pallidum* and *Leptospira*](#sec-spir-pair-treponema-leptospira)
+- [Beyond the main organisms](#sec-spir-beyond)
+  - [Supporting organisms](#sec-spir-supporting)
+  - [Later in the course](#sec-spir-later)
+:::
+
+## The group {#sec-spir-group}
+
+### The group in one sentence {#sec-spir-sentence}
+
+**Spirochaetes** are long, thin, coiled bacteria whose flagella lie inside the envelope; they bore
+through tissue, most are too thin to see on a Gram stain, and they are hard or impossible to grow, so
+their infections are usually detected through the patient's antibodies or the bacteria's nucleic
+acid. Most of the six questions have one answer for the whole group; its members differ mainly in
+where they live, which decides how each reaches people.
+
+| Question | Answer for the spirochaetes |
 |---|---|
-| The group in one sentence | Thin, coiled bacteria with flagella inside the envelope, hard to stain and often impossible to culture |
-| Sorting key | Reservoir (humans, ticks, rats); curved gut bacteria versus spirochaetes |
-| Main organisms | *Treponema pallidum* (cannot be cultured on ordinary media), *Leptospira* (rats and flood water, Singapore relevance) |
-| Supporting organisms | *Borrelia*, *Campylobacter*, *Helicobacter pylori* |
-| Later in the course | Syphilis, leptospirosis and Lyme disease in the organ blocks |
+| What is it built from? | A long, thin, coiled cell with an envelope of the Gram-negative type: a thin peptidoglycan layer under an outer membrane. Its flagella are anchored near each end of the cell and lie beneath the outer membrane. In *T. pallidum* the outer membrane has no LPS, the endotoxin of other Gram-negative bacteria, and very few exposed proteins, so antibodies have little to bind, which helps it persist for years |
+| How does it get energy, and what does it need to grow? | Its own metabolism, but *T. pallidum* has lost the genes for making many nutrients and takes them from the host, so it cannot be grown on ordinary laboratory media; *Leptospira* grows only slowly, over weeks, in special media |
+| How does it copy itself and change? | Binary fission, slowly; *T. pallidum* remains susceptible to penicillin, but a single mutation in its ribosomal RNA, now common, makes it resistant to macrolides, drugs that act on the bacterial ribosome; *Borrelia* changes its surface proteins during an infection |
+| Where does it live, and how does it spread? | *T. pallidum* in humans only, passed by sexual contact and across the placenta; *Leptospira* in the kidneys of rats and other animals, shed in their urine into water and soil; *Borrelia* carried to people by ticks or body lice |
+| How does damage happen? | No single toxin explains the disease: the bacteria spread through tissue and in the blood, and much of the damage comes from the inflammation they provoke, particularly in and around small blood vessels |
+| What does it have that my cells lack? | A peptidoglycan wall and bacterial ribosomes, the targets of antibacterial drugs |
+
+In most bacteria that swim, the flagella project from the surface and turn like propellers (see [*How
+bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-extras)). In a spirochaete they
+stay inside the envelope. When they rotate, the whole coiled cell turns and flexes like a corkscrew,
+and this motion carries it through viscous material, such as mucus and the gel between cells, in which
+bacteria with external flagella make little progress. Spirochaetes therefore cross mucosa, move
+through tissue and reach the blood early in an infection.
+
+*T. pallidum* and *Leptospira* are about 0.1 to 0.2 µm across, at the limit of resolution of the light
+microscope (see [*The microbial world*](../foundations/microbial-world.qmd#sec-world-scale)), so they
+cannot be seen after a Gram stain (see [*Detecting bacteria and testing
+susceptibility*](detecting-bacteria.qmd#sec-dbac-microscopy)). **Dark-field microscopy**, in which the
+specimen is lit from the side so that thin organisms shine against a dark background, shows them moving
+in fluid from a genital or skin lesion; it is not used for lesions in the mouth, where harmless
+treponemes that look the same live. *T. pallidum* cannot be grown on ordinary laboratory media, and
+diagnostic laboratories do not culture it, because it depends on its host for nutrients it can no
+longer make (see [*A map of the bacteria*](bacteria-map.qmd#sec-map-habitat)); in research
+laboratories it grows only alongside living mammalian cells. Laboratories therefore detect most
+spirochaetal infections by **serology**, detection of a patient's antibodies as evidence of exposure
+(see [*Detecting and controlling microbes*](../foundations/detection-control.qmd#sec-det-serology)),
+and by **nucleic acid amplification tests (NAATs)**, tests that copy a target sequence many times until
+it can be detected (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-molecular)).
+
+*Campylobacter* and *Helicobacter pylori* are curved or spiral too, and they are grouped with the
+spirochaetes because the group is named for a single trait, shape (see [*A map of the
+bacteria*](bacteria-map.qmd#sec-map-names)). In other respects they are ordinary Gram-negative rods:
+short, with flagella outside the cell, visible on a Gram stain, and grown on agar in an atmosphere
+with little oxygen. Both are **microaerophiles**, which need oxygen but are damaged at normal
+atmospheric levels (see [*How bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-oxygen)).
+
+### Sorting the group {#sec-spir-key}
+
+We sort the spiral bacteria first by shape, which separates the spirochaetes from the curved gut
+bacteria, and then by **reservoir**, where an organism normally lives and multiplies, because the
+reservoir predicts how each one reaches people. *Borrelia* reaches people through a **vector**, an
+arthropod that carries an organism between hosts.
+
+::: {.concept-tree}
+[Sorting the spiral bacteria by shape and reservoir]{.tree-title}
+
+- Spirochaetes: long, thin and coiled, with flagella inside the envelope
+  - Reservoir in humans only: *T. pallidum*
+  - Reservoir in the kidneys of rats and other animals: *Leptospira*
+  - Reservoir in animals, carried to people by ticks: *Borrelia*
+- Curved Gram-negative rods, with flagella outside the cell
+  - Reservoir in the gut of poultry and other animals: *Campylobacter*
+  - Reservoir in the human stomach: *H. pylori*
+:::
+
+The reservoir predicts how the bacterium reaches people and what follows:
+
+| Reservoir | How it reaches people | What follows |
+|---|---|---|
+| Humans only | Sexual contact with an infectious lesion; across the placenta | It passes from person to person, often from people who do not know they are infected, so screening and treating people breaks the chain |
+| The kidneys of rats and other animals, which shed it in their urine | Water and soil contaminated with urine, through cuts, softened skin or mucosa | Illness follows floods and work or recreation in water and wet soil; people rarely pass it to one another |
+| Animals, with ticks as the vector (for most species of *Borrelia*) | The bite of an infected tick | Disease occurs only where its ticks live |
+| The gut of poultry and other animals | Swallowed in undercooked poultry, or in contaminated food or water | **Gastroenteritis**, inflammation of the stomach and intestines that causes vomiting, diarrhoea or both, prevented by thorough cooking and kitchen hygiene |
+| The human stomach | From person to person, usually in childhood | Infection that lasts for decades unless treated |
+
+Work through the key from the shape of the cell, and read at each branch what the trait predicts about
+the bacterium.
+
+<div data-island="sorting-key" data-src="/diagrams/spir-key.yml"></div>
+
+## Main organisms {#sec-spir-main}
+
+### *Treponema pallidum*: syphilis, in stages over years {#sec-spir-treponema}
+
+*T. pallidum* causes **syphilis**, an infection that passes through stages over years. It lives only
+in humans and is killed quickly by drying, so it passes only from person to person: by direct sexual
+contact with an infectious lesion, and vertically, across the placenta from a pregnant woman to her
+fetus (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)). It enters through the mucosa of
+the genital tract, anus or mouth, or through small breaks in the skin, and it spreads in the lymph and
+the blood early, before any lesion appears.
+
+Untreated, the infection passes through four stages. The third, the latent stage, is a **latent
+infection**, persistence of an organism in a silent state with the possibility of reactivation (see
+[*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-courses)).
+
+| Stage | When it begins | What happens | Passed on by sexual contact? |
+|---|---|---|---|
+| Primary | Usually about three weeks after infection | A **chancre**, a painless ulcer at the site where the bacteria entered, with enlarged lymph nodes nearby; it heals without treatment within a few weeks | Yes, from the chancre |
+| Secondary | Weeks to a few months after the chancre | The bacteria, carried in the blood, multiply throughout the body: a widespread rash, often including the palms and soles, with fever, enlarged lymph nodes and moist sores in the mouth and genital tract; these settle without treatment | Yes, readily, from the moist sores |
+| Latent | Once the secondary stage settles | No symptoms, and the infection is found only by antibody tests; early in this stage the features of the secondary stage can return | Only while those features return; a pregnant woman can still infect her fetus |
+| Tertiary (late) | Years to decades later, in some untreated people | Chronic inflammation damages the aorta, the brain and spinal cord, and other organs | No |
+
+A chancre in the vagina, the anus or the mouth is easily missed, and the latent stage causes no
+symptoms at all, so many infections are found only by serology.
+
+*T. pallidum* has no known toxins. Where it settles, it provokes chronic inflammation around small
+blood vessels, which narrows them and damages the tissue they supply, so most of the damage comes from
+the host's response (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-drf)).
+In late syphilis, inflammation of the small vessels that supply the wall of the aorta weakens it, and
+an **aneurysm**, a localised widening of an artery, forms where the aorta leaves the heart. The
+bacteria can reach the brain and meninges at any stage. Early in the infection they can cause
+**meningitis**, inflammation of the meninges, the membranes that cover the brain and spinal cord, or
+inflammation of the eye or the inner ear; the slowly progressive damage to the brain and spinal cord
+appears years later.
+
+Bacteria in a pregnant woman's blood can cross the placenta at any stage of pregnancy, most readily in
+the early stages of her infection. **Congenital infection**, infection passed from mother to fetus
+before birth, can cause miscarriage or stillbirth, or an infant born with congenital syphilis. The
+mother often has no symptoms, so pregnant women are screened by serology, and treatment during
+pregnancy prevents congenital syphilis.
+
+Syphilis is diagnosed mainly by serology, with two kinds of antibody test used together. One detects
+antibodies against proteins of *T. pallidum*; it usually stays positive for life, even after
+treatment, and so shows that the person has been infected at some time. The other detects antibodies
+against a lipid that is not specific to the bacterium; their level rises with active infection and
+falls after successful treatment, so this test is used to judge whether the infection is active and
+whether treatment has worked, although it can be positive in other conditions and negative in late
+syphilis. Both tests can still be negative when the chancre first appears, so a NAAT on a swab from
+the ulcer is used to detect the bacterium itself. *T. pallidum* has remained susceptible to
+penicillin. Treatment at any stage ends the infection but cannot undo damage already done, and it
+leaves no lasting immunity, so a person can be infected again.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Ulcer at the site of entry | The bacteria multiply where they entered, and inflammation around them breaks down the surface | A firm, painless ulcer on the penis three weeks after sexual contact, which heals on its own |
+| Spread through the body | The bacteria are carried in the blood and settle in the skin, mucosa and lymph nodes, where they provoke inflammation | A rash on the trunk, palms and soles, with fever, two months after an ulcer healed |
+| Late damage to organs | Years of chronic inflammation around small blood vessels damage the tissue they supply | An aneurysm of the aorta where it leaves the heart, decades after an untreated infection |
+| Congenital infection | Bacteria in the mother's blood cross the placenta and infect the fetus | A stillbirth after a mother's infection went undetected in pregnancy |
+
+::: {.callout-important}
+## Is syphilis over when the ulcer heals?
+The chancre is painless and heals without treatment within a few weeks, so its disappearance is easily
+taken as the end of the infection. By the time the chancre appears, however, *T. pallidum* has already
+spread in the lymph and the blood. Weeks later the rash of the secondary stage appears, and after it
+settles the bacteria persist through the latent stage, when antibody tests remain positive and a
+pregnant woman can still infect her fetus. Without treatment, the infection continues.
+:::
+
+Three conditions let *T. pallidum* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A sexually active person, including one treated for syphilis before; a fetus whose mother has untreated syphilis | Treatment leaves no lasting immunity, so a person can be infected again; bacteria in the mother's blood cross the placenta |
+| Where (setting) | Sexual contact with a person in the primary or secondary stage, who often does not know of the infection; pregnancy | The bacterium lives only in humans and is killed quickly by drying, so it passes by direct contact with a lesion, or across the placenta |
+| How (route) | Through the mucosa or small breaks in the skin, then in the lymph and the blood throughout the body | Corkscrew motion carries it through tissue, and it spreads before the chancre appears |
+
+Step through the two routes *T. pallidum* takes: through the body over years, and across the
+placenta.
+
+<div data-island="body-map" data-src="/diagrams/route-t-pallidum.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/spir-profile-t-pallidum.yml"></div>
+
+### *Leptospira*: from rat urine, through water and soil {#sec-spir-leptospira}
+
+*Leptospira* are thin, tightly coiled spirochaetes with hooked ends. They need oxygen, and they grow
+only slowly in special media. The species that cause disease live in the kidneys of rats, which carry
+them without becoming ill, and of many other mammals, including dogs, pigs and cattle, which can
+themselves become ill. All of these animals shed the bacteria in their urine for long periods.
+Outside the host the bacteria survive for weeks or months in fresh water and moist soil, especially in
+warm climates. **Leptospirosis**, infection with *Leptospira*, is therefore a
+**zoonosis**, an infection transmitted from animals to humans (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-chain)).
+
+People meet the bacteria in water and soil that infected animals have contaminated. The bacteria enter
+through cuts and abrasions, through skin softened by long immersion, or through the mucosa of the eye,
+nose and mouth, including when contaminated water is swallowed. Exposure follows heavy rain and
+flooding, and it comes with work and recreation in water and wet soil:
+
+- Clearing drains
+- Farming in wet fields
+- Swimming and other sports in fresh water
+
+Leptospirosis is acquired in Singapore and is common across South-East Asia. People rarely pass the
+infection to one another, so each case comes from the contaminated environment.
+
+::: {.example}
+In 2000, many of the athletes who took part in an international multi-sport race in Sabah, Malaysian
+Borneo, developed leptospirosis, and swimming in a river during the race was the main risk.
+:::
+
+The corkscrew motion of the bacteria carries them through tissue into the blood, which takes them to
+every organ. The **incubation period**, the time between infection and the appearance of symptoms, is
+usually one to two weeks, and illness then begins suddenly with fever, headache and muscle pain,
+especially in the calves, and **conjunctival suffusion**, redness of the conjunctiva without pus or
+discharge. Most infections are mild or cause no symptoms, and settle as antibodies clear the
+bacteria from the blood. In a minority, the bacteria damage the lining of small blood vessels and the
+organs they supply, and severe leptospirosis follows, with **jaundice**,
+yellowing of the skin and the whites of the eyes as bilirubin accumulates in the blood, kidney
+failure and bleeding. **Pulmonary
+haemorrhage**, bleeding from damaged small vessels into the alveoli, is the most dangerous
+complication.
+
+In the first week of illness, while the bacteria are in the blood, a NAAT on a blood sample can detect
+them. Antibodies appear from about the end of the first week, so serology confirms the infection
+later, most clearly when the antibody level rises between an early sample and a later one. Treatment
+is with antibacterial drugs, and severe disease also needs support for the failing organs.
+Prevention follows the route:
+
+- Covering cuts
+- Wearing boots and gloves in water and wet soil
+- Avoiding swimming in water that may be contaminated
+- Controlling rats
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Fever with muscle pain | The bacteria spread in the blood to every organ, and the host's response to them causes fever and muscle pain | Fever, headache, calf pain and red eyes a week after wading through flood water |
+| Jaundice and kidney failure | The bacteria damage the lining of small blood vessels and the cells of the liver and kidney | A farm worker with yellow skin and a rising blood creatinine in the second week of illness |
+| Pulmonary haemorrhage | Damaged small vessels in the lungs leak blood into the alveoli | Coughing up blood and difficulty breathing, with a high risk of death |
+
+Three conditions let *Leptospira* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Anyone exposed to contaminated water or soil, especially with cuts or abrasions or after long immersion; healthy people are infected | The bacteria cross small breaks in the skin and the mucosa, and no failure of host defence is needed |
+| Where (setting) | Fresh water and wet soil contaminated with the urine of rats and other animals, especially after heavy rain and floods; work in drains and wet fields, and sport in fresh water | Infected animals shed the bacteria in their urine for long periods, and the bacteria survive for weeks in warm, wet surroundings |
+| How (route) | Through cuts, softened skin or the mucosa of the eye, nose and mouth, then in the blood to every organ | Corkscrew motion carries the bacteria through tissue and into the blood |
+
+Step through the route *Leptospira* takes, from rat urine to the kidney and the lungs.
+
+<div data-island="body-map" data-src="/diagrams/route-leptospira.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/spir-profile-leptospira.yml"></div>
+
+## Contrast pair {#sec-spir-pairs}
+
+### *T. pallidum* and *Leptospira* {#sec-spir-pair-treponema-leptospira}
+
+*T. pallidum* and *Leptospira* are both spirochaetes, alike in shape and movement and in how hard they
+are to see and grow. Compare them feature by feature before reading the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-treponema-leptospira.yml"></div>
+
+## Beyond the main organisms {#sec-spir-beyond}
+
+### Supporting organisms {#sec-spir-supporting}
+
+| Organism | Where it lives | What separates it | Why it matters |
+|---|---|---|---|
+| *Borrelia* | Ticks, which pick it up from small mammals; for one species, body lice, which pass it between people | A spirochaete carried to people by ticks or lice; during an infection it can change its surface proteins | Some species cause **Lyme disease**, an infection carried by ticks that begins with an expanding red rash around the bite and can later inflame the joints, nerves or heart; it occurs in temperate regions of the Northern Hemisphere, such as North America and Europe, and is not acquired in Singapore. Other species cause **relapsing fever**, episodes of fever that return as the bacteria change their surface proteins and escape the antibodies made against the previous variant |
+| *Campylobacter* | The gut of poultry and other animals | A curved Gram-negative rod with flagella outside the cell; a microaerophile | One of the most common causes of bacterial gastroenteritis: diarrhoea, often with blood, abdominal pain and fever after eating undercooked poultry. In a small minority it is followed weeks later by **Guillain–Barré syndrome**, a paralysis that develops over days to weeks as the immune response damages the peripheral nerves; antibodies against the bacterium's surface cross-react with the nerves, an example of **molecular mimicry**, host damage caused by antibodies or T cells raised against a microbe cross-reacting with host tissue (see [*How bacteria cause damage*](bacterial-damage.qmd#sec-bdam-host)) |
+| *H. pylori* | The mucus layer over the lining of the human stomach; usually acquired in childhood and carried for decades | A curved Gram-negative rod that swims into the mucus with its flagella; its **urease**, an enzyme that splits urea into ammonia and carbon dioxide, makes ammonia that neutralises acid around it | Causes **gastritis**, inflammation of the stomach lining, in nearly everyone it infects, usually without symptoms; some infected people develop **peptic ulcers**, breaches in the lining of the stomach or duodenum, and a few develop gastric cancer. Clearing the infection lets ulcers heal and stops most of them returning (see the practice case in [*The microbial world*](../foundations/microbial-world.qmd#sec-world-case)) |
+
+### Later in the course {#sec-spir-later}
+
+| Organism | Where it comes up again |
+|---|---|
+| *T. pallidum* | Sexual health (the stages of syphilis); obstetrics and neonatology (screening in pregnancy and congenital syphilis); cardiology and neurology (late syphilis) |
+| *Leptospira* | Infectious diseases (fever after exposure to water or soil); renal and respiratory medicine (kidney failure and pulmonary haemorrhage in severe leptospirosis) |
+| *Borrelia* | Travel medicine (Lyme disease and relapsing fever) |
+| *Campylobacter* | Gastroenterology (bacterial gastroenteritis); neurology (Guillain–Barré syndrome) |
+| *H. pylori* | Gastroenterology (gastritis and peptic ulcers); oncology (gastric cancer) |
+
+## Check your understanding {#sec-spir-quiz}
+
+<div data-island="quiz" data-src="/quizzes/spiral-bacteria.quiz.yml"></div>
+
+## Review with flashcards {#sec-spir-cards}
+
+<div data-island="flashcards" data-src="/decks/spiral-bacteria.deck.yml"></div>

@@ -1,0 +1,45 @@
+id: bbv-key
+title: "Sorting the blood-borne and sexually transmitted viruses"
+intro: "These viruses share routes of spread but differ in the cells they infect and in what stays behind in those cells. Pick a branch at each step and read what the trait predicts as well as where it leads."
+start: cells
+
+nodes:
+  - id: cells
+    question: "Which cells does the virus infect?"
+    options:
+      - label: "CD4 T cells and macrophages"
+        meaning: "These cells coordinate and carry out cell-mediated immunity. Over years they are lost, cell-mediated immunity fails, and organisms the body normally holds in check cause opportunistic infections. The virus's DNA copy, joined into the chromosomes of resting CD4 T cells, makes the infection lifelong."
+        next: hiv
+      - label: "Liver cells"
+        meaning: "The virus circulates in the blood in large amounts and spreads by blood and, especially for hepatitis B virus, by sexual contact and from mother to child. Infection inflames the liver, and chronic infection can lead over decades to scarring of the liver (cirrhosis) and liver cancer, often without symptoms until the damage is advanced."
+        next: liver
+      - label: "Basal cells of the epithelium of the skin and mucosa"
+        meaning: "The virus stays in the epithelium and does not circulate in the blood, so it spreads by skin-to-skin and sexual contact, not by needles. Some types cause warts; persistent infection with others can drive infected cells towards cancer."
+        next: hpv
+  - id: liver
+    question: "Does the virus keep a DNA copy of its genome in the nucleus?"
+    options:
+      - label: "Yes: a DNA genome, copied through RNA by a reverse transcriptase"
+        meaning: "The DNA circle in the nucleus does not depend on the enzyme that drugs block, so drugs suppress the virus but rarely clear it. A vaccine prevents infection. Whether infection becomes chronic depends on age: usually at birth, rarely in adulthood."
+        next: hbv
+      - label: "No: an RNA genome, copied in the cytoplasm with no DNA stage"
+        meaning: "Nothing persists that drugs cannot reach, so drugs that stop replication for a few months cure most infections. The RNA genome varies greatly, and there is no vaccine. Most infections in adults become chronic."
+        next: hcv
+
+leaves:
+  - id: hiv
+    name: "HIV"
+    tag: main
+    blurb: "Spread by sexual contact, by blood and from mother to child. A retrovirus whose provirus stays in the chromosomes of CD4 T cells; over years their loss lets cell-mediated immunity fail. Antiretroviral therapy suppresses it for life and, once it has kept the viral load undetectable for six months, stops sexual transmission."
+  - id: hbv
+    name: "Hepatitis B virus"
+    tag: main
+    blurb: "Very infectious in blood; spread at birth, by sexual contact and by shared needles. Infection at birth usually becomes chronic, while infection in adulthood usually clears. HBsAg in the blood marks current infection. Prevented by a vaccine given from birth; drugs suppress it but rarely clear it."
+  - id: hcv
+    name: "Hepatitis C virus"
+    tag: main
+    blurb: "Spread mainly by shared injecting equipment and, in the past, by unscreened blood. Most infections become chronic and silent for decades, leading in some people to cirrhosis and hepatocellular carcinoma. No vaccine, but drugs taken for a few months cure most infections."
+  - id: hpv
+    name: "Human papillomavirus"
+    tag: supporting
+    blurb: "A non-enveloped DNA virus spread by skin-to-skin and sexual contact. Some types cause warts; persistent infection with high-risk types causes almost all cancers of the cervix and some other cancers. Prevented by a vaccine; screening of the cervix finds precancerous changes."

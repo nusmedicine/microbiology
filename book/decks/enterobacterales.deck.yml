@@ -1,0 +1,45 @@
+id: enterobacterales
+title: "Flashcards: Enterobacterales"
+intro: "Explain each answer from what the organism carries and where it goes. Say the answer before you check it."
+
+cards:
+  - id: end1
+    kind: why
+    front: "Why can *Escherichia coli* be a harmless resident of the colon in one person and the cause of bloody diarrhoea in another?"
+    back: "The strains differ in extra genes acquired by gene transfer. Strains that cause bloody diarrhoea carry a prophage encoding Shiga toxin and a pathogenicity island for attaching to the colon lining; resident strains lack them."
+  - id: end2
+    kind: how
+    front: "How does *E. coli* cause most urinary tract infections?"
+    back: "Bacteria from the person's own gut reach the skin around the opening of the urethra and climb it into the bladder, a short climb in women. Adhesins on their pili bind the bladder lining, so the flow of urine does not wash them out."
+  - id: end3
+    kind: how
+    front: "How does *E. coli* that makes Shiga toxin damage the kidney?"
+    back: "The bacteria stay in the colon, but the toxin enters the blood and damages the lining of small vessels, above all in the kidney. The vessels fill with clots, red cells are destroyed and the kidneys fail: haemolytic uraemic syndrome, most often in young children."
+  - id: end4
+    kind: apart
+    front: "Pink versus pale colonies on MacConkey agar?"
+    back: "Pink colonies ferment lactose: most *E. coli*, and *Klebsiella pneumoniae*. Pale colonies do not: *Salmonella*, *Shigella*, *Proteus*. In a stool sample, the pale colonies stand out among the pink residents, so the laboratory tests them further."
+  - id: end5
+    kind: apart
+    front: "Extended-spectrum beta-lactamase (ESBL) versus carbapenemase?"
+    back: "Both are beta-lactamases, enzymes that break open the beta-lactam ring. An ESBL destroys most penicillins and cephalosporins but not carbapenems; a carbapenemase destroys carbapenems as well. Both are carried on plasmids that pass between species in the gut."
+  - id: end6
+    kind: why
+    front: "Why is *K. pneumoniae* a common cause of hospital infection?"
+    back: "Its thick capsule resists phagocytes, so it multiplies wherever tubes and catheters carry it: the lungs of ventilated patients, the bladder, the blood. Antibacterial drugs let it colonise patients, hands and equipment carry it between them, and it collects resistance genes on plasmids."
+  - id: end7
+    kind: how
+    front: "How do hypervirulent strains of *K. pneumoniae* cause blindness in a person with a liver abscess?"
+    back: "Their extra-thick capsule resists phagocytes, so they form a liver abscess, probably after reaching the liver from the gut in the portal vein. From the abscess they enter the blood and can settle inside the eye, causing endophthalmitis."
+  - id: end8
+    kind: how
+    front: "How does *Salmonella* Typhi get from the gut to the blood?"
+    back: "It crosses the lining of the small intestine and is engulfed by macrophages, which fail to kill it. They carry it to the lymph nodes, then the liver, spleen and bone marrow, where it multiplies; after one to two weeks it floods the blood and the fever begins."
+  - id: end9
+    kind: why
+    front: "Why can a person who feels well spread typhoid?"
+    back: "A small proportion of patients, more often those with gallstones, carry *S.* Typhi in the gallbladder for years and shed it in their faeces. Humans are its only reservoir, so carriers keep it in circulation, especially if they prepare food."
+  - id: end10
+    kind: apart
+    front: "*Salmonella* versus *Shigella*: which feature best explains how each spreads?"
+    back: "Infectious dose. As few as 10 to 100 *Shigella* bacteria cause infection, so it spreads from person to person, and humans are its only reservoir. Non-typhoidal *Salmonella* usually needs far more, so it comes from animal foods in which it has multiplied."

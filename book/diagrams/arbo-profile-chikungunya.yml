@@ -1,0 +1,40 @@
+id: arbo-profile-chikungunya
+name: "Chikungunya virus"
+group: "Enveloped positive-sense RNA virus · alphavirus · carried by mosquitoes that bite by day"
+intro: "Predict two of the five slots. Most of what this virus does follows from where it settles after spreading in the blood: the joints."
+
+slots:
+  - slot: identity
+    entry: "An enveloped virus with a single-stranded, positive-sense RNA genome; an alphavirus, from a different family from dengue and Zika viruses. A single serotype."
+  - slot: lifestyle
+    entry: "Carried between people by *Aedes aegypti* and *Aedes albopictus*, which bite by day. Has caused outbreaks across the tropics, including in Singapore."
+  - slot: harm
+    predict:
+      stem: "Chikungunya virus reaches high levels in the blood. Where does it cause the pain that gives the disease its name?"
+      options:
+        - text: "In the joints, whose tissues it infects"
+          correct: true
+          feedback: "The virus infects the tissues of the joints, muscles and tendons, and the inflammation it provokes causes severe pain in many joints, often the hands, wrists and ankles."
+        - text: "In the bone marrow, where it destroys the cells that make platelets"
+          correct: false
+          feedback: "A marked fall in platelets is typical of dengue, and bleeding is uncommon in chikungunya. The pain comes from inflamed joints."
+        - text: "In the nerves of the spinal cord"
+          correct: false
+          feedback: "Pain is felt in the joints because the virus infects their tissues and inflames them. The spinal cord is not where the damage lies."
+    entry: "Sudden high fever and severe pain in many joints, on both sides of the body and often disabling; a rash is common. Most infected people become ill. Bleeding and shock are uncommon, and death is rare."
+  - slot: consequence
+    predict:
+      stem: "Three months after chikungunya, a 62-year-old still has pain and stiffness in both wrists. What is the most likely explanation?"
+      options:
+        - text: "Inflammation in the joints has continued after the virus left the blood, as happens more often in older adults"
+          correct: true
+          feedback: "Joint pain that lasts for months is a recognised course of chikungunya, more often in older adults. The fever and the virus in the blood have gone, but the joints remain inflamed."
+        - text: "Reinfection with a different serotype"
+          correct: false
+          feedback: "Chikungunya virus has a single serotype, and recovery is thought to give lasting immunity, so reinfection does not explain the pain."
+        - text: "Severe dengue following the chikungunya"
+          correct: false
+          feedback: "Severe dengue needs infection with dengue virus, and it comes as the fever settles, with leaking vessels and shock. It does not cause joint pain months later."
+    entry: "Pain and stiffness in the joints can last for months, especially in older adults. Recovery is thought to give lasting immunity. No antiviral drug is in routine use; prevention depends mainly on control of the mosquitoes, and vaccines have recently been licensed in some countries, chiefly for travellers."
+  - slot: contrast
+    entry: "Dengue virus: the same mosquitoes and the same first symptoms, but four serotypes, a dangerous phase of leaking blood vessels as the fever settles, and joint pain that does not usually outlast the illness."

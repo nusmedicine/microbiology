@@ -1,0 +1,53 @@
+id: route-e-coli
+title: "Routes through the body: *Escherichia coli*"
+intro: "Two routes taken by strains with different extra genes: a resident strain with pili that reaches the bladder, and a strain from cattle that makes Shiga toxin. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "Urinary tract infection"
+    steps:
+      - at: gut
+        kind: lives
+        text: "Lives in the colon of most people as a harmless resident. Most strains have pili whose adhesins bind the bladder lining; strains that cause urinary infection also carry extra genes, such as those for pili that bind the kidney, and they too live in the colon without harm."
+      - at: urinary
+        kind: enters
+        ask: "From the colon, which site do these strains most often reach, causing the commonest infection *E. coli* causes outside the gut?"
+        options: [urinary, alveoli, brain]
+        answer: [urinary]
+        why: "Bacteria from the gut reach the skin around the opening of the urethra and climb the short urethra into the bladder. The lungs and the meninges are reached far less often, and only by other routes."
+        text: "Bacteria reach the skin around the opening of the urethra and climb the urethra into the bladder. The female urethra is short, so women are infected far more often than men; a urinary catheter gives the bacteria a path in either sex."
+      - at: urinary
+        kind: damages
+        text: "Adhesins at the tips of the pili bind the cells lining the bladder, so the flow of urine does not wash the bacteria out, and they multiply and inflame the lining: cystitis. Bacteria that climb the ureters to the kidney cause pyelonephritis, with fever and pain in the loin."
+      - at: blood
+        kind: spreads
+        via: blood
+        ask: "From an infected kidney, where can the bacteria spread next?"
+        options: [blood, gut, alveoli]
+        answer: [blood]
+        why: "The kidney has a rich blood supply, and bacteria multiplying there can enter it. Once in the blood, endotoxin in their outer membrane drives the inflammation that can cause shock."
+        text: "From an infected kidney the bacteria can enter the blood. Endotoxin in their outer membrane drives widespread inflammation, and the resulting hypotension can progress to shock."
+
+  - name: "Bloody diarrhoea and the kidney"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Strains that make Shiga toxin live in the gut of cattle, which carry them without illness. They reach people in undercooked minced beef, unpasteurised milk and vegetables contaminated with cattle faeces."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "A small number of swallowed bacteria is enough. In the colon, genes on a pathogenicity island let them attach tightly to the lining."
+      - at: gut
+        kind: damages
+        text: "They release Shiga toxin, encoded by a prophage, which kills cells of the colon lining and of the small blood vessels in its wall. The diarrhoea becomes bloody."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "The toxin, without the bacteria, enters the blood and is carried to small blood vessels throughout the body."
+      - at: urinary
+        kind: damages
+        via: blood
+        ask: "The toxin damages the cells lining small blood vessels. In which organ does it cause the most serious damage?"
+        options: [urinary, liver, alveoli]
+        answer: [urinary]
+        why: "The small vessels of the kidney are the main target of Shiga toxin, which is why kidney failure defines haemolytic uraemic syndrome. The liver and the lungs are not its main targets."
+        text: "In the kidney, damaged small vessels fill with clots, red blood cells are destroyed as they pass, platelets are used up, and the kidneys fail: haemolytic uraemic syndrome, most often in young children, about a week after the diarrhoea began."

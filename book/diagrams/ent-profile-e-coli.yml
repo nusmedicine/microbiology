@@ -1,0 +1,40 @@
+id: ent-profile-e-coli
+name: "Escherichia coli"
+group: "Gram-negative rod · facultative anaerobe · ferments lactose"
+intro: "You met this organism's envelope and metabolism earlier. This card goes one level deeper: predict what decides whether a strain causes disease, and where."
+
+slots:
+  - slot: identity
+    entry: "Gram-negative rod: thin peptidoglycan under an outer membrane whose LPS is endotoxin. Most strains have flagella and pili, and some a polysaccharide capsule. Ferments lactose, so it forms pink colonies on MacConkey agar."
+  - slot: lifestyle
+    entry: "Facultative anaerobe that colonises the gut in the first days of life and stays in the colon of most people for life, outnumbered there by obligate anaerobes such as *Bacteroides fragilis*. Doubles in as little as 20 minutes in good conditions, and gains and passes on genes on plasmids, prophages and pathogenicity islands."
+  - slot: harm
+    predict:
+      stem: "Two *E. coli* isolates look the same on a Gram stain and both form pink colonies on MacConkey agar. One came from a healthy person's stool, the other from a child with bloody diarrhoea. What most likely separates them?"
+      options:
+        - text: "Extra genes in the child's strain, such as a prophage encoding Shiga toxin"
+          correct: true
+          feedback: "Strains that cause bloody diarrhoea carry a prophage for Shiga toxin and a pathogenicity island for attaching to the colon lining, acquired by gene transfer. Resident strains lack them, whatever their number."
+        - text: "A larger number of the same bacteria in the child's gut"
+          correct: false
+          feedback: "Number alone does not change what a strain can do: a resident strain makes no Shiga toxin however much it multiplies. The child's strain carries extra genes the residents lack."
+        - text: "A different relationship with oxygen"
+          correct: false
+          feedback: "Every *E. coli* is a facultative anaerobe. Strains differ in acquired genes for toxins and attachment, not in how they make ATP."
+    entry: "Damage depends on the strain's extra genes and the site it reaches. Adhesins on pili hold it on the bladder lining; enterotoxins make the small intestine secrete salt and water; Shiga toxin kills cells of the colon lining and of small vessels, above all in the kidney; a capsule protects it in a neonate's blood. In the blood, endotoxin drives inflammation that can cause shock."
+  - slot: consequence
+    predict:
+      stem: "Why is *E. coli* the commonest cause of urinary tract infection, especially in women?"
+      options:
+        - text: "It lives in the gut nearby, climbs the short female urethra, and strains with the right pili hold on against the flow of urine"
+          correct: true
+          feedback: "Most urinary infections are endogenous: the bacteria come from the person's own gut. A short urethra gives them a short climb, and adhesins on pili stop the urine washing them out."
+        - text: "It is carried in the blood from the gut to the kidney in most people"
+          correct: false
+          feedback: "Spread through the blood to the kidney is uncommon for *E. coli*. Most urinary infections climb the urethra from the skin around its opening, which gut bacteria reach easily."
+        - text: "It is passed between women on toilet seats"
+          correct: false
+          feedback: "Surfaces play little part. The bacteria come from the person's own gut, which is why the infection is so common."
+    entry: "Most infections are endogenous, from the person's own gut: urinary tract infection, and the bloodstream infection that can follow it. A neonate acquires its strains from the mother at birth. Strains that cause diarrhoea are swallowed in food or water contaminated with faeces, from people or, for strains that make Shiga toxin, from cattle. ESBL genes on plasmids make many strains resistant to most penicillins and cephalosporins."
+  - slot: contrast
+    entry: "*Bacteroides fragilis*, its neighbour in the colon: also a Gram-negative rod, but an obligate anaerobe that causes abscesses after the bowel wall is breached. Within the group, *Salmonella* and *Shigella* form pale colonies on MacConkey agar and are not part of the healthy gut microbiota."

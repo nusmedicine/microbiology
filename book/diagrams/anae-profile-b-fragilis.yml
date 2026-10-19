@@ -1,0 +1,40 @@
+id: anae-profile-b-fragilis
+name: "Bacteroides fragilis"
+group: "Gram-negative rod · obligate anaerobe · capsule"
+intro: "You met this organism's basic profile earlier. This card goes one level deeper: predict what happens when it leaves the colon."
+
+slots:
+  - slot: identity
+    entry: "Gram-negative rod with a thin peptidoglycan wall under an outer membrane, surrounded by a polysaccharide capsule. Obligate anaerobe. Makes a beta-lactamase that destroys the penicillins and many related drugs."
+  - slot: lifestyle
+    entry: "Lives in the colon of most people, a small part of a vast population of anaerobes. It does no harm in the lumen of the gut, and its infections come from the person's own colon, not from other people."
+  - slot: harm
+    predict:
+      stem: "After the colon is perforated, gut contents carry *E. coli* and *B. fragilis* into the peritoneal cavity together. Which happens first?"
+      options:
+        - text: "*E. coli* multiplies, inflames the peritoneum and uses up the oxygen; *B. fragilis* multiplies as the oxygen falls"
+          correct: true
+          feedback: "The peritoneal cavity and its lining, which has a good blood supply, hold oxygen. A facultative anaerobe can use it and an obligate anaerobe cannot, so once *E. coli* has used it up, *B. fragilis* multiplies, and its capsule provokes the host to wall the bacteria off."
+        - text: "*B. fragilis* multiplies first, because it outnumbers *E. coli* in the colon"
+          correct: false
+          feedback: "Numbers in the colon do not decide the order. Oxygen poisons *B. fragilis*, so it cannot multiply until facultative anaerobes such as *E. coli* have used up the oxygen in the peritoneal cavity."
+        - text: "Neither multiplies, because the peritoneal cavity holds no nutrients for them"
+          correct: false
+          feedback: "Spilled gut contents and inflamed tissue give both plenty to grow on. The order is set by oxygen: the facultative anaerobes first, the obligate anaerobes after them."
+    entry: "Mixed infection after the bowel is breached. Facultative anaerobes such as *E. coli* multiply first and use up the oxygen; *B. fragilis* then multiplies, and its capsule resists phagocytes and provokes a host response that walls the bacteria off in pus."
+  - slot: consequence
+    predict:
+      stem: "The infection is walled off as an abscess. Why is the abscess usually drained as well as treated with drugs?"
+      options:
+        - text: "The centre of the abscess has no blood supply, so drugs carried in the blood reach it poorly"
+          correct: true
+          feedback: "Drugs travel in the blood, and pus has none. Draining the pus removes the bacteria that drugs cannot reach."
+        - text: "The capsule makes *B. fragilis* resistant to every drug"
+          correct: false
+          feedback: "The capsule resists phagocytes, not drugs. The problem is reaching the bacteria: the centre of an abscess has no blood supply."
+        - text: "Bacteria walled off in an abscess die without treatment"
+          correct: false
+          feedback: "Walling off contains the bacteria but does not kill them, and an abscess can grow or burst. It is drained because drugs reach its centre poorly."
+    entry: "Abscesses beside the bowel or elsewhere in the abdomen, sometimes in the liver, sometimes with bacteria in the blood. The centre of an abscess has no blood supply, so abscesses are usually drained, and drugs are chosen that act on anaerobes and resist its beta-lactamase."
+  - slot: contrast
+    entry: "*Clostridium perfringens*: also an anaerobe that grows in tissue with little oxygen, but a Gram-positive rod with spores, from soil and the gut. Its toxins destroy muscle and spread through it within hours, leaving little pus."

@@ -1,0 +1,40 @@
+id: entv-profile-norovirus
+name: "Norovirus"
+group: "Non-enveloped single-stranded RNA virus · faecal–oral route · infects the small intestine"
+intro: "Predict two of the five slots. Most of what this virus does follows from a capsid without an envelope and from immunity that does not last."
+
+slots:
+  - slot: identity
+    entry: "A small virus with a single-stranded, positive-sense RNA genome in a protein capsid, without an envelope. There are many genetic types, and new variants that escape existing immunity appear every few years."
+  - slot: lifestyle
+    predict:
+      stem: "Norovirus has no envelope and survives on surfaces for days. During an outbreak on a hospital ward, which hand hygiene measure best stops it spreading on hands?"
+      options:
+        - text: "Washing hands with soap and water"
+          correct: true
+          feedback: "Washing removes the virus physically, whereas alcohol, which readily disrupts a lipid envelope, is less reliable against a capsid without one. Surfaces are cleaned with a chlorine-based disinfectant for the same reason."
+        - text: "Using alcohol hand rub more often"
+          correct: false
+          feedback: "Alcohol readily disrupts a lipid envelope, but a capsid without one resists it much better, so using the rub more often does not make up the difference. Soap and water remove the virus from the hands."
+        - text: "Wearing gloves in place of hand hygiene"
+          correct: false
+          feedback: "Gloves become contaminated and carry the virus from one surface to the next, and hands are contaminated as gloves are removed. Hands are washed with soap and water after gloves come off."
+    entry: "Humans are its reservoir. Shed in very large numbers in vomit and faeces, and very few particles are enough to infect. Spreads from person to person on hands and surfaces, in food handled by an infected person, in water, and in raw shellfish such as oysters; outbreaks are common in care homes, hospital wards, cruise ships and schools. Infects every age and is a leading cause of gastroenteritis in young children."
+  - slot: harm
+    entry: "Infects the lining of the upper small intestine. The villi become shorter and absorb less fluid, and the stomach empties more slowly, so sudden vomiting and watery diarrhoea begin a day or two after exposure and usually stop within a day or two. The danger is dehydration, greatest in frail older adults and young children."
+  - slot: consequence
+    predict:
+      stem: "A woman was ill with norovirus last year. Why can she be ill with it again this year?"
+      options:
+        - text: "Immunity after infection is short-lived, and new variants appear that it does not cover"
+          correct: true
+          feedback: "Protection after norovirus infection does not last, and the virus varies, so people are infected again and again throughout life. No age group stays protected, which is why outbreaks affect adults."
+        - text: "The virus stayed latent in her gut and has reactivated"
+          correct: false
+          feedback: "Norovirus does not become latent. A second illness is a new infection, often with a different variant."
+        - text: "She made no antibodies against the virus"
+          correct: false
+          feedback: "Infection does produce antibodies, and they protect for a time against the same variant. The protection fades, and new variants differ enough to escape it."
+    entry: "Illness is short and most people recover fully, but immunity does not last and the virus varies, so people are infected again throughout life; when immunity is suppressed, as after a transplant, infection can persist for months. Virus is shed in the faeces for weeks after recovery. Control relies on washing hands with soap and water, cleaning with chlorine-based disinfectants, and keeping ill people, including staff and food handlers, away from others until 48 hours after their symptoms stop."
+  - slot: contrast
+    entry: "Rotavirus: also a non-enveloped virus of the small intestine, but a first infection leaves immunity against severe disease, so severe illness falls on infants and young children, and an oral vaccine prevents much of it."

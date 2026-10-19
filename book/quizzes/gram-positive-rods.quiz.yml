@@ -1,0 +1,153 @@
+id: gram-positive-rods
+title: "Check your understanding: Gram-positive rods"
+questions:
+  - id: gr1
+    stem: "Why can *Bacillus* and *Clostridium* in food survive boiling, while *Listeria monocytogenes* is killed by thorough cooking?"
+    options:
+      - text: "*Bacillus* and *Clostridium* form spores: dormant, dehydrated cells inside protective coats"
+        correct: true
+        feedback: "A spore's dehydrated core and coats protect it from heat, drying and chemicals, so it survives 100 °C and germinates when conditions improve. *L. monocytogenes* forms no spores, so cooking kills it."
+      - text: "*Bacillus* and *Clostridium* have a thicker peptidoglycan wall than *Listeria*"
+        correct: false
+        feedback: "All three are Gram-positive, with the same kind of thick wall, and a wall does not protect a growing cell from boiling. The protection comes from the spore."
+      - text: "*Bacillus* and *Clostridium* are anaerobes, and boiling drives oxygen out of food"
+        correct: false
+        feedback: "*Bacillus* grows in air, so oxygen cannot explain its survival. Both genera survive boiling because they form spores, which resist heat whatever the oxygen."
+      - text: "*Bacillus* and *Clostridium* make toxins that protect them from heat"
+        correct: false
+        feedback: "Toxins act on the host and do nothing for the bacterium's own survival. Resistance to heat comes from the spore, a dormant cell with a dehydrated core inside protective coats."
+  - id: gr2
+    stem: "Rice for a staff party is boiled in the morning, left in its pot at room temperature, and fried at lunchtime. Within three hours of eating it, eight people are vomiting; all are well by the next day. Of these Gram-positive rods, which is the most likely cause?"
+    options:
+      - text: "*Bacillus cereus*"
+        correct: true
+        feedback: "Its spores survived the boiling and germinated as the rice cooled slowly. The bacteria released a toxin that frying did not destroy, and the toxin, already in the food, caused vomiting within hours."
+      - text: "*Clostridium botulinum*"
+        correct: false
+        feedback: "Botulinum toxin causes a descending paralysis, not vomiting, and it is made in sealed, low-acid food without oxygen. Rice left in an open pot, then vomiting within hours, points to *B. cereus*."
+      - text: "*Listeria monocytogenes*"
+        correct: false
+        feedback: "*L. monocytogenes* is a hazard of chilled ready-to-eat food, and frying kills it, since it forms no spores. A toxin that survives reheating points to *B. cereus*."
+      - text: "*Clostridioides difficile*"
+        correct: false
+        feedback: "Diarrhoea from *Clostridioides difficile* follows antibacterial drugs that disturb the gut microbiota. It does not cause vomiting in healthy people within hours of a meal."
+  - id: gr3
+    stem: "A 60-year-old man stepped on a garden fork ten days ago, and the small wound on his foot has almost healed. He now cannot open his mouth fully, his neck and back are stiff, and a sudden noise sets off painful spasms. He has had no tetanus booster since childhood. Of these Gram-positive rods, which is the most likely cause?"
+    options:
+      - text: "*Clostridium tetani*"
+        correct: true
+        feedback: "Spores driven deep into the foot germinated where oxygen was low, and the toxin travelled along motor nerves to the spinal cord. With the inhibitory neurons silenced, motor neurons fire unchecked: lockjaw, rigidity and spasms."
+      - text: "*Clostridium botulinum*"
+        correct: false
+        feedback: "Botulism gives weak, floppy muscles, starting with the eyes and throat. Rigidity and spasms after a puncture wound point to *C. tetani*."
+      - text: "*Listeria monocytogenes*"
+        correct: false
+        feedback: "Meningitis from *L. monocytogenes* follows contaminated chilled food in people with weak cell-mediated immunity, with fever, headache and confusion. It does not cause lockjaw, or spasms set off by noise, after a wound to the foot."
+      - text: "*Corynebacterium diphtheriae*"
+        correct: false
+        feedback: "Diphtheria affects the throat, or sometimes a skin ulcer, of an unvaccinated person, and its toxin does not cause lockjaw or spasms. A deep wound contaminated with soil points to *C. tetani*."
+  - id: gr4
+    stem: "In the man with tetanus, why do the muscles contract uncontrollably?"
+    options:
+      - text: "The toxin blocks the release of inhibitory neurotransmitters in the spinal cord and brainstem, so motor neurons fire unchecked"
+        correct: true
+        feedback: "Inhibitory neurons normally hold motor neurons in check. With their neurotransmitters blocked, the motor neurons fire continuously, and the muscles they supply stay contracted."
+      - text: "The toxin stimulates the muscle fibres directly"
+        correct: false
+        feedback: "Tetanus toxin acts on neurons in the central nervous system, which it reaches along motor nerves, and the muscles themselves are normal. They contract because the signals reaching them are no longer held in check."
+      - text: "The bacteria have spread from the wound into the muscles"
+        correct: false
+        feedback: "Only the toxin travels; the bacteria stay in the wound, which may have healed. Muscle rigidity comes from the toxin's action in the spinal cord."
+      - text: "The toxin blocks the release of acetylcholine at the neuromuscular junction"
+        correct: false
+        feedback: "Blocking acetylcholine at the junction is the action of botulinum toxin, and it gives weak, floppy muscles. Rigidity needs the opposite: loss of the brake on motor neurons."
+  - id: gr5
+    stem: "After weeks in intensive care, the man recovers from tetanus. Before he leaves hospital, he is given tetanus toxoid vaccine. Why?"
+    options:
+      - text: "The amount of toxin that caused his illness was too small to provoke protective antibodies, so recovery has left him without immunity"
+        correct: true
+        feedback: "Tetanus toxin is so potent that an amount large enough to cause disease is still too little to provoke protective antibodies. The toxoid is not toxic, so it can be given in an amount that does raise them."
+      - text: "The vaccine kills any bacteria still left in the healed wound"
+        correct: false
+        feedback: "A toxoid raises antibodies against the toxin, and it does not act on the bacteria. It is given because recovery from tetanus leaves no protective antibodies."
+      - text: "His immunity from the illness will fade within a few weeks"
+        correct: false
+        feedback: "Recovery leaves no immunity to fade: the toxin that caused the disease was too little to provoke protective antibodies."
+      - text: "The toxin has destroyed the cells that make his antibodies"
+        correct: false
+        feedback: "Its target is the inhibitory neurons of the spinal cord and brainstem, and the immune system is spared. The problem is the tiny amount of toxin, too small to provoke antibodies."
+  - id: gr6
+    stem: "Two days after a family lunch that included vegetables canned at home, three adults develop double vision, drooping eyelids and difficulty swallowing, and one becomes short of breath. None has a fever, and all are fully alert. Of these Gram-positive rods, which is the most likely cause?"
+    options:
+      - text: "*Clostridium botulinum*"
+        correct: true
+        feedback: "Spores that survived home canning germinated in the sealed, low-acid jar, and the bacteria made toxin there. The swallowed toxin blocked acetylcholine release at the neuromuscular junctions: a flaccid paralysis descending from the cranial nerves, in people who stay alert."
+      - text: "*Clostridium tetani*"
+        correct: false
+        feedback: "Tetanus follows a wound, not a meal, and gives rigid muscles with spasms. Weakness descending from the eyes and throat, after preserved food, points to botulism."
+      - text: "*Bacillus cereus*"
+        correct: false
+        feedback: "Vomiting within hours, without paralysis, is what *B. cereus* toxin in food causes. Double vision and difficulty swallowing point to a toxin acting at the neuromuscular junction."
+      - text: "*Listeria monocytogenes*"
+        correct: false
+        feedback: "When *L. monocytogenes* reaches the meninges it causes fever and confusion, not a descending paralysis in alert people."
+  - id: gr7
+    stem: "A 4-month-old infant who has been given honey on a dummy becomes constipated over several days, then feeds poorly, has a weak cry and becomes floppy. Which detail best explains how the infant acquired botulism?"
+    options:
+      - text: "Spores in the honey germinated in a gut whose microbiota is not yet established, and the bacteria made toxin in the colon"
+        correct: true
+        feedback: "In older children and adults the gut microbiota stops swallowed spores establishing themselves, but in an infant under a year old it cannot yet. The bacteria multiply in the colon, and the toxin they make is absorbed into the blood."
+      - text: "Toxin already formed in the honey was absorbed from the gut"
+        correct: false
+        feedback: "Honey carries spores, not toxin. Infant botulism is an infection: the spores germinate in the infant's gut, and the toxin is made there."
+      - text: "Spores entered through the umbilical stump"
+        correct: false
+        feedback: "Spores in the umbilical stump are the route of neonatal tetanus, which gives rigidity and spasms. Constipation and floppiness after honey point to toxin made in the gut."
+      - text: "Bacteria crossed the placenta before birth"
+        correct: false
+        feedback: "Crossing the placenta is the route of *L. monocytogenes*. Botulism in an infant follows swallowed spores, which germinate in the gut after birth."
+  - id: gr8
+    stem: "A woman who is 30 weeks pregnant has had fever and aching muscles for two days. She often eats soft cheese and smoked salmon from the supermarket chiller. Blood cultures grow a Gram-positive rod. Of these Gram-positive rods, which is the most likely cause?"
+    options:
+      - text: "*Listeria monocytogenes*"
+        correct: true
+        feedback: "Chilled ready-to-eat foods let *L. monocytogenes* multiply in the refrigerator. In pregnancy it causes a mild illness like influenza in the mother, but it can cross the placenta and infect the fetus."
+      - text: "*Bacillus cereus*"
+        correct: false
+        feedback: "*B. cereus* toxin in food causes vomiting within hours, without bacteria in the blood. Fever with a Gram-positive rod in the blood, after chilled foods in pregnancy, points to *L. monocytogenes*."
+      - text: "*Clostridioides difficile*"
+        correct: false
+        feedback: "Infection with *Clostridioides difficile* stays in the colon and follows antibacterial drugs. Bacteria in the blood after chilled foods point to an organism that crosses the gut wall inside cells."
+      - text: "*Corynebacterium diphtheriae*"
+        correct: false
+        feedback: "Diphtheria usually affects the throat and spreads between people, not in food. A Gram-positive rod in the blood of a pregnant woman who eats chilled ready-to-eat food points to *L. monocytogenes*."
+  - id: gr9
+    stem: "On a hospital ward, three patients develop diarrhoea in the same week. All are receiving antibacterial drugs, and staff are told to wash their hands with soap and water instead of using alcohol hand rub. Of these Gram-positive rods, which is the most likely cause?"
+    options:
+      - text: "*Clostridioides difficile*"
+        correct: true
+        feedback: "Antibacterial drugs reduced the resident gut bacteria that keep it in check, and its spores spread between patients on hands and surfaces. Alcohol does not kill spores; washing with soap and water removes them."
+      - text: "*Bacillus cereus*"
+        correct: false
+        feedback: "Food poisoning from *B. cereus* follows a meal of rice kept warm, with vomiting within hours, and has no link to antibacterial drugs."
+      - text: "*Listeria monocytogenes*"
+        correct: false
+        feedback: "Chilled foods carry *L. monocytogenes*, and it forms no spores, so alcohol rub kills it on hands. Diarrhoea spreading on a ward among patients on antibacterial drugs points to *Clostridioides difficile*."
+      - text: "*Clostridium botulinum*"
+        correct: false
+        feedback: "Botulism causes paralysis, not diarrhoea, and it does not pass between patients."
+  - id: gr10
+    stem: "Two strains of *Corynebacterium diphtheriae* are grown from the throats of two children. Only one strain makes diphtheria toxin. Which difference best explains this?"
+    options:
+      - text: "Only the toxin-making strain carries a phage whose genes include the toxin gene"
+        correct: true
+        feedback: "The toxin gene is carried by a phage that has joined the bacterial chromosome. Strains without the phage make no toxin and do not cause diphtheria."
+      - text: "Only the toxin-making strain forms spores"
+        correct: false
+        feedback: "*Corynebacterium diphtheriae* forms no spores at all. Whether a strain makes toxin depends on whether it carries the phage with the toxin gene."
+      - text: "One child was vaccinated, and the vaccine removed the toxin gene from that child's strain"
+        correct: false
+        feedback: "Toxoid vaccine raises antibodies that neutralise the toxin, and it does not change the bacteria. The difference lies in the phage that carries the toxin gene."
+      - text: "Only the toxin-making strain has an outer membrane"
+        correct: false
+        feedback: "Like other Gram-positive bacteria, it has no outer membrane of the Gram-negative kind, and its envelope is the same in strains that make toxin and strains that do not. Toxin production depends on the phage."

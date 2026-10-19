@@ -1,0 +1,40 @@
+id: fgn-profile-n-gonorrhoeae
+name: "Neisseria gonorrhoeae"
+group: "Gram-negative diplococcus · no capsule · lives only on human mucosa"
+intro: "Predict two of the five slots. Its fragility outside the body and its changing surface explain how it spreads and why the same person can catch it again."
+
+slots:
+  - slot: identity
+    entry: "Gram-negative cocci in pairs, often seen inside neutrophils in pus from the urethra. No polysaccharide capsule. More fastidious than the meningococcus: it grows only on enriched media, and dies quickly when dried or cooled."
+  - slot: lifestyle
+    predict:
+      stem: "*N. gonorrhoeae* dies soon after it dries on a surface. How must it pass from person to person?"
+      options:
+        - text: "By direct contact between mucosal surfaces: in sex, and from mother to infant during birth"
+          correct: true
+          feedback: "A bacterium that cannot survive drying must pass directly from one mucosal surface to another. Sexual contact and birth are the occasions when that happens."
+        - text: "On shared towels and other objects"
+          correct: false
+          feedback: "Objects carry organisms that survive drying. The gonococcus dies quickly once it dries, so it passes by direct contact between mucosal surfaces."
+        - text: "In food and water contaminated with faeces"
+          correct: false
+          feedback: "The faecal–oral route suits organisms that survive outside the body and pass through the gut. The gonococcus lives on the mucosa of the genital tract, rectum and throat and passes in sex."
+    entry: "Lives only in humans, on the mucosa of the urethra, cervix, rectum and throat. Passes by sexual contact, and from mother to infant during birth. Infection in women, and in the rectum and throat, is often silent, so people without symptoms pass it on."
+  - slot: harm
+    entry: "Pili and other surface proteins attach it to columnar epithelium, it passes through the epithelial cells, and neutrophils pour in. In men, urethritis with pus; in women, often silent infection of the cervix that can ascend to the fallopian tubes as pelvic inflammatory disease; in neonates, ophthalmia neonatorum. Uncommonly, it spreads in the blood to joints and skin."
+  - slot: consequence
+    predict:
+      stem: "A man treated for gonorrhoea last year has it again. Why did the first infection not protect him?"
+      options:
+        - text: "The bacterium keeps changing its surface proteins, so antibodies against one version miss the next"
+          correct: true
+          feedback: "Antigenic variation: the bacterium recombines silent gene copies into the active gene for its pilus protein and switches other surface proteins on and off. Infection leaves no lasting immunity, and no vaccine reliably prevents it."
+        - text: "Treatment destroyed the antibodies he had made"
+          correct: false
+          feedback: "Antibacterial drugs act on bacteria, not on antibodies. He did make antibodies, but against surface proteins that the bacterium has since changed."
+        - text: "Bacteria from the first infection stayed latent in his urethra and have reactivated"
+          correct: false
+          feedback: "*N. gonorrhoeae* does not become latent. He has a new infection from a partner, and the earlier one gave no lasting protection."
+    entry: "Infection leaves no lasting immunity, largely because of antigenic variation, and no vaccine reliably prevents it; a group B meningococcal vaccine gives partial protection. Silent infection of the fallopian tubes can cause infertility. Resistance has emerged to most of the drug classes once used against it, so isolates are cultured and tested against drugs, and sexual partners are traced and treated."
+  - slot: contrast
+    entry: "*Neisseria meningitidis*: also a Gram-negative diplococcus that dies quickly outside the body, but it lives in the nasopharynx, spreads in respiratory droplets, and has a polysaccharide capsule, which protects it in the blood and is the basis of conjugate vaccines."

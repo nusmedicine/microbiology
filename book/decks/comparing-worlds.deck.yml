@@ -1,0 +1,45 @@
+id: comparing-worlds
+title: "Flashcards: comparing the worlds"
+intro: "Answer each card from the six questions. Say the answer before you check it."
+
+cards:
+  - id: cwd1
+    kind: why
+    front: "Why does an antibacterial drug not shorten influenza?"
+    back: "Antibacterial drugs act on structures that bacteria have and human cells lack, such as peptidoglycan and the 70S ribosome. A virus has no wall, and its proteins are made on the host cell's 80S ribosomes, so the drug has nothing in it to act on; it still acts on the resident bacteria."
+  - id: cwd2
+    kind: why
+    front: "Why are antifungal and antiparasitic drugs fewer than antibacterial drugs, and some of them more toxic?"
+    back: "Fungi, protozoa and helminths are eukaryotes that share most of their machinery with human cells, so few targets differ. Where a difference is only one of degree, as between ergosterol and cholesterol, a drug that acts on the microbe also harms the patient."
+  - id: cwd3
+    kind: apart
+    front: "The size of a protozoan infection versus the size of a helminth infection?"
+    back: "Protozoa multiply inside the human host, so a small inoculum can become a large infection. Most helminths do not, so the number of worms follows the number of eggs or larvae that entered the body."
+  - id: cwd4
+    kind: how
+    front: "How does the route of an infection decide its main means of prevention?"
+    back: "An arthropod vector calls for vector control. Faeces reaching food, water or soil call for sanitation, safe water and hand washing. Spread from person to person, with immunity after recovery, suits a vaccine. A silent infection carried in blood and genital fluids calls for screening and treatment of those infected, condoms and safe needles."
+  - id: cwd5
+    kind: apart
+    front: "Latency in herpes simplex virus versus autoinfection in *Strongyloides stercoralis*?"
+    back: "In latency the viral genome stays silent in sensory nerve cells and makes no new virus until it reactivates. In autoinfection the worm keeps its life cycle going inside one person: larvae mature in the gut and reinfect the same host."
+  - id: cwd6
+    kind: why
+    front: "Why are HIV infection, tuberculosis and falciparum malaria each treated with a combination of drugs?"
+    back: "In each, the organism's population in an untreated patient is large enough that variants resistant to a single drug are likely to be present, or to arise during treatment, and a single drug would select them. Drugs acting on different targets at once suppress a variant resistant to any one of them."
+  - id: cwd7
+    kind: why
+    front: "Why do microscopy and culture differ between the worlds, while NAATs and serology work in the same way for all of them?"
+    back: "Microscopy and culture read structure and growth, which differ between the worlds: viruses are too small to see and grow only in living cells. NAATs read nucleic acid, and serology the host's antibodies, which every kind of microbe has or provokes."
+  - id: cwd8
+    kind: why
+    front: "Why does advanced HIV infection let organisms from several worlds cause disease?"
+    back: "Cell-mediated immunity controls organisms that live inside host cells or persist in a silent state, whatever their kind: *Mycobacterium tuberculosis*, herpesviruses, *Cryptococcus neoformans* and *Toxoplasma gondii*. As CD4 T cells are lost, all of them can reactivate or spread."
+  - id: cwd9
+    kind: apart
+    front: "Which clues in a patient's story separate the kinds of microbe, and which cut across them?"
+    back: "What the laboratory sees and grows, eosinophilia, and the response to antibacterial drugs separate the kinds of microbe. The route and the host factor narrow the list but cross the worlds: a mosquito can carry *Plasmodium falciparum* or dengue virus."
+  - id: cwd10
+    kind: how
+    front: "How does the kind of microbe lead to predictions about an organism never met before?"
+    back: "Each kind brings answers to the other questions. A roundworm, for example, is too large to engulf, so eosinophils respond; it seldom multiplies in the host, so the dose sets the burden; and drugs can act on worm nerve, muscle or tubulin targets."

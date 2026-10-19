@@ -1,0 +1,46 @@
+id: route-p-aeruginosa
+title: "Routes through the body: *Pseudomonas aeruginosa*"
+intro: "Two routes that start in water outside the body and end where a barrier has failed: a burn, and an airway that cannot clear its secretions. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "From hospital water into a burn"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Lives in water and on moist surfaces: sinks, taps, drains, humidifiers and the water that collects in tubing. It needs few nutrients, so it persists there for long periods."
+      - at: skin
+        kind: enters
+        via: direct
+        text: "Reaches skin that a burn has destroyed, on hands, on wet equipment or in water used for washing. Intact skin keeps it out; burned skin does not."
+      - at: tissue
+        kind: multiplies
+        text: "Multiplies in the warm, moist, damaged tissue under the burn and destroys it further with secreted enzymes. On the surface of the wound it grows as a biofilm, which shelters it from drugs and from phagocytes."
+      - at: blood
+        kind: spreads
+        via: blood
+        ask: "The bacteria are multiplying in a large burn whose skin barrier has gone. Where do they go to make the infection life-threatening?"
+        options: [blood, gut, nerves]
+        answer: [blood]
+        why: "From infected tissue the bacteria enter the blood, which carries them and their LPS through the body. They do not travel along nerves, and they reach the gut, if at all, by being swallowed rather than from a wound."
+        text: "Bacteria pass from the wound into the blood. LPS in their outer membrane drives the inflammation of sepsis: fever, dilated and leaky vessels, and falling blood pressure."
+
+  - name: "Into an airway that cannot clear its secretions"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Lives in water, including the water that collects in ventilator tubing and humidifiers, and on wet equipment."
+      - at: airway
+        kind: enters
+        via: air
+        ask: "A tube holds the airway open and passes through the mouth and throat. Which site does it deliver the bacteria to, past the defences that would otherwise stop them?"
+        options: [nose-throat, airway, alveoli]
+        answer: [airway]
+        why: "The tube bypasses the nose, mouth and throat, which filter and clear what is breathed in, and ends in the lower airway, so that is where the bacteria arrive. They reach the alveoli later, if the infection extends into them as pneumonia."
+        text: "Reaches the lower airway along a tube, or in droplets of water from equipment, past the nose and throat that would otherwise filter and clear it."
+      - at: airway
+        kind: multiplies
+        text: "Multiplies in mucus that coughing cannot clear, as in a ventilated patient or in cystic fibrosis, and grows there as a biofilm. Neither drugs nor phagocytes reach it well, so the infection persists."
+      - at: alveoli
+        kind: damages
+        via: air
+        text: "Infection extends into the alveoli as pneumonia, and the inflammation it provokes damages the airway wall. In cystic fibrosis the cycle of infection and inflammation continues for years and scars the lung."

@@ -1,0 +1,45 @@
+id: respiratory-viruses
+title: "Flashcards: respiratory viruses"
+intro: "Explain each answer from where the virus multiplies, its envelope and genome, and the immunity it leaves. Say the answer before you check it."
+
+cards:
+  - id: rvd1
+    kind: why
+    front: "Why do most respiratory viruses have short incubation periods?"
+    back: "They multiply in the epithelium where they enter and are shed from the same surface, so they need not spread through the body before they can be passed on. Measles virus, which spreads through the body before its first symptoms, has an incubation period of 10 to 14 days."
+  - id: rvd2
+    kind: apart
+    front: "Influenza virus versus respiratory syncytial virus: why does each infect people again?"
+    back: "Influenza virus drifts, so antibodies from earlier years bind it poorly. Immunity after RSV infection is incomplete and fades, so even a virus that has changed little infects again."
+  - id: rvd3
+    kind: how
+    front: "How can a bacterial pneumonia follow influenza?"
+    back: "Influenza kills the ciliated epithelial cells of the trachea and bronchi. The damaged lining clears mucus and bacteria poorly and offers bacteria new places to attach, and the immune response to the virus weakens phagocytes, so bacteria from the nose and throat, such as *Streptococcus pneumoniae* and *Staphylococcus aureus*, reach the alveoli and multiply there."
+  - id: rvd4
+    kind: why
+    front: "Why does RSV cause bronchiolitis in an infant but only a cold in the infant's parents?"
+    back: "An infant's bronchioles are narrow, so dead epithelial cells, mucus and swelling block them, and the infant has no immunity from earlier infection, only waning antibody that crossed the placenta from the mother. Adults have wider airways and partial immunity from many earlier infections."
+  - id: rvd5
+    kind: why
+    front: "Why could isolating people once they fell ill not stop SARS-CoV-2 on its own?"
+    back: "Virus is shed from the nose and throat from a day or two before symptoms begin, and by people who never have symptoms, so much of the spread happens before anyone knows to stay away from others."
+  - id: rvd6
+    kind: how
+    front: "How does SARS-CoV-2 reach and damage the alveoli?"
+    back: "Its spike protein binds ACE2, which cells lining the nose, the airway and the alveoli carry. In severe disease the infection spreads down to the alveoli, and the virus and the host's inflammatory response fill them with fluid and inflammatory cells."
+  - id: rvd7
+    kind: how
+    front: "How are young infants protected against RSV?"
+    back: "By an injection of laboratory-made antibody against the virus's fusion protein, which protects for several months, or by vaccinating the mother during pregnancy, so that her antibodies cross the placenta."
+  - id: rvd8
+    kind: apart
+    front: "Enveloped respiratory viruses versus rhinoviruses and adenoviruses: what does the envelope predict for hand hygiene?"
+    back: "Alcohol disrupts an envelope, so alcohol hand rub inactivates influenza virus, SARS-CoV-2 and RSV readily. Rhinoviruses and adenoviruses have no envelope, survive longer on hands and surfaces, and are removed more reliably by washing with soap and water."
+  - id: rvd9
+    kind: why
+    front: "Why do adults catch several colds a year?"
+    back: "Rhinoviruses cause more colds than any other virus, and they exist as more than 100 types. Immunity to one type protects little against the others."
+  - id: rvd10
+    kind: why
+    front: "Why does measles return when vaccine coverage falls, and why is a child more prone to other infections after it?"
+    back: "Measles is one of the most contagious viruses, so vaccine coverage of about 95% is needed to prevent outbreaks. The virus kills many of the memory lymphocytes that hold immunity to infections met before, so for months to years the child is more susceptible to them."

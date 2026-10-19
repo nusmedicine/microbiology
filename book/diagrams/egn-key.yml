@@ -1,0 +1,58 @@
+id: egn-key
+title: "Sorting the environmental Gram-negatives"
+intro: "How one of these bacteria makes ATP, and whether it tolerates salt, predicts which part of the environment it lives in, and that in turn predicts how a person meets it. Pick a branch at each step and read what the trait predicts as well as where it leads."
+start: energy
+
+nodes:
+  - id: energy
+    question: "Can the organism ferment sugars, or does it depend on respiration?"
+    options:
+      - label: "It cannot ferment sugars and depends on respiration, usually with oxygen"
+        meaning: "Without fermentation it needs an electron acceptor, usually oxygen, so it does best in wet places that air reaches: wet surfaces, damp soil and standing water. In the laboratory it grows in air without fermenting sugars, and like the vibrios it is oxidase positive, which sets both apart from the gut Gram-negative rods such as *Escherichia coli*."
+        next: respirer
+      - label: "It ferments sugars as well as respiring, and tolerates salt"
+        meaning: "Fermentation lets it grow where oxygen runs out, and salt tolerance lets it live in the sea and in brackish water. These are the vibrios, curved rods that reach people in water and in seafood."
+        next: vibrio
+  - id: respirer
+    question: "Which wet places does it live in?"
+    options:
+      - label: "Water and moist surfaces, including hospital sinks, taps, drains and equipment"
+        meaning: "It needs few nutrients, so it survives in plumbing, in cleaning solutions and in the water that collects in tubing, and it reaches patients whose skin, airway or cornea is already damaged."
+        next: p-aeruginosa
+      - label: "Wet soil and surface water in the tropics"
+        meaning: "People meet it when soil or surface water touches broken skin, or in spray and dust, so cases follow outdoor work and the rainy season. Diabetes is the host factor that decides who becomes seriously ill."
+        next: b-pseudomallei
+  - id: vibrio
+    question: "Which water, and how does a person meet it?"
+    options:
+      - label: "Fresh or brackish water contaminated with human faeces, swallowed in water or food"
+        meaning: "Faecal–oral spread: faeces from a patient return the bacteria to the water that infects the next person, so outbreaks follow a failure of clean water and sanitation."
+        next: v-cholerae
+      - label: "Warm seawater, and the shellfish that filter it"
+        meaning: "A wound exposed to seawater, or a meal of raw shellfish. Severe infection falls on people with chronic liver disease."
+        next: v-vulnificus
+      - label: "Coastal seawater, swallowed in raw or undercooked seafood"
+        meaning: "The bacteria stay in the gut, so the illness is gastroenteritis within hours to a day of a seafood meal."
+        next: v-parahaemolyticus
+
+leaves:
+  - id: p-aeruginosa
+    name: "*Pseudomonas aeruginosa*"
+    tag: main
+    blurb: "Lives in water and on moist surfaces, including hospital sinks, taps and equipment. Naturally resistant to many drugs, because its outer membrane admits little and its efflux pumps expel much of what enters, and it forms biofilm on surfaces. It damages tissue whose barrier has failed: burns, the lungs in cystic fibrosis, the airway of a ventilated patient, the cornea under a contact lens, and the ear canal."
+  - id: b-pseudomallei
+    name: "*Burkholderia pseudomallei*"
+    tag: main
+    blurb: "Lives in wet soil and surface water in the tropics, above all in South-East Asia, including Singapore, and northern Australia, and causes melioidosis. Enters through broken skin, by inhalation or by swallowing, mostly in the rainy season. Survives inside phagocytes, which carry it to other organs, so it causes pneumonia, abscesses in several organs and sepsis, can persist silently and can relapse."
+  - id: v-cholerae
+    name: "*Vibrio cholerae*"
+    tag: main
+    blurb: "Swallowed in water or food contaminated with human faeces. It stays in the lumen of the small intestine and releases one toxin, which makes the lining secrete salt and water: profuse watery diarrhoea that can kill by dehydration within hours. Treatment is replacement of fluid and salts."
+  - id: v-vulnificus
+    name: "*Vibrio vulnificus*"
+    tag: supporting
+    blurb: "Lives in warm seawater and in shellfish. Infects wounds exposed to seawater, destroying skin and the tissue beneath it within hours, and causes sepsis after raw shellfish. Both forms are most dangerous in people with chronic liver disease."
+  - id: v-parahaemolyticus
+    name: "*Vibrio parahaemolyticus*"
+    tag: supporting
+    blurb: "Lives in coastal seawater and seafood. A common cause of diarrhoea and abdominal pain hours to a day after raw or undercooked seafood, without spread beyond the gut."

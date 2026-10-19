@@ -1,0 +1,45 @@
+id: environmental-gram-negatives
+title: "Flashcards: environmental Gram-negatives"
+intro: "Answer each card from where the organism lives and what it does inside the host. Say the answer aloud before you check it."
+
+cards:
+  - id: egd1
+    kind: why
+    front: "Why do *Pseudomonas* and *Burkholderia* live in water and wet soil rather than in the gut?"
+    back: "Neither ferments sugars, so each depends on an electron acceptor, usually oxygen, and does best where air reaches water. *P. aeruginosa* can use nitrate instead of oxygen, but neither organism competes with the fermenters of the oxygen-free colon."
+  - id: egd2
+    kind: why
+    front: "Why is *Pseudomonas aeruginosa* resistant to several drugs before it acquires any new gene?"
+    back: "Its outer membrane admits fewer drug molecules than that of *Escherichia coli*, efflux pumps expel much of what crosses, and a beta-lactamase encoded in its chromosome destroys several beta-lactams. Resistance shared by a whole species in this way is intrinsic, and acquired resistance is added on top of it."
+  - id: egd3
+    kind: how
+    front: "How does *P. aeruginosa* get the chance to cause disease, and what shelters it once it is there?"
+    back: "A barrier or a local defence fails: skin lost to a burn, mucus that cannot be cleared in cystic fibrosis, an airway held open by a tube, or a cornea under a contact lens; or the neutrophils that would kill it are too few, as after cancer chemotherapy. On a wound surface or a device it grows as biofilm, which drugs penetrate poorly and phagocytes cannot clear."
+  - id: egd4
+    kind: how
+    front: "How does *Burkholderia pseudomallei* reach the body, and when?"
+    back: "Through broken skin in contact with wet soil or surface water, inhaled in spray and dust, or swallowed. Heavy rain brings it to the surface, so cases follow the rainy season and outdoor work in the tropics, above all in South-East Asia, including Singapore, and northern Australia. Most illness begins one to three weeks after the exposure."
+  - id: egd5
+    kind: why
+    front: "Why is diabetes the host factor that matters most in melioidosis?"
+    back: "Diabetes impairs neutrophil function, so bacteria that enter are cleared less well. Two people with the same soil exposure can therefore have different outcomes. Most patients have a host factor of this kind, diabetes most often and sometimes hazardous alcohol use or chronic kidney disease, and some have none."
+  - id: egd6
+    kind: why
+    front: "Why does melioidosis need months of treatment, and why can it relapse or appear years later?"
+    back: "The organism survives and multiplies inside phagocytes, where antibodies and drugs that do not enter cells cannot reach it. Bacteria that persist inside cells can multiply again when defences weaken."
+  - id: egd7
+    kind: apart
+    front: "*P. aeruginosa* versus *B. pseudomallei*: which feature best separates them?"
+    back: "Life inside host cells. *B. pseudomallei* survives inside phagocytes, which carry it to the liver, spleen and other organs, and let it lie silent for years. *P. aeruginosa* stays outside cells and infects the site where a barrier failed. Both are hardy environmental rods with high natural resistance, so those traits separate nothing."
+  - id: egd8
+    kind: how
+    front: "How does one toxin of *Vibrio cholerae* produce litres of diarrhoea?"
+    back: "The toxin enters the cells lining the small intestine and raises the concentration of cyclic AMP in them. The cells secrete chloride, and water and other salts follow into the lumen. The wall is never invaded, so there is no blood in the stool and usually no fever."
+  - id: egd9
+    kind: why
+    front: "Why does replacing fluid and salts treat cholera, and why does a solution of glucose and salts work by mouth?"
+    back: "Death comes from the volume of fluid and salts lost, not from invasion, so replacing them restores the circulation, by mouth where the patient can drink and into a vein once the circulation is failing. Sodium is absorbed alongside glucose, and that transport keeps working while the toxin acts, so water follows the salt back into the body."
+  - id: egd10
+    kind: apart
+    front: "*Vibrio vulnificus* versus *Vibrio parahaemolyticus*: source, site and who is at risk?"
+    back: "Both live in warm seawater and reach people in seafood. *V. parahaemolyticus* stays in the gut and causes diarrhoea. *V. vulnificus* invades: it destroys the tissue of a wound exposed to seawater and causes sepsis after raw shellfish, most dangerously in people with chronic liver disease."

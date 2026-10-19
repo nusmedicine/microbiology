@@ -1,0 +1,72 @@
+id: atyp-key
+title: "Sorting the atypicals and mycobacteria"
+intro: "Every member escapes the routine Gram stain and culture on agar, and the reason also limits which drugs can reach it. Pick a branch at each step and read what each trait predicts as well as where it leads."
+start: reason
+
+nodes:
+  - id: reason
+    question: "Why does the routine toolkit fail on it?"
+    options:
+      - label: "It has no cell wall"
+        meaning: "There is nothing for the Gram stain to read and nothing for drugs that act on the wall to act on. It makes its own ATP, so it can grow without host cells, slowly, on media enriched with sterols, but it is usually detected by a NAAT."
+        next: m-pneumoniae
+      - label: "It grows only inside host cells"
+        meaning: "It will not grow on agar, only in cultures of living cells, so it is detected by a NAAT or by the patient's antibodies. Drugs must cross the host cell's membrane to reach it."
+        next: inside
+      - label: "Its wall is waxy and acid-fast"
+        meaning: "Mycolic acids keep out the Gram stain and many drugs, and the acid-fast stain detects it. Mycobacteria grow more slowly than most bacteria: *M. tuberculosis* takes weeks to grow in culture, its infection develops over weeks to years, and its treatment lasts months."
+        next: myco
+  - id: inside
+    question: "How does it reach a new host?"
+    options:
+      - label: "By sexual contact, at birth, or from eye to eye"
+        meaning: "It lives only in humans and passes directly in genital or eye secretions. It infects the epithelium of mucous membranes, often without symptoms, so it spreads unnoticed, and its lasting harm comes from scarring."
+        next: c-trachomatis
+      - label: "Through the bite or faeces of a tick, louse or flea"
+        meaning: "Arthropods carry it to people. In the body it infects the cells lining small blood vessels, so the illness is a fever, often with a rash. Tick-borne species can also leave an eschar, a dark scab, at the bite."
+        next: rickettsia
+      - label: "Through the bite of a mite larva in rural scrub"
+        meaning: "The mites pass it to their eggs and so maintain it in nature, and infection follows time in rural scrub and grassland. A dark scab, an eschar, often marks the painless bite."
+        next: orientia
+  - id: myco
+    question: "Where does it come from?"
+    options:
+      - label: "A person with active tuberculosis of the lungs"
+        meaning: "It is coughed into the air and inhaled. It survives inside macrophages and is walled into granulomas, where it can stay latent for decades and reactivate when cell-mediated immunity fails."
+        next: m-tuberculosis
+      - label: "A person with untreated leprosy, after close and frequent contact"
+        meaning: "It cannot be grown in culture and grows best below body temperature, so it lives in the skin and peripheral nerves of the cooler parts of the body. It divides so slowly that disease appears years after infection."
+        next: m-leprae
+      - label: "Water and soil"
+        meaning: "It is not usually passed between people. Disease needs an opening: damaged lungs, a wound or procedure contaminated with water, or failing cell-mediated immunity."
+        next: ntm
+
+leaves:
+  - id: m-pneumoniae
+    name: "*Mycoplasma pneumoniae*"
+    tag: main
+    blurb: "Spreads in respiratory particles during close contact, with a long incubation period, so cases in a household appear weeks apart. Damages the ciliated cells of the airway and causes a gradual pneumonia with a dry cough, often milder than the chest X-ray suggests. Drugs that act on the wall cannot treat it."
+  - id: c-trachomatis
+    name: "*Chlamydia trachomatis*"
+    tag: main
+    blurb: "The most common bacterial sexually transmitted infection worldwide, and usually silent. Scarring of the fallopian tubes causes infertility and ectopic pregnancy; infants infected at birth develop conjunctivitis or pneumonia; repeated eye infection causes trachoma and blindness."
+  - id: rickettsia
+    name: "*Rickettsia*"
+    tag: supporting
+    blurb: "Carried by ticks, lice and fleas. Grows free in the cytoplasm of the cells lining small blood vessels, which become inflamed and leak: fever, headache and often a rash."
+  - id: orientia
+    name: "*Orientia tsutsugamushi*"
+    tag: supporting
+    blurb: "Carried by mite larvae in rural scrub and grassland in Asia and the western Pacific, including South-East Asia. Causes scrub typhus: fever and headache, often with an eschar at the bite, and severe or fatal without treatment."
+  - id: m-tuberculosis
+    name: "*Mycobacterium tuberculosis*"
+    tag: main
+    blurb: "Airborne from people with active tuberculosis of the lungs. Survives inside macrophages and is contained in granulomas as a latent infection, which can reactivate when cell-mediated immunity fails. Treated with several drugs for months; BCG protects young children against severe forms."
+  - id: m-leprae
+    name: "*Mycobacterium leprae*"
+    tag: supporting
+    blurb: "Cannot be grown in culture. Grows in the skin and peripheral nerves, where it causes leprosy: loss of sensation, unnoticed injury and deformity. The strength of cell-mediated immunity decides the form of the disease."
+  - id: ntm
+    name: "Non-tuberculous mycobacteria"
+    tag: supporting
+    blurb: "Live in water and soil, including the biofilms inside water pipes, and are not usually passed between people. Cause chronic lung infection in damaged lungs, skin infection after injections, surgery or tattoos, and widespread infection in advanced HIV infection."

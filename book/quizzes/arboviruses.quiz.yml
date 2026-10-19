@@ -1,0 +1,150 @@
+id: arboviruses
+title: "Check your understanding: arthropod-borne viruses"
+questions:
+  - id: ab1
+    stem: "Dengue virus spreads in Singapore only where *Aedes* mosquitoes breed and bite. Which feature of its spread best explains this?"
+    options:
+      - text: "The virus must multiply inside the mosquito before the mosquito can pass it on, and it does not spread between people by touch or respiratory particles"
+        correct: true
+        feedback: "The mosquito is a biological vector: the virus multiplies in its gut and reaches its saliva days after the blood meal. With no other common route between people, the virus can spread only where the vector lives."
+      - text: "Mosquitoes carry the virus on their legs and mouthparts from one person to the next"
+        correct: false
+        feedback: "Carriage on the body, unchanged, would let any biting insect spread the virus. Dengue virus has to multiply inside an *Aedes* mosquito and reach its salivary glands before it can be injected."
+      - text: "The virus survives for weeks in the water where the mosquitoes breed"
+        correct: false
+        feedback: "An enveloped virus survives poorly outside a host, and people are not infected from water. Containers of water matter because mosquitoes breed in them; the virus reaches people in a mosquito's saliva."
+      - text: "People with dengue pass the virus to others in respiratory particles"
+        correct: false
+        feedback: "Dengue virus is not shed in respiratory particles. A person with fever passes it on only to the mosquitoes that bite, through the virus in the blood."
+  - id: ab2
+    stem: "A 26-year-old office worker in Singapore has had a sudden high fever for three days, with severe headache, pain behind the eyes, and aching muscles and joints. His platelet count is low. Two of his neighbours were ill last week. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Dengue virus"
+        correct: true
+        feedback: "Sudden fever with headache, pain behind the eyes and aching, a low platelet count, and cases clustered around homes point to dengue virus, which is endemic in Singapore and carried by *Aedes* mosquitoes that breed near homes."
+      - text: "Chikungunya virus"
+        correct: false
+        feedback: "Chikungunya virus also causes sudden fever, but its hallmark is severe, disabling pain in many joints, and a marked fall in platelets is uncommon. Pain behind the eyes and a low platelet count point to dengue virus."
+      - text: "Zika virus"
+        correct: false
+        feedback: "Zika virus usually causes no symptoms, or a mild illness with an itchy rash, red eyes and little fever. A high fever with a low platelet count points to dengue virus."
+      - text: "Japanese encephalitis virus"
+        correct: false
+        feedback: "Japanese encephalitis virus is caught in rural areas with rice fields and pigs, and in the few people who become ill it causes encephalitis. An office worker in the city with fever and aching fits dengue virus."
+  - id: ab3
+    stem: "On the fifth day of his illness, the office worker's fever settles and he says he feels better. That evening he is restless, with abdominal pain and cold hands, and the proportion of red cells in his blood has risen sharply. Which explanation fits best?"
+    options:
+      - text: "Small blood vessels are leaking plasma, so his blood is concentrated and its volume is falling"
+        correct: true
+        feedback: "The dangerous phase of dengue comes as the fever settles. Plasma leaks from small vessels for a day or two, which concentrates the red cells and reduces the volume of blood, and shock can follow unless the lost fluid is replaced."
+      - text: "He is recovering, and the rise in red cells shows that his bone marrow is replacing lost cells"
+        correct: false
+        feedback: "A sharp rise in the proportion of red cells within hours reflects loss of plasma, because new red cells take days to make. Restlessness and cold hands are signs of a falling volume of blood."
+      - text: "The virus has spread to his brain"
+        correct: false
+        feedback: "Dengue virus rarely affects the brain, and infection of the brain would not concentrate the blood. Restlessness and cold hands with concentrated blood point to plasma leakage."
+      - text: "He has been infected with a second serotype"
+        correct: false
+        feedback: "A second serotype would need a new bite and an incubation period of several days. The change on the day the fever settles is the leaking phase of the infection he already has."
+  - id: ab4
+    stem: "Severe dengue is more likely in a second infection with a different serotype than in a first infection. Which explanation is best supported?"
+    options:
+      - text: "Antibodies from the first infection bind the new serotype without neutralising it and help it into white blood cells, so more cells are infected"
+        correct: true
+        feedback: "This antibody-dependent enhancement increases the number of infected cells and the amount of virus. Antibodies against the serotype that caused the first infection still neutralise that serotype and protect against it."
+      - text: "The first infection left the blood vessels permanently damaged"
+        correct: false
+        feedback: "The leak in severe dengue is temporary, and the vessels recover after a day or two. The difference in a second infection lies in how the antibodies from the first one handle the new serotype."
+      - text: "Immunity from the first infection has faded completely, so the second is like a first infection"
+        correct: false
+        feedback: "If that were so, the second infection would be no more severe than the first. Immunity to the first serotype lasts; the risk comes from antibodies that bind the new serotype without neutralising it."
+      - text: "Each serotype is more virulent than the one before it"
+        correct: false
+        feedback: "Severe dengue can follow a second infection with any serotype different from the first. The extra risk comes from the antibodies left by the earlier infection, and not from a more virulent virus."
+  - id: ab5
+    stem: "A 29-year-old woman in Singapore who is 11 weeks pregnant has had an itchy rash, red eyes and aching joints for three days, with little fever. Several people in her housing estate have had a similar illness. A scan later in the pregnancy shows that the fetal head is small. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Zika virus"
+        correct: true
+        feedback: "A mild illness with an itchy rash and red eyes, in a cluster of cases, fits Zika virus. Infection in pregnancy can cross the placenta and damage the developing brain, causing microcephaly, even when the mother's illness is mild."
+      - text: "Dengue virus"
+        correct: false
+        feedback: "Microcephaly after a mild illness with a rash and red eyes points to Zika virus, which crosses the placenta and infects the cells that build the fetal brain. Dengue virus typically causes high fever, headache and aching, and its danger is plasma leakage in the person infected."
+      - text: "Chikungunya virus"
+        correct: false
+        feedback: "Chikungunya virus usually causes high fever and severe joint pain. A small fetal head, from a brain that has not grown, is the pattern of Zika virus."
+      - text: "Japanese encephalitis virus"
+        correct: false
+        feedback: "Japanese encephalitis virus is caught in rural areas from mosquitoes that feed on pigs and wading birds, and it does not cause clusters of rash in a city housing estate. Rash, red eyes and a small fetal head point to Zika virus."
+  - id: ab6
+    stem: "A 32-year-old woman who lives in a city without *Aedes* mosquitoes, and has not travelled, is found to be infected with Zika virus. Her husband returned three weeks ago from a country with an outbreak, where he had a mild rash. Which detail best explains her infection?"
+    options:
+      - text: "Zika virus persists in semen for weeks, and sometimes months, after it has cleared from the blood"
+        correct: true
+        feedback: "Sexual contact is the route. His blood was probably clear of virus by the time he returned, but his semen could still carry it, so she was infected without a mosquito."
+      - text: "Zika virus spreads in respiratory particles, as influenza virus does"
+        correct: false
+        feedback: "Zika virus does not spread in respiratory particles. Without mosquitoes, it reaches a partner by sexual contact."
+      - text: "A mosquito carried in his luggage bit her"
+        correct: false
+        feedback: "One stray mosquito is an unlikely explanation when a direct route exists. The virus persists in semen and passes to a partner during sex."
+      - text: "She was infected from his towels and clothes"
+        correct: false
+        feedback: "An enveloped virus survives poorly on fabric, and Zika virus is not spread by touch. Her husband's semen carried it."
+  - id: ab7
+    stem: "A 58-year-old woman in Singapore develops a sudden high fever, a rash and severe pain in her fingers, wrists and ankles on both sides, so that she cannot open a jar or walk without help. Her platelet count is normal. Three months later her wrists are still stiff and painful. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Chikungunya virus"
+        correct: true
+        feedback: "Sudden fever with severe, disabling pain in many joints on both sides, and pain lasting months in an older adult, is the pattern of chikungunya virus, which infects the tissues of the joints."
+      - text: "Dengue virus"
+        correct: false
+        feedback: "Dengue virus causes aching muscles and joints, but its main features are headache, pain behind the eyes and a low platelet count, and the pain does not usually last for months. Severe, lasting joint pain points to chikungunya virus."
+      - text: "Zika virus"
+        correct: false
+        feedback: "Zika virus can cause aching joints, but the illness is mild and lasts a few days. Disabling joint pain that lasts for months points to chikungunya virus."
+      - text: "Japanese encephalitis virus"
+        correct: false
+        feedback: "Japanese encephalitis virus harms the brain in the few people who become ill, and it does not cause joint pain. Lasting joint pain after a fever points to chikungunya virus."
+  - id: ab8
+    stem: "A 7-year-old boy in a rice-farming village in rural Asia, where pigs are kept near the houses, develops fever and headache, then becomes confused and has seizures. He has not been vaccinated. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Japanese encephalitis virus"
+        correct: true
+        feedback: "Encephalitis in an unvaccinated child in a rural area with rice fields and pigs points to Japanese encephalitis virus. *Culex* mosquitoes breed in the rice fields and carry the virus from pigs and wading birds; most infections are silent, but encephalitis can be fatal or leave lasting damage."
+      - text: "Dengue virus"
+        correct: false
+        feedback: "Dengue virus spreads around homes in towns and cities, and it rarely affects the brain. Rice fields, pigs and encephalitis point to Japanese encephalitis virus."
+      - text: "Chikungunya virus"
+        correct: false
+        feedback: "Chikungunya virus causes fever and severe joint pain, and the brain is rarely involved. Confusion and seizures in a child near rice fields and pigs point to Japanese encephalitis virus."
+      - text: "Zika virus"
+        correct: false
+        feedback: "Zika virus damages the brain of a fetus infected before birth; in a child, the illness is usually mild. Encephalitis in a child in a rural village with pigs and rice fields points to Japanese encephalitis virus."
+  - id: ab9
+    stem: "Japanese encephalitis virus is carried by mosquitoes, as dengue virus is, yet a person infected with it does not start a chain of infection in the village. Why?"
+    options:
+      - text: "Too little virus reaches human blood, for too short a time, to infect a mosquito, so humans are dead-end hosts"
+        correct: true
+        feedback: "Mosquitoes take up enough virus to become infected only from pigs and wading birds, in which the virus reaches high levels in the blood. The cycle runs through these animals, and people are infected from it without passing it on."
+      - text: "Patients are too ill to be bitten"
+        correct: false
+        feedback: "Most infections cause no symptoms at all, and these people are bitten as often as anyone. They do not pass the virus on because too little of it reaches their blood."
+      - text: "The mosquitoes that carry it do not bite humans"
+        correct: false
+        feedback: "*Culex* mosquitoes do bite humans, which is how people are infected. Infection passes in one direction only, from the animal cycle to people."
+      - text: "The vaccine stops infected people from passing it on"
+        correct: false
+        feedback: "Japanese encephalitis vaccine protects the person vaccinated, but even in an unvaccinated village an infected person does not pass the virus on, because too little of it reaches the blood."
+  - id: ab10
+    stem: "Singapore releases large numbers of male *Aedes aegypti* mosquitoes carrying the bacterium *Wolbachia*. Why does releasing more mosquitoes reduce dengue?"
+    options:
+      - text: "Male mosquitoes do not bite, and when they mate with wild females the eggs do not hatch, so the number of *Aedes aegypti* falls"
+        correct: true
+        feedback: "Fewer *Aedes aegypti* means fewer bites that can carry dengue virus between people. The released males add no bites of their own, because only females feed on blood."
+      - text: "*Wolbachia* passes into people through the males' bites and kills dengue virus"
+        correct: false
+        feedback: "Male mosquitoes do not bite, so they pass nothing to people. The releases act on the mosquito population, through eggs that do not hatch."
+      - text: "The released males eat the larvae of wild mosquitoes"
+        correct: false
+        feedback: "Adult mosquitoes do not feed on larvae. The effect comes from mating: eggs fathered by males carrying *Wolbachia* do not hatch."

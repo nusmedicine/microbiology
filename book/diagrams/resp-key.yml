@@ -1,0 +1,65 @@
+id: resp-key
+title: "Sorting the respiratory viruses"
+intro: "Genome and envelope predict how well a respiratory virus survives outside the body and how it changes; who suffers severe disease separates the viruses that share a structure. Pick a branch at each step and read what the trait predicts as well as where it leads."
+start: structure
+
+nodes:
+  - id: structure
+    question: "What is the genome, and does the virion have an envelope?"
+    options:
+      - label: "RNA, with an envelope"
+        meaning: "Drying, detergents and alcohol disrupt the lipid envelope, so the virus survives less well on hands and surfaces than a virus without an envelope and spreads mainly in respiratory particles and by close contact. Its own RNA polymerase copies the genome, and the copying errors produce variants."
+        next: sense
+      - label: "RNA, without an envelope"
+        meaning: "The protein capsid survives longer on hands and surfaces than an enveloped virus and resists alcohol better, so washing with soap and water matters more."
+        next: rhinovirus
+      - label: "Double-stranded DNA, without an envelope"
+        meaning: "The capsid survives for long periods on hands, surfaces and instruments and in poorly chlorinated water, so outbreaks follow close contact, shared water and shared equipment."
+        next: adenovirus
+  - id: sense
+    question: "Is the RNA genome positive-sense or negative-sense?"
+    options:
+      - label: "Positive-sense"
+        meaning: "Host ribosomes can translate the genome as soon as it is uncoated. In this group, a coronavirus whose spike protein binds ACE2 on cells of the nose, the airway and the alveoli; the risk of severe disease rises steeply with age and chronic disease."
+        next: sars-cov-2
+      - label: "Negative-sense"
+        meaning: "The virion carries its own RNA polymerase, because the genome must be copied into mRNA before any viral protein can be made. Three viruses in this group share the trait; who is most at risk separates them."
+        next: risk
+  - id: risk
+    question: "Who is most at risk of severe disease?"
+    options:
+      - label: "Older adults, pregnant women and people with chronic disease"
+        meaning: "The genome is in eight segments. The virus drifts every year and occasionally shifts, so immunity from earlier years protects only partly and people of every age are infected. Severe disease, which also threatens young children, comes when the infection reaches the alveoli or bacteria follow into the damaged airway."
+        next: influenza
+      - label: "Young infants, above all in the first six months of life"
+        meaning: "Dead cells, mucus and swelling block the narrow bronchioles of a young infant. Immunity after infection is incomplete and fades, so people are infected again throughout life, and older adults are also at risk of pneumonia."
+        next: rsv
+      - label: "Unvaccinated young children, especially if malnourished, and people with weakened immunity"
+        meaning: "One of the most contagious viruses, spread through the air, so anyone without immunity can be infected; it spreads through the body before a rash appears. It exists as one type, so immunity after infection or vaccination lasts for life, and outbreaks follow when vaccine coverage falls."
+        next: measles
+
+leaves:
+  - id: influenza
+    name: "Influenza virus"
+    tag: main
+    blurb: "Spread in respiratory particles and on hands, with an incubation period of one to four days. Drift brings it back every year, and shift, a haemagglutinin new to people, can cause a pandemic. Severe disease in older adults, young children, pregnant women and people with chronic disease, sometimes from bacteria that follow into the damaged airway. The vaccine is updated each year, and drugs block its neuraminidase or its polymerase."
+  - id: sars-cov-2
+    name: "SARS-CoV-2"
+    tag: main
+    blurb: "A coronavirus whose spike protein binds ACE2 on cells of the nose, the airway and the alveoli. Shed from a day or two before symptoms begin, and by people who never have them. COVID-19 ranges from no symptoms to pneumonia and respiratory failure, with the risk rising steeply with age and chronic disease; vaccines greatly reduce severe disease."
+  - id: rsv
+    name: "Respiratory syncytial virus"
+    tag: main
+    blurb: "Infects almost every child by the age of two, and people again throughout life, because immunity after infection is incomplete. Blocks the narrow bronchioles of young infants (bronchiolitis) and causes pneumonia in older adults. Infants are protected by an injection of antibody or by vaccinating the mother during pregnancy."
+  - id: rhinovirus
+    name: "Rhinoviruses"
+    tag: supporting
+    blurb: "Cause more colds than any other virus. They grow best at the cooler temperature of the nose, and there are more than 100 types, so colds return again and again."
+  - id: adenovirus
+    name: "Adenoviruses"
+    tag: supporting
+    blurb: "Non-enveloped DNA viruses that survive on hands, surfaces and instruments and in poorly chlorinated water. Cause sore throat with fever and conjunctivitis, with outbreaks among people in close quarters, in swimming pools and in eye clinics."
+  - id: measles
+    name: "Measles virus"
+    tag: supporting
+    blurb: "One of the most contagious viruses, spread through the air. Fever, cough, a runny nose and red eyes, then a rash spreading from the face down the body. One type, so immunity lasts for life; outbreaks follow when vaccine coverage falls. Kills memory lymphocytes, leaving a child more susceptible to other infections for months to years."

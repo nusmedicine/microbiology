@@ -1,0 +1,40 @@
+id: egn-profile-p-aeruginosa
+name: "Pseudomonas aeruginosa"
+group: "Gram-negative rod · cannot ferment sugars, depends on respiration · lives in water and on moist surfaces"
+intro: "Predict two of the five slots. Almost everything this organism does follows from two facts: it lives in water outside any host, and its envelope keeps drugs out."
+
+slots:
+  - slot: identity
+    entry: "Gram-negative rod with a thin peptidoglycan layer under an outer membrane carrying LPS. Oxidase positive, from cytochrome c oxidase in its respiratory chain. Swims with flagella, grows as biofilm on surfaces, and makes a blue-green pigment."
+  - slot: lifestyle
+    entry: "Cannot ferment sugars, so it depends on respiration and does best where water meets air: sinks, taps, drains, humidifiers, ventilator tubing and contaminated solutions of disinfectant. It can respire with nitrate instead of oxygen, which lets it grow in thick, oxygen-poor mucus. It needs few nutrients, survives in water for long periods, and grows overnight on ordinary media in air."
+  - slot: harm
+    predict:
+      stem: "*P. aeruginosa* is common in hospital water, and intact skin and a clear airway keep it out of tissue. Which patient is it most likely to harm?"
+      options:
+        - text: "A patient whose skin has been destroyed by extensive burns"
+          correct: true
+          feedback: "Loss of the barrier is what this organism needs. It multiplies in the warm, moist, damaged tissue of a burn, forms biofilm on the wound surface and can pass from there into the blood."
+        - text: "A healthy adult who drinks water from a contaminated tap"
+          correct: false
+          feedback: "Swallowing the bacteria rarely harms a person with normal defences. Disease follows a failed barrier, such as burned skin, an airway held open by a tube, mucus that cannot be cleared or a cornea under a contact lens, or the loss of the neutrophils that kill bacteria that get in."
+        - text: "A healthy adult who washes their hands at a contaminated sink"
+          correct: false
+          feedback: "Intact skin is an effective barrier against this organism, which is why it is carried on hands to patients more often than it harms the person carrying it."
+    entry: "Multiplies in damaged tissue and destroys it with secreted enzymes: burns, the ear canal after water remains in it, and the cornea under a contact lens. On plastic and on a lens it forms biofilm. In an airway that cannot clear its secretions it persists for years, and the inflammation it provokes damages the airway wall. From infected tissue or a device it can enter the blood, where LPS drives the inflammation of sepsis, and it does so most readily in a patient with extensive burns or too few neutrophils."
+  - slot: consequence
+    predict:
+      stem: "Several drugs that act well on *Escherichia coli* fail against *P. aeruginosa* even in a strain from a patient who has never been treated. What explains this best?"
+      options:
+        - text: "Its outer membrane admits little of the drug, efflux pumps expel what crosses, and a beta-lactamase in its chromosome destroys several beta-lactams"
+          correct: true
+          feedback: "Resistance of this kind belongs to the whole species, not to one strain, so treatment starts from a shorter list of drugs, and acquired resistance shortens it further."
+        - text: "The strain must have acquired resistance genes from other bacteria in the hospital"
+          correct: false
+          feedback: "Acquired resistance does occur in this species and makes matters worse, but a strain from an untreated patient is already resistant to several drugs: the envelope, the efflux pumps and the chromosomal beta-lactamase are the property of the species."
+        - text: "It forms spores that drugs cannot penetrate"
+          correct: false
+          feedback: "No Gram-negative rod makes spores; spores are made by a few groups of Gram-positive rods. What limits the drugs here is the cell envelope, with pumps and an enzyme behind it."
+    entry: "Infections that are hard to treat: a narrow choice of drugs from the start, biofilm that shelters the bacteria from the drugs that remain, and acquired resistance on top. Infection follows the failure of a barrier, so prevention works through wound care, device care and keeping water and equipment out of damaged tissue."
+  - slot: contrast
+    entry: "*Burkholderia pseudomallei*: also an environmental Gram-negative rod that depends on respiration and resists many drugs, but its home is wet soil instead of hospital water, the host factor is diabetes instead of a failed barrier, and it survives inside phagocytes, so it forms abscesses in several organs and can relapse years later."

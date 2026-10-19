@@ -1,0 +1,150 @@
+id: enterobacterales
+title: "Check your understanding: Enterobacterales"
+questions:
+  - id: en1
+    stem: "A stool sample cultured on MacConkey agar grows many pink colonies and a few pale ones. Why does the laboratory pick the pale colonies for further tests?"
+    options:
+      - text: "Most resident *E. coli* ferment lactose; *Salmonella* and *Shigella* do not"
+        correct: true
+        feedback: "Lactose fermentation separates most residents from two of the main gut pathogens. The acid made from lactose turns the dye pink, so pale colonies stand out among the many pink colonies of *E. coli*."
+      - text: "Pale colonies are Gram-positive bacteria, which cause most bacterial diarrhoea"
+        correct: false
+        feedback: "Bile salts in MacConkey agar suppress most Gram-positive bacteria, so the colonies on it are mainly Gram-negative rods of the gut. The colour shows whether they ferment lactose."
+      - text: "Pale colonies show that the bacteria carry extra genes for toxins, which only pathogens have"
+        correct: false
+        feedback: "Colony colour shows lactose fermentation, not virulence genes: *E. coli* that makes Shiga toxin ferments lactose and forms pink colonies like the residents."
+      - text: "Pale colonies grow only without oxygen, so they must be anaerobes"
+        correct: false
+        feedback: "Plates of MacConkey agar are usually incubated in air, and every colony on them grew in air. Colour reflects lactose fermentation, not the relationship with oxygen."
+  - id: en2
+    stem: "A 24-year-old woman has had pain on passing urine, and has needed to pass urine frequently, for two days. She has no fever. Of these Enterobacterales, which is the most likely cause?"
+    options:
+      - text: "*Escherichia coli*"
+        correct: true
+        feedback: "Cystitis in a young woman is most often caused by *E. coli* from her own gut. It climbs the short urethra, and adhesins on its pili hold it on the bladder lining against the flow of urine."
+      - text: "*Klebsiella pneumoniae*"
+        correct: false
+        feedback: "*K. pneumoniae* does cause urinary infection, but mainly in hospital patients with a urinary catheter. In a healthy young woman, *E. coli* from her own gut is far more likely."
+      - text: "*Shigella*"
+        correct: false
+        feedback: "*Shigella* invades the lining of the colon and causes dysentery. It does not infect the bladder."
+      - text: "*Salmonella* Typhi"
+        correct: false
+        feedback: "*S.* Typhi spreads inside macrophages to the blood, liver and spleen, causing a sustained fever. Pain on passing urine without fever points to cystitis from *E. coli*."
+  - id: en3
+    stem: "*E. coli* that reaches the bladder holds on with pili tipped with adhesins that bind the bladder lining. Why does this help it cause infection?"
+    options:
+      - text: "The flow of urine washes out bacteria that cannot hold on to the lining"
+        correct: true
+        feedback: "Urine flushes the bladder several times a day. Bacteria whose adhesins bind the cells lining it stay and multiply, while bacteria without them are washed out."
+      - text: "The pili let the bacteria swim up the ureters to the kidney"
+        correct: false
+        feedback: "Pili attach; swimming needs flagella. The advantage pili give is that the bacteria are not washed out by urine."
+      - text: "The pili inject a toxin into the blood"
+        correct: false
+        feedback: "Cystitis is not a toxin disease. Pili and their adhesins attach the bacteria, and the inflammation of the bladder lining follows from bacteria multiplying there."
+      - text: "The pili make the bacteria resistant to drugs"
+        correct: false
+        feedback: "Resistance comes from separate genes, such as those for ESBLs. Pili act at an earlier step: attachment, without which the bacteria would be washed out."
+  - id: en4
+    stem: "Four days after eating a hamburger at a barbecue, a 5-year-old boy develops abdominal cramps and diarrhoea, which becomes bloody. A week later he is pale and passing very little urine. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*E. coli* that makes Shiga toxin"
+        correct: true
+        feedback: "Undercooked minced beef carries strains from cattle that make Shiga toxin. The toxin kills cells of the colon lining, causing bloody diarrhoea, then reaches the kidney in the blood: haemolytic uraemic syndrome."
+      - text: "*E. coli* that makes enterotoxins, the travellers' diarrhoea strains"
+        correct: false
+        feedback: "Enterotoxins make the small intestine secrete salt and water, so the diarrhoea is watery, without blood and without kidney damage. Shiga toxin explains both the blood and the kidney failure."
+      - text: "Non-typhoidal *Salmonella*"
+        correct: false
+        feedback: "Non-typhoidal *Salmonella* causes gastroenteritis a day or two after a meal, and it does not make Shiga toxin. Bloody diarrhoea followed by kidney failure points to Shiga toxin."
+      - text: "*Klebsiella pneumoniae*"
+        correct: false
+        feedback: "*K. pneumoniae* causes hospital pneumonia, urinary and bloodstream infection, and liver abscess. It does not cause bloody diarrhoea after a meal."
+  - id: en5
+    stem: "In the boy with bloody diarrhoea, his kidneys fail although no bacteria are found in his blood. Which detail best explains this?"
+    options:
+      - text: "Shiga toxin made in the gut crosses into the blood and damages the lining of small blood vessels in the kidney"
+        correct: true
+        feedback: "The bacteria stay in the colon, and the toxin travels without them. In the kidney, damaged small vessels fill with clots, red cells are destroyed as they pass, and the kidneys fail."
+      - text: "The bacteria climbed from the bladder to the kidney"
+        correct: false
+        feedback: "That is the route of pyelonephritis, which would give bacteria in the urine and often fever. Here the damage comes from a toxin carried in the blood from the gut."
+      - text: "Endotoxin from bacteria multiplying in the blood"
+        correct: false
+        feedback: "No bacteria were found in the blood. The kidney damage comes from Shiga toxin, an exotoxin released in the colon that enters the blood on its own."
+      - text: "Antibodies made against the bacteria cross-react with the kidney"
+        correct: false
+        feedback: "Cross-reacting antibodies cause rheumatic fever weeks after a streptococcal infection. In this boy the toxin itself damages the small vessels of the kidney."
+  - id: en6
+    stem: "A 55-year-old man in Singapore with diabetes has had high fever and pain under the right ribs for a week. A scan shows an abscess in the liver, and he now has blurred vision in one eye. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Klebsiella pneumoniae*"
+        correct: true
+        feedback: "Hypervirulent strains, with an extra-thick capsule, are the commonest cause of liver abscess caused by bacteria in East and South-East Asia, often in people with diabetes. From the abscess, bacteria in the blood can settle inside the eye: endophthalmitis."
+      - text: "*Escherichia coli*"
+        correct: false
+        feedback: "*E. coli* can cause a liver abscess, usually from disease of the bile ducts. A liver abscess that spreads to the eye in a man with diabetes in Singapore points to hypervirulent *K. pneumoniae*."
+      - text: "*Salmonella* Typhi"
+        correct: false
+        feedback: "*S.* Typhi multiplies inside macrophages in the liver and spleen and causes a sustained fever, but it does not usually form a liver abscess or spread to the eye."
+      - text: "*Shigella*"
+        correct: false
+        feedback: "*Shigella* stays in the lining of the colon and causes dysentery. It rarely enters the blood and does not form liver abscesses."
+  - id: en7
+    stem: "A patient in intensive care has pneumonia caused by *K. pneumoniae* that makes a carbapenemase. A week later, an *E. coli* from another patient on the same ward makes the same carbapenemase. What is the most likely explanation?"
+    options:
+      - text: "The carbapenemase gene is on a plasmid that passed from *K. pneumoniae* to *E. coli*"
+        correct: true
+        feedback: "Plasmids pass by conjugation between members of the group living side by side in the gut, and staff hands and equipment carry the bacteria between patients. One resistant strain can therefore spread its gene through a ward."
+      - text: "Treatment with carbapenems made the *E. coli* produce the enzyme"
+        correct: false
+        feedback: "A drug does not create a resistance gene. Carbapenem use selects bacteria that already carry one, and here the gene most likely arrived on a plasmid."
+      - text: "*E. coli* and *K. pneumoniae* are the same species, so they share all their genes"
+        correct: false
+        feedback: "They are different species, which share genes only when a plasmid or other mobile element carries them across. That is what happened here."
+  - id: en8
+    stem: "Twenty people develop diarrhoea, fever and abdominal cramps a day after a buffet that included a dessert made with raw eggs. All recover within a week. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "Non-typhoidal *Salmonella*"
+        correct: true
+        feedback: "Poultry and eggs carry non-typhoidal serotypes, which multiply in food left warm. They invade the lining of the gut and cause gastroenteritis a day or two later, which settles within a week."
+      - text: "*Salmonella* Typhi"
+        correct: false
+        feedback: "*S.* Typhi lives only in humans, so eggs are not its source, and enteric fever begins one to two weeks after infection, often without diarrhoea."
+      - text: "*Shigella*"
+        correct: false
+        feedback: "*Shigella* lives only in humans and spreads mainly from person to person, causing dysentery. A shared meal with raw eggs, and illness a day later, points to non-typhoidal *Salmonella*."
+      - text: "*Proteus mirabilis*"
+        correct: false
+        feedback: "*P. mirabilis* lives in the gut harmlessly and causes urinary tract infection, not outbreaks of diarrhoea after a meal."
+  - id: en9
+    stem: "Ten days after returning from a month with family in South Asia, where she ate street food, a 20-year-old student develops a fever that rises day by day, headache and abdominal pain, with constipation and no diarrhoea. Blood cultures grow a Gram-negative rod that forms pale colonies on MacConkey agar. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Salmonella* Typhi"
+        correct: true
+        feedback: "A fever that builds over days, one to two weeks after travel to an area where typhoid is common, with bacteria in the blood, points to enteric fever. *S.* Typhi crosses the gut lining with little inflammation, so diarrhoea is often absent."
+      - text: "Non-typhoidal *Salmonella*"
+        correct: false
+        feedback: "Non-typhoidal serotypes cause gastroenteritis a day or two after a meal, with diarrhoea. A rising fever ten days after travel, without diarrhoea, points to *S.* Typhi."
+      - text: "*Shigella*"
+        correct: false
+        feedback: "*Shigella* causes dysentery, with blood in the stool, and rarely enters the blood. This student has no diarrhoea at all."
+      - text: "*Escherichia coli*"
+        correct: false
+        feedback: "Most *E. coli* ferment lactose and form pink colonies. Pale colonies from the blood, with this history, point to *S.* Typhi."
+  - id: en10
+    stem: "Three children at the same childcare centre develop fever, abdominal cramps and frequent small stools with blood and mucus within a few days of each other. They have not shared any food outside the centre. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Shigella*"
+        correct: true
+        feedback: "As few as 10 to 100 *Shigella* bacteria cause infection, so they pass from child to child on hands and toys. Blood and mucus in the stool come from invasion of the colon lining: dysentery."
+      - text: "Non-typhoidal *Salmonella*"
+        correct: false
+        feedback: "Non-typhoidal *Salmonella* usually needs a large inoculum, which builds up in food left warm, so outbreaks follow a shared meal. Spread from child to child with dysentery points to *Shigella*."
+      - text: "*E. coli* that makes enterotoxins"
+        correct: false
+        feedback: "Enterotoxins cause watery diarrhoea without invading the gut, so there is no blood. Blood and mucus point to invasion of the colon lining."
+      - text: "*Proteus mirabilis*"
+        correct: false
+        feedback: "*P. mirabilis* causes urinary tract infection, especially with a catheter. It does not cause dysentery."

@@ -1,0 +1,52 @@
+id: route-k-pneumoniae
+title: "Routes through the body: *Klebsiella pneumoniae*"
+intro: "Two routes: classic strains in a hospital patient whose barriers are bypassed by tubes, and hypervirulent strains from the gut to the liver and the eye. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "In a hospital patient"
+    steps:
+      - at: gut
+        kind: lives
+        text: "Lives in the gut of some healthy people. Patients given antibacterial drugs lose part of their resident microbiota and are colonised more often, sometimes by strains carrying resistance genes on plasmids."
+      - at: nose-throat
+        kind: lives
+        arrow: false
+        text: "In very ill patients it also colonises the throat. The hands of staff and shared equipment carry it from one patient to the next."
+      - at: alveoli
+        kind: damages
+        via: air
+        ask: "A patient on a ventilator has a breathing tube passing through the throat into the airway. Where do bacteria from the throat cause infection?"
+        options: [alveoli, ear-sinus, gut]
+        answer: [alveoli]
+        why: "The tube holds the airway open and bypasses the defences of the throat and upper airway, so bacteria pass along it into the lungs. The thick capsule then resists phagocytes in the alveoli."
+        text: "Bacteria pass along the breathing tube into the lungs. The capsule resists phagocytes in the alveoli, the bacteria multiply, and pneumonia follows."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "From the lungs, or from a bladder infected along a urinary catheter, the bacteria can enter the blood, where endotoxin drives shock. When the strain carries a carbapenemase gene, few drugs still act on it."
+
+  - name: "Liver abscess (hypervirulent strains)"
+    steps:
+      - at: gut
+        kind: lives
+        text: "Hypervirulent strains, with an extra-thick capsule and extra genes for capturing iron, can live in the gut of healthy people."
+      - at: liver
+        kind: damages
+        via: blood
+        ask: "From the gut, which organ do the bacteria reach first?"
+        options: [liver, alveoli, brain]
+        answer: [liver]
+        why: "Blood from the gut drains into the portal vein, which carries it to the liver before it returns to the heart. Bacteria that cross the gut wall therefore meet the liver first."
+        text: "The bacteria are thought to cross the gut wall and travel in the portal vein to the liver. The extra-thick capsule resists phagocytes, and an abscess forms, often in a person with diabetes but also in people with no other illness."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "From the abscess, bacteria enter the blood and are carried around the body."
+      - at: eye
+        kind: damages
+        via: blood
+        ask: "Carried in the blood, where can the bacteria settle and threaten sight?"
+        options: [eye, ear-sinus, skin]
+        answer: [eye]
+        why: "Bacteria in the blood can settle inside the eye and cause endophthalmitis. The middle ear and the sinuses are reached from the nasopharynx, not usually from the blood."
+        text: "They can settle inside the eye and cause endophthalmitis, which can destroy sight; they can also reach the lungs and the meninges."

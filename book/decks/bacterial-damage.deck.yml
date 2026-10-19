@@ -7,3 +7,39 @@ cards:
     kind: apart
     front: "Exotoxin versus endotoxin: three differences."
     back: "Protein versus lipopolysaccharide; secreted versus structural (Gram-negative outer membrane); specific action versus non-specific inflammation. Only exotoxins make toxoid vaccines."
+  - id: bdd1
+    kind: how
+    front: "How does an adhesin decide which tissue a bacterium can colonise?"
+    back: "An adhesin binds one kind of molecule on a host cell or in the surrounding tissue, and only tissues carrying that molecule can be held onto. Since mucus, urine flow and the shedding of epithelial cells remove anything not anchored, the molecules a bacterium can bind set the tissues it can occupy."
+  - id: bdd2
+    kind: why
+    front: "Why do many bacterial infections need no machinery for invasion?"
+    back: "The barrier is already open: a wound, surgery, a catheter or a perforated bowel lets an organism the patient already carries reach tissue it does not normally occupy. *Bacteroides fragilis* in the peritoneal cavity after bowel surgery is the pattern."
+  - id: bdd3
+    kind: how
+    front: "How does a capsule defeat a phagocyte, and which host does that endanger most?"
+    back: "The capsule is slippery, so a phagocyte has little to hold, and it buries the surface molecules that antibodies and complement would bind. The spleen makes much of the early antibody against capsular polysaccharide and filters out bacteria that are only lightly coated with it, so a person with asplenia is most at risk."
+  - id: bdd4
+    kind: how
+    front: "How does *Mycobacterium tuberculosis* survive the macrophage that engulfs it?"
+    back: "It prevents the vesicle containing it from fusing with a lysosome, so it is never exposed to the acid and enzymes that would digest it, and it multiplies inside the cell. Antibodies cannot reach it there, a drug has to enter the cell, and control depends on cell-mediated immunity."
+  - id: bdd5
+    kind: apart
+    front: "Four kinds of exotoxin, sorted by what they do to a host cell."
+    back: "Toxins that enter the cell and stop an essential process, such as a Shiga toxin blocking ribosomes; pore-forming toxins that open a channel in the membrane so the cell leaks; toxins that alter a signal inside a living cell, such as an *Escherichia coli* enterotoxin raising cAMP so the gut secretes salt and water; and superantigens, which damage the host by activating its own T cells."
+  - id: bdd6
+    kind: how
+    front: "How does endotoxin produce the picture of sepsis?"
+    back: "Lipid A binds receptors on macrophages and other cells, which release the signals of inflammation: fever, dilated and leaky vessels, and activation of clotting. Lipopolysaccharide is released as bacteria divide and as they are killed, so large numbers in the blood drive the response throughout the body."
+  - id: bdd7
+    kind: why
+    front: "Why can damage continue after the bacteria have been cleared?"
+    back: "Antibodies and T cells raised against a bacterial molecule can cross-react with a host molecule that resembles it. In rheumatic fever, weeks after a *Streptococcus pyogenes* infection has cleared, such cross-reacting responses inflame the heart, joints and other tissues and can scar the valves."
+  - id: bdd8
+    kind: why
+    front: "Why does a granuloma both protect the host and damage it?"
+    back: "Walling the infected macrophages off stops the bacteria spreading, while the enzymes released inside the granuloma destroy the surrounding tissue. A strong response in the lung can leave a cavity; a weak one, as in advanced HIV infection, allows the bacteria to spread instead."
+  - id: bdd9
+    kind: apart
+    front: "Damage by the bacterium versus damage by the host response: what distinguishes them?"
+    back: "Damage done by the bacterium occurs where the bacteria or their toxin are, and grows with their numbers and the toxin they release, as when a toxin kills the cells it enters. Damage done by the response can appear with few or no bacteria present, is greater in a host that responds strongly, and may continue after the organism has gone."

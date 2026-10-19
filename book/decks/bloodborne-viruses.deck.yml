@@ -1,0 +1,45 @@
+id: bloodborne-viruses
+title: "Flashcards: blood-borne and sexually transmitted viruses"
+intro: "Explain each answer from how the virus spreads and what stays behind in the infected cell. Say the answer before you check it."
+
+cards:
+  - id: bbd1
+    kind: why
+    front: "Why are HIV, hepatitis B virus and hepatitis C virus controlled mainly by screening, sterile needles, vaccination and treatment, and not by recognising illness?"
+    back: "Each can persist for years without symptoms while the infected person's blood and secretions carry virus. Most transmission comes from people who feel well, so control depends on measures that find infection or block its routes without waiting for illness."
+  - id: bbd2
+    kind: why
+    front: "Why can a person in the first weeks of HIV infection pass the virus on while an antibody test is negative?"
+    back: "Antibodies take some weeks to appear: the window period. Those weeks overlap the highest viral load of the whole infection, so the person can be at their most infectious before the test turns positive. Tests for a viral protein, and NAATs, shorten the window."
+  - id: bbd3
+    kind: how
+    front: "How does treatment of a person with HIV protect their sexual partners?"
+    back: "Antiretroviral therapy suppresses replication. Once it has kept the viral load undetectable for at least six months, there is too little virus in blood and genital secretions to transmit, and no sexual transmission occurs."
+  - id: bbd4
+    kind: apart
+    front: "Pre-exposure prophylaxis versus post-exposure prophylaxis for HIV?"
+    back: "Pre-exposure prophylaxis is drugs against HIV taken by a person without HIV before a possible exposure. Post-exposure prophylaxis is a short course of drugs started as soon as possible after an exposure, such as a needlestick injury, before the infection is established."
+  - id: bbd5
+    kind: why
+    front: "Why does treatment of HIV infection continue for life?"
+    back: "The provirus stays in the chromosomes of resting CD4 T cells, which make no virus and offer the drugs nothing to act on. When treatment stops, virus returns from these cells within weeks."
+  - id: bbd6
+    kind: why
+    front: "Why does hepatitis B virus acquired at birth usually become chronic, while infection in adulthood usually clears?"
+    back: "An infant's immune response does not attack infected liver cells strongly enough to clear them, so about 9 in 10 infants infected at birth remain infected. In most healthy adults, cytotoxic T cells clear the virus within months, at the cost of acute hepatitis, and fewer than 1 in 20 remain infected."
+  - id: bbd7
+    kind: how
+    front: "How does hepatitis B virus damage the liver?"
+    back: "The virus kills few cells itself. Cytotoxic T cells kill infected liver cells; in chronic infection this can go on, on and off, for decades without clearing the virus, and in a substantial minority repeated injury and repair lead to cirrhosis and hepatocellular carcinoma."
+  - id: bbd8
+    kind: apart
+    front: "HBsAg versus antibodies against HBsAg in the blood?"
+    back: "HBsAg, the envelope protein that infected liver cells release in excess, marks current infection; when it persists for more than six months, the infection is chronic. Antibodies against HBsAg mark immunity, after recovery or vaccination."
+  - id: bbd9
+    kind: apart
+    front: "Hepatitis B virus versus hepatitis C virus: which feature best separates them?"
+    back: "The genome. Hepatitis B virus is a DNA virus that keeps a DNA copy in the nucleus, so drugs suppress it without curing it. Hepatitis C virus is an RNA virus with no DNA stage, so drugs taken for a few months cure most infections."
+  - id: bbd10
+    kind: how
+    front: "How does human papillomavirus cause cancer of the cervix, and how is that cancer prevented?"
+    back: "In persistent infection with a high-risk type, two viral proteins inactivate the cell's tumour-suppressor proteins, and over years infected cells can become cancerous. Vaccination before sexual activity begins prevents the infection, and screening of the cervix finds precancerous changes so that they can be removed."

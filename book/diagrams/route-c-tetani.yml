@@ -1,0 +1,58 @@
+id: route-c-tetani
+title: "Routes through the body: *Clostridium tetani*"
+intro: "Two routes with the same ending: spores germinate where oxygen is low, the bacteria stay put, and the toxin travels along nerves to the central nervous system. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "From a puncture wound"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Spores of *C. tetani* lie in soil and animal faeces, where they survive for years."
+      - at: skin
+        kind: enters
+        text: "A garden fork or a nail drives soil, and the spores in it, deep through the skin."
+      - at: tissue
+        kind: multiplies
+        via: direct
+        text: "At the base of the puncture, damaged tissue receives little oxygen, so the spores germinate. The bacteria multiply and release toxin, but they stay in the wound, which may look trivial or heal."
+      - at: nerves
+        kind: spreads
+        via: nerve
+        text: "The toxin enters the endings of motor nerves near the wound, and the lymph and blood carry it to motor nerve endings throughout the body. From each ending it travels along the axon, in the opposite direction to nerve impulses."
+      - at: brain
+        kind: damages
+        via: nerve
+        arrow: false
+        ask: "The toxin travels along the motor nerves. In which part of the nervous system does it act?"
+        options: [brain, nerves, tissue]
+        answer: [brain]
+        why: "It acts in the central nervous system, the spinal cord and the brainstem, where the cell bodies of the motor neurons lie; the map shows the central nervous system as the brain. There it blocks the inhibitory neurons that hold motor neurons in check. It does not act on the muscle itself."
+        text: "In the spinal cord and brainstem, the toxin passes into the inhibitory neurons that hold motor neurons in check and stops them releasing their neurotransmitters."
+      - at: tissue
+        kind: damages
+        text: "Without inhibition, motor neurons fire unchecked and the muscles stay contracted: lockjaw first, because the nerves of the jaw are short, then a rigid neck, back and abdomen, with painful spasms set off by touch or noise. Spasm of the muscles of breathing can stop breathing."
+
+  - name: "From the umbilical stump"
+    steps:
+      - at: fetus
+        kind: defence
+        ask: "Neonatal tetanus can be prevented before the baby is born. Where does that protection act?"
+        options: [fetus, skin, gut]
+        answer: [fetus]
+        why: "A woman vaccinated with tetanus toxoid makes antibodies against the toxin, and they cross the placenta into the fetus. At birth, the neonate already carries antibodies that neutralise the toxin before it enters nerves. Clean cutting and care of the cord keeps the spores out."
+        text: "Antibodies against the toxin, made by a vaccinated mother, cross the placenta and protect the neonate from birth. This neonate's mother was never vaccinated, so it is born without them."
+      - at: outside
+        kind: lives
+        arrow: false
+        text: "Spores from soil or animal faeces are on an unsterile instrument used to cut the umbilical cord, or on material used to dress the stump."
+      - at: skin
+        kind: enters
+        text: "The spores enter the umbilical stump, whose tissue is dying and contains little oxygen."
+      - at: tissue
+        kind: multiplies
+        via: direct
+        text: "The spores germinate in the stump, and the bacteria multiply there and release toxin without spreading."
+      - at: brain
+        kind: damages
+        via: nerve
+        text: "The toxin travels along motor nerves to the spinal cord and brainstem and blocks the inhibitory neurons. In the first two weeks of life the neonate stops sucking, then becomes rigid and has spasms."

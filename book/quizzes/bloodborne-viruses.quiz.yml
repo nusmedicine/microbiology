@@ -1,0 +1,141 @@
+id: bloodborne-viruses
+title: "Check your understanding: blood-borne and sexually transmitted viruses"
+questions:
+  - id: bb1
+    stem: "HIV, hepatitis B virus and hepatitis C virus have different genomes. What explains why they are grouped together and controlled by the same measures?"
+    options:
+      - text: "They travel in blood and genital secretions, and persist for years without symptoms while the infected person can transmit them"
+        correct: true
+        feedback: "Route and silent persistence define the group. Because most transmission comes from people who feel well, the controls are screening, sterile needles, vaccination and treatment of infected people, none of which waits for illness."
+      - text: "They are all RNA viruses that change rapidly"
+        correct: false
+        feedback: "Hepatitis B virus has a DNA genome, so genome type cannot unite the group. What the three share is how they spread and how long they stay."
+      - text: "They all infect liver cells"
+        correct: false
+        feedback: "Only hepatitis B and C viruses infect liver cells. HIV infects CD4 T cells and macrophages, and belongs to the group because it spreads by the same routes."
+      - text: "They can all be cured by a few months of antiviral drugs"
+        correct: false
+        feedback: "Drugs cure most hepatitis C virus infections, but HIV and hepatitis B virus keep DNA in the nucleus of infected cells, so drugs only suppress them."
+  - id: bb2
+    stem: "A 26-year-old man has had fever, sore throat, a rash and enlarged lymph nodes for a week. Three weeks ago he had sex without a condom with a new partner. An antibody test for one of these viruses is negative, but a NAAT finds a very large amount of the same virus's RNA in his blood. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "HIV"
+        correct: true
+        feedback: "A short feverish illness with rash and enlarged lymph nodes a few weeks after sex fits early HIV infection. The viral load is at its highest and antibodies have not yet formed: he is in the window period, which the NAAT closes."
+      - text: "Hepatitis B virus"
+        correct: false
+        feedback: "Its genome is DNA, so a NAAT would find viral DNA, not RNA, and its acute illness is hepatitis, sometimes with jaundice, weeks to months after infection."
+      - text: "Hepatitis C virus"
+        correct: false
+        feedback: "Acute infection with hepatitis C virus is usually silent, and sexual transmission is inefficient. Fever, rash and enlarged lymph nodes weeks after sex, with a very high viral load, point to HIV."
+      - text: "Human papillomavirus"
+        correct: false
+        feedback: "Human papillomavirus is a DNA virus that stays in the epithelium of the skin and mucosa and does not circulate in the blood. It causes warts or no symptoms."
+  - id: bb3
+    stem: "A nurse has a needlestick injury from a patient with untreated HIV infection. An HIV antibody test on her blood, taken the same day, is negative. What does this result show?"
+    options:
+      - text: "That she had no established HIV infection at the time of the injury; whether the needlestick infected her can be shown only by repeat testing after the window period"
+        correct: true
+        feedback: "Antibodies take some weeks to form, so a test taken within hours of exposure records her status at the time of the injury: no infection old enough to have produced antibodies. Repeat testing after the window period shows whether the needlestick infected her, and drugs started as soon as possible after the injury lower the risk."
+      - text: "That the needlestick did not infect her"
+        correct: false
+        feedback: "No antibodies could have formed in the hours since the injury, so a negative test on the same day cannot exclude infection from it."
+      - text: "That the patient's virus cannot be transmitted by needlestick"
+        correct: false
+        feedback: "HIV can be transmitted by needlestick, although much less often than hepatitis B virus. The negative result reflects the timing of her test, and says nothing about the patient's virus."
+  - id: bb4
+    stem: "A woman with HIV has taken antiretroviral therapy every day for two years, and her viral load has been undetectable throughout. Her male partner does not have HIV, and they do not use condoms. What is the risk that she transmits HIV to him during sex?"
+    options:
+      - text: "Effectively none: while treatment keeps the viral load undetectable, HIV is not transmitted sexually"
+        correct: true
+        feedback: "In couples like this one, followed through many thousands of acts of sex, no infection has been traced to a partner whose treatment kept the viral load undetectable. Treatment protects partners as well as the patient, which makes it one of the main means of prevention."
+      - text: "The same as before treatment, because the virus is never cleared"
+        correct: false
+        feedback: "The provirus does stay in resting CD4 T cells, but they release little virus, and the drugs stop that virus from infecting new cells. Transmission depends on virus in blood and genital secretions, and treatment keeps that below detection."
+      - text: "Low, but only if her partner also takes drugs before each exposure"
+        correct: false
+        feedback: "Pre-exposure prophylaxis protects a person whose partner may have an unsuppressed viral load. Here her suppressed viral load already prevents sexual transmission."
+  - id: bb5
+    stem: "A 30-year-old unvaccinated man develops fatigue and jaundice two months after sex with a new partner. HBsAg is found in his blood. Six months later HBsAg has gone, and antibodies against it are present. Which detail best explains this course?"
+    options:
+      - text: "He was infected as an adult, and an adult's immune response usually clears the virus"
+        correct: true
+        feedback: "Most healthy adults clear hepatitis B virus within months, and fewer than 1 in 20 remain infected. The jaundice came from the same response that cleared it: cytotoxic T cells killing infected liver cells. His antibodies against HBsAg now protect him."
+      - text: "The virus killed every infected liver cell, so none was left"
+        correct: false
+        feedback: "Hepatitis B virus kills few of the cells it infects. The damage, and the clearance, came from his cytotoxic T cells."
+      - text: "He must have been given drugs that cure the infection"
+        correct: false
+        feedback: "Drugs that block the reverse transcriptase of hepatitis B virus suppress it but rarely clear it, because a DNA copy stays in the nucleus. His own immune response cleared the infection."
+      - text: "He was infected with hepatitis C virus, not hepatitis B virus"
+        correct: false
+        feedback: "HBsAg is a protein of the hepatitis B virus envelope, so finding it in his blood marks hepatitis B virus infection. Hepatitis C virus, moreover, becomes chronic in most adults."
+  - id: bb6
+    stem: "Why does hepatitis B virus infection acquired at birth usually become chronic, while infection acquired in adulthood usually clears?"
+    options:
+      - text: "An infant's immune response does not attack infected liver cells strongly enough to clear them"
+        correct: true
+        feedback: "About 9 in 10 infants infected at birth remain infected, often for years without illness, because their response does not clear the infected cells. An adult's cytotoxic T cells usually do, at the cost of acute hepatitis."
+      - text: "Infants receive far more virus at birth than adults receive during sex"
+        correct: false
+        feedback: "The amount of virus does not explain the difference: healthy adults infected through blood also usually clear the virus. The age of the immune response decides the outcome."
+      - text: "The virus mutates in infants into a form the immune system cannot recognise"
+        correct: false
+        feedback: "Persistence after infection at birth is explained by the infant's immune response. The same virus, passed to an adult, is usually cleared."
+      - text: "Most adults have been vaccinated, so their infection is mild"
+        correct: false
+        feedback: "Vaccination prevents infection altogether. Unvaccinated healthy adults who are infected still usually clear the virus: fewer than 1 in 20 remain infected."
+  - id: bb7
+    stem: "An unvaccinated medical student has a needlestick injury from a patient with untreated infection with HIV, hepatitis B virus and hepatitis C virus. Of these viruses, which is she most likely to acquire from this injury?"
+    options:
+      - text: "Hepatitis B virus"
+        correct: true
+        feedback: "Blood in hepatitis B virus infection can carry far more virus than in HIV or hepatitis C virus infection, and the virus survives in dried blood, so a needlestick transmits it far more often. Vaccination before clinical work protects against it."
+      - text: "Hepatitis C virus"
+        correct: false
+        feedback: "Hepatitis C virus is transmitted by needlestick much less often than hepatitis B virus, whose concentration in blood can be far higher."
+      - text: "HIV"
+        correct: false
+        feedback: "HIV is transmitted by a single needlestick only rarely, much less often than hepatitis B virus, although drugs are still started soon after the injury to lower the risk."
+  - id: bb8
+    stem: "A 58-year-old man is found to have cirrhosis. He injected drugs for a few years in his twenties and has never had jaundice. HBsAg is absent from his blood. Antibodies against one of these viruses are present, and a NAAT detects the same virus's RNA. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Hepatitis C virus"
+        correct: true
+        feedback: "Shared injecting equipment is the main route of hepatitis C virus, most infections become chronic without symptoms, and cirrhosis develops over decades. Antibodies alone could reflect a past infection; the RNA shows that the virus is still present."
+      - text: "Hepatitis B virus"
+        correct: false
+        feedback: "Hepatitis B virus can also cause cirrhosis after decades of chronic infection, but chronic infection keeps HBsAg in the blood, and here it is absent; its genome is also DNA, not RNA."
+      - text: "HIV"
+        correct: false
+        feedback: "HIV also spreads by shared needles, but it infects CD4 T cells and macrophages, not liver cells, and does not cause cirrhosis."
+      - text: "Human papillomavirus"
+        correct: false
+        feedback: "Human papillomavirus infects the epithelium of the skin and mucosa; it is not spread by needles and does not infect the liver."
+  - id: bb9
+    stem: "Antiviral drugs taken for a few months cure most hepatitis C virus infections, while drugs against HIV and hepatitis B virus must usually be taken for years or for life. Which difference best explains this?"
+    options:
+      - text: "Hepatitis C virus makes no DNA, while HIV and hepatitis B virus keep DNA in the nucleus that the drugs cannot remove"
+        correct: true
+        feedback: "Drugs act only on virus that is replicating. Hepatitis C virus persists only by copying its RNA continuously, so stopping replication for long enough clears it; the provirus of HIV and the DNA circle of hepatitis B virus stay in the nucleus whatever the drugs do."
+      - text: "Hepatitis C virus mutates slowly, so it does not become resistant"
+        correct: false
+        feedback: "Its RNA polymerase does not proofread, so hepatitis C virus varies greatly. Cure depends on whether anything persists that the drugs cannot reach, whatever the rate of mutation."
+      - text: "Drugs against hepatitis C virus kill the infected liver cells"
+        correct: false
+        feedback: "Antiviral drugs block viral enzymes and proteins; they do not kill cells. With its replication blocked, hepatitis C virus has no DNA reserve from which to return."
+  - id: bb10
+    stem: "A routine screening test in a 34-year-old woman with no symptoms finds precancerous changes in the cells of her cervix. Of these viruses, which most likely caused them?"
+    options:
+      - text: "Human papillomavirus"
+        correct: true
+        feedback: "Persistent infection of the cervical epithelium with a high-risk type of human papillomavirus causes almost all cancers of the cervix: two viral proteins inactivate the cell's tumour-suppressor proteins. Screening finds the changes years before cancer, so they can be removed."
+      - text: "HIV"
+        correct: false
+        feedback: "HIV does not transform cervical cells. Women with HIV develop these changes more often, because failing cell-mediated immunity lets human papillomavirus persist, but human papillomavirus causes them."
+      - text: "Hepatitis B virus"
+        correct: false
+        feedback: "Hepatitis B virus infects liver cells and can lead to hepatocellular carcinoma, but it does not infect the cervix."
+      - text: "Hepatitis C virus"
+        correct: false
+        feedback: "Liver cells are the target of hepatitis C virus; it does not infect the epithelium of the cervix."

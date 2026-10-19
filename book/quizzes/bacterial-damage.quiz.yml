@@ -4,12 +4,147 @@ questions:
   - id: h4
     stem: "Which statement about exotoxins and endotoxin is correct?"
     options:
-      - text: "Exotoxins are proteins and can be made into toxoid vaccines; endotoxin is lipopolysaccharide and cannot"
+      - text: "Exotoxins are proteins that can be made into toxoid vaccines; endotoxin cannot"
         correct: true
         feedback: "Inactivated protein toxins make toxoid vaccines. Lipid A is a lipid that provokes inflammation but is a poor target for protective antibodies."
-      - text: "Both are proteins released by living bacteria"
+      - text: "Both are proteins secreted by living bacteria into the surrounding tissue"
         correct: false
         feedback: "Endotoxin is lipopolysaccharide, a structural part of the Gram-negative outer membrane, not a secreted protein."
-      - text: "Endotoxin acts on one specific target, exotoxins act broadly"
+      - text: "Endotoxin acts on one specific target, while exotoxins act broadly on many cells"
         correct: false
         feedback: "It is the other way round. Exotoxins act specifically; endotoxin acts non-specifically by triggering inflammation."
+  - id: bd1
+    stem: "A urine sample from a 26-year-old woman with cystitis grows *Escherichia coli* indistinguishable from a strain in her own colon. Which property best explains why this strain can colonise her bladder?"
+    options:
+      - text: "Pili whose adhesins bind sugars on the cells lining the bladder"
+        correct: true
+        feedback: "Urine flushes the bladder, so a strain that cannot hold on is washed out. An adhesin that binds the bladder lining keeps the bacteria in place, which is why the same species behaves differently at the two sites."
+      - text: "A capsule that resists phagocytes in the bladder wall"
+        correct: false
+        feedback: "Capsules matter once bacteria reach the blood or the meninges. The first requirement in the bladder is attachment, because urine removes what is not anchored."
+      - text: "Lipopolysaccharide in its outer membrane"
+        correct: false
+        feedback: "Every *E. coli* carries lipopolysaccharide, including the harmless gut strains, so it cannot explain why this strain caused infection."
+      - text: "Faster growth in urine than other *E. coli* strains"
+        correct: false
+        feedback: "Growth rate is not what separates these strains. The strains that cause urinary tract infection carry adhesins for the bladder lining, and attachment comes before multiplication."
+  - id: bd2
+    stem: "A 24-year-old woman has fever, a widespread rash and hypotension four days after a minor skin wound. The wound holds a little pus, and blood cultures grow nothing. Which mechanism best explains her illness?"
+    options:
+      - text: "A superantigen from bacteria at the wound activating a large fraction of her T cells"
+        correct: true
+        feedback: "Fever, rash and hypotension with sterile blood cultures point to a toxin acting at a distance. A superantigen activates T cells in bulk, and the cytokines they release cause the illness while the bacteria stay at one site."
+      - text: "Lipopolysaccharide released by Gram-negative bacteria multiplying in her blood"
+        correct: false
+        feedback: "Endotoxin drives a similar response, but nothing points to a large Gram-negative infection: the illness began from a small skin wound holding a little pus. A toxin made at the wound and acting throughout the body fits better."
+      - text: "Antibodies against the bacteria cross-reacting with her own tissue"
+        correct: false
+        feedback: "A cross-reacting immune response takes weeks to cause damage, as in rheumatic fever. An illness four days after the wound is too early for that."
+      - text: "A pore-forming toxin lysing her red blood cells"
+        correct: false
+        feedback: "Lysis of red cells would show as anaemia and haemoglobin in the urine, not as a rash with hypotension. The pattern here follows from activation of T cells."
+  - id: bd3
+    stem: "A man whose spleen was removed after an injury is told that bacteria with a polysaccharide capsule are particularly dangerous to him. Which explanation is correct?"
+    options:
+      - text: "The spleen makes early antibody against the capsule and removes bacteria only lightly coated with it"
+        correct: true
+        feedback: "A capsule resists phagocytes until antibody and complement coat it. The spleen makes much of the early antibody against capsular polysaccharide, and its macrophages remove bacteria that are only lightly coated, which phagocytes elsewhere miss. Without it, encapsulated bacteria can multiply in the blood within hours."
+      - text: "The spleen is where neutrophils are made, so without it he has too few to engulf bacteria"
+        correct: false
+        feedback: "Neutrophils are made in the bone marrow, not the spleen, so removing the spleen does not lower their number. What he has lost is the organ that makes early antibody against capsules and removes lightly coated bacteria from the blood."
+      - text: "Bacteria make thicker capsules in a person without a spleen, so phagocytes cannot engulf them"
+        correct: false
+        feedback: "Capsule production is a property of the bacterium and does not change with the host's anatomy. The difference lies in how well the host clears encapsulated bacteria."
+      - text: "The spleen produces the antibodies that neutralise the exotoxins of encapsulated bacteria"
+        correct: false
+        feedback: "Toxin neutralisation is not the issue with encapsulated bacteria, whose danger is multiplication in the blood. The antibody the spleen supplies here is against the capsule: it makes much of the early antibody to capsular polysaccharide, and it removes lightly coated bacteria from the blood."
+  - id: bd4
+    stem: "Why does control of *Mycobacterium tuberculosis* depend on cell-mediated immunity rather than on antibodies?"
+    options:
+      - text: "It lives inside macrophages, where antibodies cannot reach it"
+        correct: true
+        feedback: "A bacterium inside a host cell is out of reach of antibodies in the surrounding fluid, so control falls to T cells, which act on the infected cell itself. The same logic explains why tuberculosis reactivates when cell-mediated immunity fails."
+      - text: "Its waxy wall carries no molecules that antibodies can bind"
+        correct: false
+        feedback: "Antibodies against mycobacterial molecules are made in infection; they achieve little because the bacteria sit inside cells that those antibodies cannot enter."
+      - text: "It grows too slowly for an antibody response to develop"
+        correct: false
+        feedback: "Slow growth lengthens the illness and the treatment, and an antibody response does develop. Location, not speed, puts the bacterium beyond the reach of antibody."
+      - text: "It secretes an enzyme that destroys antibodies in the blood"
+        correct: false
+        feedback: "No such enzyme explains tuberculosis. The bacterium blocks the fusion of the phagocyte's vesicle with a lysosome and lives inside the macrophage."
+  - id: bd5
+    stem: "Blood cultures from a 70-year-old man with a urinary tract infection grow a Gram-negative rod. He has a high fever, warm skin and a falling blood pressure. Which bacterial component best explains this picture?"
+    options:
+      - text: "Lipid A of the lipopolysaccharide in the outer membrane"
+        correct: true
+        feedback: "A Gram-negative rod in the blood brings lipopolysaccharide with it. Lipid A binds receptors on macrophages, which release the signals of inflammation, causing fever, vasodilation, leaky vessels and activation of clotting; bacteria release lipopolysaccharide as they divide and as they are killed."
+      - text: "A capsule that stops phagocytes engulfing the bacteria"
+        correct: false
+        feedback: "Capsules let bacteria survive in the blood, which allows the picture to develop, but the fever and falling pressure come from the host's response to lipid A."
+      - text: "A pore-forming toxin that lyses host cell membranes"
+        correct: false
+        feedback: "Pore-forming toxins damage the cells they reach, which shows as lysis of those cells. Fever, vasodilation and falling pressure with a Gram-negative rod in the blood point to the response to lipid A."
+      - text: "Siderophores that strip iron from his transferrin"
+        correct: false
+        feedback: "Siderophores help the bacteria multiply by capturing iron, and they do not act on host tissue. The clinical picture follows from the inflammatory response to lipid A."
+  - id: bd6
+    stem: "A 10-year-old develops a new heart murmur and painful joints three weeks after a sore throat. A throat swab and blood cultures are now negative. Which mechanism best explains the damage to her heart?"
+    options:
+      - text: "An immune response to *Streptococcus pyogenes* cross-reacting with heart tissue"
+        correct: true
+        feedback: "Molecular mimicry explains damage that appears weeks later with no bacteria present: a bacterial molecule resembles one of the host's own, so antibodies and T cells raised against the bacterium also attack the heart."
+      - text: "Bacteria that have reached the valve and are multiplying in it"
+        correct: false
+        feedback: "Bacteria growing on a valve cause continuing fever with positive blood cultures. Here the cultures are negative and the infection has cleared, so the damage is immune-mediated."
+      - text: "A superantigen still circulating from the throat infection"
+        correct: false
+        feedback: "Superantigens act within days and cause fever, rash and hypotension, not a murmur three weeks later. The timing fits a cross-reacting immune response."
+      - text: "Endotoxin released into the blood as the bacteria in the throat died"
+        correct: false
+        feedback: "*S. pyogenes* is Gram-positive and has no lipopolysaccharide. The delayed heart damage comes from the host's own immune response."
+  - id: bd7
+    stem: "Two *E. coli* isolates are compared: one from the stool of a healthy person, the other from a child with bloody diarrhoea and kidney damage. Which difference best explains the second isolate's effect?"
+    options:
+      - text: "It carries genes for a Shiga toxin, acquired in a prophage"
+        correct: true
+        feedback: "Toxin genes are often carried on phages or plasmids, so strains of one species differ sharply in what they can do. Shiga toxin blocks the ribosomes of the cells it enters, which then die."
+      - text: "It has an outer membrane with lipopolysaccharide, which the harmless isolate lacks"
+        correct: false
+        feedback: "Both isolates are Gram-negative and both carry lipopolysaccharide. What differs is the acquired toxin gene."
+      - text: "It is Gram-positive, while gut *E. coli* is Gram-negative"
+        correct: false
+        feedback: "Species identity does not change with virulence: every *E. coli* is a Gram-negative rod. The dangerous strains differ by the extra genes they carry."
+      - text: "It multiplies faster, so it reaches larger numbers in the gut"
+        correct: false
+        feedback: "Numbers alone do not produce bloody diarrhoea and kidney damage; the harmless strains reach vast numbers in every colon. A specific toxin does."
+  - id: bd8
+    stem: "A patient with advanced HIV infection has tuberculosis that is spreading widely, with little destruction of tissue at any one site. Which explanation fits best?"
+    options:
+      - text: "The granulomatous response that destroys tissue is weak, so the bacteria spread instead"
+        correct: true
+        feedback: "The granuloma contains the bacteria and destroys surrounding tissue at the same time. When cell-mediated immunity fails, there is less local destruction and less containment."
+      - text: "The bacteria have lost their waxy wall and so invade new tissue more easily"
+        correct: false
+        feedback: "Mycolic acids are a stable feature of the mycobacterial wall. What has changed is the host's response, not the bacterium."
+      - text: "HIV makes *M. tuberculosis* produce a toxin that dissolves tissue"
+        correct: false
+        feedback: "No tuberculosis toxin accounts for lung destruction, which is why the pattern of disease follows the strength of the host response."
+      - text: "The bacteria now grow outside cells, where the immune system cannot see them"
+        correct: false
+        feedback: "Growth inside macrophages continues; those macrophages carry the bacteria to other organs when no effective response contains them."
+  - id: bd9
+    stem: "About a week after bowel surgery a patient develops fever and abdominal pain, and *Bacteroides fragilis* is cultured, with other gut bacteria, from an abscess in the abdomen. Which explanation of how it got there is best?"
+    options:
+      - text: "Surgery opened the barrier that keeps it in the colon, so it needed no means of invasion"
+        correct: true
+        feedback: "Many bacterial infections begin where injury, surgery or a device has already opened a barrier, and the organism is one the patient was carrying. Its capsule then resists phagocytes and promotes the abscess."
+      - text: "It invaded the intact bowel wall using enzymes that digest tissue"
+        correct: false
+        feedback: "Invasion of healthy bowel is not how this organism causes disease; it is a harmless colonic resident until a breach lets it into the peritoneal cavity."
+      - text: "It was inhaled into the airway and carried to the abdomen in the blood"
+        correct: false
+        feedback: "An obligate anaerobe of the colon does not colonise the airway, and the route in this patient is a direct one through the opened bowel."
+      - text: "It came from the skin around the wound and spread through the bloodstream"
+        correct: false
+        feedback: "Skin bacteria do reach the blood along devices such as catheters, but *B. fragilis* is a resident of the colon and needs no bloodstream route to reach the peritoneal cavity."

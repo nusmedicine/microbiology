@@ -1,0 +1,45 @@
+id: atypicals-mycobacteria
+title: "Flashcards: atypicals and mycobacteria"
+intro: "Explain each answer from why the routine toolkit fails on the organism, and what that predicts. Say the answer before you check it."
+
+cards:
+  - id: atd1
+    kind: why
+    front: "Why do cases of *Mycoplasma pneumoniae* infection in a household appear weeks apart?"
+    back: "It passes from person to person in respiratory particles, and its incubation period is long, often two to three weeks. Each new case appears about one incubation period after the person who infected it, so an outbreak spreads slowly."
+  - id: atd2
+    kind: why
+    front: "Why does a patient with pneumonia caused by *Mycoplasma pneumoniae* often look less ill than the chest X-ray suggests?"
+    back: "Lymphocytes gather around the small airways and in the walls of the alveoli, while the air spaces stay largely free of pus. The X-ray shows the inflammation, but there is little sputum and few signs in the chest."
+  - id: atd3
+    kind: how
+    front: "How does *Chlamydia trachomatis* multiply?"
+    back: "An elementary body, which survives outside cells, enters an epithelial cell and becomes a reticulate body inside a vacuole. Reticulate bodies take ATP and nutrients from the cell, divide, and turn back into elementary bodies, which are released to infect other cells."
+  - id: atd4
+    kind: why
+    front: "Why can *C. trachomatis* cause infertility in a woman who never had symptoms?"
+    back: "Most infections are silent, so they persist and spread up from the cervix to the fallopian tubes. The inflammation heals by scarring, which narrows or blocks the tubes; repeated infections add to the scarring."
+  - id: atd5
+    kind: how
+    front: "How does trachoma cause blindness?"
+    back: "Repeated infection of the conjunctiva with *C. trachomatis*, passed between children on hands, cloths and flies, scars the inner surface of the eyelids. The eyelids contract, the lashes turn inwards and scratch the cornea, and the scarred cornea becomes opaque."
+  - id: atd6
+    kind: how
+    front: "How does the body contain *Mycobacterium tuberculosis* after it is inhaled?"
+    back: "Macrophages in the alveoli engulf the bacteria but cannot kill them. Weeks later, T cells activate the macrophages, which gather around the bacteria in granulomas; a few bacteria survive there, silent, as a latent infection."
+  - id: atd7
+    kind: apart
+    front: "Latent infection versus active tuberculosis?"
+    back: "In latent infection a few bacteria are held in granulomas, there are no symptoms and the person does not infect others. In active tuberculosis the bacteria multiply and destroy tissue; disease of the lungs forms cavities, and coughing spreads the bacteria through the air."
+  - id: atd8
+    kind: why
+    front: "Why is active tuberculosis treated with several drugs together for months?"
+    back: "A cavity holds so many bacteria that some already carry a mutation resistant to any one drug, which a single drug would select; a mutant resistant to two drugs at once is far rarer. Bacteria that divide slowly in granulomas and necrotic tissue are killed slowly, so treatment lasts months."
+  - id: atd9
+    kind: apart
+    front: "BCG in young children versus in adults?"
+    back: "Given at birth, BCG protects young children against the severe forms of tuberculosis, in which the bacteria spread through the body or reach the meninges. It protects less reliably against tuberculosis of the lungs in adults, the form that spreads the infection."
+  - id: atd10
+    kind: apart
+    front: "*M. tuberculosis* versus non-tuberculous mycobacteria: which feature best separates them?"
+    back: "Where they come from. *M. tuberculosis* comes from a person with active disease of the lungs and spreads through the air, so contacts are traced. Non-tuberculous mycobacteria come from water and soil, are not usually passed between people, and cause disease in damaged lungs, wounds and skin."

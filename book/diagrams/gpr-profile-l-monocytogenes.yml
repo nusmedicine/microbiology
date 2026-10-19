@@ -1,0 +1,40 @@
+id: gpr-profile-l-monocytogenes
+name: "Listeria monocytogenes"
+group: "Gram-positive rod · forms no spores · grows in the cold · lives inside cells"
+intro: "Predict two of the five slots. Two traits explain most of what this organism does: it grows in the refrigerator, and it lives inside host cells."
+
+slots:
+  - slot: identity
+    entry: "Gram-positive rod that forms no spores. Grows with or without oxygen, and at refrigerator temperatures. Facultative intracellular: able to live and multiply both inside and outside host cells."
+  - slot: lifestyle
+    predict:
+      stem: "Most bacteria that contaminate food stop multiplying in a refrigerator. Which food is the usual source of *L. monocytogenes*?"
+      options:
+        - text: "Ready-to-eat food kept chilled for days, such as soft cheese or deli meat"
+          correct: true
+          feedback: "*L. monocytogenes* keeps multiplying at refrigerator temperatures, so its numbers rise during storage, and these foods are eaten without the cooking that would kill it."
+        - text: "Cooked rice kept warm for several hours"
+          correct: false
+          feedback: "Rice kept warm is the setting of *Bacillus cereus*, whose spores survive cooking. *L. monocytogenes* forms no spores, and its advantage is growth in the cold."
+        - text: "Meat cooked thoroughly and eaten hot"
+          correct: false
+          feedback: "Thorough cooking kills *L. monocytogenes*, which forms no spores. The risk comes from chilled food eaten without cooking."
+    entry: "Lives in soil, water and the gut of animals, and persists in food-processing plants. It keeps multiplying in chilled ready-to-eat foods, such as soft cheese, deli meats, pâté and smoked fish, which are eaten without further cooking."
+  - slot: harm
+    entry: "Swallowed, it enters the cells lining the gut, escapes from the vacuole into the cytoplasm and multiplies. It then uses the host cell's actin to push into neighbouring cells, out of reach of antibodies. From the blood it can cross the placenta and the blood-brain barrier."
+  - slot: consequence
+    predict:
+      stem: "Inside cells, *L. monocytogenes* is controlled mainly by cell-mediated immunity. Which person is most at risk of meningitis from it?"
+      options:
+        - text: "A 75-year-old taking drugs that suppress the immune system after a kidney transplant"
+          correct: true
+          feedback: "Drugs that prevent rejection suppress the T cells that control organisms living inside cells, and older age weakens the same defence. The bacteria multiply in the blood and can cross into the meninges."
+        - text: "A healthy 20-year-old student who ate the same cheese"
+          correct: false
+          feedback: "In a healthy person, cell-mediated immunity contains the infection, which causes no illness or a short gastroenteritis. Invasive disease falls on people in whom that defence is weak."
+        - text: "A 40-year-old gardener with a deep puncture wound"
+          correct: false
+          feedback: "A deep wound contaminated with soil is the setting of tetanus. *L. monocytogenes* is swallowed in food, and invasive disease depends on weak cell-mediated immunity."
+    entry: "Most healthy people who swallow it have no illness or a short gastroenteritis. Invasive disease, meningitis and infection of the blood, falls on older adults, neonates and people with impaired cell-mediated immunity. In pregnancy, a mild illness in the mother can end in miscarriage, stillbirth or an infected neonate."
+  - slot: contrast
+    entry: "*Clostridium botulinum*, also caught from food: there the toxin is made in the food and the bacteria need not infect, whereas *L. monocytogenes* must invade and multiply inside cells, and cooking the food kills it."

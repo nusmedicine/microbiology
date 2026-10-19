@@ -1,0 +1,40 @@
+id: arbo-profile-zika
+name: "Zika virus"
+group: "Enveloped positive-sense RNA virus · flavivirus · carried by mosquitoes, and also spread by sex"
+intro: "Predict two of the five slots. Most of what this virus does follows from where it can go: across the placenta, and into semen."
+
+slots:
+  - slot: identity
+    entry: "An enveloped virus with a single-stranded, positive-sense RNA genome; a flavivirus, related to dengue virus."
+  - slot: lifestyle
+    predict:
+      stem: "A pregnant woman in a city without Zika virus has not travelled, but her partner returned two weeks ago from a place with an outbreak. How could the virus reach her?"
+      options:
+        - text: "In his semen, during sex"
+          correct: true
+          feedback: "Zika virus persists in semen for weeks, and sometimes months, after it has cleared from the blood, so a partner can pass it on without a mosquito. Protection during sex is therefore part of protection in pregnancy."
+        - text: "In respiratory particles when he coughs"
+          correct: false
+          feedback: "Respiratory particles do not carry Zika virus between people. Apart from mosquito bites, it passes mainly by sexual contact and from mother to fetus."
+        - text: "On his hands, by touch"
+          correct: false
+          feedback: "An enveloped virus survives poorly outside the body, and Zika virus is not spread by touch. It reaches a partner in semen."
+    entry: "Carried between people by *Aedes* mosquitoes, like dengue virus. Also spread by sexual contact, because it persists in semen for weeks or months, and from mother to fetus across the placenta. Caused a large epidemic in Brazil in 2015 and a local outbreak in Singapore in 2016."
+  - slot: harm
+    predict:
+      stem: "Most adults infected with Zika virus have no symptoms. Why is infection during pregnancy still dangerous?"
+      options:
+        - text: "The virus crosses the placenta and infects the dividing cells that form the fetal brain"
+          correct: true
+          feedback: "Those cells die or stop dividing, so the brain fails to grow, and the baby can be born with microcephaly. Whether the mother had symptoms does not predict the harm to the fetus."
+        - text: "The mother's high fever damages the fetal brain"
+          correct: false
+          feedback: "Zika virus usually causes little or no fever. The damage comes from the virus itself, which crosses the placenta and infects the developing brain."
+        - text: "The virus blocks the blood vessels of the placenta, starving the fetus"
+          correct: false
+          feedback: "Infection of the fetus, not starvation, explains the harm: the virus crosses the placenta, and the cells that should divide to build the brain die or stop dividing."
+    entry: "Usually silent; otherwise a few days of itchy rash, red eyes and aching joints, with little fever; rarely, Guillain–Barré syndrome follows. In pregnancy the virus crosses the placenta and infects the dividing cells that form the fetal brain: microcephaly and other damage to the brain and eyes, even when the mother had no symptoms."
+  - slot: consequence
+    entry: "Lifelong disability in some children infected before birth; the risk is greatest after infection early in pregnancy. Pregnant women are protected by avoiding mosquito bites and areas with outbreaks, and by protection during sex with a partner who may be infected. No antiviral drug is in routine use."
+  - slot: contrast
+    entry: "Dengue virus: the same mosquitoes and the same family, but its harm falls on the person infected, through leaking blood vessels, more often in a second infection. The main harm of Zika virus falls on the fetus."

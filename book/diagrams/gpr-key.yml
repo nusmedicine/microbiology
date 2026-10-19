@@ -1,0 +1,84 @@
+id: gpr-key
+title: "Sorting the Gram-positive rods"
+intro: "Whether a Gram-positive rod forms spores, and how it handles oxygen, predicts where it comes from and how it reaches the body. Pick a branch at each step and read what each trait predicts as well as where it leads."
+start: spores
+
+nodes:
+  - id: spores
+    question: "Does it form spores?"
+    options:
+      - label: "Yes"
+        meaning: "Spores survive boiling, drying, alcohol hand rub and most disinfectants, and persist for years in soil and dust. Infection begins when spores reach a wound, a food or the gut, usually from the environment, so most of these bacteria do not pass from person to person."
+        next: oxygen
+      - label: "No"
+        meaning: "Without spores, the bacteria are killed by cooking and by routine disinfection. Each reaches people by its own route: in chilled food, or from another person's throat or skin."
+        next: nospores
+  - id: oxygen
+    question: "Does it grow in air?"
+    options:
+      - label: "Yes, it grows with oxygen"
+        meaning: "*Bacillus*. Its spores germinate wherever they find water and nutrients, with or without oxygen, including in cooked food left out in air."
+        next: bacillus
+      - label: "No, oxygen kills it"
+        meaning: "*Clostridium* and *Clostridioides*, obligate anaerobes. Their spores germinate only where oxygen is absent: in a deep or necrotic wound, in food sealed from the air, or in the colon."
+        next: anaerobe
+  - id: bacillus
+    question: "Where does it reach people from?"
+    options:
+      - label: "Grazing animals, their hides and wool, and soil where they died"
+        meaning: "Spores from infected animals persist in soil for decades. People are infected through the skin, by inhaling spores or by eating meat from an infected animal, and not from another person."
+        next: b-anthracis
+      - label: "Cooked rice and other food kept warm"
+        meaning: "Spores survive cooking. As the food cools slowly or is kept warm, they germinate, and the bacteria release a toxin that reheating does not destroy."
+        next: b-cereus
+  - id: anaerobe
+    question: "Where do the spores germinate, and where does the toxin act?"
+    options:
+      - label: "In a wound; the toxin acts in the spinal cord"
+        meaning: "The toxin travels along motor nerves and blocks the inhibitory neurons that hold motor neurons in check, so muscles become rigid and go into spasm."
+        next: c-tetani
+      - label: "In food sealed from the air, or in an infant's gut; the toxin acts where nerves meet muscle"
+        meaning: "Toxin formed in the food is swallowed, or made by bacteria growing in an infant's gut, and it blocks the release of acetylcholine at the neuromuscular junction, so muscles become weak and floppy, starting with those of the eyes and throat."
+        next: c-botulinum
+      - label: "In the colon, after antibacterial drugs"
+        meaning: "The drugs reduce the resident gut bacteria that normally keep it in check, and the bacteria then release toxins that damage the lining of the colon."
+        next: c-difficile
+  - id: nospores
+    question: "Where does it live, and how does it cause harm?"
+    options:
+      - label: "In soil, animals and chilled food; it lives inside host cells"
+        meaning: "It grows at refrigerator temperatures, so it multiplies in chilled food. Inside cells it is out of reach of antibodies and is controlled by cell-mediated immunity, and from the blood it can cross the placenta and reach the meninges."
+        next: l-monocytogenes
+      - label: "Only in the human throat and skin; its toxin gene is carried by a phage"
+        meaning: "It spreads from person to person in respiratory droplets and by contact with infected skin. Only strains that carry the phage make the toxin, and a toxoid vaccine prevents the disease the toxin causes."
+        next: c-diphtheriae
+
+leaves:
+  - id: c-tetani
+    name: "*Clostridium tetani*"
+    tag: main
+    blurb: "Spores from soil enter a wound and germinate where oxygen is low. The bacteria stay in the wound, but their toxin travels along motor nerves to the spinal cord and causes tetanus: lockjaw, rigidity and spasms. Prevented by toxoid vaccine; recovery gives no immunity."
+  - id: c-botulinum
+    name: "*Clostridium botulinum*"
+    tag: main
+    blurb: "In sealed, low-acid food, its spores germinate and the bacteria release toxin. The swallowed toxin blocks acetylcholine release at the neuromuscular junction: botulism, a flaccid paralysis that descends from the eyes and throat to the muscles of breathing. In infants, spores can germinate in the gut."
+  - id: l-monocytogenes
+    name: "*Listeria monocytogenes*"
+    tag: main
+    blurb: "Grows in chilled ready-to-eat food, lives inside cells and spreads from cell to cell. Crosses the placenta and the blood-brain barrier, so it harms pregnant women and their fetuses, neonates, older adults and people with impaired cell-mediated immunity."
+  - id: b-anthracis
+    name: "*Bacillus anthracis*"
+    tag: supporting
+    blurb: "Causes anthrax, mainly a disease of grazing animals. Its spores persist in soil, and people are infected from the animals, their hides or wool."
+  - id: b-cereus
+    name: "*Bacillus cereus*"
+    tag: supporting
+    blurb: "Its spores survive the cooking of rice. In rice kept warm or cooled slowly, the bacteria release a toxin that heat does not destroy, and vomiting follows within hours of eating it."
+  - id: c-difficile
+    name: "*Clostridioides difficile*"
+    tag: supporting
+    blurb: "Spreads as spores on hands and surfaces in hospitals. After antibacterial drugs disturb the gut microbiota, it multiplies in the colon and releases toxins: diarrhoea and colitis. Alcohol hand rub does not kill the spores, so hands are washed with soap and water, and surfaces are cleaned with a strong chlorine disinfectant."
+  - id: c-diphtheriae
+    name: "*Corynebacterium diphtheriae*"
+    tag: supporting
+    blurb: "Lives only in humans and spreads in respiratory droplets and by contact with infected skin. Strains that carry a particular phage make diphtheria toxin, which kills cells in the throat, leaving a membrane of dead cells, fibrin and white cells, and damages the heart and nerves. Prevented by toxoid vaccine."

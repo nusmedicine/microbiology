@@ -1,0 +1,45 @@
+id: fastidious-gram-negatives
+title: "Flashcards: fastidious Gram-negatives and Gram-negative cocci"
+intro: "Explain each answer from what the bacterium needs, where it lives and what protects it. Say the answer before you check it."
+
+cards:
+  - id: fnd1
+    kind: why
+    front: "Why do *Neisseria meningitidis* and *Neisseria gonorrhoeae* spread only by close contact?"
+    back: "Both live only in humans and die quickly when dried or cooled, so they cannot persist in water, soil or on surfaces. The meningococcus passes in respiratory droplets and secretions between people who live close together; the gonococcus passes in sex, and from mother to infant during birth."
+  - id: fnd2
+    kind: why
+    front: "Why does *Haemophilus influenzae* grow on chocolate agar but not on ordinary blood agar?"
+    back: "It needs haem and NAD, which red blood cells contain. In blood agar the red cells are intact, so little NAD is available, and enzymes in the blood destroy any that escapes. Heating the blood to make chocolate agar lyses the cells, releasing the factors, and inactivates the enzymes."
+  - id: fnd3
+    kind: how
+    front: "How does *N. meningitidis* cause shock and purpura?"
+    back: "Its capsule protects it from phagocytes and complement in the blood, so it multiplies and sheds endotoxin. Endotoxin makes vessels leak, so the blood pressure falls, and sets off clotting in small vessels, which uses up platelets and clotting factors, so blood escapes into the skin as purple spots that do not fade when pressed."
+  - id: fnd4
+    kind: why
+    front: "Why are people with asplenia, or with a deficiency of complement, at greater risk of meningococcal disease?"
+    back: "Encapsulated bacteria in the blood are cleared by antibodies and complement, which coat the bacteria and can lyse them, and by the spleen, which removes coated bacteria. Without the spleen, coated bacteria are not removed and infection can become overwhelming. Without the late components of complement, which form pores in the bacterial membrane, the meningococcus is not lysed, so infection is more likely and can recur."
+  - id: fnd5
+    kind: why
+    front: "Why does gonorrhoea leave no lasting immunity, and why does no vaccine reliably prevent it?"
+    back: "Antigenic variation. *N. gonorrhoeae* recombines silent gene copies into the active gene for its pilus protein and switches other surface proteins on and off, so antibodies made against one version miss the next. A vaccine raised against one version would miss the next in the same way; a group B meningococcal vaccine, made from outer-membrane proteins, some of which the gonococcus shares, gives only partial protection."
+  - id: fnd6
+    kind: how
+    front: "How can gonorrhoea cause infertility in a woman who never had symptoms?"
+    back: "Infection of the cervix is often silent, so it goes untreated. The bacteria ascend through the uterus to the fallopian tubes as pelvic inflammatory disease, and the inflammation scars the tubes and can block them."
+  - id: fnd7
+    kind: apart
+    front: "*N. meningitidis* versus *N. gonorrhoeae*: which feature best separates them?"
+    back: "The polysaccharide capsule. It protects *N. meningitidis* in the blood, so it can cause meningitis and sepsis, and conjugate vaccines against it protect. *N. gonorrhoeae* has none: it infects mucosal surfaces, often silently, and no vaccine reliably prevents it."
+  - id: fnd8
+    kind: apart
+    front: "*H. influenzae* type b versus strains without a capsule?"
+    back: "Type b has a capsule that protects it in the blood, so it caused meningitis and epiglottitis in young children until conjugate vaccines made them rare. Strains without a capsule, which most carriers have, seldom invade the blood and cause otitis media, sinusitis and exacerbations of chronic lung disease; the vaccine does not act on them."
+  - id: fnd9
+    kind: why
+    front: "Why are women vaccinated against pertussis during pregnancy?"
+    back: "Young infants are most at risk of severe whooping cough, before their own vaccine doses take effect. Antibodies the mother makes cross the placenta and protect the infant in its first months."
+  - id: fnd10
+    kind: apart
+    front: "*Legionella* versus the other members of the group: where does it come from, and how does it reach people?"
+    back: "Most members live only on human mucosa and pass from person to person. *Legionella* lives in water systems, inside amoebae, and is inhaled in aerosols; it is not passed from person to person, so outbreaks are traced to a shared water source such as a cooling tower."

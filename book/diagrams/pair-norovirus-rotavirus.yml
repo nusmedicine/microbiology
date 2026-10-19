@@ -1,0 +1,78 @@
+id: pair-norovirus-rotavirus
+title: "Contrast pair: two viruses of the small intestine"
+intro: "Both are non-enveloped viruses that spread by the faecal–oral route and cause vomiting and watery diarrhoea. Read across and find the feature that best tells them apart."
+
+a:
+  name: "Norovirus"
+b:
+  name: "Rotavirus"
+
+rows:
+  - feature: "Outer layer"
+    a: "A protein capsid with no envelope"
+    b: "A protein capsid with no envelope"
+    separates: false
+  - feature: "Genome"
+    a: "Single-stranded, positive-sense RNA in one piece"
+    b: "Double-stranded RNA in segments"
+    separates: true
+  - feature: "Who is ill"
+    a: "People of every age, including many young children, and often in outbreaks among adults"
+    b: "Severe illness mainly in infants and young children"
+    separates: true
+  - feature: "Typical illness"
+    a: "Sudden vomiting, often with watery diarrhoea, for a day or two"
+    b: "Fever and vomiting, then watery diarrhoea for several days, with a risk of dehydration"
+    separates: true
+  - feature: "Immunity after infection"
+    a: "Short-lived, and new variants keep appearing, so people are infected again and again"
+    b: "Protects against severe disease in later infections"
+    separates: true
+  - feature: "Vaccine"
+    a: "None in routine use"
+    b: "A live attenuated vaccine given by mouth in the first months of life"
+    separates: true
+  - feature: "Where it multiplies"
+    a: "The cells lining the small intestine"
+    b: "The cells lining the small intestine"
+    separates: false
+
+question:
+  stem: "Both viruses infect the small intestine and spread by the faecal–oral route. Which feature best tells them apart?"
+  options: [0, 4, 6]
+  answer: 4
+  feedback: >
+    Immunity after infection. Both viruses have a capsid without an envelope and multiply in the same
+    cells, so neither of those features tells them apart. What infection leaves behind explains most of
+    the other differences: rotavirus immunity protects against severe disease, so severe illness falls
+    on young children meeting the virus for the first time, while norovirus immunity fades and the
+    virus varies, so people of every age are ill again and again.
+
+principle: >
+  Two viruses that pass from one gut to the next by the same route and harm the same cells differ in
+  what infection leaves behind. A first rotavirus infection leaves immunity that protects against
+  severe disease in later ones, and almost every child meets the virus early, so severe illness falls
+  on infants and young children, and a vaccine that imitates the first infection prevents much of it.
+  Immunity to norovirus is short-lived and new variants keep appearing, so people of every age are
+  infected again and again, and outbreaks spread among adults in care homes, hospitals and cruise
+  ships.
+
+sort:
+  - text: "Forty passengers and crew on a cruise ship start vomiting within two days of each other"
+    answer: a
+    why: "Outbreaks among adults, with sudden vomiting, fit a virus whose immunity does not last: norovirus."
+  - text: "An unvaccinated 9-month-old with fever and three days of watery diarrhoea, now dehydrated"
+    answer: b
+    why: "Severe illness in an infant meeting the virus for the first time: rotavirus."
+  - text: "Several diners fall ill a day or two after eating raw oysters"
+    answer: a
+    why: "Oysters concentrate norovirus from water contaminated with sewage, and are often eaten raw."
+  - text: "Prevented by drops given by mouth in the first months of life"
+    answer: b
+    why: "The live attenuated rotavirus vaccine is given by mouth in infancy; no norovirus vaccine is in routine use."
+  - text: "Its genome is in segments of double-stranded RNA, which can reassort"
+    answer: b
+    why: "Rotavirus has a segmented, double-stranded RNA genome; norovirus has one piece of single-stranded RNA."
+  - text: "Residents and staff of a care home fall ill in waves over two weeks, although alcohol hand rub is used"
+    answer: a
+    why: "Person-to-person spread among adults, with alcohol less reliable than soap and water against it: norovirus."

@@ -1,0 +1,40 @@
+id: atyp-profile-c-trachomatis
+name: "Chlamydia trachomatis"
+group: "Atypical · obligate intracellular · two forms"
+intro: "Predict two of the five slots. Most of what this bacterium does follows from two facts: it lives inside epithelial cells, and most of its infections cause no symptoms."
+
+slots:
+  - slot: identity
+    entry: "Obligate intracellular: it grows only inside living host cells. Its envelope is of the Gram-negative type with very little peptidoglycan. It has two forms: the elementary body, which survives outside cells and infects them, and the reticulate body, which divides inside a membrane-bound vacuole in the host cell."
+  - slot: lifestyle
+    predict:
+      stem: "Most infections in women, and many in men, cause no symptoms. What follows for how *C. trachomatis* spreads?"
+      options:
+        - text: "It passes between sexual partners from people who do not know they are infected"
+          correct: true
+          feedback: "An infection without symptoms goes untreated for months, and the person keeps passing it on. Testing people without symptoms, and treating their partners, finds infections that would otherwise spread."
+        - text: "It spreads mainly from people with symptoms, so treating them stops the spread"
+          correct: false
+          feedback: "People with symptoms seek treatment, which ends their infection. The infections that keep spreading are the silent ones, carried for months without the person knowing."
+        - text: "It is carried by mites, so infection follows time outdoors"
+          correct: false
+          feedback: "Mites carry *Orientia*. *C. trachomatis* lives only in humans and passes in genital secretions during sexual contact, mostly from people who have no symptoms."
+    entry: "Lives only in humans, in the epithelial cells of the cervix, urethra and rectum, and of the conjunctiva. Passes by sexual contact, mostly from people with no symptoms; to the neonate during a vaginal birth; and, for the strains that cause trachoma, from eye to eye on hands, cloths and flies."
+  - slot: harm
+    entry: "Kills the cells it infects as its elementary bodies are released, but most of the lasting damage comes from the inflammation it provokes, which heals by scarring, especially when infection persists or recurs."
+  - slot: consequence
+    predict:
+      stem: "Infection spreads silently from the cervix to the fallopian tubes, and the inflammation heals by scarring. What lasting harm is most likely?"
+      options:
+        - text: "Infertility or an ectopic pregnancy"
+          correct: true
+          feedback: "Scarring narrows or blocks the fallopian tubes, so egg and sperm cannot meet, or a fertilised egg is held in the tube and implants there. This can happen in a woman who never had symptoms."
+        - text: "Meningitis, after spread in the blood"
+          correct: false
+          feedback: "*C. trachomatis* infects the epithelium of mucous membranes and does not spread in the blood to the meninges. Its lasting harm is scarring where it multiplies."
+        - text: "Shock from a toxin released into the blood"
+          correct: false
+          feedback: "Its damage comes from inflammation that heals by scarring, without a toxin in the blood, which is why the harm builds up slowly and silently."
+    entry: "Pelvic inflammatory disease, infertility and ectopic pregnancy in women; conjunctivitis and pneumonia in infants infected at birth; trachoma, the leading infectious cause of blindness worldwide, after repeated eye infection in childhood."
+  - slot: contrast
+    entry: "*Rickettsia*: also obligate intracellular, but carried to humans by ticks, lice and fleas, and it infects the cells lining small blood vessels throughout the body, causing fever and often a rash. *C. trachomatis* passes directly between humans, and apart from the strains of lymphogranuloma venereum, which invade the lymph nodes, it stays in the epithelium of mucous membranes."

@@ -1,0 +1,153 @@
+id: environmental-gram-negatives
+title: "Check your understanding: environmental Gram-negatives"
+questions:
+  - id: eg1
+    stem: "*Pseudomonas* and *Burkholderia* cannot ferment sugars, while *Escherichia coli* ferments as well as respiring. What does that difference predict about where each lives?"
+    options:
+      - text: "*Pseudomonas* and *Burkholderia* depend on respiration, so they do best in wet places that air reaches, such as wet surfaces and damp soil; *E. coli* can also ferment, so it thrives in the oxygen-free colon"
+        correct: true
+        feedback: "An organism that cannot ferment sugars needs an electron acceptor, usually oxygen, so it does best where air reaches water. *P. aeruginosa* can respire with nitrate instead, which is how it grows in thick airway mucus, but neither organism competes with the fermenters of the colon."
+      - text: "*Pseudomonas* and *Burkholderia* need a human host, and *E. coli* does not"
+        correct: false
+        feedback: "Both environmental organisms live and multiply without any host, which is why one persists in hospital plumbing and the other in wet soil. *E. coli*, by contrast, is a resident of the gut."
+      - text: "Fermentation lets *E. coli* survive drying, which the strict respirers cannot do"
+        correct: false
+        feedback: "Survival outside the body depends on the envelope and on moisture, not on how ATP is made. The environmental organisms are the hardier ones in water."
+      - text: "The difference is only a laboratory result and predicts nothing about habitat"
+        correct: false
+        feedback: "Metabolism predicts habitat throughout this group: a bacterium can live only where the chemistry it depends on is available."
+  - id: eg2
+    stem: "A wound swab from a patient who has received no antibacterial drugs grows *P. aeruginosa*, and the laboratory reports it resistant to several beta-lactams that act well on *E. coli*. Which property of the species best explains the report?"
+    options:
+      - text: "Its outer membrane admits little of the drug, efflux pumps expel what crosses, and a beta-lactamase encoded in its chromosome destroys several beta-lactams"
+        correct: true
+        feedback: "Resistance that belongs to a whole species is intrinsic, and it is why treatment of this organism starts from a shorter list of drugs than treatment of a gut Gram-negative rod."
+      - text: "The patient must have caught a strain from someone whose treatment selected it"
+        correct: false
+        feedback: "Transfer between patients does happen, and acquired resistance makes matters worse, but strains of this species in soil, water and plumbing already resist these drugs, so the trait need not come from a treated patient."
+      - text: "Biofilm on the wound surface alters the drug targets inside the bacteria"
+        correct: false
+        feedback: "Shelter is what biofilm provides: drugs and phagocytes penetrate it poorly. It does not change the targets inside the cell, and the susceptibility test is done on bacteria growing freely."
+      - text: "It has no cell wall, so wall-active drugs have no target"
+        correct: false
+        feedback: "A missing wall is the explanation for *Mycoplasma*. *P. aeruginosa* has a Gram-negative wall and an outer membrane, and the envelope is what limits the drugs that reach its targets."
+  - id: eg3
+    stem: "A 58-year-old man who tends the grounds of a housing estate in Singapore worked barehanded in wet soil for two days after heavy rain, with small cuts on his hands. Ten days later he is admitted with fever, cough and hypotension. He has had poorly controlled type 2 diabetes for eight years, and a blood culture grows a Gram-negative rod. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Burkholderia pseudomallei*"
+        correct: true
+        feedback: "Three details converge: wet soil after heavy rain as the reservoir, the cuts on his hands as the route, and diabetes as the host factor that decides who becomes seriously ill."
+      - text: "*Pseudomonas aeruginosa*"
+        correct: false
+        feedback: "Water and wet equipment, usually in hospital, are where people meet *P. aeruginosa*, and it harms tissue whose barrier has failed. Soil exposure with diabetes points to melioidosis."
+      - text: "*Vibrio cholerae*"
+        correct: false
+        feedback: "*V. cholerae* is swallowed in contaminated water and stays in the gut, causing profuse watery diarrhoea without invasion. It does not cause pneumonia, and cholera is not a bloodstream infection."
+      - text: "*Vibrio vulnificus*"
+        correct: false
+        feedback: "Seawater and raw shellfish are its sources, and chronic liver disease the host factor. This man's exposure was soil and his host factor diabetes."
+  - id: eg4
+    stem: "A woman who has been ventilated in intensive care for ten days develops a new fever and more purulent secretions. A Gram-negative rod grows overnight on ordinary agar in air; it does not ferment sugars and is oxidase positive. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Pseudomonas aeruginosa*"
+        correct: true
+        feedback: "Each laboratory detail fits a strict respirer from a wet environment, and the tube that holds her airway open carries bacteria past the nose and throat into the lower airway, where mucus cannot be cleared."
+      - text: "*Burkholderia pseudomallei*"
+        correct: false
+        feedback: "It shares the metabolism and the oxidase result, but people meet it in wet soil and surface water, not in a ventilator circuit, and disease in Singapore follows soil exposure, usually in a person with diabetes."
+      - text: "*Vibrio parahaemolyticus*"
+        correct: false
+        feedback: "Raw or undercooked seafood is its source and the gut its site, so it causes diarrhoea, not pneumonia. It also ferments and needs salt."
+      - text: "*Vibrio cholerae*"
+        correct: false
+        feedback: "Its home is water contaminated with faeces, and its single toxin acts on the lining of the small intestine. Nothing about it fits infection of a ventilated airway."
+  - id: eg5
+    stem: "After a flood destroys the water supply of a crowded settlement, dozens of people develop sudden profuse watery diarrhoea with no blood and no fever, and several collapse within hours. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Vibrio cholerae*"
+        correct: true
+        feedback: "Sanitation failed, so faeces reached the drinking water. The volume of fluid lost, with no blood and no fever, points to a toxin acting on the lining of the small intestine, with the wall left intact."
+      - text: "*Vibrio vulnificus*"
+        correct: false
+        feedback: "Wounds exposed to seawater and meals of raw shellfish are how this organism reaches people, and it invades the tissue it reaches instead of acting through a toxin in the gut."
+      - text: "*Pseudomonas aeruginosa*"
+        correct: false
+        feedback: "Hospital water and wet equipment are its setting, and damaged tissue its target. It does not cause outbreaks of watery diarrhoea."
+      - text: "*Burkholderia pseudomallei*"
+        correct: false
+        feedback: "Flooding does raise the number of cases of melioidosis, but the illness is pneumonia, abscesses or sepsis after soil contact, not an outbreak of watery diarrhoea."
+  - id: eg6
+    stem: "A 56-year-old man with cirrhosis of the liver grazed his leg while wading in the sea on the previous day. The wound is now intensely painful, with blistered, dusky skin spreading up the leg, and his blood pressure is low. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Vibrio vulnificus*"
+        correct: true
+        feedback: "Seawater on a fresh wound, destruction of skin and the tissue beneath it within hours, and chronic liver disease as the host factor together point to this organism."
+      - text: "*Vibrio cholerae*"
+        correct: false
+        feedback: "Its route is swallowing and its site the gut lumen, and its harm comes from fluid loss. It does not invade a wound."
+      - text: "*Pseudomonas aeruginosa*"
+        correct: false
+        feedback: "Burns, devices, damaged airways and the cornea are where it causes infection, usually after contact with water in a healthcare setting. Seawater on a fresh wound, with chronic liver disease, points to *V. vulnificus* instead."
+      - text: "*Vibrio parahaemolyticus*"
+        correct: false
+        feedback: "Although it comes from the same seawater, it stays in the gut and causes diarrhoea after raw or undercooked seafood."
+  - id: eg7
+    stem: "Most patients with cholera are treated with a solution of glucose and salts by mouth, even while the toxin is still acting. Why does that work?"
+    options:
+      - text: "Sodium is absorbed alongside glucose, and that transport keeps working while the toxin acts, so the volume lost is replaced"
+        correct: true
+        feedback: "Secretion and absorption continue side by side, and water follows the salt back into the body. Death in cholera comes from the volume lost, so replacing it is the treatment, by mouth where the patient can drink and into a vein once the circulation is failing."
+      - text: "The glucose neutralises the toxin in the gut"
+        correct: false
+        feedback: "Nothing in the solution touches the toxin, which goes on acting until the lining cells carrying it are replaced. Glucose is there because it drives the uptake of sodium."
+      - text: "The salt in the solution kills the bacteria in the lumen"
+        correct: false
+        feedback: "These bacteria tolerate salt, which is part of how they live in brackish water. The solution works by replacing fluid and salts, not by killing anything."
+      - text: "Fluid by mouth stops the bacteria invading the wall of the gut"
+        correct: false
+        feedback: "*V. cholerae* never invades the wall: that is why there is no blood in the stool and usually no fever. The danger is the fluid it draws into the lumen."
+  - id: eg8
+    stem: "A 64-year-old man with poorly controlled diabetes is admitted with three weeks of fever and weight loss, and imaging shows abscesses in his liver and spleen. He farmed in rural Malaysia until he moved to Singapore eight years ago and has not travelled since. A blood culture grows a Gram-negative rod that does not ferment sugars. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Burkholderia pseudomallei*"
+        correct: true
+        feedback: "Abscesses in several organs, soil exposure in the region years earlier and poorly controlled diabetes fit an organism that survives inside phagocytes and multiplies again when defences weaken. Disease after years of latency is uncommon, but it is well documented."
+      - text: "*Pseudomonas aeruginosa*"
+        correct: false
+        feedback: "Hospital water and wet equipment are its setting, and it needs a failed barrier or too few neutrophils. It stays outside host cells, so it neither lies silent for years nor seeds abscesses in organ after organ."
+      - text: "*Vibrio vulnificus*"
+        correct: false
+        feedback: "Seawater on a wound, or raw shellfish eaten by someone with chronic liver disease, is how this organism reaches people, and the illness follows within a day or two of that exposure."
+      - text: "*Vibrio cholerae*"
+        correct: false
+        feedback: "Water contaminated with human faeces is its source, and it stays in the lumen of the small intestine, where its toxin causes watery diarrhoea. It does not form abscesses in the liver and spleen."
+  - id: eg9
+    stem: "*P. aeruginosa* is common in hospital sinks and taps, yet it rarely harms the staff who use them. Which statement best explains who it does harm?"
+    options:
+      - text: "It causes disease where a barrier or a local defence has failed, as in burns, cystic fibrosis, a ventilated airway or a cornea under a contact lens"
+        correct: true
+        feedback: "Intact skin, an airway that clears its mucus and a normal number of neutrophils keep it out of tissue, so it behaves as an opportunistic pathogen: the host's state, rather than any new trait of the bacterium, decides who becomes ill."
+      - text: "Only strains carrying a toxin gene cause disease, and these are rare in plumbing"
+        correct: false
+        feedback: "Its toxins and tissue-destroying enzymes are widespread among strains, including those in plumbing. What decides who is harmed is whether a barrier or a local defence has failed."
+      - text: "It needs to be swallowed in large numbers to cause disease"
+        correct: false
+        feedback: "Swallowing it rarely harms a person with normal defences. It enters through burned skin, along a device, or into an airway held open by a tube."
+      - text: "It spreads from patient to patient in respiratory particles, and staff are immune"
+        correct: false
+        feedback: "The reservoir is water and wet surfaces, and hands and equipment carry it to patients. Staff are spared because their barriers are intact, not because of immunity."
+  - id: eg10
+    stem: "Why can cholera be controlled by clean water and sanitation, while melioidosis cannot?"
+    options:
+      - text: "*V. cholerae* reaches the next person through water contaminated with human faeces, while *B. pseudomallei* lives in soil and surface water whatever people do"
+        correct: true
+        feedback: "Breaking the link between faeces and drinking water interrupts the chain for cholera. An organism whose reservoir is the environment persists regardless, so prevention of melioidosis acts on exposure instead, with gloves, boots and wound care."
+      - text: "*V. cholerae* is killed by chlorine and *B. pseudomallei* is not"
+        correct: false
+        feedback: "Water treatment does inactivate *V. cholerae*, but the deciding difference is the reservoir: cholera circulates through human faeces, while *B. pseudomallei* lives in soil and water with no need for people."
+      - text: "Melioidosis spreads from person to person, so it cannot be stopped at the water supply"
+        correct: false
+        feedback: "Spread between people is very rare in melioidosis. The reason sanitation does not help is that the organism's home is the environment."
+      - text: "Cholera is caused by a toxin, so only the toxin has to be removed from the water"
+        correct: false
+        feedback: "The toxin is made inside the patient's gut by bacteria that were swallowed alive. What sanitation removes from the water is the bacteria."

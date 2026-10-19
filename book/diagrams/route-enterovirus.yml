@@ -1,0 +1,55 @@
+id: route-enterovirus
+title: "Routes through the body: enteroviruses"
+intro: "Two routes from the same start: the virus multiplies in the throat and the gut wall, then the blood carries it to the skin and mouth, or to the meninges and brain. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "Hand, foot and mouth disease"
+    steps:
+      - at: outside
+        kind: lives
+        text: "An infected child sheds virus in saliva, in the fluid of blisters and in faeces, and contaminates hands and shared toys, as in a preschool."
+      - at: [nose-throat, gut]
+        kind: enters
+        via: swallowed
+        text: "The virus reaches another child's mouth on hands or toys, or in respiratory secretions, and is swallowed. The capsid withstands stomach acid."
+      - at: [nose-throat, gut]
+        kind: multiplies
+        arrow: false
+        text: "It multiplies in the throat and in the lymphoid tissue of the gut wall. In most children the infection stops here, with no symptoms or a short fever."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "In some children the virus enters the blood, which carries it through the body."
+      - at: [skin, nose-throat]
+        kind: damages
+        via: blood
+        ask: "Carried in the blood, where does the virus cause the signs of hand, foot and mouth disease?"
+        options: [skin, nose-throat, gut, liver]
+        answer: [skin, nose-throat]
+        why: "The virus kills epithelial cells in the skin of the hands and feet and in the lining of the mouth, which form blisters and ulcers. Despite its name, an enterovirus causes little illness in the gut, and the liver is the target of hepatitis A and E viruses."
+        text: "The virus kills epithelial cells in the skin and the lining of the mouth: small blisters on the hands and feet, and painful ulcers in the mouth. Most children recover within about a week."
+      - at: outside
+        kind: spreads
+        text: "Virus is shed from the throat for a week or two and in the faeces for several weeks, long after the blisters heal and by children who never had symptoms, so outbreaks in preschools are hard to stop."
+
+  - name: "Meningitis and encephalitis"
+    steps:
+      - at: [nose-throat, gut]
+        kind: multiplies
+        text: "As in hand, foot and mouth disease, the virus multiplies first in the throat and in the lymphoid tissue of the gut wall."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "The virus enters the blood, which carries it to organs throughout the body."
+      - at: brain
+        kind: damages
+        via: blood
+        arrow: false
+        ask: "Enteroviruses are the most common cause of viral meningitis. Which structure do they reach in the blood to cause it?"
+        options: [brain, nerves, liver]
+        answer: [brain]
+        why: "The meninges, the membranes that cover the brain and spinal cord, are reached in the blood. Travel along nerves to the ganglia is the route of herpes simplex viruses, and the liver is the target of hepatitis A and E viruses."
+        text: "In the meninges, the virus provokes inflammation: meningitis, with fever, headache and a stiff neck. It is usually milder than bacterial meningitis, and most people recover without lasting harm."
+      - at: brain
+        kind: damages
+        text: "Rarely, enterovirus A71 infects nerve cells in the brainstem, which controls breathing and the circulation; it probably reaches them along nerves as well as in the blood. In a young child this encephalitis can progress quickly to failure of breathing and the circulation."

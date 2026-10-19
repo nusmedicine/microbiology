@@ -1,0 +1,40 @@
+id: atyp-profile-m-pneumoniae
+name: "Mycoplasma pneumoniae"
+group: "Atypical · no cell wall · lives on the surface of the airway"
+intro: "What the missing wall predicts in the laboratory is worked through in *A map of the bacteria*. Predict two slots here: how it spreads, and what its pneumonia looks like."
+
+slots:
+  - slot: identity
+    entry: "A bacterium with no cell wall; its membrane is stiffened with sterols taken from its surroundings. Mycoplasmas are the smallest free-living bacteria. They make their own ATP, so *M. pneumoniae* can grow without host cells, slowly, on media enriched with sterols."
+  - slot: lifestyle
+    predict:
+      stem: "*M. pneumoniae* passes from person to person in respiratory particles, and illness begins two to three weeks after infection. How will cases appear in a family?"
+      options:
+        - text: "One after another, weeks apart"
+          correct: true
+          feedback: "Each person infects the next, and each new case appears about one incubation period after the last. A long incubation period stretches an outbreak in a family or a school over weeks to months."
+        - text: "All on the same day, after a shared meal"
+          correct: false
+          feedback: "Cases that start together after one shared exposure form a point-source outbreak. *M. pneumoniae* is breathed in from another person, so cases follow one another, about one incubation period apart."
+        - text: "Only in the first person, because it does not pass between people"
+          correct: false
+          feedback: "It lives only in humans and spreads in respiratory particles during close contact, so members of a family are often infected one after another."
+    entry: "Lives only in humans, on the lining of the airway. Spreads in respiratory particles during close contact, in families, schools and military barracks. Its incubation period is long, often two to three weeks, so outbreaks spread slowly. Illness is commonest in school-age children, adolescents and young adults."
+  - slot: harm
+    entry: "Attaches by a specialised tip to the ciliated cells of the trachea and bronchi. The hydrogen peroxide it releases damages them, and their cilia stop beating, so a dry cough lasts for weeks. In the lungs, lymphocytes gather around the small airways and in the walls of the alveoli; much of the damage comes from the host's response."
+  - slot: consequence
+    predict:
+      stem: "In its pneumonia, inflammation lies around the small airways and in the walls of the alveoli, and the air spaces stay largely free of pus. What is a doctor most likely to find?"
+      options:
+        - text: "A patient who looks less ill than the chest X-ray suggests, with a dry cough"
+          correct: true
+          feedback: "With little pus in the air spaces, the patient coughs up little and the chest examination finds little, while the X-ray shows inflammation spread through the lungs. Many patients are still up and about."
+        - text: "Thick sputum full of pus, and the signs of a whole lobe filled with it"
+          correct: false
+          feedback: "That pattern follows when pus fills the alveoli of a lobe. Inflammation confined to the walls of the alveoli and the tissue around the airways produces little sputum and few signs in the chest."
+        - text: "Collapse with shock within hours of the first symptom"
+          correct: false
+          feedback: "Shock within hours follows from toxins or overwhelming infection in the blood. *M. pneumoniae* stays in the airway and lung, and its pneumonia comes on over days."
+    entry: "A gradual pneumonia with a dry cough, often milder than the chest X-ray suggests. Drugs that act on the wall, such as beta-lactams, have nothing to act on. Immunity after an infection does not last, so people can be infected again."
+  - slot: contrast
+    entry: "*Mycobacterium tuberculosis*: also inhaled, and also a cause of lung disease that develops slowly, but it has a waxy wall, survives inside macrophages, spreads through the air only from people with active disease, and can stay latent for decades."

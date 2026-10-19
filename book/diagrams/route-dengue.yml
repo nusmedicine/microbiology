@@ -1,0 +1,50 @@
+id: route-dengue
+title: "Routes through the body: dengue virus"
+intro: "Two routes: from a mosquito bite to the next mosquito, and a second infection with a different serotype that leads to severe dengue. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "From one mosquito to the next"
+    steps:
+      - at: outside
+        kind: lives
+        text: "An infected female *Aedes* mosquito carries the virus in its salivary glands. It took the virus up days earlier in the blood of an infected person, and the virus multiplied inside the mosquito before reaching its saliva."
+      - at: skin
+        kind: enters
+        text: "The mosquito bites during the day and injects the virus into the skin with its saliva. The virus infects white blood cells in the skin."
+      - at: lymph
+        kind: multiplies
+        via: lymph
+        text: "Infected white blood cells carry the virus to the nearby lymph nodes, where it multiplies in monocytes and macrophages."
+      - at: blood
+        kind: spreads
+        via: blood
+        ask: "Four to ten days after the bite, the person has a high fever. From which site can a biting mosquito now take up the virus?"
+        options: [blood, skin, nose-throat]
+        answer: [blood]
+        why: "The mosquito takes up virus with its blood meal, so a person can infect mosquitoes only while virus is in the blood, during the days around the fever. Dengue virus is not passed on by touching the skin or in respiratory particles from the throat."
+        text: "The virus enters the blood and is carried through the body. Fever, severe headache, pain behind the eyes and aching muscles and joints begin, often with a rash."
+      - at: outside
+        kind: multiplies
+        text: "A mosquito that bites now takes up the virus with the blood. The virus multiplies in the mosquito's gut and spreads to its salivary glands, and the mosquito can then infect a new person at every bite for the rest of its life."
+
+  - name: "A second infection: severe dengue"
+    steps:
+      - at: skin
+        kind: enters
+        text: "Years after recovering from dengue, a person is bitten by a mosquito carrying a different serotype. The virus enters the skin with the mosquito's saliva."
+      - at: [lymph, blood]
+        kind: multiplies
+        via: blood
+        text: "Antibodies left by the first infection bind the new serotype without neutralising it. White blood cells that carry receptors for antibodies take up the coated virus, so more cells are infected and more virus enters the blood."
+      - at: blood
+        kind: damages
+        arrow: false
+        ask: "On the fifth day the fever settles and the patient feels a little better. Where does the danger now lie?"
+        options: [blood, brain, skin]
+        answer: [blood]
+        why: "As the fever settles, small blood vessels throughout the body leak plasma for a day or two. The blood becomes concentrated and its volume falls, which can lead to shock. Dengue virus rarely affects the brain, and the rash in the skin does no lasting harm."
+        text: "Small blood vessels throughout the body leak plasma for a day or two. The blood becomes concentrated, fluid collects around the lungs and in the abdomen, and if the volume of blood falls far enough, shock follows."
+      - at: [skin, nose-throat, gut]
+        kind: damages
+        via: blood
+        text: "A low platelet count, fragile small vessels and disturbed clotting cause bleeding: small red spots in the skin, bleeding from the gums or nose and, in severe dengue, from the gut. With careful replacement of fluid through the leaking phase, the vessels recover and most patients survive."

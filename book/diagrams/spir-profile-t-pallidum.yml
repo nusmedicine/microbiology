@@ -1,0 +1,40 @@
+id: spir-profile-t-pallidum
+name: "Treponema pallidum"
+group: "Spirochaete · lives only in humans · cannot be grown on ordinary laboratory media"
+intro: "Predict two of the five slots. Most of what this bacterium does follows from two facts: it lives only in humans, and it stays in the body for years."
+
+slots:
+  - slot: identity
+    predict:
+      stem: "*T. pallidum* is too thin to see after a Gram stain and cannot be grown on ordinary laboratory media. How is syphilis usually confirmed?"
+      options:
+        - text: "By detecting the patient's antibodies against the bacterium"
+          correct: true
+          feedback: "Serology reads the host's response, which works for organisms that cannot be seen or grown. One test shows past or present infection; a second, whose level falls after treatment, is used to judge whether it is active."
+        - text: "By culture on blood agar for a week"
+          correct: false
+          feedback: "No cell-free laboratory medium supports *T. pallidum*: it has lost the genes for making many nutrients and takes them from its host. The laboratory detects antibodies, or the bacterium's DNA in a swab from an ulcer."
+        - text: "By a Gram stain of fluid from the ulcer"
+          correct: false
+          feedback: "At about 0.1 to 0.2 µm across, the bacterium is at the limit of resolution of the light microscope, so a Gram stain shows nothing useful. Serology and NAATs are used instead."
+    entry: "A long, thin, coiled spirochaete with flagella beneath its outer membrane, too thin to see after a Gram stain. It has lost the genes for making many nutrients, so it cannot be grown on ordinary laboratory media, and syphilis is diagnosed by serology and NAATs."
+  - slot: lifestyle
+    entry: "Lives only in humans and is killed quickly by drying. It passes by sexual contact with an infectious lesion, and across the placenta from mother to fetus, often from people who do not know they are infected."
+  - slot: harm
+    predict:
+      stem: "The chancre heals without treatment within a few weeks. What has happened to the bacteria?"
+      options:
+        - text: "They have already spread in the lymph and the blood throughout the body"
+          correct: true
+          feedback: "The bacteria spread early, before the chancre even appears. Weeks later, the rash of the secondary stage shows where they have settled, and a latent stage without symptoms follows."
+        - text: "The immune response has cleared them, as the healing shows"
+          correct: false
+          feedback: "Healing of the chancre marks the end of the first stage, not of the infection. Without treatment the bacteria persist, and antibody tests stay positive."
+        - text: "They have formed spores in the healed ulcer, ready to grow again"
+          correct: false
+          feedback: "*T. pallidum* makes no spores; spores belong to some Gram-positive rods. The bacteria persist because they have spread through the body."
+    entry: "Has no known toxins. Damage comes from inflammation around small blood vessels where the bacteria settle: a painless chancre at the site of entry, then a widespread rash as they spread in the blood, then, after a latent stage of years, damage to the aorta, the brain and other organs in some untreated people."
+  - slot: consequence
+    entry: "Syphilis is infectious in its early stages and silent in the latent one, so screening, of pregnant women and of people at risk, finds infections that cause no symptoms. Untreated infection in pregnancy can cause miscarriage, stillbirth or congenital syphilis. The bacterium remains susceptible to penicillin, but treatment leaves no lasting immunity."
+  - slot: contrast
+    entry: "*Leptospira*: also a spirochaete, but it lives in rats and other animals, reaches people by accident from water and soil, and causes an acute illness that people rarely pass to one another."

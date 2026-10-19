@@ -1,0 +1,58 @@
+id: spir-key
+title: "Sorting the spiral bacteria"
+intro: "Shape separates the spirochaetes from the curved gut bacteria, and the reservoir then predicts how each reaches people. Pick a branch at each step and read what the trait predicts as well as where it leads."
+start: shape
+
+nodes:
+  - id: shape
+    question: "What shape is the cell, and where are its flagella?"
+    options:
+      - label: "Long, thin and coiled, with flagella inside the envelope (a spirochaete)"
+        meaning: "The whole cell turns like a corkscrew and bores through mucus and tissue, so it reaches the blood early in an infection. Most spirochaetes are too thin to see on a Gram stain and are hard or impossible to grow, so infection is usually shown by serology or a NAAT."
+        next: reservoir
+      - label: "A short, curved rod, with flagella outside the cell"
+        meaning: "An ordinary Gram-negative rod with a curved shape: visible on a Gram stain and grown on agar in an atmosphere with little oxygen. These bacteria live in the gut or the stomach, and people swallow them."
+        next: gut
+  - id: reservoir
+    question: "Where does it normally live (its reservoir)?"
+    options:
+      - label: "Humans only"
+        meaning: "It survives only by passing from person to person: by sexual contact and across the placenta. The infection lasts for years, and people without symptoms pass it on, so screening finds it."
+        next: t-pallidum
+      - label: "The kidneys of rats and other animals"
+        meaning: "Animals shed it in their urine into water and soil, and people are infected by accident through cuts and mucosa, after floods or at work. People rarely pass it to one another."
+        next: leptospira
+      - label: "Animals, carried to people by ticks"
+        meaning: "Infection follows the bite of the vector, so the disease occurs only where its ticks live. One species is the exception: body lice pass it between people."
+        next: borrelia
+  - id: gut
+    question: "Where does it live?"
+    options:
+      - label: "The gut of poultry and other animals"
+        meaning: "It is swallowed in undercooked poultry or in contaminated food or water, and causes gastroenteritis."
+        next: campylobacter
+      - label: "The human stomach"
+        meaning: "It survives stomach acid by making ammonia around itself, and stays for decades: gastritis, and in some people peptic ulcers or gastric cancer."
+        next: h-pylori
+
+leaves:
+  - id: t-pallidum
+    name: "*Treponema pallidum*"
+    tag: main
+    blurb: "Causes syphilis. Lives only in humans and passes by sexual contact and across the placenta. A painless chancre heals, the bacteria spread in the blood and cause a rash, a latent stage follows, and years later some untreated people suffer damage to the aorta and the brain. Cannot be grown on ordinary laboratory media, so syphilis is diagnosed by serology."
+  - id: leptospira
+    name: "*Leptospira*"
+    tag: main
+    blurb: "Shed in the urine of rats and other animals into water and soil, and enters people through cuts and mucosa, especially after floods. Fever, muscle pain and red eyes; in a minority, jaundice, kidney failure and pulmonary haemorrhage. Acquired in Singapore and common across South-East Asia."
+  - id: borrelia
+    name: "*Borrelia*"
+    tag: supporting
+    blurb: "Carried by ticks. Causes Lyme disease, which begins with an expanding red rash around the bite, in temperate regions where its ticks live; it is not acquired in Singapore. Other species, carried by ticks or body lice, cause relapsing fever."
+  - id: campylobacter
+    name: "*Campylobacter*"
+    tag: supporting
+    blurb: "A curved gut bacterium from undercooked poultry and a common cause of bacterial gastroenteritis, often with blood in the stool. In a small minority, Guillain–Barré syndrome follows weeks later."
+  - id: h-pylori
+    name: "*Helicobacter pylori*"
+    tag: supporting
+    blurb: "Lives in the mucus over the stomach lining, where its urease makes ammonia that neutralises acid. Causes gastritis, and in some people peptic ulcers or gastric cancer."

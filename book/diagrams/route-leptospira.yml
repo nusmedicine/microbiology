@@ -1,0 +1,30 @@
+id: route-leptospira
+title: "Route through the body: *Leptospira*"
+intro: "From the urine of an infected rat, through water or soil, into a person and on to the liver, the kidney and the lungs. At one step, predict the site before the answer appears."
+
+routes:
+  - name: "From rat urine to the kidney and the lungs"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Lives in the kidneys of rats, which carry it without becoming ill, and of other animals, all of which shed it in their urine for long periods. In warm, wet surroundings it survives for weeks or months in fresh water and moist soil, and floods carry contaminated water widely."
+      - at: [skin, eye]
+        kind: enters
+        text: "Enters through cuts and abrasions, through skin softened by long immersion, or through the mucosa of the eye, nose and mouth, during floods, work in drains and wet fields, or swimming in fresh water."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "Corkscrew motion carries the bacteria through tissue into the blood, which takes them to every organ. After usually one to two weeks, illness begins suddenly with fever, headache, calf pain and red eyes, and in most people it settles as antibodies clear the bacteria."
+      - at: [liver, urinary]
+        kind: damages
+        via: blood
+        ask: "In a minority of people the illness becomes severe. Where does the severe disease do its damage?"
+        options: [liver, urinary, bone, ear-sinus]
+        answer: [liver, urinary]
+        why: "The bacteria reach every organ in the blood, and in severe leptospirosis they damage the liver, causing jaundice, and the kidney, causing kidney failure. Bones and the middle ear are not where leptospirosis does its harm."
+        text: "The bacteria damage the lining of small blood vessels and the cells of the liver and kidney. Jaundice and kidney failure follow, often with bleeding."
+      - at: alveoli
+        kind: damages
+        via: blood
+        arrow: false
+        text: "Damaged small vessels in the lungs leak blood into the alveoli. This pulmonary haemorrhage is the most dangerous complication of leptospirosis."

@@ -1,0 +1,31 @@
+id: route-v-cholerae
+title: "Route through the body: *Vibrio cholerae*"
+intro: "One route, and the bacteria never leave the gut: from contaminated water to the lining of the small intestine, and back to the water in the stool, while the fluid they draw into the gut drains the circulation. At one step, predict the site before the answer appears."
+
+routes:
+  - name: "From water to the gut and back"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Lives in fresh and brackish water. Faeces from an infected person return enormous numbers of bacteria to the water and food that others use."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "Swallowed in water or food. Stomach acid kills most of the bacteria, so a large number must arrive for the few that survive to reach the small intestine."
+      - at: gut
+        kind: multiplies
+        text: "The survivors multiply in the lumen of the small intestine and attach to its lining. They do not invade the wall, so there is no blood in the stool and usually no fever."
+      - at: gut
+        kind: damages
+        text: "The bacteria release a single toxin, which enters the lining cells and raises the concentration of cyclic AMP in them. The cells secrete chloride, and water and other salts follow into the gut: in severe cholera, up to a litre an hour."
+      - at: outside
+        kind: spreads
+        text: "Enormous numbers of bacteria pass in the watery stool. Where sanitation and clean water have failed, they return to the water supply and infect the next person."
+      - at: blood
+        kind: damages
+        arrow: false
+        ask: "The bacteria stay in the gut and the wall is never invaded. Which site does the illness threaten first as the fluid is lost?"
+        options: [blood, liver, brain]
+        answer: [blood]
+        why: "The fluid and salts lost into the gut come from the circulation, so what moves into the lumen is fluid and not bacteria. As the circulating volume falls, blood pressure falls with it and shock follows, which is how untreated cholera kills. The bacteria themselves never reach the blood, the liver or the brain."
+        text: "The circulating volume falls as fluid is lost, and blood pressure falls with it, so an untreated patient can collapse within hours. Replacing fluid and salts, by mouth where the patient can drink and into a vein when the circulation is failing, restores the volume while the toxin is still acting."

@@ -1,0 +1,58 @@
+id: entv-key
+title: "Sorting the viruses spread by the faecal–oral route"
+intro: "These viruses are all swallowed, and where each one does its harm afterwards separates them. Pick a branch at each step and read what the site predicts as well as where it leads."
+start: site
+
+nodes:
+  - id: site
+    question: "Where does the virus do most of its harm after it is swallowed?"
+    options:
+      - label: "In the gut, where it arrives"
+        meaning: "The virus multiplies in the cells lining the small intestine and does its harm there, so illness begins within hours to about two days: vomiting and watery diarrhoea, with dehydration as the main danger."
+        next: gut
+      - label: "Beyond the gut, after spreading in the blood"
+        meaning: "The virus multiplies in the throat and the gut wall, then is carried in the blood to the skin, the lining of the mouth and the meninges and, rarely, to the heart, the brain or the spinal cord. Illness begins after a few days, and most infections are silent or mild."
+        next: enteroviruses
+      - label: "In the liver"
+        meaning: "The virus crosses the gut wall, is carried in the blood to the liver, multiplies in liver cells and leaves in the bile. Acute hepatitis, often with jaundice, begins weeks after exposure, and virus is shed in the faeces before it does."
+        next: liver
+  - id: gut
+    question: "What pattern of illness does the virus cause?"
+    options:
+      - label: "Outbreaks at every age, with reinfection throughout life"
+        meaning: "Immunity after infection is short-lived and new variants keep appearing, so people are infected again and again throughout life, young children included. Outbreaks spread through care homes, hospital wards and cruise ships."
+        next: norovirus
+      - label: "Severe illness mainly in infants and young children"
+        meaning: "The first infection is the most severe, and the immunity it leaves protects against severe disease in later infections, so severe illness falls on the young. A vaccine given in infancy greatly reduces it."
+        next: rotavirus
+  - id: liver
+    question: "Does the virus also live in animals?"
+    options:
+      - label: "No: humans are its only source"
+        meaning: "Humans are the only reservoir, and the virus spreads in food or water contaminated with faeces and by close contact, so sanitation, food hygiene and vaccination break the chain. Young children are often infected without symptoms and pass the virus on."
+        next: hav
+      - label: "Yes: pigs as well as humans"
+        meaning: "Some strains are carried by pigs and reach humans in undercooked pork and pig liver. Others live only in humans and spread in water contaminated with faeces where sanitation is poor, causing large outbreaks."
+        next: hev
+
+leaves:
+  - id: norovirus
+    name: "Norovirus"
+    tag: main
+    blurb: "The most common cause of outbreaks of gastroenteritis. Very few particles are enough to infect, vomit and faeces spread it on hands and surfaces, and alcohol hand rub is less reliable against it than soap and water. Sudden vomiting and watery diarrhoea for a day or two."
+  - id: rotavirus
+    name: "Rotavirus"
+    tag: main
+    blurb: "A double-stranded RNA virus whose genome is in segments. Fever, vomiting and several days of watery diarrhoea in infants and young children, with a risk of dehydration. A live attenuated vaccine is given by mouth in the first months of life."
+  - id: enteroviruses
+    name: "Enteroviruses"
+    tag: main
+    blurb: "Spread in faeces, respiratory secretions and the fluid of blisters. Cause hand, foot and mouth disease in young children (mainly coxsackie A viruses, such as coxsackievirus A16, and enterovirus A71), and are the most common cause of viral meningitis; enterovirus A71 can, rarely, cause encephalitis of the brainstem."
+  - id: hav
+    name: "Hepatitis A virus"
+    tag: supporting
+    blurb: "Spread in food or water contaminated with faeces, in raw shellfish and by close contact. Silent in most young children; acute hepatitis with jaundice in most adults. Never chronic; one infection, or the inactivated vaccine, gives lasting immunity."
+  - id: hev
+    name: "Hepatitis E virus"
+    tag: supporting
+    blurb: "Spread in water contaminated with human faeces where sanitation is poor, and from pigs in undercooked pork. Acute hepatitis that can cause liver failure late in pregnancy, and can become chronic when immunity is suppressed after an organ transplant."

@@ -1,0 +1,58 @@
+id: route-m-tuberculosis
+title: "Routes through the body: *Mycobacterium tuberculosis*"
+intro: "Two routes: containment, latency and reactivation in an adult, and spread through the body in a young child whose cell-mediated immunity is immature. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "Latency and reactivation"
+    steps:
+      - at: outside
+        kind: lives
+        text: "A person with active tuberculosis of the lungs coughs out bacteria in particles small enough to stay suspended in the air of a room."
+      - at: alveoli
+        kind: enters
+        via: air
+        text: "Inhaled particles carry a few bacteria down to the alveoli. Macrophages engulf them, but the bacteria stop the vacuole that holds them from fusing with lysosomes, and they survive and multiply inside."
+      - at: lymph
+        kind: spreads
+        via: lymph
+        ask: "Before T cells respond, infected macrophages carry some bacteria out of the alveoli. Where do they go first?"
+        options: [lymph, gut, skin]
+        answer: [lymph]
+        why: "Macrophages travel in lymph from the lung to the lymph nodes at the root of the lung. Some bacteria also reach the blood and other organs, where they can later reactivate."
+        text: "Infected macrophages carry some bacteria in lymph to the lymph nodes at the root of the lung, and a few bacteria reach other organs in the blood."
+      - at: alveoli
+        kind: defence
+        arrow: false
+        text: "Weeks after infection, T cells activate the macrophages, which gather around the infected cells in granulomas whose centres undergo caseous necrosis. In most people this contains the infection."
+      - at: alveoli
+        kind: latent
+        text: "A few bacteria survive inside the granulomas for years or decades, multiplying little or not at all: latent infection. The person has no symptoms and does not infect others."
+      - at: alveoli
+        kind: reactivates
+        text: "When cell-mediated immunity fails, with HIV infection, diabetes, older age or drugs that suppress immunity, the bacteria multiply again, usually in the upper parts of the lungs. The caseous centres enlarge and destroy lung tissue: active tuberculosis, with weeks of cough, fever, night sweats and weight loss."
+      - at: airway
+        kind: spreads
+        via: air
+        text: "When a caseous centre liquefies and drains into a bronchus, it leaves a cavity full of bacteria. Coughing carries them up the airway and into the air, to the next person."
+
+  - name: "Spread in a young child"
+    steps:
+      - at: alveoli
+        kind: multiplies
+        text: "In a young child, whose cell-mediated immunity is immature, inhaled bacteria multiply in the lung before granulomas can contain them."
+      - at: lymph
+        kind: spreads
+        via: lymph
+        text: "They spread in lymph to the lymph nodes at the root of the lung, which enlarge."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "From the lymph nodes and the lung, the bacteria enter the blood, which carries them to organs throughout the body."
+      - at: brain
+        kind: damages
+        via: blood
+        ask: "Carried in the blood, where do the bacteria cause the most dangerous disease in a young child?"
+        options: [brain, skin, gut]
+        answer: [brain]
+        why: "In the meninges the bacteria cause tuberculous meningitis, the most dangerous form of tuberculosis in young children. BCG given at birth protects young children mainly against this form and against spread through the whole body."
+        text: "Bacteria that reach the meninges cause tuberculous meningitis, which develops over days to weeks and can kill or leave lasting brain damage. Spread in the blood can also seed small granulomas in many organs."

@@ -1,0 +1,40 @@
+id: gpr-profile-c-botulinum
+name: "Clostridium botulinum"
+group: "Gram-positive rod · forms spores · obligate anaerobe"
+intro: "Predict two of the five slots. In the classic form, food-borne botulism, the bacteria need never enter the body: the toxin is made in food before it is eaten."
+
+slots:
+  - slot: identity
+    entry: "Gram-positive rod that forms spores; an obligate anaerobe. Makes botulinum toxin, the most potent toxin known, a protein that stops motor nerve endings releasing acetylcholine."
+  - slot: lifestyle
+    predict:
+      stem: "Spores of *C. botulinum* are common in soil and on vegetables. Which food is most likely to contain botulinum toxin?"
+      options:
+        - text: "Vegetables canned at home in a sealed jar, kept at room temperature and eaten cold"
+          correct: true
+          feedback: "Spores can survive the heat of home canning. In a sealed jar, without oxygen, in food that is not acidic, they germinate and the bacteria release toxin, and eating the food cold leaves the toxin intact."
+        - text: "Vegetables boiled and eaten at once"
+          correct: false
+          feedback: "Boiling destroys the toxin, and spores swallowed by an adult pass through without harm. The danger is food in which the spores have had time to germinate without oxygen, eaten without heating."
+        - text: "Vegetables pickled in strong vinegar"
+          correct: false
+          feedback: "Acid stops the spores germinating and the bacteria growing, which is why acidic foods are safer to preserve. The danger is sealed food that is low in acid."
+    entry: "Spores live in soil and in the sediment of lakes and the sea, and contaminate food. In food preserved at home in a sealed container, low in acid and kept at room temperature, spores that survived the heat germinate and the bacteria release toxin into the food."
+  - slot: harm
+    entry: "The swallowed toxin is absorbed into the blood and blocks the release of acetylcholine at the neuromuscular junction. Flaccid paralysis begins with the cranial nerves (double vision, drooping eyelids, difficulty swallowing) and descends to the muscles of breathing. The person stays alert, and the paralysis lasts until the nerve endings recover, over weeks to months."
+  - slot: consequence
+    predict:
+      stem: "Home-canned beans may contain botulinum toxin. Which step, taken just before the meal, destroys the toxin?"
+      options:
+        - text: "Boiling the beans throughout for 10 minutes"
+          correct: true
+          feedback: "Botulinum toxin is a protein that heat destroys once the whole of the food has boiled. The spores survive, but in food eaten at once by older children and adults they do no harm. A jar with a bulging lid or an odd smell is thrown away without tasting."
+        - text: "Chilling the jar in a refrigerator"
+          correct: false
+          feedback: "The toxin is already in the food, and cold does not destroy it. Only heating the food before it is eaten destroys the toxin."
+        - text: "Rinsing the beans in clean water"
+          correct: false
+          feedback: "Rinsing does not remove the toxin, which is throughout the food and its liquid. Heating the food destroys it."
+    entry: "Food-borne botulism is an intoxication: the toxin, not the bacteria, causes the illness, usually within a day or two of the meal. Boiling destroys the toxin but not the spores. In an infant under a year old, swallowed spores, sometimes from honey, can germinate in the gut and make toxin there, and spores in a wound can do the same."
+  - slot: contrast
+    entry: "*Clostridium tetani*: also a spore-forming anaerobe whose toxin stops nerve endings releasing neurotransmitter, but its toxin is made in a wound and acts on inhibitory neurons in the spinal cord, so the paralysis is spastic."

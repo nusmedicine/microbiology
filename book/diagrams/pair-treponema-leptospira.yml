@@ -1,0 +1,72 @@
+id: pair-treponema-leptospira
+title: "Contrast pair: two spirochaetes"
+intro: "Both are thin, coiled spirochaetes that bore through tissue, and both are hard to see and grow. Read across and find the feature that best tells them apart."
+
+a:
+  name: "Treponema pallidum"
+b:
+  name: "Leptospira"
+
+rows:
+  - feature: "Shape and movement"
+    a: "Thin and coiled, with flagella beneath the outer membrane; moves like a corkscrew"
+    b: "Thin and coiled, with hooked ends and flagella beneath the outer membrane; moves like a corkscrew"
+    separates: false
+  - feature: "Reservoir"
+    a: "Humans only"
+    b: "The kidneys of rats and other animals, which shed it in their urine"
+    separates: true
+  - feature: "Route into the body"
+    a: "Sexual contact with an infectious lesion; across the placenta"
+    b: "Through cuts, softened skin or mucosa, from water or soil contaminated with urine"
+    separates: true
+  - feature: "Passed from person to person"
+    a: "Yes, by sexual contact and from mother to fetus"
+    b: "Rarely; people are infected by accident"
+    separates: true
+  - feature: "Time course"
+    a: "Chronic: stages over years, with a latent stage without symptoms"
+    b: "Acute: illness one to two weeks after exposure, lasting days to weeks"
+    separates: true
+  - feature: "Laboratory confirmation"
+    a: "Serology and NAATs; cannot be grown on ordinary laboratory media"
+    b: "Serology and NAATs; grows only slowly in special media"
+    separates: false
+
+question:
+  stem: "Both are spirochaetes. Which feature best tells them apart?"
+  options: [0, 1, 5]
+  answer: 1
+  feedback: >
+    Reservoir. Both are thin, coiled spirochaetes, and both are confirmed mainly by serology and
+    NAATs, so neither of those features tells them apart. The reservoir explains the other
+    differences: *T. pallidum* lives only in humans, so it must pass from person to person and stays
+    for years, while *Leptospira* lives in animals and reaches people by accident from water and soil.
+
+principle: >
+  Where a spirochaete lives decides how it reaches people and how long it stays. *T. pallidum* lives
+  only in humans, so it survives only by passing from one person to the next: it persists for years,
+  infectious in the early stages and silent later, and passes by sexual contact and across the
+  placenta. *Leptospira* lives in animals and survives in water and soil, so its survival does not
+  depend on people. People are infected by accident, through cuts and mucosa; the illness is acute, and
+  they rarely pass it on.
+
+sort:
+  - text: "A painless ulcer on the penis three weeks after unprotected sex"
+    answer: a
+    why: "A chancre at the site of sexual contact: *T. pallidum*."
+  - text: "Fever, calf pain and red eyes ten days after clearing a flooded drain"
+    answer: b
+    why: "Entry through the skin from water contaminated with rat urine: *Leptospira*."
+  - text: "Shed for long periods in the urine of rats"
+    answer: b
+    why: "An animal reservoir in the kidney: *Leptospira*."
+  - text: "Found by antibody screening in a pregnant woman who feels well"
+    answer: a
+    why: "A latent infection that can still cross the placenta: *T. pallidum*."
+  - text: "Jaundice, kidney failure and pulmonary haemorrhage in the second week of illness"
+    answer: b
+    why: "Severe disease after spread in the blood to the liver, kidney and lungs: *Leptospira*."
+  - text: "A rash on the palms and soles weeks after a painless ulcer has healed"
+    answer: a
+    why: "The secondary stage, after spread in the blood: *T. pallidum*."

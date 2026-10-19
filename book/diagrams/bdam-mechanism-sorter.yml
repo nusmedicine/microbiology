@@ -1,0 +1,49 @@
+id: bdam-mechanism-sorter
+title: "Which step does this mechanism serve?"
+intro: "Each description gives a mechanism, not an organism. Sort each one by the step it serves: getting a hold, escaping defences, or damaging the host directly or through its response."
+
+categories:
+  - key: attach
+    label: "Attachment or invasion"
+    summary: "a specific grip on a host surface, or entry through it. Attachment decides which tissue the organism can occupy; invasion is often unnecessary, because injury, surgery or a device has already opened the barrier."
+  - key: evade
+    label: "Evading defences"
+    summary: "capsules and life inside a phagocyte keep the bacterium out of reach. Each mechanism points to a host who is exposed: a person with asplenia for encapsulated bacteria, a person with impaired cell-mediated immunity for bacteria that live inside cells."
+  - key: toxin
+    label: "A toxin that kills or disrupts its target cell"
+    summary: "an exotoxin acts on one target, so a single protein can produce a recognisable illness: the cell it reaches dies, leaks, or carries on working abnormally. Superantigens and endotoxin are toxins too, but their harm comes from the immune cells they activate, so they belong with the host response."
+  - key: host
+    label: "Damage through the host response"
+    summary: "inflammation, the response to endotoxin, superantigens, cross-reacting antibodies and T cells, and granulomas all damage the host's own tissue. Removing the bacteria does not always stop the damage, and a weaker response can mean less visible disease."
+
+items:
+  - text: "Pili whose tips bind sugars on the cells lining the bladder"
+    answer: attach
+    why: "A specific grip that holds the bacteria against the flow of urine, as in *E. coli* urinary tract infection."
+  - text: "A slippery polysaccharide layer outside the wall that gives a phagocyte little to hold"
+    answer: evade
+    why: "The capsule also buries the surface molecules that antibodies and complement would bind."
+  - text: "The bacterium stops the vesicle that engulfed it from fusing with a lysosome"
+    answer: evade
+    why: "Without that fusion the phagocyte cannot digest what it has taken in, so *M. tuberculosis* multiplies inside the macrophage."
+  - text: "A secreted protein enters host cells and blocks their ribosomes, so the cells die"
+    answer: toxin
+    why: "A single target inside the cell, stopping protein synthesis: the action of a Shiga toxin."
+  - text: "A secreted protein inserts into the membrane of a red cell and opens a channel in it"
+    answer: toxin
+    why: "Pore-forming toxins make the cell leak and burst; *S. aureus* lyses red cells and neutrophils this way."
+  - text: "A secreted protein raises cAMP in the cells lining the small intestine, which then secrete salt and water"
+    answer: toxin
+    why: "The cells are left alive but working abnormally, which is enough to cause watery diarrhoea."
+  - text: "Neutrophils arrive in large numbers, and their enzymes digest the surrounding tissue as well as the bacteria"
+    answer: host
+    why: "Pus is the debris of that response, and the abscess around it is host tissue."
+  - text: "Lipid A of the outer membrane binds receptors on macrophages, which release the signals of inflammation"
+    answer: host
+    why: "Endotoxin is called a toxin, but it does little harm by itself; fever, leaky vessels and shock come from the response to it."
+  - text: "A secreted protein switches on a large fraction of the body's T cells at once, and the signals they release cause fever, rash and hypotension"
+    answer: host
+    why: "A superantigen is an exotoxin, but the harm comes from the cytokines the activated T cells release, so the damage is done through the host response."
+  - text: "Antibodies and T cells raised against a bacterium cross-react with heart tissue weeks after the infection has cleared"
+    answer: host
+    why: "Molecular mimicry: no bacteria remain in the tissue that is damaged, as in rheumatic fever."

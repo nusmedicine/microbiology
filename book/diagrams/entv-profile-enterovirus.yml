@@ -1,0 +1,40 @@
+id: entv-profile-enterovirus
+name: "Enteroviruses"
+group: "Non-enveloped single-stranded RNA viruses · faecal–oral and respiratory routes · spread from the gut in the blood"
+intro: "Predict two of the five slots. Most of what these viruses do follows from where the blood carries them after they multiply in the throat and the gut."
+
+slots:
+  - slot: identity
+    entry: "A large group of small viruses with a single-stranded, positive-sense RNA genome in a capsid without an envelope. There are many types, among them coxsackievirus A16 and enterovirus A71."
+  - slot: lifestyle
+    entry: "Humans are their reservoir. Shed from the throat for a week or two and in the faeces for several weeks, by people with and without symptoms; spread on hands and toys, in respiratory secretions and in the fluid of blisters. Infections are most common in young children, with outbreaks in preschools and childcare centres."
+  - slot: harm
+    predict:
+      stem: "Enteroviruses are named for the gut, where they multiply. Where do most of the illnesses they cause appear?"
+      options:
+        - text: "In the skin, the mouth and the meninges, reached in the blood"
+          correct: true
+          feedback: "From the throat and the gut wall, the virus enters the blood, which carries it to the skin and the lining of the mouth (hand, foot and mouth disease) and to the meninges (meningitis)."
+        - text: "In the gut, as vomiting and diarrhoea"
+          correct: false
+          feedback: "Enteroviruses multiply in the gut wall but cause little illness there. Their illnesses appear where the blood carries them."
+        - text: "In the liver, as jaundice"
+          correct: false
+          feedback: "Jaundice points to a virus that targets the liver, such as hepatitis A virus. The blood carries enteroviruses mainly to the skin, the mouth and the meninges."
+    entry: "Multiply in the throat and in the lymphoid tissue of the gut wall, then spread in the blood. Most infections are silent or a short fever. They cause hand, foot and mouth disease, with ulcers in the mouth and blisters on the hands and feet of young children, and are the most common cause of viral meningitis; enterovirus A71 can, rarely, cause encephalitis of the brainstem. Less often, they cause myocarditis or paralysis, and infection in neonates can be severe."
+  - slot: consequence
+    predict:
+      stem: "A 4-year-old had hand, foot and mouth disease last year. Can she have it again?"
+      options:
+        - text: "Yes, because several enterovirus types cause it, and immunity to one type does not protect against another"
+          correct: true
+          feedback: "Immunity after an enterovirus infection is specific to the type that caused it. Several types cause hand, foot and mouth disease, so a child can have it more than once."
+        - text: "No, because one infection gives lifelong immunity to all enteroviruses"
+          correct: false
+          feedback: "One infection protects against the type that caused it, and there are many other types."
+        - text: "Only if virus has stayed latent in her nerve cells"
+          correct: false
+          feedback: "Enteroviruses do not become latent. A second illness is a new infection with a different type."
+    entry: "Usually mild and over within about a week, with immunity to the type that caused it; children can be ill again with other types. Spread is hard to stop, because virus is shed in the faeces for weeks and many infections cause no symptoms. Prevention relies on washing hands with soap and water and cleaning toys and surfaces."
+  - slot: contrast
+    entry: "Hepatitis A virus: also a non-enveloped, positive-sense RNA virus spread by the faecal–oral route, but it targets the liver, so its illness is hepatitis, often with jaundice, weeks after exposure."

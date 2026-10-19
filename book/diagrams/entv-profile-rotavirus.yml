@@ -1,0 +1,40 @@
+id: entv-profile-rotavirus
+name: "Rotavirus"
+group: "Non-enveloped double-stranded RNA virus · faecal–oral route · infects the small intestine"
+intro: "Predict two of the five slots. Most of what this virus does follows from where it multiplies, the tips of the villi, and from what a first infection leaves behind."
+
+slots:
+  - slot: identity
+    entry: "A non-enveloped virus with a genome of double-stranded RNA in segments, inside a capsid that looks like a wheel under the electron microscope. The virion carries its own RNA-dependent RNA polymerase, and strains exchange segments by reassortment."
+  - slot: lifestyle
+    entry: "Shed in enormous numbers in the stool of infected children; survives on hands, toys and surfaces, and few particles are enough to infect. Before vaccines, almost every child in the world was infected by the age of five."
+  - slot: harm
+    predict:
+      stem: "Rotavirus infects and kills the mature cells at the tips of the villi of the small intestine. What is the main result?"
+      options:
+        - text: "Less fluid is absorbed, and watery diarrhoea follows"
+          correct: true
+          feedback: "The cells at the tips of the villi absorb fluid and nutrients. With them lost and the villi shortened, fluid stays in the gut, and a viral protein acting as an enterotoxin adds to it by making the cells secrete salt and water."
+        - text: "Ulcers form in the gut wall, with blood in the stool"
+          correct: false
+          feedback: "Rotavirus damages the cells on the surface of the villi without ulcerating the wall, so the stool is watery, without blood."
+        - text: "The virus is carried to the liver and causes jaundice"
+          correct: false
+          feedback: "Jaundice comes from viruses that target the liver, such as hepatitis A virus. Rotavirus does its harm in the small intestine."
+    entry: "Kills the mature cells at the tips of the villi, so the shortened villi absorb less fluid, and a viral protein acting as an enterotoxin makes the cells lining the intestine secrete salt and water. Fever and vomiting, then watery diarrhoea for several days; the danger is dehydration."
+  - slot: consequence
+    predict:
+      stem: "Almost every unvaccinated child is infected with rotavirus by the age of five, yet severe rotavirus illness in adults is uncommon. Why?"
+      options:
+        - text: "Each infection leaves immunity that protects against severe disease in later infections"
+          correct: true
+          feedback: "The first infection is usually the most severe. Later infections, in older children and adults, are milder or silent because immunity from earlier ones limits them."
+        - text: "Adults lack the intestinal cells that rotavirus infects"
+          correct: false
+          feedback: "Adults have the same cells lining the small intestine and can be infected, for example by ill children. Immunity from earlier infections protects them from severe disease."
+        - text: "Rotavirus becomes latent in childhood and never reactivates"
+          correct: false
+          feedback: "Rotavirus causes an acute infection and does not become latent. Adults are protected by the immunity that earlier infections left behind."
+    entry: "The first infection, in infancy or early childhood, is the most severe; the immunity it leaves protects against severe disease in later infections. Treatment replaces fluid and salts, usually by mouth. A live attenuated vaccine, given by mouth in the first months of life, imitates the first infection and greatly reduces severe illness."
+  - slot: contrast
+    entry: "Norovirus: also a non-enveloped virus of the small intestine, but immunity after infection is short-lived and the virus varies, so people of every age are infected again and again, often in outbreaks."

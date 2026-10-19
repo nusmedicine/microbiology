@@ -1,0 +1,44 @@
+id: route-c-perfringens
+title: "Routes through the body: *Clostridium perfringens*"
+intro: "Two routes, one for each illness: spores carried from soil into a deep wound, and spores that survive cooking and germinate as the food cools, so that growing bacteria are eaten. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "Gas gangrene"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Spores survive for years in soil and dust. The bacterium also lives in the gut of people and animals, which pass it in their faeces."
+      - at: skin
+        kind: enters
+        text: "A deep wound, such as a crush injury or a penetrating wound contaminated with soil, carries spores through the skin into the muscle beneath."
+      - at: tissue
+        kind: multiplies
+        ask: "The spores are now in the wound. Where do they find the low oxygen the bacteria need to grow?"
+        options: [tissue, skin, blood]
+        answer: [tissue]
+        why: "Crushed or dead muscle has lost its blood supply, so it has little oxygen. The surface of the skin is exposed to air, and healthy tissue and the blood are supplied with oxygen; only the damaged muscle gives the bacteria the oxygen-poor tissue in which they grow and make toxins."
+        text: "In crushed or dead muscle, which has little oxygen, the spores germinate and the bacteria multiply."
+      - at: tissue
+        kind: damages
+        text: "Toxins destroy the membranes of muscle cells and damage small blood vessels, so more muscle loses its blood supply and the infection advances into it within hours. Fermentation fills the muscle with gas, and few neutrophils reach it, so there is little pus: gas gangrene."
+      - at: blood
+        kind: damages
+        via: blood
+        text: "Toxins that enter the blood depress the heart and damage blood vessels, causing hypotension and shock; they can also lyse red blood cells."
+
+  - name: "Food poisoning"
+    steps:
+      - at: outside
+        kind: multiplies
+        text: "Spores in meat survive cooking. In a large dish of meat or stew that cools slowly, the centre holds little oxygen; the spores germinate as the food cools, and the bacteria multiply to large numbers."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "The food is eaten, and the bacteria that multiplied in it are swallowed in large numbers and reach the small intestine."
+      - at: gut
+        kind: damages
+        ask: "Where is the toxin that causes the illness made?"
+        options: [gut, outside, blood]
+        answer: [gut]
+        why: "The swallowed bacteria release their enterotoxin as they form spores in the small intestine. The toxin was not made in the food, so illness begins 6 to 24 hours after the meal, later than food poisoning from a toxin already present in food."
+        text: "In the small intestine, the bacteria form spores and release an enterotoxin, which damages the cells lining the gut, and fluid is lost into it. Abdominal cramps and watery diarrhoea begin 6 to 24 hours after the meal and usually settle within a day."

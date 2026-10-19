@@ -1,16 +1,369 @@
 # Fastidious Gram-negatives and Gram-negative cocci
 
-> *Why do some bacteria need special food, and why do fragile bacteria spread only by close contact?*
+> *A bacterium carried harmlessly in the throat of one student can kill a roommate within a day, and
+> another that soon dies on a dry surface is one of the commonest sexually transmitted bacteria. Both
+> depend on the human body to survive, and that dependence predicts how each one spreads, how the
+> laboratory grows it and whether a vaccine can prevent it.*
 
-::: {.callout-note}
-## In preparation
-The layout will match that of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Explain why some Gram-negative bacteria grow only on enriched media such as chocolate agar, and why
+  those that die quickly outside the body spread only by close contact.
+- Sort the group by the shape of the cells on a Gram stain and by where each member lives, and
+  predict from the site how each one spreads and where it causes disease.
+- Explain how the capsule and endotoxin of *Neisseria meningitidis* lead to meningitis and rapidly
+  fatal sepsis, and who is most at risk.
+- Explain why infection with *Neisseria gonorrhoeae* is often silent in women, why it leaves no
+  lasting immunity, and why no vaccine reliably prevents it.
+- Explain how vaccination against the type b capsule changed the disease caused by *Haemophilus
+  influenzae*, and which infections strains without a capsule still cause.
+- Name the host, setting and route that let each main organism cause disease, and tell
+  *N. meningitidis* from *N. gonorrhoeae* by capsule, site, route and vaccine.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-fgn-group)
+  - [The group in one sentence](#sec-fgn-sentence): what every member shares
+  - [Sorting the group](#sec-fgn-key): the shape of the cells, then where each member lives
+- [Main organisms](#sec-fgn-main)
+  - [*Neisseria meningitidis*](#sec-fgn-meningitidis): the capsule in the blood
+  - [*Neisseria gonorrhoeae*](#sec-fgn-gonorrhoeae): silent infection and a changing surface
+  - [*Haemophilus influenzae*](#sec-fgn-haemophilus): factors from blood, and the type b capsule
+- [Contrast pair](#sec-fgn-pairs)
+  - [*N. meningitidis* and *N. gonorrhoeae*](#sec-fgn-pair-neisseria)
+- [Beyond the main organisms](#sec-fgn-beyond)
+  - [Supporting organisms](#sec-fgn-supporting)
+  - [Later in the course](#sec-fgn-later)
+:::
+
+## The group {#sec-fgn-group}
+
+### The group in one sentence {#sec-fgn-sentence}
+
+The fastidious Gram-negatives and the Gram-negative cocci are Gram-negative bacteria that depend on
+the human host, for nutrients they cannot make or for shelter from drying and cold, so most of them
+live only on human mucosa and spread by close contact. Most of the six questions have one answer for
+the whole group; its members differ mainly in where on the body they live and in whether a
+**capsule**, a polysaccharide layer outside the cell wall that resists phagocytosis, protects them in
+the blood.
+
+Two kinds of dependence define the group (see [*A map of the
+bacteria*](bacteria-map.qmd#sec-map-habitat)). A **fastidious** organism grows only when the
+laboratory meets special requirements, often because it has lost the ability to make some nutrients.
+In nature it grows only on a host that supplies them, and in the laboratory only on an **enriched
+medium**, a medium with added nutrients for organisms that cannot make them. A fragile organism dies
+quickly when it is dried or cooled, so it passes only by close contact, in respiratory droplets and
+secretions or in sex (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)).
+
+Fragility is clearest in the *Neisseria* species, and it shapes how samples are handled: samples go
+to the laboratory quickly and are not refrigerated. Because the bacteria may still die on the way, or
+after a first dose of an antibiotic, laboratories also look for their DNA with a **nucleic acid
+amplification test (NAAT)**, a test that copies a target sequence many times until it can be
+detected (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-molecular)).
+
+Most members live only in humans, so the source of each infection is another person, often a
+**carrier**, a person who harbours and can transmit an organism without being ill (see [*Microbes and
+their hosts*](../foundations/host-microbe.qmd#sec-host-words)).
+
+| Question | Answer for the fastidious Gram-negatives and Gram-negative cocci |
 |---|---|
-| The group in one sentence | Gram-negative bacteria that depend on their host for nutrients, or die quickly outside it |
-| Sorting key | Growth needs (enriched media); fragility outside the body; capsule |
-| Main organisms | *Neisseria meningitidis* (capsule in the blood), *Neisseria gonorrhoeae* (fragility, antigenic variation), *Haemophilus influenzae* (factors from blood) |
-| Supporting organisms | *Bordetella pertussis*, *Legionella*, *Moraxella*, the HACEK group |
-| Later in the course | Meningitis, gonorrhoea, whooping cough and Legionnaires disease in the organ blocks |
+| What is it built from? | A Gram-negative envelope whose outer membrane carries **endotoxin**, the lipopolysaccharide of the Gram-negative outer membrane, whose lipid A triggers inflammation; pili that attach the bacteria to mucosa; in *N. meningitidis* and some strains of *H. influenzae*, a polysaccharide capsule |
+| How does it get energy, and what does it need to grow? | Most respire with oxygen, and some can also ferment; many cannot make nutrients that the host supplies, so they grow only on enriched media |
+| How does it copy itself and change? | Binary fission; *Neisseria* and *Haemophilus* readily take up DNA from their surroundings, one way they acquire resistance genes (see [*How bacteria copy themselves and change*](bacterial-genetics.qmd#sec-gen-hgt)); *N. gonorrhoeae* keeps changing its surface proteins |
+| Where does it live, and how does it spread? | The mucosa of the human nasopharynx, mouth or genital tract, often in healthy carriers; spread by respiratory droplets in close contact or by sexual contact. The exceptions are *Legionella*, which lives in water inside **amoebae** (protozoa that move and engulf their food by pushing out extensions of the cell) and is inhaled from it, and the HACEK group, which reaches the blood from the patient's own mouth |
+| How does damage happen? | Mostly through the inflammation the bacteria provoke where they multiply, which endotoxin drives when they reach the blood; *Bordetella pertussis* harms the airway mainly through toxins |
+| What does it have that my cells lack? | A peptidoglycan wall, and the proteins that build it |
+
+A capsule is the main reason some members survive in the blood. There, encapsulated bacteria are
+cleared by antibodies against the capsule, by **complement**, a set of proteins in the blood that,
+once activated on a microbe's surface, coat it for phagocytes and can assemble pores that lyse
+bacteria, and by the spleen, which removes coated bacteria from the circulation (see [*How bacteria
+cause damage*](bacterial-damage.qmd#sec-bdam-evade)). A gap in any of these defences lets
+encapsulated bacteria multiply in the blood:
+
+- Young children who have not yet made antibodies against a capsule
+- People with **asplenia**, absence of a functioning spleen (see [*Microbes and their
+  hosts*](../foundations/host-microbe.qmd#sec-host-factors))
+- People who lack some of the components of complement
+
+### Sorting the group {#sec-fgn-key}
+
+The Gram stain divides the group by shape. The Gram-negative cocci are **diplococci**, cocci that stay
+together in pairs after dividing. The fastidious Gram-negatives are small rods, many of them
+**coccobacilli**, rods so short that they look almost round. Within each shape, we sort by where the
+organism lives, because the site predicts how it spreads and where it causes disease.
+
+::: {.concept-tree}
+[Sorting the fastidious Gram-negatives and Gram-negative cocci]{.tree-title}
+
+- Diplococci, living only on human mucosa
+  - The nasopharynx; can invade the blood and meninges: *Neisseria meningitidis*
+  - The genital tract; infects mucosal surfaces, often silently: *Neisseria gonorrhoeae*
+  - The nasopharynx; infects the spaces next to it: *Moraxella catarrhalis*
+- Small rods and coccobacilli
+  - The human nasopharynx; needs two growth factors from red blood cells: *Haemophilus influenzae*
+  - The human airway; attaches to the cilia and makes toxins: *Bordetella pertussis*
+  - Water systems, inside amoebae: *Legionella*
+  - The mouth; grows slowly: the HACEK group
+:::
+
+Where a member lives predicts how it reaches the next person and where it causes disease:
+
+| Where it lives | How it spreads | What follows |
+|---|---|---|
+| The nasopharynx of healthy carriers | Respiratory droplets and secretions, in close contact | With a capsule (*N. meningitidis*, *H. influenzae* type b), invasion of the blood and meninges; without one (most *H. influenzae*, *M. catarrhalis*), infection of the middle ear, sinuses and airways next to the nasopharynx |
+| The ciliated lining of the human airway | Respiratory droplets | Damage by toxins to the cells that clear mucus, and weeks of coughing (*B. pertussis*) |
+| The genital tract, rectum and throat | Sexual contact; to an infant's eyes during birth | Infection of mucosal surfaces, often silent, which can ascend from the cervix to the fallopian tubes (*N. gonorrhoeae*) |
+| The mouth | From the mouth into the blood; not between people | Infection of the heart valves (the HACEK group) |
+| Water systems, inside amoebae | Inhaled in aerosols; not between people | Pneumonia (*Legionella*) |
+
+Work through the key from the shape of the cells, and read at each branch what the trait predicts
+about the organism.
+
+<div data-island="sorting-key" data-src="/diagrams/fgn-key.yml"></div>
+
+## Main organisms {#sec-fgn-main}
+
+### *Neisseria meningitidis*: the capsule in the blood {#sec-fgn-meningitidis}
+
+*N. meningitidis*, the meningococcus, lives only in humans. At any time a minority of healthy people
+carry it in the nasopharynx, most often adolescents and young adults, and it passes to others in
+respiratory droplets and secretions during close, prolonged contact. Outbreaks occur where people
+live, sleep or travel close together: in households, dormitories, military barracks and mass
+gatherings.
+
+Carriage usually ends without illness and leaves antibodies against the strain. Disease usually
+follows within days of acquiring a strain against which the person has no antibodies. Pili attach the
+bacteria to the nasopharyngeal mucosa, and some pass through the epithelium into the blood. There the
+capsule protects them from phagocytes and complement, and they multiply quickly and shed endotoxin,
+which in *Neisseria* is **lipooligosaccharide**, a lipopolysaccharide with short sugar chains whose
+lipid A acts in the same way (see [*How bacteria cause
+damage*](bacterial-damage.qmd#sec-bdam-endotoxin)).
+
+Two illnesses follow, often together. **Meningitis**, inflammation of the meninges, the membranes
+that cover the brain and spinal cord, develops when bacteria cross from the blood into the
+cerebrospinal fluid. **Sepsis**, life-threatening organ dysfunction caused by a dysregulated host
+response to infection, develops as endotoxin drives inflammation throughout the body. Vessels leak and
+the blood pressure falls into shock, and clotting inside small vessels uses up platelets and clotting
+factors, so the patient bleeds as well. Bleeding into the skin gives **purpura**, purple spots or
+patches that do not fade when pressed, because the blood lies outside the vessels. Early in the
+illness the rash can fade when pressed, and some patients never have one, so the absence of purpura
+does not rule out meningococcal disease. Meningococcal sepsis can kill within hours of the first
+symptoms. Survivors can lose fingers, toes or limbs where clots cut off the blood supply, and
+meningitis can leave lasting hearing loss.
+
+Four groups of people are at greatest risk:
+
+- Infants and young children, once the antibodies they received from their mother have faded
+- Adolescents and young adults, who carry the bacterium most often and live in close contact
+- People with asplenia
+- People who lack one of the late components of complement, which assemble the pores that lyse the
+  bacteria, or who take drugs that block complement
+
+Meningococci are divided by the chemistry of the capsule into **serogroups**, sets of strains that
+share the same capsule and are recognised by the same antibodies, and a few serogroups, named by
+letters, cause almost all disease. Antibodies against the capsule protect, so the vaccines against
+several serogroups are each a **conjugate vaccine**, a vaccine in which a polysaccharide is linked to
+a protein to improve the immune response, particularly in young children (see [*Detecting and
+controlling microbes*](../foundations/detection-control.qmd#sec-det-prevent)). The capsule of group B
+resembles a molecule on developing human nerve cells and provokes little antibody, so vaccines against
+group B are made from proteins of the outer membrane. When a case occurs, close contacts, such as
+members of the household, are given antibiotics to clear any carriage of the strain before it can
+cause disease in them or spread further.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Meningitis | Bacteria cross from the blood into the meninges and multiply in the cerebrospinal fluid, and the inflammation they provoke fills the space | Fever, headache, neck stiffness and confusion in a first-year student living in a hall of residence |
+| Sepsis with purpura | Endotoxin shed by bacteria multiplying in the blood makes vessels leak, lowering the blood pressure, and sets off clotting in small vessels, with bleeding into the skin | A teenager with fever and a spreading purple rash who is in shock within hours |
+| Loss of tissue after sepsis | Clots in small vessels cut off the blood supply to the fingers, toes and limbs, which become necrotic | Amputation of fingers or a leg in a survivor of meningococcal sepsis |
+
+Three conditions let *N. meningitidis* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A person who acquires a strain against which they have no antibodies: most often an infant, a young child, an adolescent or a young adult; people with asplenia or a deficiency of complement | Antibodies against the capsule, complement and the spleen clear the bacteria from the blood, and a gap in any of them lets the bacteria multiply there |
+| Where (setting) | Close, prolonged contact with a carrier: households, dormitories, military barracks and mass gatherings such as the Hajj | It lives only in the human nasopharynx and dies quickly outside the body, so it passes in respiratory droplets and secretions between people who live close together |
+| How (route) | From the nasopharynx across the mucosa into the blood, and from the blood into the meninges | Pili attach it to the mucosa; in the blood the capsule protects it while it multiplies and sheds endotoxin |
+
+Step through the route *N. meningitidis* takes from the nasopharynx to the blood, the skin and the
+meninges.
+
+<div data-island="body-map" data-src="/diagrams/route-n-meningitidis.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/fgn-profile-n-meningitidis.yml"></div>
+
+### *Neisseria gonorrhoeae*: silent infection and a changing surface {#sec-fgn-gonorrhoeae}
+
+*N. gonorrhoeae*, the gonococcus, lives only in humans, on the mucosa of the urethra, cervix, rectum
+and throat. It has no polysaccharide capsule, it is more fastidious than the meningococcus, and it dies
+quickly when dried or cooled. It therefore passes from person to person only by direct contact
+between mucosal surfaces: in sex, and from mother to infant during birth. Pili and other surface
+proteins attach it to the columnar epithelium of these sites, and the bacteria pass through the
+epithelial cells. Endotoxin and other components of their envelope draw in neutrophils, and pus forms.
+
+What the infection does depends on the site:
+
+- In the urethra of a man it usually causes **urethritis**, inflammation of the urethra, with pus from
+  the urethra and pain on passing urine a few days after exposure. A Gram stain of the pus shows
+  Gram-negative diplococci inside neutrophils.
+- In the cervix of a woman it often causes no symptoms. Untreated, it can ascend and cause **pelvic
+  inflammatory disease**, infection and inflammation of the uterus, fallopian tubes and nearby pelvic
+  structures, usually spread up from the cervix. Scarring of the tubes can cause infertility, or a
+  pregnancy that implants in the tube.
+- In the rectum and the throat, infection is usually silent.
+- In a **neonate**, a newborn infant in the first four weeks of life, bacteria from the mother's cervix
+  can infect the eyes during birth. The result is **ophthalmia neonatorum**, inflammation of the
+  conjunctiva (the membrane over the white of the eye and inside the eyelids) in a neonate, which can
+  damage the cornea and cause blindness.
+
+Silent infection keeps the bacterium circulating, because people without symptoms do not seek
+treatment and continue to pass it on. Sexual partners are therefore traced and treated, and most
+infections are detected by NAAT on a urine sample or a swab.
+
+Infection gives no lasting immunity, and the same person can be infected again and again. A main
+reason is **antigenic variation**, switching between versions of surface proteins during infection,
+so that antibodies made against one version miss the next. *N. gonorrhoeae* carries spare, silent
+copies of parts of the gene for its pilus protein, and by recombining them into the active gene it
+keeps changing its pili; it also switches other surface proteins on and off. No vaccine made
+specifically against it is available. A vaccine against group B meningococci, made from
+outer-membrane proteins, some of which the gonococcus shares, gives partial protection, and some
+health services now offer it to people at high risk of gonorrhoea.
+
+*N. gonorrhoeae* has also become resistant to most of the drug classes once used to treat it, by
+mutation and by taking up DNA, including resistance genes from harmless *Neisseria* species that share
+the throat. Culture is therefore kept alongside NAAT, because only a living isolate can be tested
+against drugs (see [*Detecting bacteria and testing
+susceptibility*](detecting-bacteria.qmd#sec-dbac-mic)), and treatment follows surveillance of local
+resistance (see [*How bacteria copy themselves and
+change*](bacterial-genetics.qmd#sec-gen-stewardship)).
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Urethritis | Pili attach the bacteria to the urethral epithelium; they pass through it, and neutrophils pour in | Pus from the urethra and pain on passing urine in a man four days after sex |
+| Silent infection that ascends | Infection of the cervix often causes no symptoms, so it goes untreated; it ascends to the fallopian tubes, and the inflammation there scars them | Infertility in a woman who never had symptoms |
+| Eye infection at birth | Bacteria in the mother's cervix reach the conjunctiva of the infant during birth | Swollen eyelids and pus pouring from both eyes of a neonate three days after birth |
+| Spread in the blood (uncommon) | Bacteria enter the blood from a mucosal infection and settle in joints and skin | A hot, swollen knee and a few pustules on the skin in a sexually active young adult |
+
+Three conditions let *N. gonorrhoeae* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Any sexually active person, including one who has had gonorrhoea before; a neonate born to an infected mother | Antigenic variation is a main reason that infection leaves no lasting immunity; the neonate's eyes meet the bacteria in the birth canal |
+| Where (setting) | Sexual contact with an infected partner, who often has no symptoms | It dies quickly outside the body, and silent infection of the cervix, rectum or throat keeps it spreading |
+| How (route) | Attachment to the mucosa of the urethra, cervix, rectum, throat or eye; ascent from the cervix to the uterus and fallopian tubes | Pili and other surface proteins attach it to columnar epithelium; it passes through the epithelial cells and draws in neutrophils |
+
+Step through the two routes of *N. gonorrhoeae*: sexual contact, and from mother to neonate during
+birth.
+
+<div data-island="body-map" data-src="/diagrams/route-n-gonorrhoeae.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/fgn-profile-n-gonorrhoeae.yml"></div>
+
+### *Haemophilus influenzae*: factors from blood, and the type b capsule {#sec-fgn-haemophilus}
+
+*H. influenzae* is a small Gram-negative coccobacillus that lives only in humans, in the nasopharynx,
+and spreads in respiratory droplets. It needs two growth factors that red blood cells contain: haem,
+and NAD, the coenzyme that carries electrons in metabolism. In ordinary blood agar the red cells are
+intact, so little NAD is available, and enzymes in the sheep blood used to make it destroy any NAD
+that escapes; the bacterium grows poorly or not at all. The laboratory therefore grows it on
+**chocolate agar**, agar made with heated blood, which supplies factors released from lysed red
+cells; heating also inactivates the enzymes (see [*Detecting bacteria and testing
+susceptibility*](detecting-bacteria.qmd#sec-dbac-culture)). The genus name, *Haemophilus*, means
+'blood-loving'.
+
+Some strains have a polysaccharide capsule, of six types, and strains of type b (Hib) caused almost
+all serious disease. The capsule protects them in the blood, from which they reach the meninges. They
+also infect the epiglottis, the flap of tissue that covers the entrance to the larynx during
+swallowing, and cause **epiglottitis**, inflammation of the epiglottis, whose swelling can block the
+airway within hours. Young children were most at risk, after the antibodies passed from their mother had
+faded and before they made their own. A polysaccharide alone provokes a poor response in young
+children, so the Hib vaccine is a conjugate vaccine, given in infancy (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-prevent)). Where it is used, Hib meningitis
+and epiglottitis have become rare, and fewer children carry type b, so even unvaccinated children are
+partly protected.
+
+Most strains carried in the nasopharynx have no capsule. They are called **non-typeable**, because
+there is no capsule by which to type them. They seldom invade the blood, but they reach the spaces next
+to the nasopharynx. In children they are a common cause of **otitis media**, infection of the middle
+ear, and of sinusitis. In adults with chronic lung disease, whose damaged airways clear bacteria
+poorly, they cause pneumonia and **exacerbations**, periods in which a chronic disease suddenly
+worsens. The Hib vaccine does not act on them, and where it is used they now cause most of the
+uncommon infections of the blood by *H. influenzae*, mainly in neonates, older adults and people with
+suppressed immunity.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Invasion of the blood and meninges (type b) | The capsule protects the bacteria from phagocytes and complement in the blood, from which they cross into the meninges | Meningitis in an unvaccinated child under two |
+| Swelling of the epiglottis (type b) | Infection of the epiglottis makes it swell over the entrance to the larynx | An unvaccinated young child with a high fever, drooling and noisy breathing, whose airway can close within hours |
+| Infection next to the nasopharynx (non-typeable) | Strains without a capsule spread from the nasopharynx into the middle ear, the sinuses and airways that clear bacteria poorly | Otitis media in a toddler after a cold; an exacerbation of chronic lung disease in a long-term smoker |
+
+Three conditions let *H. influenzae* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | For type b, an unvaccinated young child; for strains without a capsule, a young child with a cold, or an adult with chronic lung disease | Young children respond poorly to a polysaccharide capsule, and a conjugate vaccine overcomes this; damaged airways clear bacteria poorly |
+| Where (setting) | Close contact with people who carry it in the nasopharynx | It lives only in humans and spreads in respiratory droplets |
+| How (route) | From the nasopharynx into the blood and the meninges (type b), or into the middle ear, the sinuses and the airways (strains without a capsule) | The capsule protects type b in the blood; strains without one seldom invade the blood and infect the mucosal surfaces next to the nasopharynx |
+
+::: {.callout-important}
+## Does *Haemophilus influenzae* cause influenza?
+The name suggests that it does, and the bacterium is often confused with influenza virus, and the Hib
+vaccine with the influenza vaccine. *H. influenzae* was first isolated in the 1890s from the airways of patients during an influenza
+pandemic, and it was taken to be the cause. Influenza is caused by influenza virus, which was first
+isolated in the 1930s. *H. influenzae* can cause pneumonia after influenza, as some other bacteria of
+the nasopharynx can, but it does not cause influenza itself.
+
+The Hib vaccine protects against disease caused by *H. influenzae* type b and not against influenza,
+and the influenza vaccine does not protect against *H. influenzae*.
+:::
+
+Step through the two routes of *H. influenzae*: type b into the blood and the meninges, and strains
+without a capsule into the spaces next to the nasopharynx.
+
+<div data-island="body-map" data-src="/diagrams/route-h-influenzae.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/fgn-profile-h-influenzae.yml"></div>
+
+## Contrast pair {#sec-fgn-pairs}
+
+### *N. meningitidis* and *N. gonorrhoeae* {#sec-fgn-pair-neisseria}
+
+The two *Neisseria* species look alike on a Gram stain, and both die quickly outside the body.
+Compare them feature by feature before reading the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-meningitidis-gonorrhoeae.yml"></div>
+
+## Beyond the main organisms {#sec-fgn-beyond}
+
+### Supporting organisms {#sec-fgn-supporting}
+
+| Organism | Where it lives | What separates it | Why it matters |
+|---|---|---|---|
+| *Bordetella pertussis* | The ciliated lining of the human airway; humans only | A small coccobacillus that needs a special medium; it attaches to the cilia, and its toxins paralyse the cilia and kill the ciliated cells, so mucus is not cleared | Causes **whooping cough** (pertussis), weeks of coughing fits that end in a gasping 'whoop' as the person breathes in. Young infants are most at risk, and may have spells of **apnoea**, pauses in breathing, in place of a whoop. Immunity after vaccination or infection fades, so older children and adults catch it and pass it to infants. Vaccinating women during pregnancy passes antibodies across the placenta and protects infants before their own vaccine doses take effect |
+| *Legionella* | Fresh water, and man-made water systems in which warm water stands, such as cooling towers, hot-water pipes and spa pools; there it lives inside amoebae | Multiplies inside the macrophages of the alveoli, as it does inside amoebae; needs a special medium; inhaled in aerosols, and not passed from person to person | **Legionnaires' disease**, pneumonia caused by *Legionella* and caught by inhaling aerosols of contaminated water, is most severe in older adults, smokers and people with chronic disease or suppressed immunity. Outbreaks are traced to a shared water source, such as a cooling tower |
+| *Moraxella catarrhalis* | The nasopharynx, especially of young children | A Gram-negative diplococcus, like *Neisseria*, that stays on the mucosal surfaces of the airway | Otitis media and sinusitis in children; exacerbations of chronic lung disease in adults |
+| The HACEK group | The mouth and throat | Slow-growing, fastidious Gram-negative rods of five genera, named from their initials | Reach the blood from the mouth and settle on the heart valves, causing **infective endocarditis**, infection of the heart valves or the inner lining of the heart; their slow growth can delay their detection in blood cultures |
+
+### Later in the course {#sec-fgn-later}
+
+| Organism | Where it comes up again |
+|---|---|
+| *N. meningitidis* | Neurology and infectious diseases (meningitis and sepsis); public health (antibiotics for close contacts, and vaccination for travel to the Hajj) |
+| *N. gonorrhoeae* | Sexual health (urethritis and the tracing of partners); obstetrics and gynaecology (pelvic inflammatory disease and infertility); neonatology (ophthalmia neonatorum); resistance in pharmacology |
+| *H. influenzae* | Paediatrics (otitis media, and meningitis and epiglottitis in unvaccinated children); respiratory medicine (exacerbations of chronic lung disease) |
+| *B. pertussis* | Paediatrics (whooping cough in infants); vaccination in childhood and in pregnancy |
+| *Legionella* | Respiratory medicine (pneumonia); public health (investigating water systems) |
+| *M. catarrhalis* | Paediatrics (otitis media); respiratory medicine (exacerbations of chronic lung disease) |
+| The HACEK group | Cardiology (infective endocarditis) |
+
+## Check your understanding {#sec-fgn-quiz}
+
+<div data-island="quiz" data-src="/quizzes/fastidious-gram-negatives.quiz.yml"></div>
+
+## Review with flashcards {#sec-fgn-cards}
+
+<div data-island="flashcards" data-src="/decks/fastidious-gram-negatives.deck.yml"></div>

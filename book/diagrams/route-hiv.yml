@@ -1,0 +1,52 @@
+id: route-hiv
+title: "Routes through the body: HIV"
+intro: "Two routes: sexual transmission and the slow loss of CD4 T cells that follows, and transmission from mother to child. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "Sexual transmission"
+    steps:
+      - at: genital
+        kind: enters
+        text: "HIV in the semen, vaginal fluid or rectal secretions of an infected partner reaches the mucosa of the genital tract or rectum during sex. It infects CD4 T cells and macrophages in the mucosa."
+      - at: lymph
+        kind: spreads
+        via: lymph
+        ask: "From the mucosa, where is the virus carried first?"
+        options: [lymph, liver, brain]
+        answer: [lymph]
+        why: "Infected cells and virus drain in lymph to the regional lymph nodes, which are full of CD4 T cells, the cells HIV infects. HIV does not infect liver cells, and the brain is not its first stop."
+        text: "Infected cells and virus are carried in lymph to the regional lymph nodes, which are packed with CD4 T cells, and the virus multiplies rapidly there."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "Within weeks the virus reaches high levels in the blood, which carries it to lymphoid tissue throughout the body. The viral load is at its highest and the person is very infectious, while an antibody test may still be negative: the window period."
+      - at: lymph
+        kind: damages
+        text: "Years without symptoms follow. Virus is produced continuously, and CD4 T cells in the lymphoid tissue and the blood are killed faster than they are replaced."
+      - at: alveoli
+        kind: damages
+        arrow: false
+        text: "Once enough CD4 T cells are lost, cell-mediated immunity fails, and organisms the body normally holds in check cause opportunistic infections, such as tuberculosis in the lungs. This is advanced HIV infection, AIDS."
+
+  - name: "From mother to child"
+    steps:
+      - at: blood
+        kind: multiplies
+        text: "A pregnant woman with HIV has virus in her blood. The higher her viral load, the greater the risk that her child is infected."
+      - at: fetus
+        kind: enters
+        via: blood
+        text: "During pregnancy, the virus can cross the placenta and infect the fetus, but this accounts for a minority of infections of the child; most occur at birth or through breastfeeding."
+      - at: genital
+        kind: enters
+        arrow: false
+        text: "Infection can also pass during birth, when the infant is exposed to the mother's blood and genital secretions."
+      - at: gut
+        kind: enters
+        via: swallowed
+        arrow: false
+        ask: "After birth, by which site can HIV still reach the infant?"
+        options: [gut, skin, airway]
+        answer: [gut]
+        why: "HIV is present in breast milk. The infant swallows it, and the virus infects cells in the mucosa of the infant's mouth and gut. It does not pass through intact skin or spread in respiratory particles."
+        text: "After birth, virus in breast milk is swallowed and infects the infant through the mucosa of the mouth and gut. Treatment of the mother and drugs for the infant make every one of these routes rare."

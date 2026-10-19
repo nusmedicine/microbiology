@@ -1,0 +1,44 @@
+id: route-sars-cov-2
+title: "Routes through the body: SARS-CoV-2"
+intro: "Two routes: from the nose and throat to the next person, often before symptoms begin, and, in some people, down the airway to the alveoli. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "Spread before symptoms"
+    steps:
+      - at: outside
+        kind: lives
+        text: "An infected person, who may feel well, breathes out virus in respiratory particles. In a crowded, poorly ventilated room the smallest particles stay suspended and accumulate in the air."
+      - at: nose-throat
+        kind: enters
+        via: air
+        text: "A young woman in the room breathes in the particles, and they reach the lining of her nose and throat. The spike protein binds ACE2 on epithelial cells, and the virus enters them."
+      - at: nose-throat
+        kind: multiplies
+        text: "The virus multiplies in the epithelium of her nose and throat, the site from which most virus is shed. Shedding begins a day or two before any symptoms, and some people never develop symptoms at all."
+      - at: outside
+        kind: spreads
+        via: air
+        ask: "Two days after she was infected, before she has any symptoms, where does the virus she is making go?"
+        options: [outside, blood, gut]
+        answer: [outside]
+        why: "Virus made in the nose and throat is breathed out in respiratory particles, so she can infect others before she knows she is infected. Isolating people only once they felt ill could not, on its own, stop this spread."
+        text: "She breathes out virus and infects people at home and at work before she feels ill. Her symptoms begin a few days after infection, if they appear at all."
+
+  - name: "Pneumonia in an older adult"
+    steps:
+      - at: nose-throat
+        kind: enters
+        via: air
+        text: "An unvaccinated 80-year-old man with diabetes breathes in the virus, which infects the epithelium of his nose and throat. His first symptoms are fever, a sore throat and a cough."
+      - at: airway
+        kind: spreads
+        via: air
+        text: "Over the following days the infection spreads down the airway. With age, his immune response controls the virus less well."
+      - at: alveoli
+        kind: damages
+        via: air
+        ask: "About a week into his illness he becomes breathless and his blood oxygen falls. Where is the damage?"
+        options: [alveoli, gut, brain]
+        answer: [alveoli]
+        why: "Cells lining the alveoli carry ACE2, so the virus infects them. The virus and the inflammation it provokes fill the alveoli with fluid and inflammatory cells, and gas exchange fails."
+        text: "The virus infects cells lining the alveoli, and the inflammatory response fills them with fluid and inflammatory cells: pneumonia, which can progress to respiratory failure. Much of this damage comes from the host's response."

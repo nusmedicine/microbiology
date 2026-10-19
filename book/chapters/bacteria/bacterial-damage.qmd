@@ -1,47 +1,260 @@
 # How bacteria cause damage
 
-> *Bacteria damage the host by destroying cells, by releasing toxins, and by provoking a response that
-> harms the host's own tissue. The bacterial cell supplies the tools for each.*
-
-::: {.callout-note}
-## Draft
-The toxin section below is moved from *Microbes and their hosts*. The rest of the chapter is planned
-in the table at the end.
-:::
+> *A bacterium that lives harmlessly in the colon can infect the bladder, and a sore throat that has
+> cleared can be followed weeks later by damage to the heart. The tools a bacterium carries, and the
+> response they provoke, decide where it can live and what harm follows.*
 
 ::: {.callout-note appearance="simple"}
 ## Learning objectives
-- Distinguish exotoxins from endotoxin by structure, release, action and use in vaccines.
-- Relate capsules, adhesins and intracellular survival to the steps of infection.
-- Place bacterial mechanisms of damage on the damage-response framework.
+- Relate the tools a bacterium carries to the steps of infection it has to complete.
+- Explain how adhesins and pili decide which tissue a bacterium can colonise, and when invasion is
+  needed at all.
+- Explain how a capsule and survival inside phagocytes defeat the defences of a tissue, and name the
+  gap in host defence that each exposes.
+- Distinguish exotoxins from endotoxin by structure, release, action and use in vaccines, and sort
+  exotoxins by what they do to a host cell.
+- Explain how superantigens, molecular mimicry and granulomas damage the host through its own
+  response.
+- Judge, for a given infection, whether the damage comes mainly from the bacterium or mainly from the
+  host's response.
 :::
 
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [Toxins](#sec-bdam-toxins): exotoxins and endotoxin
-- [Other tools of damage](#sec-bdam-plan): in preparation
+- [The steps of damage](#sec-bdam-steps): where damage sits among the steps of infection
+- [Getting in and staying](#sec-bdam-establish)
+  - [Attachment and invasion](#sec-bdam-attach): adhesins, pili and broken barriers
+  - [Evading defences](#sec-bdam-evade): the capsule, life inside a phagocyte, and iron
+- [Toxins](#sec-bdam-toxins)
+  - [Exotoxins by what they do](#sec-bdam-exotoxins) and [endotoxin and
+    sepsis](#sec-bdam-endotoxin)
+- [Damage through the host](#sec-bdam-host)
+  - [Where the damage comes from](#sec-bdam-source): from the bacterium, the response, or both
 :::
+
+## The steps of damage {#sec-bdam-steps}
+
+Before a bacterium can damage a host it usually has to arrive at a surface, stay there and multiply.
+The exception is a toxin already formed in food, as when a toxin of *Staphylococcus aureus* causes
+vomiting within hours of a meal with no infection at all (see [*Gram-positive
+cocci*](gram-positive-cocci.qmd#sec-gpc-aureus)). Damage is the last of the steps of infection, and
+anything a bacterium uses to complete one of those steps is a virulence factor (see [*Microbes and
+their hosts*](../foundations/host-microbe.qmd#sec-host-steps)).
+
+::: {.flow}
+1. Attach to a host surface
+2. Invade the tissue, or act from the surface
+3. Evade phagocytes and antibodies
+4. Multiply, taking iron from the host
+5. Damage cells directly or with a toxin
+6. Provoke a response that damages the tissue
+:::
+
+The first four steps decide whether an infection becomes established, and the last two decide what
+the patient suffers. Both sources of damage, the bacterium and the response it provokes, usually act
+together (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-drf)).
+
+## Getting in and staying {#sec-bdam-establish}
+
+### Attachment and invasion {#sec-bdam-attach}
+
+Body surfaces are swept clean. Mucus is moved by cilia and swallowed, urine flushes the bladder, and
+epithelial cells are shed with whatever is stuck to them, so a bacterium that cannot hold on is
+carried away. An **adhesin** is a bacterial surface molecule that binds a specific molecule on a host
+cell or in the tissue around it. Many adhesins sit at the tip of a pilus (see [*How bacteria are
+built and get energy*](bacteria-build-energy.qmd#sec-bact-extras)). Because an adhesin binds one kind
+of molecule, attachment sets the organism's tropism, the tissues it can occupy (see [*Microbes and
+their hosts*](../foundations/host-microbe.qmd#sec-host-steps)).
+
+::: {.example}
+The *Escherichia coli* strains that cause urinary tract infection carry pili whose adhesins bind
+sugars on the cells lining the bladder, so they are held against the flow of urine instead of being
+washed out (see [*Enterobacterales*](enterobacterales.qmd)).
+:::
+
+Attachment to plastic or metal works the same way. Bacteria that settle on a catheter or a
+prosthetic joint build a biofilm (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-extras)), in which they are sheltered from phagocytes
+and harder for drugs to kill.
+
+**Invasion** is entry through an epithelial surface into the tissue beneath, or into host cells
+themselves. Some bacteria carry proteins that make an epithelial cell take them in. Many others stay
+on the surface and act from it: an *E. coli* strain that causes watery diarrhoea attaches to the
+cells lining the small intestine without entering them, and sends a toxin into them
+([Toxins](#sec-bdam-toxins)).
+
+Invasion is often unnecessary, because a barrier has already been broken by injury, surgery or a
+device (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-opportunism)).
+
+::: {.example}
+*Bacteroides fragilis* lives harmlessly in the colon. When the bowel wall is breached, by perforation
+or surgery, it reaches the peritoneal cavity and multiplies there (see [*Anaerobes*](anaerobes.qmd)).
+:::
+
+### Evading defences {#sec-bdam-evade}
+
+A bacterium multiplying in tissue meets phagocytes, the cells that engulf and digest microbes, and it
+meets antibodies and complement proteins in the surrounding fluid, which coat a bacterium so that a
+phagocyte can grip it. Two mechanisms defeat these defences, and each one points to a host whose
+defences leave it exposed.
+
+A capsule, the polysaccharide layer outside the wall (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-extras)), gives a phagocyte little to grip and buries the
+surface molecules that antibodies and complement would otherwise bind. A person with asplenia,
+absence of a functioning spleen, is at particular risk from encapsulated bacteria (see [*Microbes and
+their hosts*](../foundations/host-microbe.qmd#sec-host-factors)).
+
+::: {.callout-tip collapse="true"}
+## Predict: why is a capsule especially dangerous in a person with asplenia? (Click to check)
+A capsule resists phagocytes until antibody and complement coat it. The spleen does two things
+against encapsulated bacteria in the blood: it makes much of the early antibody against capsular
+polysaccharide, and blood passes through it slowly enough for its macrophages to remove bacteria
+that are only lightly coated, which phagocytes elsewhere miss. Without a functioning spleen both are
+lost, and encapsulated bacteria can multiply in the blood over hours.
+:::
+
+::: {.example}
+The capsule of *B. fragilis* works at two steps: it resists phagocytes, and it promotes the formation
+of an abscess, a walled-off collection of pus in which the bacteria continue to grow.
+:::
+
+The second mechanism is to survive the phagocyte. A phagocyte kills what it engulfs by fusing the
+vesicle containing it with a lysosome, whose acid and enzymes digest the contents. *Mycobacterium
+tuberculosis* prevents that fusion, so it survives and multiplies inside the macrophage that took it
+up.
+
+::: {.example}
+*M. tuberculosis* inhaled into the alveoli is engulfed by alveolar macrophages and multiplies inside
+them, and infected macrophages carry it to the lymph nodes of the chest (see [*Atypicals and
+mycobacteria*](atypicals-mycobacteria.qmd)).
+:::
+
+A bacterium inside a host cell is out of reach of antibodies, and a drug has to enter the cell to act
+on it. Its control depends instead on cell-mediated immunity, the defence by T cells against
+organisms that live inside host cells. Intracellular bacteria therefore cause more frequent, more
+severe and more widespread disease in people whose cell-mediated immunity is impaired (see [*Microbes
+and their hosts*](../foundations/host-microbe.qmd#sec-host-factors)).
+
+The host also withholds iron, which bacteria need in order to multiply, by keeping it bound to its
+own proteins. Many bacteria secrete siderophores, molecules that bind iron more tightly than those
+host proteins do and are then taken back into the bacterial cell (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-steps)).
 
 ## Toxins {#sec-bdam-toxins}
 
-Two different kinds of molecule are called toxins. **Exotoxins** are proteins that bacteria secrete.
-**Endotoxin** is lipopolysaccharide (LPS), a structural part of the Gram-negative outer membrane
+Two different kinds of molecule are called toxins. **Exotoxins** are protein toxins secreted by
+bacteria, each acting on a specific target. Endotoxin is the lipopolysaccharide (LPS) of the
+Gram-negative outer membrane, a structural part of the bacterial cell rather than a secreted product
 (see [*How bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-envelope)).
+
+Compare the two feature by feature before reading the principle.
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-exotoxin-endotoxin.yml"></div>
 
-Because exotoxins are proteins, they can be inactivated and used as **toxoid** vaccines. LPS cannot,
-and the inflammation it drives causes much of the shock in severe Gram-negative infection.
+Because exotoxins are proteins, they can be inactivated and used as toxoid vaccines (see [*Detecting
+and controlling microbes*](../foundations/detection-control.qmd#sec-det-prevent)). LPS cannot be
+treated in this way, and the inflammation it drives accounts for much of the damage in severe
+Gram-negative infection.
 
-## Other tools of damage {#sec-bdam-plan}
+### Exotoxins by what they do {#sec-bdam-exotoxins}
 
-| Part of the chapter | Plan |
-|---|---|
-| Attachment and invasion | Adhesins and pili; invasion of epithelium; tropism, building on the steps of infection in [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-steps) |
-| Evading defences | The capsule and phagocytosis; surviving inside phagocytes, with *M. tuberculosis* as the anchor |
-| Damage through the host | Superantigens and molecular mimicry, linking to the damage-response framework |
-| Scenario questions | Which mechanism best explains a pattern of damage, with options restricted to the anchor organisms |
+Exotoxins are grouped by what they do to a host cell. Each acts on one target, which is why a single
+toxin can produce a recognisable illness.
+
+| Action | Mechanism | Example |
+|---|---|---|
+| Kills the cell from within | Enters the cell and stops an essential process, such as protein synthesis | A Shiga toxin, carried by some *E. coli* strains, blocks the ribosomes of the cells it enters, which then die |
+| Opens a hole in the membrane | A **pore-forming toxin** inserts into the host cell membrane and opens a channel, so the cell leaks and bursts | *S. aureus* lyses red cells and neutrophils with pore-forming toxins |
+| Alters cell signalling | Changes a signal inside the cell without killing it, so the cell behaves abnormally | An *E. coli* enterotoxin raises cAMP in the cells lining the small intestine, which then secrete salt and water: watery diarrhoea |
+| Provokes the host's own response | A **superantigen** is a toxin that activates a large fraction of the body's T cells at once; the damage comes from what those T cells release ([damage through the host](#sec-bdam-host)) | *S. aureus* in toxic shock syndrome (fever, rash and hypotension) |
+
+Exotoxin genes are often carried on plasmids or in prophages, so toxin production can be a property
+of some strains of a species and not of others (see [*How bacteria copy themselves and
+change*](bacterial-genetics.qmd#sec-gen-phage)).
+
+### Endotoxin and sepsis {#sec-bdam-endotoxin}
+
+Lipid A, the lipid part of LPS, binds receptors on macrophages and other cells, which release the
+signals of inflammation. The response that follows has the same features whatever Gram-negative
+organism provokes it: fever, dilated and leaky blood vessels, and activation of clotting. Its
+strength varies, because the lipid A of some organisms, such as *B. fragilis*, is a far weaker
+stimulus than that of *E. coli*. Bacteria release LPS as they divide and as they are killed, so a
+large number of Gram-negative bacteria in the blood can drive this response throughout the body.
+
+**Sepsis** is life-threatening organ dysfunction caused by a dysregulated host response to infection.
+**Septic shock** is sepsis in which hypotension is so severe that the tissues are no longer
+adequately perfused. Gram-positive bacteria cause sepsis as well, through components of their wall
+and through toxins such as superantigens, so the clinical picture does not identify the organism.
+
+::: {.example}
+*E. coli* from an infected urinary tract can reach the blood in large numbers, and the response to
+its lipid A can progress to septic shock (see [*Enterobacterales*](enterobacterales.qmd)).
+:::
+
+## Damage through the host {#sec-bdam-host}
+
+Much of the damage in a bacterial infection is done by the host's response to the bacteria rather
+than by the bacteria themselves (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-drf)). Four patterns account for most of it.
+
+The first is ordinary inflammation at the site of infection, as described in general pathology.
+Neutrophils arriving in large numbers release enzymes and reactive oxygen species that digest the
+tissue around them as well as the bacteria, and the debris collects as pus. Pyogenic (pus-forming)
+bacteria such as *S. aureus* do much of their damage this way.
+
+The second is a toxin that provokes the response. An ordinary immune response activates the few T
+cells that recognise one antigen; a superantigen bypasses that specificity and activates T cells in
+bulk. The activated T cells release a flood of cytokines, the signalling proteins that immune cells
+use to coordinate inflammation, and the flood causes fever, a rash and hypotension.
+
+::: {.example}
+*S. aureus* multiplying at one site, with no bacteria in the blood, can cause toxic shock syndrome
+through a superantigen alone (see [*Gram-positive cocci*](gram-positive-cocci.qmd#sec-gpc-aureus)).
+:::
+
+The third is damage after the bacteria have gone. In **molecular mimicry**, host damage is caused by
+antibodies or T cells raised against a microbe cross-reacting with host tissue, because a bacterial
+molecule resembles one of the host's own.
+
+::: {.example}
+Weeks after a *Streptococcus pyogenes* throat infection has cleared, antibodies and T cells that
+cross-react with heart tissue can cause rheumatic fever, inflammation of the heart, joints and other
+tissues, which can scar the heart valves (see [*Gram-positive cocci*](gram-positive-cocci.qmd)).
+:::
+
+The fourth is a chronic response that damages tissue while it contains the organism. Against
+bacteria that survive inside macrophages, the host walls the infected cells off in a granuloma, the
+pattern of chronic inflammation met in general pathology. The granuloma stops the bacteria spreading,
+and the enzymes released within it destroy the surrounding tissue.
+
+::: {.example}
+In tuberculosis of the lung, granulomas contain *M. tuberculosis* for years. A strong response
+destroys lung tissue around them and can leave a cavity; a weak response, as in advanced HIV
+infection, lets the bacteria spread instead.
+:::
+
+### Where the damage comes from {#sec-bdam-source}
+
+Mechanisms of damage can be placed on a range, from damage the bacterium does itself to damage done
+entirely by the response.
+
+::: {.spectrum}
+[Source of the damage]{.tree-title}
+
+- *E. coli* strains carrying a Shiga toxin: the toxin kills host cells directly
+- *S. aureus* abscess: bacterial toxins and the neutrophils that gather around them
+- *M. tuberculosis*: bacterial growth and a granulomatous response, in proportions that vary with the
+  host
+- *S. pyogenes* rheumatic fever: cross-reacting antibodies and T cells, with no bacteria left in the
+  tissue
+
+[The bacterium]{.spectrum-end} [The host response]{.spectrum-end}
+:::
+
+Sort each description below by the step of infection it serves.
+
+<div data-island="sorter" data-src="/diagrams/bdam-mechanism-sorter.yml"></div>
 
 ## Check your understanding {#sec-bdam-quiz}
 

@@ -1,0 +1,40 @@
+id: fgn-profile-h-influenzae
+name: "Haemophilus influenzae"
+group: "Gram-negative coccobacillus · fastidious · with or without a capsule"
+intro: "Predict two of the five slots. Two things decide what this bacterium does: what it needs in order to grow, and whether it has a capsule."
+
+slots:
+  - slot: identity
+    predict:
+      stem: "*H. influenzae* does not grow on ordinary blood agar, but grows on chocolate agar, made by heating blood until the red cells lyse. What does this show?"
+      options:
+        - text: "It needs factors that are held inside red blood cells"
+          correct: true
+          feedback: "It needs haem and NAD, both held inside red cells. Heating lyses the cells and releases the factors, so the bacterium grows on chocolate agar. *Haemophilus* means 'blood-loving'."
+        - text: "It cannot grow in the presence of oxygen"
+          correct: false
+          feedback: "*H. influenzae* grows with or without oxygen. What chocolate agar adds is nutrients released from lysed red cells."
+        - text: "It grows only inside living host cells"
+          correct: false
+          feedback: "Chocolate agar contains no living cells: the red cells in it have been lysed. Bacteria that grow only inside host cells, such as *Chlamydia*, do not grow on any agar."
+    entry: "A small Gram-negative coccobacillus. Fastidious: it needs haem and NAD, which red blood cells contain, so it grows on chocolate agar. Some strains have a polysaccharide capsule, of six types, and type b (Hib) caused almost all serious disease; most strains have no capsule and are called non-typeable."
+  - slot: lifestyle
+    entry: "Lives only in humans, in the nasopharynx; many healthy people, especially young children, carry strains without a capsule. Spread in respiratory droplets."
+  - slot: harm
+    entry: "Type b: the capsule protects the bacteria in the blood, so they can invade the blood and the meninges, and they can infect the epiglottis. Strains without a capsule seldom invade the blood; they stay on mucosal surfaces and infect the spaces next to the nasopharynx: the middle ear, the sinuses and damaged airways."
+  - slot: consequence
+    predict:
+      stem: "Infants in many countries are now vaccinated against *H. influenzae* type b. Which *H. influenzae* infections remain common?"
+      options:
+        - text: "Otitis media, sinusitis and exacerbations of chronic lung disease, caused by strains without a capsule"
+          correct: true
+          feedback: "The vaccine is made from the type b capsule, so it does not act on strains without one, which still infect the spaces next to the nasopharynx."
+        - text: "Meningitis and epiglottitis in young children"
+          correct: false
+          feedback: "These were caused mainly by type b, and they have become rare where infants receive the conjugate vaccine."
+        - text: "Influenza"
+          correct: false
+          feedback: "Influenza is caused by influenza virus. *H. influenzae* was named when it was wrongly thought to be the cause."
+    entry: "Before conjugate vaccines, type b was a leading cause of meningitis, and the main cause of epiglottitis, in young children; both are now rare where infants are vaccinated. Strains without a capsule still cause otitis media and sinusitis in children, and pneumonia and exacerbations of chronic lung disease in adults."
+  - slot: contrast
+    entry: "*Streptococcus pneumoniae*: also carried in the nasopharynx of young children, and also a cause of otitis media, sinusitis, pneumonia and meningitis, with a capsule that vaccines target; but it is a Gram-positive coccus that grows on blood agar, and its capsule comes in about 100 types, so vaccines include only the commonest."

@@ -1,0 +1,40 @@
+id: bbv-profile-hbv
+name: "Hepatitis B virus"
+group: "Enveloped DNA virus · copies its genome through RNA · infects liver cells"
+intro: "Predict two of the five slots. Much of what this virus does follows from the age at which a person is infected."
+
+slots:
+  - slot: identity
+    entry: "A small, partly double-stranded DNA genome in a capsid, inside an envelope. In the nucleus of a liver cell the genome becomes a closed circle of DNA; host RNA polymerase transcribes it, and a viral reverse transcriptase copies RNA back into new DNA genomes. Infected cells release the envelope protein HBsAg into the blood in large amounts."
+  - slot: lifestyle
+    entry: "Humans only. The blood can contain very large amounts of virus, which remains infectious in dried blood for at least a week. Spread from mother to child at birth, among young children in a household, by sexual contact, by shared needles, razors or toothbrushes, and by unsterile medical equipment. Not spread by sharing food or cutlery, by hugging or by breastfeeding."
+  - slot: harm
+    predict:
+      stem: "HBV kills few of the liver cells it infects. Where does most of the liver damage come from?"
+      options:
+        - text: "Cytotoxic T cells that kill infected liver cells"
+          correct: true
+          feedback: "Cytotoxic T cells recognise viral proteins displayed on infected liver cells and kill them. In an adult the same attack clears the virus; in chronic infection it can go on, on and off, for decades without clearing it."
+        - text: "A toxin that the virus releases into the blood"
+          correct: false
+          feedback: "HBV makes no toxin. HBsAg circulates in large amounts but does not damage the liver; the damage comes from the host's T cells."
+        - text: "Blockage of the liver's blood vessels by masses of virus"
+          correct: false
+          feedback: "Virus particles are far too small to block vessels. The liver is damaged by the immune response to infected liver cells."
+    entry: "Damage comes mainly from the immune response: cytotoxic T cells kill infected liver cells. As an adult clears the virus, the result is acute hepatitis, often silent but sometimes with jaundice. In chronic infection, decades of injury and repair lead in a substantial minority to cirrhosis and hepatocellular carcinoma, which can arise even in a liver without cirrhosis."
+  - slot: consequence
+    predict:
+      stem: "A mother with chronic HBV infection gives birth. Her baby receives neither vaccine nor antibodies and is infected. What is the most likely outcome?"
+      options:
+        - text: "Chronic infection, often without illness for years"
+          correct: true
+          feedback: "About 9 in 10 infants infected at birth remain infected, because their immune response does not attack infected liver cells strongly enough to clear them. The quiet infection can lead to cirrhosis and hepatocellular carcinoma decades later."
+        - text: "Severe acute hepatitis, then clearance within months"
+          correct: false
+          feedback: "Infection at birth seldom causes acute illness, because the infant's immune response mounts little attack on infected liver cells. The same weak attack lets the virus persist."
+        - text: "Clearance within months, as in most adults"
+          correct: false
+          feedback: "Most healthy adults clear HBV, and fewer than 1 in 20 remain infected, but an infant's immune response does not clear it, so infection at birth usually becomes chronic."
+    entry: "Infection at birth becomes chronic in about 9 in 10 infants; infection in healthy adults, in fewer than 1 in 20. HBsAg in the blood marks current infection, and antibodies against it mark immunity. A vaccine of HBsAg alone, first given at birth, prevents infection, and vaccine with antibodies at birth protects infants of infected mothers. Drugs that block the reverse transcriptase suppress the virus but rarely clear it."
+  - slot: contrast
+    entry: "Hepatitis C virus: also infects liver cells and can lead to cirrhosis and hepatocellular carcinoma, but has an RNA genome and no DNA stage, is less infectious in blood, becomes chronic in most adults, has no vaccine and is cured by drugs."

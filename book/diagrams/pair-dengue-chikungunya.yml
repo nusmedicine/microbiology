@@ -1,0 +1,73 @@
+id: pair-dengue-chikungunya
+title: "Contrast pair: two viruses carried by the same mosquitoes"
+intro: "Both are carried by *Aedes* mosquitoes, circulate in the same places and begin with sudden fever, rash and joint pain. Read across and find the feature that best tells them apart."
+
+a:
+  name: "Dengue virus"
+b:
+  name: "Chikungunya virus"
+
+rows:
+  - feature: "Vector"
+    a: "*Aedes aegypti* and *Aedes albopictus*, biting by day"
+    b: "*Aedes aegypti* and *Aedes albopictus*, biting by day"
+    separates: false
+  - feature: "Genome and envelope"
+    a: "Single-stranded, positive-sense RNA; enveloped"
+    b: "Single-stranded, positive-sense RNA; enveloped"
+    separates: false
+  - feature: "Types of the virus"
+    a: "Four serotypes; immunity to one gives only short-lived protection against the others"
+    b: "A single serotype; recovery is thought to give lasting immunity"
+    separates: true
+  - feature: "Infections that cause illness"
+    a: "A minority; most infections cause no symptoms"
+    b: "Most infections"
+    separates: true
+  - feature: "Pain"
+    a: "Severe headache, pain behind the eyes, and aching muscles and joints"
+    b: "Severe, often disabling pain in many joints, on both sides of the body"
+    separates: true
+  - feature: "Main danger"
+    a: "Leaking blood vessels and shock as the fever settles, more often in a second infection"
+    b: "Joint pain that can last for months; shock is uncommon"
+    separates: true
+
+question:
+  stem: "Both viruses are carried by the same mosquitoes and begin with sudden fever and joint pain. Which feature best tells them apart?"
+  options: [0, 1, 5]
+  answer: 5
+  feedback: >
+    Main danger. The two viruses share a vector and a kind of genome, so neither of those tells them
+    apart. Dengue virus can make small blood vessels leak as the fever settles, so patients are watched
+    closely through those days; chikungunya virus inflames the joints, and the pain can last for
+    months, but it rarely causes shock.
+
+principle: >
+  Two viruses that share a mosquito and the first days of illness differ in where the danger lies.
+  Dengue virus exists as four serotypes, and an infection, especially a second one with a different
+  serotype, can make small blood vessels leak for a day or two as the fever settles, so the dangerous
+  phase comes when the patient seems to be recovering. Chikungunya virus is a single type that infects
+  the tissues of the joints; the pain can outlast the fever by months, but the infection rarely
+  threatens life. Anti-inflammatory drugs that ease joint pain also impair platelet function, so they
+  are withheld until dengue has been excluded.
+
+sort:
+  - text: "Pain and swelling in both wrists and ankles, still present three months later"
+    answer: b
+    why: "Joint pain that persists for months: chikungunya virus."
+  - text: "The fever settles on the fifth day, then abdominal pain, restlessness and a rising proportion of red cells in the blood"
+    answer: a
+    why: "Plasma leaking from small vessels as the fever settles: dengue virus."
+  - text: "A second infection is more dangerous than the first"
+    answer: a
+    why: "Antibodies from an infection with one serotype help another serotype infect more cells: dengue virus."
+  - text: "Exists as four serotypes, so a person can be infected up to four times"
+    answer: a
+    why: "Four serotypes, with lasting immunity only to the one that caused each infection: dengue virus."
+  - text: "One infection protects against every strain of the virus"
+    answer: b
+    why: "A single serotype, and recovery is thought to give lasting immunity: chikungunya virus."
+  - text: "Most people infected become ill, with fever and severe pain in many joints"
+    answer: b
+    why: "A high proportion of infections cause illness, with disabling joint pain: chikungunya virus."

@@ -1,0 +1,44 @@
+id: route-hbv
+title: "Routes through the body: hepatitis B virus"
+intro: "Two routes into the same organ, with different outcomes: infection at birth, which usually becomes chronic, and infection in adulthood, which usually clears. At one step, predict the site before the answer appears."
+
+routes:
+  - name: "Infection at birth"
+    steps:
+      - at: blood
+        kind: lives
+        text: "A mother with chronic HBV infection has virus, and HBsAg, in her blood, often in very large amounts."
+      - at: genital
+        kind: enters
+        text: "During birth, the infant is exposed to the mother's blood and secretions in the birth canal, and the virus enters the infant."
+      - at: liver
+        kind: multiplies
+        via: blood
+        ask: "Carried in the infant's blood, which organ does the virus infect?"
+        options: [liver, brain, lymph]
+        answer: [liver]
+        why: "HBV binds a receptor found on liver cells, so the liver is the organ it infects. Its tropism gives the disease its name: hepatitis, inflammation of the liver."
+        text: "The virus infects liver cells and multiplies in them, but kills few of the cells it infects."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "The infant's immune response does not clear the infected liver cells, so the infection becomes chronic in about 9 in 10 infants. Virus and HBsAg circulate in the blood for years, often with no illness, and the child can pass the virus on."
+      - at: liver
+        kind: damages
+        text: "Over decades, cytotoxic T cells can attack infected liver cells, on and off, without clearing them. In a substantial minority, repeated injury and repair scar the liver into cirrhosis, and hepatocellular carcinoma can develop, even in a liver without cirrhosis."
+
+  - name: "Infection in adulthood"
+    steps:
+      - at: [genital, blood]
+        kind: enters
+        text: "An unvaccinated adult is exposed to infected blood or genital secretions, through sexual contact or a shared needle."
+      - at: liver
+        kind: multiplies
+        via: blood
+        text: "The virus reaches the liver in the blood and multiplies in liver cells for weeks to months, without symptoms."
+      - at: liver
+        kind: damages
+        text: "Cytotoxic T cells recognise infected liver cells and kill them. The inflammation is acute hepatitis, which can bring fatigue and jaundice; rarely, it destroys so much of the liver that the liver fails."
+      - at: liver
+        kind: defence
+        text: "In most healthy adults the immune response clears the virus within months; fewer than 1 in 20 remain infected. Antibodies against HBsAg then protect against a new infection."

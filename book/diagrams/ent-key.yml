@@ -1,0 +1,65 @@
+id: ent-key
+title: "Sorting the Enterobacterales"
+intro: "The laboratory sees colony colour first; what a member carries decides where it causes disease. Pick a branch at each step and read what the trait predicts as well as where it leads."
+start: lactose
+
+nodes:
+  - id: lactose
+    question: "On MacConkey agar, what colour are the colonies?"
+    options:
+      - label: "Pink: it ferments lactose"
+        meaning: "The acid it makes from lactose turns the dye pink. Most *E. coli* ferment lactose, so a stool sample gives many pink colonies of residents; whether a pink-colony organism causes disease depends on what else it carries and where it goes."
+        next: pink
+      - label: "Pale: it does not ferment lactose"
+        meaning: "Pale colonies stand out among the pink colonies of resident *E. coli*, so in a stool sample the laboratory picks them for further tests. *Salmonella* and *Shigella* are among them."
+        next: pale
+  - id: pink
+    question: "What does it carry that lets it cause disease?"
+    options:
+      - label: "Flagella, and extra genes for pili, toxins or a capsule that vary from strain to strain"
+        meaning: "Most strains are harmless residents of the colon. Strains with extra genes, acquired on plasmids, prophages or pathogenicity islands, cause disease at the site those genes suit: the bladder, the gut, the blood or the meninges of a neonate."
+        next: e-coli
+      - label: "A thick capsule, and no flagella"
+        meaning: "The capsule resists phagocytes, so the bacteria multiply wherever they are carried: along a breathing tube into the lungs, along a catheter into the bladder, or, for strains with an extra-thick capsule, from the gut to the liver."
+        next: k-pneumoniae
+  - id: pale
+    question: "What sets it apart, and where does it cause disease?"
+    options:
+      - label: "It survives and multiplies inside macrophages"
+        meaning: "Macrophages engulf it but fail to kill it. Non-typhoidal serotypes inflame the gut lining; *Salmonella* Typhi is carried inside macrophages to the lymph nodes, liver, spleen and blood."
+        next: salmonella
+      - label: "It invades the lining of the colon, and a few bacteria are enough"
+        meaning: "It kills the cells lining the colon and spreads from cell to cell, so the stool contains blood. A very small inoculum is enough, so it passes directly from person to person."
+        next: shigella
+      - label: "It splits urea and infects the urinary tract"
+        meaning: "Urease makes urine alkaline, so minerals crystallise as stones, which shelter the bacteria and block urinary catheters."
+        next: proteus
+      - label: "It grows in chilled food and infects the gut"
+        meaning: "It multiplies in chilled food, so food kept cold can still carry a large inoculum. It comes from animals, especially pigs, and infects the gut and the lymph nodes beside it."
+        next: yersinia
+
+leaves:
+  - id: e-coli
+    name: "*Escherichia coli*"
+    tag: main
+    blurb: "The commonest facultative anaerobe of the colon. Strains from the gut, held on the bladder lining by pili, cause most urinary tract infections; strains with enterotoxins cause travellers' diarrhoea; strains with Shiga toxin, from cattle, cause bloody diarrhoea and haemolytic uraemic syndrome; strains with a particular capsule cause meningitis in neonates. ESBL genes on plasmids make many strains resistant."
+  - id: k-pneumoniae
+    name: "*Klebsiella pneumoniae*"
+    tag: main
+    blurb: "A thick capsule that resists phagocytes. In hospital, pneumonia in patients on ventilators, and urinary and bloodstream infection, often with ESBL or carbapenemase genes on plasmids. Hypervirulent strains with an extra-thick capsule cause liver abscess, which can spread to the eye, in East and South-East Asia, including Singapore."
+  - id: salmonella
+    name: "*Salmonella*"
+    tag: main
+    blurb: "Non-typhoidal serotypes come from poultry, eggs and other animal foods and cause gastroenteritis. *Salmonella* Typhi lives only in humans, spreads in food or water contaminated with human faeces, and survives inside macrophages to cause enteric fever; some patients carry it in the gallbladder for years."
+  - id: shigella
+    name: "*Shigella*"
+    tag: supporting
+    blurb: "Lives only in the human gut. As few as 10 to 100 bacteria cause infection, so it spreads from person to person in households and childcare centres. Invades the lining of the colon and causes dysentery; one serotype, *Shigella dysenteriae* type 1, makes Shiga toxin."
+  - id: proteus
+    name: "*Proteus mirabilis*"
+    tag: supporting
+    blurb: "A gut bacterium that swarms across agar. Its urease makes urine alkaline, so urinary infection, especially with a long-term catheter, can lead to stones and blocked catheters."
+  - id: yersinia
+    name: "*Yersinia enterocolitica*"
+    tag: supporting
+    blurb: "Comes from pigs, in undercooked pork or unpasteurised milk, and grows in the refrigerator. Causes diarrhoea and fever, and in older children inflamed lymph nodes beside the end of the small intestine, with pain that can be mistaken for appendicitis."

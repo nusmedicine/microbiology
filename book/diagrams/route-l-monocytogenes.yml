@@ -1,0 +1,51 @@
+id: route-l-monocytogenes
+title: "Routes through the body: *Listeria monocytogenes*"
+intro: "Two routes from the same chilled food: to the meninges of a person whose cell-mediated immunity is weak, and, in pregnancy, to the fetus. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "To the meninges"
+    steps:
+      - at: outside
+        kind: multiplies
+        text: "*L. monocytogenes* lives in soil, water and the gut of animals, and contaminates food during processing. In chilled ready-to-eat food, such as soft cheese or deli meat, it keeps multiplying in the refrigerator, where most other bacteria cannot."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "Swallowed with the food, the bacteria enter the cells lining the intestine. Inside each cell they escape from the vacuole into the cytoplasm and multiply."
+      - at: gut
+        kind: spreads
+        text: "Each bacterium assembles the host cell's actin into a tail that pushes it into the neighbouring cell. It spreads from cell to cell without leaving the cells, out of reach of antibodies."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "The bacteria reach the blood. In a healthy person, cell-mediated immunity contains the infection, and there is no illness or only a short gastroenteritis with fever."
+      - at: brain
+        kind: damages
+        via: blood
+        ask: "In a 75-year-old taking drugs that suppress the immune system after a kidney transplant, the bacteria keep multiplying in the blood. Where do they cause the most dangerous disease?"
+        options: [brain, urinary, bone]
+        answer: [brain]
+        why: "Bacteria in the blood reach every organ, but *L. monocytogenes* can cross the blood-brain barrier, which keeps most bacteria out of the brain and meninges. Meningitis is its most dangerous disease in this patient; infection of the kidney or the bones is rare."
+        text: "The bacteria cross from the blood into the meninges and cause meningitis: fever, headache and confusion."
+
+  - name: "In pregnancy"
+    steps:
+      - at: outside
+        kind: multiplies
+        text: "The bacteria multiply in chilled ready-to-eat food, such as smoked fish or soft cheese, that a pregnant woman eats without heating."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "The bacteria cross the lining of her intestine inside its cells."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "In her blood they cause fever and aches like influenza, or no symptoms at all."
+      - at: fetus
+        kind: damages
+        via: blood
+        ask: "The mother's illness is mild. Where can the bacteria do serious harm?"
+        options: [fetus, liver, brain]
+        answer: [fetus]
+        why: "From the mother's blood the bacteria cross the placenta and infect the fetus, whose defences cannot contain them. The mother's own illness can be so mild that it passes unnoticed."
+        text: "The bacteria cross the placenta and infect the fetus. The result can be miscarriage, stillbirth or premature birth, or a neonate with infection of the blood or meningitis."

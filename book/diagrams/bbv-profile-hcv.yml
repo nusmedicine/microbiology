@@ -1,0 +1,40 @@
+id: bbv-profile-hcv
+name: "Hepatitis C virus"
+group: "Enveloped positive-sense RNA virus · infects liver cells · spread mainly by blood"
+intro: "Predict two of the five slots. Much of what this virus does follows from its RNA genome, which varies greatly and is never copied into DNA."
+
+slots:
+  - slot: identity
+    entry: "A positive-sense RNA genome in a capsid, inside an envelope. Translated as soon as it enters a liver cell, and copied in the cytoplasm by its own RNA-dependent RNA polymerase, which does not proofread, so the virus varies greatly. It makes no DNA at any stage."
+  - slot: lifestyle
+    predict:
+      stem: "HCV is spread mainly by blood. In many countries today, who is most at risk of a new infection?"
+      options:
+        - text: "People who inject drugs and share needles, syringes or other equipment"
+          correct: true
+          feedback: "Shared injecting equipment carries traces of infected blood straight into a vein, the most efficient route for a virus that spreads mainly by blood."
+        - text: "Household contacts who share meals with an infected person"
+          correct: false
+          feedback: "Sharing meals does not pass blood from one person into another. HCV needs blood to reach the next person's bloodstream."
+        - text: "Infants of infected mothers, nearly all of whom are infected at birth"
+          correct: false
+          feedback: "Mother-to-child transmission of HCV occurs, but it is much less efficient than for HBV or HIV, and most infants of infected mothers are not infected."
+    entry: "Humans only. Spread mainly by blood: shared needles, syringes and other injecting equipment, and, in the past or where infection control is poor, unscreened blood and unsterile medical procedures. Sexual and mother-to-child transmission occur but are much less efficient than for HBV or HIV."
+  - slot: harm
+    entry: "Acute infection is usually silent, and around 7 in 10 infections become chronic. Continuing inflammation scars the liver over two or three decades; a substantial minority develop cirrhosis, and some of them hepatocellular carcinoma, often without symptoms until the liver disease is advanced."
+  - slot: consequence
+    predict:
+      stem: "A man is cured of HCV by antiviral drugs. Two years later he shares injecting equipment again. What follows?"
+      options:
+        - text: "He can be infected again, because neither cure nor past infection reliably protects"
+          correct: true
+          feedback: "Cure removes the virus but leaves no reliable immunity, and the virus varies greatly, so a new exposure can start a new infection."
+        - text: "He is protected, because his antibodies against HCV remain after cure"
+          correct: false
+          feedback: "Antibodies against HCV do remain after cure, but they show past infection and do not reliably protect against a new one."
+        - text: "The old infection returns from DNA kept in his liver cells"
+          correct: false
+          feedback: "HCV makes no DNA, so nothing is kept from which the old infection could return. That is why drugs can cure it; a new infection needs a new exposure."
+    entry: "Antibodies show past or present infection; a NAAT for HCV RNA shows whether the virus is still present. No vaccine. Drugs that act on the virus's own enzymes and proteins, taken for a few months, cure most infections, because HCV has no DNA copy from which to return; cure does not prevent reinfection."
+  - slot: contrast
+    entry: "Hepatitis B virus: also infects liver cells and can lead to cirrhosis and hepatocellular carcinoma, but keeps a DNA copy in the nucleus, so drugs suppress it without curing it; far more infectious in blood; prevented by a vaccine."

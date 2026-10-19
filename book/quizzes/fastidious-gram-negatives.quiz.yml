@@ -1,0 +1,144 @@
+id: fastidious-gram-negatives
+title: "Check your understanding: fastidious Gram-negatives and Gram-negative cocci"
+questions:
+  - id: fn1
+    stem: "A 19-year-old who lives in a university hall of residence develops fever, headache and vomiting. Within 12 hours he is confused, his blood pressure is low, and purple spots that do not fade when pressed are spreading over his legs. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Neisseria meningitidis*"
+        correct: true
+        feedback: "Close living quarters, sepsis with purpura, and a course measured in hours point to the meningococcus. Its capsule protects it in the blood, and the endotoxin it sheds makes vessels leak and sets off clotting in small vessels, with bleeding into the skin."
+      - text: "*Haemophilus influenzae*"
+        correct: false
+        feedback: "*H. influenzae* type b caused meningitis mainly in young unvaccinated children, and strains without a capsule seldom invade the blood. Sepsis with purpura in a young adult in shared housing points to *N. meningitidis*."
+      - text: "*Neisseria gonorrhoeae*"
+        correct: false
+        feedback: "When the gonococcus enters the blood, which is uncommon, it settles in joints and causes a few skin pustules, without shock within hours. It has no capsule to protect it in the blood as the meningococcus does."
+      - text: "*Legionella*"
+        correct: false
+        feedback: "*Legionella* causes pneumonia after aerosols of contaminated water are inhaled. It does not cause a spreading purple rash and shock within hours."
+  - id: fn2
+    stem: "In the student in question 1, which component of the bacterium does most to cause the low blood pressure and the purple spots?"
+    options:
+      - text: "Endotoxin in the outer membrane"
+        correct: true
+        feedback: "Lipid A of endotoxin triggers inflammation throughout the body. Vessels leak, so the blood pressure falls, and clotting inside small vessels uses up platelets and clotting factors, so blood escapes into the skin."
+      - text: "The polysaccharide capsule"
+        correct: false
+        feedback: "The capsule lets the bacteria survive and multiply in the blood by resisting phagocytes and complement, but it is not what inflames the vessels. That comes from the endotoxin the multiplying bacteria shed."
+      - text: "Pili"
+        correct: false
+        feedback: "Pili attach the bacteria to the nasopharyngeal mucosa at the start of infection. They do not cause shock in the blood."
+      - text: "An exotoxin that the bacteria secrete into the blood"
+        correct: false
+        feedback: "Exotoxins are secreted proteins, each with a specific target. The shock and purpura come from endotoxin, part of the outer membrane, which the bacteria shed as they multiply and die."
+  - id: fn3
+    stem: "The student's roommates are well, but they are given antibiotics. What is the main purpose?"
+    options:
+      - text: "To clear the bacteria from their nasopharynx, in case they have acquired carriage of the same strain"
+        correct: true
+        feedback: "Close contacts are the people most likely to have acquired the strain, and disease usually follows within days of acquiring it. Clearing carriage protects them and stops them passing it on."
+      - text: "To treat meningitis that has already begun without symptoms"
+        correct: false
+        feedback: "Meningococcal disease does not progress silently for long: it follows within days of acquiring the strain and then worsens within hours. The antibiotics are aimed at carriage in the nasopharynx."
+      - text: "Because the bacteria survive for weeks on surfaces in the room"
+        correct: false
+        feedback: "The meningococcus dies quickly outside the body, so surfaces matter little. It passes between people in respiratory droplets and secretions, which is why close contacts are treated."
+  - id: fn4
+    stem: "A 24-year-old man has had pus dripping from his urethra and pain on passing urine for two days. He had unprotected sex five days ago. A Gram stain of the pus shows Gram-negative diplococci inside neutrophils. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Neisseria gonorrhoeae*"
+        correct: true
+        feedback: "Urethritis a few days after sex, with Gram-negative diplococci inside neutrophils, is the classic picture of gonorrhoea. The bacteria attach to the urethral epithelium and pass through it, and the neutrophils they draw in make the pus."
+      - text: "*Neisseria meningitidis*"
+        correct: false
+        feedback: "The meningococcus is also a Gram-negative diplococcus, but it lives in the nasopharynx and causes meningitis and sepsis. Pus from the urethra after sex points to its relative, *N. gonorrhoeae*."
+      - text: "*Moraxella catarrhalis*"
+        correct: false
+        feedback: "*M. catarrhalis* looks similar on a Gram stain, but it lives in the airway and causes otitis media and exacerbations of chronic lung disease, not infection of the urethra."
+      - text: "*Haemophilus influenzae*"
+        correct: false
+        feedback: "*H. influenzae* is a coccobacillus, not a diplococcus, and it lives in the nasopharynx. Diplococci in pus from the urethra point to *N. gonorrhoeae*."
+  - id: fn5
+    stem: "A man treated for gonorrhoea two years ago has it again. Why did the earlier infection not protect him?"
+    options:
+      - text: "*N. gonorrhoeae* keeps changing its surface proteins, so antibodies against the earlier version do not recognise the new one"
+        correct: true
+        feedback: "Antigenic variation: the bacterium recombines silent gene copies into the active gene for its pilus protein and switches other surface proteins on and off. The same changing surface is a main reason no vaccine reliably prevents gonorrhoea."
+      - text: "Bacteria from the first infection stayed latent in his urethra and have reactivated"
+        correct: false
+        feedback: "*N. gonorrhoeae* does not become latent. Each episode is a new infection from a partner, and the earlier one gave no lasting protection because the bacterium's surface keeps changing."
+      - text: "The treatment killed the bacteria before he could make any antibodies"
+        correct: false
+        feedback: "Infected people do make antibodies, but against the surface proteins of that infection. The bacterium changes those proteins, so the antibodies miss the next variant."
+      - text: "Its polysaccharide capsule hides it from antibodies"
+        correct: false
+        feedback: "A polysaccharide capsule is a feature of *N. meningitidis*; *N. gonorrhoeae* has none. Its defence against lasting immunity is a surface that keeps changing."
+  - id: fn6
+    stem: "A 29-year-old woman is investigated for infertility, and her fallopian tubes are found to be scarred and blocked. She has never had symptoms of a sexually transmitted infection. If *N. gonorrhoeae* caused the damage, which detail best explains how it happened without her noticing?"
+    options:
+      - text: "Infection of the cervix often causes no symptoms, so it went untreated and ascended to the fallopian tubes, where inflammation scarred them"
+        correct: true
+        feedback: "Silent infection of the cervix is common in women. Untreated, the bacteria ascend through the uterus to the tubes as pelvic inflammatory disease, and the scarring that follows can block them."
+      - text: "The bacteria reached the tubes in the blood from an infection in her throat"
+        correct: false
+        feedback: "Spread in the blood is uncommon, and it leads to the joints and skin, not the tubes. The tubes are reached by ascent from the cervix through the uterus."
+      - text: "A toxin made by the bacteria in the vagina damaged the tubes from a distance"
+        correct: false
+        feedback: "Damage to the tubes comes from inflammation where the bacteria multiply, in the tubes themselves. *N. gonorrhoeae* reaches them by ascending from the cervix."
+  - id: fn7
+    stem: "Three days after birth, a neonate has swollen eyelids and thick pus pouring from both eyes. The mother had no symptoms during pregnancy and was not screened. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Neisseria gonorrhoeae*"
+        correct: true
+        feedback: "Ophthalmia neonatorum a few days after birth, in the infant of a mother with silent infection, points to the gonococcus. Secretions from the infected cervix reach the infant's conjunctiva during birth, and untreated infection can damage the cornea."
+      - text: "*Haemophilus influenzae*"
+        correct: false
+        feedback: "*H. influenzae* lives in the nasopharynx and spreads in respiratory droplets. Pus from both eyes a few days after birth, in the infant of a mother with silent infection, points to a bacterium of the birth canal: *N. gonorrhoeae*."
+      - text: "*Neisseria meningitidis*"
+        correct: false
+        feedback: "The meningococcus lives in the nasopharynx and causes meningitis and sepsis, not infection of the eyes at birth."
+      - text: "*Bordetella pertussis*"
+        correct: false
+        feedback: "*B. pertussis* infects the ciliated lining of the airway and causes coughing fits, or pauses in breathing in infants. It does not infect the eyes."
+  - id: fn8
+    stem: "An 18-month-old child who has never been vaccinated develops fever, irritability and a stiff neck. Small Gram-negative coccobacilli are seen in the cerebrospinal fluid, and they grow on chocolate agar but not on blood agar. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Haemophilus influenzae*"
+        correct: true
+        feedback: "Gram-negative coccobacilli that need factors released from lysed red cells point to *H. influenzae*, and meningitis in an unvaccinated young child points to type b. Its capsule protects it in the blood, from which it reaches the meninges."
+      - text: "*Neisseria meningitidis*"
+        correct: false
+        feedback: "The meningococcus also causes meningitis in young children, but it is a diplococcus and grows on blood agar. Coccobacilli that need chocolate agar point to *H. influenzae*."
+      - text: "*Bordetella pertussis*"
+        correct: false
+        feedback: "*B. pertussis* is a coccobacillus too, but it stays in the airway and causes whooping cough. It does not cause meningitis."
+      - text: "*Legionella*"
+        correct: false
+        feedback: "*Legionella* comes from water systems and causes pneumonia, mostly in older adults. It is not a cause of meningitis in young children."
+  - id: fn9
+    stem: "A fully vaccinated 3-year-old has otitis media, and *H. influenzae* is grown from fluid behind the eardrum. Why did vaccination not prevent this infection?"
+    options:
+      - text: "The strain has no capsule, and the vaccine is made from the type b capsule"
+        correct: true
+        feedback: "Most *H. influenzae* carried in the nasopharynx is non-typeable. The conjugate vaccine raises antibodies against the type b capsule, so it prevents type b disease but does not act on strains without a capsule, which cause otitis media."
+      - text: "The vaccine protects against influenza, not against *H. influenzae*"
+        correct: false
+        feedback: "The Hib vaccine is made against *H. influenzae* type b. The bacterium and influenza virus are confused because of the bacterium's name, but they are unrelated, and so are their vaccines."
+      - text: "Immunity from the vaccine lasts only a few weeks"
+        correct: false
+        feedback: "Conjugate vaccines given in infancy protect young children through the years when type b disease is most common. This infection is caused by a strain the vaccine was never designed to cover."
+  - id: fn10
+    stem: "A 7-week-old infant has spells of coughing that end with her turning blue and pausing in her breathing. Her 14-year-old brother has had a cough for four weeks. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Bordetella pertussis*"
+        correct: true
+        feedback: "Whooping cough is most dangerous in young infants, who often have pauses in breathing in place of a whoop. Immunity from childhood vaccination fades, so older children and adults with a lingering cough are a common source; vaccinating women during pregnancy protects infants in their first months."
+      - text: "*Haemophilus influenzae*"
+        correct: false
+        feedback: "*H. influenzae* causes otitis media, and in unvaccinated children meningitis and epiglottitis. A weeks-long cough in a sibling, and coughing spells with pauses in breathing in an infant, point to *B. pertussis*."
+      - text: "*Legionella*"
+        correct: false
+        feedback: "Inhaled from contaminated water, *Legionella* is not passed from person to person, so a brother's cough would not explain the infant's illness."
+      - text: "*Moraxella catarrhalis*"
+        correct: false
+        feedback: "*M. catarrhalis* causes otitis media and sinusitis in children. Coughing spells with pauses in breathing in a young infant, after contact with a person who has a long cough, point to *B. pertussis*."

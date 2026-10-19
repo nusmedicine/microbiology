@@ -1,0 +1,40 @@
+id: ent-profile-salmonella
+name: "Salmonella"
+group: "Gram-negative rod · does not ferment lactose · survives inside macrophages"
+intro: "Predict two of the five slots. *Salmonella* survives inside macrophages, and where it goes in the body depends on the serotype."
+
+slots:
+  - slot: identity
+    entry: "Gram-negative rod with flagella. Does not ferment lactose, so it forms pale colonies on MacConkey agar. Divided into many serotypes by the antigens of its LPS and flagella; *S.* Typhi also has a polysaccharide capsule."
+  - slot: lifestyle
+    entry: "Non-typhoidal serotypes live in the gut of poultry, cattle, pigs and reptiles and reach people in food. *S.* Typhi lives only in humans and spreads in food or water contaminated with human faeces. A facultative intracellular bacterium: it survives and multiplies inside macrophages."
+  - slot: harm
+    predict:
+      stem: "*S.* Typhi crosses the lining of the small intestine and is engulfed by macrophages. What follows?"
+      options:
+        - text: "It survives and multiplies inside them, and they carry it to the lymph nodes, liver and spleen"
+          correct: true
+          feedback: "Macrophages engulf it but fail to kill it, so they carry it through the lymph and the blood to the organs richest in macrophages. From there it floods the blood, and the fever of typhoid begins."
+        - text: "The macrophages kill it, so the infection stays in the gut"
+          correct: false
+          feedback: "Killing by macrophages is what *S.* Typhi resists. Surviving inside them is how it leaves the gut and spreads through the body."
+        - text: "It stays in the gut lumen and causes profuse watery diarrhoea"
+          correct: false
+          feedback: "Diarrhoea is often absent in typhoid. The bacteria cross the lining with little inflammation and spread inside macrophages."
+    entry: "Non-typhoidal serotypes invade the lining of the end of the small intestine and the colon and provoke inflammation: gastroenteritis, which can spread to the blood when defences are weak. *S.* Typhi crosses the gut lining with little inflammation, survives inside macrophages and spreads in them to the lymph nodes, liver, spleen and bone marrow, then floods the blood: enteric fever."
+  - slot: consequence
+    predict:
+      stem: "Why could typhoid in principle be eradicated, while non-typhoidal *Salmonella* cannot be?"
+      options:
+        - text: "*S.* Typhi lives only in humans, so safe water, sanitation, vaccination and treating carriers can break every chain of spread"
+          correct: true
+          feedback: "An organism whose only reservoir is humans can in principle be eradicated. Non-typhoidal serotypes live in poultry, cattle, pigs and reptiles, so they persist whatever happens in people."
+        - text: "*S.* Typhi has no flagella, so it cannot spread far"
+          correct: false
+          feedback: "*S.* Typhi has flagella, and they do not decide how far it spreads between people. What matters is its reservoir: humans only."
+        - text: "Non-typhoidal serotypes survive inside macrophages, so they can never be cleared"
+          correct: false
+          feedback: "Both kinds survive inside macrophages. In most people non-typhoidal illness settles within a week, although the bacteria are shed in the faeces for some weeks, and they cannot be eradicated because they live in animals."
+    entry: "Non-typhoidal serotypes cause gastroenteritis from food of animal origin, a day or two after the meal. *S.* Typhi causes enteric fever where sanitation is poor and in travellers, and a small proportion of patients carry it in the gallbladder for years, shedding it in their faeces. Typhoid vaccines protect only partly, and not reliably against the Paratyphi serotypes that also cause enteric fever."
+  - slot: contrast
+    entry: "*Shigella*: also a gut pathogen that forms pale colonies on MacConkey agar, but carried only by humans, infectious in very small numbers, and confined to the lining of the colon, where it causes dysentery."

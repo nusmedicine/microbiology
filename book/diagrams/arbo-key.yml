@@ -1,0 +1,45 @@
+id: arbo-key
+title: "Sorting the arboviruses"
+intro: "Arboviruses are named for their route, so the vector and the animal hosts that keep each cycle going separate them. Pick a branch at each step and read what the trait predicts as well as where it leads."
+start: vector
+
+nodes:
+  - id: vector
+    question: "Which mosquito carries the virus, and between which hosts?"
+    options:
+      - label: "Mosquitoes that breed near homes and bite by day, carrying the virus from person to person"
+        meaning: "*Aedes* mosquitoes breed in small containers of clean water around homes, so the virus spreads in towns and cities, including Singapore. People with virus in their blood infect the mosquitoes, so the virus goes where people live and travel, and removing breeding sites near homes is the main control."
+        next: aedes
+      - label: "Mosquitoes that breed in rice fields and bite at night, carrying the virus from pigs and wading birds"
+        meaning: "*Culex* mosquitoes keep the virus in a cycle with animals in rural areas. Humans are dead-end hosts: too little virus reaches their blood to infect a mosquito, so it does not spread from person to person, and people are protected mainly by vaccination."
+        next: je
+  - id: aedes
+    question: "What is the main harm?"
+    options:
+      - label: "Leaking blood vessels and shock as the fever settles, more often in a second infection"
+        meaning: "The virus exists as four serotypes. Immunity to one gives only short-lived protection against the others, and antibodies from an earlier infection can make a later one with a different serotype worse."
+        next: dengue
+      - label: "Damage to the brain of a fetus, after infection in pregnancy"
+        meaning: "The illness is mild or silent in most adults, but the virus crosses the placenta. It also persists in semen, so it can reach a pregnant woman through sex as well as by a bite."
+        next: zika
+      - label: "Severe pain in many joints that can last for months"
+        meaning: "Most infected people become ill. The virus infects the tissues of the joints; bleeding and shock are uncommon, and one infection is thought to give lasting immunity."
+        next: chikungunya
+
+leaves:
+  - id: dengue
+    name: "Dengue virus"
+    tag: main
+    blurb: "A flavivirus with four serotypes, carried by *Aedes* mosquitoes that breed near homes; endemic in Singapore. Fever, headache, pain behind the eyes and aching; as the fever settles, leaking blood vessels can lead to shock, more often in a second infection with a different serotype."
+  - id: zika
+    name: "Zika virus"
+    tag: main
+    blurb: "A flavivirus carried by *Aedes* mosquitoes, and also spread by sex because it persists in semen. Mild or silent in most adults, but in pregnancy it crosses the placenta and can damage the fetal brain, causing microcephaly. Singapore had a local outbreak in 2016."
+  - id: chikungunya
+    name: "Chikungunya virus"
+    tag: main
+    blurb: "An alphavirus carried by *Aedes aegypti* and *Aedes albopictus*. Most infected people become ill, with sudden fever and severe pain in many joints that can last for months, especially in older adults. A single serotype; bleeding and shock are uncommon."
+  - id: je
+    name: "Japanese encephalitis virus"
+    tag: supporting
+    blurb: "A flavivirus kept in a cycle between *Culex* mosquitoes, pigs and wading birds in rural Asia; humans are dead-end hosts. Most infections are silent, but encephalitis can be fatal or leave lasting damage to the brain, mostly in children. Prevented by vaccination."

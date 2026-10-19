@@ -1,17 +1,442 @@
 # Blood-borne and sexually transmitted viruses
 
-> *Viruses spread by blood, sexual contact or from mother to child, several of which establish lifelong infection.*
+> *A person can carry hepatitis B virus from birth, or HIV for a decade, feel well throughout, and
+> pass the virus on in blood, during sex or to a child. Because these viruses spread silently for
+> years, they are controlled by screening, sterile needles and vaccination more than by recognising
+> illness.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Explain why the blood-borne and sexually transmitted viruses are controlled mainly by screening,
+  sterile needles, vaccination and treatment of infected people.
+- Describe how HIV passes between people, why a person in the window period can transmit it while
+  an antibody test is negative, and how condoms, treatment and drugs taken before or after exposure
+  prevent its spread.
+- Explain why hepatitis B virus acquired at birth usually becomes chronic while infection in
+  adulthood usually clears, and how the immune response damages the liver.
+- Explain why antiviral drugs cure most hepatitis C virus infections but only suppress hepatitis B
+  virus and HIV.
+- Name the host, setting and route that let each main virus cause disease.
+- Tell hepatitis B virus from hepatitis C virus by genome, infectiousness in blood, effect of age at
+  infection, and vaccine or cure.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-bbv-group)
+  - [The group in one sentence](#sec-bbv-sentence): what every member shares
+  - [Sorting the group](#sec-bbv-key): the cells infected, then whether DNA stays in the nucleus
+- [Main viruses](#sec-bbv-main)
+  - [HIV](#sec-bbv-hiv): silent spread, and treatment for life
+  - [Hepatitis B virus](#sec-bbv-hbv): age at infection decides the outcome
+  - [Hepatitis C virus](#sec-bbv-hcv): silent for decades, and curable
+- [Contrast pair](#sec-bbv-pairs)
+  - [Hepatitis B virus and hepatitis C virus](#sec-bbv-pair-hbv-hcv)
+- [Beyond the main viruses](#sec-bbv-beyond)
+  - [Supporting viruses](#sec-bbv-supporting)
+  - [Later in the course](#sec-bbv-later)
+:::
+
+## The group {#sec-bbv-group}
+
+### The group in one sentence {#sec-bbv-sentence}
+
+The viruses in this group spread by blood, by sexual contact or from mother to child, and several of
+them persist for years without symptoms while the infected person can transmit them. A
+**blood-borne virus** is a virus that circulates in the blood and is transmitted by it, and a
+**sexually transmitted infection** is an infection passed on mainly by sexual contact. The group is
+defined by route, so its members differ in genome and structure (see [*A map of the
+viruses*](virus-map.qmd)), and several of the six questions have a different answer for each virus.
+
+The main viruses are hepatitis B virus (HBV), hepatitis C virus (HCV) and HIV, the viral anchor. HBV
+and HCV are named for **hepatitis**, inflammation of the liver, which both cause. Human
+papillomavirus (HPV) is a supporting member: it spreads by sexual contact but does not circulate in
+the blood.
+
+| Question | Answer for the blood-borne and sexually transmitted viruses |
 |---|---|
-| Learning objectives | Describe the group by its traits; explain one mechanism of harm for each main virus; recognise the enabling conditions that point to each |
-| The group in one sentence | Viruses spread by blood, sexual contact or from mother to child, several of which establish lifelong infection. |
-| Main viruses | HIV (anchor); hepatitis B virus; hepatitis C virus |
-| Supporting viruses | Human papillomavirus |
-| Later in the course | Liver, sexual health and haematology blocks; occupational exposure |
-| Scenario questions | Most likely virus, with options restricted to the group; feedback names the discriminating clue |
+| What is it built from? | Different genomes: RNA that is copied into DNA (HIV), DNA that is copied through RNA (HBV), single-stranded **positive-sense RNA**, which ribosomes can translate directly (HCV), and double-stranded DNA (HPV); HIV, HBV and HCV are enveloped, HPV is not |
+| How does it get energy? | It has no energy supply of its own and uses the host cell's |
+| How does it copy itself and change? | HIV and HBV copy their genomes with a **reverse transcriptase**, a viral DNA polymerase that uses RNA as its template; HCV with its own **RNA-dependent RNA polymerase**, a viral enzyme that makes RNA from an RNA template; and HPV with the host cell's DNA polymerase (see [*How viruses are built and copy themselves*](virus-structure-replication.qmd#sec-vstr-genomes)). None of the three viral enzymes proofreads: HIV and HCV vary greatly, and HBV, whose genes overlap so that most changes damage more than one protein, varies less but still gives rise to drug-resistant variants. HPV, copied by a host polymerase that proofreads, changes slowly |
+| Where does it live, and how does it spread? | Humans are the only reservoir; HIV, HBV and HCV are carried in blood, semen and vaginal fluid, and spread by sexual contact, by blood and from mother to child; HPV stays in the skin and mucosa and spreads by skin-to-skin contact, including sexual contact |
+| How does damage happen? | Slowly, over years to decades, often without symptoms: loss of **CD4 T cells**, the lymphocytes that coordinate the immune response (HIV); immune attack on infected liver cells, which can scar the liver and lead to liver cancer (HBV, HCV); changes in infected epithelial cells that can lead to cancer (HPV) |
+| What does it have that my cells lack? | Viral enzymes and other proteins needed for replication: reverse transcriptase, integrase, which joins the DNA copy into a host chromosome, and protease, which cuts long viral proteins into their working parts (HIV); reverse transcriptase (HBV); RNA-dependent RNA polymerase, protease and a further replication protein that is not an enzyme (HCV); HPV, which uses the host cell's DNA polymerase, offers no target for current antiviral drugs |
+
+Blood, semen, vaginal fluid and, for HIV, breast milk carry HIV, HBV and HCV from one person to the
+next, by three routes (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)):
+
+- Sexual contact, through the mucosa of the genital tract or rectum
+- Blood, through shared needles and syringes, transfusion of unscreened blood, unsterile medical
+  equipment or injury
+- **Mother-to-child transmission** (vertical transmission), the spread of an infection from a
+  mother to her child during pregnancy, at birth or in breast milk
+
+HIV, HBV and HCV can each cause **chronic infection**, infection and inflammation continuing for
+months or years, often without symptoms, and throughout that time the infected person's blood and
+secretions carry virus (see [*Viruses and the host*](virus-host.qmd#sec-vhost-chronic)). Most
+transmission therefore comes from people who feel well and may not know they are infected, and
+waiting for illness finds infections too late to stop their spread.
+
+::: {.example}
+Without treatment, a person infected with HIV usually feels well for years, and throughout those
+years the virus in blood and genital secretions can infect others.
+:::
+
+Control rests on **screening**, testing people who have no symptoms in order to find an infection
+early, and on measures that block the routes of spread:
+
+- Screening of donated blood and organs, and of pregnant women
+- Sterile, single-use needles and syringes in medical care, and sterile injecting equipment for
+  people who inject drugs
+- Vaccination against HBV and HPV
+- Condoms, and treatment of infected people, which lowers the amount of virus they can pass on
+
+Health workers meet these viruses through a **needlestick injury**, a puncture of the skin by a
+needle that has been used on a patient, or a splash of blood onto mucosa; vaccination protects them
+against HBV, the most infectious of the three in blood, and drugs started soon after an exposure
+lower the risk of HIV infection.
+
+### Sorting the group {#sec-bbv-key}
+
+We sort the group first by the cells each virus infects, because the target cell predicts the
+disease. For the two viruses that infect liver cells, we then ask whether the virus keeps a DNA copy
+of its genome in the nucleus, because that predicts whether drugs can cure the infection.
+
+::: {.concept-tree}
+[Sorting the blood-borne and sexually transmitted viruses]{.tree-title}
+
+- CD4 T cells and macrophages: HIV
+- Liver cells
+  - A DNA genome, copied through RNA; a DNA copy stays in the nucleus: hepatitis B virus
+  - An RNA genome, copied in the cytoplasm with no DNA stage: hepatitis C virus
+- Basal cells of the epithelium of the skin and mucosa: human papillomavirus
+:::
+
+The cells a virus infects predict what follows and how it is prevented:
+
+| Cells infected | What follows | Main means of prevention |
+|---|---|---|
+| CD4 T cells and macrophages | Over years, CD4 T cells are lost, the defences they coordinate fail, and organisms normally held in check cause disease | Condoms, treatment of infected people, drugs taken before or after exposure, screened blood and sterile needles |
+| Liver cells | Hepatitis; chronic infection can scar the liver and lead to liver cancer over decades | Screened blood, sterile needles and, for HBV, vaccination |
+| Basal cells of the epithelium of the skin and genital tract | Warts; persistent infection with some types can lead, over years, to cancer of the cervix and other sites | Vaccination, and screening of the cervix |
+
+The second trait predicts what antiviral drugs can do. The drugs block viral enzymes and other viral
+proteins needed for replication, and act only on virus that is replicating (see [*Detecting viruses
+and antiviral targets*](detecting-viruses.qmd#sec-vdet-few)), so viral DNA that sits in the nucleus
+without needing those proteins is out of their reach.
+
+| Virus | What stays in the nucleus of an infected cell | What antiviral drugs can do |
+|---|---|---|
+| HIV | Its DNA copy, joined into a host chromosome, including in resting CD4 T cells that make no virus | Suppress replication while they are taken, so treatment continues for life |
+| HBV | A DNA copy of the genome, kept as a closed circle beside the chromosomes | Suppress replication, but rarely clear the infection |
+| HCV | Nothing: the RNA genome is copied in the cytoplasm and never made into DNA | Cure most infections in a few months |
+
+Work through the key from the cells the virus infects, and read at each branch what the trait
+predicts about the virus.
+
+<div data-island="sorting-key" data-src="/diagrams/bbv-key.yml"></div>
+
+## Main viruses {#sec-bbv-main}
+
+### HIV: silent spread, and treatment for life {#sec-bbv-hiv}
+
+HIV is an enveloped **retrovirus**, an RNA virus that copies its genome into DNA inside the cell. It
+binds CD4 and a co-receptor, so it infects CD4 T cells and macrophages (see [*Viruses and the
+host*](virus-host.qmd#sec-vhost-receptors)). Reverse transcriptase copies its RNA genome into DNA,
+and integrase joins that DNA into a host chromosome as a **provirus**, viral DNA integrated into a
+host chromosome, transcribed by the host and copied with the chromosome (see [*How viruses are built
+and copy themselves*](virus-structure-replication.qmd#sec-vstr-genomes)). Over years the loss of
+CD4 T cells lets **cell-mediated immunity**, the defence by T cells against infected cells and
+against organisms that live inside host cells, fail, and **opportunistic infections**, infections by
+organisms that a person with intact defences controls, then cause disease (see [*Viruses and the
+host*](virus-host.qmd#sec-vhost-cd4)).
+
+HIV is carried in blood, semen, vaginal fluid, rectal secretions and breast milk, and it spreads by
+all three routes of the group:
+
+- Sexual contact, the commonest route worldwide
+- Blood, mainly through needles and syringes shared by people who inject drugs, and rarely through a
+  needlestick injury
+- From mother to child, mostly at birth or in breast milk and less often across the placenta during
+  pregnancy
+
+The risk from an exposure rises with the **viral load** of the infected person, the amount of viral
+nucleic acid in a sample, usually plasma, measured by a quantitative NAAT (nucleic acid
+amplification test; see [*Detecting viruses and antiviral
+targets*](detecting-viruses.qmd#sec-vdet-methods)). HIV is not spread by everyday contact, by sharing
+food or cutlery, or by mosquitoes.
+
+In the first weeks after infection the virus multiplies rapidly in lymphoid tissue, and the viral
+load reaches its highest level. Some people have a short illness with fever, sore throat, rash and
+enlarged lymph nodes; others notice nothing. The immune response then lowers the viral load to a
+steady level, and years without symptoms follow, while virus is produced continuously and CD4 T cells
+are slowly lost (see [*Viruses and the host*](virus-host.qmd#sec-vhost-chronic)). Without treatment,
+the **acquired immunodeficiency syndrome (AIDS)**, the advanced stage of HIV infection in which loss
+of CD4 T cells lets opportunistic infections cause disease, develops after about ten years on
+average.
+
+Antibody tests detect infection only once antibodies have formed, some weeks after infection. The
+**window period** is the interval after infection in which an infected person still tests negative
+because antibodies have not yet appeared. It overlaps the weeks of highest viral load, so a person
+can be at their most infectious while an antibody test is still negative. Tests that detect a viral
+protein alongside antibodies shorten the window period, and a NAAT for HIV RNA shortens it further
+(see [*Detecting viruses and antiviral targets*](detecting-viruses.qmd#sec-vdet-choosing)).
+
+HIV harms the host mainly through the cells it destroys:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Early illness | The virus multiplies rapidly in lymphoid tissue and the blood, and the host's response to it causes fever and enlarged lymph nodes | Fever, sore throat, rash and enlarged lymph nodes two to four weeks after infection, when an antibody test may still be negative |
+| Failure of cell-mediated immunity | Over years, CD4 T cells are killed faster than they are replaced, until cell-mediated immunity fails | Tuberculosis in a person with advanced HIV infection, because the control of *Mycobacterium tuberculosis* inside macrophages depends on cell-mediated immunity |
+| Cancers caused by other viruses | Failing cell-mediated immunity no longer holds in check cells infected by viruses that can cause cancer | Cancer of the cervix, caused by HPV, which develops more often in women with HIV |
+
+Three conditions let HIV cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Anyone exposed without protection; no vaccine exists | The immune response does not clear HIV, which persists as a provirus, so every infection is lifelong |
+| Where (setting) | Sex without a condom with a partner whose infection is undiagnosed or untreated; shared injecting equipment; pregnancy, birth and breastfeeding when the mother is not treated | The amount of virus in blood and genital secretions follows the viral load, which is highest early in infection and in untreated infection |
+| How (route) | Through the mucosa of the genital tract or rectum, or directly into the blood | It infects CD4 T cells and macrophages, is carried in lymph to the lymph nodes and then in the blood to lymphoid tissue throughout the body |
+
+HIV infection is prevented by blocking a route, by lowering the amount of virus an infected person
+carries, or by protecting the person who is exposed:
+
+- Condoms, which block contact with semen and vaginal fluid
+- Treatment of the infected person, which lowers the viral load in blood and genital secretions; when
+  it has kept the viral load below the level tests can detect for at least six months, HIV is not
+  transmitted sexually
+- **Pre-exposure prophylaxis** (PrEP), drugs against HIV taken by a person without HIV who may be
+  exposed, before the exposure
+- **Post-exposure prophylaxis** (PEP), a short course of drugs against HIV started as soon as
+  possible after an exposure, such as a needlestick injury or sex without a condom
+- Screening of donated blood, and sterile injecting equipment
+- Treatment of pregnant women with HIV, and drugs for their infants after birth, which make
+  transmission to the child rare
+
+**Antiretroviral therapy** is the treatment of HIV infection with a combination of drugs from two or
+more classes, acting on different steps of the replication cycle, so that a variant resistant to one
+drug is still suppressed by the others (see [*Detecting viruses and antiviral
+targets*](detecting-viruses.qmd#sec-vdet-resistance)). It suppresses replication and lets the CD4
+T-cell count recover, and a person who starts it early and takes it consistently can expect a
+near-normal lifespan. It cannot remove the provirus from resting CD4 T cells, which make no virus and
+offer the drugs nothing to act on (see [*Viruses and the host*](virus-host.qmd#sec-vhost-latency)).
+When treatment stops, virus returns from these cells within weeks, so treatment continues for life.
+The variation of HIV, within one person and between people, is one reason why no vaccine has yet
+succeeded (see [*How viruses change*](virus-change.qmd#sec-vchg-vaccines)).
+
+::: {.callout-important}
+## Can a person taking HIV treatment pass the virus on during sex?
+HIV is often assumed to be infectious for as long as a person carries it, because the infection is
+never cleared. Yet among couples in which only one partner had HIV, followed through many thousands
+of acts of sex without condoms, no infection has been traced to a partner whose treatment had kept
+the viral load undetectable for at least six months. The provirus persists, but the cells that carry
+it release little virus, the drugs stop that virus from infecting new cells, and so there is too
+little virus in blood and genital secretions to pass on during sex.
+
+The evidence concerns sexual transmission. In breastfeeding and through shared needles, treatment
+lowers the risk, but it has not been shown to remove it.
+:::
+
+Step through the two routes HIV takes: sexual transmission and the slow loss of CD4 T cells that
+follows, and transmission from mother to child.
+
+<div data-island="body-map" data-src="/diagrams/route-hiv.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/bbv-profile-hiv.yml"></div>
+
+### Hepatitis B virus: age at infection decides the outcome {#sec-bbv-hbv}
+
+HBV is an enveloped virus that infects liver cells. Its genome is a small, partly double-stranded
+DNA molecule, which it copies in an unusual way. In the nucleus of the liver cell, the genome is
+completed into a closed circle of DNA, which stays there beside the chromosomes. Host RNA polymerase
+transcribes the circle, and in the cytoplasm a viral reverse transcriptase copies one of its RNA
+transcripts back into DNA, making the genomes of new virions. HBV and HIV therefore both use a
+reverse transcriptase, but HIV copies RNA into DNA soon after it enters a cell, whereas HBV does so
+as it makes new virions.
+
+The blood of a person with HBV infection can contain far more virus than the blood of a person with
+HIV or HCV infection, and HBV remains infectious in dried blood on surfaces for at least a week.
+Small amounts of blood can therefore transmit it, on a needle, a shared razor or toothbrush, or
+unsterile medical or dental equipment. It also spreads by sexual contact, among young children in a
+household, and from mother to child at birth, the main route in East and South-East Asia, where
+chronic infection is common. HBV is not spread by sharing food or cutlery, by hugging, by coughing or
+by breastfeeding.
+
+Infected liver cells make the main protein of the viral envelope, **hepatitis B surface antigen**
+(HBsAg), in far greater amounts than are needed to build virions, and release the excess into the
+blood. HBsAg in the blood therefore marks current infection, and a test for it is the usual way
+infection is found. Antibodies against HBsAg appear when the infection clears and after vaccination,
+and they protect against infection.
+
+The age at which a person is infected decides whether the infection clears or becomes chronic.
+Chronic HBV infection is recognised by HBsAg that persists in the blood for more than six months.
+
+::: {.spectrum}
+[Chance that HBV infection becomes chronic, by age at infection]{.tree-title}
+
+- At birth or in the first year of life: about 9 in 10
+- In early childhood, before the age of six: between a third and a half
+- In healthy adults: fewer than 1 in 20
+
+[Birth]{.spectrum-end} [Adulthood]{.spectrum-end}
+:::
+
+HBV itself kills few of the cells it infects. The liver damage comes mainly from
+**cytotoxic T cells**, lymphocytes that recognise viral proteins displayed on an infected cell and
+kill that cell (see [*Viruses and the host*](virus-host.qmd#sec-vhost-immune)). An infant's immune
+response does not attack infected liver cells strongly enough to clear them, so the virus persists,
+often for years with little damage to the liver. In an adult, the attack that clears the virus
+within months also causes acute hepatitis, which is often silent but can bring fatigue and
+**jaundice**, yellowing of the skin and the whites of the eyes as bilirubin accumulates in the
+blood. The strength of the response therefore decides both whether the virus is cleared and how much
+damage is done (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-drf)).
+
+::: {.example}
+An infant infected with HBV at birth usually has no illness at all, while an infected adult can
+become jaundiced; the infant's silent infection is the one that persists, and decades later it can
+lead to liver cancer.
+:::
+
+In chronic infection, the immune response can attack infected liver cells, on and off, for decades
+without clearing them. The injured cells are replaced by regenerating ones, and the repeated injury
+lays down scar tissue. **Cirrhosis** is scarring of the liver in which bands of fibrous tissue and
+nodules of regenerating liver cells replace its normal structure, so that the liver works poorly, and
+**hepatocellular carcinoma** is a cancer of liver cells. Many people with chronic infection spend
+long periods with little damage to the liver, but in a substantial minority both follow, and
+hepatocellular carcinoma can arise even in a liver without cirrhosis. Chronic HBV infection is a
+leading cause of hepatocellular carcinoma in East and South-East Asia.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Acute hepatitis | Cytotoxic T cells kill infected liver cells as they clear the virus | Fatigue and jaundice in an unvaccinated adult, two months after sex with an infected partner, settling over the following months |
+| Chronic hepatitis and cirrhosis | The immune response attacks infected liver cells, on and off, for decades without clearing them, and repeated injury and repair scar the liver | Cirrhosis in a middle-aged adult who was infected at birth |
+| Hepatocellular carcinoma | Decades of liver cell death and regeneration, during which fragments of HBV DNA can become inserted into the chromosomes of liver cells, allow cancer to develop | Hepatocellular carcinoma in a 45-year-old who was infected at birth and whose liver has no cirrhosis |
+
+Three conditions let HBV cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | An infant born to a mother with chronic infection; anyone who is unvaccinated | An infant's immune response rarely clears the virus, so infection at birth usually becomes chronic; vaccination prevents infection at any age |
+| Where (setting) | Birth to an infected mother, especially in East and South-East Asia; sexual contact; shared needles, razors or toothbrushes; unsterile medical equipment | The blood carries very large amounts of virus, which remains infectious in dried blood for at least a week |
+| How (route) | Through mucosa or broken skin, or directly into the blood, then in the blood to the liver | Liver cells carry the receptor the virus binds, so it infects them and few other cells |
+
+The vaccine contains HBsAg alone, made without the virus, and the antibodies it induces prevent
+infection. Infection at birth is the one most likely to persist, so the first dose is given at birth,
+as it is in Singapore's national childhood immunisation schedule. Pregnant women are screened for
+HBsAg, and an infant whose mother has chronic infection is given the vaccine together with antibodies
+against HBV within hours of birth, which prevents most transmission. When the mother's viral load is
+very high, transmission can still occur despite these, so she is also given drugs that block the
+reverse transcriptase of HBV in the last months of pregnancy. By preventing chronic infection, the
+vaccine prevents much of the hepatocellular carcinoma that would otherwise follow decades later.
+
+Drugs that block the reverse transcriptase of HBV stop new DNA genomes being made, which suppresses
+the virus and slows damage to the liver. The circle of DNA already in the nucleus does not depend on
+the reverse transcriptase, however, so it stays in the cell, and virus often returns when the drugs
+are stopped. The drugs therefore rarely clear the infection, and treatment usually continues for
+years.
+
+Step through the two routes by which HBV reaches the liver: at birth, when the infection usually
+becomes chronic, and in adulthood, when it usually clears.
+
+<div data-island="body-map" data-src="/diagrams/route-hbv.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/bbv-profile-hbv.yml"></div>
+
+### Hepatitis C virus: silent for decades, and curable {#sec-bbv-hcv}
+
+HCV is an enveloped virus with a positive-sense RNA genome. Host ribosomes translate the genome as
+soon as it enters a liver cell, and the virus's own RNA-dependent RNA polymerase copies it in the
+cytoplasm (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-genomes)). HCV makes no DNA at any stage. Its
+polymerase does not proofread, so the virus in one person becomes a population of many variants (see
+[*How viruses change*](virus-change.qmd#sec-vchg-mutation)).
+
+HCV is spread mainly by blood. In many countries most new infections now come from needles, syringes
+and other equipment shared by people who inject drugs. In the past, many people were infected by
+transfusion of blood before donations were screened for HCV, or by medical procedures with unsterile
+equipment, and the virus still spreads in this way where infection control is poor. Sexual and
+mother-to-child transmission occur but are much less efficient than for HBV or HIV, although sexual
+transmission is a recognised route of new infection among men who have sex with men, particularly
+those with HIV.
+
+Acute infection usually causes no symptoms, and most infections, about 7 in 10, are not cleared and
+become chronic. Chronic infection is usually silent while inflammation slowly scars the liver. Over
+two or three decades a substantial minority of people with chronic infection develop cirrhosis, and
+some of them develop hepatocellular carcinoma. Many people are therefore diagnosed only when their
+liver disease is advanced, or when they are tested because of a past risk, such as injecting drugs or
+a transfusion before blood was screened.
+
+Antibodies against HCV show that a person has been infected at some time, but they remain after the
+virus has gone, whether the immune response or treatment cleared it. A NAAT for HCV RNA shows whether
+the virus is still present (see [*Detecting viruses and antiviral
+targets*](detecting-viruses.qmd#sec-vdet-methods)).
+
+HCV harms the liver slowly, through inflammation that does not clear the virus:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Chronic hepatitis | The immune response fails to clear the virus, and infected liver cells are attacked by continuing, low-grade inflammation for years | No symptoms for decades in a person infected while injecting drugs as a young adult |
+| Cirrhosis | Decades of inflammation lay down scar tissue throughout the liver | Cirrhosis found in a 60-year-old who was given a transfusion before blood was screened for HCV |
+| Hepatocellular carcinoma | Cancer develops in a liver scarred by decades of inflammation, mostly after cirrhosis has formed | Hepatocellular carcinoma in a 65-year-old who has had cirrhosis from chronic HCV infection for several years |
+
+Three conditions let HCV cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A person exposed to infected blood, most often while injecting drugs; in the past, a person given unscreened blood | Most infections become chronic, and neither past infection nor cure reliably protects against reinfection |
+| Where (setting) | Shared needles, syringes and other injecting equipment; unscreened blood and unsterile medical equipment where infection control is poor | Infected people carry virus in their blood for decades, usually without knowing it |
+| How (route) | Directly into the blood, then in the blood to the liver | The virus infects liver cells and copies its RNA in their cytoplasm |
+
+No vaccine against HCV exists; one obstacle is its genome, which varies greatly between people and
+within each infected person. Neither recovery nor cure reliably protects against a new infection, so
+people who continue to be exposed can be infected again.
+
+Antiviral drugs that act on the virus's own enzymes and proteins, including its RNA-dependent RNA
+polymerase and its protease, cure most infections when taken for a few months. HCV can be cured where
+HIV and HBV can only be suppressed because it keeps no DNA copy in the nucleus and has no latent
+form. It persists only by replicating continuously, so when drugs stop its replication for long
+enough, the viral RNA already in infected cells is broken down and nothing remains from which the
+virus can return.
+
+Step through the route HCV takes, from a shared needle to a liver scarred over decades.
+
+<div data-island="body-map" data-src="/diagrams/route-hcv.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/bbv-profile-hcv.yml"></div>
+
+## Contrast pair {#sec-bbv-pairs}
+
+### Hepatitis B virus and hepatitis C virus {#sec-bbv-pair-hbv-hcv}
+
+HBV and HCV both infect liver cells, both spread in blood, and both can lead, after decades, to
+cirrhosis and hepatocellular carcinoma. Compare them feature by feature before reading the
+principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-hbv-hcv.yml"></div>
+
+## Beyond the main viruses {#sec-bbv-beyond}
+
+### Supporting viruses {#sec-bbv-supporting}
+
+| Virus | Where it lives | What separates it | Why it matters |
+|---|---|---|---|
+| Human papillomavirus | The basal cells of the epithelium of the skin, and of the mucosa of the genital tract, anus and throat | A non-enveloped DNA virus that stays in the epithelium and does not circulate in the blood; spread by skin-to-skin contact, including sexual contact; there are many types, and most infections clear within one to two years | Some types cause warts on the skin or genitals. Persistent infection with high-risk types causes almost all cancers of the cervix and most cancers of the anus, and some cancers of the other genital organs and of the throat: two viral proteins inactivate the cell's tumour-suppressor proteins (see [*Viruses and the host*](virus-host.qmd#sec-vhost-cancer)). A vaccine given before sexual activity begins prevents infection with the main high-risk types, and screening of the cervix finds precancerous changes, which can be removed before cancer develops |
+
+### Later in the course {#sec-bbv-later}
+
+| Virus | Where it comes up again |
+|---|---|
+| HIV | Infectious diseases and HIV care (opportunistic infections and antiretroviral therapy); sexual health; obstetrics and neonatology (prevention of mother-to-child transmission); occupational health (needlestick injury) |
+| Hepatitis B virus | Gastroenterology and hepatology (chronic hepatitis, cirrhosis and hepatocellular carcinoma); obstetrics and neonatology (vaccination at birth); vaccines in immunology |
+| Hepatitis C virus | Gastroenterology and hepatology (chronic hepatitis and its cure); transfusion medicine (screening of donated blood) |
+| Human papillomavirus | Obstetrics and gynaecology (cervical screening and cancer); dermatology and sexual health (warts); head-and-neck oncology |
+
+## Check your understanding {#sec-bbv-quiz}
+
+<div data-island="quiz" data-src="/quizzes/bloodborne-viruses.quiz.yml"></div>
+
+## Review with flashcards {#sec-bbv-cards}
+
+<div data-island="flashcards" data-src="/decks/bloodborne-viruses.deck.yml"></div>

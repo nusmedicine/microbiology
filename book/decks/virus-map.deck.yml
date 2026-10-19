@@ -1,0 +1,45 @@
+id: virus-map
+title: "Flashcards: a map of the viruses"
+intro: "Each card asks you to explain a virus or a group from its traits, not to recall a list. Say the answer before you check it."
+
+cards:
+  - id: vmd1
+    kind: why
+    front: "Why are the groups of the viral world named in two different ways?"
+    back: "Herpesviruses are a family: relatives that share a structure. The other four groups are named for a route of spread. Structure predicts survival, change and drug targets; the route predicts who is exposed and how spread is prevented."
+  - id: vmd2
+    kind: why
+    front: "Why are all the faecal–oral viruses on the map non-enveloped?"
+    back: "To reach the gut, a virus must survive drying on hands and surfaces, then stomach acid and bile, which disrupt a lipid envelope. A capsid alone withstands them."
+  - id: vmd3
+    kind: how
+    front: "How do enveloped viruses avoid drying out between hosts?"
+    back: "They travel by routes that keep them moist or move them quickly: respiratory particles, mostly between people close together, blood and genital fluids, the inside of a mosquito, or direct contact with saliva and skin."
+  - id: vmd4
+    kind: apart
+    front: "Hepatitis A and E viruses versus hepatitis B and C viruses?"
+    back: "All four infect the liver but belong to different families. A and E are non-enveloped, spread by the faecal–oral route and cause acute infection. B and C are enveloped, spread in blood (hepatitis B virus also by sexual contact and at birth), and can persist for decades."
+  - id: vmd5
+    kind: apart
+    front: "Dengue virus versus hepatitis C virus: why are relatives in different groups?"
+    back: "They belong to the same family of enveloped positive-sense RNA viruses, but dengue virus is carried by mosquitoes and hepatitis C virus spreads in blood. Groups named for a route cut across families."
+  - id: vmd6
+    kind: why
+    front: "Why does varicella-zoster virus sit with the herpesviruses, although it spreads by respiratory particles?"
+    back: "Its enveloped double-stranded DNA genome and lifelong latency in sensory nerve cells make it a herpesvirus. Latency, not the route, explains its later disease: shingles."
+  - id: vmd7
+    kind: why
+    front: "Why are the viruses whose vaccines need updating, or which become resistant to single drugs, mostly RNA viruses?"
+    back: "Most RNA viruses (coronaviruses are an exception), and retroviruses such as HIV, copy their genomes without proofreading, so mutations accumulate. Antibodies and drugs then select the variants that escape them."
+  - id: vmd8
+    kind: how
+    front: "How does persistence change the way an infection is found and controlled?"
+    back: "A person with a persistent infection can transmit it for years without symptoms, so infections are found by screening donated blood and pregnant women rather than by waiting for illness."
+  - id: vmd9
+    kind: why
+    front: "Why do all the viruses on the map that are linked to cancer persist?"
+    back: "Cancer usually develops only after years of infection, as further changes accumulate in infected cells. Human papillomavirus, hepatitis B and C viruses and Epstein–Barr virus all stay in the body for years."
+  - id: vmd10
+    kind: apart
+    front: "Rhinoviruses versus influenza virus: why do rhinoviruses also spread on hands and surfaces?"
+    back: "Rhinoviruses have no envelope, so they survive drying on hands and surfaces, which carry them to the nose and eyes. Influenza virus is enveloped, survives there only briefly, and passes mainly in respiratory particles between people close together."

@@ -1,0 +1,40 @@
+id: gpr-profile-c-tetani
+name: "Clostridium tetani"
+group: "Gram-positive rod · forms spores · obligate anaerobe"
+intro: "Predict two of the five slots. One toxin, acting on one kind of neuron, explains the whole disease."
+
+slots:
+  - slot: identity
+    entry: "Gram-positive rod that forms spores; an obligate anaerobe. Makes tetanus toxin, a protein that cuts one of the proteins a nerve ending needs to release neurotransmitter."
+  - slot: lifestyle
+    predict:
+      stem: "*C. tetani* is killed by oxygen, but its spores are common in soil. In which wound are the spores most likely to germinate?"
+      options:
+        - text: "A deep puncture from a garden fork, with soil driven in and damaged tissue at its base"
+          correct: true
+          feedback: "Little oxygen reaches the base of a deep puncture or damaged tissue, so the spores can germinate there. The wound may be small and may heal before tetanus begins."
+        - text: "A shallow graze washed at once with clean water"
+          correct: false
+          feedback: "Oxygen from the air reaches a shallow graze, and washing removes most of the soil. Spores germinate where oxygen is low: at the base of a deep or dirty wound, or in damaged tissue."
+        - text: "A clean cut made with a sterile scalpel"
+          correct: false
+          feedback: "A sterile instrument carries no spores, and a clean cut has little damaged tissue. The risk comes from soil driven deep into a wound, where oxygen is low."
+    entry: "Spores live in soil and animal faeces throughout the world and survive for years. They germinate only where oxygen is low: in a deep, dirty or necrotic wound, or in the umbilical stump of a neonate when the cord is cut with an unsterile instrument."
+  - slot: harm
+    predict:
+      stem: "The toxin travels along motor nerves to the spinal cord and stops inhibitory neurons releasing their neurotransmitters. What does the patient develop?"
+      options:
+        - text: "Rigid muscles and painful spasms, often starting with the jaw"
+          correct: true
+          feedback: "Without inhibition, motor neurons fire unchecked, so the muscles stay contracted. The jaw muscles are often affected first, giving lockjaw."
+        - text: "Weak, floppy muscles, starting with those of the eyes"
+          correct: false
+          feedback: "That is botulism, whose toxin silences the motor nerve endings themselves. Silencing the inhibitory neurons removes the brake on motor neurons, so the muscles become rigid."
+        - text: "Loss of sensation in the arms and legs"
+          correct: false
+          feedback: "Tetanus toxin acts on the neurons that control movement, and sensation is unaffected. Loss of inhibition makes the muscles rigid and prone to spasm."
+    entry: "The bacteria stay in the wound, but the toxin enters motor nerve endings near the wound and, carried in the blood, throughout the body. It travels along the axons to the spinal cord and brainstem and stops inhibitory neurons releasing their neurotransmitters. Motor neurons fire unchecked: spastic paralysis, with lockjaw, rigidity and spasms that can stop breathing."
+  - slot: consequence
+    entry: "Recovery from tetanus gives no immunity, because the amount of toxin that causes disease is too small to provoke protective antibodies. Toxoid vaccine, with boosters, prevents it. Tetanus does not pass between people, so vaccinating others gives no indirect protection: each person must be vaccinated, and a neonate is protected only by antibodies from its vaccinated mother."
+  - slot: contrast
+    entry: "*Clostridium botulinum*: also a spore-forming anaerobe whose toxin stops nerve endings releasing neurotransmitter, but it acts at the neuromuscular junction, so the paralysis is flaccid, and in its classic, food-borne form it is swallowed as toxin already formed in food."

@@ -1,0 +1,228 @@
+id: comparing-worlds
+title: "Check your understanding: comparing the worlds"
+questions:
+  - id: cw1
+    stem: "Two days after several pupils in her class fell ill, a 30-year-old teacher develops fever, headache, aching muscles and a cough that brings up a little clear sputum. A Gram stain of her sputum shows a few mixed bacteria from the mouth and no single kind in large numbers. Of these organisms, which is the most likely cause?"
+    options:
+      - text: "Influenza virus"
+        correct: true
+        feedback: "A virus fits every clue. An illness that spreads through a class within days points to a short incubation period and spread in respiratory particles, and a virus is far too small to show on a Gram stain. The aches come from interferon and other signals released early in a viral infection."
+      - text: "*Streptococcus pneumoniae*"
+        correct: false
+        feedback: "Sputum from bacterial pneumonia, when well collected, often shows many bacteria of one kind on a Gram stain, and the infection seldom spreads through a class within days. A stain with no dominant bacterium, in a classroom outbreak, points to a virus."
+      - text: "*Mycobacterium tuberculosis*"
+        correct: false
+        feedback: "Tuberculosis develops over weeks to months, because the bacterium takes most of a day to divide, so it cannot explain an illness that spread through a class in two days."
+      - text: "*Aspergillus fumigatus*"
+        correct: false
+        feedback: "Inhaled mould spores cause invasive disease mainly when neutrophils are lacking, and a fungus breathed in from the environment does not pass from person to person. Spread through a class rules it out."
+  - id: cw2
+    stem: "A week after finishing a course of an antibacterial drug for a bladder infection, a 28-year-old woman develops vaginal itching and a thick white discharge. Of these organisms, which is the most likely cause?"
+    options:
+      - text: "*Candida albicans*"
+        correct: true
+        feedback: "Many women carry this yeast in the vagina without harm. The antibacterial drug reduced the vaginal bacteria that normally hold it in check, and spared the yeast, whose 80S ribosomes and chitin and glucan wall the drug does not act on, so the yeast overgrew in their place."
+      - text: "*Escherichia coli*"
+        correct: false
+        feedback: "The drug was given against the bacteria of the bladder infection and would have acted on *E. coli*. An infection that follows a course of antibacterial treatment points to an organism the drug spared, such as a fungus."
+      - text: "*Trichomonas vaginalis*"
+        correct: false
+        feedback: "This protozoan passes between sexual partners, and nothing in the story points to a new exposure. The timing, straight after an antibacterial drug, points to overgrowth of an organism the woman already carried."
+      - text: "Herpes simplex virus"
+        correct: false
+        feedback: "Genital herpes causes painful blisters and ulcers, not a thick white discharge, and an antibacterial drug neither causes nor prevents it. Overgrowth after an antibacterial drug points to a yeast."
+  - id: cw3
+    stem: "Twelve days after returning to Singapore from a month in rural sub-Saharan Africa, a 27-year-old woman develops fever, chills and headache. She took no drugs to prevent malaria. Which test is most likely to find the cause?"
+    options:
+      - text: "A stained blood film"
+        correct: true
+        feedback: "Fever after a stay where malaria is common makes a protozoan the first kind of microbe to consider. *Plasmodium falciparum* multiplies inside red cells, where a stained blood film shows it; a negative film is repeated while malaria is still suspected."
+      - text: "A blood culture"
+        correct: false
+        feedback: "Blood cultures grow bacteria and yeasts. *P. falciparum* lives inside red cells and does not grow in culture media, so a blood culture would miss the most likely cause."
+      - text: "Microscopy of a stool sample for eggs"
+        correct: false
+        feedback: "Stool microscopy finds helminth eggs and protozoan cysts from the gut. Fever after travel points first to a parasite in the blood, which a stool sample does not contain."
+      - text: "Serology for antibodies to the parasite"
+        correct: false
+        feedback: "Antibodies show exposure at some time, and early in a first infection they may not yet have formed. A test that sees the parasite in the blood now answers the question that matters."
+  - id: cw4
+    stem: "A 45-year-old man has a hot, red, painful swelling on his thigh that has filled with pus. A Gram stain of the pus shows many neutrophils and small purple round cells, none of them budding, in clusters, and colonies grow on agar overnight. Of these organisms, which is the most likely cause?"
+    options:
+      - text: "*Staphylococcus aureus*"
+        correct: true
+        feedback: "Small round cells in clusters, with no budding, that grow on agar overnight make this a bacterium rather than a yeast, and purple cocci in clusters are staphylococci. *S. aureus* walls itself in fibrin with coagulase, and neutrophils gather around it to form an abscess."
+      - text: "*Streptococcus pyogenes*"
+        correct: false
+        feedback: "Streptococci are also Gram-positive cocci, but they grow in chains, not clusters, and *S. pyogenes* usually spreads through tissue as cellulitis instead of forming a walled-off collection of pus."
+      - text: "*Candida albicans*"
+        correct: false
+        feedback: "Yeast cells also stain purple, but they are several times larger than bacteria and multiply by budding. An abscess under the skin of a man with intact defences points to a bacterium."
+      - text: "Herpes simplex virus"
+        correct: false
+        feedback: "A virus is far too small to see on a Gram stain and does not grow on agar. Herpes simplex virus causes small blisters, not a collection of pus."
+  - id: cw5
+    stem: "Ten days after a holiday in a rural area, where she ate raw vegetables grown in fields fertilised with human faeces, a 25-year-old woman develops a cough and wheeze. Her blood eosinophil count is raised, and a stool sample shows no eggs or cysts. Of these organisms, which is the most likely cause?"
+    options:
+      - text: "*Ascaris lumbricoides*"
+        correct: true
+        feedback: "Eosinophilia points to a helminth moving through tissue. Swallowed eggs hatch, and the larvae travel through the liver to the lungs, causing cough and wheeze; eggs appear in the stool only two to three months later, once the adults have matured in the intestine."
+      - text: "*Giardia duodenalis*"
+        correct: false
+        feedback: "This protozoan is also swallowed in material contaminated with faeces, but it stays on the surface of the small intestine and causes diarrhoea, not cough. A raised eosinophil count with cough points to worm larvae passing through the lungs."
+      - text: "Influenza virus"
+        correct: false
+        feedback: "Influenza causes cough with fever and aching, but it is caught from other people's respiratory particles, not from vegetables, and it does not raise the eosinophil count."
+      - text: "*Mycobacterium tuberculosis*"
+        correct: false
+        feedback: "Tuberculosis is caught by inhaling the bacteria from a person with lung disease, and it develops over weeks to months without raising the eosinophil count. The vegetables and the eosinophilia point to a helminth."
+  - id: cw6
+    stem: "A man with influenza asks for an antibacterial drug to shorten his illness. Which statement best explains why it would not?"
+    options:
+      - text: "The virus has no wall or ribosomes of its own for the drug to act on"
+        correct: true
+        feedback: "Antibacterial drugs act on structures that bacteria have and human cells lack, such as peptidoglycan and the 70S ribosome. Influenza virus has no wall, and its proteins are made on the host cell's 80S ribosomes, so the drug leaves it untouched while still acting on the man's resident bacteria."
+      - text: "Influenza virus has picked up resistance genes from bacteria in the airway"
+        correct: false
+        feedback: "Resistance means that a microbe grows despite a drug that would normally act on it. The drug has no target in the virus to begin with, so no resistance gene is needed."
+      - text: "The drug does not reach the airway lining, where the virus multiplies"
+        correct: false
+        feedback: "Many antibacterial drugs reach the airway well enough to treat bacterial pneumonia. The problem is the absence of a target in the virus, wherever the drug goes."
+      - text: "The virus multiplies inside cells, which antibacterial drugs cannot enter"
+        correct: false
+        feedback: "Drugs of several antibacterial classes enter cells, and some are chosen for bacteria that live inside them. An antibacterial drug fails because the virus has no wall or 70S ribosome for it to act on."
+  - id: cw7
+    stem: "A 55-year-old man has had a very low neutrophil count for three weeks after chemotherapy for leukaemia. He develops a fever that continues despite antibacterial drugs active against many bacteria. His blood cultures grow nothing, and a scan shows new nodules in his lungs. Of these organisms, which is the most likely cause?"
+    options:
+      - text: "*Aspergillus fumigatus*"
+        correct: true
+        feedback: "Prolonged neutropenia and a fever that persists despite antibacterial drugs point to a fungus. Everyone inhales the spores of this mould, and without neutrophils its hyphae grow through the lung and into its blood vessels, yet the mould rarely grows in blood cultures."
+      - text: "*Staphylococcus aureus*"
+        correct: false
+        feedback: "Neutropenia does let bacteria such as *S. aureus* cause infection, but *S. aureus* in the blood usually grows in blood cultures. New lung nodules after weeks of neutropenia, despite antibacterial drugs, are the typical picture of an invasive mould."
+      - text: "Influenza virus"
+        correct: false
+        feedback: "Neutrophils defend mainly against bacteria and fungi, so a lack of them points to those. New lung nodules weeks into neutropenia, with no response to antibacterial drugs, fit a mould."
+      - text: "*Mycobacterium tuberculosis*"
+        correct: false
+        feedback: "Control of *M. tuberculosis* depends on cell-mediated immunity, which neutropenia leaves in place. Weeks of neutropenia let bacteria and fungi through, and a mould invading the lung fits the nodules and the failure of antibacterial drugs."
+  - id: cw8
+    stem: "Antibacterial drugs belong to many classes, while only a few classes of drug treat invasive fungal infection, and some of them harm the patient more. Which explanation is best?"
+    options:
+      - text: "Fungi are eukaryotes, so most of their machinery is much like the patient's"
+        correct: true
+        feedback: "Selective toxicity needs a target the host lacks. A fungus makes its proteins on 80S ribosomes with enzymes much like human ones, and differs mainly in ergosterol and its wall; the polyenes, which bind ergosterol, also bind cholesterol to some degree and damage the kidney."
+      - text: "Fungi grow too slowly for most drugs to have time to act on them"
+        correct: false
+        feedback: "Slow growth lengthens diagnosis and treatment, but it does not reduce the number of targets. The shortage comes from how much of its machinery a fungus shares with human cells."
+      - text: "The fungal wall is made of a thick peptidoglycan that keeps most drugs out"
+        correct: false
+        feedback: "Fungal walls are built of chitin and glucan, not peptidoglycan, and the echinocandins act on the glucan. The few targets reflect a eukaryotic cell much like the patient's own."
+      - text: "Fungal cell membranes contain cholesterol, the same sterol as human ones"
+        correct: false
+        feedback: "Ergosterol, not cholesterol, is the sterol of fungal membranes; the polyenes bind it, and the azoles block its synthesis. The likeness of the two sterols explains some toxicity, but the shortage of targets comes from the eukaryotic machinery a fungus shares with human cells."
+  - id: cw9
+    stem: "A 72-year-old woman develops a painful band of blisters on one side of her chest, confined to the strip of skin supplied by one spinal nerve. She had chickenpox as a child and has had no recent contact with anyone who is ill. Which explanation is most likely?"
+    options:
+      - text: "Varicella-zoster virus, latent since her chickenpox, has reactivated in one ganglion"
+        correct: true
+        feedback: "The virus has persisted in a sensory ganglion for decades, held in check by cell-mediated immunity, which declines with age. Reactivated virus travels down the nerve from that one ganglion, so the rash is confined to one dermatome."
+      - text: "A dermatophyte caught from a pet has spread across the skin of her chest"
+        correct: false
+        feedback: "Dermatophytes grow in the keratin of skin, hair and nails and cause itchy, scaly patches; they are caught from people or animals and do not follow a nerve. A rash confined to one dermatome points to the nerve that supplies it."
+      - text: "*Streptococcus pyogenes* has entered a break in the skin and spread beneath it"
+        correct: false
+        feedback: "Cellulitis spreads outwards from a break in the skin as a red, hot, swollen area, with no regard for the territory of a nerve. A band confined to one dermatome follows a sensory nerve."
+      - text: "She has caught shingles from a child with chickenpox without noticing"
+        correct: false
+        feedback: "Shingles is not caught from anyone: it is reactivation of the person's own latent virus. Someone without immunity who is exposed to the fluid of shingles blisters can catch chickenpox, not shingles."
+  - id: cw10
+    stem: "A 70-year-old man grew up in a rural area of South-East Asia, where he often walked barefoot, and has lived in Singapore for 50 years. Two weeks after starting high-dose corticosteroids for a lung disease, he develops abdominal pain, cough and a bloodstream infection with bacteria from the gut. Of these organisms, which best explains the whole picture?"
+    options:
+      - text: "*Strongyloides stercoralis*"
+        correct: true
+        feedback: "Autoinfection has kept a few worms going since his childhood, with larvae that mature in the gut and reinfect him. Corticosteroids removed the defences that kept the larvae few, and in hyperinfection they swarmed through the gut wall and lungs, carrying gut bacteria into the blood."
+      - text: "*Ascaris lumbricoides*"
+        correct: false
+        feedback: "Each adult worm comes from one swallowed egg and dies within a year or two, so an infection cannot outlast 50 years without new exposure. Only a worm that can multiply in its host persists that long."
+      - text: "Hookworm"
+        correct: false
+        feedback: "Hookworm larvae also enter through bare feet, but they cannot multiply in the host, so the infection ends when the adult worms die, long before 50 years have passed. Persistence for decades needs autoinfection."
+      - text: "*Mycobacterium tuberculosis*"
+        correct: false
+        feedback: "Corticosteroids can let latent tuberculosis reactivate, but the bacterium does not carry gut bacteria into the blood. Gut bacteria in the blood point to larvae crossing the gut wall."
+  - id: cw11
+    stem: "Which pair of infections shows the same principle: an organism persisting silently for years and returning when cell-mediated immunity fails?"
+    options:
+      - text: "*M. tuberculosis* and herpes simplex virus both returning in advanced HIV infection"
+        correct: true
+        feedback: "Both organisms persist in a silent state, multiplying little or not at all: the bacterium walled into granulomas in the lung, the virus in sensory nerve cells. Cell-mediated immunity holds both in check, so both return as CD4 T cells are lost."
+      - text: "*C. albicans* overgrowing after an antibacterial drug, and *S. aureus* living in the nose"
+        correct: false
+        feedback: "These are carriage in the microbiota, not latency. The yeast overgrows when the bacteria around it are removed, and *S. aureus* multiplies openly on a body surface; neither persists in a silent state."
+      - text: "*A. lumbricoides* worms building up with repeated exposure, and influenza returning in later years"
+        correct: false
+        feedback: "Neither organism persists in the person. Worms accumulate with each swallowed egg and die within a year or two, and influenza returns as new variants infect people whose immunity no longer matches them."
+      - text: "*S. pyogenes* causing a sore throat, and norovirus causing vomiting and diarrhoea"
+        correct: false
+        feedback: "Each of these is an acute infection: the organism multiplies openly, causes illness soon after it arrives and is then cleared. Latency needs a silent stage that persists after the illness, held in check by the defences."
+  - id: cw12
+    stem: "Each of these infections is prevented mainly by a different measure. Which one depends mainly on screening, followed by treatment of the people found to be infected?"
+    options:
+      - text: "HIV passing from mother to child"
+        correct: true
+        feedback: "HIV is silent for years and there is no vaccine, so prevention depends on finding infected people. Testing pregnant women and treating those infected suppresses the virus and prevents most infections of their babies."
+      - text: "Falciparum malaria in a village in sub-Saharan Africa"
+        correct: false
+        feedback: "A parasite that must develop in a mosquito is controlled mainly at its vector. Bed nets treated with insecticide and insecticide sprayed in homes break the cycle there."
+      - text: "*A. lumbricoides* infection in schoolchildren"
+        correct: false
+        feedback: "Worm eggs that mature in soil contaminated with faeces are kept from children mainly by latrines and by washing hands and vegetables. Whole school-age populations are also treated at regular intervals, without screening, to keep the number of worms low."
+      - text: "Influenza in older adults"
+        correct: false
+        feedback: "Influenza passes from person to person, and recovery leaves immunity to the strain, so a vaccine, updated each year as the virus drifts, is the main protection for people at risk."
+  - id: cw13
+    stem: "A 35-year-old man with advanced HIV infection has had a worsening headache and fever for two weeks. His cerebrospinal fluid, mixed with India ink, shows round budding cells, each surrounded by a clear halo. Of these organisms, which is the most likely cause?"
+    options:
+      - text: "*Cryptococcus neoformans*"
+        correct: true
+        feedback: "Failing cell-mediated immunity lets organisms from several worlds cause disease, so the laboratory finding decides. Budding cells are yeasts, and the halo is the capsule, which protects *C. neoformans* from phagocytes as it spreads from the lung to the meninges."
+      - text: "*Mycobacterium tuberculosis*"
+        correct: false
+        feedback: "Tuberculous meningitis is also a risk in advanced HIV infection, but mycobacteria are thin rods that need an acid-fast stain to be seen, and they do not bud. Budding cells with a capsule are a yeast."
+      - text: "*Toxoplasma gondii*"
+        correct: false
+        feedback: "This protozoan does reactivate in the brain in advanced HIV infection, but it lives inside host cells and does not appear as budding cells with a capsule in the fluid around the brain."
+      - text: "Herpes simplex virus"
+        correct: false
+        feedback: "Viruses are far too small for the light microscope, so they cannot be the cells seen in the fluid. Cells that bud are yeasts."
+  - id: cw14
+    stem: "Tuberculosis can be cured by several months of treatment with a combination of drugs, whereas treatment of HIV infection suppresses the virus but must continue for life. Which difference best explains this?"
+    options:
+      - text: "Integrated HIV DNA in resting cells offers drugs no target; *M. tuberculosis* has its own wall and enzymes"
+        correct: true
+        feedback: "HIV persists as DNA integrated into the chromosomes of resting CD4 T cells, which make no viral proteins for drugs to act on, so stopping treatment lets virus production resume from this reservoir. The bacterium has targets the patient lacks, and months of treatment kill it even though some of the bacteria divide slowly."
+      - text: "*M. tuberculosis* multiplies faster than HIV, so the drugs kill it sooner"
+        correct: false
+        feedback: "*M. tuberculosis* grows slowly, taking most of a day to divide, which is why its treatment lasts months. Speed of growth does not explain why HIV cannot be cleared."
+      - text: "HIV becomes resistant to each antiviral drug within months, so treatment can never stop"
+        correct: false
+        feedback: "Combinations of antiviral drugs keep HIV suppressed for years in people who take them consistently, with little resistance. They cannot clear it because the integrated viral DNA in resting cells gives them no target."
+      - text: "Drugs for tuberculosis strengthen the immune response, which then clears the bacteria"
+        correct: false
+        feedback: "Drugs for tuberculosis act on the bacterium's own structures and enzymes, as other antibacterial drugs do. The difference lies in what each organism offers the drugs to act on."
+  - id: cw15
+    stem: "A newly described organism has an RNA genome inside a protein capsid wrapped in a lipid envelope, has no ribosomes, and spreads in respiratory particles. Which prediction is best supported?"
+    options:
+      - text: "Alcohol hand rub will inactivate it on the hands"
+        correct: true
+        feedback: "Its lipid envelope is disrupted by alcohol, as the envelope of influenza virus is. With no ribosomes it must be a virus, which antibacterial drugs would not treat."
+      - text: "It will grow on blood agar overnight, as most bacteria do"
+        correct: false
+        feedback: "Growth on agar needs a cell with its own ribosomes and energy supply. A virus multiplies only inside living cells."
+      - text: "It will be seen on a Gram stain of sputum from an infected person"
+        correct: false
+        feedback: "A virion is far smaller than the light microscope can resolve. It would be detected by a NAAT for its RNA, or by antigen tests or serology."
+      - text: "A drug that binds ergosterol in its envelope will stop it"
+        correct: false
+        feedback: "Ergosterol belongs to fungal cell membranes. A virus takes its envelope from the host cell's own membrane, so drugs aimed at fungi have nothing in it to act on."

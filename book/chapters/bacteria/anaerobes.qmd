@@ -1,16 +1,316 @@
 # Anaerobes
 
-> *Why does one trait, oxygen sensitivity, define a whole group of unrelated bacteria?*
+> *Oxygen poisons most of the bacteria in the colon and many of those in the mouth. That one trait,
+> shared by bacteria from unrelated families, predicts where they live, why they cause disease where
+> tissue has lost its blood supply, and why pus sent to the laboratory in an ordinary pot can grow
+> nothing.*
 
-::: {.callout-note}
-## In preparation
-The layout will match that of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Explain why anaerobes live in the body's oxygen-poor sites, and why they cause disease where a
+  barrier is breached and tissue has little oxygen.
+- Sort the anaerobes by Gram stain, spores and where they live, and predict from these the source
+  and site of an infection.
+- Explain why anaerobic infections are usually mixed and form abscesses, and how a sample must be
+  taken and grown to find anaerobes.
+- Explain how *Bacteroides fragilis* causes abscesses after the bowel is breached, and how the toxins
+  of *Clostridium perfringens* cause gas gangrene and food poisoning.
+- Name the host, setting and route that let each main organism cause disease.
+- Tell *B. fragilis* from *C. perfringens* by Gram stain, spores, source, typical lesion and source of
+  damage.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-anae-group)
+  - [The group in one sentence](#sec-anae-sentence): what every member shares
+  - [Sorting the group](#sec-anae-key): Gram stain, spores, where they live
+- [Main organisms](#sec-anae-main)
+  - [*Bacteroides fragilis*](#sec-anae-bacteroides): abscesses after the bowel is breached
+  - [*Clostridium perfringens*](#sec-anae-perfringens): toxins in dead muscle and in food
+- [Contrast pair](#sec-anae-pairs)
+  - [*B. fragilis* and *C. perfringens*](#sec-anae-pair-bacteroides-perfringens)
+- [Beyond the main organisms](#sec-anae-beyond)
+  - [Supporting organisms](#sec-anae-supporting)
+  - [Later in the course](#sec-anae-later)
+:::
+
+## The group {#sec-anae-group}
+
+### The group in one sentence {#sec-anae-sentence}
+
+Anaerobes are bacteria harmed by oxygen, which live in the body's oxygen-poor sites and cause disease
+where a barrier is breached and the tissue they reach has lost its blood supply. The group is defined
+by a single trait and not by descent (see [*A map of the bacteria*](bacteria-map.qmd#sec-map-names)):
+it includes Gram-positive and Gram-negative bacteria, with and without **spores** (endospores),
+dormant, dehydrated bacterial cells inside protective coats, resistant to heat and chemicals (see
+[*How bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-extras)). Most of the six
+questions have one answer for the whole group; its members differ mainly in envelope, in whether they
+form spores and in where they live.
+
+| Question | Answer for the anaerobes |
 |---|---|
-| The group in one sentence | Bacteria poisoned by oxygen that dominate the body's oxygen-poor places and cause harm where tissue loses its blood supply |
-| Sorting key | Gram-positive or Gram-negative; spores or not; where in the body they live |
-| Main organisms | *Bacteroides fragilis* (colon, capsule, abscess), *Clostridium perfringens* (dead tissue, toxins) |
-| Supporting organisms | *Fusobacterium*, *Prevotella*, *Cutibacterium acnes* |
-| Later in the course | Abdominal, dental and soft-tissue infections in the organ blocks |
+| What is it built from? | Gram-negative rods (*Bacteroides*, *Prevotella*, *Fusobacterium*), Gram-positive rods (*Clostridium*, *Cutibacterium*), and anaerobic cocci, mostly Gram-positive, which take part in mixed infections; *B. fragilis* has a **capsule**, a polysaccharide layer outside the cell wall that resists phagocytosis, and *Clostridium* forms spores |
+| How does it get energy, and what does it need to grow? | Makes ATP without oxygen, mostly by fermentation; oxygen inactivates central enzymes, so the laboratory grows anaerobes without oxygen, often for several days |
+| How does it copy itself and change? | Binary fission; genes for resistance to drugs pass between the anaerobes of the gut on plasmids and transposons |
+| Where does it live, and how does it spread? | The colon, mouth, vagina and skin follicles of healthy people, and, for *Clostridium*, soil; most infections come from the person's own microbiota and do not pass between people |
+| How does damage happen? | Multiplication in tissue with little oxygen, usually several species together, which the host walls off as abscesses; *C. perfringens* destroys tissue with toxins |
+| What does it have that my cells lack? | A peptidoglycan wall; and electron carriers for life without oxygen that convert one class of drugs, the nitroimidazoles, into a form that damages DNA |
+
+Oxygen inactivates central enzymes on which anaerobes depend (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-oxygen)). Most members of the group are **obligate
+anaerobes**, poisoned by oxygen and growing only where it is absent. They differ in how long they
+survive exposure to air, and *Cutibacterium acnes* tolerates some oxygen, but all grow best where
+oxygen is scarce. Anaerobes therefore live in the body's oxygen-poor sites (see [*How bacteria are
+built and get energy*](bacteria-build-energy.qmd#sec-bact-body)), as part of the resident microbiota
+(see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-microbiota)):
+
+- The colon, where anaerobes outnumber all other bacteria many times over
+- The mouth, especially the crevice between the teeth and the gums
+- The vagina
+- The hair follicles of the skin, and the oil glands that open into them
+
+On these surfaces anaerobes usually do no harm, although a shift in their numbers and balance
+contributes to disease of the gums and to acne. Most infections of tissue by anaerobes need two
+conditions together. A barrier must be breached, so that the bacteria leave the surface where they
+live: the bowel is perforated or opened at surgery, a decayed tooth or diseased gums open a path into
+the tissues of the jaw and neck, or saliva is inhaled into the lungs. The tissue they reach must also
+have little oxygen, as it does when it is **ischaemic** (receiving too little blood supply), necrotic,
+crushed by an injury or already filled with pus. Most anaerobic infections are
+therefore **endogenous infections**, caused by an organism the person already carries (see [*Microbes
+and their hosts*](../foundations/host-microbe.qmd#sec-host-opportunism)).
+
+Anaerobic infections share four features:
+
+- They are **polymicrobial**, caused by several species together, because the bacteria arrive from a
+  site that holds many species
+- They form abscesses, because the host walls the bacteria off; the necrotic centre has no blood
+  supply and little oxygen
+- The pus often smells foul, from the products of anaerobic metabolism
+- Some produce gas in the tissue, a product of fermentation
+
+In a mixed infection, **facultative anaerobes**, which respire with oxygen when it is available and
+ferment without it, use up the oxygen in the tissue, and the obligate anaerobes can then multiply.
+
+The same traits decide how the laboratory finds anaerobes. The sample is pus or tissue taken from the
+infected site. A swab of a surface that normally carries anaerobes, such as the gums, grows them from
+any healthy person, and shows only **colonisation**, microbes living and multiplying at a site without
+causing damage. The sample is sent quickly in a container without oxygen and grown in an oxygen-free
+jar or cabinet, often for several days (see [*Detecting bacteria and testing
+susceptibility*](detecting-bacteria.qmd#sec-dbac-culture)). Pus left in air can show many bacteria on
+a Gram stain and grow nothing, as in the laboratory case *The sample that grew nothing* (see [*How
+bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-case)).
+
+Life without oxygen also decides which drugs act on anaerobes. The nitroimidazoles are harmless until
+they are activated. Electron carriers that anaerobes use to live without oxygen pass an electron to
+the drug and convert it into a form that damages DNA. In cells with oxygen, including human cells,
+oxygen takes the electron back, so little of the active form builds up. These drugs therefore act on
+most anaerobes and spare the host (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-glance)), but they do not act on *C. acnes*. The
+aminoglycosides show the reverse: bacteria take them up by a process that depends on oxygen, so these
+drugs do not act on anaerobes.
+
+::: {.callout-important}
+## Can drugs alone clear an abscess?
+Most infections of well-supplied tissue clear with the right drug, so an abscess is often expected to
+do the same. Drugs reach an infection in the blood, however, and the centre of an abscess has no blood
+supply. Drugs penetrate pus poorly, and the bacteria in it are densely packed and many are not
+dividing, which weakens drugs that act on growing cells. Abscesses are therefore usually drained as
+well as treated with drugs.
+:::
+
+### Sorting the group {#sec-anae-key}
+
+Three traits sort the anaerobic rods: the Gram stain, whether the bacterium forms spores, and where
+in the body it lives. *Clostridium* is both an anaerobe and a Gram-positive rod. The spore-forming
+anaerobes also include *Clostridium tetani* and *Clostridium botulinum*, whose diseases each come from
+a single toxin, and *Clostridioides difficile*, which causes diarrhoea after antibacterial drugs (see
+[*Gram-positive rods*](gram-positive-rods.qmd#sec-gpr-key)).
+
+::: {.concept-tree}
+[Sorting the anaerobic rods]{.tree-title}
+
+- Gram-negative rods, without spores
+  - In the colon: *B. fragilis*
+  - In the mouth
+    - Long, thin rods with pointed ends: *Fusobacterium*
+    - Short rods: *Prevotella*
+- Gram-positive rods
+  - With spores, from soil and the gut: *Clostridium perfringens*
+  - Without spores, in the hair follicles of the skin: *Cutibacterium acnes*
+:::
+
+Where an anaerobe lives predicts what lets it into tissue and the infection that follows:
+
+| Where it lives | What lets it into tissue | Typical infection |
+|---|---|---|
+| The colon | Perforation of the bowel, or surgery on it | Infection of the abdominal cavity and abscesses there, with facultative anaerobes from the gut such as *Escherichia coli* |
+| The mouth | Infection of a tooth or the gums; saliva inhaled into the lungs | Abscesses of the teeth, throat and neck; pneumonia and abscess of the lung |
+| Soil and the gut, as spores | A deep wound with crushed or dead muscle; a large dish of meat cooled slowly | **Gas gangrene**, death of muscle caused by clostridial toxins, with gas in the tissue; food poisoning |
+| The hair follicles of the skin | A follicle blocked by oil and dead skin cells; a device implanted at surgery | Acne; infection of the device |
+
+Work through the key from the Gram stain, and read at each branch what the trait reveals about the
+organism.
+
+<div data-island="sorting-key" data-src="/diagrams/anae-key.yml"></div>
+
+## Main organisms {#sec-anae-main}
+
+### *Bacteroides fragilis*: abscesses after the bowel is breached {#sec-anae-bacteroides}
+
+*B. fragilis* is one of the anchor organisms (see [*The microbial
+world*](../foundations/microbial-world.qmd#sec-world-anchors)): an obligate anaerobe and Gram-negative
+rod of the healthy colon (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-profiles)). It makes up only a small part of the
+*Bacteroides* in the colon, yet it is the anaerobe grown most often from infections in the abdomen and
+from the blood. Its capsule, which resists phagocytosis, is one reason (see [*How bacteria cause
+damage*](bacterial-damage.qmd#sec-bdam-evade)).
+
+In the lumen of the colon, *B. fragilis* does no harm. Disease begins when the bowel wall is breached,
+by a perforated appendix, an injury or surgery that opens the bowel, and gut contents spill into the
+peritoneal cavity around the gut. The result is **peritonitis**, inflammation of the peritoneum, the
+membrane that lines the abdominal cavity and covers the gut. The infection is polymicrobial and runs
+in two stages. Facultative anaerobes such as *E. coli* multiply first, while the peritoneal cavity,
+whose lining has a good blood supply, still holds oxygen, and they can enter the blood. As they use up
+the oxygen, *B. fragilis* and other anaerobes multiply. The capsule of *B. fragilis* resists
+phagocytes and provokes a host response that walls the bacteria off, so pus collects in an abscess.
+
+::: {.example}
+In experiments in rats, gut contents placed in the abdomen caused disease in two stages: early
+peritonitis, often fatal, which depended on *E. coli*, and later abscesses, which depended on
+anaerobes, *B. fragilis* among them. Purified capsule of *B. fragilis* caused abscesses on its own.
+:::
+
+*B. fragilis* also makes a **beta-lactamase**, an enzyme that breaks down beta-lactams, the family of
+drugs that block the building of the peptidoglycan wall (see [*How bacteria copy themselves and
+change*](bacterial-genetics.qmd#sec-gen-mechanisms)). It destroys the penicillins and many related
+drugs, so drugs for an infection that follows a breach of the bowel are chosen to act on it.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Abscess in the abdomen | Gut contents spill into the peritoneal cavity; once facultative anaerobes have used up the oxygen, *B. fragilis* multiplies, and its capsule provokes a response that walls the bacteria off in pus | A foul-smelling abscess beside the colon a week after surgery on the bowel |
+| Bloodstream infection | Bacteria enter the blood from the infected abdomen | **Bacteraemia**, bacteria in the bloodstream, in a patient with an abdominal abscess |
+| Abscess in the liver | Bacteria from infection of the gut wall enter the portal vein, which carries blood from the gut to the liver, and form an abscess there, usually with other species | A liver abscess after a perforated appendix |
+
+In Singapore and the rest of East and South-East Asia, *Klebsiella pneumoniae* on its own is the
+commonest cause of a bacterial liver abscess (see
+[*Enterobacterales*](enterobacterales.qmd#sec-ent-klebsiella)). A mixed abscess that includes
+anaerobes such as *B. fragilis* points to a source in the bowel.
+
+Three conditions let *B. fragilis* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A person whose bowel wall is breached: by a perforated appendix, an injury or surgery on the bowel | *B. fragilis* lives harmlessly in the lumen of the colon and causes disease only when it reaches the tissue around it |
+| Where (setting) | The person's own colon | The infection is endogenous: most people carry the bacterium, and it does not pass between people |
+| How (route) | Into the peritoneal cavity with gut contents and facultative anaerobes from the gut | The facultative anaerobes use up the oxygen, so the obligate anaerobes can multiply, and the capsule provokes the host to wall them off in an abscess |
+
+Step through the route *B. fragilis* takes from the colon, after the bowel wall is breached.
+
+<div data-island="body-map" data-src="/diagrams/route-b-fragilis.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/anae-profile-b-fragilis.yml"></div>
+
+### *Clostridium perfringens*: toxins in dead muscle and in food {#sec-anae-perfringens}
+
+*C. perfringens* is a large Gram-positive rod that forms spores. The spores survive for years in soil
+and dust, and the bacterium also lives in the gut of people and animals. It does its harm with toxins
+(see [*How bacteria cause damage*](bacterial-damage.qmd#sec-bdam-exotoxins)), and the place where its
+spores germinate decides the illness: dead muscle, or food.
+
+A deep wound, such as a crush injury or a penetrating wound contaminated with soil, carries spores
+into muscle whose blood supply is damaged. Spores contaminate many wounds, but the bacteria can grow
+from them only where crushed or dead muscle leaves little oxygen. The bacteria then multiply and
+release toxins. The main toxin, alpha toxin, is an enzyme that breaks down the phospholipids of cell
+membranes, and the toxins together destroy muscle cells and red blood cells and damage small blood
+vessels. Damaged vessels leave more muscle without a blood supply, so the anaerobe advances into it,
+and the infection spreads through the muscle within hours. Fermentation fills the tissue with gas,
+which can be felt crackling under the skin, and few neutrophils reach the infected muscle, so there is
+little pus. Toxins that reach the blood depress the heart and damage blood vessels, causing
+**hypotension**, abnormally low blood pressure, and shock; they can also lyse red blood cells. This is
+gas gangrene. It is an emergency, treated by cutting away all the dead muscle as well as with drugs.
+
+The spores can also survive cooking. In a large dish of meat, stew or gravy that is cooked in
+advance and cooled slowly, the centre holds little oxygen, the spores germinate as the food cools, and
+the bacteria multiply rapidly. Once the food is eaten, the bacteria form spores in the small intestine
+and release an **enterotoxin**, a toxin that acts on the gut. The toxin damages the cells lining the
+small intestine, and fluid is lost into the gut. Abdominal cramps and watery diarrhoea begin 6 to 24
+hours after the meal, with little vomiting, and usually settle within a day. Outbreaks follow meals
+prepared in large quantities, and cooling cooked food quickly, or keeping it hot until it is served,
+prevents them.
+
+::: {.example}
+Food poisoning from *Staphylococcus aureus* is an **intoxication**, illness caused by a toxin already
+formed outside the body, such as in food, without infection. Its toxin is in the food, so vomiting
+begins within a few hours of the meal (see [*Gram-positive
+cocci*](gram-positive-cocci.qmd#sec-gpc-aureus)); *C. perfringens* makes its toxin in the gut, so
+illness begins later.
+:::
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Gas gangrene | Spores germinate in crushed or dead muscle; toxins destroy muscle cells and damage blood vessels, so the dead, oxygen-poor zone and the infection spread together | Severe pain, swelling, discoloured skin and gas crackling under the skin of a leg crushed in a road accident, spreading within hours |
+| Shock | Toxins from the infected muscle enter the blood, depress the heart and damage blood vessels, causing hypotension; they can also lyse red blood cells | Shock and failure of organs in a patient with gas gangrene |
+| Food poisoning | Spores survive cooking and germinate in a large dish cooled slowly; swallowed bacteria release enterotoxin in the small intestine as they form spores | Cramps and watery diarrhoea in many guests 6 to 24 hours after a catered meal of stewed meat |
+
+Three conditions let *C. perfringens* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | For gas gangrene, a person with a deep wound containing crushed or dead muscle; for food poisoning, anyone who eats from a large dish of meat cooled slowly | Dead or poorly supplied muscle has little oxygen, so the bacteria can grow from the spores; food poisoning needs large numbers of bacteria, which multiply in the food |
+| Where (setting) | Soil and dust, and the gut of people and animals; for food poisoning, kitchens that cook large quantities in advance | The spores survive for years in soil, and they can survive cooking |
+| How (route) | Spores carried with soil into a deep wound; or bacteria swallowed in food | In the wound, toxins destroy muscle and its blood vessels; in the gut, the bacteria release enterotoxin as they form spores |
+
+Step through the two routes *C. perfringens* takes: from soil into a crushed leg, and from a pot of
+stew into the gut.
+
+<div data-island="body-map" data-src="/diagrams/route-c-perfringens.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/anae-profile-c-perfringens.yml"></div>
+
+## Contrast pair {#sec-anae-pairs}
+
+### *B. fragilis* and *C. perfringens* {#sec-anae-pair-bacteroides-perfringens}
+
+Both are anaerobes that multiply in tissue with little oxygen, yet one collects as a walled-off abscess
+over days and the other destroys muscle within hours. Compare them feature by feature before reading
+the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-bacteroides-perfringens.yml"></div>
+
+## Beyond the main organisms {#sec-anae-beyond}
+
+### Supporting organisms {#sec-anae-supporting}
+
+*Fusobacterium* and *Prevotella* live in the mouth, so they cause disease where mouth bacteria reach
+tissue: around a tooth, in the throat and neck, or in the lungs after **aspiration**, the inhaling of
+material from the mouth or throat into the lungs. Aspiration is most likely when consciousness or
+swallowing is impaired, as during heavy drinking or after a stroke. **Periodontal disease**, infection
+and inflammation of the gums and the tissues that hold the teeth in place, raises the number of
+anaerobes in the mouth, and with it the number that aspiration carries into the lungs.
+
+| Organism | Where it lives | What separates it | Why it matters |
+|---|---|---|---|
+| *Fusobacterium* | The mouth, around the teeth and gums, and the throat | Gram-negative; often long, thin rods with pointed ends | Contributes to periodontal disease; causes abscesses of the throat and neck, such as an abscess beside a tonsil; after a sore throat in an adolescent or young adult, it can spread to the internal jugular vein in the neck, forming an infected clot that sends emboli to the lungs (Lemierre syndrome) |
+| *Prevotella* | The mouth, and also the gut and vagina | Gram-negative short rods | Causes dental abscesses; with other mouth anaerobes, causes pneumonia and abscess of the lung after aspiration, with foul-smelling sputum |
+| *Cutibacterium acnes* | The hair follicles of the skin, and the oil glands that open into them | Gram-positive rod without spores; tolerates some oxygen; grows slowly | Contributes to acne; infects implanted devices such as artificial joints, often months after surgery and with few signs; often grows in blood cultures because it is carried from the skin into the bottle when blood is drawn, so a single positive bottle usually does not mean infection |
+
+### Later in the course {#sec-anae-later}
+
+| Organism | Where it comes up again |
+|---|---|
+| *B. fragilis* | Surgery and gastroenterology (peritonitis and abdominal abscesses after perforation or surgery); pharmacology (drugs that act on anaerobes) |
+| *Clostridium perfringens* | Trauma and orthopaedics (gas gangrene); public health (food poisoning) |
+| *Fusobacterium* | Ear, nose and throat (abscesses of the throat and neck) |
+| *Prevotella* | Oral health (dental abscesses); respiratory medicine (aspiration pneumonia and lung abscess) |
+| *Cutibacterium acnes* | Dermatology (acne); orthopaedics (infection of artificial joints); laboratory medicine (contaminated blood cultures) |
+| Anaerobes as a group | Obstetrics and gynaecology (pelvic infections after childbirth or surgery); surgery (drainage of abscesses) |
+
+## Check your understanding {#sec-anae-quiz}
+
+<div data-island="quiz" data-src="/quizzes/anaerobes.quiz.yml"></div>
+
+## Review with flashcards {#sec-anae-cards}
+
+<div data-island="flashcards" data-src="/decks/anaerobes.deck.yml"></div>

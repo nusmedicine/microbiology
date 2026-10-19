@@ -1,0 +1,45 @@
+id: gram-positive-rods
+title: "Flashcards: Gram-positive rods"
+intro: "Explain each answer from a trait: spores, oxygen, where a toxin acts, or life inside cells. Say the answer before you check it."
+
+cards:
+  - id: grd1
+    kind: why
+    front: "Where do infections with spore-forming Gram-positive rods usually come from, and why?"
+    back: "Spores in soil and dust survive boiling, drying, alcohol hand rub and most disinfectants, and germinate only where they find water, nutrients and, for an anaerobe, no oxygen. Disease begins when spores from soil or dust reach such a place, such as a wound, a food or the gut, so the source is usually the environment, not another person. *Clostridioides difficile*, whose spores spread on hands and surfaces in hospitals, is the exception."
+  - id: grd2
+    kind: apart
+    front: "*Bacillus* versus *Clostridium*: which trait separates them, and what does it predict?"
+    back: "Oxygen. *Bacillus* grows in air, so its spores germinate in food left out, such as cooked rice kept warm. *Clostridium* is an obligate anaerobe, so its spores germinate only where oxygen is absent: a deep wound, food sealed from the air, or the colon."
+  - id: grd3
+    kind: how
+    front: "How does tetanus toxin make muscles rigid?"
+    back: "It enters motor nerve endings near the wound and, carried in the blood, throughout the body, then travels along the axons to the spinal cord and brainstem. There it stops inhibitory neurons releasing their neurotransmitters, so motor neurons fire unchecked: lockjaw, rigidity and spasms."
+  - id: grd4
+    kind: apart
+    front: "Tetanus versus botulism: which feature best separates them?"
+    back: "Where the toxin acts. Both toxins stop nerve endings releasing neurotransmitter. Tetanus toxin silences inhibitory neurons in the spinal cord, giving spastic paralysis; botulinum toxin silences motor nerve endings at the neuromuscular junction, giving flaccid paralysis."
+  - id: grd5
+    kind: why
+    front: "Why does recovery from tetanus give no immunity?"
+    back: "The amount of toxin that causes the disease is too small to provoke protective antibodies. People who recover are given toxoid vaccine."
+  - id: grd6
+    kind: apart
+    front: "Food-borne botulism versus infant botulism?"
+    back: "In food-borne botulism, toxin already made in preserved food is swallowed: an intoxication. In infant botulism, swallowed spores, sometimes from honey, germinate in the gut of an infant under a year old, whose microbiota is not yet established, and the toxin is made there: an infection."
+  - id: grd7
+    kind: why
+    front: "Why does boiling home-preserved food just before eating it prevent botulism, while reheating rice does not prevent *Bacillus cereus* food poisoning?"
+    back: "Botulinum toxin is a protein that heat destroys. The toxin that *B. cereus* releases in rice kept warm is not destroyed by heat, so once it has formed, reheating leaves it intact."
+  - id: grd8
+    kind: why
+    front: "Why is *Listeria monocytogenes* a hazard of chilled ready-to-eat food?"
+    back: "It grows at refrigerator temperatures, as most bacteria that contaminate food cannot, so its numbers rise during storage in foods such as soft cheese, deli meats and smoked fish. These foods are eaten without the cooking that would kill it."
+  - id: grd9
+    kind: how
+    front: "How does *L. monocytogenes* stay out of reach of antibodies, and whom does it harm most?"
+    back: "It lives inside cells and uses the host cell's actin to push from one cell into the next, so cell-mediated immunity, not antibody, controls it. It harms pregnant women and their fetuses, neonates, older adults and people with impaired cell-mediated immunity, crossing the placenta and the blood-brain barrier."
+  - id: grd10
+    kind: why
+    front: "Why does *Clostridioides difficile* cause diarrhoea after antibacterial drugs, and why do staff wash their hands with soap and water?"
+    back: "The drugs reduce the resident gut bacteria that keep it in check, so it multiplies in the colon and releases toxins that cause diarrhoea and colitis. Its spores spread on hands and surfaces, and alcohol does not kill them, so hands are washed with soap and water, which removes them, and surfaces are cleaned with a strong chlorine disinfectant."

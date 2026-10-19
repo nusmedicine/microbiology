@@ -1,0 +1,45 @@
+id: spiral-bacteria
+title: "Flashcards: spiral bacteria"
+intro: "Explain each answer from where the bacterium lives and how it moves. Say the answer before you check it."
+
+cards:
+  - id: spd1
+    kind: how
+    front: "How does a spirochaete bore through tissue?"
+    back: "Its flagella lie inside the envelope, beneath the outer membrane. When they rotate, the whole coiled cell turns like a corkscrew, which carries it through mucus and the gel between cells, and across mucosa into the blood."
+  - id: spd2
+    kind: why
+    front: "Why is syphilis diagnosed by serology and not by a Gram stain or culture?"
+    back: "*Treponema pallidum* is about 0.1 to 0.2 µm across, at the limit of resolution of the light microscope, and it cannot be grown on ordinary laboratory media because it depends on its host for nutrients. The laboratory detects the patient's antibodies, or the bacterium's DNA in a swab from an ulcer."
+  - id: spd3
+    kind: apart
+    front: "Primary versus secondary syphilis?"
+    back: "Primary: a painless ulcer, the chancre, where the bacteria entered, about three weeks after infection. Secondary: weeks to months later, after the bacteria have spread in the blood: a widespread rash, often on the palms and soles, with fever and enlarged lymph nodes."
+  - id: spd4
+    kind: why
+    front: "Why can a pregnant woman with latent syphilis harm her fetus, although she has no symptoms?"
+    back: "The bacteria persist in her body and can cross the placenta at any stage of pregnancy. Screening pregnant women by serology and treating them prevents congenital syphilis."
+  - id: spd5
+    kind: how
+    front: "How does *T. pallidum* damage the aorta decades after infection?"
+    back: "Chronic inflammation of the small blood vessels that supply the wall of the aorta weakens it, and an aneurysm forms where the aorta leaves the heart. The damage comes from the host's inflammatory response; the bacterium has no known toxins."
+  - id: spd6
+    kind: how
+    front: "How does *Leptospira* get from a rat to a person?"
+    back: "Rats carry it in their kidneys and shed it in their urine into water and soil, where it survives for weeks. It enters people through cuts, skin softened by water, or the mucosa of the eye, nose and mouth."
+  - id: spd7
+    kind: apart
+    front: "*T. pallidum* versus *Leptospira*: which feature best separates them?"
+    back: "Reservoir. *T. pallidum* lives only in humans, so it passes by sexual contact and across the placenta and persists for years. *Leptospira* lives in animals and reaches people by accident from water and soil, causing an acute illness that people rarely pass on."
+  - id: spd8
+    kind: why
+    front: "Why could syphilis in principle be eradicated, while leptospirosis cannot?"
+    back: "An organism whose only reservoir is humans disappears if passage between people stops. *Leptospira* persists in rats and other animals whatever happens in the human population."
+  - id: spd9
+    kind: apart
+    front: "*Campylobacter* and *Helicobacter pylori* versus the spirochaetes?"
+    back: "The curved gut bacteria are ordinary Gram-negative rods with flagella outside the cell, visible on a Gram stain and grown on agar in low oxygen. Spirochaetes are long and thin, with flagella inside the envelope; most are too thin to see on a Gram stain and are hard or impossible to grow."
+  - id: spd10
+    kind: why
+    front: "Why can *H. pylori* live in the stomach?"
+    back: "It swims into the mucus layer over the lining with its flagella, and its urease splits urea into ammonia, which neutralises the acid around it."

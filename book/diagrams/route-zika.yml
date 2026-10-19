@@ -1,0 +1,46 @@
+id: route-zika
+title: "Routes through the body: Zika virus"
+intro: "Two routes that reach beyond the person bitten: across the placenta to the fetus, and in semen to a sexual partner. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "In pregnancy"
+    steps:
+      - at: outside
+        kind: lives
+        text: "An infected female *Aedes* mosquito carries the virus in its salivary glands, after taking it up from the blood of an infected person."
+      - at: skin
+        kind: enters
+        text: "The mosquito bites a pregnant woman by day and injects the virus into her skin. She may have no symptoms, or a few days of itchy rash, red eyes and aching joints."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "The virus enters her blood and is carried through her body."
+      - at: fetus
+        kind: damages
+        via: blood
+        ask: "She has no symptoms. Where can the virus still do lasting harm?"
+        options: [fetus, skin, liver]
+        answer: [fetus]
+        why: "The virus crosses the placenta, the organ that exchanges nutrients and waste between the mother's blood and the fetus, and infects the fetus. A rash in the mother's skin fades without harm, and Zika virus rarely damages the liver."
+        text: "The virus crosses the placenta and infects the dividing cells that form the nerve cells of the fetal brain. These cells die or stop dividing, so the brain does not grow: microcephaly, sometimes with damage to the eyes."
+
+  - name: "Through sex"
+    steps:
+      - at: skin
+        kind: enters
+        text: "A man is bitten by an infected mosquito while travelling. He has a mild rash, or no symptoms at all."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "The virus circulates in his blood for several days and is then cleared from it."
+      - at: genital
+        kind: lives
+        via: blood
+        ask: "The virus has cleared from his blood. Where can it persist and still be passed on?"
+        options: [genital, nose-throat, skin]
+        answer: [genital]
+        why: "Zika virus persists in the male genital tract, and semen can carry it for weeks, and sometimes months, after it has left the blood. It is not shed in respiratory particles or passed on by touch."
+        text: "The virus persists in his genital tract, and his semen can carry it for weeks, and sometimes months, after his blood is clear."
+      - at: outside
+        kind: spreads
+        text: "During sex, the virus passes to his partner, who is infected without a mosquito bite. If she is pregnant, the fetus is at risk."

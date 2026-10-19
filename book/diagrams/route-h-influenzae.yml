@@ -1,0 +1,41 @@
+id: route-h-influenzae
+title: "Routes through the body: *Haemophilus influenzae*"
+intro: "Two routes from the same nasopharynx: type b strains, protected by their capsule, into the blood and the meninges; strains without a capsule into the spaces next to the nasopharynx. At one step, predict the sites before the answer appears."
+
+routes:
+  - name: "Type b, in an unvaccinated child"
+    steps:
+      - at: nose-throat
+        kind: lives
+        text: "Lives in the nasopharynx and spreads to close contacts in respiratory droplets. Where infants are vaccinated, few people carry type b strains."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "In a young child with no antibodies against the type b capsule, the bacteria cross the mucosa into the blood, where the capsule protects them from phagocytes and complement."
+      - at: spleen
+        kind: defence
+        text: "The spleen removes bacteria coated with antibodies against the capsule. Young children make few such antibodies in response to a polysaccharide alone; a conjugate vaccine, in which the polysaccharide is linked to a protein, lets them make them."
+      - at: brain
+        kind: damages
+        via: blood
+        arrow: false
+        text: "From the blood, the bacteria cross into the meninges and cause meningitis. Before conjugate vaccines, type b was a leading cause of bacterial meningitis in young children."
+
+  - name: "Strains without a capsule"
+    steps:
+      - at: nose-throat
+        kind: lives
+        text: "Most strains carried in the nasopharynx have no capsule. Many healthy people, especially young children, carry them."
+      - at: [ear-sinus, airway]
+        kind: damages
+        via: air
+        ask: "Strains without a capsule seldom invade the blood. Which spaces next to the nasopharynx can they reach directly?"
+        options: [ear-sinus, airway, brain, urinary]
+        answer: [ear-sinus, airway]
+        why: "The nasopharynx opens into the middle ear and the sinuses, and its secretions can pass down the airway. The meninges and the bladder have no opening to it; bacteria reach them, if at all, through the blood, which strains without a capsule seldom invade."
+        text: "In a child after a cold, the bacteria reach the middle ear and cause otitis media, or the sinuses. In an adult with chronic lung disease, whose damaged airways clear bacteria poorly, they multiply in the airways and cause an exacerbation."
+      - at: alveoli
+        kind: damages
+        via: air
+        arrow: false
+        text: "In older adults and people with chronic lung disease, they can reach the alveoli and cause pneumonia."

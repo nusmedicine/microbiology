@@ -1,0 +1,40 @@
+id: fgn-profile-n-meningitidis
+name: "Neisseria meningitidis"
+group: "Gram-negative diplococcus · encapsulated · lives only in the human nasopharynx"
+intro: "Predict two of the five slots. Most of what this bacterium does follows from two parts of its envelope: the capsule, which protects it in the blood, and the endotoxin of its outer membrane."
+
+slots:
+  - slot: identity
+    entry: "Gram-negative cocci in pairs, with a polysaccharide capsule outside the outer membrane. Divided by the chemistry of the capsule into serogroups, named by letters, of which a few cause almost all disease. Dies quickly when dried or cooled."
+  - slot: lifestyle
+    predict:
+      stem: "*N. meningitidis* dies quickly outside the body. Where does it live between cases of disease?"
+      options:
+        - text: "In the nasopharynx of healthy carriers"
+          correct: true
+          feedback: "A minority of healthy people carry it at any time, most often adolescents and young adults. Carriers are the source of almost every case, because the bacterium lives nowhere outside humans."
+        - text: "In soil and water"
+          correct: false
+          feedback: "Outside the body it dries or cools and soon dies, so it cannot persist in soil or water. The meningococcus survives only on human mucosa, in healthy carriers."
+        - text: "In animals, from which people catch it"
+          correct: false
+          feedback: "It lives only in humans. Each infection comes from a person, usually a carrier, in respiratory droplets and secretions during close contact."
+    entry: "Carried without symptoms in the nasopharynx of a minority of healthy people, most often adolescents and young adults. Spread in respiratory droplets and secretions during close, prolonged contact: households, dormitories, military barracks and mass gatherings such as the Hajj."
+  - slot: harm
+    predict:
+      stem: "In the blood, the bacteria multiply and shed fragments of their outer membrane. Which component of the bacterium causes the shock and the purple rash?"
+      options:
+        - text: "Endotoxin"
+          correct: true
+          feedback: "Lipid A, part of endotoxin, sets off inflammation throughout the body. Vessels leak, the blood pressure falls, and clotting inside small vessels, with bleeding into the skin, gives purpura."
+        - text: "The capsule"
+          correct: false
+          feedback: "The capsule protects the bacteria from phagocytes and complement, which lets them multiply in the blood. The inflammation that causes shock and purpura is driven by the endotoxin they shed."
+        - text: "An exotoxin that the bacteria secrete into the blood"
+          correct: false
+          feedback: "Exotoxins are secreted proteins, each with a specific target. The shock and purpura come from endotoxin, part of the outer membrane, which the bacteria shed as they multiply and die."
+    entry: "Crosses from the nasopharynx into the blood, where the capsule protects it from phagocytes and complement. It multiplies rapidly and sheds endotoxin, which causes sepsis: leaking vessels, shock, and clotting in small vessels with purpura. It also crosses into the meninges and causes meningitis."
+  - slot: consequence
+    entry: "Meningitis and sepsis that can kill within hours, most often in infants, young children, adolescents and young adults, and in people with asplenia or a deficiency of complement. Survivors can lose limbs or hearing. Close contacts of a case are given antibiotics to clear carriage; conjugate vaccines protect against several of the serogroups that cause disease, and vaccines made from outer-membrane proteins against group B."
+  - slot: contrast
+    entry: "*Neisseria gonorrhoeae*: also a Gram-negative diplococcus that dies quickly outside the body, but it has no polysaccharide capsule, lives on the genital mucosa, spreads by sexual contact, and keeps changing its surface, so infection gives no lasting immunity and no vaccine reliably prevents it."

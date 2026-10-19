@@ -1,0 +1,44 @@
+id: route-rsv
+title: "Routes through the body: respiratory syncytial virus"
+intro: "Two routes: a first infection that reaches the bronchioles of an infant, and a reinfection that reaches the alveoli of an older adult. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "Bronchiolitis in an infant"
+    steps:
+      - at: outside
+        kind: lives
+        text: "An older brother with a cold from RSV, caught at childcare, sheds virus in respiratory particles and on his hands. The virus survives for hours on hard surfaces."
+      - at: nose-throat
+        kind: enters
+        via: air
+        text: "Breathed in, or carried on hands to the nose or eyes, the virus infects the epithelial cells of his 2-month-old sister's nose, and she develops a runny nose."
+      - at: airway
+        kind: damages
+        via: air
+        ask: "A few days later she begins to wheeze and breathe fast. Where has the infection spread?"
+        options: [airway, blood, gut]
+        answer: [airway]
+        why: "The virus spreads from cell to cell down the airway to the bronchioles, the smallest airways, and it rarely enters the blood. Wheeze comes from air moving through narrowed small airways."
+        text: "Infected epithelial cells of the bronchioles die and slough into the lumen, and with mucus and swelling they block her narrow airways: bronchiolitis. She wheezes, breathes fast and has difficulty feeding."
+
+  - name: "Reinfection in an older adult"
+    steps:
+      - at: outside
+        kind: lives
+        text: "A grandchild with a cold from RSV visits an 80-year-old man with chronic heart disease."
+      - at: nose-throat
+        kind: enters
+        via: air
+        text: "He has had RSV many times before, but immunity after infection is incomplete and fades, so the virus infects the epithelium of his nose and throat again."
+      - at: airway
+        kind: spreads
+        via: air
+        text: "His immunity has declined with age, and the infection spreads down the airway."
+      - at: alveoli
+        kind: damages
+        via: air
+        ask: "He becomes breathless, and his blood oxygen falls. Where is the infection now?"
+        options: [alveoli, blood, liver]
+        answer: [alveoli]
+        why: "The virus has spread from the airway into the alveoli, where fluid and inflammatory cells impair gas exchange. It rarely enters the blood."
+        text: "The infection reaches the alveoli and causes pneumonia, and the added strain worsens his heart disease."

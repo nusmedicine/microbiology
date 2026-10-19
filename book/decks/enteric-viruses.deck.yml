@@ -1,0 +1,45 @@
+id: enteric-viruses
+title: "Flashcards: viruses spread by the faecal–oral route"
+intro: "Explain each answer from what the capsid survives and where the virus goes after it is swallowed. Say the answer before you check it."
+
+cards:
+  - id: evd1
+    kind: why
+    front: "Why are most viruses spread by the faecal–oral route non-enveloped?"
+    back: "To pass from one gut to the next, a virus must survive drying on hands and surfaces, stomach acid and bile. Drying and bile disrupt a lipid envelope, while a capsid without one withstands all three."
+  - id: evd2
+    kind: why
+    front: "Why is washing with soap and water preferred to alcohol hand rub during a norovirus outbreak?"
+    back: "Alcohol readily disrupts a lipid envelope, but norovirus has none, and its bare capsid resists alcohol much better, so alcohol rub is less reliable against it. Washing removes the virus physically; surfaces are cleaned with a chlorine-based disinfectant."
+  - id: evd3
+    kind: how
+    front: "How does norovirus spread through a cruise ship or a care home within days?"
+    back: "Very large numbers of particles are shed in vomit and faeces, forceful vomiting sprays them over surfaces and people, the virus survives on surfaces for days, and very few particles are enough to infect."
+  - id: evd4
+    kind: apart
+    front: "Norovirus versus rotavirus: who is ill, and why?"
+    back: "Norovirus: people of every age, young children included, because immunity is short-lived and new variants keep appearing. Rotavirus: severe illness mainly in infants and young children, because a first infection leaves immunity that protects against severe disease later."
+  - id: evd5
+    kind: how
+    front: "How does rotavirus cause watery diarrhoea?"
+    back: "It kills the mature cells at the tips of the villi, so the shortened villi absorb less fluid, and a viral protein acting as an enterotoxin makes the cells lining the intestine secrete salt and water."
+  - id: evd6
+    kind: why
+    front: "Why is the rotavirus vaccine live and given by mouth?"
+    back: "The weakened virus multiplies in the gut as a first infection would, without causing illness, and the immunity it leaves protects against severe disease when wild rotavirus arrives."
+  - id: evd7
+    kind: how
+    front: "How do enteroviruses, which multiply in the gut, cause hand, foot and mouth disease and meningitis?"
+    back: "They multiply in the throat and the lymphoid tissue of the gut wall, then enter the blood, which carries them to the skin and the lining of the mouth, causing blisters and ulcers, and to the meninges."
+  - id: evd8
+    kind: apart
+    front: "Coxsackievirus A16 versus enterovirus A71?"
+    back: "Both cause hand, foot and mouth disease in young children. Coxsackievirus A16 usually causes a mild illness; enterovirus A71 can, rarely, cause encephalitis of the brainstem, which can be fatal."
+  - id: evd9
+    kind: why
+    front: "Why does illness from hepatitis A virus begin weeks after exposure, but illness from norovirus within a day or two?"
+    back: "Norovirus does its harm in the gut, where it arrives. Hepatitis A virus must cross the gut wall, reach the liver and multiply in liver cells before the inflammation that causes illness begins."
+  - id: evd10
+    kind: apart
+    front: "Hepatitis A virus versus hepatitis E virus?"
+    back: "Both spread by the faecal–oral route and cause acute hepatitis that does not become chronic in healthy people. Hepatitis A virus spreads only between people and is prevented by a vaccine. Hepatitis E virus also comes from pigs in undercooked pork, and can cause liver failure late in pregnancy."

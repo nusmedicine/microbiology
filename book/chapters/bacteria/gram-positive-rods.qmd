@@ -1,16 +1,375 @@
 # Gram-positive rods
 
-> *Why can some of these bacteria survive boiling, and why does one toxin explain a whole disease?*
+> *Boiling kills most bacteria, but the spores of some Gram-positive rods survive it, and a single
+> toxin made by one of these bacteria in a wound or in preserved food can paralyse the muscles of the
+> whole body. Spores and toxins explain most of what the group does; *Listeria monocytogenes*, which
+> forms no spores, causes harm by living inside host cells.*
 
-::: {.callout-note}
-## In preparation
-The layout will match that of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Sort the Gram-positive rods by spores, oxygen and life inside cells, and predict from each trait
+  where the organism comes from and how it reaches the body.
+- Use spore formation to explain why *Bacillus cereus* survives the cooking of rice and why hands are
+  washed with soap and water, not alcohol hand rub, against *Clostridioides difficile*.
+- Explain how tetanus toxin and botulinum toxin, acting on different neurons, cause rigid and floppy
+  paralysis, and why recovery from tetanus gives no immunity.
+- Explain why *Listeria monocytogenes* is a hazard of chilled ready-to-eat food, how it spreads from
+  cell to cell, and why it harms pregnant women, neonates, older adults and people with impaired cell-mediated immunity.
+- Name the host, setting and route that let each main organism cause disease.
+- Tell *Clostridium tetani* from *Clostridium botulinum* by source, site of action, kind of paralysis
+  and prevention.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-gpr-group)
+  - [The group in one sentence](#sec-gpr-sentence): spores, toxins and life inside cells
+  - [Sorting the group](#sec-gpr-key): spores, then oxygen
+- [Main organisms](#sec-gpr-main)
+  - [*Clostridium tetani*](#sec-gpr-tetani): a wound, a toxin and the spinal cord
+  - [*Clostridium botulinum*](#sec-gpr-botulinum): toxin in food and the neuromuscular junction
+  - [*Listeria monocytogenes*](#sec-gpr-listeria): growth in the cold and life inside cells
+- [Contrast pair](#sec-gpr-pairs)
+  - [*C. tetani* and *C. botulinum*](#sec-gpr-pair-tetani-botulinum)
+- [Beyond the main organisms](#sec-gpr-beyond)
+  - [Supporting organisms](#sec-gpr-supporting)
+  - [Later in the course](#sec-gpr-later)
+:::
+
+## The group {#sec-gpr-group}
+
+### The group in one sentence {#sec-gpr-sentence}
+
+Gram-positive rods are thick-walled, rod-shaped bacteria of soil, food and the human body; some
+survive for years as spores, and several cause disease mainly through a single toxin. A **spore**
+(endospore) is a dormant, dehydrated bacterial cell inside protective coats, resistant to heat and
+chemicals. The members of the group share an envelope and a shape, and differ mainly in whether they
+form spores, how they handle oxygen and whether they live inside host cells.
+
+| Question | Answer for the Gram-positive rods |
 |---|---|
-| The group in one sentence | Thick-walled rods; some survive as spores in soil and food, and several cause harm mainly through a single toxin |
-| Sorting key | Spores or not; oxygen (Bacillus with oxygen, Clostridium without); growth inside cells |
-| Main organisms | *Clostridium* (tetanus and botulinum toxins as single-toxin diseases), *Listeria* (cold growth, life inside cells) |
-| Supporting organisms | *Bacillus cereus*, *Bacillus anthracis*, *Clostridioides difficile*, *Corynebacterium diphtheriae* |
-| Later in the course | Tetanus, botulism, diphtheria and *C. difficile* in the infection, neurology and gut blocks; toxoid vaccines in immunology |
+| What is it built from? | A thick peptidoglycan wall without the Gram-negative outer membrane, so no LPS; *Bacillus*, *Clostridium* and *Clostridioides* can form spores |
+| How does it get energy, and what does it need to grow? | *Bacillus*, *Listeria* and *Corynebacterium* grow in air; *Clostridium* and *Clostridioides* are **obligate anaerobes**, poisoned by oxygen and growing only where it is absent; *Listeria* grows even at refrigerator temperatures |
+| How does it copy itself and change? | Binary fission; a spore is a resting form, one per cell, and not a way of multiplying; some toxin genes are carried by a **bacteriophage** (phage), a virus that infects bacteria, so only the strains that carry the phage make the toxin (see [*How bacteria copy themselves and change*](bacterial-genetics.qmd#sec-gen-phage)) |
+| Where does it live, and how does it spread? | The spore-formers in soil and dust and in the gut of humans and animals, reaching people through wounds and in food; *Listeria* in soil, animals and chilled food; *Corynebacterium diphtheriae* only in humans, in the throat and on the skin, spread by respiratory droplets and by contact with infected skin. Most members do not pass from person to person |
+| How does damage happen? | Mainly through protein toxins, several of which each explain a whole disease; *Listeria* by invading cells and multiplying inside them |
+| What does it have that my cells lack? | A peptidoglycan wall and the proteins that build it, the targets of the **beta-lactams**, a family of drugs that block the building of the peptidoglycan wall; killing the bacteria does not remove toxin already made |
+
+A spore survives boiling, drying, alcohol hand rub and most disinfectants, and can persist in soil and
+dust for years. Steam under pressure in an autoclave kills spores reliably; on surfaces, only a few
+disinfectants, such as strong chlorine solutions, kill them (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-resistance)). Where it finds water, nutrients and, for an anaerobe, no oxygen, the spore germinates into a growing
+cell, which multiplies and can make toxin (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-extras)). Diseases caused by spore-formers therefore
+begin when spores from soil, dust or hands reach such a place: a wound, a food or the gut.
+
+::: {.example}
+Rice cooked in bulk and left at room temperature can carry spores of *Bacillus cereus* that survived
+the cooking. As the rice cools, the spores germinate and the bacteria release a toxin that heat does
+not destroy, so frying the rice the next day does not make it safe.
+:::
+
+Several members harm the host mainly through one **exotoxin**, a protein toxin secreted by bacteria,
+acting on a specific target (see [*How bacteria cause damage*](bacterial-damage.qmd#sec-bdam-toxins)).
+The bacteria can stay in a wound, a food or the throat while the toxin acts elsewhere, so the toxin's
+target decides the illness:
+
+- The toxin of *Clostridium tetani* blocks inhibitory neurons in the spinal cord and brainstem,
+  causing **tetanus**, a disease of muscle rigidity and spasms.
+- The toxin of *Clostridium botulinum* blocks the release of acetylcholine where motor nerves meet
+  muscle, causing **botulism**, a paralysis with weak, floppy muscles.
+- The toxin of *Corynebacterium diphtheriae* stops protein synthesis in the cells it enters, causing
+  **diphtheria**: a grey membrane of dead cells, fibrin and white cells in the throat that can block
+  the airway, and damage to the heart and nerves.
+
+Because one toxin explains each of these diseases, the toxin is also the target of prevention and
+treatment. An exotoxin is a protein, so it can be inactivated and given as a **toxoid**, an
+inactivated protein toxin used as a vaccine, which raises antibodies that neutralise the toxin before
+it reaches its target (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-prevent)). **Antitoxin**, antibody against a
+toxin given as treatment, neutralises toxin that has not yet entered its target cells, so it stops the
+illness worsening but does not reverse damage already done. Drugs that kill the bacteria stop more
+toxin being made but do not remove the toxin already made.
+
+*Listeria monocytogenes* forms no spores, and its harm comes from invasion. It is **facultative
+intracellular**, able to live both inside and outside host cells, and it multiplies inside them.
+There it is out of reach of antibodies, so the defence that controls it is **cell-mediated
+immunity**, the defence by T cells against infected cells and against organisms that live inside host
+cells (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-factors)).
+
+### Sorting the group {#sec-gpr-key}
+
+Two traits sort most of the group: whether the bacterium forms spores and, among the spore-formers,
+whether it grows in air (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-oxygen)). The two members without spores differ in where
+they live and how they cause harm.
+
+::: {.concept-tree}
+[Sorting the Gram-positive rods by spores and oxygen]{.tree-title}
+
+- Form spores
+  - Grow in air: *Bacillus*
+    - *Bacillus anthracis*: anthrax, from grazing animals
+    - *B. cereus*: vomiting after rice kept warm
+  - Obligate anaerobes: *Clostridium* and *Clostridioides*
+    - *C. tetani*: tetanus, from a wound
+    - *C. botulinum*: botulism, from toxin in preserved food or spores in an infant's gut
+    - *Clostridioides difficile*: diarrhoea after antibacterial drugs
+- Form no spores
+  - Lives inside cells and grows in the cold: *L. monocytogenes*
+  - Lives only in humans; makes a toxin whose gene is carried by a phage: *Corynebacterium diphtheriae*
+:::
+
+Each sorting trait predicts where the organism comes from and how it reaches the body:
+
+| Trait | Members | What it predicts |
+|---|---|---|
+| Forms spores | *Bacillus*, *Clostridium*, *Clostridioides* | Survives boiling, drying, alcohol hand rub and most disinfectants, and persists for years in soil and dust; infection begins when spores reach a wound, a food or the gut, usually from the environment |
+| Forms spores and grows in air | *Bacillus* | Spores germinate in food left out in air, such as cooked rice kept warm |
+| Forms spores and is killed by oxygen | *Clostridium*, *Clostridioides* | Spores germinate only where oxygen is absent: in a deep or necrotic wound, in food sealed from the air, or in the colon |
+| Forms no spores; lives inside cells; grows in the cold | *L. monocytogenes* | Multiplies in chilled food; is controlled by cell-mediated immunity; can cross from the blood into the placenta and the brain |
+| Forms no spores; lives only in humans | *Corynebacterium diphtheriae* | Spreads from person to person in respiratory droplets and by contact with infected skin; vaccination against its toxin prevents the disease |
+
+Work through the key from spores, and read at each branch what the trait predicts about the organism.
+
+<div data-island="sorting-key" data-src="/diagrams/gpr-key.yml"></div>
+
+## Main organisms {#sec-gpr-main}
+
+### *Clostridium tetani*: a wound, a toxin and the spinal cord {#sec-gpr-tetani}
+
+*C. tetani* is an obligate anaerobe whose spores are found in soil and in the faeces of animals
+throughout the world. The spores enter the body in a wound: a puncture driven deep by a nail or a
+garden fork, a wound contaminated with soil, or an injury that leaves necrotic tissue. Tissue that has
+lost its blood supply contains little oxygen (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-body)), and there the spores germinate. The bacteria
+multiply in the wound without spreading from it, and by the time illness begins the wound may look
+trivial or have healed.
+
+The bacteria release tetanus toxin, which enters the endings of motor nerves near the wound and is
+also carried in the lymph and blood to motor nerve endings throughout the body. From each ending it
+travels along the axon, in the opposite direction to nerve impulses, to the spinal cord and
+brainstem, where the cell bodies of the motor neurons lie. There it passes into the inhibitory
+neurons that normally hold the motor neurons in check and stops them releasing their
+neurotransmitters. Like botulinum toxin, it is an enzyme that cuts one of the proteins a nerve ending
+needs to fuse its vesicles with the cell membrane and release neurotransmitter.
+
+Without inhibition, the motor neurons fire unchecked. The result is **spastic paralysis**, in which
+muscles are held rigid by continuous contraction and cannot be relaxed at will. The nerves of the jaw
+and face are short, so toxin travelling along them reaches its target first. Even after a wound to
+the foot, the jaw muscles are therefore often the first affected, giving **lockjaw** (trismus), an
+inability to open the mouth fully. Rigidity spreads to the neck, back and abdomen, and touch or noise
+can set off painful spasms of the whole body. Spasms of the larynx and of the muscles of breathing
+can stop breathing. In severe tetanus the toxin also releases the sympathetic nervous system from
+inhibition, so blood pressure and heart rate swing widely and the patient sweats heavily; in patients
+whose breathing is supported by a ventilator, this instability is a common cause of death.
+
+A **neonate**, a newborn infant in the first four weeks of life, can develop tetanus when spores enter
+the umbilical stump, after the cord is cut with an unsterile instrument or the stump is dressed with
+contaminated material. The neonate is protected if the mother has been vaccinated, because her
+antibodies against the toxin cross the placenta. Neonatal tetanus therefore persists where pregnant
+women are not vaccinated and births take place without clean care of the cord.
+
+Recovering from tetanus does not make a person immune, because the amount of toxin that causes the
+disease is too small to provoke protective antibodies; people who recover are vaccinated. Tetanus
+toxoid, given in childhood with boosters later, prevents the disease. *C. tetani* does not pass from
+person to person, so vaccinating others gives no indirect protection: each person must be vaccinated,
+and a neonate is protected only by its mother's antibodies (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-prevent)). After a wound, the wound is
+cleaned and necrotic tissue is cut away, which removes the low-oxygen site where spores germinate,
+and a person who is not fully vaccinated is given a dose of toxoid. For a deep or dirty wound in a
+person who never completed the vaccine course, or whose vaccination is unknown, antitoxin is given as
+well.
+
+One toxin, acting on one kind of neuron, produces every feature of tetanus:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Muscle rigidity | Without inhibitory input, motor neurons fire continuously, so the muscles they supply stay contracted, often the jaw muscles first because their nerves are short | Lockjaw, then a stiff neck and back, ten days after a puncture wound from a garden fork |
+| Spasms | Touch, noise or light set off reflex bursts of motor neuron firing that the inhibitory neurons would normally damp | Painful spasms of the whole body; spasm of the larynx and the muscles of breathing can stop breathing |
+| Neonatal tetanus | Spores germinate in the umbilical stump; a mother who was never vaccinated has no antibody to pass across the placenta | A neonate who stops sucking and becomes rigid in the first two weeks of life, after the cord was cut with an unsterile instrument |
+
+Three conditions let *C. tetani* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A person who was never vaccinated, or whose last booster was long ago; a neonate whose mother was not vaccinated | Antibodies against the toxin, from the vaccine or from the mother across the placenta, neutralise it before it enters nerves; recovery from tetanus leaves no such antibodies |
+| Where (setting) | Soil and animal faeces, anywhere in the world; gardening, farming and injuries outdoors | Spores survive in soil for years |
+| How (route) | A puncture wound, a wound contaminated with soil or containing necrotic tissue, or the umbilical stump | Spores germinate where oxygen is low; the bacteria stay in the wound, and the toxin reaches motor nerve endings near the wound and, in the blood, throughout the body, and travels along the nerves to the spinal cord and brainstem |
+
+::: {.callout-important}
+## Does rust cause tetanus?
+A wound from a rusty nail is the injury most people link with tetanus, and the rust is often thought
+to be the danger. Rust, an oxide of iron, has no part in the disease. The risk comes from spores of
+*C. tetani* in soil: an object that has lain outdoors, rusty or not, is likely to carry soil, and a
+nail driven into the foot makes a deep puncture with little oxygen at its base, where spores can
+germinate. A puncture from a garden thorn or a wooden splinter can carry soil just as deep, and in
+some patients with tetanus no wound can be found at all.
+:::
+
+Step through the two routes *C. tetani* takes: from a puncture wound in an adult, and from the
+umbilical stump of a neonate.
+
+<div data-island="body-map" data-src="/diagrams/route-c-tetani.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/gpr-profile-c-tetani.yml"></div>
+
+### *Clostridium botulinum*: toxin in food and the neuromuscular junction {#sec-gpr-botulinum}
+
+*C. botulinum* is an obligate anaerobe whose spores are common in soil and in the sediment of lakes
+and the sea, from which they reach vegetables, fish and other foods. Botulinum toxin is the most
+potent toxin known. It reaches the blood and enters motor nerve endings at the neuromuscular
+junction, where a motor nerve releases acetylcholine to make a muscle fibre contract. Inside the
+nerve ending it cuts a protein the vesicles of acetylcholine need to fuse with the cell membrane, so
+no acetylcholine is released and the muscle receives no signal to contract.
+
+The result is **flaccid paralysis**, weak, floppy muscles that cannot contract. It begins in the
+muscles supplied by the cranial nerves, giving double vision, drooping eyelids, slurred speech and
+difficulty swallowing, and descends to the arms, the legs and the muscles of breathing. The toxin acts
+outside the brain and spinal cord, so the person stays alert and sensation is normal. It also blocks
+the release of acetylcholine from autonomic nerves, which control glands and smooth muscle, so the
+mouth is dry, the pupils may be dilated, and the bowel and bladder slow; in an infant, constipation
+is often the first sign. The paralysis lasts until the nerve endings recover, over weeks to months,
+and a person whose muscles of breathing are paralysed needs mechanical ventilation for that time.
+
+The toxin reaches the blood by one of three routes:
+
+- In food-borne botulism, toxin made in food is swallowed. Spores can survive the heat of preserving
+  food at home, and in a sealed container without oxygen, in food that is not acidic and is kept at
+  room temperature, they germinate and the bacteria release toxin into the food. Commercial canning
+  heats food enough to kill the spores, so most outbreaks come from food preserved at home.
+- In infant botulism, spores swallowed by an infant under a year old, in dust or in honey, germinate
+  in the colon, and the bacteria multiply there and make toxin. The infant's gut **microbiota**, the
+  community of microbes that normally lives on and in the body, is not yet established enough to
+  prevent this, as it does in older children and adults (see [*Microbes and their
+  hosts*](../foundations/host-microbe.qmd#sec-host-microbiota)). Honey is therefore not given to
+  infants under a year old.
+- In wound botulism, spores germinate in a wound and the bacteria make toxin there, as in tetanus;
+  most cases are in people who inject drugs.
+
+Food-borne botulism is an **intoxication**, illness caused by a toxin already formed outside the body,
+such as in food, without infection. It usually begins within a day or two of the meal. Boiling the
+food throughout destroys the toxin, although not the spores, so the danger lies in preserved food
+eaten without heating. Food from a bulging or leaking container may contain toxin and is thrown away
+without being tasted.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Food-borne botulism | Toxin made in sealed, low-acid food is swallowed, absorbed and carried in the blood to the neuromuscular junctions | Double vision, drooping eyelids and difficulty swallowing in several members of a family, a day after a meal of home-canned vegetables |
+| Infant botulism | Swallowed spores germinate in the colon of an infant whose gut microbiota is not yet established, and the bacteria make toxin there | A 3-month-old who becomes constipated, feeds poorly and becomes floppy, with a weak cry |
+| Wound botulism | Spores germinate in a wound, and the toxin made there reaches the blood | Descending paralysis in a person who injects drugs, with an infected injection site |
+
+Three conditions let *C. botulinum* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Anyone who eats the toxin; for infant botulism, an infant under a year old | The toxin needs no infection; in an infant, the gut microbiota is not yet established, so spores can germinate in the colon |
+| Where (setting) | Food preserved at home in sealed containers, low in acid and kept at room temperature, then eaten without heating | Spores can survive the heat of home preserving, and without oxygen they germinate and the bacteria make toxin in the food |
+| How (route) | Toxin swallowed in food, or spores that germinate in an infant's gut or in a wound | The toxin is carried in the blood to the neuromuscular junctions, where it blocks the release of acetylcholine |
+
+Step through the two routes by which botulinum toxin reaches the nerves: from preserved food, and
+from the gut of an infant.
+
+<div data-island="body-map" data-src="/diagrams/route-c-botulinum.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/gpr-profile-c-botulinum.yml"></div>
+
+### *Listeria monocytogenes*: growth in the cold and life inside cells {#sec-gpr-listeria}
+
+*L. monocytogenes* lives in soil, water and decaying plants and in the gut of animals, and it can
+persist for long periods in food-processing plants. It grows at refrigerator temperatures, which most
+bacteria that contaminate food cannot do, and it tolerates salt. Its numbers therefore rise during
+storage in chilled ready-to-eat foods, such as soft cheese, deli meats, pâté, smoked fish, cut melon
+and sprouts, which are eaten without further cooking. It forms no spores, so thorough cooking and
+pasteurisation kill it.
+
+**Listeriosis** is infection with *L. monocytogenes*. Swallowed bacteria enter the cells lining the
+intestine. Inside each cell, the bacterium escapes from the vacuole that enclosed it, using a toxin
+that punches holes in the vacuole's membrane, and multiplies in the cytoplasm. It then assembles the
+host cell's own actin into a tail that pushes it into the neighbouring cell, so it spreads from cell to
+cell without leaving the cells, out of reach of antibodies. From the gut it reaches the blood, and from
+the blood it can cross two barriers that keep most bacteria out: the placenta, and the blood-brain
+barrier between the blood and the brain and meninges.
+
+In healthy people, cell-mediated immunity contains the infection, and most have no illness or a short
+gastroenteritis with fever. Invasive listeriosis falls on four groups of people:
+
+- Pregnant women, who often have only a mild illness like influenza, while the bacteria cross the
+  placenta and infect the fetus, causing miscarriage, stillbirth or premature birth, or infection of
+  the neonate
+- Neonates infected before or during birth, who develop infection of the blood or **meningitis**,
+  inflammation of the meninges, the membranes that cover the brain and spinal cord
+- Older adults
+- People whose cell-mediated immunity is impaired, for example by drugs that suppress the immune
+  system after an organ transplant
+
+Invasive disease can begin several weeks after the contaminated food was eaten, so the food
+responsible is often hard to trace. Pregnant women and others at risk are therefore advised to avoid
+the chilled ready-to-eat foods that carry it, or to heat them until steaming hot. The cephalosporins,
+a family of beta-lactam drugs often used for meningitis, do not act on any strain of
+*L. monocytogenes*: it has **intrinsic resistance**, resistance that is a property of a whole species
+(see [*How bacteria copy themselves and change*](bacterial-genetics.qmd#sec-gen-mechanisms)). When
+meningitis is treated in a person at risk of listeriosis, the drugs chosen therefore include one that
+acts on it.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Gastroenteritis | A large number of bacteria in contaminated food infect the gut of a healthy person, and cell-mediated immunity contains them | Fever and diarrhoea in healthy people who ate the same contaminated food |
+| Infection in pregnancy | Bacteria in the mother's blood cross the placenta and infect the fetus, while the mother has only a mild illness | Fever and aches like influenza in the third trimester, followed by the premature birth of an infected neonate |
+| Meningitis and bloodstream infection | Where cell-mediated immunity is weak, bacteria multiply in the blood and cross the blood-brain barrier | Fever, headache and confusion in a 75-year-old taking drugs to prevent rejection of a kidney transplant |
+
+Three conditions let *L. monocytogenes* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A pregnant woman and her fetus; a neonate; an older adult; a person whose cell-mediated immunity is impaired | Inside cells the bacteria are out of reach of antibodies, so T cells must control them; from the mother's blood they reach the placenta and the fetus |
+| Where (setting) | Chilled ready-to-eat foods: soft cheese, deli meats, pâté, smoked fish, cut melon, sprouts | It keeps multiplying at refrigerator temperatures, and the food is eaten without the cooking that would kill it |
+| How (route) | Swallowed; crosses the lining of the intestine inside its cells, then spreads in the blood | It moves from cell to cell on tails of host actin, and from the blood crosses the placenta and the blood-brain barrier |
+
+Step through the two routes *L. monocytogenes* takes: to the meninges, and, in pregnancy, to the
+fetus.
+
+<div data-island="body-map" data-src="/diagrams/route-l-monocytogenes.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/gpr-profile-l-monocytogenes.yml"></div>
+
+## Contrast pair {#sec-gpr-pairs}
+
+### *C. tetani* and *C. botulinum* {#sec-gpr-pair-tetani-botulinum}
+
+*C. tetani* and *C. botulinum* are both spore-forming anaerobes of soil, and both toxins stop nerve
+endings releasing neurotransmitter. Compare them feature by feature before reading the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-tetani-botulinum.yml"></div>
+
+## Beyond the main organisms {#sec-gpr-beyond}
+
+### Supporting organisms {#sec-gpr-supporting}
+
+| Organism | Where it lives | What separates it | Why it matters |
+|---|---|---|---|
+| *B. cereus* | Soil; its spores are common on rice and other foods | Forms spores and grows in air; in cooked food kept warm or cooled slowly, it releases a toxin that heat does not destroy | Vomiting within hours of eating cooked rice that was kept warm or left at room temperature; it also causes a later diarrhoeal illness, from toxins the bacteria make after they are swallowed |
+| *B. anthracis* | Soil where infected grazing animals have died, as spores that persist for decades | Forms spores and grows in air; infects grazing animals, and people who handle the animals or their hides or wool | Causes **anthrax**, infection of the skin, the lungs or the gut with *B. anthracis*, which Robert Koch showed to be its cause (see [*The microbial world*](../foundations/microbial-world.qmd#sec-world-history)) |
+| *Clostridioides difficile* | The gut of some healthy people, and the hospital environment, as spores | An obligate anaerobe whose spores spread on hands and surfaces in hospitals; it multiplies after antibacterial drugs reduce the resident gut bacteria that normally keep it in check (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-microbiota)) | Its toxins cause diarrhoea and **colitis**, inflammation of the colon, in patients given antibacterial drugs. Alcohol hand rub does not kill its spores, so hands are washed with soap and water, which removes them, and rooms and equipment are cleaned with a chlorine disinfectant strong enough to kill them (see [*Detecting and controlling microbes*](../foundations/detection-control.qmd#sec-det-resistance)) |
+| *Corynebacterium diphtheriae* | The human throat and skin only | Forms no spores; the toxin gene is carried by a phage, so only strains that carry the phage make the toxin (see [*How bacteria copy themselves and change*](bacterial-genetics.qmd#sec-gen-phage)) | Causes diphtheria, prevented by toxoid vaccine; outbreaks follow when vaccination coverage falls |
+
+### Later in the course {#sec-gpr-later}
+
+| Organism | Where it comes up again |
+|---|---|
+| *C. tetani* | Emergency medicine and surgery (care of wounds and prevention of tetanus); obstetrics (vaccination in pregnancy); vaccines in immunology |
+| *C. botulinum* | Neurology (descending flaccid paralysis); paediatrics (infant botulism); public health (food safety) |
+| *L. monocytogenes* | Obstetrics and neonatology (infection in pregnancy and of the neonate); neurology (meningitis); food safety |
+| *B. cereus* | Food safety (vomiting after a meal) |
+| *B. anthracis* | Public health and biosecurity |
+| *Clostridioides difficile* | Gastroenterology (diarrhoea after antibacterial drugs); infection control; antimicrobial stewardship |
+| *Corynebacterium diphtheriae* | Paediatrics and immunology (the childhood vaccine schedule) |
+
+## Check your understanding {#sec-gpr-quiz}
+
+<div data-island="quiz" data-src="/quizzes/gram-positive-rods.quiz.yml"></div>
+
+## Review with flashcards {#sec-gpr-cards}
+
+<div data-island="flashcards" data-src="/decks/gram-positive-rods.deck.yml"></div>

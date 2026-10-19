@@ -1,0 +1,72 @@
+id: pair-bacteroides-perfringens
+title: "Contrast pair: two anaerobes in tissue with little oxygen"
+intro: "Both multiply only where tissue has little oxygen, yet one forms an abscess over days and the other destroys muscle within hours. Read across and find the feature that best explains the difference."
+
+a:
+  name: "Bacteroides fragilis"
+b:
+  name: "Clostridium perfringens"
+
+rows:
+  - feature: "Relationship with oxygen"
+    a: "Anaerobe: grows only where oxygen is low"
+    b: "Anaerobe: grows only where oxygen is low"
+    separates: false
+  - feature: "Gram stain"
+    a: "Negative (pink) rods"
+    b: "Positive (purple), large rods"
+    separates: true
+  - feature: "Spores"
+    a: "None"
+    b: "Spores that survive years in soil, and cooking"
+    separates: true
+  - feature: "Where it comes from"
+    a: "The person's own colon, after the bowel wall is breached"
+    b: "Soil carried into a deep wound; or food in which it has multiplied"
+    separates: true
+  - feature: "Typical lesion"
+    a: "An abscess full of pus, walled off over days"
+    b: "Gas gangrene: dead muscle with gas and little pus, spreading within hours"
+    separates: true
+  - feature: "Main source of damage"
+    a: "The capsule and the host response it provokes, which walls the bacteria off"
+    b: "Toxins that destroy muscle cells, red blood cells and small blood vessels"
+    separates: true
+
+question:
+  stem: "Both multiply in tissue with little oxygen. Which feature best explains why their lesions differ?"
+  options: [0, 1, 5]
+  answer: 5
+  feedback: >
+    Main source of damage. Both are anaerobes, so oxygen does not separate them, and the Gram stain
+    tells them apart in the laboratory without explaining what they do in tissue. *B. fragilis* does
+    little direct damage, and the host walls it off in an abscess. The toxins of *C. perfringens* kill
+    muscle and the vessels that supply it, so the oxygen-poor zone, and the infection, spread.
+
+principle: >
+  Oxygen decides where an anaerobe can grow; how it causes damage decides what it does there.
+  *B. fragilis* resists phagocytes with its capsule, and the capsule provokes the host to wall the
+  bacteria off, so the infection collects as an abscess over days and is drained. *C. perfringens*
+  releases toxins that kill muscle and damage its blood vessels, so dead, oxygen-poor tissue forms
+  ahead of the bacteria and the infection spreads within hours. Few neutrophils reach the muscle, so
+  there is little pus, and the dead tissue must be cut away.
+
+sort:
+  - text: "A foul-smelling collection of pus beside the colon a week after bowel surgery"
+    answer: a
+    why: "An abscess after a breach of the bowel, walled off by the host: *B. fragilis*."
+  - text: "Gas crackling under the skin of a crushed leg, with changes spreading within hours"
+    answer: b
+    why: "Toxins killing muscle, and fermentation filling it with gas: *C. perfringens*."
+  - text: "Large purple rods in a Gram stain of fluid from dead muscle"
+    answer: b
+    why: "A Gram-positive rod in necrotic muscle: *C. perfringens*."
+  - text: "Makes a beta-lactamase that destroys the penicillins and many related drugs"
+    answer: a
+    why: "The beta-lactamase of *B. fragilis* shapes the choice of drugs for infections after a breach of the bowel."
+  - text: "Cramps and watery diarrhoea 6 to 24 hours after a large dish of stew that cooled slowly"
+    answer: b
+    why: "Spores survived cooking and germinated as the stew cooled; the toxin is made in the gut: *C. perfringens*."
+  - text: "A capsule that provokes the host to wall the infection off"
+    answer: a
+    why: "Abscess formation driven by the capsule: *B. fragilis*."

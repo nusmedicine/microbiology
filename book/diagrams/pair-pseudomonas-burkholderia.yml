@@ -1,0 +1,79 @@
+id: pair-pseudomonas-burkholderia
+title: "Contrast pair: two environmental Gram-negatives that depend on respiration"
+intro: "Both live outside any host, neither ferments sugars, and both resist many antibacterial drugs naturally. Read across and find the feature that best tells them apart."
+
+a:
+  name: "Pseudomonas aeruginosa"
+  morph: rods-neg
+b:
+  name: "Burkholderia pseudomallei"
+  morph: rods-neg
+
+rows:
+  - feature: "Envelope and shape"
+    a: "Gram-negative rod with an outer membrane carrying LPS"
+    b: "Gram-negative rod with an outer membrane carrying LPS"
+    separates: false
+  - feature: "Energy"
+    a: "Cannot ferment sugars; depends on respiration, usually with oxygen"
+    b: "Cannot ferment sugars; depends on respiration, usually with oxygen"
+    separates: false
+  - feature: "Where it lives"
+    a: "Water and moist surfaces, including hospital sinks, taps, drains and equipment"
+    b: "Wet soil and surface water in the tropics, including Singapore and northern Australia"
+    separates: true
+  - feature: "Who becomes ill"
+    a: "A person whose barrier or local defence has failed: burns, cystic fibrosis, an airway held open by a tube, a cornea under a contact lens; or a person with too few neutrophils"
+    b: "Most often a person with diabetes, and sometimes one with hazardous alcohol use or chronic kidney disease, after contact with wet soil or surface water"
+    separates: true
+  - feature: "Life inside host cells"
+    a: "Stays outside host cells, and grows as biofilm on surfaces"
+    b: "Survives and multiplies inside phagocytes, which carry it in the blood"
+    separates: true
+  - feature: "Disease long after exposure"
+    a: "No latent stage inside cells; disease follows colonisation of a damaged site or a device"
+    b: "Can persist silently inside cells and cause disease years later"
+    separates: true
+  - feature: "Natural resistance to antibacterial drugs"
+    a: "High: a less permeable outer membrane, efflux pumps and a chromosomal beta-lactamase"
+    b: "High: resistant to several classes from the start"
+    separates: false
+
+question:
+  stem: "Both are hardy environmental rods that resist many drugs. Which feature best tells them apart?"
+  options: [2, 4, 6]
+  answer: 4
+  feedback: >
+    Life inside host cells. Natural resistance is shared, so it separates nothing, and the habitat
+    explains who meets each organism without explaining what the infection then does. Survival inside
+    phagocytes accounts for the rest of melioidosis: bacteria carried in the blood to the liver and
+    spleen, abscesses where they settle, months of treatment, and disease that can begin years after
+    the exposure.
+
+principle: >
+  For an organism that lives outside any host, the habitat predicts who meets it and by which route,
+  and its behaviour inside the host predicts what the infection does. *P. aeruginosa* lives in water
+  and on wet surfaces, needs a failed barrier, and stays outside cells, so its infections sit where
+  the barrier broke: a burn, a device, a damaged airway, a cornea. *B. pseudomallei* lives in wet soil,
+  is most dangerous to a host whose neutrophils work poorly, above all in diabetes, and survives
+  inside phagocytes, so it spreads to several organs, relapses and can lie silent for years.
+
+sort:
+  - text: "Grows in the water that collects in ventilator tubing"
+    answer: a
+    why: "Water and wet equipment are its home: *P. aeruginosa*."
+  - text: "Caught from wet soil after heavy rain, mostly in the rainy season"
+    answer: b
+    why: "Rain brings it to the surface of soil and water: *B. pseudomallei*."
+  - text: "Multiplies inside phagocytes and forms abscesses in the liver and spleen"
+    answer: b
+    why: "Life inside phagocytes, which carry it in the blood: *B. pseudomallei*."
+  - text: "Infects a burn, and the cornea under a contact lens"
+    answer: a
+    why: "Damage where a barrier has failed: *P. aeruginosa*."
+  - text: "Illness beginning years after the patient left the region where the organism lives"
+    answer: b
+    why: "Bacteria that persisted inside cells multiply again: *B. pseudomallei*."
+  - text: "Forms a biofilm on a plastic device, where drugs and phagocytes reach it poorly"
+    answer: a
+    why: "Shelter on a surface rather than inside a cell: *P. aeruginosa*."

@@ -1,17 +1,353 @@
 # Viruses spread by the faecal–oral route
 
-> *Mostly non-enveloped viruses that survive on hands and surfaces and in water, and infect the gut or reach the liver from it.*
+> *One passenger who vomits in a ship's dining room can start an outbreak that spreads through many of
+> the people on board within days, despite alcohol hand rub at every door. Viruses spread by the
+> faecal–oral route survive stomach acid, hands and surfaces because they have no envelope, and where
+> each one goes after it is swallowed predicts the illness it causes.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Explain why most viruses spread by the faecal–oral route are non-enveloped, and predict from this
+  how they survive outside the body and how their spread is controlled.
+- Sort the main viruses of the group by where they do harm after they are swallowed, and predict from
+  the site the illness and how soon it begins.
+- Explain why norovirus causes outbreaks among people of every age, while rotavirus causes severe
+  illness mainly in infants and young children.
+- Explain how enteroviruses, which multiply in the gut, cause hand, foot and mouth disease and
+  meningitis.
+- Name the host, setting and route that let each main virus cause disease.
+- Tell norovirus from rotavirus by genome, who is ill, immunity after infection and vaccine.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-entv-group)
+  - [The group in one sentence](#sec-entv-sentence): what every member shares
+  - [Sorting the group](#sec-entv-key): where the virus does its harm
+- [Main viruses](#sec-entv-main)
+  - [Norovirus](#sec-entv-norovirus): outbreaks of vomiting at every age
+  - [Rotavirus](#sec-entv-rotavirus): dehydrating diarrhoea in infants
+  - [Enteroviruses](#sec-entv-enterovirus): from the gut to the skin, mouth and meninges
+- [Contrast pair](#sec-entv-pairs)
+  - [Norovirus and rotavirus](#sec-entv-pair-norovirus-rotavirus)
+- [Beyond the main viruses](#sec-entv-beyond)
+  - [Supporting viruses](#sec-entv-supporting)
+  - [Later in the course](#sec-entv-later)
+:::
+
+## The group {#sec-entv-group}
+
+### The group in one sentence {#sec-entv-sentence}
+
+Viruses spread by the faecal–oral route leave the body in faeces and are mostly **non-enveloped
+viruses**, whose outer surface is the protein capsid; they survive stomach acid, bile, drying and
+alcohol better than enveloped viruses, and infect the gut or reach other organs from it. Most of the six
+questions have one answer for the whole group; its members differ mainly in where they go after they
+are swallowed.
+
+| Question | Answer for the viruses spread by the faecal–oral route |
 |---|---|
-| Learning objectives | Describe the group by its traits; explain one mechanism of harm for each main virus; recognise the enabling conditions that point to each |
-| The group in one sentence | Mostly non-enveloped viruses that survive on hands and surfaces and in water, and infect the gut or reach the liver from it. |
-| Main viruses | Norovirus; rotavirus; enteroviruses, including those of hand, foot and mouth disease |
-| Supporting viruses | Hepatitis A and E viruses |
-| Later in the course | Gastrointestinal and liver blocks; infection control |
-| Scenario questions | Most likely virus, with options restricted to the group; feedback names the discriminating clue |
+| What is it built from? | In every virus of this chapter, an RNA genome in a protein capsid, with no envelope: single-stranded, positive-sense RNA in norovirus, the enteroviruses and hepatitis A and E viruses; double-stranded RNA in segments in rotavirus |
+| How does it get energy? | It has no energy supply of its own and uses the host cell's |
+| How does it copy itself and change? | Copies its RNA in the cytoplasm with its own RNA-dependent RNA polymerase, which does not proofread; new norovirus variants that escape existing immunity appear every few years, and rotavirus, whose genome is in segments, also changes when two strains infecting one cell exchange segments |
+| Where does it live, and how does it spread? | Mostly in humans, who shed very large numbers of virus particles in faeces; spread on hands and surfaces and in food and water, and some also in vomit (norovirus), respiratory secretions and the fluid of blisters (enteroviruses), or from pigs (hepatitis E virus) |
+| How does damage happen? | Death or malfunction of the cells lining the small intestine, with loss of fluid; spread from the gut to the skin, mouth, nervous system and, rarely, heart (enteroviruses); inflammation of the liver (hepatitis A and E viruses) |
+| What does it have that my cells lack? | Its RNA-dependent RNA polymerase and other viral proteins, but no antiviral drug is in routine use against the acute illnesses these viruses cause |
+
+The faecal–oral route sets the group's shared traits. To pass from one gut to the next, a virus must
+survive in faeces, water and food and on hands and surfaces, then pass through the acid of the stomach
+and the bile of the intestine. Drying, bile and alcohol disrupt a lipid envelope, and a capsid without
+one withstands them much better (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-envelope)). The same capsid makes these viruses
+harder to inactivate. Alcohol hand rub is less reliable against most of them, norovirus especially,
+than washing with soap and water, which removes them physically, and surfaces are cleaned with
+chlorine-based disinfectants (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-resistance)). An infected person sheds very
+large numbers of particles, and for norovirus and rotavirus very few particles are enough to start an
+infection (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-factors)), so
+small lapses in hygiene spread them.
+
+The controls follow from the route (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-chain)):
+
+- Safe drinking water and sanitation, which keep faeces out of water and food
+- Food hygiene, including keeping ill food handlers away from work
+- Washing hands with soap and water
+- Cleaning surfaces contaminated with faeces or vomit with a chlorine-based disinfectant
+- Vaccines against rotavirus, hepatitis A virus and some enteroviruses (see [*Detecting and
+  controlling microbes*](../foundations/detection-control.qmd#sec-det-prevent))
+
+Vomiting and diarrhoea remove water and salts from the body, and in infants and frail older adults
+they can do so faster than the person drinks. **Dehydration** is a deficit of body water and salts
+that develops when losses exceed intake, and it is the main danger of the viruses that infect the
+gut. Treatment replaces the lost water and salts, usually by mouth (see [*Environmental
+Gram-negatives: pseudomonads, vibrios and*
+Burkholderia](../bacteria/environmental-gram-negatives.qmd#sec-egn-vibrio)).
+
+### Sorting the group {#sec-entv-key}
+
+The group is defined by its route of spread, and its members belong to several virus families (see
+[*A map of the viruses*](virus-map.qmd)). We sort them by where they do their harm after they are
+swallowed, because the site predicts the illness, how soon it begins and who is at risk.
+
+::: {.concept-tree}
+[Sorting the viruses spread by the faecal–oral route by where they do harm]{.tree-title}
+
+- In the gut, where the virus arrives: vomiting and diarrhoea
+  - Outbreaks at every age, with reinfection throughout life: norovirus
+  - Severe illness mainly in infants and young children: rotavirus
+- Beyond the gut, after spread from the throat and the gut wall: enteroviruses
+- In the liver
+  - Humans only: hepatitis A virus
+  - Humans, and pigs (undercooked pork): hepatitis E virus
+:::
+
+The site of harm predicts how the virus reaches it, how soon illness begins and what follows:
+
+| Where the virus does harm | How it gets there | Incubation period | What follows |
+|---|---|---|---|
+| The gut | It infects the cells lining the small intestine, where it arrives | Hours to about two days | Vomiting and watery diarrhoea; the main danger is dehydration, greatest in infants and frail older adults |
+| The skin, the mouth, the meninges and, rarely, the heart, brain or spinal cord | It multiplies in the throat and the gut wall, then spreads, mainly in the blood | A few days | Most infections are silent or mild; ulcers in the mouth and blisters on the hands and feet; inflammation of the meninges; rarely, inflammation of the brain or heart, or paralysis |
+| The liver | It crosses the gut wall and is carried in the blood to the liver | Weeks | Acute inflammation of the liver, often with yellowing of the skin and eyes; virus is shed in the faeces before illness begins, so it has often spread before the illness is recognised |
+
+Work through the key from where the virus does its harm, and read at each branch what the site
+predicts about the virus.
+
+<div data-island="sorting-key" data-src="/diagrams/entv-key.yml"></div>
+
+## Main viruses {#sec-entv-main}
+
+### Norovirus: outbreaks of vomiting at every age {#sec-entv-norovirus}
+
+Norovirus is the most common cause of outbreaks of **gastroenteritis**, inflammation of the stomach and
+intestines that causes vomiting, diarrhoea or both, and it infects people of every age. It is also a
+leading cause of gastroenteritis in young children, and where rotavirus vaccine is widely used, it has
+become the most common cause of gastroenteritis in children seen by a doctor. Humans are its
+reservoir. An infected person sheds very large numbers of particles in faeces and vomit, and very few
+particles are enough to start an infection. Sudden, forceful vomiting sprays droplets onto surfaces,
+food and people nearby, the virus survives on surfaces for days, and alcohol hand rub inactivates it
+less reliably than washing removes it. Norovirus therefore spreads in several ways at once:
+
+- From person to person, on hands and through contaminated surfaces
+- In food handled by an infected person, who can shed virus in the faeces for weeks after recovery
+- In water contaminated with faeces
+- In shellfish such as oysters, which concentrate the virus from water contaminated with sewage and
+  are often eaten raw
+
+Outbreaks are common where many people share food, toilets and surfaces in a confined space: care
+homes, hospital wards, cruise ships and schools.
+
+::: {.example}
+Oysters filter large volumes of seawater, and where sewage reaches the water they concentrate
+norovirus in their tissues. Raw oysters from one contaminated harvest can cause illness in many of the
+people who eat them, a **point-source outbreak**, an outbreak from a single shared exposure, whose cases cluster
+within one incubation period (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-curves)).
+:::
+
+Illness begins suddenly, a day or two after the virus is swallowed, with nausea, vomiting, watery
+diarrhoea and abdominal cramps, and usually ends within a day or two. The virus infects the lining of
+the upper small intestine, where the villi become shorter and absorb less fluid, and the stomach
+empties more slowly. Most people recover fully, and the danger is dehydration in frail older adults
+and young children. In people whose immunity is suppressed, such as transplant recipients, the
+infection can persist for months, with diarrhoea and continuous shedding of virus.
+
+Immunity after infection is short-lived, and the virus varies. Its RNA polymerase does not proofread,
+and new variants that escape existing immunity appear every few years (see [*How viruses
+change*](virus-change.qmd#sec-vchg-mutation)), so people are infected again and again throughout
+life. During an outbreak, ill people, including staff and food handlers, are kept away from others
+until 48 hours after their symptoms have stopped.
+
+Norovirus does its harm in the gut, where it arrives:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Vomiting | Infection of the upper small intestine slows the emptying of the stomach, which contributes to nausea and vomiting | Sudden, forceful vomiting in a cruise-ship passenger the day after another passenger vomited in the dining room |
+| Watery diarrhoea | The virus infects the lining of the upper small intestine; the villi become shorter and absorb less fluid, salt and nutrients | Watery diarrhoea without blood, with abdominal cramps, lasting a day or two |
+| Dehydration | Water and salts are lost in vomit and stool faster than they are replaced | A frail resident of a care home who becomes dehydrated during an outbreak |
+
+Three conditions let norovirus cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Anyone; dehydration is most dangerous in frail older adults and young children | Immunity after infection is short-lived and new variants keep appearing, so no age group stays protected |
+| Where (setting) | Places where many people share food, toilets and surfaces: care homes, hospital wards, cruise ships, schools; food handled by an infected person; raw shellfish | Very large numbers of particles are shed in vomit and faeces, survive on surfaces for days, and resist alcohol hand rub |
+| How (route) | Swallowed from hands, surfaces, food or water contaminated with faeces or vomit, including droplets from forceful vomiting | Very few particles are enough, the capsid withstands stomach acid, and the virus infects the small intestine, where it arrives |
+
+Step through the two routes by which norovirus spreads: from person to person in an outbreak, and in
+raw shellfish.
+
+<div data-island="body-map" data-src="/diagrams/route-norovirus.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/entv-profile-norovirus.yml"></div>
+
+### Rotavirus: dehydrating diarrhoea in infants {#sec-entv-rotavirus}
+
+Rotavirus is named for its wheel-like appearance under the electron microscope. Its genome is
+double-stranded RNA in segments, inside a capsid with no envelope.
+A double-stranded RNA genome cannot be translated directly, so the virion carries its own RNA-dependent
+RNA polymerase, which makes mRNA from it inside the cell (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-genomes)). When two strains infect the same
+cell, their segments can reassort (see [*How viruses change*](virus-change.qmd#sec-vchg-reassortment)).
+
+Rotavirus causes severe illness mainly in infants and young children. Before vaccines were introduced,
+almost every child in the world was infected by the age of five, and rotavirus was the leading cause
+of severe, dehydrating diarrhoea in young children. It still causes many deaths of young children
+where vaccines and treatment for dehydration are hard to reach. An infected child sheds enormous
+numbers of particles in the stool, few are needed to infect, and the virus survives on hands, toys
+and surfaces, so it spreads readily in homes and childcare centres.
+
+The virus infects the mature cells at the tips of the villi of the small intestine. Illness begins
+about two days after infection with fever and vomiting, followed by watery diarrhoea that lasts
+several days. Two mechanisms cause the diarrhoea: the loss of the cells that absorb fluid, and a viral
+protein released from infected cells that acts as an **enterotoxin**, a toxin that acts on the gut,
+and makes the cells lining the intestine secrete salt and water.
+
+The first infection is usually the most severe. It leaves immunity that does not prevent later
+infections but protects against severe disease in them, so older children and adults have milder
+illness or none. A **live attenuated vaccine**, a vaccine containing a living organism weakened so that
+it multiplies in the body without causing disease, is given by mouth in two or three doses in the
+first months of life. The vaccine virus multiplies in the gut as a first infection would, and where
+the vaccine is used, admissions of young children to hospital with rotavirus diarrhoea have fallen
+sharply.
+
+Rotavirus does its harm in the small intestine, and the main danger to the rest of the body comes from
+the fluid lost:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Loss of absorption | The virus kills the mature cells at the tips of the villi; the shortened villi absorb less fluid and sugar, and unabsorbed sugar holds water in the gut | Watery diarrhoea without blood for several days in an infant |
+| Secretion of fluid | A viral protein released from infected cells acts as an enterotoxin and makes the cells lining the intestine secrete salt and water | Profuse watery diarrhoea in a toddler at a childcare centre |
+| Dehydration | An infant loses water and salts in diarrhoea and vomit faster than it can drink, and has little reserve | An unvaccinated infant of 10 months with sunken eyes, a dry mouth and few wet nappies after three days of diarrhoea |
+
+Three conditions let rotavirus cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | An infant or young child meeting the virus for the first time, who has not been vaccinated | Without immunity from an earlier infection or the vaccine, the first infection is severe, and an infant's small body holds little reserve of fluid |
+| Where (setting) | Homes and childcare centres with young children; children's wards | Infected children shed enormous numbers of particles, which survive on hands, toys and surfaces |
+| How (route) | Swallowed from hands, toys or surfaces contaminated with faeces | Few particles are enough, and the virus infects the cells at the tips of the villi, where it does its harm |
+
+Step through the route rotavirus takes from one child to the next, and the route the oral vaccine
+follows.
+
+<div data-island="body-map" data-src="/diagrams/route-rotavirus.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/entv-profile-rotavirus.yml"></div>
+
+### Enteroviruses: from the gut to the skin, mouth and meninges {#sec-entv-enterovirus}
+
+Enteroviruses are a large group of small, non-enveloped viruses with a single-stranded, positive-sense
+RNA genome. Humans are their reservoir, and there are many types; immunity after infection protects
+against the type that caused it and not against others. They are named for the gut, where they
+multiply, but they cause little illness there. The virus is swallowed, or reaches the throat in
+respiratory secretions, and multiplies in the throat and in the lymphoid tissue of the gut wall. Most
+infections stop there, without symptoms or with a short fever. In some, the virus enters the blood,
+and this **viraemia**, the presence of virus in the blood, carries it to the skin, the lining of the
+mouth and the meninges and, rarely, to the heart, the brain and the spinal cord (see [*Viruses and the
+host*](virus-host.qmd#sec-vhost-spread)).
+
+Infected people shed virus from the throat for a week or two and in the faeces for several weeks,
+whether or not they have symptoms, so spread is hard to stop. Young children, who have not yet met
+most types and are in close contact with each other, are infected most often.
+
+**Hand, foot and mouth disease** is an illness of young children with fever, painful ulcers in the
+mouth and a rash of small blisters on the hands and feet. It is caused mainly by coxsackievirus A16
+and other coxsackie A viruses, and by enterovirus A71 (EV-A71), which spread from the throat, the
+fluid of the blisters and the faeces, on hands and shared toys. It is common in Singapore, with
+outbreaks in preschools and childcare centres, and most children recover within about a week.
+Several types cause it, so a child can have it more than once.
+
+EV-A71 can, rarely, infect nerve cells in the brainstem, the part of the brain that controls
+breathing and the circulation, and cause **encephalitis**, inflammation of the brain. It probably
+reaches the brainstem along nerves as well as in the blood. Encephalitis of the brainstem can
+progress quickly to failure of breathing and the circulation, and epidemics of EV-A71 in East and
+South-East Asia have included deaths of young children.
+
+Enteroviruses are also the most common cause of viral **meningitis**, inflammation of the meninges,
+the membranes that cover the brain and spinal cord. Enteroviral meningitis is usually milder than
+bacterial meningitis, and most people recover without lasting harm.
+
+The blood can also carry enteroviruses to the heart, where they cause **myocarditis**, inflammation
+of the heart muscle. Rarely, enteroviruses, EV-A71 among them, infect the motor nerve
+cells of the spinal cord and cause paralysis of the muscles those cells supply. In neonates,
+enterovirus infection can be severe and spread to many organs.
+
+Enteroviruses multiply in the gut but do their harm where the blood carries them:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Silent or mild infection | The virus multiplies in the throat and the gut wall, and the immune response contains it there | Most infections; a few days of fever in a young child |
+| Hand, foot and mouth disease | The virus is carried in the blood to the skin and the lining of the mouth and kills epithelial cells there; fluid collects among the damaged cells as blisters, which break down into ulcers in the mouth | Painful ulcers in the mouth that stop a preschool child eating, with small blisters on the palms and soles |
+| Meningitis | The virus reaches the meninges in the blood, and the inflammation it provokes causes fever, headache and a stiff neck | Meningitis in a child or young adult, followed by full recovery |
+| Brainstem encephalitis | EV-A71, rarely, infects nerve cells in the brainstem, which controls breathing and the circulation | A young child with hand, foot and mouth disease who becomes drowsy, with sudden jerking movements and rapid breathing |
+
+Three conditions let enteroviruses cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Young children; for brainstem encephalitis, young children infected with EV-A71 | Young children have not yet met most enterovirus types, and immunity to one type does not protect against others |
+| Where (setting) | Preschools, childcare centres and homes with young children | Close contact and shared toys; virus is shed in the faeces for weeks, including by children without symptoms |
+| How (route) | Swallowed, or reaching the throat in respiratory secretions; then multiplication in the throat and gut wall, and spread in the blood | The capsid withstands stomach acid; viraemia carries the virus to the skin, mouth and meninges, and EV-A71 probably reaches the brainstem along nerves as well as in the blood |
+
+::: {.callout-important}
+## Is hand, foot and mouth disease caught from farm animals?
+Hand, foot and mouth disease is often thought to come from cattle, pigs or sheep, because its name is
+close to that of foot-and-mouth disease, an infection of those animals that is reported in the news
+when it causes outbreaks on farms. The two are caused by different viruses. The enteroviruses that
+cause hand, foot and mouth disease live only in humans and pass from child to child, so outbreaks
+are controlled by washing hands and cleaning toys and surfaces. Humans do not catch the animal
+disease from livestock in ordinary contact, and animals do not catch the human one.
+:::
+
+Step through the two routes enteroviruses take after they multiply in the throat and the gut: to the
+skin and mouth, and to the meninges and brain.
+
+<div data-island="body-map" data-src="/diagrams/route-enterovirus.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/entv-profile-enterovirus.yml"></div>
+
+## Contrast pair {#sec-entv-pairs}
+
+### Norovirus and rotavirus {#sec-entv-pair-norovirus-rotavirus}
+
+Norovirus and rotavirus are both non-enveloped viruses that spread by the faecal–oral route and infect
+the small intestine. Compare them feature by feature before reading the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-norovirus-rotavirus.yml"></div>
+
+## Beyond the main viruses {#sec-entv-beyond}
+
+### Supporting viruses {#sec-entv-supporting}
+
+Two viruses spread by the faecal–oral route do their harm in the liver. Each crosses the gut wall, is
+carried in the blood to the liver, multiplies in liver cells and leaves in the bile, so it is shed in
+the faeces, and shedding begins before the person is ill. Both cause acute **hepatitis**, inflammation
+of the liver, often with **jaundice**, yellowing of the skin and the whites of the eyes as
+bilirubin accumulates in the blood. Neither becomes a chronic infection in
+a healthy person, unlike the hepatitis viruses spread in blood, which can persist for years (see
+[*Blood-borne and sexually transmitted viruses*](bloodborne-viruses.qmd)).
+
+| Virus | Where it lives | What separates it | Why it matters |
+|---|---|---|---|
+| Hepatitis A virus | Humans; multiplies in liver cells and leaves in the bile | Spread in food or water contaminated with faeces, in raw or undercooked shellfish and by close contact; most young children infected have no symptoms and pass the virus on, while most adults develop jaundice | Acute hepatitis, rarely severe enough to cause liver failure, followed by full recovery and lifelong immunity; prevented by an inactivated vaccine |
+| Hepatitis E virus | Humans, and pigs and some other animals; multiplies in liver cells | Some strains spread in water contaminated with human faeces where sanitation is poor, causing large outbreaks; others are carried by pigs and reach humans in undercooked pork and pig liver | Acute hepatitis; infection late in pregnancy can cause liver failure, especially with the strains spread in water; after an organ transplant, when immunity is suppressed, infection can become chronic |
+
+### Later in the course {#sec-entv-later}
+
+| Virus | Where it comes up again |
+|---|---|
+| Norovirus | Gastroenterology (acute gastroenteritis); infection prevention and control (outbreaks in hospitals and care homes); public health (food-borne outbreaks) |
+| Rotavirus | Paediatrics (gastroenteritis and dehydration in infants); vaccines in immunology |
+| Enteroviruses | Paediatrics (hand, foot and mouth disease; severe infection in neonates); neurology (viral meningitis, encephalitis and paralysis); cardiology (myocarditis) |
+| Hepatitis A virus | Gastroenterology and hepatology (acute hepatitis); travel medicine (vaccination) |
+| Hepatitis E virus | Hepatology (acute hepatitis); obstetrics (hepatitis in pregnancy); transplant medicine (chronic infection) |
+
+## Check your understanding {#sec-entv-quiz}
+
+<div data-island="quiz" data-src="/quizzes/enteric-viruses.quiz.yml"></div>
+
+## Review with flashcards {#sec-entv-cards}
+
+<div data-island="flashcards" data-src="/decks/enteric-viruses.deck.yml"></div>

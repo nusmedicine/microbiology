@@ -1,15 +1,336 @@
 # Comparing the worlds
 
-> *The same six questions have different answers for bacteria, viruses, fungi and parasites, and the differences explain why each is detected, prevented and treated in its own way.*
+> *A drug that cures a bacterial pneumonia does nothing for influenza, and a blood film that shows
+> malaria parasites shows no viruses. The six questions have different answers for bacteria, viruses,
+> fungi and parasites, and those answers explain why each kind of microbe is detected, treated and
+> prevented in its own way.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Compare bacteria, viruses, fungi, protozoa and helminths on each of the six questions, with an
+  anchor organism for each.
+- Explain why antibacterial drugs do not treat viral infection, and why antifungal and antiparasitic
+  drugs are fewer, and some of them more toxic, than antibacterial drugs.
+- Relate the reservoir and route of an infection to whether it is prevented mainly by vaccination,
+  vector control, sanitation or screening.
+- Compare latency, chronic infection and autoinfection as ways in which organisms from different
+  worlds persist in the host.
+- Match each kind of microbe to the laboratory methods that can find it, and explain the match from
+  its structure and growth.
+- Decide the most likely kind of microbe from a patient's story, and use the six questions to make
+  predictions about an organism not met before.
 :::
 
-| Part of the chapter | Plan |
-|---|---|
-| Learning objectives | Compare the four kinds of microbe on each of the six questions; use the comparison to reason about an unfamiliar organism |
-| The comparison | One table: six questions by four kinds of microbe, with an anchor organism in each column |
-| Consequences | Why antibiotics do not treat viral infection; why antifungal and antiparasitic drugs are more toxic; why some infections can be prevented by vaccines and others by vector control |
-| Scenario questions | Mixed questions across all four parts, interleaved, with the most likely kind of microbe as the first decision |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [Six questions, five answers](#sec-cmp-questions)
+  - [The comparison](#sec-cmp-table): bacteria, viruses, fungi, protozoa and helminths side by side
+  - [Three dividing lines](#sec-cmp-lines): cell or not, prokaryote or eukaryote, multiplication in
+    the host
+- [What the differences predict](#sec-cmp-predict)
+  - [Drugs](#sec-cmp-drugs) and [prevention](#sec-cmp-prevent)
+  - [Persistence](#sec-cmp-persist) and [detection](#sec-cmp-detect)
+- [Deciding the kind of microbe](#sec-cmp-kind): clues that separate the worlds and clues that cut
+  across them
+- [Reasoning about an unfamiliar organism](#sec-cmp-unfamiliar): a worked example
+:::
+
+## Six questions, five answers {#sec-cmp-questions}
+
+### The comparison {#sec-cmp-table}
+
+The six questions apply to every kind of microbe (see [*The microbial
+world*](../foundations/microbial-world.qmd#sec-world-six)), and each world answers them in its own
+way. The answers for each world, with its anchor organism (see [*The microbial
+world*](../foundations/microbial-world.qmd#sec-world-anchors)), are:
+
+| Question | Bacteria (*Staphylococcus aureus*) | Viruses (influenza virus) | Fungi (*Candida albicans*) | Protozoa (*Plasmodium falciparum*) | Helminths (*Ascaris lumbricoides*) |
+|---|---|---|---|---|---|
+| What is it built from? | A prokaryotic cell: no nucleus, 70S ribosomes, usually a peptidoglycan wall | Not a cell: a DNA or RNA genome in a protein capsid, sometimes inside a lipid envelope | A eukaryotic cell with a chitin and glucan wall and ergosterol in its membrane | A single eukaryotic cell with no cell wall in its active form; many intestinal protozoa form walled cysts that survive outside the host | A many-celled animal with tissues and organs |
+| How does it get energy, and what does it need to grow? | Its own metabolism; needs for oxygen range from obligate aerobe to obligate anaerobe | None of its own: it uses the host cell's ribosomes, energy and building blocks | Its own metabolism, absorbing nutrients; many fungi grow poorly at 37 °C | Its own metabolism, using nutrients from host cells, blood or gut contents | Its own metabolism, using gut contents, blood or tissue |
+| How does it copy itself and change? | Binary fission; mutation and gene transfer between cells | Assembled from parts made inside a host cell; RNA viruses mutate rapidly, and segmented genomes reassort | Budding in yeasts, spores in moulds; mutation | Repeated division inside the host; some reproduce sexually in a mosquito or other host | Sexual reproduction; eggs or larvae leave the host, and with few exceptions the worms do not multiply inside it |
+| Where does it live, and how does it spread? | Body surfaces, soil, water and food; by contact, air, food, water and arthropods | Multiplies only inside host cells; spreads by respiratory particles, the faecal–oral route, blood and sexual contact, or arthropods | The person's own microbiota, or soil and decaying matter from which spores are inhaled; dermatophytes spread by contact with people and animals, and few other fungi pass from person to person | Blood, gut, tissues or genital tract; by the bite of mosquitoes and other arthropods, cysts in food or water, sexual contact, or across the placenta | Intestine and tissues; eggs or larvae in soil, water or meat, swallowed or entering through the skin |
+| How does damage happen? | Invasion, toxins and the host response ([*How bacteria cause damage*](../bacteria/bacterial-damage.qmd#sec-bdam-source)) | Death of infected cells, the immune response to them, loss of the cells infected, and in some cases cancer ([*Viruses and the host*](../viruses/virus-host.qmd#sec-vhost-damage)) | Invasion when a defence fails; allergy; toxins in food ([*Fungal principles*](../fungi/fungal-principles.qmd#sec-fun-damage)) | Destruction of the cells it lives in, blockage of small vessels, and the host response ([*Protozoa*](../parasites/protozoa.qmd#sec-proto-falciparum)) | Mostly in proportion to the number of worms in the intestine (obstruction, loss of blood and nutrients); larvae or eggs lodged in tissue harm mainly through the host response ([*Helminths*](../parasites/helminths.qmd#sec-helm-burden)) |
+| What does it have that my cells lack? | Peptidoglycan, 70S ribosomes and many bacterial enzymes | A few viral enzymes and other proteins, such as RNA-dependent RNA polymerase and reverse transcriptase | Ergosterol and the chitin and glucan wall | A few parasite pathways, such as the folate synthesis of *P. falciparum* | Worm nerve and muscle ion channels; worm tubulin |
+| Opening chapter | [*How bacteria are built and get energy*](../bacteria/bacteria-build-energy.qmd) | [*How viruses are built and copy themselves*](../viruses/virus-structure-replication.qmd) | [*Fungal principles*](../fungi/fungal-principles.qmd) | [*Life cycles and vectors*](../parasites/life-cycles.qmd) | [*Life cycles and vectors*](../parasites/life-cycles.qmd) |
+
+### Three dividing lines {#sec-cmp-lines}
+
+Three of the answers divide the worlds most sharply, and most of the practical differences between
+them follow from these three:
+
+- Whether the agent is a cell. A virus has no ribosomes and makes no energy, so it is copied only
+  inside a living cell, is too small for the light microscope, and offers drugs only the few enzymes
+  and other proteins it encodes (see [*How viruses are built and copy
+  themselves*](../viruses/virus-structure-replication.qmd#sec-vstr-structure)).
+- Whether the cell is a prokaryote or a eukaryote. A bacterium differs from a human cell in its wall,
+  its ribosomes and many of its enzymes, whereas fungi, protozoa and helminths share most of their
+  machinery with human cells (see [*The microbial
+  world*](../foundations/microbial-world.qmd#sec-world-kinds)).
+- Whether the organism multiplies inside the human host. Bacteria, viruses, fungi and protozoa do, so
+  a small inoculum, the number of organisms received, can become a large infection; most helminths
+  do not, so the number of worms follows the number of eggs or larvae that entered (see [*Life
+  cycles and vectors*](../parasites/life-cycles.qmd#sec-life-kinds)).
+
+The fourth question, where an organism lives and how it spreads, divides the worlds far less. Each
+route of transmission carries organisms from several worlds, which is why the route decides how an
+infection is prevented more than the kind of microbe does ([Prevention](#sec-cmp-prevent)).
+
+::: {.callout-important}
+## Is a virus a very small bacterium?
+Viruses and bacteria are often pictured as smaller and larger versions of the same thing, because
+both are invisible to the eye and both cause fevers, coughs and diarrhoea that can look alike. A
+virus differs from a bacterium in what it is built from, how it gets energy and how it is copied: it
+is not a cell, has no ribosomes and makes no energy, and it is copied only inside a host cell, so it
+does not grow on agar (see [*How viruses are built and copy
+themselves*](../viruses/virus-structure-replication.qmd#sec-vstr-cycle)).
+:::
+
+## What the differences predict {#sec-cmp-predict}
+
+### Drugs: what each kind has that human cells lack {#sec-cmp-drugs}
+
+Every antimicrobial drug depends on **selective toxicity**: harming a microbe without harming the
+host, by acting on something the microbe has and the host lacks (see [*How bacteria are built and get
+energy*](../bacteria/bacteria-build-energy.qmd#sec-bact-glance)). The safe targets become fewer as a
+microbe's machinery comes closer to that of human cells, or, for a virus, as more of its work is done
+by the host cell itself:
+
+| Kind of microbe | What it shares with human cells | What drugs act on | Consequence |
+|---|---|---|---|
+| Bacteria | The genetic code and the basic chemistry of energy | The peptidoglycan wall, 70S ribosomes and bacterial enzymes | Many classes of drug, several of them active against many species |
+| Viruses | Everything it uses to make proteins and energy, which belongs to the host cell | A few viral enzymes and proteins | Few drugs, most of them for one virus or one family; none acts on a viral genome lying silent in a cell |
+| Fungi | Nucleus, mitochondria, 80S ribosomes and enzymes much like human ones | Ergosterol and the wall | Few classes; the polyenes also bind cholesterol and damage the kidney |
+| Protozoa | The machinery of a eukaryotic cell | A few pathways, such as the folate synthesis and haem disposal of *P. falciparum* | Few drugs, each for particular parasites |
+| Helminths | Animal tissues, including nerves and muscles | Worm nerve and muscle ion channels; worm tubulin | Drugs that paralyse intestinal worms, so that they are expelled, or that bind worm tubulin |
+
+Antibacterial drugs do not treat viral infection. A virus has no wall, and its proteins are made on
+the host cell's 80S ribosomes, so drugs aimed at peptidoglycan or the 70S ribosome have nothing in it
+to act on (see [*How viruses are built and copy
+themselves*](../viruses/virus-structure-replication.qmd#sec-vstr-targets)). In a viral illness these
+drugs still act on the resident bacteria, so they add side effects without shortening the illness,
+and every course selects resistant bacteria (see [*How bacteria copy themselves and
+change*](../bacteria/bacterial-genetics.qmd#sec-gen-stewardship)). They help only when a bacterial
+infection follows, as bacterial pneumonia can follow influenza (see [*Detecting viruses and antiviral
+targets*](../viruses/detecting-viruses.qmd#sec-vdet-few)).
+
+::: {.example}
+An antibacterial drug taken for influenza leaves the virus untouched, but it can reduce the vaginal
+bacteria and let *C. albicans*, which the drug spares, overgrow in their place (see [*Fungal
+principles*](../fungi/fungal-principles.qmd#sec-fun-defences)).
+:::
+
+Antifungal and antiparasitic drugs are fewer than antibacterial drugs, and some of them harm the
+patient more. Fungi, protozoa and helminths are eukaryotes, and most drugs that blocked their
+ribosomes, their DNA copying or their energy supply would block the patient's as well, so the drugs
+in use act on the few differences (see [*Fungal
+principles*](../fungi/fungal-principles.qmd#sec-fun-few) and [*Life cycles and vectors*](../parasites/life-cycles.qmd#sec-life-targets)). Where a difference is
+only one of degree, the drug also harms human cells: the polyenes bind ergosterol, but they also bind
+cholesterol. Where the target has no human counterpart, or the parasite's version binds the drug far
+more tightly than the human one, the drug can be well tolerated. The echinocandins act on the fungal
+wall and cause few side effects, and drugs that bind worm tubulin are safe enough to give to whole
+populations of school-age children (see [*Life cycles and
+vectors*](../parasites/life-cycles.qmd#sec-life-control)).
+
+Resistance arises in every world by mutation and selection, and bacteria also acquire it by gene
+transfer (see [*How bacteria copy themselves and
+change*](../bacteria/bacterial-genetics.qmd#sec-gen-hgt)). HIV infection, tuberculosis and falciparum
+malaria, infections from three worlds, are all treated with **combination therapy**: treatment with
+two or more drugs acting on different targets, so that a variant resistant to one is still suppressed
+by the others (see [*Detecting viruses and antiviral
+targets*](../viruses/detecting-viruses.qmd#sec-vdet-resistance)). In each, the organism's population
+in an untreated patient is large enough that variants resistant to a single drug are likely to be
+present, or to arise during treatment, and a single drug would select them. Treatment of
+tuberculosis also lasts months, because *Mycobacterium tuberculosis* grows slowly and some of the
+bacteria divide slowly or barely at all, so drugs kill them only slowly (see [*Atypicals and
+mycobacteria*](../bacteria/atypicals-mycobacteria.qmd#sec-atyp-tuberculosis)).
+
+### Prevention {#sec-cmp-prevent}
+
+Prevention acts on a link in the chain of infection (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-chain)). The link chosen depends on
+where the organism lives between hosts and how it travels, more than on its kind:
+
+| What the infection depends on | Main prevention | Examples |
+|---|---|---|
+| Spread from person to person, with immunity after recovery | A vaccine | Influenza virus, with a vaccine updated each year as the virus changes |
+| A **vector**, an arthropod that carries an organism between hosts | Vector control: bed nets treated with insecticide, insecticide sprayed in homes, removing water in which mosquitoes breed | *P. falciparum*, carried by *Anopheles* mosquitoes; dengue virus, carried by *Aedes* mosquitoes ([*Arthropod-borne viruses*](../viruses/arboviruses.qmd#sec-arbo-dengue)) |
+| Faeces reaching food, water, soil or hands | Sanitation, safe water, and washing hands and food | *A. lumbricoides*; *Giardia duodenalis*; norovirus |
+| A silent infection that lasts for years, carried in blood and genital fluids | Testing of blood donations, pregnant women and people at risk; treatment of those found infected, which also stops sexual spread once the virus is suppressed; condoms; drugs taken before exposure by people at risk; and safe needles | HIV ([*Blood-borne and sexually transmitted viruses*](../viruses/bloodborne-viruses.qmd#sec-bbv-hiv)) |
+| The person's own microbiota | Protecting barriers and the microbiota: care of catheters and wounds, and sparing use of antibacterial drugs | *S. aureus*; *C. albicans* |
+| Soil or water, with no spread between people | Avoiding exposure, especially for people with a host factor such as diabetes | *Burkholderia pseudomallei* |
+
+**Vaccination**, making a host immune without causing disease by giving a vaccine, is in routine use
+against many viruses and bacteria. No vaccine is in routine use against a fungus or a helminth, and
+the malaria vaccines given to young children in parts of Africa give partial protection (see [*Life
+cycles and vectors*](../parasites/life-cycles.qmd#sec-life-control)). The organisms with no
+vaccine, or only a partial one, each show a difficulty:
+
+- The body almost never clears HIV infection, so there is no recovery whose protection a vaccine
+  could copy, and the virus varies widely within and between people (see [*How viruses
+  change*](../viruses/virus-change.qmd#sec-vchg-vaccines)).
+- Partial immunity to *P. falciparum* builds up only after years of repeated infection, and it fades
+  when exposure stops (see [*Protozoa*](../parasites/protozoa.qmd#sec-proto-falciparum)).
+- Invasive fungal infection occurs mainly in people whose defences have already failed, as in
+  advanced HIV infection, in which the CD4 T cells that a response to a vaccine depends on are lost
+  (see [*Fungal principles*](../fungi/fungal-principles.qmd#sec-fun-defences)).
+- People who live where worms are common are infected again and again throughout life, and the number
+  of worms is kept low instead by sanitation and regular treatment (see
+  [*Helminths*](../parasites/helminths.qmd#sec-helm-burden)).
+
+The route also decides who a vaccine protects. Against an organism passed from person to person,
+vaccinating enough people protects the unvaccinated as well (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-measures)). Against an organism caught
+only from soil or water, a vaccine would protect only the person who receives it (see [*Detecting and
+controlling microbes*](../foundations/detection-control.qmd#sec-det-prevent)).
+
+### Persistence {#sec-cmp-persist}
+
+Organisms from every world can stay in the body for years after they arrive. Two of the ways they do
+so are the time courses described for every infection (see
+[*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-courses)): **latent
+infection**, the persistence of an organism in a silent state, with the possibility of reactivation,
+and **chronic infection**, in which infection and inflammation continue for months or years. A third
+is seen in only a few worms, most importantly *Strongyloides stercoralis*: **autoinfection**, the
+reinfection of a host by larvae that mature inside it.
+
+| Way of persisting | What persists, and where | What follows | Examples |
+|---|---|---|---|
+| Carriage in the microbiota | A living population on a body surface, causing no disease | Infection comes from the person's own organisms when a barrier is breached, defences fail or the microbiota is disturbed | *S. aureus* in the nose; *C. albicans* in the gut and vagina |
+| Latency | A silent form that multiplies little or not at all: a viral genome in nerve cells, or bacteria walled into granulomas | Reactivation years later, often when the defences that held it in check fail; drugs cannot clear a latent virus, but latent *M. tuberculosis* can be treated | Herpes simplex virus in sensory nerve cells ([*Viruses and the host*](../viruses/virus-host.qmd#sec-vhost-latency)); *M. tuberculosis* in the lung |
+| Chronic infection | Continuous multiplication despite an immune response | Damage builds up over years, and the person can transmit the organism throughout, often without knowing | HIV, which also persists as DNA integrated into the chromosomes of resting CD4 T cells ([*Viruses and the host*](../viruses/virus-host.qmd#sec-vhost-chronic)) |
+| Autoinfection | Larvae that mature in the gut and reinfect the same person | Infection decades after the person left the place where it was caught; overwhelming infection when drugs suppress the defences | *S. stercoralis* ([*Helminths*](../parasites/helminths.qmd#sec-helm-strongyloides)) |
+| Dormant liver stages | Parasites resting inside liver cells | Relapse of malaria months, and occasionally years, after the first illness; drugs that clear the blood stages leave them untouched | *Plasmodium vivax* and *Plasmodium ovale*; *P. falciparum* forms no dormant liver stage |
+
+Several of these organisms are held in check by **cell-mediated immunity**, the defence by T cells
+against infected cells and against organisms that live inside host cells. When it fails, as CD4 T
+cells are lost in advanced HIV infection, latent *M. tuberculosis* and herpesviruses reactivate (see
+[*Viruses and the host*](../viruses/virus-host.qmd#sec-vhost-cd4)). **Corticosteroids**, drugs that
+suppress inflammation and immune responses, let the larvae of *S. stercoralis* multiply (see
+[*Helminths*](../parasites/helminths.qmd#sec-helm-strongyloides)). A persistent infection that causes
+no symptoms is therefore looked for before such defences are suppressed.
+
+::: {.example}
+Before treatment with drugs that suppress immunity, such as high-dose corticosteroids or the drugs
+given after a transplant, patients are often tested for latent *M. tuberculosis*, for hepatitis B
+virus and, if they have lived where the worm is common, for *S. stercoralis*, so that those found
+infected can be treated before the infection flares.
+:::
+
+### Detection {#sec-cmp-detect}
+
+Microscopy and culture read an organism's structure and growth, which differ most between the
+worlds. A **nucleic acid amplification test (NAAT)**, a test that copies a target sequence many times
+until it can be detected, and **serology**, the detection of a patient's antibodies as evidence of
+exposure, work in the same way for every kind of microbe (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-kinds)).
+
+| Kind of microbe | Seen with a light microscope? | Grown in the laboratory? | Usual first tests | Anchor example |
+|---|---|---|---|---|
+| Bacteria | Yes, after staining: the Gram stain, or the acid-fast stain for mycobacteria; a few, such as *Mycoplasma* and *Chlamydia*, are not seen on a Gram stain | Most grow on agar overnight; *M. tuberculosis* takes weeks, and some bacteria cannot be grown on agar at all | Gram stain and culture of a sample from the site; NAATs for bacteria that grow slowly or not at all ([*Detecting bacteria and testing susceptibility*](../bacteria/detecting-bacteria.qmd)) | *S. aureus*: purple cocci in clusters on a Gram stain of pus, and colonies the next day |
+| Viruses | Not as virions: most are smaller than the light microscope can resolve, though the changes a virus causes in infected cells can sometimes be seen | Only inside living cells, mainly in reference laboratories | NAATs, antigen tests and serology ([*Detecting viruses and antiviral targets*](../viruses/detecting-viruses.qmd#sec-vdet-methods)) | Influenza virus: a NAAT on a swab from the nose or throat |
+| Fungi | Yes: yeast cells and hyphae | Most, from a day or two for yeasts to weeks for some moulds; *Pneumocystis jirovecii* does not grow in routine culture | Microscopy and culture; antigen tests in blood or cerebrospinal fluid, the fluid around the brain and spinal cord ([*Fungal principles*](../fungi/fungal-principles.qmd#sec-fun-methods)) | *C. albicans*: budding cells several times the size of a bacterium on a Gram stain |
+| Protozoa | Yes, in blood or stool | Rarely used for diagnosis | Microscopy of a blood film or a stool sample; antigen tests ([*Life cycles and vectors*](../parasites/life-cycles.qmd#sec-life-detect)) | *P. falciparum*: parasites inside red cells on a stained blood film |
+| Helminths | Eggs and larvae under the microscope; most adult worms by eye | Rarely used for diagnosis | Microscopy of stool for eggs or larvae; serology for larvae hidden in tissue ([*Helminths*](../parasites/helminths.qmd#sec-helm-sentence)) | *A. lumbricoides*: eggs in the stool |
+
+The kind of microbe suspected therefore decides which sample is taken and which test is asked for. A
+Gram stain cannot show a virus, and a blood culture cannot grow *P. falciparum*. Serology finds its
+place in every world where the organism is out of reach of a sample, or persists alongside the
+antibodies, as HIV does.
+
+::: {.example}
+By the time a liver abscess caused by the protozoan *Entamoeba histolytica* appears, the stool often
+contains no parasites, so the laboratory looks for antibodies against it (see
+[*Protozoa*](../parasites/protozoa.qmd#sec-proto-entamoeba)).
+:::
+
+## Deciding the kind of microbe {#sec-cmp-kind}
+
+In a patient's story, some clues separate the kinds of microbe and others cut across them. Clues
+that come from what an organism is built from, how it grows and what drugs act on it separate the
+worlds, because these are the answers that differ most between them:
+
+| Clue | Points towards | Reason |
+|---|---|---|
+| Cells seen on a Gram stain, and colonies on agar within a day or two | A bacterium, or a yeast | Both are cells large enough to stain, with their own metabolism; yeast cells are several times larger than bacteria and bud |
+| A positive NAAT, with nothing seen on a stain and nothing grown on agar | A virus, or a bacterium that cannot be grown on agar | Viruses are too small for the light microscope and multiply only inside living cells |
+| Parasites inside red cells on a blood film | A protozoan | *P. falciparum* multiplies inside red cells |
+| Eggs or larvae in the stool | A helminth | Adult worms in the intestine, or in the bile ducts or the veins of the intestine, release eggs or larvae that reach the stool; the intestinal protozoa pass cysts |
+| **Eosinophilia**, a raised count of eosinophils in the blood | Among infections, a helminth moving through tissue | **Eosinophils** are white blood cells that attack parasites too large to engulf |
+| An illness that does not respond to an antibacterial drug | A virus, a fungus or a parasite, or a bacterium resistant to that drug | Antibacterial drugs act only on bacterial structures |
+
+Clues from the route and from the host narrow the list, but they cut across the worlds:
+
+- A mosquito bite can carry a protozoan, *P. falciparum*, or a virus, such as dengue virus.
+- Food or water contaminated with faeces carries viruses, bacteria, protozoa and helminths.
+- Failing cell-mediated immunity in advanced HIV infection lets organisms from four worlds cause
+  disease: *M. tuberculosis*, herpesviruses, *Cryptococcus neoformans* and *Toxoplasma gondii* among
+  them.
+- **Neutropenia**, an abnormally low neutrophil count, lets both bacteria and fungi through.
+
+A route or a host factor therefore gives a short list of organisms, often from several worlds, and a
+laboratory finding or the response to treatment then decides between them.
+
+::: {.example}
+A traveller with fever after a stay in an area where both malaria and dengue occur could have either
+infection; parasites inside red cells on a blood film place the cause among the protozoa.
+:::
+
+Sort each description below by the kind of microbe it describes. None of them names the organism.
+
+<div data-island="sorter" data-src="/diagrams/worlds-sorter.yml"></div>
+
+## Reasoning about an unfamiliar organism {#sec-cmp-unfamiliar}
+
+The six questions apply equally to an organism met for the first time, in a report from another
+country or in a patient who has travelled. The first answer, the kind of microbe, brings with it
+answers to the other five, each a prediction that can be checked. *Angiostrongylus cantonensis*, the
+rat lungworm, is one such organism.
+
+::: {.example}
+*A. cantonensis* is a roundworm found in South-East Asia and the Pacific islands, among other places.
+The adult worms live in the arteries of the lungs of rats, and their larvae pass out in rat faeces
+and develop in snails and slugs, which rats eat. People are infected by eating raw or undercooked
+snails or slugs, or vegetables contaminated with them, and also by eating raw freshwater prawns, crabs
+or frogs that carry larvae from snails they have eaten. In a person, the larvae travel to the brain
+and its meninges and die there without completing the life cycle.
+:::
+
+::: {.callout-tip collapse="true"}
+## Predict: will a stool sample from an infected person show eggs? (Click to check)
+No. The larvae never become egg-laying adults in a person, and they lodge in the brain, not the gut,
+so nothing reaches the stool. The roundworm *Toxocara*, whose larvae wander through human tissues
+without maturing, gives the same negative stool sample (see
+[*Helminths*](../parasites/helminths.qmd#sec-helm-supporting)).
+:::
+
+For *A. cantonensis*, the **definitive host**, the host in which a parasite reproduces sexually, is
+the rat, and the **intermediate hosts**, hosts in which a parasite develops or multiplies without
+reproducing sexually, are snails and slugs (see [*Life cycles and
+vectors*](../parasites/life-cycles.qmd#sec-life-vectors)). A person is a **dead-end host**, a host
+from which an organism is not passed on, as people are for Japanese encephalitis virus (see
+[*Arthropod-borne viruses*](../viruses/arboviruses.qmd#sec-arbo-supporting)).
+
+| Question | What the description gives | What can be predicted |
+|---|---|---|
+| What is it built from? | A roundworm: a many-celled animal | Far too large for a phagocyte to engulf, so eosinophils are likely to gather around the larvae and to appear in the cerebrospinal fluid |
+| How does it get energy? | Its own metabolism, as for every helminth | Nothing beyond what holds for every helminth |
+| How does it copy itself and change? | Adults reproduce in rats; in a person the larvae do not complete the life cycle | No multiplication in a person, so the number of larvae, and probably the severity, depends on how many were swallowed; no eggs in the stool, and no spread from one person to another |
+| Where does it live, and how does it spread? | Rats are the definitive host and snails and slugs the intermediate hosts; people are infected by eating snails or slugs, or animals that have eaten them | Caught from raw or undercooked snails, slugs, freshwater prawns, crabs or frogs, or unwashed vegetables, so cooking and washing food prevent it; the reservoir is in animals, so it cannot be eradicated, and its control is a One Health problem ([*Transmission, outbreaks and One Health*](../foundations/transmission-outbreaks.qmd#sec-trans-onehealth)) |
+| How does damage happen? | Larvae in the brain and its meninges | **Meningitis**, inflammation of the meninges, the membranes that cover the brain and spinal cord; much of the damage from the host's response to the larvae, as with other helminth larvae lodged in tissue ([*Helminths*](../parasites/helminths.qmd#sec-helm-burden)) |
+| What does it have that my cells lack? | Worm nerve and muscle ion channels; worm tubulin | Drugs that act on worms exist ([*Life cycles and vectors*](../parasites/life-cycles.qmd#sec-life-targets)); killing larvae in the brain might add to the inflammation around them, so whether such a drug helps is a question for clinical studies |
+
+As predicted, the cerebrospinal fluid of people infected with *A. cantonensis* contains many
+eosinophils, and the illness is known as eosinophilic meningitis.
+
+## Check your understanding {#sec-cmp-quiz}
+
+These questions mix bacteria, viruses, fungi and parasites: in each scenario, decide first which kind
+of microbe is most likely.
+
+<div data-island="quiz" data-src="/quizzes/comparing-worlds.quiz.yml"></div>
+
+## Review with flashcards {#sec-cmp-cards}
+
+<div data-island="flashcards" data-src="/decks/comparing-worlds.deck.yml"></div>

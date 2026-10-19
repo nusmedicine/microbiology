@@ -1,0 +1,43 @@
+id: route-c-trachomatis
+title: "Routes through the body: *Chlamydia trachomatis*"
+intro: "Two routes: a silent sexual infection that scars the genital tract, and infection of a neonate during birth. At one step, predict the sites before the answer appears."
+
+routes:
+  - name: "Sexual infection"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Lives in the cervix or urethra of an infected partner, who often has no symptoms and does not know of the infection."
+      - at: genital
+        kind: enters
+        via: direct
+        text: "During sexual contact, elementary bodies reach the cervix, or the urethra in a man, and are taken into its epithelial cells."
+      - at: genital
+        kind: multiplies
+        text: "Inside each cell, reticulate bodies divide and then turn back into elementary bodies, which are released to infect neighbouring cells. The inflammation is often too mild to notice, so the infection persists for months and passes to partners."
+      - at: genital
+        kind: damages
+        text: "In a woman, infection can spread up to the uterus and fallopian tubes: pelvic inflammatory disease. Persistent or repeated inflammation heals by scarring, which narrows or blocks the tubes and causes infertility or an ectopic pregnancy, often in a woman who never had symptoms."
+
+  - name: "From mother to neonate"
+    steps:
+      - at: outside
+        kind: lives
+        text: "The mother carries *C. trachomatis* in her cervix, often without symptoms."
+      - at: [eye, nose-throat]
+        kind: enters
+        via: direct
+        ask: "During a vaginal birth, which sites of the infant does it infect?"
+        options: [eye, nose-throat, skin, brain]
+        answer: [eye, nose-throat]
+        why: "Elementary bodies infect the epithelial cells of mucous membranes, so they settle in the conjunctiva and in the lining of the nose and throat. The skin is covered by keratinised epithelium, which it does not infect, and it is not carried in the blood to the brain."
+        text: "As the infant passes through the birth canal, elementary bodies reach the conjunctiva and the lining of the nose and throat, and enter their epithelial cells."
+      - at: eye
+        kind: damages
+        arrow: false
+        text: "Conjunctivitis, with swollen eyelids and a discharge, appears in the first weeks after birth."
+      - at: alveoli
+        kind: damages
+        via: air
+        arrow: false
+        text: "From the nose and throat, infection can spread down the airway to the lungs, and some infants develop pneumonia in the first months of life."

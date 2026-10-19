@@ -1,0 +1,73 @@
+id: pair-tb-ntm
+title: "Contrast pair: two kinds of mycobacteria, two sources"
+intro: "Both are acid-fast rods with a waxy wall, and both can infect the lung. Read across and find the feature that best tells them apart and explains the other differences."
+
+a:
+  name: "Mycobacterium tuberculosis"
+b:
+  name: "Non-tuberculous mycobacteria"
+
+rows:
+  - feature: "Wall and stain"
+    a: "Waxy wall packed with mycolic acids; acid-fast rods"
+    b: "Waxy wall packed with mycolic acids; acid-fast rods"
+    separates: false
+  - feature: "Where it comes from"
+    a: "Another person: someone with active tuberculosis of the lungs"
+    b: "The environment: water and soil, including the biofilms inside water pipes and showerheads"
+    separates: true
+  - feature: "Passed between people"
+    a: "Yes, through the air, so the contacts of a patient are traced and tested"
+    b: "Not usually, so contacts need no tracing"
+    separates: true
+  - feature: "Who becomes ill"
+    a: "Anyone who inhales it can be infected; active disease is most likely when cell-mediated immunity is immature or fails"
+    b: "People with damaged lungs, a wound or procedure contaminated with water, or advanced HIV infection"
+    separates: true
+  - feature: "Typical disease"
+    a: "Latent infection that can reactivate; active tuberculosis of the lungs with cavities; spread to the meninges in young children"
+    b: "Chronic lung infection in damaged lungs; skin and wound infections after injections, surgery or tattoos"
+    separates: true
+  - feature: "Can infect the lung"
+    a: "Yes, its usual site"
+    b: "Yes, its commonest site of disease in adults"
+    separates: false
+
+question:
+  stem: "Both are acid-fast rods that can infect the lung. Which feature best tells them apart?"
+  options: [0, 1, 5]
+  answer: 1
+  feedback: >
+    Where it comes from. The wall and the stain are the same, and both infect the lung, so neither
+    feature separates them. The source explains the other differences: *M. tuberculosis* comes from
+    another person with active disease, so it spreads through the air and its patients' contacts are
+    traced, while non-tuberculous mycobacteria come from water and soil, are not usually passed between
+    people, and cause disease mainly where a lung is already damaged or a wound lets them in.
+
+principle: >
+  Where a mycobacterium comes from decides who catches it and how its spread is controlled.
+  *M. tuberculosis* lives only in humans, so each infection comes from a person with active disease of
+  the lungs, and public health measures aim at that person and their contacts. Non-tuberculous
+  mycobacteria live in water and soil and seldom pass from person to person, so disease follows an
+  opening for them: damaged lungs, a contaminated wound or procedure, or failing cell-mediated
+  immunity. The two look the same on an acid-fast stain, so the laboratory identifies the species.
+
+sort:
+  - text: "The contacts of the patient are traced and tested for infection"
+    answer: a
+    why: "It passes from person to person through the air: *M. tuberculosis*."
+  - text: "Grows in the biofilm lining a building's water pipes"
+    answer: b
+    why: "A home in water and soil: non-tuberculous mycobacteria."
+  - text: "Red nodules that do not heal appear along a tattoo made with ink diluted in tap water"
+    answer: b
+    why: "Entry through the skin from contaminated water: non-tuberculous mycobacteria."
+  - text: "Reactivates decades after infection, when cell-mediated immunity weakens with age"
+    answer: a
+    why: "Latent infection contained in granulomas, which can reactivate: *M. tuberculosis*."
+  - text: "Infects a surgical wound after the instruments were rinsed with tap water"
+    answer: b
+    why: "Entry through a wound from contaminated water: non-tuberculous mycobacteria."
+  - text: "A man with a cavity in his lung infects members of his household"
+    answer: a
+    why: "Spread from a person with active disease of the lungs: *M. tuberculosis*."

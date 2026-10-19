@@ -1,16 +1,397 @@
 # Enterobacterales
 
-> *How do harmless gut residents and dangerous strains of the same species differ?*
+> *Most people carry one species of Gram-negative rod in the colon all their lives without harm, yet
+> strains of the same species cause bladder infection, bloody diarrhoea and meningitis in the first
+> weeks of life. A small set of extra genes, and the site the bacteria reach, separate the dangerous
+> strains from the harmless residents.*
 
-::: {.callout-note}
-## In preparation
-The layout will match that of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Describe the traits the Enterobacterales share, and explain how lactose fermentation on MacConkey
+  agar sorts them in the laboratory.
+- Explain how extra genes for pili, toxins and a capsule let some strains of *Escherichia coli*, a
+  resident of the colon, cause urinary tract infection, diarrhoea, kidney failure and meningitis in
+  neonates.
+- Explain how its capsule and acquired resistance make *Klebsiella pneumoniae* a cause of hospital
+  infection, and how strains with an extra-thick capsule cause liver abscess outside hospital.
+- Explain how survival inside macrophages lets *Salmonella* Typhi spread from the gut to the blood,
+  and why carriers keep typhoid in circulation.
+- Name the host, setting and route that let each main organism cause disease.
+- Tell *Salmonella* from *Shigella* by infectious dose, reservoir, site of disease and toxin.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-ent-group)
+  - [The group in one sentence](#sec-ent-sentence): what every member shares
+  - [Sorting the group](#sec-ent-key): lactose fermentation, then what each member carries
+- [Main organisms](#sec-ent-main)
+  - [*E. coli*](#sec-ent-ecoli): residents and strains with extra genes
+  - [*K. pneumoniae*](#sec-ent-klebsiella): the capsule and acquired resistance
+  - [*Salmonella*](#sec-ent-salmonella): survival inside macrophages
+- [Contrast pair](#sec-ent-pairs)
+  - [*Salmonella* and *Shigella*](#sec-ent-pair-salmonella-shigella)
+- [Beyond the main organisms](#sec-ent-beyond)
+  - [Supporting organisms](#sec-ent-supporting)
+  - [Later in the course](#sec-ent-later)
+:::
+
+## The group {#sec-ent-group}
+
+### The group in one sentence {#sec-ent-sentence}
+
+The Enterobacterales are Gram-negative rods that grow with or without oxygen, ferment sugars and, in
+many cases, live in the gut of humans and animals, and whether one of them causes disease depends
+largely on the extra genes it carries and the site it reaches. Most of the six questions have one
+answer for the whole group; its members differ mainly in those extra genes.
+
+The name is that of a taxonomic order (see [*A map of the bacteria*](bacteria-map.qmd#sec-map-names)).
+Older sources and some laboratory reports call the group the Enterobacteriaceae, now the name of one
+family within the order.
+
+| Question | Answer for the Enterobacterales |
 |---|---|
-| The group in one sentence | Gram-negative rods that ferment sugars, cope with or without oxygen, and live in the gut |
-| Sorting key | Extra genes (toxins, adhesins, capsules); lactose fermentation as a lab readout |
-| Main organisms | *E. coli* (residents versus strains with extra genes), *Klebsiella* (capsule), *Salmonella* (survival inside cells) |
-| Supporting organisms | *Shigella*, *Proteus*, *Yersinia* |
-| Later in the course | Gut, urinary and bloodstream infections in the organ blocks; resistant strains in pharmacology |
+| What is it built from? | A Gram-negative envelope: thin peptidoglycan under an outer membrane whose lipopolysaccharide (LPS) is endotoxin; most members have flagella and **pili**, short, hair-like protein fibres that attach a bacterium to surfaces, and some a **capsule**, a polysaccharide layer outside the cell wall that resists phagocytosis (see [*How bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-extras)) |
+| How does it get energy? | Facultative anaerobe: respires with oxygen and ferments sugars without it, so it grows overnight on ordinary media; nearly all members are oxidase negative, lacking the respiratory enzyme that the oxidase test detects (see [*A map of the bacteria*](bacteria-map.qmd#sec-map-habitat)) |
+| How does it copy itself and change? | Binary fission, as often as every 20 minutes in good conditions; acquires genes for virulence and for drug resistance on plasmids, phages and pathogenicity islands, and passes them between species |
+| Where does it live, and how does it spread? | The gut of humans and animals; spread by the faecal–oral route in food and water, and on hands, including between patients in hospital; some members live only in humans |
+| How does damage happen? | Endotoxin in the blood drives inflammation and shock; beyond that, each organism has its own tools: pili, toxins, a capsule, or survival inside cells |
+| What does it have that my cells lack? | A peptidoglycan wall and the enzymes that build it, the targets of the drugs most used against the group |
+
+Every member carries endotoxin in its outer membrane (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-envelope)). When the bacteria multiply in the blood,
+endotoxin drives widespread inflammation with dilated, leaky vessels, and the resulting
+**hypotension**, abnormally low blood pressure, can progress to shock (see [*How bacteria cause
+damage*](bacterial-damage.qmd#sec-bdam-endotoxin)). *E. coli* and *Klebsiella* are the commonest
+Gram-negative causes of bloodstream infection, which usually begins in an infected urinary tract,
+abdomen or lung.
+
+The members also share genes. In the gut, *E. coli*, *Klebsiella* and their relatives live side by
+side, and plasmids pass between them by conjugation (see [*How bacteria copy themselves and
+change*](bacterial-genetics.qmd#sec-gen-hgt)). A gene for resistance that one species acquires can
+therefore appear in another, so resistance in one member soon becomes a problem for the whole group.
+
+### Sorting the group {#sec-ent-key}
+
+All members ferment glucose, but only some ferment lactose. The laboratory reads the difference on
+**MacConkey agar**, a medium containing bile salts, which suppress most Gram-positive bacteria, and
+lactose with a dye that turns pink in acid. Gut bacteria tolerate bile, so they grow on it, and the
+acid made by lactose fermenters turns their colonies pink. MacConkey agar is therefore both a
+selective and a differential medium (see [*Detecting bacteria and testing
+susceptibility*](detecting-bacteria.qmd#sec-dbac-culture)).
+
+Lactose fermentation says little about how an organism causes disease, but it helps the laboratory
+find pathogens among the residents. Most *E. coli* ferment lactose, so a stool sample gives many pink
+colonies, and the pale colonies of *Salmonella* and *Shigella*, which do not ferment lactose, stand
+out among them. Beyond the colour of the colony, we sort the members by the traits that let them
+cause disease, because those traits also predict where the disease occurs.
+
+::: {.concept-tree}
+[Sorting the Enterobacterales]{.tree-title}
+
+- Ferment lactose: pink colonies on MacConkey agar
+  - Flagella; strains differ in extra genes for pili, toxins and a capsule: *E. coli*
+  - A thick capsule and no flagella: *K. pneumoniae*
+- Do not ferment lactose: pale colonies
+  - Survives inside macrophages: *Salmonella*
+  - Invades the lining of the colon, and a few bacteria are enough: *Shigella*
+  - Splits urea and infects the urinary tract: *Proteus mirabilis*
+  - Grows in chilled food and infects the gut: *Yersinia enterocolitica*
+:::
+
+What a member carries predicts where it causes disease and who is most at risk:
+
+| What it carries | Where it causes disease | Who is most at risk |
+|---|---|---|
+| Pili that hold the bacteria on the lining of the bladder and, in strains with extra genes, the kidney (*E. coli*) | The bladder and, if the bacteria climb further, the kidney | Women, whose urethra is short; people with a urinary catheter |
+| Toxins that act on the gut (some *E. coli*; *Shigella dysenteriae* type 1) | The gut; one of these toxins also damages the kidney | Travellers and young children who swallow food or water contaminated with faeces |
+| A thick capsule (*K. pneumoniae*; some *E. coli*) | The lungs, the urinary tract and the blood, where the capsule resists phagocytes | Hospital patients with breathing tubes, catheters or weakened defences |
+| Survival inside macrophages (*Salmonella*) | The lining of the gut; for *Salmonella* Typhi, the lymph nodes, liver, spleen and blood | Anyone who swallows enough bacteria; *S.* Typhi spreads beyond the gut in healthy people, other *Salmonella* mainly in infants, older adults and people with weakened defences |
+| Invasion of the lining of the colon (*Shigella*) | The colon, where it causes **dysentery**, diarrhoea with blood in the stool | Young children, and anyone in close contact with a patient |
+
+Work through the key from the colour of the colonies, and read at each branch what the trait
+predicts about the organism.
+
+<div data-island="sorting-key" data-src="/diagrams/ent-key.yml"></div>
+
+## Main organisms {#sec-ent-main}
+
+### *Escherichia coli*: residents and strains with extra genes {#sec-ent-ecoli}
+
+*E. coli*, one of the anchor organisms (see [*The microbial
+world*](../foundations/microbial-world.qmd#sec-world-anchors)), colonises the gut in the first days
+of life and stays in the colon of most people for life. It is the commonest facultative anaerobe
+there, respiring with oxygen and fermenting without it, although obligate anaerobes such as
+*Bacteroides fragilis* outnumber it many times over (see [*How bacteria are built and get
+energy*](bacteria-build-energy.qmd#sec-bact-body)).
+
+Most resident strains are **commensals**, organisms that live on a host without harming it. Strains
+that cause disease carry extra genes that the residents lack, acquired by gene transfer: on plasmids,
+in prophages built into the chromosome, or in pathogenicity islands, clusters of virulence genes
+acquired together (see [*How bacteria copy themselves and
+change*](bacterial-genetics.qmd#sec-gen-hgt)). Each set of extra genes suits a strain to a particular
+site in the body, and the site decides the disease.
+
+Disease-causing strains come from inside or outside the body. Strains that cause urinary tract and
+bloodstream infection come from the person's own gut, so these are **endogenous infections**,
+infections caused by an organism the person already carries. A **neonate**, a newborn infant in the
+first four weeks of life, acquires its first *E. coli* from the mother during birth, and with it any
+strain able to invade its blood. Strains that cause diarrhoea come from outside, swallowed in food or water
+contaminated with faeces (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)).
+
+A **urinary tract infection** is an infection of the bladder (**cystitis**) or of the kidney
+(**pyelonephritis**), and *E. coli* is its commonest cause. Bacteria from the gut reach the skin
+around the opening of the urethra and climb the urethra into the bladder. The female urethra is
+short, so women are infected far more often than men, and a urinary catheter gives bacteria a path
+in either sex. The flow of urine washes out bacteria that cannot hold on. Most *E. coli* have pili
+tipped with **adhesins**, bacterial surface molecules that bind a specific molecule on a host cell or
+in the tissue around it, and these adhesins bind the cells lining the bladder (see [*How bacteria
+cause damage*](bacterial-damage.qmd#sec-bdam-attach)). Strains that cause urinary infection carry
+extra genes as well, among them genes for further pili whose adhesins bind the lining of the upper
+urinary tract and kidney, which favours pyelonephritis.
+
+Strains that cause diarrhoea carry genes for toxins. Some attach to the lining of the small intestine
+and release **enterotoxins**, toxins that act on the gut, which make its cells secrete salt and
+water; the bacteria do not invade, and the diarrhoea is watery. Others carry a prophage encoding
+**Shiga toxin**, a toxin that enters cells and stops them making protein, which kills them, together
+with a pathogenicity island for attaching tightly to the lining of the colon (see [*How bacteria copy
+themselves and change*](bacterial-genetics.qmd#sec-gen-phage)). Cattle carry these strains in the
+gut without illness, and people are infected from undercooked minced beef, unpasteurised milk and
+vegetables contaminated with cattle faeces, and then from one another, because a small number of
+bacteria is enough.
+
+Shiga toxin kills cells of the colon lining and of the small blood vessels in its wall, so the
+diarrhoea becomes bloody. The toxin, without the bacteria, then enters the blood and damages the
+lining of small vessels elsewhere, above all in the kidney. In a minority of patients, most often
+young children, the result is **haemolytic uraemic syndrome**: destruction of red blood cells, a fall
+in platelets, and kidney failure, as the damaged small vessels fill with clots. Antibacterial drugs
+are generally avoided when Shiga-toxin-producing *E. coli* is suspected, because they may increase
+the release of toxin and the risk of haemolytic uraemic syndrome; care is supportive.
+
+A neonate's immature defences may fail to contain the strains it meets at birth. **Meningitis** is
+inflammation of the meninges, the membranes that cover the brain and spinal cord. Most of the strains
+that cause it in neonates share one kind of polysaccharide capsule, which protects them in the blood
+until they cross into the meninges. *E. coli* and group B streptococcus are the two commonest causes
+of meningitis in neonates (see [*Gram-positive cocci*](gram-positive-cocci.qmd#sec-gpc-supporting)).
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Urinary tract infection | Strains from the person's own gut climb the urethra; pili hold them on the bladder lining against the flow of urine | Cystitis in a young woman, with pain on passing urine and frequent urination; pyelonephritis, with fever and pain in the loin, if the bacteria climb to the kidney |
+| Watery diarrhoea | Swallowed strains attach to the lining of the small intestine and release enterotoxins, which make its cells secrete salt and water; the bacteria do not invade | Travellers' diarrhoea, a few days after arriving where sanitation is poor |
+| Bloody diarrhoea and kidney failure | Strains from cattle attach to the lining of the colon and release Shiga toxin, which kills cells of the lining and of small vessels; the toxin reaches the kidney in the blood | Bloody diarrhoea in a young child after a barbecue, followed a week later by haemolytic uraemic syndrome |
+| Meningitis in a neonate | Strains with a particular capsule, met at birth, survive in the blood and cross into the meninges | Meningitis in a neonate, with bacteria in the blood as well |
+| Bloodstream infection | Bacteria from an infected urinary tract or abdomen enter the blood, where endotoxin drives inflammation that can cause shock | **Bacteraemia**, bacteria in the bloodstream, with fever and hypotension in an older adult with pyelonephritis |
+
+*E. coli* also shows how resistance spreads in the group. Many of the drugs used against the group
+are **beta-lactams**, a family of drugs, named for the ring of atoms at their core, that block the
+building of the peptidoglycan wall; the family includes the penicillins, the cephalosporins and the
+carbapenems. A **beta-lactamase** is an enzyme that breaks down beta-lactams by opening that ring.
+Many strains of *E. coli* have acquired an **extended-spectrum beta-lactamase (ESBL)**, a
+beta-lactamase that destroys most penicillins and cephalosporins but not carbapenems. ESBL genes are
+carried on plasmids, so they spread between strains and species in the gut (see [*How bacteria copy
+themselves and change*](bacterial-genetics.qmd#sec-gen-mechanisms)). A person can carry an
+ESBL-producing strain in the gut without symptoms, and when that strain later causes a urinary or
+bloodstream infection, the penicillins and cephalosporins usually used no longer work; the same
+plasmids often carry genes for resistance to other drug classes as well. Infections with these
+strains are often treated with carbapenems, and that use in turn selects bacteria that make a
+**carbapenemase**, a beta-lactamase that also destroys carbapenems
+(see [*K. pneumoniae*](#sec-ent-klebsiella)).
+
+Three conditions let *E. coli* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | For urinary infection, a woman, or anyone with a urinary catheter; for diarrhoea, a traveller or a young child; for meningitis, a neonate | The short female urethra and a catheter give gut bacteria a path to the bladder; travellers and young children swallow food or water contaminated with faeces where sanitation is poor; a neonate's defences are immature |
+| Where (setting) | The person's own gut; for diarrhoeal strains, food or water contaminated with human or cattle faeces | Strains with the extra genes for urinary infection already live in the colon; diarrhoeal strains are swallowed |
+| How (route) | Up the urethra to the bladder; swallowed into the gut; from the mother at birth into a neonate's blood | Pili hold the bacteria on the bladder lining; toxins act on the gut and, for Shiga toxin, the kidney; a capsule protects the bacteria in the blood |
+
+::: {.callout-important}
+## Is *E. coli* a food-poisoning bacterium?
+News reports of outbreaks and food recalls name *E. coli* so often that the bacterium is commonly
+equated with food poisoning. Most *E. coli* are commensals of the healthy gut, and the outbreaks are
+caused by a few strains with extra genes, such as those that make Shiga toxin. Drinking water and
+food are tested for *E. coli* because it lives in the gut of people and other warm-blooded animals
+and is easy to grow. Finding it shows that faeces have reached the water or food, and with them any
+pathogens the faeces carry.
+:::
+
+Step through the two routes *E. coli* takes: from the gut to the bladder and the blood, and from
+cattle to the colon and the kidney.
+
+<div data-island="body-map" data-src="/diagrams/route-e-coli.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/ent-profile-e-coli.yml"></div>
+
+### *Klebsiella pneumoniae*: the capsule and acquired resistance {#sec-ent-klebsiella}
+
+*K. pneumoniae* lives in the gut, and sometimes the throat, of some healthy people, and in water and
+soil. It has no flagella and is wrapped in a thick capsule, which makes its colonies large,
+wet-looking and sticky. In a healthy person it seldom causes disease. Outside hospital it can cause
+severe pneumonia in people with alcohol dependence or diabetes, the disease that gave the species its
+name. In hospital it is one of the commonest causes of **healthcare-associated infection**, infection
+acquired in the course of medical care. Patients given antibacterial drugs lose part of their
+resident microbiota and are colonised by it more often (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-microbiota)), and it passes between patients on the
+hands of staff and on shared equipment. Its main targets are the lungs of
+patients on a ventilator, the bladder of patients with a urinary catheter, and the blood.
+
+*K. pneumoniae* resists some penicillins from the start, because every strain carries a
+beta-lactamase gene on its chromosome. This is **intrinsic resistance**, resistance that is a
+property of a whole species. On top of it, *K. pneumoniae* acquires plasmids carrying ESBL and
+carbapenemase genes, and passes them to *E. coli* and other members of the group. Carbapenem-resistant
+strains have spread through hospitals in many countries, leaving few drugs that still act on them.
+Their spread is limited by hand hygiene, by finding and isolating the patients who carry them, and by
+careful use of antibacterial drugs (see [*How bacteria copy themselves and
+change*](bacterial-genetics.qmd#sec-gen-stewardship)).
+
+A second kind of *K. pneumoniae* causes disease outside hospital, in people with no device. These
+strains are **hypervirulent**, able to cause severe, invasive disease in healthy people, unlike most
+strains of the species. They carry extra genes, many of them on one plasmid, that make an extra-thick
+capsule and molecules that capture iron from host proteins. They cause a liver abscess, and are
+thought to reach the liver from the gut, in the portal vein. From the abscess,
+bacteria enter the blood and can settle in the lungs, the meninges or the eye, where they cause
+**endophthalmitis**, infection inside the eye, which can destroy sight. In East and South-East Asia,
+including Singapore, *K. pneumoniae* is the commonest cause of liver abscess caused by bacteria. Many
+patients have diabetes, which impairs neutrophil function (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-factors)), but the infection also occurs in people
+with no underlying disease.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Hospital pneumonia | Bacteria from the throat pass along a breathing tube into the lungs; the capsule resists phagocytes in the alveoli | Pneumonia in a patient on a ventilator in intensive care |
+| Urinary and bloodstream infection | Bacteria travel along a urinary catheter to the bladder, and from an infected site into the blood, where endotoxin drives shock | Bacteraemia from a carbapenem-resistant strain in a patient with a long-term urinary catheter |
+| Liver abscess and spread from it | Hypervirulent strains reach the liver, probably from the gut; the extra-thick capsule resists phagocytes, and bacteria seed the blood | A liver abscess in a man with diabetes in Singapore, followed by endophthalmitis |
+
+Three conditions let *K. pneumoniae* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A hospital patient with a breathing tube, a urinary catheter or weakened defences; for hypervirulent strains, an adult in East or South-East Asia, often with diabetes | Tubes and catheters bypass the barriers that keep bacteria out; the extra-thick capsule protects hypervirulent strains even when defences are intact, and diabetes impairs neutrophils |
+| Where (setting) | Hospitals, especially intensive care units; for hypervirulent strains, the community | Antibacterial drugs reduce the resident microbiota, so patients are colonised; hands and equipment carry it between patients |
+| How (route) | From the throat along a breathing tube to the lungs; along a catheter to the bladder; for hypervirulent strains, from the gut to the liver | The capsule resists phagocytes wherever the bacteria arrive |
+
+Step through the two routes *K. pneumoniae* takes: in a hospital patient, and from the gut to the
+liver and the eye.
+
+<div data-island="body-map" data-src="/diagrams/route-k-pneumoniae.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/ent-profile-k-pneumoniae.yml"></div>
+
+### *Salmonella*: survival inside macrophages {#sec-ent-salmonella}
+
+*Salmonella* has flagella and does not ferment lactose, and it is divided into many **serotypes**,
+variants distinguished by their surface antigens, here those of the LPS and the flagella. It injects
+proteins into the cells lining the gut that make them engulf it. Macrophages that engulf it fail to
+kill it, and it survives and multiplies inside them (see [*How bacteria cause
+damage*](bacterial-damage.qmd#sec-bdam-evade)). *Salmonella* is therefore a **facultative
+intracellular** bacterium, able to live both inside and outside host cells, unlike most members of
+the group, which grow outside them (see [*A map of the bacteria*](bacteria-map.qmd#sec-map-where)).
+What follows depends on the serotype.
+
+One serotype, *S.* Typhi, spreads from the gut through the whole body and causes typhoid. Most of the
+others are grouped as non-typhoidal *Salmonella*. They live in the gut of poultry, cattle, pigs and
+reptiles, so infection with them is a **zoonosis**, an infection transmitted from animals to humans
+(see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-chain)). People are infected from
+undercooked poultry, eggs and meat, from unpasteurised milk, and from other food contaminated by these
+in the kitchen. Stomach acid kills many of the bacteria swallowed, so infection usually needs a large
+**inoculum**, the number of organisms received (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-factors)); the bacteria reach such numbers when
+contaminated food is left warm. They invade the lining of the end of the small intestine and the
+colon, and the inflammation they provoke causes **gastroenteritis**, inflammation of the stomach and
+intestines that causes vomiting, diarrhoea or both, here mainly diarrhoea, with fever and abdominal
+cramps. It usually begins a day or two after the meal and settles within a week, although the
+bacteria are shed in the faeces for some weeks. In infants, older adults and people with weakened
+defences, the bacteria can enter the blood.
+
+*S.* Typhi lives only in humans. It spreads in food or water contaminated with the faeces of a
+patient or of a **carrier**, a person who harbours and can transmit an organism without being ill, so
+it is common where sanitation and water treatment are poor, notably in South Asia, and travellers
+acquire it there. *S.* Typhi crosses the lining of the small intestine with little inflammation,
+often over the patches of lymphoid tissue in its wall (Peyer's patches).
+Macrophages engulf it, but it survives and multiplies inside them, and they carry it to the lymph
+nodes that drain the gut and then, in the blood, to the liver, the spleen and the bone marrow, organs
+rich in macrophages. One to two weeks after the bacteria were swallowed, they pour into the blood
+again and a sustained fever begins. Diarrhoea is often absent. From the liver, bacteria pass in the
+bile back into the gut, where the infected lymphoid patches can ulcerate, bleed or perforate.
+
+This illness is **enteric fever**, a fever caused by *S.* Typhi, or by the related Paratyphi
+serotypes, spreading from the gut through the lymph nodes, liver, spleen and blood. Enteric fever
+caused by *S.* Typhi is **typhoid fever**. A small proportion of patients, more often those with
+gallstones, go on to carry *S.* Typhi in the gallbladder for years, shedding it in their faeces
+without being ill, and a carrier who prepares food can infect many people.
+
+Humans are the only reservoir of *S.* Typhi, so safe water, sanitation and the treatment of carriers
+could in principle eradicate it; non-typhoidal serotypes, which live in animals, cannot be eradicated
+in this way (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-chain)).
+Vaccines against typhoid, made from the capsular polysaccharide of *S.* Typhi, alone or linked to a
+protein, or from live attenuated bacteria taken by mouth, are given to travellers and used where
+typhoid is common (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-prevent)). They protect only partly against
+*S.* Typhi, and not reliably against the Paratyphi serotypes or the non-typhoidal serotypes.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Gastroenteritis | Non-typhoidal serotypes invade the lining of the end of the small intestine and the colon; neutrophils gather and the inflamed lining leaks fluid | Diarrhoea, fever and cramps in guests a day after a meal of undercooked chicken |
+| Spread to the blood | Non-typhoidal bacteria that cross the gut lining reach the blood when the host's defences cannot contain them | Bacteraemia in an infant or an older adult after gastroenteritis |
+| Enteric fever | *S.* Typhi survives inside macrophages, which carry it to the lymph nodes, liver, spleen and bone marrow, and then into the blood | A fever that rises day by day in a traveller back from South Asia |
+| Chronic carriage | *S.* Typhi persists in the gallbladder, often on gallstones, and is shed in the faeces | A cook who feels well but is the source of an outbreak of typhoid |
+
+Three conditions let *Salmonella* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | For gastroenteritis, anyone who swallows enough bacteria, with spread to the blood in infants, older adults and people with weakened defences; for typhoid, anyone without immunity where sanitation is poor, including travellers | Stomach acid kills many swallowed bacteria, so the inoculum matters; weaker defences fail to contain the bacteria that cross the gut lining |
+| Where (setting) | For non-typhoidal serotypes, food from animals, especially poultry and eggs, left warm; for *S.* Typhi, food or water contaminated with human faeces | Non-typhoidal serotypes live in animals and multiply in warm food; *S.* Typhi lives only in humans, patients and carriers |
+| How (route) | Swallowed; across the lining of the small intestine and into macrophages | It survives and multiplies inside macrophages, which carry it to the lymph nodes and the blood |
+
+Step through the two routes *Salmonella* takes: non-typhoidal serotypes in the gut, and *S.* Typhi
+through the whole body.
+
+<div data-island="body-map" data-src="/diagrams/route-salmonella.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/ent-profile-salmonella.yml"></div>
+
+## Contrast pair {#sec-ent-pairs}
+
+### *Salmonella* and *Shigella* {#sec-ent-pair-salmonella-shigella}
+
+*Shigella* lives only in the human gut. It invades the cells lining the colon, kills them and spreads
+from cell to cell, causing dysentery. Its **infectious dose**, the inoculum needed to cause infection,
+is very small: as few as 10 to 100 *Shigella* bacteria can cause it, while non-typhoidal
+*Salmonella* usually needs far more. Neither ferments lactose, so their colonies look alike on
+MacConkey agar, and both are swallowed. Compare them feature by feature before reading the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-salmonella-shigella.yml"></div>
+
+## Beyond the main organisms {#sec-ent-beyond}
+
+### Supporting organisms {#sec-ent-supporting}
+
+| Organism | Where it lives | What separates it | Why it matters |
+|---|---|---|---|
+| *Shigella* | The human gut only | Does not ferment lactose and has no flagella; as few as 10 to 100 bacteria cause infection; invades the cells lining the colon and spreads from cell to cell; one serotype, *Shigella dysenteriae* type 1, makes Shiga toxin | Dysentery, spread from person to person in households and childcare centres, by sexual contact, and where sanitation is poor |
+| *Proteus mirabilis* | The gut | Does not ferment lactose; spreads in a film across the surface of agar plates; makes **urease**, an enzyme that splits urea into ammonia and carbon dioxide; the ammonia makes urine alkaline | Urinary tract infection, especially with a long-term urinary catheter; minerals crystallise from alkaline urine as stones, which shelter the bacteria and can block the catheter |
+| *Yersinia enterocolitica* | The gut of pigs and other animals | Does not ferment lactose; grows at refrigerator temperatures, so it multiplies in chilled food | Diarrhoea and fever after undercooked pork or unpasteurised milk; in older children, inflamed lymph nodes beside the end of the small intestine, with pain that can be mistaken for appendicitis |
+
+### Later in the course {#sec-ent-later}
+
+| Organism | Where it comes up again |
+|---|---|
+| *E. coli* | Renal medicine and urology (urinary tract infection); gastroenterology and paediatrics (diarrhoea and haemolytic uraemic syndrome); neonatology (meningitis and bloodstream infection); resistant strains in pharmacology |
+| *K. pneumoniae* | Respiratory medicine and intensive care (pneumonia and bloodstream infection); hepatology (liver abscess); ophthalmology (endophthalmitis); infection control and pharmacology (carbapenem resistance) |
+| *Salmonella* | Gastroenterology (gastroenteritis); infectious diseases and travel medicine (enteric fever); public health (food safety and carriers) |
+| *Shigella* | Gastroenterology and paediatrics (dysentery) |
+| *Proteus mirabilis* | Urology (urinary tract infection and stones) |
+| *Yersinia enterocolitica* | Gastroenterology (diarrhoea, and pain that mimics appendicitis) |
+
+## Check your understanding {#sec-ent-quiz}
+
+<div data-island="quiz" data-src="/quizzes/enterobacterales.quiz.yml"></div>
+
+## Review with flashcards {#sec-ent-cards}
+
+<div data-island="flashcards" data-src="/decks/enterobacterales.deck.yml"></div>

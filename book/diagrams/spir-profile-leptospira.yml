@@ -1,0 +1,40 @@
+id: spir-profile-leptospira
+name: "Leptospira"
+group: "Spirochaete · carried in the kidneys of rats and other animals · caught from water and soil"
+intro: "Predict two of the five slots. Most of what this bacterium does follows from where it lives: in animals, which shed it into water and soil, so people meet it by accident."
+
+slots:
+  - slot: identity
+    entry: "A thin, tightly coiled spirochaete with hooked ends and flagella beneath its outer membrane. It needs oxygen and grows only slowly, over weeks, in special media, so infection is confirmed by a NAAT on blood in the first week and by serology later."
+  - slot: lifestyle
+    entry: "Lives in the kidneys of rats, which carry it without becoming ill, and of other mammals, including dogs, pigs and cattle, all of which shed it in their urine for long periods. It survives for weeks or months in fresh water and moist soil, and enters people through cuts, softened skin or mucosa. People rarely pass it to one another."
+  - slot: harm
+    predict:
+      stem: "Most people with leptospirosis have a short illness with fever and muscle pain. Which finding would most suggest that the disease has become severe?"
+      options:
+        - text: "Yellowing of the skin and eyes, with a rising blood creatinine"
+          correct: true
+          feedback: "Jaundice and kidney failure show that the bacteria have damaged the liver, the kidney and their small blood vessels. Pulmonary haemorrhage can follow, and is the most dangerous complication."
+        - text: "A painless ulcer where the bacteria entered"
+          correct: false
+          feedback: "*Leptospira* leaves no lesion where it enters: it moves straight on through the tissue into the blood. A painless ulcer at the site of entry is the chancre of syphilis."
+        - text: "Red eyes without pus or discharge"
+          correct: false
+          feedback: "Conjunctival suffusion is common in the first days of ordinary, mild leptospirosis. Severe disease shows itself as jaundice, kidney failure and bleeding."
+    entry: "Spreads in the blood to every organ in the first week: fever, headache, muscle pain, especially in the calves, and red eyes. Most infections are mild. In a minority, damage to small blood vessels and to the liver and kidney causes jaundice, kidney failure and bleeding, including pulmonary haemorrhage, which can be fatal."
+  - slot: consequence
+    predict:
+      stem: "Cases of leptospirosis in a city rise in the weeks after heavy flooding. What best explains the rise?"
+      options:
+        - text: "Flood water carries rat urine to where people wade and clean up, and the bacteria enter through cuts and mucosa"
+          correct: true
+          feedback: "The bacteria survive for weeks in warm water. Floods spread contaminated water through streets and homes, and the illness follows one to two weeks after exposure."
+        - text: "Mosquitoes breeding in the flood water carry the bacteria between people"
+          correct: false
+          feedback: "Leptospirosis has no insect vector. People are infected directly from water or soil contaminated with animal urine."
+        - text: "People infected in the flood pass the bacteria to their families"
+          correct: false
+          feedback: "Passage from person to person is rare. Each case comes from the contaminated environment, which is why cases cluster after floods."
+    entry: "Leptospirosis follows exposure to contaminated water and soil, so it rises after heavy rain and floods and among people whose work or recreation takes them into fresh water, drains or wet fields. It is prevented by covering cuts, wearing boots and gloves, and controlling rats. It is acquired in Singapore and is common across South-East Asia."
+  - slot: contrast
+    entry: "*Treponema pallidum*: also a spirochaete, but it lives only in humans, passes by sexual contact and across the placenta, and causes an infection that lasts for years."

@@ -1,0 +1,153 @@
+id: enteric-viruses
+title: "Check your understanding: viruses spread by the faecal–oral route"
+questions:
+  - id: ev1
+    stem: "Most viruses spread by the faecal–oral route have no envelope. Which explanation best accounts for this?"
+    options:
+      - text: "A capsid without an envelope withstands drying and bile, which disrupt a lipid envelope, as well as stomach acid"
+        correct: true
+        feedback: "To pass from one gut to the next, a virus must survive drying on hands and surfaces, the acid of the stomach and the bile of the intestine. Drying and bile disrupt a lipid envelope, and a capsid without one withstands all three, so the viruses that spread this way are mostly non-enveloped."
+      - text: "Non-enveloped viruses multiply in water and food while they wait to be swallowed"
+        correct: false
+        feedback: "Viruses multiply only inside living cells. Non-enveloped viruses survive in water and food without multiplying, until they are swallowed."
+      - text: "Only non-enveloped viruses can attach to the cells lining the gut"
+        correct: false
+        feedback: "Attachment depends on a viral protein binding a receptor on the cell, and enveloped viruses carry such proteins too. What the faecal–oral route demands is survival in acid, bile and the environment on the way."
+      - text: "Enveloped viruses are too large to be swallowed"
+        correct: false
+        feedback: "Size does not stop a virus being swallowed. Enveloped viruses fail on this route because drying and bile disrupt their lipid envelope."
+  - id: ev2
+    stem: "On the third day of a cruise, 40 passengers and 6 crew develop sudden vomiting and watery diarrhoea, beginning about a day after one passenger vomited in the dining room. Most recover within two days. Alcohol hand rub dispensers stand at every door. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Norovirus"
+        correct: true
+        feedback: "Sudden vomiting in adults, spreading within a day or two and lasting a day or two, fits norovirus. Very few particles are needed, vomiting sprays them over surfaces, and alcohol rub is less reliable against this non-enveloped virus than soap and water."
+      - text: "Rotavirus"
+        correct: false
+        feedback: "Rotavirus causes severe illness mainly in infants and young children, because a first infection leaves immunity against severe disease. An outbreak of vomiting among adult passengers and crew points to norovirus."
+      - text: "Hepatitis A virus"
+        correct: false
+        feedback: "Illness from hepatitis A virus begins weeks after exposure, because the virus must reach the liver and multiply there, and jaundice is its sign. Vomiting a day after exposure points to a virus that harms the gut where it arrives: norovirus."
+      - text: "Enterovirus A71"
+        correct: false
+        feedback: "Enterovirus A71 causes hand, foot and mouth disease in young children, with ulcers in the mouth and blisters on the hands and feet. Vomiting and diarrhoea in adults point to norovirus."
+  - id: ev3
+    stem: "A 10-month-old boy who has not been vaccinated has had fever, vomiting and watery diarrhoea for four days. He has sunken eyes, a dry mouth and few wet nappies. Two other infants at his childcare centre had a similar illness last week. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Rotavirus"
+        correct: true
+        feedback: "An unvaccinated infant with fever, vomiting and several days of watery diarrhoea leading to dehydration fits a first rotavirus infection, which is the most severe. The virus spreads readily among infants in childcare on hands and toys."
+      - text: "Norovirus"
+        correct: false
+        feedback: "Norovirus is also a common cause of gastroenteritis in young children and can last several days in infants, so the two overlap at the bedside. In an unvaccinated infant meeting rotavirus for the first time, fever with four days of watery diarrhoea and dehydration makes rotavirus the more likely cause."
+      - text: "Hepatitis A virus"
+        correct: false
+        feedback: "In young children hepatitis A virus often causes no symptoms, and its target is the liver. Several days of watery diarrhoea with dehydration point to rotavirus."
+      - text: "Coxsackievirus A16"
+        correct: false
+        feedback: "This enterovirus multiplies in the gut but causes little illness there; its signs are ulcers in the mouth and blisters on the hands and feet. Watery diarrhoea and dehydration point to rotavirus."
+  - id: ev4
+    stem: "A 3-year-old at a preschool has a fever, painful ulcers in her mouth that stop her eating, and small blisters on her palms and soles. Several classmates have had the same illness this week. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "An enterovirus, such as coxsackievirus A16"
+        correct: true
+        feedback: "Ulcers in the mouth and blisters on the palms and soles of a preschool child are hand, foot and mouth disease, caused mainly by coxsackie A viruses, such as coxsackievirus A16, and by enterovirus A71. The virus multiplies in the throat and the gut wall and reaches the skin and mouth in the blood."
+      - text: "Rotavirus"
+        correct: false
+        feedback: "Rotavirus does its harm in the small intestine, causing watery diarrhoea in young children. Blisters on the hands and feet point to an enterovirus."
+      - text: "Norovirus"
+        correct: false
+        feedback: "Norovirus causes vomiting and diarrhoea and does not cause a rash. Blisters on the hands and feet with ulcers in the mouth point to an enterovirus."
+      - text: "Hepatitis A virus"
+        correct: false
+        feedback: "Hepatitis A virus targets the liver, and in young children is often silent. Ulcers in the mouth and blisters on the hands and feet point to an enterovirus."
+  - id: ev5
+    stem: "During an outbreak of hand, foot and mouth disease at his preschool, a 2-year-old with ulcers in his mouth becomes drowsy, has sudden jerking movements of his limbs and starts breathing rapidly. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Enterovirus A71"
+        correct: true
+        feedback: "Enterovirus A71 can, rarely, infect the brainstem, which controls breathing and the circulation. Drowsiness, jerking movements and rapid breathing in a child with hand, foot and mouth disease are warning signs of encephalitis of the brainstem."
+      - text: "Coxsackievirus A16"
+        correct: false
+        feedback: "Coxsackievirus A16 is another main cause of hand, foot and mouth disease, but its illness is usually mild. Signs that the brain is involved point to enterovirus A71."
+      - text: "Rotavirus"
+        correct: false
+        feedback: "Rotavirus causes watery diarrhoea and dehydration in young children, not ulcers in the mouth. A child with hand, foot and mouth disease whose brain becomes involved points to enterovirus A71."
+      - text: "Norovirus"
+        correct: false
+        feedback: "Norovirus does its harm in the gut, with vomiting and diarrhoea. Ulcers in the mouth during an outbreak of hand, foot and mouth disease, followed by signs in the nervous system, point to enterovirus A71."
+  - id: ev6
+    stem: "A 28-year-old man has had fever, loss of appetite and nausea for a week, and now the whites of his eyes and his skin are yellow. Four weeks earlier he ate raw shellfish at a seaside restaurant. He recovers fully over the following weeks. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Hepatitis A virus"
+        correct: true
+        feedback: "Jaundice shows that the liver is inflamed, and four weeks between the meal and the illness fit a virus that must reach the liver and multiply there. Shellfish from water contaminated with sewage are a known source, and the infection does not persist after recovery."
+      - text: "Norovirus"
+        correct: false
+        feedback: "Norovirus from shellfish causes vomiting and diarrhoea within a day or two and does not target the liver. Jaundice four weeks after the meal points to hepatitis A virus."
+      - text: "Rotavirus"
+        correct: false
+        feedback: "Rotavirus does its harm in the small intestine, and severe illness is mainly in young children. Jaundice in an adult points to a virus that targets the liver: hepatitis A virus."
+      - text: "An enterovirus"
+        correct: false
+        feedback: "Enteroviruses spread from the gut in the blood mainly to the skin, the mouth and the meninges. Jaundice weeks after eating shellfish points to hepatitis A virus."
+  - id: ev7
+    stem: "A woman in the last three months of pregnancy lives in a town where an outbreak of jaundice has followed contamination of the water supply with sewage. She develops jaundice and becomes confused as her liver fails. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Hepatitis E virus"
+        correct: true
+        feedback: "Hepatitis E virus spreads in water contaminated with human faeces where sanitation is poor and causes large outbreaks of hepatitis. Infection late in pregnancy can cause liver failure."
+      - text: "Hepatitis A virus"
+        correct: false
+        feedback: "Contaminated water can also spread hepatitis A virus, which causes jaundice, but liver failure from it is rare. Liver failure late in pregnancy, during a waterborne outbreak, points to hepatitis E virus."
+      - text: "Norovirus"
+        correct: false
+        feedback: "Norovirus causes outbreaks from contaminated water, but its illness is vomiting and diarrhoea for a day or two, without jaundice. Hepatitis in a waterborne outbreak points to hepatitis E virus."
+      - text: "Rotavirus"
+        correct: false
+        feedback: "Rotavirus infects the small intestine and causes severe illness mainly in young children. Liver failure in a pregnant woman points to hepatitis E virus."
+  - id: ev8
+    stem: "Adults catch norovirus again and again, but severe rotavirus illness falls mainly on infants and young children. Which explanation is most likely?"
+    options:
+      - text: "Immunity after norovirus infection is short-lived and new variants keep appearing, while a first rotavirus infection leaves immunity that protects against severe disease later"
+        correct: true
+        feedback: "What infection leaves behind decides who is ill. Almost every child meets rotavirus early, and the immunity from that first infection protects against severe disease in later ones. Norovirus immunity fades and the virus varies, so no age group stays protected."
+      - text: "Rotavirus can infect only the immature gut of an infant"
+        correct: false
+        feedback: "Adults can be infected with rotavirus, for example by ill children in their care. They rarely become severely ill, because earlier infections left them immune to severe disease."
+      - text: "Norovirus stays latent in the gut and reactivates"
+        correct: false
+        feedback: "Each norovirus illness is a new infection, often with a different variant. The virus does not become latent; immunity is short-lived."
+      - text: "Adults are vaccinated against rotavirus but not against norovirus"
+        correct: false
+        feedback: "The rotavirus vaccine is given only in the first months of life. Adults are protected against severe rotavirus illness by infections in childhood, while norovirus leaves no such lasting protection."
+  - id: ev9
+    stem: "Illness from norovirus begins a day or two after the virus is swallowed, but illness from hepatitis A virus begins weeks after. Which explanation is most likely?"
+    options:
+      - text: "Norovirus does its harm in the gut, where it arrives; hepatitis A virus must reach the liver and multiply in liver cells before damage begins"
+        correct: true
+        feedback: "A virus that harms the site where it arrives needs only a short incubation period. Hepatitis A virus crosses the gut wall, is carried to the liver and multiplies there, and the inflammation that causes illness comes later still."
+      - text: "Hepatitis A virus is swallowed in far smaller numbers"
+        correct: false
+        feedback: "Both viruses are shed in large numbers, and few particles are needed to infect. The difference in timing comes from where each one does its harm."
+      - text: "Norovirus illness is caused by a toxin already formed in the food"
+        correct: false
+        feedback: "Norovirus causes an infection: the virus multiplies in the small intestine after it is swallowed, and it cannot multiply in food. Illness from a toxin made in food before it is eaten is an intoxication."
+      - text: "Hepatitis A virus stays latent for weeks before it reactivates"
+        correct: false
+        feedback: "During the weeks before illness, hepatitis A virus is multiplying in the liver and is already being shed in the faeces. It does not become latent."
+  - id: ev10
+    stem: "A preschool keeps each child with hand, foot and mouth disease at home until the blisters have dried, yet new cases continue for several weeks. Which detail best explains this?"
+    options:
+      - text: "Infected children shed the virus in their faeces for several weeks after the blisters heal, and many infected children have no symptoms"
+        correct: true
+        feedback: "Enteroviruses are shed from the throat for a week or two and in the faeces for weeks, by children with and without symptoms. Excluding ill children cannot stop spread by itself; washing hands with soap and water and cleaning toys reduce it."
+      - text: "The virus becomes latent in nerve cells and reactivates"
+        correct: false
+        feedback: "Latency in sensory nerve cells is the pattern of herpes simplex viruses. Enteroviruses cause an acute infection, but the infected child goes on shedding virus in the faeces for weeks."
+      - text: "Recovery leaves no immunity, so the same children are reinfected with the same type"
+        correct: false
+        feedback: "Recovery leaves immunity to the type that caused the illness. A child can have hand, foot and mouth disease again, but from a different enterovirus type."
+      - text: "The virus multiplies on toys and surfaces in the preschool"
+        correct: false
+        feedback: "Viruses multiply only inside cells. Enteroviruses survive on toys and surfaces, but the supply comes from children shedding virus in their faeces and saliva."

@@ -1,0 +1,138 @@
+id: respiratory-viruses
+title: "Check your understanding: respiratory viruses"
+questions:
+  - id: rv1
+    stem: "Influenza virus, SARS-CoV-2 and respiratory syncytial virus all have an envelope. Which consequence follows from it?"
+    options:
+      - text: "They survive less well on hands and surfaces than viruses without an envelope, and alcohol hand rub inactivates them"
+        correct: true
+        feedback: "The envelope is a lipid membrane that drying, detergents and alcohol disrupt, and without it the virion cannot attach to a cell. These viruses therefore spread mainly in respiratory particles and by close contact."
+      - text: "They survive stomach acid and bile, so they spread by the faecal–oral route"
+        correct: false
+        feedback: "Bile and acid disrupt a lipid envelope. Survival in the gut is a trait of non-enveloped viruses, and these three spread in respiratory particles."
+      - text: "They resist alcohol, so only soap and water inactivate them on hands"
+        correct: false
+        feedback: "Alcohol disrupts the lipid envelope readily. Soap and water matter more for non-enveloped viruses such as rhinoviruses and adenoviruses."
+  - id: rv2
+    stem: "Adults are infected again and again by both influenza virus and respiratory syncytial virus. Which pairing best explains the reinfections?"
+    options:
+      - text: "Influenza virus drifts, so earlier antibodies bind it poorly; immunity after RSV infection is incomplete and fades"
+        correct: true
+        feedback: "Two routes lead to the same result. Influenza returns as a changed virus, while RSV can return little changed, because the immunity it leaves is incomplete."
+      - text: "Both viruses become latent in the airway and reactivate"
+        correct: false
+        feedback: "Neither virus becomes latent: both cause acute infections that are cleared. Each reinfection is a new infection caught from another person."
+      - text: "Both viruses exchange genome segments with animal viruses every year"
+        correct: false
+        feedback: "Only influenza virus has a segmented genome, and shift by reassortment is occasional. The RSV genome is a single piece."
+      - text: "Immunity after influenza is incomplete; RSV drifts every season"
+        correct: false
+        feedback: "This reverses the two. Antibodies after influenza protect against the strain that caused it, and the virus returns because it drifts; RSV returns because immunity after infection fades."
+  - id: rv3
+    stem: "A 29-year-old woman who is 30 weeks pregnant falls ill with influenza. Her fever and cough do not settle, and from day 3 she becomes steadily more breathless, with no period of improvement. Her blood oxygen is low. What best explains her breathlessness?"
+    options:
+      - text: "The infection has spread from her airway into the alveoli, which fill with fluid and inflammatory cells"
+        correct: true
+        feedback: "Steady worsening from the first days, with no recovery in between, is the pattern of viral pneumonia. In pregnancy, as in older adults and people with chronic disease, the infection more often reaches the alveoli, where fluid and inflammatory cells impair gas exchange."
+      - text: "Bacteria from her nose and throat have followed into her damaged airway"
+        correct: false
+        feedback: "A secondary bacterial pneumonia often follows a period of improvement, when fever and cough return. Breathlessness that worsens steadily from day 3, without any recovery, points to the virus itself reaching the alveoli."
+      - text: "The infection has stayed in her trachea and bronchi"
+        correct: false
+        feedback: "Infection of the larger airways causes fever and cough, but gas exchange takes place in the alveoli. Low blood oxygen with worsening breathlessness means the alveoli are involved."
+  - id: rv4
+    stem: "A 3-month-old boy has had a runny nose for two days and is now wheezing, breathing fast and feeding poorly. His 4-year-old sister, who attends childcare, had a cold last week. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Respiratory syncytial virus"
+        correct: true
+        feedback: "RSV is the commonest cause of bronchiolitis. Dead cells, mucus and swelling block the narrow bronchioles of a young infant meeting the virus for the first time, while an older child usually has only a cold and brings it home."
+      - text: "Influenza virus"
+        correct: false
+        feedback: "Influenza can make infants ill, but it usually begins suddenly with a high fever. Wheeze and fast breathing after a cold, in an infant of a few months, are the pattern of bronchiolitis, most often from RSV."
+      - text: "Measles virus"
+        correct: false
+        feedback: "Measles causes fever, cough and red eyes, then a rash, after spreading through the body. Wheeze and fast breathing without a rash point to the small airways and to RSV."
+      - text: "Adenoviruses"
+        correct: false
+        feedback: "Adenoviruses typically cause a sore throat with fever and conjunctivitis. Bronchiolitis in a young infant whose sister had a cold points to RSV."
+  - id: rv5
+    stem: "On Saturday, eight friends share dinner in a small room with the windows closed. The host feels well that evening, but on Monday she develops fever, a sore throat and loss of smell, and a test confirms COVID-19. By the end of the week five guests are ill, including two who sat at the far end of the table and never came near her. Which explanation best accounts for the spread?"
+    options:
+      - text: "She was shedding virus before her symptoms began, and in the closed room the smallest particles she breathed out stayed suspended and accumulated"
+        correct: true
+        feedback: "Shedding starts a day or two before symptoms, so a host who feels well can infect others. In a crowded, poorly ventilated room the smallest respiratory particles stay suspended and accumulate, and they reach people well beyond a metre or two."
+      - text: "The guests at the far end were infected elsewhere, because respiratory particles fall to the ground within a metre or two"
+        correct: false
+        feedback: "Larger particles fall within a metre or two, but the smallest stay suspended in still air. In a closed room they accumulate, so distance from the host did not protect the guests at the far end."
+      - text: "The guests infected her, because a person who feels well does not shed the virus"
+        correct: false
+        feedback: "Her symptoms began on Monday and theirs later in the week, the order expected if she infected them during her incubation period. SARS-CoV-2 is shed from a day or two before symptoms begin."
+  - id: rv6
+    stem: "During a peak of respiratory illness, a 68-year-old man with diabetes develops a fever of 39.5 °C within a few hours, with severe aching in his muscles, headache and a dry cough. Several colleagues had the same sudden illness the week before. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Influenza virus"
+        correct: true
+        feedback: "A sudden onset of high fever, aching muscles, headache and dry cough, passing through a workplace, is the pattern of influenza. His age and diabetes put him at greater risk of pneumonia, which is one reason vaccination each year is recommended for people like him."
+      - text: "Rhinoviruses"
+        correct: false
+        feedback: "Rhinoviruses grow best at the cooler temperature of the nose and cause colds: a runny, blocked nose and a sore throat with little or no fever. High fever and aching that begin within hours point to influenza."
+      - text: "Respiratory syncytial virus"
+        correct: false
+        feedback: "In adults, RSV reinfection usually causes a cold, although it can cause pneumonia in older adults. A sudden high fever with severe aching, spreading through a workplace, is more typical of influenza."
+      - text: "Measles virus"
+        correct: false
+        feedback: "Measles affects people without immunity and causes red eyes and then a rash, after an incubation period of 10 to 14 days. Most adults are immune after vaccination or childhood infection, and he has no rash."
+  - id: rv7
+    stem: "A 6-year-old girl who has never been vaccinated has had fever, cough, a runny nose and red, watery eyes for three days. A red rash then appears on her face and spreads down her body. Two unvaccinated classmates develop the same illness about two weeks later. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Measles virus"
+        correct: true
+        feedback: "Fever, cough, a runny nose and red eyes, followed by a rash spreading from the face downwards, in an unvaccinated child, is the pattern of measles. The two-week gap before the next cases reflects an incubation period in which the virus spreads through the body."
+      - text: "Adenoviruses"
+        correct: false
+        feedback: "Adenoviruses can cause fever and conjunctivitis, but a rash spreading from the face down the body, in unvaccinated children with cases two weeks apart, points to measles."
+      - text: "Influenza virus"
+        correct: false
+        feedback: "Influenza has an incubation period of one to four days and stays in the airway, without a rash. A rash after spread through the body, with cases two weeks apart, points to measles."
+      - text: "Rhinoviruses"
+        correct: false
+        feedback: "Colds from rhinoviruses stay in the nose and throat and cause no rash. The rash, and the two weeks between cases, point to measles, which spreads through the body."
+  - id: rv8
+    stem: "Several children who swam in the same poorly chlorinated pool develop fever, a sore throat and red, watery eyes. None has a rash. Of these viruses, which is the most likely cause?"
+    options:
+      - text: "Adenoviruses"
+        correct: true
+        feedback: "Adenoviruses infect the throat and the conjunctiva, and as non-enveloped viruses they survive in water that is poorly chlorinated. A sore throat with fever and conjunctivitis, spreading in a pool, fits them."
+      - text: "Influenza virus"
+        correct: false
+        feedback: "Influenza virus is enveloped, survives poorly in water, and causes a sudden illness of the airway. An illness of the throat and eyes spread in a pool points to a non-enveloped virus: adenoviruses."
+      - text: "Measles virus"
+        correct: false
+        feedback: "Measles also causes fever and red eyes, but a rash follows, and it spreads through the air from person to person. A pool outbreak without a rash points to adenoviruses."
+  - id: rv9
+    stem: "A 30-year-old office worker catches three colds in one year, each caused by a rhinovirus. What best explains why her earlier colds did not protect her?"
+    options:
+      - text: "Rhinoviruses exist as more than 100 types, and immunity to one type protects little against the others"
+        correct: true
+        feedback: "Each cold leaves antibodies against the type that caused it. With so many types circulating, the next cold is usually caused by a type she has not met."
+      - text: "The cooler temperature of the nose stops antibodies forming against rhinoviruses"
+        correct: false
+        feedback: "Rhinoviruses grow best at the cooler temperature of the nose, but antibodies form after each cold. They protect against the type that caused it, and there are more than 100 types."
+      - text: "Rhinoviruses exchange genome segments with animal viruses every season"
+        correct: false
+        feedback: "Exchange of segments is a feature of influenza virus, whose genome is in eight pieces; the rhinovirus RNA genome is a single piece. Repeated colds come from the many types that already exist."
+  - id: rv10
+    stem: "A 70-year-old man had his last COVID-19 vaccine dose 14 months ago. He catches SARS-CoV-2 from his grandson, has a sore throat and cough for four days, and recovers. What best explains why he was infected but not severely ill?"
+    options:
+      - text: "Vaccine protection against infection fades within months and newer variants escape some antibodies, while protection against severe disease lasts longer"
+        correct: true
+        feedback: "Antibodies that block infection of the nose and throat decline within months, and variants with changes in the spike protein are bound less well. The immunity that keeps the infection from spreading to the alveoli lasts longer, but it too declines, which is why older adults are offered further doses."
+      - text: "The vaccine contained live virus, which caused the infection"
+        correct: false
+        feedback: "None of the COVID-19 vaccines contains virus that can multiply: mRNA vaccines, for example, carry only the code for the spike protein. His infection came from his grandson."
+      - text: "Vaccines have no effect on SARS-CoV-2"
+        correct: false
+        feedback: "Vaccines greatly reduce severe disease and death from COVID-19. What fades fastest is protection against infection; protection against severe illness lasts longer."
+      - text: "The variant he caught escapes every antibody the vaccine produced"
+        correct: false
+        feedback: "Newer variants escape some antibodies, not all, and the immunity that limits severe disease is less affected. Escape from every antibody would not explain why a 70-year-old had only a mild illness."

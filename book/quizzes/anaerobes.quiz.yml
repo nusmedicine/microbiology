@@ -1,0 +1,141 @@
+id: anaerobes
+title: "Check your understanding: anaerobes"
+questions:
+  - id: an1
+    stem: "Obligate anaerobes outnumber the facultative anaerobes of the colon many times over, yet the tissues around a healthy colon are not infected. What has to happen before *Bacteroides fragilis* causes disease there?"
+    options:
+      - text: "The bowel wall is breached, and gut contents reach the tissue around the gut, where the oxygen is soon used up"
+        correct: true
+        feedback: "*B. fragilis* lives harmlessly in the lumen. A perforation or surgery lets it out with the other gut bacteria, and once facultative anaerobes have used up the oxygen in the tissue around the gut, it can multiply."
+      - text: "It acquires genes that let it use oxygen"
+        correct: false
+        feedback: "Nothing about the bacterium has to change. What changes is where it is: once the oxygen in the tissue around the gut is used up, that tissue suits it as well as the colon does."
+      - text: "Its numbers in the colon rise above a threshold"
+        correct: false
+        feedback: "Huge numbers live in the colon without harm, because they stay in the lumen. Disease needs a breach of the bowel wall that lets them reach the tissue around it."
+      - text: "It is caught from another person who carries a more dangerous strain"
+        correct: false
+        feedback: "Infections with *B. fragilis* are endogenous: most people already carry it. They follow a breach of the person's own bowel wall, not a new exposure."
+  - id: an2
+    stem: "Six days after surgery to repair a perforated colon, a 62-year-old man has fever and abdominal pain. A scan shows a collection of pus beside the colon. The pus smells foul, and its Gram stain shows several kinds of bacteria, among them many pink rods. Of these anaerobes, which is the most likely to be grown from it?"
+    options:
+      - text: "*Bacteroides fragilis*"
+        correct: true
+        feedback: "A breach of the colon, a mixed infection, a foul smell and a walled-off collection of pus all point to an anaerobe from the colon. Pink rods fit its Gram-negative envelope, and its capsule provokes the host to wall the bacteria off."
+      - text: "*Clostridium perfringens*"
+        correct: false
+        feedback: "Its toxins destroy muscle and spread through it within hours, leaving little pus, and it stains purple. A walled-off collection of pus days after bowel surgery points to *B. fragilis*."
+      - text: "*Cutibacterium acnes*"
+        correct: false
+        feedback: "This skin anaerobe stains purple and infects implanted devices slowly. An abscess beside the colon after it was breached comes from the colon's own anaerobes."
+  - id: an3
+    stem: "A 30-year-old woman has a painful swelling of the jaw beside an infected tooth. To find the anaerobes causing it, which sample is most useful?"
+    options:
+      - text: "Pus drawn from the abscess with a needle and sent at once in a container without oxygen"
+        correct: true
+        feedback: "Pus from inside the abscess holds the bacteria causing it, and keeping it from oxygen on the way to the laboratory keeps the anaerobes alive. The laboratory then grows it without oxygen, often for several days."
+      - text: "A swab of the gum beside the tooth, sent in an ordinary pot"
+        correct: false
+        feedback: "Anaerobes live on every healthy gum, so finding them there shows only colonisation. The swab is also exposed to air, which kills many anaerobes before they reach the laboratory."
+      - text: "A sample of saliva"
+        correct: false
+        feedback: "Saliva carries the mouth's resident anaerobes in anyone, so it cannot show which bacteria are in the abscess."
+      - text: "A blood sample for culture"
+        correct: false
+        feedback: "Bacteria from a dental abscess are usually not in the blood, so a blood culture is likely to grow nothing. The bacteria causing the swelling are in the pus."
+  - id: an4
+    stem: "A 24-year-old man's leg is crushed under a steel beam on a construction site, and the deep wound is contaminated with soil. The next day the leg is extremely painful and swollen, the skin over it is discoloured, gas crackles under the skin, and the changes spread up the thigh over a few hours. Of these anaerobes, which is the most likely cause?"
+    options:
+      - text: "*Clostridium perfringens*"
+        correct: true
+        feedback: "Spores from soil reach crushed muscle, which has little oxygen, and the bacteria grow from them there. The toxins kill muscle and damage its vessels, so the dead zone and the infection spread within hours, and fermentation fills the tissue with gas: gas gangrene."
+      - text: "*Bacteroides fragilis*"
+        correct: false
+        feedback: "*B. fragilis* comes from the person's own colon and forms walled-off abscesses over days. Soil in a crushed leg, gas in the muscle and spread within hours point to the toxins of *C. perfringens*."
+      - text: "*Prevotella*"
+        correct: false
+        feedback: "*Prevotella* lives in the mouth and causes dental and lung abscesses. It does not come from soil or destroy muscle with toxins."
+  - id: an5
+    stem: "Why does gas gangrene spread through muscle within hours, while an abscess caused by *B. fragilis* stays walled off?"
+    options:
+      - text: "Toxins of *C. perfringens* kill muscle and damage the vessels that supply it, so the oxygen-poor zone grows ahead of the bacteria, and few neutrophils arrive to contain them"
+        correct: true
+        feedback: "Each round of damage leaves more muscle without a blood supply, and so more tissue in which the anaerobe can grow. *B. fragilis* does little direct damage; its capsule provokes the host to wall the bacteria off in pus."
+      - text: "*C. perfringens* can use oxygen, so it grows in healthy muscle as well as dead muscle"
+        correct: false
+        feedback: "Like *B. fragilis*, it grows only where oxygen is low. It spreads because its toxins keep creating dead, oxygen-poor tissue ahead of it."
+      - text: "*C. perfringens* has a thicker capsule that resists phagocytes"
+        correct: false
+        feedback: "A capsule that provokes walling off is the trait of *B. fragilis*. *C. perfringens* damages tissue with toxins, which destroy muscle and its blood vessels."
+      - text: "Spores move through the muscle faster than growing bacteria"
+        correct: false
+        feedback: "Spores are dormant and cannot move. The infection spreads as toxins kill muscle and its blood vessels, and the bacteria grow into the dead tissue."
+  - id: an6
+    stem: "Thirty people who ate beef stew at a company dinner develop abdominal cramps and watery diarrhoea 10 to 12 hours later; few vomit, and most are well the next day. The stew was cooked the day before in one large pot and left to cool slowly. Of these anaerobes, which is the most likely cause?"
+    options:
+      - text: "*Clostridium perfringens*"
+        correct: true
+        feedback: "Cooking left its spores alive, and they germinated as the large pot cooled slowly. The swallowed bacteria release enterotoxin as they form spores in the small intestine, so cramps and diarrhoea start many hours after the meal and settle within a day."
+      - text: "*Bacteroides fragilis*"
+        correct: false
+        feedback: "Most people carry *B. fragilis* in the colon, and it causes disease when a breach of the bowel wall lets it out. An outbreak of diarrhoea from a shared dish points to *C. perfringens*."
+      - text: "*Fusobacterium*"
+        correct: false
+        feedback: "*Fusobacterium* lives in the mouth and throat and causes abscesses there, not food poisoning. A large pot of stew cooled slowly, with cramps and diarrhoea many hours after the meal, points to *C. perfringens*."
+  - id: an7
+    stem: "Food poisoning from *C. perfringens* starts 6 to 24 hours after the meal, while food poisoning from *Staphylococcus aureus* starts within a few hours. What explains the difference?"
+    options:
+      - text: "*C. perfringens* makes its toxin in the small intestine after it is swallowed; the *S. aureus* toxin is already in the food"
+        correct: true
+        feedback: "Swallowed *C. perfringens* release enterotoxin as they form spores in the gut, which takes hours. *S. aureus* food poisoning is an intoxication: the toxin was made in the warm food before the meal, so illness begins within a few hours."
+      - text: "*C. perfringens* must invade the blood before it can act on the gut"
+        correct: false
+        feedback: "It never needs the blood: the bacteria are swallowed and act from inside the small intestine. The delay is the time they take to form spores and release their toxin there."
+      - text: "The *C. perfringens* toxin is destroyed by stomach acid and must be made again"
+        correct: false
+        feedback: "Its toxin is not in the food to begin with. The bacteria make it in the small intestine as they form spores, which is why the illness starts later."
+      - text: "Spores in the food must germinate in the gut before the bacteria can multiply"
+        correct: false
+        feedback: "The spores germinated in the food as it cooled, and the bacteria multiplied there. Growing bacteria are swallowed, and they form new spores in the gut, releasing the toxin as they do."
+  - id: an8
+    stem: "A 55-year-old man with severe periodontal disease drinks heavily and has several times been found unconscious after drinking. Over two weeks he develops fever and a cough producing foul-smelling sputum, and a chest X-ray shows a cavity containing fluid in one lung. Of these anaerobes, which is the most likely to be involved?"
+    options:
+      - text: "*Prevotella*"
+        correct: true
+        feedback: "Saliva from a mouth rich in anaerobes was inhaled while he was unconscious. Mouth anaerobes such as *Prevotella*, usually several species together, then multiply in the lung, form an abscess and give the sputum its foul smell."
+      - text: "*Bacteroides fragilis*"
+        correct: false
+        feedback: "*B. fragilis* lives in the colon and reaches tissue when the bowel wall is breached. Bacteria inhaled into the lung come from the mouth."
+      - text: "*Cutibacterium acnes*"
+        correct: false
+        feedback: "*C. acnes* lives in the hair follicles of the skin and infects implanted devices. Inhaled saliva carries the anaerobes of the mouth and gums."
+  - id: an9
+    stem: "A year after an artificial shoulder joint was put in, a 66-year-old man has persistent pain and stiffness in the shoulder, without fever. Tissue from around the joint, grown without oxygen and kept for longer than usual, grows a Gram-positive rod that forms no spores. Of these anaerobes, which is the most likely cause?"
+    options:
+      - text: "*Cutibacterium acnes*"
+        correct: true
+        feedback: "Skin bacteria from the hair follicles can be carried onto an implant at surgery. *C. acnes* has low virulence and forms a biofilm on the implant, so the infection is quiet and often recognised only months later; it also grows slowly in culture, so it can be missed if cultures are discarded early."
+      - text: "*Clostridium perfringens*"
+        correct: false
+        feedback: "*Clostridium perfringens* forms spores and destroys muscle within hours. A slow, quiet infection of an implant with a Gram-positive rod that forms no spores points to *Cutibacterium acnes*."
+      - text: "*Bacteroides fragilis*"
+        correct: false
+        feedback: "*B. fragilis* is a Gram-negative rod from the colon. An implant in the shoulder is reached by bacteria from the skin, where the operation was done."
+      - text: "*Prevotella*"
+        correct: false
+        feedback: "*Prevotella* is a Gram-negative rod of the mouth. A Gram-positive rod without spores, from an implant, fits the skin anaerobe *C. acnes*."
+  - id: an10
+    stem: "A class of drugs, the nitroimidazoles, acts on most anaerobes but not on *Escherichia coli* growing in air, and spares human cells. What explains this?"
+    options:
+      - text: "Electron carriers that anaerobes use to live without oxygen convert the drug into a form that damages DNA"
+        correct: true
+        feedback: "The drug is harmless until it is activated. Anaerobes have electron carriers, used for life without oxygen, that pass an electron to it and convert it into a form that damages DNA; in cells with oxygen, oxygen takes the electron back, so little active drug forms. This is the basis of its selective toxicity."
+      - text: "The drug binds a cell wall that only anaerobes have"
+        correct: false
+        feedback: "Anaerobes have the same kind of peptidoglycan wall as other bacteria. The drug acts because the anaerobe's own electron carriers convert it into a form that damages its DNA."
+      - text: "Oxygen in the blood destroys the drug before it reaches bacteria that use oxygen"
+        correct: false
+        feedback: "Oxygen in the blood leaves the drug intact, and it reaches the tissues. Inside cells with oxygen, oxygen takes back the electron that would activate the drug, so the active form does not build up."
+      - text: "Human cells and *E. coli* pump the drug out faster than anaerobes do"
+        correct: false
+        feedback: "Pumping out a drug is a mechanism of resistance in some bacteria, and it does not explain this pattern. What matters is whether the cell has the electron carriers, used for life without oxygen, that activate the drug, and whether oxygen reverses that step."

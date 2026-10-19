@@ -1,0 +1,28 @@
+id: route-b-fragilis
+title: "Routes through the body: *Bacteroides fragilis*"
+intro: "One route, from the colon into the abdomen after the bowel wall is breached, and on to the liver. At one step, predict the site before the answer appears."
+
+routes:
+  - name: "From the colon to abscesses"
+    steps:
+      - at: gut
+        kind: lives
+        text: "Lives in the colon, among obligate anaerobes that outnumber the facultative anaerobes there many times over. In the lumen of the gut it does no harm."
+      - at: gut
+        kind: enters
+        text: "A perforated appendix, an injury or surgery on the bowel spills gut contents into the peritoneal cavity around the gut. Facultative anaerobes such as *E. coli* multiply first, inflame the peritoneum and use up the oxygen in the peritoneal cavity."
+      - at: gut
+        kind: damages
+        text: "As the oxygen falls, *B. fragilis* and other anaerobes multiply. Its capsule resists phagocytes and provokes a host response that walls the bacteria off, so pus collects in an abscess beside the gut, with no blood supply at its centre."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "Bacteria from the infected abdomen can enter the blood. From infection of the gut wall, they enter the small veins that drain into the portal vein."
+      - at: liver
+        kind: damages
+        via: blood
+        ask: "Blood from the gut does not return straight to the heart. Which organ do bacteria carried in it reach first?"
+        options: [liver, alveoli, brain]
+        answer: [liver]
+        why: "The portal vein carries blood from the gut to the liver before it returns to the heart, so the liver is the first organ that bacteria from infection of the gut wall reach."
+        text: "In the liver, the bacteria, usually several species together, multiply and form a liver abscess."

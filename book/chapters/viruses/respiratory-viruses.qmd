@@ -1,17 +1,426 @@
 # Respiratory viruses
 
-> *Viruses that infect the airway and spread in respiratory particles, most of them enveloped RNA viruses with short incubation periods.*
+> *A young child catches several colds a year, and an adult can catch influenza again a few years
+> after the last time. Respiratory viruses multiply in the lining of the airway and leave in the next
+> breath or on the hands, and the immunity they leave is incomplete, short-lived or outpaced by change
+> in the virus, so the same people are infected again and again.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Sort the respiratory viruses by genome and envelope, and predict from these how each survives
+  outside the body and how it changes.
+- Explain why influenza returns every year and occasionally as a pandemic, who is most at risk of
+  severe disease, and how a bacterial pneumonia can follow it.
+- Explain why SARS-CoV-2 spread before people knew they were infected, and why the risk of severe
+  COVID-19 rises steeply with age and chronic disease.
+- Explain why respiratory syncytial virus causes bronchiolitis in infants, and why people are
+  infected with it again throughout life.
+- Name the host, setting and route that let each main virus cause disease.
+- Tell influenza virus from respiratory syncytial virus by why each returns, where in the airway it
+  does most harm, who is most at risk and how each is prevented.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-resp-group)
+  - [The group in one sentence](#sec-resp-sentence): what every member shares
+  - [Sorting the group](#sec-resp-key): genome and envelope, then who is most at risk
+- [Main viruses](#sec-resp-main)
+  - [Influenza virus](#sec-resp-influenza): epidemics every year, and the bacteria that follow
+  - [SARS-CoV-2](#sec-resp-sarscov2): spread before symptoms, and risk that rises with age
+  - [Respiratory syncytial virus](#sec-resp-rsv): the small airways of infants, and reinfection for
+    life
+- [Contrast pair](#sec-resp-pairs)
+  - [Influenza virus and respiratory syncytial virus](#sec-resp-pair-influenza-rsv)
+- [Beyond the main viruses](#sec-resp-beyond)
+  - [Supporting viruses](#sec-resp-supporting)
+  - [Later in the course](#sec-resp-later)
+:::
+
+## The group {#sec-resp-group}
+
+### The group in one sentence {#sec-resp-sentence}
+
+Respiratory viruses infect the epithelium of the airway and spread in respiratory particles and on
+hands; most are enveloped RNA viruses with short **incubation periods**, the time between infection
+and the appearance of symptoms, and reinfection is common because immunity wanes or the virus
+changes. The group is defined by where its members live and how they spread, so they come from
+several virus families and differ in structure (see [*A map of the
+viruses*](virus-map.qmd#sec-vmap-route)). Most of
+the six questions have one answer for the whole group; its members differ mainly in genome and
+envelope, and in who suffers severe disease.
+
+| Question | Answer for the respiratory viruses |
 |---|---|
-| Learning objectives | Describe the group by its traits; explain one mechanism of harm for each main virus; recognise the enabling conditions that point to each |
-| The group in one sentence | Viruses that infect the airway and spread in respiratory particles, most of them enveloped RNA viruses with short incubation periods. |
-| Main viruses | Influenza virus (anchor); SARS-CoV-2; respiratory syncytial virus |
-| Supporting viruses | Rhinoviruses, adenoviruses, measles virus |
-| Later in the course | Respiratory block; vaccines in immunology; antivirals in pharmacology |
-| Scenario questions | Most likely virus, with options restricted to the group; feedback names the discriminating clue |
+| What is it built from? | Most have an RNA genome in a capsid, inside an envelope; rhinoviruses (RNA) and adenoviruses (double-stranded DNA) have no envelope |
+| How does it get energy? | It has no energy supply of its own and uses the host cell's |
+| How does it copy itself and change? | The RNA viruses copy their genomes with their own RNA-dependent RNA polymerase, and copying errors produce variants; influenza virus, whose genome is in eight separate segments, can also exchange whole segments with another influenza virus of the same type, such as two influenza A viruses infecting one cell |
+| Where does it live, and how does it spread? | The human airway, and influenza A viruses also in birds, pigs and other mammals; spread in respiratory particles and on hands and surfaces, often from people with mild illness or none |
+| How does damage happen? | Death of infected epithelial cells and the inflammation that clears them; severe disease when the infection reaches the bronchioles or the alveoli, or when bacteria follow into a damaged airway |
+| What does it have that my cells lack? | Its own enzymes, such as its RNA-dependent RNA polymerase; drugs act on enzymes of influenza virus and SARS-CoV-2, but the others have no antiviral drug in routine use |
+
+Most respiratory viruses multiply in the epithelium where they enter and are shed from the same
+surface, so they need not spread through the body before they can be passed on, and their incubation
+periods are short: a few days for influenza (see [*Viruses and the
+host*](virus-host.qmd#sec-vhost-spread)). Measles virus is the exception in the group. It enters
+through the airway but spreads in lymph and blood before its first symptoms, and its incubation period
+is 10 to 14 days.
+
+Reinfection is common for two reasons. Some of these viruses change, so the antibodies left by an
+earlier infection bind them poorly: influenza virus changes its surface proteins from one season to
+the next, and rhinoviruses exist as many types that differ from one another. Others leave immunity
+that is incomplete and fades, so even a virus that has changed little can infect again, as
+respiratory syncytial virus does throughout life. SARS-CoV-2 reinfects people for both reasons.
+Measles virus does neither: it exists as one type, and immunity after infection or vaccination lasts
+for life (see [*How viruses change*](virus-change.qmd#sec-vchg-vaccines)).
+
+The same virus that causes a mild illness in a healthy young adult can cause severe disease in an
+infant, an older adult or a person with chronic disease or weakened immunity (see [*Microbes and
+their hosts*](../foundations/host-microbe.qmd#sec-host-factors)). Severe disease usually means that
+the infection has gone beyond the nose, the throat and the larger airways. In an infant it can block
+the bronchioles, which are narrow at that age; in the alveoli it causes **pneumonia**, infection of
+the lung in which the alveoli fill with fluid and inflammatory cells, which impairs gas exchange. A
+damaged airway also lets bacteria from the nose and throat follow.
+
+Most of the group is enveloped and spreads in respiratory particles and on hands, so the same
+measures interrupt most of it (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)):
+
+- Hand hygiene, with alcohol hand rub for the enveloped viruses, and soap and water for rhinoviruses
+  and adenoviruses, which have no envelope and resist alcohol better (see [*How viruses are built and
+  copy themselves*](virus-structure-replication.qmd#sec-vstr-envelope))
+- Covering coughs and wearing masks
+- Ventilating indoor spaces, which disperses the smallest particles
+- Keeping away from others while ill, although some of these viruses are shed before symptoms begin
+- Vaccination, against influenza virus, SARS-CoV-2, respiratory syncytial virus and measles virus
+
+### Sorting the group {#sec-resp-key}
+
+Genome and envelope predict how well a virus survives outside the body and how it changes, so we sort
+the respiratory viruses by these first, and then by who is most at risk of severe disease.
+
+::: {.concept-tree}
+[Sorting the respiratory viruses by genome, envelope and who is most at risk]{.tree-title}
+
+- RNA, with an envelope: inactivated readily by drying, detergents and alcohol
+  - Positive-sense RNA
+    - Severe disease far more likely with age and chronic disease: SARS-CoV-2
+  - Negative-sense RNA
+    - Older adults, pregnant women and people with chronic disease: influenza virus
+    - Young infants, above all in the first six months of life: respiratory syncytial virus
+    - Unvaccinated young children, especially if malnourished, and people with weakened immunity:
+      measles virus
+- No envelope: survives longer on hands and surfaces, and resists alcohol better
+  - RNA: rhinoviruses
+  - Double-stranded DNA: adenoviruses
+:::
+
+Each trait at the top of the key predicts how a virus survives, changes or is controlled:
+
+| Trait | What it predicts | Viruses in this chapter |
+|---|---|---|
+| An envelope | Drying, detergents and alcohol disrupt the envelope, so the virus survives less well on hands and surfaces than a virus without an envelope, spreads mainly in respiratory particles and by close contact, and is inactivated by alcohol hand rub | Influenza virus, SARS-CoV-2, respiratory syncytial virus, measles virus |
+| No envelope | The capsid survives longer on hands and surfaces and resists alcohol better, so washing with soap and water matters more | Rhinoviruses, adenoviruses |
+| An RNA genome | The genome is copied by the virus's own RNA-dependent RNA polymerase, an enzyme human cells lack and a target of drugs against influenza virus and SARS-CoV-2, and its copying errors produce variants from which antibodies can select | Influenza virus, SARS-CoV-2, respiratory syncytial virus, rhinoviruses, measles virus |
+| A genome in separate segments | Two influenza A viruses infecting one cell, such as a human and a bird virus, can exchange whole segments, so a surface protein new to people can appear in a single step and cause a pandemic | Influenza virus |
+
+Work through the key from the genome and envelope, and read at each branch what the trait predicts
+about the virus.
+
+<div data-island="sorting-key" data-src="/diagrams/resp-key.yml"></div>
+
+## Main viruses {#sec-resp-main}
+
+### Influenza virus: epidemics every year, and the bacteria that follow {#sec-resp-influenza}
+
+Influenza virus, an anchor organism, is an enveloped virus whose negative-sense RNA genome is in eight
+segments (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-structure)). Two proteins on its envelope
+account for much of its behaviour. **Haemagglutinin**, which binds the virion to sialic acid, a sugar
+on the surface of airway epithelial cells, sets the cells the virus infects (see [*Viruses and the
+host*](virus-host.qmd#sec-vhost-receptors)). **Neuraminidase**, an enzyme that cuts sialic acid to
+free new virions from the cell that made them, lets the infection spread to neighbouring cells, and
+drugs that block it slow that spread (see [*Detecting viruses and antiviral
+targets*](detecting-viruses.qmd#sec-vdet-targets)). Influenza A and B viruses both cause epidemics in
+people; influenza A viruses also infect wild water birds, poultry, pigs and other mammals.
+
+The virus spreads in respiratory particles and on hands, and an infected adult can pass it on from
+about a day before symptoms begin. After an incubation period of one to four days, the illness starts
+suddenly, with fever, aching muscles, headache and a dry cough, and in a healthy adult it is usually
+over within about a week. New virions bud into the airway lumen, so the infection stays in the
+epithelium of the airway and rarely enters the blood (see [*Viruses and the
+host*](virus-host.qmd#sec-vhost-spread)).
+
+Haemagglutinin and neuraminidase are the virus's main surface antigens, the molecules that antibodies
+recognise, and the main targets of protective antibodies. Both change (see [*How viruses
+change*](virus-change.qmd#sec-vchg-influenza)). **Antigenic drift** is gradual change in a virus's
+surface antigens through the accumulation of point mutations. It lets influenza virus infect people
+who had influenza or the vaccine in earlier years, so influenza returns every year.
+
+The haemagglutinins of influenza A viruses fall into distinct subtypes, numbered H1, H2, H3 and so on,
+and the neuraminidases into N subtypes; antibodies against one subtype do not protect against
+another. Influenza A viruses of two subtypes, H1N1 and H3N2, circulate in people together with
+influenza B viruses, so a person who had one of them last season can be infected by another this
+season, and the vaccine contains a strain of each. **Antigenic shift** is the sudden appearance in human influenza A viruses
+of a haemagglutinin, often with a neuraminidase, of a subtype new to the human population, usually by
+reassortment with an animal influenza virus. Few people have antibodies against the new subtype, so
+the virus can spread across many countries as a pandemic. Only influenza A viruses, which also
+circulate in animals, cause pandemics.
+
+Bird influenza viruses occasionally infect people in close contact with infected poultry or other
+infected animals: since 2024, H5N1 bird influenza has spread among dairy cattle in the United States
+and infected some farm workers. These viruses rarely pass from person to person, but they are watched
+closely, because one that gained the ability to spread between people could start a pandemic (see
+[*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-onehealth)).
+
+In temperate countries influenza epidemics come each winter; in Singapore, influenza circulates
+throughout the year, with peaks.
+
+Severe disease and most deaths fall on four groups of people, in whom the infection more often
+reaches the alveoli, lets bacteria follow or worsens a chronic disease:
+
+- Older adults
+- Infants and young children
+- Pregnant women
+- People with chronic heart or lung disease, diabetes or weakened immunity
+
+Influenza kills the ciliated epithelial cells of the trachea and bronchi, and the damaged lining
+clears mucus and bacteria poorly (see [*Viruses and the host*](virus-host.qmd#sec-vhost-cpe)). The
+damaged surface also offers bacteria new places to attach, and the immune response to the virus
+weakens the phagocytes that would otherwise kill them. Bacteria that live harmlessly in the nose and
+throat of many people, above all *Streptococcus pneumoniae* and *Staphylococcus aureus* (see
+[*Gram-positive cocci*](../bacteria/gram-positive-cocci.qmd#sec-gpc-pneumoniae)), can then reach the
+alveoli and multiply there. A **secondary bacterial infection** is a bacterial infection that takes hold because
+an earlier infection has damaged the host's defences. In secondary bacterial pneumonia, the patient
+often begins to recover from influenza, and then fever and cough return. Antibacterial drugs treat
+the bacterial pneumonia, but they have no effect on the influenza virus itself (see [*How viruses are
+built and copy themselves*](virus-structure-replication.qmd#sec-vstr-targets)).
+
+Influenza vaccines produce antibodies mainly against haemagglutinin. Because the virus drifts, the
+strains in the vaccine are reviewed every year and the vaccine is given again each year (see [*How
+viruses change*](virus-change.qmd#sec-vchg-vaccines)), above all to the groups at greatest risk of
+severe disease and to health workers, who could otherwise pass the virus to their patients.
+Neuraminidase inhibitors stop new virions leaving infected cells, and a second class of drug blocks a
+part of the viral polymerase that the virus needs to make its mRNA. Both help most when started early
+in the illness, while the virus is still multiplying.
+
+Influenza virus harms the airway directly, and indirectly by opening it to bacteria:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Infection of the airway | The virus kills ciliated epithelial cells of the trachea and bronchi, and signals released early in infection cause fever and aching | Sudden fever, aching muscles and a dry cough in a young adult, who is well again within about a week |
+| Viral pneumonia | Infection and inflammation extend from the airway into the alveoli, and fluid and inflammatory cells in the alveoli impair gas exchange | Breathlessness that worsens over a few days in a pregnant woman with influenza |
+| Secondary bacterial pneumonia | The damaged lining clears mucus and bacteria poorly and offers them new places to attach, and the immune response to the virus weakens phagocytes, so bacteria from the nose and throat multiply in the alveoli | Fever and cough that return a few days after an older adult began to recover from influenza |
+
+Three conditions let influenza virus cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Anyone without immunity to the circulating strain; severe disease in older adults, infants and young children, pregnant women, and people with chronic heart or lung disease, diabetes or weakened immunity | Drift leaves immunity from earlier years only partly protective, so infection is common at every age; in these groups the infection more often reaches the alveoli or lets bacteria follow |
+| Where (setting) | Close contact in households, schools, workplaces and care homes; in Singapore, all year round, with peaks | The virus is shed in respiratory particles and onto hands from about a day before symptoms begin, and it stays infectious for hours on hard surfaces that others touch |
+| How (route) | Breathed in, or carried on hands to the nose or mouth, to the epithelium of the airway | Haemagglutinin binds sialic acid on epithelial cells, and new virions bud into the airway lumen and infect neighbouring cells |
+
+::: {.callout-important}
+## Can the influenza vaccine cause influenza?
+The influenza vaccine is often thought to cause influenza, partly because some people feel unwell
+for a day or two after the injection. The injected influenza vaccines contain no live virus: they are
+made from inactivated virus or from purified viral proteins, which cannot multiply, so they cannot
+cause influenza. A sore arm, a mild fever or aching for a day or two afterwards is the immune response
+to the vaccine.
+
+Other respiratory viruses circulate at the same time, and a cold caught in the days after vaccination
+is easily blamed on the vaccine. Protection also takes about two weeks to develop after the injection,
+and it is incomplete when the circulating strains have drifted away from those in the vaccine (see
+[*How viruses change*](virus-change.qmd#sec-vchg-vaccines)).
+:::
+
+Step through the two routes: influenza in the airway, and the bacterial pneumonia that can follow it.
+
+<div data-island="body-map" data-src="/diagrams/route-influenza.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/resp-profile-influenza.yml"></div>
+
+### SARS-CoV-2: spread before symptoms, and risk that rises with age {#sec-resp-sarscov2}
+
+SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) is a coronavirus, an enveloped virus with
+a long, single-stranded, positive-sense RNA genome. It was first recognised in late 2019 and spread
+across the world as a pandemic. **COVID-19** is the illness it causes. The **spike protein**, the
+protein on its envelope that binds the virion to a host cell, attaches to **ACE2**
+(angiotensin-converting enzyme 2), an enzyme on the surface of cells lining the nose, the airway and
+the alveoli, among others, so these are the cells the virus infects (see [*Viruses and the
+host*](virus-host.qmd#sec-vhost-receptors)).
+
+SARS-CoV-2 spreads in respiratory particles. In crowded, poorly ventilated rooms the smallest
+particles stay suspended and accumulate, and they can infect people well beyond a metre or two (see
+[*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)). An infected person sheds most
+virus from the nose and throat around the time symptoms begin, and starts shedding a day or two
+before; some infected people never develop symptoms but still pass the virus on. The infectious
+period therefore begins before the incubation period ends (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-measures)), and isolating people once
+they felt ill could not on its own stop the virus spreading.
+
+COVID-19 ranges from no symptoms, through an illness of the nose and throat with fever, cough and
+sometimes loss of smell, to pneumonia and **respiratory failure**, failure of the lungs to keep the
+blood supplied with oxygen. The risk of severe disease and death rises steeply with age, and further
+with chronic disease, such as diabetes or disease of the heart, lungs or kidneys, and with weakened
+immunity. In those who become severely ill, breathlessness often appears about a week into the
+illness, as the infection and the inflammation it provokes spread through the alveoli.
+
+Much of the damage in severe COVID-19 comes from the host's inflammatory response in the lungs, on
+the right-hand side of the damage-response curves (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-drf)). Drugs that suppress inflammation reduce deaths
+among patients ill enough to need oxygen. Antiviral drugs, which block the viral RNA polymerase or a
+viral protease, act only while the virus is multiplying, so they are given early in the illness to
+people at high risk of severe disease.
+
+As SARS-CoV-2 spread around the world, variants arose by mutation, and some by **recombination**, the
+joining of parts of two related viral genomes into one new genome, in a cell infected by both (see
+[*How viruses change*](virus-change.qmd#sec-vchg-recombination)). Selection favoured the variants that
+spread more readily between people, and those whose spike protein had changed where antibodies bind,
+which could infect people who had been vaccinated or infected before (see [*How viruses
+change*](virus-change.qmd#sec-vchg-selection)). Vaccines, including the first mRNA vaccines in wide
+use, which carry the code for the spike protein (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-prevent)), greatly reduce severe disease and
+death. Their protection against infection fades within months, and newer variants escape some of the
+antibodies they produce. Protection against severe disease lasts longer but also declines, so older
+adults and people at high risk are offered further doses, updated, like influenza vaccines, to match
+newer variants.
+
+SARS-CoV-2 harms the host in two ways, set by how far down the airway the infection reaches:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Infection of the nose and throat | The virus multiplies in the epithelium of the nose and throat, including the lining that senses smell | Fever, a sore throat and loss of smell in a young adult, who recovers within days |
+| Pneumonia and respiratory failure | The infection spreads to the alveoli, whose lining cells also carry ACE2, and the virus and the host's inflammatory response fill them with fluid and inflammatory cells | Breathlessness and falling blood oxygen about a week into the illness in an unvaccinated 80-year-old with diabetes |
+
+Three conditions let SARS-CoV-2 cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Anyone without immunity from vaccination or earlier infection, as everyone was in 2020; severe disease mainly in older adults and in people with chronic disease or weakened immunity | With age the immune response controls the virus less well, and chronic disease leaves the lungs and other organs less able to withstand damage; immunity from vaccination or earlier infection makes spread to the alveoli less likely |
+| Where (setting) | Close contact indoors, especially in households and in crowded, poorly ventilated rooms | The virus is shed in respiratory particles from a day or two before symptoms begin, and by people who never have symptoms; small particles accumulate in still air |
+| How (route) | Breathed in to the nose and throat, and in severe disease down the airway to the alveoli | The spike protein binds ACE2 on epithelial cells of the nose, the airway and the alveoli |
+
+Step through the two routes SARS-CoV-2 takes: to the next person, often before symptoms begin, and
+down the airway to the alveoli.
+
+<div data-island="body-map" data-src="/diagrams/route-sars-cov-2.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/resp-profile-sars-cov-2.yml"></div>
+
+### Respiratory syncytial virus: the small airways of infants, and reinfection for life {#sec-resp-rsv}
+
+Respiratory syncytial virus (RSV) is an enveloped virus with a negative-sense RNA genome in a single
+piece. A fusion protein on its envelope fuses the envelope with the membrane of the cell it infects.
+In cultured cells, the same protein fuses infected cells with their neighbours into a **syncytium**
+(plural syncytia), a giant cell with many nuclei, which gives the virus its name. The fusion protein
+is the target of the antibodies and vaccines that protect against RSV.
+
+RSV spreads in respiratory particles and on hands. Like influenza virus, it stays infectious for hours
+on hard surfaces, from which hands carry it to the nose or eyes, so it passes readily in households,
+childcare centres and hospital wards. Almost every child has been infected by the age of two.
+
+In the first months of life, the infection often spreads from the nose down the airway to the
+bronchioles, the smallest airways. **Bronchiolitis** is inflammation of the bronchioles. Infected
+epithelial cells die and slough into the lumen, and with mucus and swelling of the wall they block
+airways that in an infant are very narrow, so air is trapped beyond them. The infant wheezes, breathes
+fast and has difficulty feeding. RSV is the commonest cause of bronchiolitis, and severe illness is
+most likely in the first six months of life, in infants born prematurely and in infants with heart or
+lung disease.
+
+Immunity after RSV infection is incomplete and fades, so people are infected again throughout life,
+even by a virus that has changed little. In older children and healthy adults, whose airways are
+wider and who keep some immunity from earlier infections, a reinfection usually stays in the nose and
+throat as a cold, and these mild infections carry the virus home to infants. In older adults, and in
+people with chronic heart or lung disease or weakened immunity, RSV can cause pneumonia and worsen the
+existing disease.
+
+Antibodies given ready-made protect at once, without the recipient's own immune system having to make
+them, but only until they are broken down. Two ways of supplying them protect infants through the
+months of greatest risk:
+
+- An injection, given to the infant, of laboratory-made antibody against the fusion protein, which
+  protects for several months
+- Vaccination of the mother during pregnancy, which raises her antibodies; they cross the placenta and
+  protect the infant after birth
+
+Vaccines are also available for older adults. No antiviral drug is in routine use, so care for
+bronchiolitis supports breathing and feeding until the infection clears.
+
+RSV does its harm in the airway, and how far down it reaches depends on the host:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Bronchiolitis | Infected epithelial cells of the bronchioles die and slough into the lumen, and with mucus and swelling they block the narrow airways of an infant | Wheeze, fast breathing and difficulty feeding in a 2-month-old whose older brother has a cold |
+| Pneumonia in older adults | The infection spreads to the alveoli of a person whose immunity has declined, and adds to existing heart or lung disease | Pneumonia in an 80-year-old with chronic heart disease, after a visit from a grandchild with a cold |
+| Reinfection as a cold | Incomplete, fading immunity lets the virus infect the nose and throat again; wider airways and partial immunity keep the illness mild | A cold in a parent, who carries the virus home to an infant |
+
+Three conditions let RSV cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Infants in the first months of life, especially if born prematurely or with heart or lung disease; older adults and people with chronic heart or lung disease or weakened immunity | An infant meets the virus for the first time, with airways narrow enough to be blocked; immunity after infection is incomplete and declines with age |
+| Where (setting) | Households with young children, childcare centres, hospital wards and care homes | Older children and adults with mild reinfections carry the virus to others, and hands pick it up from hard surfaces, on which it stays infectious for hours |
+| How (route) | Breathed in, or carried on hands to the nose or eyes, then down the airway | The virus infects epithelial cells of the nose and spreads from cell to cell down the airway to the bronchioles or the alveoli |
+
+Step through the two routes RSV takes: a first infection that reaches the bronchioles of an infant,
+and a reinfection that reaches the alveoli of an older adult.
+
+<div data-island="body-map" data-src="/diagrams/route-rsv.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/resp-profile-rsv.yml"></div>
+
+## Contrast pair {#sec-resp-pairs}
+
+### Influenza virus and respiratory syncytial virus {#sec-resp-pair-influenza-rsv}
+
+Influenza virus and RSV are both enveloped viruses with negative-sense RNA genomes, both spread in
+respiratory particles and on hands, and both infect people again and again. Compare them feature by
+feature before reading the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-influenza-rsv.yml"></div>
+
+## Beyond the main viruses {#sec-resp-beyond}
+
+### Supporting viruses {#sec-resp-supporting}
+
+| Virus | Where it lives | What separates it | Why it matters |
+|---|---|---|---|
+| Rhinoviruses | The epithelium of the nose and throat | No envelope, and a positive-sense RNA genome; grow best at about 33 °C, the cooler temperature of the nose, so most infections stay in the upper airway; more than 100 types, and immunity to one protects little against the others | Cause more colds than any other virus, so people catch colds again and again throughout life; a common trigger of attacks of wheezing in people with asthma |
+| Adenoviruses | The epithelium of the throat, the airway and the conjunctiva | No envelope, and a double-stranded DNA genome; survive for long periods on hands, surfaces and instruments and in poorly chlorinated water, and resist alcohol better than enveloped viruses; many types | A sore throat (**pharyngitis**, inflammation of the throat, usually from infection) with fever, and **conjunctivitis** (inflammation of the conjunctiva, the membrane that covers the white of the eye and lines the eyelids); outbreaks among people in close quarters, such as military recruits, in swimming pools and, carried on hands and instruments, in eye clinics |
+| Measles virus | The airway at first, then the lymph nodes, the blood, the skin and other organs | Enveloped, with a negative-sense RNA genome; spreads through the body before its first symptoms, so its incubation period is 10 to 14 days; one type, so immunity after infection or vaccination lasts for life | Fever, cough, a runny nose and conjunctivitis, then a rash spreading from the face down the body; complications include pneumonia, the commonest cause of death from measles in young children; **encephalitis**, inflammation of the brain; and, years after the infection, a rare, fatal degenerative disease of the brain (subacute sclerosing panencephalitis) |
+
+Measles virus spreads by **airborne transmission**, by small exhaled particles that stay suspended in
+air and can travel beyond a metre or two, and it is one of the most contagious viruses known. Anyone
+without immunity can be infected, and severe disease and death are most common in young children,
+especially malnourished ones, and in people with weakened immunity. Vaccine coverage of about 95% is
+needed to prevent outbreaks (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-measures)), and outbreaks follow wherever
+coverage falls. Two doses of the live attenuated vaccine protect almost everyone who receives them.
+
+Measles also damages immunity to other infections. Memory cells, the long-lived lymphocytes that hold
+the immunity left by earlier infections and vaccines, are among the cells measles virus infects and
+kills. For months to years after measles, a child is therefore more susceptible to infections that
+the child had already overcome.
+
+### Later in the course {#sec-resp-later}
+
+| Virus | Where it comes up again |
+|---|---|
+| Influenza virus | Respiratory medicine (pneumonia); public health (seasonal and pandemic influenza); vaccines in immunology; antiviral drugs in pharmacology |
+| SARS-CoV-2 | Respiratory medicine and intensive care (COVID-19 pneumonia); public health (pandemic control); vaccines in immunology |
+| Respiratory syncytial virus | Paediatrics (bronchiolitis); geriatric medicine; protection of infants in obstetrics and immunology |
+| Rhinoviruses | Primary care (the common cold); respiratory medicine (attacks of asthma) |
+| Adenoviruses | Ophthalmology (conjunctivitis); paediatrics (sore throat with fever) |
+| Measles virus | Paediatrics and public health (vaccination and outbreaks) |
+
+## Check your understanding {#sec-resp-quiz}
+
+<div data-island="quiz" data-src="/quizzes/respiratory-viruses.quiz.yml"></div>
+
+## Review with flashcards {#sec-resp-cards}
+
+<div data-island="flashcards" data-src="/decks/respiratory-viruses.deck.yml"></div>

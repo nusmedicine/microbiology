@@ -1,17 +1,382 @@
 # Arthropod-borne viruses
 
-> *Viruses carried between hosts by mosquitoes or ticks, so their distribution follows the vector, which matters in Singapore.*
+> *A person in Singapore can catch dengue from a mosquito that bred in the water of a flower-pot
+> plate a few doors away and bit in the middle of the day. An arbovirus spreads where its vector lives
+> and bites, so the habits of a mosquito predict who is infected, where and when, and how infection is
+> prevented.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Explain why the spread of an arbovirus follows its vector, and relate the habits of *Aedes*
+  mosquitoes to the control of dengue in Singapore.
+- Sort the main arboviruses by vector and animal host, and predict from these where each one is
+  caught and how infection is prevented.
+- Explain why severe dengue is more likely in a second infection with a different serotype, and why
+  its dangerous phase comes as the fever settles.
+- Explain how Zika virus harms a fetus, and how it can reach a pregnant woman who has not been
+  bitten.
+- Name the host, setting and route that let each main virus cause disease.
+- Tell dengue virus from chikungunya virus by serotypes, the illness each causes and the main danger
+  of each.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-arbo-group)
+  - [The group in one sentence](#sec-arbo-sentence): what every member shares
+  - [Sorting the group](#sec-arbo-key): the vector and the animal hosts
+- [Main viruses](#sec-arbo-main)
+  - [Dengue virus](#sec-arbo-dengue): four serotypes and leaking blood vessels
+  - [Zika virus](#sec-arbo-zika): harm to the fetus
+  - [Chikungunya virus](#sec-arbo-chikungunya): fever and lasting joint pain
+- [Contrast pair](#sec-arbo-pairs)
+  - [Dengue virus and chikungunya virus](#sec-arbo-pair-dengue-chikungunya)
+- [Beyond the main viruses](#sec-arbo-beyond)
+  - [Supporting viruses](#sec-arbo-supporting)
+  - [Later in the course](#sec-arbo-later)
+:::
+
+## The group {#sec-arbo-group}
+
+### The group in one sentence {#sec-arbo-sentence}
+
+**Arboviruses** (arthropod-borne viruses) are viruses carried between vertebrate hosts by
+blood-feeding arthropods, such as mosquitoes or ticks, in which they multiply, so where and when they
+spread follows the arthropod. Dengue, Zika, chikungunya and Japanese encephalitis viruses are all
+enveloped, with a single-stranded, positive-sense RNA genome. Most of the six questions have one
+answer for the whole group; its members differ mainly in the arthropod and animal hosts that keep
+each cycle going, and in the organ each one damages.
+
+| Question | Answer for the arboviruses |
 |---|---|
-| Learning objectives | Describe the group by its traits; explain one mechanism of harm for each main virus; recognise the enabling conditions that point to each |
-| The group in one sentence | Viruses carried between hosts by mosquitoes or ticks, so their distribution follows the vector, which matters in Singapore. |
-| Main viruses | Dengue virus; Zika virus; chikungunya virus |
-| Supporting viruses | Japanese encephalitis virus |
-| Later in the course | Infectious disease and public health; vector control in Singapore |
-| Scenario questions | Most likely virus, with options restricted to the group; feedback names the discriminating clue |
+| What is it built from? | Most have an RNA genome in a protein capsid, inside an envelope whose proteins bind host cells; in dengue, Zika, chikungunya and Japanese encephalitis viruses the RNA is single-stranded and positive-sense |
+| How does it get energy? | It has no energy supply of its own and uses the host cell's, in the arthropod and in the vertebrate host |
+| How does it copy itself and change? | A viral RNA-dependent RNA polymerase copies the genome without proofreading, so variants arise readily; a positive-sense genome is translated by host ribosomes as soon as it is uncoated |
+| Where does it live, and how does it spread? | In a cycle between a blood-feeding arthropod and vertebrate hosts, humans among them; spread by the bite of the arthropod, and not by touch or respiratory particles |
+| How does damage happen? | Death of infected cells and the host's response to the infection, in the organs the virus reaches in the blood: leaking blood vessels in dengue, the fetal brain in Zika, the joints in chikungunya, the brain in Japanese encephalitis |
+| What does it have that my cells lack? | Its RNA-dependent RNA polymerase and other viral enzymes, although no drug against them is in routine use, so prevention rests on controlling the mosquitoes or ticks and on vaccines |
+
+The genome of a positive-sense RNA virus is itself an mRNA, and the virus must supply its own
+RNA-dependent RNA polymerase to copy it (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-genomes)). That polymerase does not proofread,
+so copying errors stay in the new genomes (see [*How viruses
+change*](virus-change.qmd#sec-vchg-mutation)). The name *arbovirus* describes a route of spread,
+and the arboviruses come from several virus families, some with other kinds of RNA genome (see [*A
+map of the viruses*](virus-map.qmd#sec-vmap-names)). Dengue virus, Zika virus and Japanese
+encephalitis virus are flaviviruses; chikungunya virus is an alphavirus, from a different family.
+The flaviviruses are similar enough that antibodies raised against one bind the others, so an
+antibody test for one flavivirus can be positive after infection with another (see [*Detecting and
+controlling microbes*](../foundations/detection-control.qmd#sec-det-serology)). In the first days of
+illness, while the virus is in the blood, a **nucleic acid amplification test (NAAT)**, a test that
+copies a target sequence many times until it can be detected, finds its RNA and so identifies the
+virus directly (see [*Detecting viruses and antiviral
+targets*](detecting-viruses.qmd#sec-vdet-methods)).
+
+Each of these viruses depends on its **vector**, an arthropod that carries an organism between hosts
+(see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)). Mosquitoes are **biological
+vectors** of these viruses: vectors in which the organism develops or multiplies, and which cannot
+pass it on until it has done so (the same terms are used for parasites in [*Life cycles and
+vectors*](../parasites/life-cycles.qmd#sec-life-vectors), later in the book). Only female mosquitoes
+bite, because they need blood to make their eggs. One cycle of transmission runs through five steps:
+
+::: {.flow}
+1. A female mosquito bites a person or animal with virus in the blood
+2. The virus multiplies in the mosquito's gut and spreads to its salivary glands
+3. Days later, the mosquito injects virus with its saliva at every bite
+4. The virus multiplies in the skin and lymph nodes of the new host and enters the blood
+5. Another mosquito takes up the virus from the blood
+:::
+
+The mosquito stays infected for the rest of its life. A person is a source of virus for mosquitoes
+only during **viraemia**, the presence of virus in the blood (see [*Viruses and the
+host*](virus-host.qmd#sec-vhost-spread)), which lasts for several days around the start of the fever.
+Virus in the blood can also pass to another person without a mosquito, though rarely: in transfused
+blood or a transplanted organ, and from a mother with viraemia to her baby around the time of birth,
+which for chikungunya virus can cause severe illness in the baby. These are acute infections: the
+immune response clears the virus from the blood within days (see [*Viruses and the
+host*](virus-host.qmd#sec-vhost-acute)).
+
+Spread by a biological vector has four consequences:
+
+- The virus spreads only where its vector can live and breed, and faster in warm, wet weather, which
+  lets mosquitoes multiply and shortens the time the virus takes to reach their saliva
+- People do not pass these viruses to each other by touch or in respiratory particles, so a patient
+  is a risk to others mainly through the mosquitoes that bite during the fever
+- A traveller with viraemia can start local transmission in any place where the vector lives
+- Removing the vector, or stopping it from biting, interrupts every infection it carries
+
+Changes in climate and land use therefore alter where these viruses spread (see [*Transmission,
+outbreaks and One Health*](../foundations/transmission-outbreaks.qmd#sec-trans-onehealth)).
+
+Dengue and Zika viruses are carried mainly by *Aedes aegypti*, which lives in and around homes, and
+also by *Aedes albopictus*; chikungunya virus is carried well by both. Both mosquitoes live in
+Singapore, and their habits explain where these infections are caught:
+
+- They bite by day, with peaks in the early morning and the late afternoon
+- They lay their eggs in small collections of clean, still water, such as flower-pot plates, pails,
+  blocked roof gutters and discarded containers
+- Their eggs stick to the inner wall of a container just above the water, survive drying for months,
+  and hatch when the container fills again
+
+Control in Singapore therefore rests on removing breeding sites around homes: emptying, covering or
+discarding containers that hold water, and clearing roof gutters. Singapore also releases male *Aedes
+aegypti* carrying the bacterium *Wolbachia*. Male mosquitoes do not bite, and when they mate with wild
+females the eggs do not hatch, so the number of *Aedes aegypti* falls (see [*The microbial
+world*](../foundations/microbial-world.qmd#sec-world-harmless)).
+
+No antiviral drug is in routine use against any of these viruses. Treatment supports the patient
+while the immune response clears the infection, and prevention rests on control of the vector,
+protection from bites and, for some of these viruses, vaccines (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-prevent)).
+
+### Sorting the group {#sec-arbo-key}
+
+Arboviruses are named for a route of spread, so we sort them by the vector that carries them and the
+vertebrate hosts that keep each cycle going. Some arboviruses are carried by ticks; those that matter
+most in Singapore and South-East Asia are carried by mosquitoes.
+
+::: {.concept-tree}
+[Sorting the arboviruses by vector and host]{.tree-title}
+
+- Carried from person to person by *Aedes* mosquitoes, which breed near homes and bite by day
+  - Leaking blood vessels and shock, more often in a second infection: dengue virus
+  - Damage to the brain of a fetus, after infection in pregnancy: Zika virus
+  - Severe joint pain that can last for months: chikungunya virus
+- Carried from pigs and wading birds by *Culex* mosquitoes that breed in rice fields and bite at
+  night
+  - Inflammation of the brain in a few of those infected, most of them children: Japanese
+    encephalitis virus
+:::
+
+The vector and its hosts predict where and when the virus is caught, and how infection is prevented:
+
+| Vector and hosts | Where and when it is caught | Who is infected | How infection is prevented |
+|---|---|---|---|
+| *Aedes* mosquitoes, carrying the virus from person to person | In and around homes, in towns and cities of the tropics, including Singapore, during the day | Anyone without immunity who lives in or visits these places | Removing breeding sites near homes; protection from bites by day; releases of male *Aedes aegypti* carrying *Wolbachia* |
+| The *Culex* mosquitoes that carry Japanese encephalitis virus from pigs and wading birds | In rural areas with rice fields and pigs, in the evening and at night | Children in rural areas where the virus is common, and travellers who spend long periods there | Vaccination; protection from bites at night |
+
+Work through the key from the vector, and read at each branch what the trait predicts about the
+virus.
+
+<div data-island="sorting-key" data-src="/diagrams/arbo-key.yml"></div>
+
+## Main viruses {#sec-arbo-main}
+
+### Dengue virus: four serotypes and leaking blood vessels {#sec-arbo-dengue}
+
+Dengue virus is a flavivirus carried between people by *Aedes* mosquitoes, and it causes more human
+infections than any other arbovirus. Dengue is **endemic** in Singapore, constantly present in the
+population at a baseline level, with periodic large outbreaks (see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-levels)). Most cases in Singapore are in
+adults: decades of control of *Aedes* mosquitoes have reduced transmission, so many people reach
+adulthood without having been infected.
+
+The virus exists as four **serotypes**, variants of the virus distinguished by their surface
+antigens, numbered dengue virus 1 to 4. Infection with one serotype gives lasting immunity to that
+serotype, but protection against the other three is short-lived, so a person can have dengue more than
+once. Large outbreaks in Singapore have followed a change in the serotype that predominates, because
+few people are immune to the newly dominant one.
+
+Four to ten days after the bite, the infection causes anything from no symptoms to a severe illness,
+and most infections are silent or mild. The typical illness begins suddenly, with high fever, severe
+headache, pain behind the eyes, aching muscles and joints, and often a rash. A low white cell count
+and **thrombocytopenia**, a low platelet count, are common.
+
+The dangerous phase comes as the fever settles, usually between the third and the seventh day of
+illness, when the patient may seem to be recovering. In some patients, small blood vessels throughout
+the body become leaky for a day or two. **Plasma leakage**, the escape of plasma from small blood
+vessels into the tissues and body cavities, concentrates the blood, so the proportion of red cells in
+it (the haematocrit) rises, and fluid collects around the lungs and in the abdomen. If enough plasma
+is lost, the volume of blood falls until the circulation can no longer supply the organs, which is
+shock. **Severe dengue** is dengue with shock or breathing difficulty from plasma leakage, severe
+bleeding, or severe damage to an organ. The leak is caused largely by the host's response to the
+infection, and the vessel walls are not destroyed: they recover after a day or two (see [*Microbes and
+their hosts*](../foundations/host-microbe.qmd#sec-host-drf)).
+
+Severe dengue is more likely in a second infection, with a serotype different from the first, than in
+a first infection. Antibodies usually protect by binding a virus and blocking its attachment to cells
+(see [*Viruses and the host*](virus-host.qmd#sec-vhost-immune)). Once the short-lived
+cross-protection has faded, antibodies left by an infection with one serotype bind a different
+serotype without neutralising it, that is, without stopping it from infecting cells. White blood
+cells that carry receptors for antibodies, such as monocytes and macrophages, then take up the
+antibody-coated virus, so more cells are infected and more virus is made. This **antibody-dependent
+enhancement**, increased infection of cells when antibodies bind a virus without neutralising it, is
+thought to explain much of the extra risk of a second infection.
+
+::: {.example}
+A dengue vaccine must protect against all four serotypes at once. The first licensed dengue vaccine
+increased the risk of severe dengue in vaccinated people who had never been infected, for whom
+vaccination is thought to have acted like a first infection, and it was then recommended only for
+people who had already had dengue. A newer dengue vaccine has since been licensed in several
+countries.
+:::
+
+::: {.callout-important}
+## Does one bout of dengue give immunity to dengue?
+Some infections, such as measles, are caught only once, and people who have had dengue often assume
+that they cannot catch it again. Recovery gives lasting immunity only to the serotype that caused the
+illness. Protection against the other three serotypes is short-lived, so a person can have dengue up
+to four times, and a second infection with a different serotype carries a greater risk of severe
+dengue than the first. A past infection is therefore a reason for more care with mosquito bites.
+:::
+
+In the first days of fever, the laboratory looks for the virus itself, as its RNA by NAAT or as a
+viral protein by an antigen test; antibodies appear later and are more useful after the first few days
+(see [*Detecting viruses and antiviral targets*](detecting-viruses.qmd#sec-vdet-methods)). No
+antiviral drug is in routine use against dengue virus. Treatment rests on close monitoring through
+the days when the fever settles, and on careful replacement of fluid matched to the leak: too little
+leaves the patient in shock, and too much overloads the circulation when the leak stops and the fluid
+returns to the vessels. Anti-inflammatory drugs that impair platelet function are avoided, because
+they increase the risk of bleeding.
+
+Dengue virus harms the person infected in three ways:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Fever and aching | The virus multiplies in white blood cells and spreads in the blood; the host's response to the infection causes fever and aching | Sudden high fever, severe headache, pain behind the eyes and aching muscles and joints in a young adult in Singapore |
+| Plasma leakage and shock | As the fever settles, small blood vessels leak plasma for a day or two; the blood becomes concentrated and its volume falls | Restlessness, cold hands and falling blood pressure on the fifth day of illness, a day after the fever has gone |
+| Bleeding | Thrombocytopenia, platelets that work poorly, fragile small vessels and disturbed clotting; severe bleeding often follows prolonged shock | Small red spots in the skin and bleeding from the gums; in severe dengue, bleeding from the gut |
+
+Three conditions let dengue virus cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Anyone without immunity to the infecting serotype; severe dengue is more likely in a second infection with a different serotype | Immunity is specific to each serotype, and antibodies from an earlier infection with another serotype can increase the number of cells infected |
+| Where (setting) | Towns and cities of the tropics where *Aedes* mosquitoes breed near homes, including Singapore, where dengue is endemic | The mosquitoes breed in small containers of clean water around homes and bite by day |
+| How (route) | The bite of an infected female *Aedes* mosquito | The virus multiplies in the skin and lymph nodes, then spreads in the blood, from which the next mosquito takes it up |
+
+Step through the two routes of dengue virus: from a bite to the next mosquito, and a second infection
+that leads to severe dengue.
+
+<div data-island="body-map" data-src="/diagrams/route-dengue.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/arbo-profile-dengue.yml"></div>
+
+### Zika virus: harm to the fetus {#sec-arbo-zika}
+
+Zika virus is a flavivirus, related to dengue virus and carried by the same *Aedes* mosquitoes. Most
+infections cause no symptoms; the rest cause a mild illness lasting a few days, with an itchy rash,
+red eyes, aching joints and little or no fever. Rarely, the infection is followed by
+**Guillain–Barré syndrome**, a paralysis that develops over days to weeks as the immune response
+damages the peripheral nerves.
+
+**Microcephaly** is an abnormally small head, usually because the brain has not grown normally. During
+a large epidemic in Brazil in 2015, a rise in the number of babies born with microcephaly showed that
+Zika virus can harm the fetus. When a woman is infected during pregnancy, the virus can cross the
+placenta and infect the dividing cells that form the nerve cells of the fetal brain. These cells die
+or stop dividing, so the brain fails to develop, and the eyes can be damaged too. This is
+**congenital infection**, infection passed from mother to fetus before birth, and it can follow an
+infection that caused the mother no symptoms. Not every infected pregnancy is affected, and the risk
+to the fetus is greatest when infection comes early in pregnancy.
+
+Zika virus also spreads by sexual contact, which sets it apart from dengue and chikungunya viruses.
+It persists in semen for weeks, and sometimes months, after it has cleared from the blood, so a
+pregnant woman can be infected by a partner returning from an area with Zika without being bitten
+herself. Protection in pregnancy therefore combines avoiding mosquito bites and areas with outbreaks
+with protection during sex. Singapore had a local outbreak of Zika in 2016, spread by local *Aedes* mosquitoes.
+
+Zika virus does its harm mainly before birth:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Mild illness | The virus spreads in the blood, and the host's response causes rash, red eyes and aching joints | A few days of an itchy rash and red eyes, with little fever, in an adult during an outbreak |
+| Damage to the fetal brain | The virus crosses the placenta and infects the dividing cells that form the nerve cells of the fetal brain, which die or stop dividing | Microcephaly in the baby of a woman who had a mild rash, or no symptoms, during pregnancy |
+
+Three conditions let Zika virus cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A fetus whose mother is infected during pregnancy; anyone not previously infected can be infected | The developing brain is built by dividing cells that the virus infects; in adults the illness is usually mild, and only rarely followed by Guillain–Barré syndrome |
+| Where (setting) | Places where *Aedes* mosquitoes live, during an outbreak; sex with an infected partner | Mosquitoes carry the virus from person to person, and the virus persists in semen for weeks, and sometimes months |
+| How (route) | The bite of an infected *Aedes* mosquito, or sexual contact; then across the placenta | Virus in the mother's blood crosses the placenta to the fetus |
+
+Step through the two routes by which Zika virus reaches beyond the person bitten: to the fetus, and
+to a sexual partner.
+
+<div data-island="body-map" data-src="/diagrams/route-zika.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/arbo-profile-zika.yml"></div>
+
+### Chikungunya virus: fever and lasting joint pain {#sec-arbo-chikungunya}
+
+Chikungunya virus is an alphavirus, from a different family from dengue and Zika viruses, but it is
+carried by the same mosquitoes, *Aedes aegypti* and *Aedes albopictus*. It has caused outbreaks
+across the tropics, including in Singapore. The name means 'that which bends up', after the stooped
+posture of people with severe joint pain.
+
+Unlike dengue and Zika viruses, chikungunya virus makes most of the people it infects ill. The virus
+multiplies to high levels in the blood and infects the tissues of the joints, muscles and tendons, and
+the inflammation it provokes causes a sudden high fever with severe pain in many joints, often the
+hands, wrists and ankles on both sides of the body. The pain can be disabling, and a rash is common.
+The fever settles within about a week, but in some patients pain and stiffness in the joints continue
+for months after the virus has left the blood, more often in older adults. Bleeding and shock are
+uncommon, and death is rare. The virus exists as a single serotype, and recovery is thought to give
+lasting immunity. Vaccines against chikungunya virus have recently been licensed in some countries,
+chiefly for travellers; prevention still rests mainly on control of the mosquitoes.
+
+Chikungunya virus does its harm in the joints, during the illness and after it:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Fever and joint pain | The virus reaches high levels in the blood and infects the tissues of the joints and muscles, and the inflammation it provokes causes pain | Sudden high fever with pain in the fingers, wrists and ankles so severe that the patient cannot grip or walk |
+| Joint pain that persists | Inflammation continues in the joints after the fever has settled and the virus has left the blood | Pain and stiffness in both wrists three months after the fever, in a 60-year-old |
+
+Three conditions let chikungunya virus cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Anyone not previously infected; older adults are the most likely to have pain that lasts | Without an earlier infection a person has no immunity; the virus has a single serotype, so one infection is thought to give lasting protection |
+| Where (setting) | Places where *Aedes* mosquitoes live, during an outbreak | Both *Aedes aegypti* and *Aedes albopictus* carry the virus between people |
+| How (route) | The bite of an infected *Aedes* mosquito | The virus spreads in the blood to the joints and infects their tissues |
+
+Step through the route chikungunya virus takes, from a mosquito bite to the joints.
+
+<div data-island="body-map" data-src="/diagrams/route-chikungunya.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/arbo-profile-chikungunya.yml"></div>
+
+## Contrast pair {#sec-arbo-pairs}
+
+### Dengue virus and chikungunya virus {#sec-arbo-pair-dengue-chikungunya}
+
+Dengue and chikungunya viruses are carried by the same mosquitoes and circulate in the same places,
+and both begin with sudden fever, rash and joint pain. Compare them feature by feature before reading
+the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-dengue-chikungunya.yml"></div>
+
+## Beyond the main viruses {#sec-arbo-beyond}
+
+### Supporting viruses {#sec-arbo-supporting}
+
+Japanese encephalitis virus, a flavivirus, is kept going in a cycle between *Culex* mosquitoes and
+animals: pigs and wading birds, in which it reaches levels in the blood high enough to infect
+mosquitoes. Humans are a **dead-end host**, a host from which an organism is not passed on, because
+too little virus reaches human blood, for too short a time, to infect a mosquito.
+Japanese encephalitis is therefore a **zoonosis**, an infection transmitted from animals to humans
+(see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-chain)). Its main harm is
+**encephalitis**, inflammation of the brain.
+
+| Virus | Where it lives | What separates it | Why it matters |
+|---|---|---|---|
+| Japanese encephalitis virus | Pigs and wading birds in rural Asia, carried by *Culex* mosquitoes that breed in rice fields and bite in the evening and at night | Humans are dead-end hosts, so the virus does not spread from person to person through mosquitoes; most infections are silent | In the few people who become ill, encephalitis that can be fatal or leave lasting damage to the brain; most cases are in children where the virus is common, because most adults there are immune. Prevented by vaccination |
+
+### Later in the course {#sec-arbo-later}
+
+| Virus | Where it comes up again |
+|---|---|
+| Dengue virus | Infectious diseases and general medicine (fever in Singapore, and fluid management in severe dengue); public health (vector control) |
+| Zika virus | Obstetrics and neonatology (congenital infection); sexual health; public health (vector control) |
+| Chikungunya virus | Rheumatology (joint pain that persists after the fever) |
+| Japanese encephalitis virus | Neurology and paediatrics (encephalitis); travel medicine (vaccination) |
+
+## Check your understanding {#sec-arbo-quiz}
+
+<div data-island="quiz" data-src="/quizzes/arboviruses.quiz.yml"></div>
+
+## Review with flashcards {#sec-arbo-cards}
+
+<div data-island="flashcards" data-src="/decks/arboviruses.deck.yml"></div>

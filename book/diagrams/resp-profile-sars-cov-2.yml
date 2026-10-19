@@ -1,0 +1,40 @@
+id: resp-profile-sars-cov-2
+name: "SARS-CoV-2"
+group: "Enveloped positive-sense RNA virus · coronavirus · binds ACE2"
+intro: "Predict two of the five slots. Much of what this virus does follows from when it is shed: from the nose and throat, before symptoms begin."
+
+slots:
+  - slot: identity
+    entry: "A coronavirus: an enveloped virus with a long, single-stranded, positive-sense RNA genome. Its spike protein binds ACE2, an enzyme on the surface of cells lining the nose, the airway and the alveoli, among others."
+  - slot: lifestyle
+    predict:
+      stem: "In 2020, isolating people as soon as they fell ill with COVID-19 could not on its own stop SARS-CoV-2 spreading. Which feature of the virus best explains this?"
+      options:
+        - text: "It is shed from the nose and throat from a day or two before symptoms begin, and by people who never have symptoms"
+          correct: true
+          feedback: "The infectious period began before the incubation period ended, so much of the spread had already happened by the time a person felt ill and stayed away from others."
+        - text: "It survives for months on surfaces, beyond the reach of cleaning"
+          correct: false
+          feedback: "SARS-CoV-2 is enveloped, and drying, detergents and alcohol disrupt its envelope. Most spread was in respiratory particles from people who did not yet know they were infected."
+        - text: "It is carried between people by mosquitoes"
+          correct: false
+          feedback: "No insect carries SARS-CoV-2. It spreads in respiratory particles, often from people before their symptoms begin or from people without symptoms."
+    entry: "Spread in respiratory particles, whose smallest sizes accumulate in the air of crowded, poorly ventilated rooms. Shed most from the nose and throat around the time symptoms begin, starting a day or two before, and also by people who never have symptoms."
+  - slot: harm
+    entry: "Infects the epithelium of the nose and throat, causing fever, a sore throat, cough and sometimes loss of smell. In some people the infection spreads to the alveoli, whose lining cells also carry ACE2, and the virus and the inflammation it provokes cause pneumonia and respiratory failure, often about a week into the illness."
+  - slot: consequence
+    predict:
+      stem: "An unvaccinated 25-year-old man and his unvaccinated 82-year-old grandmother, who has diabetes and heart failure, are infected in the same week. Which outcome is most likely?"
+      options:
+        - text: "She is far more likely than he is to develop pneumonia and respiratory failure"
+          correct: true
+          feedback: "The risk of severe COVID-19 rises steeply with age and further with chronic disease: with age the immune response controls the virus less well, and chronic disease leaves the lungs and other organs less able to withstand damage."
+        - text: "Both have the same risk, because they caught the same virus"
+          correct: false
+          feedback: "Age and chronic disease, and not the virus alone, decide who becomes severely ill. The same virus causes very different illness in different hosts."
+        - text: "He is more likely to become severely ill, because a younger immune system produces more inflammation"
+          correct: false
+          feedback: "Inflammation drives much of the damage in severe disease, but severe disease is far more common in older people and in people with chronic disease. The risk rises steeply with age."
+    entry: "The risk of severe disease and death rises steeply with age, and further with chronic disease and weakened immunity. Variants selected for spread and for escape from antibodies keep reinfecting people. Vaccines, updated to match newer variants, greatly reduce severe disease, although their protection against infection fades within months."
+  - slot: contrast
+    entry: "Influenza virus: also an enveloped RNA virus spread in respiratory particles and most dangerous to older adults and people with chronic disease, but its genome is negative-sense and in eight segments, so it can also change by shift, gaining a haemagglutinin new to people in a single step, and neuraminidase is a drug target."

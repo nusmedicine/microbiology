@@ -1,0 +1,40 @@
+id: resp-profile-influenza
+name: "Influenza virus"
+group: "Enveloped negative-sense RNA virus · eight genome segments · infects the airway epithelium"
+intro: "You met this virus as an anchor in the viral principles chapters. This card goes one level deeper: predict what can follow the infection, and why the virus returns."
+
+slots:
+  - slot: identity
+    entry: "An enveloped virus with a negative-sense RNA genome in eight segments, each packaged with the virus's own RNA polymerase. Haemagglutinin binds sialic acid on airway epithelial cells; neuraminidase frees new virions from the cell. Influenza A and B viruses cause disease in people."
+  - slot: lifestyle
+    entry: "Humans; influenza A viruses also infect wild water birds, the source of the new haemagglutinins behind pandemics, and poultry, pigs and other mammals. Spread in respiratory particles and on hands from about a day before symptoms begin, with an incubation period of one to four days. Epidemics every year; in Singapore it circulates all year, with peaks."
+  - slot: harm
+    predict:
+      stem: "A 74-year-old man begins to recover from influenza, but four days later his fever returns with a cough and breathlessness. What best explains the new illness?"
+      options:
+        - text: "Bacteria from his nose and throat multiplying in lungs whose airway lining the virus has damaged"
+          correct: true
+          feedback: "Influenza kills the ciliated cells that clear mucus and bacteria from the airway. Bacteria such as *Streptococcus pneumoniae* and *Staphylococcus aureus* then reach the alveoli and cause a secondary bacterial pneumonia."
+        - text: "Influenza virus reactivating from a latent state in the lung"
+          correct: false
+          feedback: "An acute infection such as influenza is cleared within days to weeks, and the virus has no latent state. A second illness after improvement points to bacteria following into the damaged airway."
+        - text: "Influenza virus spreading in the blood to the lungs"
+          correct: false
+          feedback: "New influenza virions bud into the airway lumen, and the virus rarely enters the blood. The returning fever comes from bacteria that the damaged airway lining no longer clears."
+    entry: "Kills ciliated epithelial cells of the trachea and bronchi, causing a sudden illness with fever, aching and a dry cough. In older adults, young children, pregnant women and people with chronic disease, the infection can extend into the alveoli as viral pneumonia, or let bacteria from the nose and throat follow as a secondary bacterial pneumonia."
+  - slot: consequence
+    predict:
+      stem: "A woman who had influenza A two years ago catches it again this year, from a virus of the same subtype. What best explains the second infection?"
+      options:
+        - text: "The haemagglutinin has drifted, so her antibodies from two years ago bind the new strain poorly"
+          correct: true
+          feedback: "Point mutations accumulate in the haemagglutinin gene, and variants that her antibodies bind less well are selected and spread. Immunity from earlier years therefore protects only partly."
+        - text: "Her first infection left no immunity at all"
+          correct: false
+          feedback: "Recovery leaves antibodies against the strain that caused the infection. The virus that returns has changed in the regions those antibodies bind."
+        - text: "The virus gained a new haemagglutinin segment from a bird influenza virus"
+          correct: false
+          feedback: "Shift brings a subtype new to people, is rare, and can start a pandemic. A virus of the same subtype that infects her again two years later has changed by drift."
+    entry: "Drift brings influenza back every year, so the vaccine strains are reviewed each year and the vaccine is given again; shift, a haemagglutinin new to people from an animal virus, can cause a pandemic. Drugs that block neuraminidase or the viral polymerase help most when started early in the illness."
+  - slot: contrast
+    entry: "Respiratory syncytial virus: also an enveloped, negative-sense RNA virus spread in respiratory particles and on hands, but its genome is a single piece, so it cannot shift. It returns because immunity after infection is incomplete, and it does most harm in the narrow bronchioles of infants."

@@ -1,0 +1,45 @@
+id: anaerobes
+title: "Flashcards: anaerobes"
+intro: "Explain each answer from where the anaerobe lives and what oxygen does to it. Say the answer before you check it."
+
+cards:
+  - id: anc1
+    kind: why
+    front: "Why do anaerobes cause disease mainly where a barrier has been breached and tissue has little oxygen?"
+    back: "They live harmlessly on surfaces such as the colon and the mouth. A breach lets them into tissue, and they can multiply there only where oxygen is scarce: tissue that is ischaemic, necrotic, crushed or already filled with pus."
+  - id: anc2
+    kind: why
+    front: "Why are anaerobic infections usually mixed?"
+    back: "The bacteria arrive together from sites that hold many species, such as the colon and the mouth. Facultative anaerobes among them use up the oxygen, which lets the obligate anaerobes multiply."
+  - id: anc3
+    kind: how
+    front: "How should a sample be taken and sent to find anaerobes?"
+    back: "Take pus or tissue from the infected site, not a swab of a surface that normally carries anaerobes. Send it quickly in a container without oxygen, and grow it without oxygen, often for several days."
+  - id: anc4
+    kind: how
+    front: "How does *Bacteroides fragilis* cause an abscess after the bowel is perforated?"
+    back: "Gut contents spill into the peritoneal cavity. Facultative anaerobes such as *E. coli* multiply first and use up the oxygen; then *B. fragilis* multiplies, and its capsule provokes the host to wall the bacteria off in pus."
+  - id: anc5
+    kind: why
+    front: "Why are the penicillins and many related drugs unreliable against *B. fragilis*?"
+    back: "It makes a beta-lactamase, an enzyme that breaks down beta-lactam drugs. Drugs for infections that follow a breach of the bowel are chosen to act on it."
+  - id: anc6
+    kind: how
+    front: "How does *Clostridium perfringens* cause gas gangrene?"
+    back: "Spores from soil reach crushed or dead muscle, which has little oxygen, and the bacteria grow from them there. The toxins destroy muscle cells, red blood cells and small vessels, and fermentation fills the tissue with gas."
+  - id: anc7
+    kind: why
+    front: "Why does gas gangrene spread within hours, and why is the dead muscle cut away?"
+    back: "The toxins kill muscle and damage the vessels that supply it, so the oxygen-poor zone grows ahead of the bacteria, and few neutrophils arrive to contain them. Dead muscle has no blood supply, so drugs cannot reach it."
+  - id: anc8
+    kind: apart
+    front: "*C. perfringens* food poisoning versus *Staphylococcus aureus* food poisoning?"
+    back: "*C. perfringens* multiplies in large dishes cooled slowly, and the swallowed bacteria make their toxin in the gut, so cramps and diarrhoea start 6 to 24 hours later. The *S. aureus* toxin is already in the food, so vomiting starts within a few hours."
+  - id: anc9
+    kind: apart
+    front: "*B. fragilis* versus *C. perfringens*: which feature best separates them?"
+    back: "The main source of damage. *B. fragilis* does little direct harm: its capsule provokes the host to wall it off in an abscess. *C. perfringens* destroys muscle and vessels with toxins, so it spreads within hours and leaves little pus."
+  - id: anc10
+    kind: why
+    front: "Why does *Cutibacterium acnes* in one blood culture bottle usually not mean infection?"
+    back: "It lives in the hair follicles of the skin and is carried into the bottle when blood is drawn. It matters when it grows from tissue around an implanted device, such as an artificial joint."

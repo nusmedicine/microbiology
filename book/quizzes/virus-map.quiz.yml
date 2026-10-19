@@ -1,0 +1,153 @@
+id: virus-map
+title: "Check your understanding: a map of the viruses"
+questions:
+  - id: vm1
+    stem: "Which of these groups in the viral world is named for a family of related viruses, and not for a route of spread?"
+    options:
+      - text: "Herpesviruses"
+        correct: true
+        feedback: "Herpesviruses are relatives with one structure: an envelope, a double-stranded DNA genome and lifelong latency. Their routes vary, from saliva to respiratory particles, so the name cannot come from a route."
+      - text: "Arthropod-borne viruses"
+        correct: false
+        feedback: "Arboviruses are named for how they travel, inside a mosquito or tick. Dengue virus and chikungunya virus belong to different families, yet both are arboviruses."
+      - text: "Respiratory viruses"
+        correct: false
+        feedback: "Influenza virus has a negative-sense RNA genome, rhinoviruses a positive-sense RNA genome and adenoviruses a DNA genome. The respiratory group mixes families and is held together by its route."
+      - text: "Blood-borne and sexually transmitted viruses"
+        correct: false
+        feedback: "HIV, hepatitis B virus, hepatitis C virus and human papillomavirus come from four different families. What they share is a route: blood, sexual contact or passage from mother to child."
+  - id: vm2
+    stem: "On the map, every virus spread by the faecal–oral route is non-enveloped. Which explanation fits best?"
+    options:
+      - text: "Drying, stomach acid and bile disrupt a lipid envelope on the way to the gut"
+        correct: true
+        feedback: "To reach the gut, a virus must survive drying on hands and surfaces, then stomach acid and bile. A capsid without an envelope withstands them, so the virus arrives still able to infect, whereas a virion that loses its envelope also loses the proteins it needs to attach to a cell."
+      - text: "Non-enveloped viruses are small enough to pass between the cells of the gut lining"
+        correct: false
+        feedback: "Size does not decide the route. What the faecal–oral route demands is survival outside the body and in acid and bile, which a lipid envelope does poorly."
+      - text: "Cells of the gut have no receptors for enveloped viruses"
+        correct: false
+        feedback: "Receptors decide which cells a virus can infect once it arrives. Before that, the faecal–oral route demands survival on hands, in food and in the stomach, where a lipid envelope is the weak point."
+      - text: "Non-enveloped viruses have RNA genomes, and enveloped ones have DNA"
+        correct: false
+        feedback: "Influenza virus, HIV and dengue virus are enveloped RNA viruses, and adenoviruses are non-enveloped DNA viruses, so the envelope does not follow the genome. The envelope, not the kind of genome, decides survival on hands, in food and in the stomach."
+  - id: vm3
+    stem: "In Singapore, a 25-year-old woman develops fever, headache, pain behind the eyes, and aching muscles and joints. Several neighbours in her block of flats had the same illness in the past month, and water has collected in flower-pot saucers along the corridor. Of these groups, which most likely contains the virus?"
+    options:
+      - text: "Arthropod-borne viruses"
+        correct: true
+        feedback: "Cases clustered around standing water where mosquitoes breed point to a virus carried by a vector. Fever with pain behind the eyes and aching muscles fits dengue virus, which *Aedes* mosquitoes carry in Singapore."
+      - text: "Respiratory viruses"
+        correct: false
+        feedback: "Respiratory viruses also cause fever and aching, usually with cough or sore throat, and they spread between people who share air. The detail that separates the groups is the breeding site shared by the cases."
+      - text: "Viruses spread by the faecal–oral route"
+        correct: false
+        feedback: "Faecal–oral viruses cause vomiting and diarrhoea after contaminated food or water. Nothing here points to the gut; the shared factor is water where mosquitoes breed."
+      - text: "Herpesviruses"
+        correct: false
+        feedback: "Herpesvirus infections spread by close contact and usually cause blisters or no symptoms at all. A cluster of fevers among neighbours near standing water points to a mosquito-borne virus."
+  - id: vm4
+    stem: "Varicella-zoster virus spreads by respiratory particles, yet it is grouped with the herpesviruses and not with the respiratory viruses. What is the best reason?"
+    options:
+      - text: "It shares the herpesviruses' DNA genome, envelope and lifelong latency"
+        correct: true
+        feedback: "Structure and latency, not route, define the herpesvirus family: varicella-zoster virus is enveloped, has a double-stranded DNA genome and stays latent for life in sensory nerve cells. Latency predicts what matters most about it: reactivation decades later as shingles."
+      - text: "It causes a rash, and the respiratory viruses do not"
+        correct: false
+        feedback: "Measles virus is a respiratory virus that causes a rash, so a rash cannot decide the group. Structure and latency place varicella-zoster virus with the herpesviruses."
+      - text: "All respiratory viruses have RNA genomes, and it has DNA"
+        correct: false
+        feedback: "Adenoviruses are respiratory viruses with DNA genomes. Varicella-zoster virus joins the herpesviruses because it shares their structure and their lifelong latency."
+      - text: "It infects only children, whereas respiratory viruses infect all ages"
+        correct: false
+        feedback: "Varicella-zoster virus infects anyone without immunity, and shingles is mostly a disease of older adults and of people whose immunity is suppressed. Its group comes from its structure and latency."
+  - id: vm5
+    stem: "Two adults have hepatitis. The first caught it in an outbreak traced to contaminated food and recovered completely within weeks. The second received a blood transfusion in the 1980s, had no symptoms for 30 years, and now has cirrhosis. Which pair of viruses best fits the two patients, in that order?"
+    options:
+      - text: "Hepatitis A virus, then hepatitis C virus"
+        correct: true
+        feedback: "Food contaminated with faeces and an acute illness that clears fit hepatitis A virus. A transfusion before donated blood was screened, then decades of silent infection ending in cirrhosis, fit hepatitis C virus, which persists in most people it infects."
+      - text: "Hepatitis C virus, then hepatitis A virus"
+        correct: false
+        feedback: "The routes and time courses point the other way round. Hepatitis C virus spreads mainly in blood and persists, whereas hepatitis A virus is swallowed and never becomes chronic."
+      - text: "Hepatitis E virus, then hepatitis A virus"
+        correct: false
+        feedback: "Hepatitis E virus could fit the first patient, but hepatitis A virus causes only acute infection and does not lead to cirrhosis decades later. The second history needs a blood-borne virus that persists."
+      - text: "Hepatitis B virus, then hepatitis E virus"
+        correct: false
+        feedback: "Blood and sexual fluids, not food, carry hepatitis B virus, and hepatitis E virus does not persist in healthy people. Neither virus matches the patient it is paired with."
+  - id: vm6
+    stem: "Routine screening of donated blood finds a virus in the blood of a 45-year-old man who feels well and has never been jaundiced. Of these viruses, which is most likely?"
+    options:
+      - text: "Hepatitis C virus"
+        correct: true
+        feedback: "Most hepatitis C virus infections become chronic and stay silent for decades, so the virus circulates in people who feel well. That is why donated blood is screened for it."
+      - text: "Hepatitis A virus"
+        correct: false
+        feedback: "Hepatitis A virus causes acute infection only and is cleared within weeks. A virus found by chance in a well person is far more likely to be one that persists for years."
+      - text: "Dengue virus"
+        correct: false
+        feedback: "Dengue virus circulates in the blood for only a few days around the time of infection. A persistent virus, present for years, is much more likely to be found by routine screening."
+      - text: "Influenza virus"
+        correct: false
+        feedback: "Influenza virus stays in the airway, rarely enters the blood, and is cleared within days. Persistence for years in the blood points to a blood-borne virus."
+  - id: vm7
+    stem: "A 19-year-old university student has had fever, a very sore throat and enlarged lymph nodes in her neck for two weeks. Her boyfriend had a similar illness a month earlier. The laboratory reports an enveloped DNA virus. Of these groups, which most likely contains the virus?"
+    options:
+      - text: "Herpesviruses"
+        correct: true
+        feedback: "An enveloped DNA virus passed between partners by close contact, causing fever, a sore throat and enlarged neck nodes in a young adult, fits Epstein–Barr virus. This herpesvirus spreads in saliva, and a first infection in adolescence or early adulthood often causes infectious mononucleosis."
+      - text: "Respiratory viruses"
+        correct: false
+        feedback: "A sore throat points to the airway, and adenoviruses are DNA viruses that cause one, but they have no envelope. The other respiratory viruses on the map have RNA genomes."
+      - text: "Blood-borne and sexually transmitted viruses"
+        correct: false
+        feedback: "Early HIV infection can also cause fever, a sore throat and enlarged lymph nodes, but HIV is a retrovirus with an RNA genome. Hepatitis B virus is an enveloped DNA virus, but it infects the liver; a sore throat and enlarged neck nodes shared with a partner point to a virus spread in saliva."
+      - text: "Viruses spread by the faecal–oral route"
+        correct: false
+        feedback: "Faecal–oral viruses are non-enveloped RNA viruses, swallowed in contaminated food or water, that infect the gut or reach the liver from it. Neither the laboratory finding nor the illness fits them."
+  - id: vm8
+    stem: "Human papillomavirus, hepatitis B virus, hepatitis C virus and Epstein–Barr virus are all linked to cancers. Which trait on the map do they share?"
+    options:
+      - text: "They persist for years"
+        correct: true
+        feedback: "Cancer usually develops only after years of infection, as further changes accumulate in infected cells. Every virus on the map that is linked to cancer persists, as a latent or a chronic infection."
+      - text: "They have DNA genomes"
+        correct: false
+        feedback: "Hepatitis C virus has an RNA genome. What the four share is persistence: each stays in the body for years."
+      - text: "They are enveloped"
+        correct: false
+        feedback: "Human papillomavirus has no envelope. The shared trait is persistence, which gives the years that a cancer takes to develop."
+      - text: "They spread in blood"
+        correct: false
+        feedback: "Epstein–Barr virus passes in saliva, and human papillomavirus by skin and sexual contact. Persistence, not route, links these viruses to cancer."
+  - id: vm9
+    stem: "Several infants at a childcare centre develop severe watery diarrhoea, and a 6-month-old is admitted with dehydration. The laboratory reports a non-enveloped virus whose genome is double-stranded RNA in segments. Of these viruses, which is it?"
+    options:
+      - text: "Rotavirus"
+        correct: true
+        feedback: "On the map, only rotavirus has a double-stranded RNA genome. It infects the lining of the small intestine of infants and young children and causes severe watery diarrhoea and dehydration."
+      - text: "Norovirus"
+        correct: false
+        feedback: "Norovirus also has no envelope and causes outbreaks of diarrhoea, but its genome is single-stranded, positive-sense RNA."
+      - text: "Adenoviruses"
+        correct: false
+        feedback: "Adenoviruses have no envelope, and some types cause diarrhoea in children, but their genome is double-stranded DNA."
+      - text: "Hepatitis A virus"
+        correct: false
+        feedback: "A positive-sense RNA genome and an illness of the liver, not watery diarrhoea, mark hepatitis A virus."
+  - id: vm10
+    stem: "Vomiting and diarrhoea spread through the passengers and crew of a cruise ship, and new cases continue although everyone uses alcohol hand rub before meals. Which trait of the virus best explains why the hand rub fails?"
+    options:
+      - text: "It has no envelope"
+        correct: true
+        feedback: "Alcohol inactivates a virus mainly by disrupting its lipid envelope. Norovirus, the usual cause of such outbreaks, has only a capsid, so it withstands alcohol hand rub and drying on surfaces; washing with soap and water removes it physically."
+      - text: "Its genome is RNA"
+        correct: false
+        feedback: "Influenza virus also has an RNA genome, yet alcohol hand rub inactivates it readily. The genome lies inside the particle, and what alcohol acts on is the outer layer: a lipid envelope, or a capsid that withstands it."
+      - text: "It stays latent after the illness"
+        correct: false
+        feedback: "Latency explains disease that returns months or years after infection, not spread during an outbreak, and the faecal–oral viruses cause acute infection. Survival on hands treated with alcohol depends on the envelope."
+      - text: "Its surface proteins change rapidly"
+        correct: false
+        feedback: "Changing surface proteins let a virus escape antibodies left by earlier infection, which is why people catch norovirus again. Alcohol acts on the particle itself, and a capsid without an envelope withstands it."

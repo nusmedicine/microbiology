@@ -1,0 +1,144 @@
+id: spiral-bacteria
+title: "Check your understanding: spiral bacteria"
+questions:
+  - id: sp1
+    stem: "A 24-year-old man has a firm, painless ulcer on his penis. It appeared about three weeks after unprotected sex with a new partner, and the lymph nodes in his groin are enlarged but not tender. Of these spiral bacteria, which is the most likely cause?"
+    options:
+      - text: "*Treponema pallidum*"
+        correct: true
+        feedback: "A painless ulcer at the site of sexual contact, about three weeks later, is the chancre of primary syphilis. *T. pallidum* multiplies where it entered, inflammation around it breaks down the surface, and nearby lymph nodes enlarge."
+      - text: "*Leptospira*"
+        correct: false
+        feedback: "*Leptospira* enters through cuts from water or soil contaminated with animal urine, and leaves no lesion where it enters. It causes fever, muscle pain and red eyes, not a genital ulcer."
+      - text: "*Borrelia*"
+        correct: false
+        feedback: "Ticks carry *Borrelia*, and Lyme disease begins with an expanding red rash around the bite. Sexual contact followed by a painless ulcer points to *T. pallidum*."
+      - text: "*Campylobacter*"
+        correct: false
+        feedback: "Swallowed in undercooked poultry, *Campylobacter* infects the gut and causes diarrhoea. It does not cause genital ulcers."
+  - id: sp2
+    stem: "A 35-year-old man in Singapore develops sudden fever, headache and severe pain in his calves, and his eyes are red without any discharge. Ten days earlier, after heavy rain, he cleared a blocked drain with his bare hands, which had several small cuts. Of these spiral bacteria, which is the most likely cause?"
+    options:
+      - text: "*Leptospira*"
+        correct: true
+        feedback: "Rats shed *Leptospira* in their urine into drains and flood water. The bacteria entered through the cuts on his hands and spread in the blood, causing fever, muscle pain, especially in the calves, and conjunctival suffusion one to two weeks after exposure."
+      - text: "*Treponema pallidum*"
+        correct: false
+        feedback: "*T. pallidum* lives only in humans, is killed quickly by drying and passes by sexual contact or across the placenta. It is not caught from drain water."
+      - text: "*Borrelia*"
+        correct: false
+        feedback: "Lyme disease follows a tick bite, in temperate regions where its ticks live, and is not acquired in Singapore. Drain water after rain, entering through cuts, points to *Leptospira*."
+      - text: "*Helicobacter pylori*"
+        correct: false
+        feedback: "Infection with *H. pylori* lasts for decades in the stomach and causes gastritis and ulcers, not a sudden fever with muscle pain."
+  - id: sp3
+    stem: "A 28-year-old woman has a rash over her trunk, palms and soles, with fever and enlarged lymph nodes in her neck and groin. Two months earlier she had a painless ulcer on her vulva, which healed by itself. Which detail best explains the rash?"
+    options:
+      - text: "The bacteria had spread in the lymph and the blood throughout her body before the ulcer healed"
+        correct: true
+        feedback: "*T. pallidum* spreads early, before the chancre even appears. Weeks later, bacteria that have settled in the skin, lymph nodes and mucosa provoke inflammation there: the secondary stage of syphilis."
+      - text: "A toxin released from the healing ulcer travelled to the skin"
+        correct: false
+        feedback: "No toxin is known in *T. pallidum*. The rash comes from inflammation where bacteria carried in the blood have settled in the skin."
+      - text: "She has been infected again by a new partner"
+        correct: false
+        feedback: "A new infection would begin with a new chancre at the site of contact. A rash on the palms and soles weeks after a chancre healed is the second stage of the same infection."
+      - text: "Her immune response cleared the infection, and the rash is an allergic reaction to the dead bacteria"
+        correct: false
+        feedback: "Healing of the chancre marks the end of the first stage, not of the infection. Untreated, the bacteria persist and multiply throughout the body, and the rash shows where they have settled."
+  - id: sp4
+    stem: "At her first antenatal visit, a 30-year-old woman who is 12 weeks pregnant feels well and has no lesions, but antibody tests show syphilis. She recalls a painless genital ulcer some years ago that was never treated. Why is she treated during the pregnancy?"
+    options:
+      - text: "*T. pallidum* persists in her body and can cross the placenta and infect the fetus, although she has no symptoms"
+        correct: true
+        feedback: "Latent syphilis causes no symptoms, but the bacteria persist and can cross the placenta at any stage of pregnancy. Treating her prevents congenital syphilis, which can cause miscarriage, stillbirth or disease in the infant."
+      - text: "Infection without symptoms means she is in the most infectious stage"
+        correct: false
+        feedback: "The early stages, with a chancre or moist sores, pass most readily by sexual contact. Without symptoms she is in the latent stage, in which the main danger is to the fetus."
+      - text: "Her antibodies show that she is immune, and treatment strengthens that immunity"
+        correct: false
+        feedback: "These antibodies mark infection: they have not cleared the bacteria, and even after treatment a person can be infected again."
+      - text: "Pregnancy will turn the latent infection into tertiary syphilis within weeks"
+        correct: false
+        feedback: "Tertiary syphilis develops over years to decades, and only in some untreated people. The reason to treat now is the fetus, which the bacteria can reach across the placenta."
+  - id: sp5
+    stem: "A 22-year-old student has had diarrhoea with some blood, abdominal cramps and fever for three days. Four days before the illness began, he ate chicken at a barbecue that was still pink in the middle. Of these spiral bacteria, which is the most likely cause?"
+    options:
+      - text: "*Campylobacter*"
+        correct: true
+        feedback: "*Campylobacter* lives in the gut of poultry, and undercooked chicken is a common source. It is one of the most common causes of bacterial gastroenteritis, and the diarrhoea often contains blood."
+      - text: "*Helicobacter pylori*"
+        correct: false
+        feedback: "Stomach infection with *H. pylori* is usually acquired in childhood and lasts for decades, causing gastritis and ulcers. It does not cause bloody diarrhoea days after a meal."
+      - text: "*Leptospira*"
+        correct: false
+        feedback: "Water or soil contaminated with animal urine is the source of *Leptospira*, and the illness is fever with muscle pain and red eyes. A meal of undercooked chicken followed by bloody diarrhoea points to *Campylobacter*."
+      - text: "*Treponema pallidum*"
+        correct: false
+        feedback: "Sexual contact and the placenta are the main routes of *T. pallidum*, which lives only in humans and is killed quickly by drying. It is not caught from food."
+  - id: sp6
+    stem: "Three weeks after recovering from the diarrhoea, the student notices weakness in both legs, which spreads over several days to his arms. Which mechanism best explains the weakness?"
+    options:
+      - text: "Antibodies made against the bacterium cross-react with his peripheral nerves"
+        correct: true
+        feedback: "This is Guillain–Barré syndrome. Antibodies against molecules on the surface of *Campylobacter* also bind similar molecules on the peripheral nerves, so the immune response damages the nerves after the infection has gone: molecular mimicry."
+      - text: "The bacteria have spread in the blood and are multiplying in the spinal cord"
+        correct: false
+        feedback: "By now the infection has cleared. The damage comes later, from the host's own antibodies, which cross-react with the nerves."
+      - text: "A toxin made in the gut has travelled along the nerves to the spinal cord"
+        correct: false
+        feedback: "Toxins that travel along nerves belong to other bacteria. Here the bacteria are gone, and antibodies raised against them damage the peripheral nerves."
+  - id: sp7
+    stem: "*T. pallidum* and *Leptospira* are seldom seen on a Gram stain of a patient's sample. Why?"
+    options:
+      - text: "They are too thin to resolve with an ordinary light microscope"
+        correct: true
+        feedback: "Spirochaetes such as these are about 0.1 to 0.2 µm across, at the limit of resolution of the light microscope. Dark-field microscopy can show them, and NAATs and serology detect them without seeing them."
+      - text: "They have no cell wall, so they do not take up the dyes"
+        correct: false
+        feedback: "Having no wall is the trait of *Mycoplasma*. Spirochaetes have an envelope of the Gram-negative type; they are missed because they are so thin."
+      - text: "They live only inside host cells, hidden from the stain"
+        correct: false
+        feedback: "Living only inside cells is why *Chlamydia* escapes routine methods. Spirochaetes live outside cells, moving through tissue and fluids."
+      - text: "Their waxy wall resists the dyes"
+        correct: false
+        feedback: "A waxy, mycolic-acid wall belongs to the mycobacteria, which the acid-fast stain detects. Spirochaetes lack it."
+  - id: sp8
+    stem: "Bacteria whose flagella project from the surface swim well in water but make little progress through mucus and the gel between cells. How does a spirochaete move through tissue?"
+    options:
+      - text: "Its flagella lie inside the envelope and turn the whole cell like a corkscrew"
+        correct: true
+        feedback: "The flagella lie beneath the outer membrane. When they rotate, the whole coiled cell turns and flexes, and the corkscrew motion carries it through mucus and tissue and across mucosa into the blood."
+      - text: "It is carried inside phagocytes that migrate through the tissue"
+        correct: false
+        feedback: "Spirochaetes move by their own motion. Their flagella, lying inside the envelope, turn the whole cell like a corkscrew."
+      - text: "Its pili pull it along the surfaces of host cells"
+        correct: false
+        feedback: "Pili mainly attach bacteria to surfaces; some bacteria use them to crawl along a surface, but not to bore through tissue. A spirochaete moves by rotating flagella that lie inside its envelope and turn the whole coiled cell."
+  - id: sp9
+    stem: "A city council in South-East Asia wants to reduce leptospirosis among the workers who clear its drains. Of these measures, which would most reduce their risk?"
+    options:
+      - text: "Boots and gloves at work, with any cuts covered"
+        correct: true
+        feedback: "Rats shed *Leptospira* in their urine into drains, and the bacteria enter through cuts, skin softened by water and the mucosa. Covering the skin blocks the route by which they enter."
+      - text: "Spraying the drains to kill mosquito larvae"
+        correct: false
+        feedback: "Mosquito control interrupts infections that have an insect vector. Leptospirosis has none: the bacteria reach people directly from water and soil contaminated with animal urine."
+      - text: "Sending home any worker with fever so that colleagues are not infected"
+        correct: false
+        feedback: "Passage of *Leptospira* from person to person is rare, so isolating a sick worker protects no one. Each case comes from the contaminated environment."
+  - id: sp10
+    stem: "A 45-year-old man has burning pain in the upper abdomen. Endoscopy shows an ulcer in the duodenum, and a biopsy of the stomach shows curved bacteria in the mucus layer over the lining. Which feature of the bacterium best explains how it survives in the stomach?"
+    options:
+      - text: "It makes urease, which splits urea into ammonia that neutralises acid around it"
+        correct: true
+        feedback: "*H. pylori* swims into the mucus layer with its flagella and makes ammonia from urea with its urease, neutralising the acid around it. It persists for decades, causing gastritis and, in some people, ulcers."
+      - text: "It forms spores that resist acid"
+        correct: false
+        feedback: "Spore formation belongs to some Gram-positive rods. *H. pylori* survives by neutralising acid with the ammonia its urease makes."
+      - text: "It lives inside the cells of the stomach lining, away from the acid"
+        correct: false
+        feedback: "Most of the bacteria live in the mucus layer over the lining, near its surface, and protect themselves with the ammonia their urease makes."
+      - text: "Its thick, waxy wall keeps acid out"
+        correct: false
+        feedback: "A waxy wall belongs to the mycobacteria. *H. pylori* is a curved Gram-negative rod, protected by the ammonia it makes."

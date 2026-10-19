@@ -1,0 +1,28 @@
+id: route-hcv
+title: "Routes through the body: hepatitis C virus"
+intro: "One route, from a shared needle to a liver scarred over decades. At one step, predict the site before the answer appears."
+
+routes:
+  - name: "From a shared needle to the liver"
+    steps:
+      - at: outside
+        kind: lives
+        text: "HCV circulates in the blood of an infected person, often for decades without symptoms. Traces of that blood remain in a needle, syringe or other injecting equipment after use."
+      - at: blood
+        kind: enters
+        text: "When the equipment is shared, the virus is injected directly into the next person's vein."
+      - at: liver
+        kind: multiplies
+        via: blood
+        ask: "Where does the virus go from the blood?"
+        options: [liver, brain, urinary]
+        answer: [liver]
+        why: "HCV infects liver cells, so the blood carries it to the liver, where it multiplies. Like hepatitis B virus, it is named for the inflammation it causes there."
+        text: "The virus infects liver cells and copies its RNA genome in their cytoplasm, without making DNA."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "Acute infection usually causes no symptoms. In about 7 in 10 people the immune response fails to clear the virus, and chronic infection follows: virus is released into the blood continuously, and the person can pass it on through shared equipment."
+      - at: liver
+        kind: damages
+        text: "Over two or three decades, continuing inflammation slowly scars the liver. A substantial minority develop cirrhosis, and some of them hepatocellular carcinoma, often before any symptom has led to a test."

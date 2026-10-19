@@ -1,0 +1,56 @@
+id: route-salmonella
+title: "Routes through the body: *Salmonella*"
+intro: "Two routes that differ by serotype: non-typhoidal serotypes from animals, which inflame the gut, and *Salmonella* Typhi from another person, which macrophages carry through the body. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "Gastroenteritis (non-typhoidal serotypes)"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Lives in the gut of poultry, cattle, pigs and reptiles. It reaches people in undercooked poultry, eggs and meat and in unpasteurised milk, and it multiplies in food left warm."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "Stomach acid kills many of the swallowed bacteria, but from a large inoculum enough survive to reach the end of the small intestine, where they invade the cells lining it and the colon."
+      - at: gut
+        kind: damages
+        text: "Neutrophils gather and the inflamed lining leaks fluid: diarrhoea, fever and abdominal cramps, beginning a day or two after the meal and usually settling within a week."
+      - at: blood
+        kind: spreads
+        via: blood
+        ask: "In an infant, an older adult or a person with weakened defences, where can the bacteria go from the gut lining?"
+        options: [blood, airway, skin]
+        answer: [blood]
+        why: "Bacteria that cross the gut lining are usually contained there. When defences are weaker, they reach the blood, which can carry them to other organs."
+        text: "In infants, older adults and people with weakened defences, bacteria that cross the gut lining can enter the blood and be carried to other organs."
+
+  - name: "Typhoid (*Salmonella* Typhi)"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Lives only in humans. It reaches the next person in food or water contaminated with the faeces of a patient or a carrier."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "It crosses the lining of the small intestine with little inflammation, often over the patches of lymphoid tissue in its wall, so diarrhoea is often absent."
+      - at: lymph
+        kind: multiplies
+        text: "Macrophages engulf it but fail to kill it. It multiplies inside them, and they carry it to the lymph nodes that drain the gut."
+      - at: [liver, spleen]
+        kind: multiplies
+        via: blood
+        ask: "A first, silent spread in the blood carries the bacteria onward. Where do they multiply next?"
+        options: [liver, spleen, urinary, alveoli]
+        answer: [liver, spleen]
+        why: "The liver and the spleen, like the bone marrow, are rich in macrophages that filter the blood, and *S.* Typhi multiplies inside them."
+        text: "It multiplies inside the macrophages of the liver, the spleen and the bone marrow, still without symptoms."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "One to two weeks after the bacteria were swallowed, they pour into the blood, and a sustained fever begins: enteric fever."
+      - at: liver
+        kind: lives
+        text: "Bacteria in the liver pass into the bile and the gallbladder, which lies under the liver and stores bile. In a small proportion of patients, more often those with gallstones, they persist there for years in a carrier who feels well."
+      - at: gut
+        kind: damages
+        text: "Bacteria in the bile reach the gut again and infect the lymphoid patches in its wall, which can ulcerate, bleed or perforate. Bacteria pass in the faeces, of patients and of carriers, and infect the next person."

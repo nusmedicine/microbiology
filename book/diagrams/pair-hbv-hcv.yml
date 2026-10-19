@@ -1,0 +1,78 @@
+id: pair-hbv-hcv
+title: "Contrast pair: two viruses that infect the liver"
+intro: "Both infect liver cells, both spread in blood, and both can lead, after decades, to cirrhosis and hepatocellular carcinoma. Read across and find the feature that best tells them apart."
+
+a:
+  name: "Hepatitis B virus"
+b:
+  name: "Hepatitis C virus"
+
+rows:
+  - feature: "Cells infected"
+    a: "Liver cells"
+    b: "Liver cells"
+    separates: false
+  - feature: "Genome"
+    a: "DNA, copied through RNA by a reverse transcriptase; a DNA copy stays in the nucleus"
+    b: "Positive-sense RNA, copied in the cytoplasm; no DNA at any stage"
+    separates: true
+  - feature: "Infectiousness in blood"
+    a: "Very high: transmitted by needlestick far more often than HCV, and by small amounts of blood on shared razors or toothbrushes"
+    b: "Lower: transmitted mainly by shared injecting equipment"
+    separates: true
+  - feature: "Effect of age at infection"
+    a: "At birth, chronic in about 9 in 10; in healthy adults, chronic in fewer than 1 in 20"
+    b: "Most infections in adults, around 7 in 10, become chronic"
+    separates: true
+  - feature: "Outcome of chronic infection"
+    a: "Cirrhosis and hepatocellular carcinoma in a substantial minority, over decades"
+    b: "Cirrhosis and hepatocellular carcinoma in a substantial minority, over decades"
+    separates: false
+  - feature: "Vaccine"
+    a: "A vaccine of HBsAg, first given at birth"
+    b: "None"
+    separates: true
+  - feature: "Antiviral drugs"
+    a: "Suppress the virus but rarely clear it; usually taken for years"
+    b: "Cure most infections in a few months"
+    separates: true
+
+question:
+  stem: "Both infect liver cells and both can lead to hepatocellular carcinoma. Which feature best tells them apart?"
+  options: [0, 1, 4]
+  answer: 1
+  feedback: >
+    Genome. Both viruses infect liver cells and both can lead, over decades, to cirrhosis and
+    hepatocellular carcinoma, so neither of those features tells them apart. The genome explains the
+    difference in treatment: HBV keeps a DNA copy of its genome in the nucleus, which drugs that block
+    its reverse transcriptase cannot remove, while HCV makes no DNA, so stopping its replication for
+    long enough cures the infection.
+
+principle: >
+  Two viruses can damage the same organ in the same way and still differ in how they persist. HBV
+  keeps a DNA copy of its genome in the nucleus of each infected liver cell, so drugs suppress it
+  without curing it, and prevention by vaccination from birth matters most. HCV is copied as RNA in
+  the cytoplasm and makes no DNA, so drugs that stop its replication for long enough cure it, but no
+  vaccine has yet been developed, partly because its genome varies so greatly. Age at infection
+  decides the course of HBV infection, which usually becomes chronic when acquired at birth and
+  usually clears when acquired in adulthood; HCV infection becomes chronic in most adults.
+
+sort:
+  - text: "Infection at birth becomes chronic in about 9 in 10 infants"
+    answer: a
+    why: "The strong effect of age at infection belongs to HBV: an infant's immune response does not clear it."
+  - text: "A course of tablets lasting a few months cures most infections"
+    answer: b
+    why: "HCV makes no DNA, so drugs that stop its replication long enough cure it."
+  - text: "Prevented by a vaccine whose first dose is given at birth"
+    answer: a
+    why: "The HBV vaccine contains HBsAg; there is no vaccine against HCV."
+  - text: "Antibodies remain after cure, so a NAAT for viral RNA shows whether the virus is still present"
+    answer: b
+    why: "HCV has an RNA genome, and antibodies against it persist after the virus has gone."
+  - text: "A protein of its envelope, found in the blood, marks current infection"
+    answer: a
+    why: "HBsAg, made in excess by infected liver cells, marks current HBV infection."
+  - text: "Most adults infected through shared injecting equipment remain infected, silently, for decades"
+    answer: b
+    why: "HCV becomes chronic in most adults, whereas most healthy adults clear HBV."

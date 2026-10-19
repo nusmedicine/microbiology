@@ -1,0 +1,40 @@
+id: ent-profile-k-pneumoniae
+name: "Klebsiella pneumoniae"
+group: "Gram-negative rod · thick capsule · no flagella · ferments lactose"
+intro: "Predict two of the five slots. Most of what this bacterium does follows from its capsule and from the resistance genes it collects."
+
+slots:
+  - slot: identity
+    entry: "Gram-negative rod with a thick polysaccharide capsule and no flagella. Ferments lactose, forming large, wet-looking pink colonies on MacConkey agar. Every strain carries a beta-lactamase gene on its chromosome, so the species resists some penicillins from the start."
+  - slot: lifestyle
+    entry: "Lives in the gut, and sometimes the throat, of some healthy people, and in water and soil. In hospital, patients given antibacterial drugs are colonised more often, and it passes between them on the hands of staff and on shared equipment."
+  - slot: harm
+    predict:
+      stem: "The capsule is the main defence of *K. pneumoniae*. What does it do?"
+      options:
+        - text: "It stops phagocytes engulfing the bacteria"
+          correct: true
+          feedback: "A thick polysaccharide coat hides the bacterial surface from phagocytes, so the bacteria multiply wherever they arrive: in the alveoli, the bladder, the blood or the liver."
+        - text: "It is a toxin that kills lung cells"
+          correct: false
+          feedback: "The capsule kills nothing. It is a protective coat, and the damage comes from bacteria multiplying unchecked and from the inflammation they provoke, including the effects of endotoxin."
+        - text: "It lets the bacteria swim up the airway"
+          correct: false
+          feedback: "Swimming needs flagella, which *K. pneumoniae* lacks. The bacteria are carried in, along a breathing tube or a catheter, and the capsule protects them once they arrive."
+    entry: "The capsule resists phagocytes, so the bacteria multiply in the lungs, the bladder or the blood of a patient whose barriers are bypassed by a breathing tube or a catheter, or whose defences are weakened; in the blood, endotoxin drives shock. Hypervirulent strains, with an extra-thick capsule and extra genes for capturing iron, cause invasive disease in people with no device: a liver abscess, from which bacteria can reach the eye."
+  - slot: consequence
+    predict:
+      stem: "A strain of *K. pneumoniae* on a hospital ward acquires a plasmid carrying a carbapenemase gene. What is most likely to follow?"
+      options:
+        - text: "The plasmid passes to other Enterobacterales on the ward, and few drugs remain that act on them"
+          correct: true
+          feedback: "Plasmids pass between species in the gut by conjugation, so the gene can reach *E. coli* and other members of the group. A carbapenemase destroys the beta-lactams that were the main option against ESBL producers."
+        - text: "The gene stays in that one strain, because resistance genes cannot move between species"
+          correct: false
+          feedback: "Genes on plasmids move readily between members of the group living side by side in the gut. That is why one resistant strain can become a problem for a whole ward."
+        - text: "The strain loses its capsule in exchange for the new gene"
+          correct: false
+          feedback: "Acquiring a plasmid does not remove the capsule. The strain keeps its defence against phagocytes and gains resistance as well."
+    entry: "Hospital pneumonia and urinary and bloodstream infection, increasingly with ESBL and carbapenemase genes on plasmids that also reach other species; carbapenem-resistant strains leave few drugs that still work. In East and South-East Asia, including Singapore, hypervirulent strains are the commonest cause of liver abscess caused by bacteria, often in people with diabetes."
+  - slot: contrast
+    entry: "*E. coli*: also a lactose-fermenting Gram-negative rod of the gut, but with flagella and no thick capsule. It is the commonest cause of urinary tract infection, while *K. pneumoniae* is a more frequent cause of hospital pneumonia and of liver abscess."

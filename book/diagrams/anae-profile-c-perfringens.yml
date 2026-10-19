@@ -1,0 +1,40 @@
+id: anae-profile-c-perfringens
+name: "Clostridium perfringens"
+group: "Gram-positive rod · anaerobe · forms spores"
+intro: "Predict two of the five slots. Most of what this bacterium does follows from its spores, which survive soil and cooking, and from its toxins."
+
+slots:
+  - slot: identity
+    entry: "Large Gram-positive rod with a thick peptidoglycan wall. Anaerobe. Forms spores that survive heat and years in soil, but spores are rarely seen in infected tissue: a Gram stain of fluid from gas gangrene shows large, box-shaped rods and few neutrophils. Makes several toxins; the main one, alpha toxin, is an enzyme that breaks down the phospholipids of cell membranes."
+  - slot: lifestyle
+    entry: "Spores in soil and dust. Also lives in the gut of people and animals."
+  - slot: harm
+    predict:
+      stem: "Spores are carried into a deep wound with crushed muscle. Why can the bacteria grow from them there and not in a clean cut on the skin?"
+      options:
+        - text: "Crushed muscle has lost its blood supply, so it has little oxygen"
+          correct: true
+          feedback: "An anaerobe grows only where oxygen is low. A clean cut with a good blood supply, and the skin surface exposed to air, hold too much oxygen for the bacteria to grow from the spores."
+        - text: "Muscle contains a nutrient the spores need that skin lacks"
+          correct: false
+          feedback: "Healthy muscle with a good blood supply does not let them grow either. What crushed or dead muscle offers is the absence of oxygen."
+        - text: "The bacteria on the skin destroy the spores in a shallow cut"
+          correct: false
+          feedback: "Nothing on the skin has to destroy them: where oxygen is plentiful, as in a clean cut with a good blood supply, the bacteria cannot grow from the spores."
+    entry: "In crushed or dead muscle, its toxins destroy muscle cells and red blood cells and damage small vessels, so more tissue loses its blood supply and the infection spreads within hours: gas gangrene. In the gut, swallowed bacteria release an enterotoxin as they form spores, causing cramps and diarrhoea."
+  - slot: consequence
+    predict:
+      stem: "A large pot of meat stew is cooked in the afternoon and left to cool slowly overnight. What happens to the spores in the meat?"
+      options:
+        - text: "They survive cooking, germinate as the stew cools, and the bacteria multiply to large numbers"
+          correct: true
+          feedback: "Many spores survive boiling. As a large dish cools slowly, its centre holds little oxygen and stays warm for hours, so the spores germinate and the bacteria multiply."
+        - text: "Cooking kills them, so the stew is safe"
+          correct: false
+          feedback: "Boiling kills growing bacteria, but many spores survive it. Cooling food quickly, or keeping it hot until it is served, is what stops the spores growing."
+        - text: "They survive, but spores cannot germinate in food"
+          correct: false
+          feedback: "Food that cools slowly gives the spores warmth, nutrients and little oxygen, so they germinate and the bacteria multiply in it."
+    entry: "Gas gangrene spreads through muscle within hours and can cause shock, so dead muscle is cut away as an emergency. Food poisoning from large dishes of meat cooled slowly causes cramps and watery diarrhoea 6 to 24 hours after the meal, usually settling within a day."
+  - slot: contrast
+    entry: "*Staphylococcus aureus*: also causes food poisoning from food kept warm, but its toxin is already in the food, so vomiting begins within a few hours. *C. perfringens* makes its toxin in the gut, so cramps and diarrhoea begin later."

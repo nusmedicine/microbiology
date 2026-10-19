@@ -1,0 +1,29 @@
+id: route-chikungunya
+title: "Route through the body: chikungunya virus"
+intro: "From a mosquito bite through the blood to the joints, where pain can outlast the infection by months. At one step, predict the site before the answer appears."
+
+routes:
+  - name: "From the bite to the joints"
+    steps:
+      - at: outside
+        kind: lives
+        text: "An infected female *Aedes aegypti* or *Aedes albopictus* mosquito carries the virus in its salivary glands."
+      - at: skin
+        kind: enters
+        text: "The mosquito bites by day and injects the virus into the skin, where it multiplies in the cells of the skin."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "The virus reaches high levels in the blood, and a sudden high fever begins; most infected people become ill. A mosquito that bites now takes up the virus."
+      - at: [bone, tissue]
+        kind: damages
+        via: blood
+        ask: "Where does the virus cause the pain that gives the disease its name?"
+        options: [bone, brain, liver]
+        answer: [bone]
+        why: "The virus infects the tissues of the joints, muscles and tendons, and the inflammation there causes severe pain in many joints. The brain and the liver are rarely involved."
+        text: "The virus infects the tissues of the joints, muscles and tendons, and the inflammation causes severe pain in many joints, often the hands, wrists and ankles on both sides. The pain can stop the patient gripping or walking."
+      - at: bone
+        kind: damages
+        arrow: false
+        text: "The fever settles within about a week, and the virus is cleared from the blood. In some patients, more often older adults, pain and stiffness in the joints continue for months; one infection is thought to give lasting immunity."

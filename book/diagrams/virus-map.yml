@@ -1,0 +1,368 @@
+id: virus-map
+title: "A map of the viruses"
+intro: >
+  Each row is a virus named in the group chapters of the viral world, and each column is one of its
+  traits. Click a virus to see how its traits fit together, or click a column heading to line the
+  viruses up by that trait.
+
+traits:
+  - key: genome
+    label: "Genome"
+    values:
+      dna: { label: "DNA", color: "#5a2387" }
+      pos: { label: "Positive-sense RNA", color: "#2f7fbf" }
+      neg: { label: "Negative-sense RNA", color: "#d14d80" }
+      ds: { label: "Double-stranded RNA", color: "#8a5a14" }
+      retro: { label: "Retrovirus", color: "#b03a2e" }
+  - key: envelope
+    label: "Envelope"
+    values:
+      env: { label: "Enveloped", color: "#3c9a6b" }
+      naked: { label: "Non-enveloped", color: "#a0602a" }
+  - key: route
+    label: "Route"
+    values:
+      resp: { label: "Respiratory", color: "#2f7fbf" }
+      faecal: { label: "Faecal–oral", color: "#8a5a14" }
+      bloodsex: { label: "Blood and sexual contact", color: "#b03a2e" }
+      blood: { label: "Mainly blood", color: "#7a3b2e" }
+      mosquito: { label: "Mosquito bite", color: "#3d8d7a" }
+      contact: { label: "Close contact", color: "#5a2387" }
+  - key: persistence
+    label: "Persistence"
+    values:
+      acute: { label: "Acute", color: "#3c9a6b" }
+      latent: { label: "Latent", color: "#c08a1e" }
+      some: { label: "Chronic in some", color: "#a0602a" }
+      chronic: { label: "Chronic", color: "#b03a2e" }
+  - key: group
+    label: "Group chapter"
+    values:
+      resp: { label: "Respiratory", color: "#41637a" }
+      entv: { label: "Faecal–oral", color: "#41637a" }
+      bbv: { label: "Blood-borne and sexual", color: "#41637a" }
+      arbo: { label: "Arthropod-borne", color: "#41637a" }
+      herp: { label: "Herpesviruses", color: "#41637a" }
+
+groups:
+  - id: flu
+    name: "Influenza virus"
+    examples: "Seasonal influenza, and occasional pandemics"
+    genome: neg
+    envelope: env
+    route: resp
+    persistence: acute
+    group: resp
+    home: "The human airway; influenza A viruses also infect birds and pigs"
+    logic: >
+      An enveloped virus with a segmented, negative-sense RNA genome. The envelope survives poorly
+      outside the body, so the virus passes between people close together, in respiratory particles
+      and on hands. Its polymerase does not proofread and its segments can be swapped, so it drifts,
+      and influenza A viruses, which also infect birds and pigs, occasionally shift; people are
+      infected again in later years (see *How viruses change*).
+  - id: sars2
+    name: "SARS-CoV-2"
+    examples: "COVID-19"
+    genome: pos
+    envelope: env
+    route: resp
+    persistence: acute
+    group: resp
+    home: "The human airway"
+    logic: >
+      An enveloped positive-sense RNA virus that infects the airway. It spreads in respiratory
+      particles, including from people who have not yet developed symptoms. Unusually for an RNA
+      virus, the enzymes that copy its genome proofread, but across a vast number of infections new
+      variants that spread faster or escape antibodies have still arisen and replaced earlier ones, so
+      the vaccines have been updated.
+  - id: rsv
+    name: "Respiratory syncytial virus"
+    examples: "Bronchiolitis in infants; airway infection at every age"
+    genome: neg
+    envelope: env
+    route: resp
+    persistence: acute
+    group: resp
+    home: "The human airway"
+    logic: >
+      An enveloped negative-sense RNA virus that infects the airway, including the small airways
+      (bronchioles) of infants. Immunity after infection is incomplete, so people are infected again
+      throughout life; infants and older adults are most at risk of severe disease.
+  - id: rhino
+    name: "Rhinoviruses"
+    examples: "The common cold"
+    genome: pos
+    envelope: naked
+    route: resp
+    persistence: acute
+    group: resp
+    home: "The human nose and throat"
+    logic: >
+      Non-enveloped positive-sense RNA viruses that grow best at the cooler temperature of the nose.
+      There are many types, and immunity to one does not protect against the others, so people catch
+      colds again and again. Without an envelope they survive on hands and surfaces, which carry them to
+      the nose and eyes.
+  - id: adeno
+    name: "Adenoviruses"
+    examples: "Sore throat and conjunctivitis; diarrhoea with some types"
+    genome: dna
+    envelope: naked
+    route: resp
+    persistence: acute
+    group: resp
+    home: "The human airway, eye and gut"
+    logic: >
+      Non-enveloped viruses with a double-stranded DNA genome, unusual among the respiratory viruses.
+      Without an envelope they survive for long periods on surfaces and in water, and different types
+      infect the airway, the eye and the gut.
+  - id: measles
+    name: "Measles virus"
+    examples: "Measles: fever, then a rash"
+    genome: neg
+    envelope: env
+    route: resp
+    persistence: acute
+    group: resp
+    home: "Humans only"
+    logic: >
+      An enveloped negative-sense RNA virus and one of the most contagious viruses known: it spreads
+      through the air, enters through the airway and spreads through the body to cause fever and a rash.
+      Its surface proteins change little, so one vaccine has protected for decades, and outbreaks follow
+      when vaccine coverage falls.
+  - id: noro
+    name: "Norovirus"
+    examples: "Outbreaks of sudden vomiting and diarrhoea"
+    genome: pos
+    envelope: naked
+    route: faecal
+    persistence: acute
+    group: entv
+    home: "The human gut"
+    logic: >
+      A non-enveloped positive-sense RNA virus that survives on surfaces and in food, is less reliably
+      inactivated by alcohol hand rub, and infects with a very small dose. It spreads from faeces and
+      vomit, so it causes outbreaks in care homes, hospitals and cruise ships. Immunity is short and the
+      virus varies, so people are infected again.
+  - id: rota
+    name: "Rotavirus"
+    examples: "Severe watery diarrhoea in infants and young children"
+    genome: ds
+    envelope: naked
+    route: faecal
+    persistence: acute
+    group: entv
+    home: "The human gut"
+    logic: >
+      A non-enveloped virus whose genome is double-stranded RNA in segments, the only such genome on the
+      map. It infects the cells lining the small intestine of infants and young children and causes
+      severe watery diarrhoea that can lead to dehydration. An oral live vaccine is given in infancy.
+  - id: entero
+    name: "Enteroviruses"
+    examples: "Hand, foot and mouth disease; viral meningitis"
+    genome: pos
+    envelope: naked
+    route: faecal
+    persistence: acute
+    group: entv
+    home: "The human throat and gut"
+    logic: >
+      Non-enveloped positive-sense RNA viruses that multiply in the throat and gut and spread in faeces,
+      and also in respiratory secretions and the fluid of blisters. They cause hand, foot and mouth
+      disease in young children, common in Singapore, and are a common cause of viral meningitis.
+  - id: hav
+    name: "Hepatitis A virus"
+    examples: "Acute hepatitis"
+    genome: pos
+    envelope: naked
+    route: faecal
+    persistence: acute
+    group: entv
+    home: "Humans; multiplies in the liver"
+    logic: >
+      A non-enveloped positive-sense RNA virus that survives in water and food contaminated with faeces,
+      is swallowed, and reaches the liver from the gut. It causes acute hepatitis and never becomes
+      chronic, and a vaccine prevents it.
+  - id: hev
+    name: "Hepatitis E virus"
+    examples: "Acute hepatitis"
+    genome: pos
+    envelope: naked
+    route: faecal
+    persistence: acute
+    group: entv
+    home: "Humans; also pigs and some other animals"
+    logic: >
+      A non-enveloped positive-sense RNA virus that reaches the liver from the gut, spread in water
+      contaminated with faeces and in undercooked pork. It causes acute hepatitis without chronic
+      infection in healthy people, but it can be severe in pregnancy.
+  - id: hiv
+    name: "HIV"
+    examples: "HIV infection and AIDS"
+    genome: retro
+    envelope: env
+    route: bloodsex
+    persistence: chronic
+    group: bbv
+    home: "Human CD4 T cells and macrophages"
+    logic: >
+      An enveloped retrovirus that copies its RNA genome into DNA and integrates it into the chromosomes
+      of CD4 T cells. It spreads by sexual contact, in blood and from mother to child, stays for life,
+      and over years destroys CD4 T cells, so cell-mediated immunity fails. Its reverse transcriptase
+      does not proofread, so the virus varies and becomes resistant to any single drug (see *Viruses and
+      the host* and *How viruses change*).
+  - id: hbv
+    name: "Hepatitis B virus"
+    examples: "Acute and chronic hepatitis; cirrhosis and liver cancer"
+    genome: dna
+    envelope: env
+    route: bloodsex
+    persistence: some
+    group: bbv
+    home: "The human liver"
+    logic: >
+      An enveloped DNA virus that copies its genome by way of an RNA copy, using its own reverse
+      transcriptase. It is very infectious in blood and also spreads by sexual contact and from mother
+      to infant at birth. Infection at birth or in infancy usually becomes chronic, infection in early
+      childhood often does, and infection in adulthood is usually cleared; chronic infection can lead
+      over decades to cirrhosis and liver cancer. A vaccine given in infancy prevents it.
+  - id: hcv
+    name: "Hepatitis C virus"
+    examples: "Chronic hepatitis; cirrhosis and liver cancer"
+    genome: pos
+    envelope: env
+    route: blood
+    persistence: chronic
+    group: bbv
+    home: "The human liver"
+    logic: >
+      An enveloped positive-sense RNA virus spread mainly by blood: through shared injecting equipment
+      and, in the past, unscreened transfusions and unsterile medical procedures. Most infections become
+      chronic and stay silent for decades while the liver is slowly damaged; over two or three decades
+      a substantial minority of people develop cirrhosis, from which liver cancer can arise. There is
+      no vaccine, but antiviral drugs now cure most infections.
+  - id: hpv
+    name: "Human papillomavirus"
+    examples: "Warts; cancer of the cervix and other sites"
+    genome: dna
+    envelope: naked
+    route: contact
+    persistence: some
+    group: bbv
+    home: "Human skin and the lining of the genital tract"
+    logic: >
+      A non-enveloped double-stranded DNA virus that infects the skin and the lining of the genital
+      tract, spread by skin-to-skin and sexual contact. Most infections are cleared within two years,
+      but infection with high-risk types that persists for years can lead to cancer of the cervix and
+      other sites (see *Viruses and the host*). A vaccine prevents infection with the types that cause
+      most of these cancers.
+  - id: dengue
+    name: "Dengue virus"
+    examples: "Dengue; severe dengue"
+    genome: pos
+    envelope: env
+    route: mosquito
+    persistence: acute
+    group: arbo
+    home: "Humans, carried between them by mosquitoes"
+    logic: >
+      An enveloped positive-sense RNA virus carried between people by *Aedes* mosquitoes, which bite by
+      day and breed in small containers of water near homes. It causes fever with headache and muscle
+      and joint pain. There are four serotypes, and a second infection with a different serotype is more
+      likely to cause severe dengue. It is endemic in Singapore.
+  - id: zika
+    name: "Zika virus"
+    examples: "Mild illness; brain damage in the fetus"
+    genome: pos
+    envelope: env
+    route: mosquito
+    persistence: acute
+    group: arbo
+    home: "Humans, carried between them by mosquitoes"
+    logic: >
+      An enveloped positive-sense RNA virus carried by the same *Aedes* mosquitoes as dengue virus, and
+      also spread by sexual contact and from mother to fetus. Most infections are mild or silent, but
+      infection in pregnancy can damage the developing brain of the fetus, causing microcephaly, an
+      abnormally small head.
+  - id: chik
+    name: "Chikungunya virus"
+    examples: "Fever and long-lasting joint pain"
+    genome: pos
+    envelope: env
+    route: mosquito
+    persistence: acute
+    group: arbo
+    home: "Humans, carried between them by mosquitoes"
+    logic: >
+      An enveloped positive-sense RNA virus carried by *Aedes* mosquitoes, from a different family from
+      dengue virus. It causes fever and severe joint pain, which can last for months after the fever has
+      gone.
+  - id: jev
+    name: "Japanese encephalitis virus"
+    examples: "Encephalitis"
+    genome: pos
+    envelope: env
+    route: mosquito
+    persistence: acute
+    group: arbo
+    home: "Pigs and wading birds; mosquitoes carry it to people"
+    logic: >
+      An enveloped positive-sense RNA virus carried by *Culex* mosquitoes between pigs and wading birds
+      in rural Asia; people are infected by the same mosquitoes but do not pass it on. Most infections are
+      silent, but encephalitis, inflammation of the brain, can be fatal or leave lasting damage. A vaccine
+      prevents it.
+  - id: hsv
+    name: "Herpes simplex viruses"
+    examples: "Cold sores; genital herpes; encephalitis (rare)"
+    genome: dna
+    envelope: env
+    route: contact
+    persistence: latent
+    group: herp
+    home: "Humans; latent in sensory nerve cells"
+    logic: >
+      Enveloped double-stranded DNA viruses (types 1 and 2) spread by close contact with saliva, a lesion
+      or genital secretions, often from a person without symptoms. After the first infection they stay
+      latent for life in sensory nerve cells and reactivate to cause recurrent blisters at the same site
+      (see *Herpesviruses*).
+  - id: vzv
+    name: "Varicella-zoster virus"
+    examples: "Chickenpox, then shingles"
+    genome: dna
+    envelope: env
+    route: resp
+    persistence: latent
+    group: herp
+    home: "Humans; latent in sensory nerve cells"
+    logic: >
+      An enveloped double-stranded DNA virus that spreads by respiratory particles and from the fluid of
+      blisters. The first infection spreads in the blood to the skin as chickenpox; the virus then stays
+      latent in sensory nerve cells and can reactivate decades later as shingles. Its route matches the
+      respiratory viruses, but its genome, envelope and latency place it with the herpesviruses.
+  - id: cmv
+    name: "Cytomegalovirus"
+    examples: "Congenital infection; disease when immunity is suppressed"
+    genome: dna
+    envelope: env
+    route: contact
+    persistence: latent
+    group: herp
+    home: "Humans; latent in white blood cells of the monocyte line"
+    logic: >
+      An enveloped double-stranded DNA virus spread in saliva, urine, breast milk and genital
+      secretions, and across the placenta. It is usually silent in healthy people and stays latent in
+      white blood cells of the monocyte line; it harms the fetus and people whose cell-mediated immunity
+      is suppressed.
+  - id: ebv
+    name: "Epstein–Barr virus"
+    examples: "Infectious mononucleosis; some cancers"
+    genome: dna
+    envelope: env
+    route: contact
+    persistence: latent
+    group: herp
+    home: "Humans; latent in B lymphocytes"
+    logic: >
+      An enveloped double-stranded DNA virus spread in saliva. A first infection in early childhood is
+      usually silent, but in adolescents and young adults it often causes infectious mononucleosis. The
+      virus stays latent in B lymphocytes and is linked to some lymphomas and to nasopharyngeal
+      carcinoma.

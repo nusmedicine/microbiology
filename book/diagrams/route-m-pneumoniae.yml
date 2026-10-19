@@ -1,0 +1,30 @@
+id: route-m-pneumoniae
+title: "Route through the body: *Mycoplasma pneumoniae*"
+intro: "From one person's airway to the next, and in some people down to the lungs. At one step, predict where the bacteria settle before the answer appears."
+
+routes:
+  - name: "From a cough to a gradual pneumonia"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Lives on the airway lining of an infected person, often a school-age child or young adult in the same household, school or barracks, who coughs it out in respiratory particles."
+      - at: nose-throat
+        kind: enters
+        via: air
+        text: "Particles breathed in during close contact carry the bacteria into the nose and throat. Symptoms begin only after a long incubation period, often two to three weeks."
+      - at: airway
+        kind: multiplies
+        via: air
+        ask: "Where does it attach and multiply?"
+        options: [airway, blood, gut]
+        answer: [airway]
+        why: "It attaches by a specialised tip to the ciliated cells lining the trachea and bronchi, and stays on the surface of the airway. It is breathed in, not swallowed, and it seldom reaches the blood."
+        text: "It attaches by its tip to the ciliated cells of the trachea and bronchi and lies among their cilia. The hydrogen peroxide it releases damages the cells, the cilia stop beating, and a dry cough begins that can last for weeks."
+      - at: alveoli
+        kind: damages
+        via: air
+        text: "In some people the infection reaches the lungs. Lymphocytes gather around the small airways and in the walls of the alveoli, while the air spaces stay largely free of pus, so the pneumonia comes on gradually and the patient often looks less ill than the chest X-ray suggests."
+      - at: outside
+        kind: spreads
+        via: air
+        text: "Coughing passes the bacteria to the next person in the household or class, who falls ill weeks later. Cases therefore follow one another, about one incubation period apart."

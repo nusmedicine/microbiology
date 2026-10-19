@@ -1,0 +1,44 @@
+id: route-influenza
+title: "Routes through the body: influenza virus"
+intro: "Two routes: the infection of the airway that most people have, and the bacterial pneumonia that can follow it. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "Influenza in the airway"
+    steps:
+      - at: outside
+        kind: lives
+        text: "A person with influenza breathes out virus in respiratory particles and leaves it on hands and surfaces, from about a day before symptoms begin."
+      - at: nose-throat
+        kind: enters
+        via: air
+        text: "The particles are breathed in, or the virus is carried on hands to the nose or mouth. Haemagglutinin binds sialic acid on epithelial cells, and the virus enters them."
+      - at: airway
+        kind: multiplies
+        via: air
+        ask: "New virions bud from the side of the epithelial cell that faces the airway lumen. Where does the infection spread next?"
+        options: [airway, blood, brain]
+        answer: [airway]
+        why: "Released into the airway lumen, new virions infect neighbouring epithelial cells down the trachea and bronchi. Influenza virus rarely enters the blood, so the infection stays in the airway, and the incubation period is short."
+        text: "Neuraminidase frees the new virions, which infect neighbouring cells down the trachea and bronchi, and are coughed and breathed out to infect others. Infected ciliated cells die, and signals released early in infection cause fever and aching, which begin one to four days after infection."
+      - at: alveoli
+        kind: damages
+        via: air
+        text: "In older adults, young children, pregnant women and people with chronic disease, the infection and the inflammation it provokes can extend into the alveoli. Fluid and inflammatory cells fill them and impair gas exchange: viral pneumonia."
+
+  - name: "Bacterial pneumonia after influenza"
+    steps:
+      - at: nose-throat
+        kind: lives
+        text: "*Streptococcus pneumoniae* and *Staphylococcus aureus* live harmlessly in the nose and throat of many healthy people."
+      - at: airway
+        kind: damages
+        via: air
+        text: "Influenza virus kills the ciliated epithelial cells of the trachea and bronchi. The damaged lining clears mucus, and the bacteria trapped in it, poorly, and offers bacteria new places to attach, while the immune response to the virus weakens the phagocytes that would kill them."
+      - at: alveoli
+        kind: multiplies
+        via: air
+        ask: "A few days after he began to recover from influenza, an older man's fever returns with a cough. Where are bacteria from his nose and throat now multiplying?"
+        options: [alveoli, blood, gut]
+        answer: [alveoli]
+        why: "The cough points to the lung. The damaged airway no longer clears bacteria carried down from the nose and throat, so they reach the alveoli and multiply there. Bacteria can enter the blood from an infected lung, but the lung is where this infection began."
+        text: "The bacteria multiply in the alveoli, and neutrophils and fluid fill them: a secondary bacterial pneumonia. Antibacterial drugs treat it, although they have no effect on the influenza virus."

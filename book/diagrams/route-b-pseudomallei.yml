@@ -1,0 +1,52 @@
+id: route-b-pseudomallei
+title: "Routes through the body: *Burkholderia pseudomallei*"
+intro: "Two routes from the same soil: through broken skin to the organs, and breathed in after heavy rain, with disease that can begin years later. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "Through broken skin to the organs"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Lives in wet soil and surface water in the tropics, above all in South-East Asia, including Singapore, and northern Australia. Heavy rain brings the bacteria to the surface, where soil and standing water carry them."
+      - at: skin
+        kind: enters
+        via: direct
+        text: "Enters through a cut or an abrasion during barehanded work in wet soil. An ulcer or an abscess can form where it entered."
+      - at: tissue
+        kind: multiplies
+        text: "Multiplies in the tissue it has entered. Phagocytes engulf the bacteria and they survive inside them, so the cells that should kill them carry them instead."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "Infected phagocytes and free bacteria enter the blood, and LPS in the bacterial outer membrane, with other bacterial components, drives the inflammation of sepsis: fever, falling blood pressure and organ failure within days."
+      - at: [liver, spleen]
+        kind: damages
+        via: blood
+        ask: "Carried in the blood, where does this organism characteristically settle and form abscesses?"
+        options: [liver, spleen, nerves]
+        answer: [liver, spleen]
+        why: "The liver and the spleen are full of phagocytes, the cells inside which this organism survives, so pus collects there as abscesses. Nerves are not where it characteristically collects, although infection of the brain and nerves does occur and is uncommon."
+        text: "Settles in the liver and spleen, and in other organs, where it multiplies inside phagocytes and abscesses form. Treatment must continue for months, because bacteria inside cells are out of reach of antibodies and of drugs that do not enter cells."
+
+  - name: "Inhaled, and disease years later"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Heavy rain brings the bacteria to the surface of soil and water, and puts them into spray and dust."
+      - at: alveoli
+        kind: enters
+        via: air
+        ask: "The bacteria are carried in spray and dust small enough to be breathed in. Where do they settle?"
+        options: [alveoli, gut, ear-sinus]
+        answer: [alveoli]
+        why: "Particles small enough to be inhaled reach the alveoli, where macrophages engulf the bacteria and the bacteria survive inside them. Bacteria that are swallowed instead reach the gut, a less common route into the body."
+        text: "Breathed in, the bacteria reach the alveoli. Macrophages there engulf them, and they survive inside those cells."
+      - at: alveoli
+        kind: multiplies
+        text: "Multiplies inside the macrophages of the alveoli and in the lung tissue around them: pneumonia, which can become severe within days."
+      - at: alveoli
+        kind: latent
+        text: "In some people the infection causes no illness at the time. Bacteria persist inside cells, held in check by the host's defences, without multiplying enough to cause disease."
+      - at: alveoli
+        kind: reactivates
+        text: "When those defences weaken, with poorly controlled diabetes or another illness, the bacteria multiply again as pneumonia, and from the lung they can reach the blood and other organs. Melioidosis can therefore begin years after a person has left the region where the organism lives, which is uncommon but well documented."

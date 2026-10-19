@@ -1,0 +1,58 @@
+id: worlds-sorter
+title: "Which kind of microbe?"
+intro: "Each description gives a consequence of what an organism is: how it is found, treated or persists. Sort each one by the kind of microbe it describes."
+
+categories:
+  - key: bacterium
+    label: "Bacterium"
+    summary: "a prokaryotic cell, seen on a stain and usually grown on agar, whose wall, ribosomes and enzymes differ from human ones and give drugs many targets."
+  - key: virus
+    label: "Virus"
+    summary: "not a cell: too small for the light microscope, copied only inside living cells, found by NAATs, antigen tests or serology, and treated by drugs against its few enzymes and other proteins."
+  - key: fungus
+    label: "Fungus"
+    summary: "a eukaryotic cell with a chitin and glucan wall and ergosterol in its membrane, the two main drug targets; seen as yeast cells or hyphae, and grown on agar, often slowly."
+  - key: protozoan
+    label: "Protozoan"
+    summary: "a single eukaryotic cell that multiplies inside the host; found by microscopy of blood or stool, with few drug targets."
+  - key: helminth
+    label: "Helminth"
+    summary: "a many-celled worm that, with few exceptions, does not multiply inside the host; eggs or larvae in the stool, and eosinophilia while larvae move through tissue."
+
+items:
+  - text: "Seen inside red blood cells on a stained blood film from a traveller with fever"
+    answer: protozoan
+    why: "A single cell that multiplies inside red cells: *Plasmodium falciparum*."
+  - text: "Small purple round cells, none of them budding, in clusters on a Gram stain of pus, with colonies on agar the next day"
+    answer: bacterium
+    why: "Cells far smaller than a yeast, with no budding, in clusters, that grow overnight on agar: *Staphylococcus aureus*."
+  - text: "Inactivated on the hands by alcohol rub, because it is wrapped in a lipid membrane taken from the cell it left"
+    answer: virus
+    why: "An envelope taken from a host cell membrane belongs to an enveloped virus, such as influenza virus."
+  - text: "Found in the stool as eggs, two to three months after a child put fingers soiled with earth in her mouth"
+    answer: helminth
+    why: "Eggs appear once adult worms have matured in the intestine: *Ascaris lumbricoides*."
+  - text: "Stopped by a drug that blocks the enzyme making the glucan of its cell wall, a wall that human cells lack"
+    answer: fungus
+    why: "The chitin and glucan wall is a fungal target: the echinocandins block glucan synthesis in fungi such as *Candida albicans*."
+  - text: "Its genome stays silent in the cell bodies of sensory nerves for life and can return along the nerve"
+    answer: virus
+    why: "Latency in sensory nerve cells is the way of the herpesviruses, such as herpes simplex virus."
+  - text: "Raises the blood eosinophil count while its larvae pass through the lungs"
+    answer: helminth
+    why: "Eosinophils attack parasites too large to engulf, such as worm larvae migrating through tissue."
+  - text: "Grows on agar in a day or two as budding cells, and overgrows in the vagina after a course of antibacterial drugs"
+    answer: fungus
+    why: "A budding yeast that antibacterial drugs spare: *C. albicans*."
+  - text: "Passed in the stool as cysts whose wall protects them in water, even from chlorine at the levels used in drinking water"
+    answer: protozoan
+    why: "The cyst is the infective form of intestinal protozoa such as *Giardia duodenalis*."
+  - text: "Seen with the acid-fast stain, held in check in the lung for decades by cell-mediated immunity, and treated for months with several drugs at once"
+    answer: bacterium
+    why: "An acid-fast, slow-growing bacterium that can stay latent: *Mycobacterium tuberculosis*."
+  - text: "Copied into DNA by an enzyme it carries, and joined into a chromosome of a CD4 T cell"
+    answer: virus
+    why: "Reverse transcriptase and integrase make HIV a retrovirus."
+  - text: "Persists for decades because its larvae mature in the gut and reinfect the same person"
+    answer: helminth
+    why: "Autoinfection keeps *Strongyloides stercoralis* going long after the person has left the place where it was caught."

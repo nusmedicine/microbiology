@@ -1,0 +1,48 @@
+id: route-t-pallidum
+title: "Routes through the body: *Treponema pallidum*"
+intro: "Two routes: through the body over years, in stages, and across the placenta to the fetus. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "Through the body over years"
+    steps:
+      - at: genital
+        kind: enters
+        text: "Reaches the mucosa of the genital tract, anus or mouth during sexual contact with an infectious lesion, and enters through the mucosa or small breaks in the skin. Its corkscrew motion carries it into the tissue."
+      - at: genital
+        kind: damages
+        text: "About three weeks later, a painless ulcer, the chancre, forms where the bacteria entered, and nearby lymph nodes enlarge. The chancre heals without treatment within a few weeks."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "Long before the chancre heals, and even before it appears, the bacteria have spread in the lymph and the blood throughout the body."
+      - at: skin
+        kind: damages
+        via: blood
+        ask: "Weeks after the chancre heals, where does the spreading infection most often show itself?"
+        options: [skin, alveoli, gut]
+        answer: [skin]
+        why: "The commonest sign of the secondary stage is a widespread rash, often including the palms and soles, where bacteria carried in the blood have settled in the skin and provoked inflammation. The lungs and the gut are seldom affected."
+        text: "A widespread rash appears, often including the palms and soles, with fever, enlarged lymph nodes and moist sores in the mouth and genital tract. It settles without treatment, and a latent stage without symptoms follows, often for years."
+      - at: [heart, brain]
+        kind: damages
+        via: blood
+        arrow: false
+        text: "Years to decades later, in some untreated people, chronic inflammation around small blood vessels damages the tissue they supply. The wall of the aorta weakens and widens where it leaves the heart, and the brain and spinal cord are damaged."
+
+  - name: "Across the placenta"
+    steps:
+      - at: genital
+        kind: enters
+        text: "A woman is infected by sexual contact, before or during pregnancy. She may have no symptoms, especially in the latent stage."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "The bacteria spread in her blood, in the largest numbers in the early stages of her infection."
+      - at: fetus
+        kind: damages
+        via: blood
+        ask: "She has no symptoms. Where can the bacteria in her body still cause harm?"
+        options: [fetus, alveoli, urinary]
+        answer: [fetus]
+        why: "*T. pallidum* can cross the placenta at any stage of pregnancy, even when the mother is in the latent stage and feels well. Screening pregnant women by serology finds these infections, and treating the mother prevents congenital syphilis."
+        text: "The bacteria cross the placenta and infect the fetus. Congenital infection can cause miscarriage or stillbirth, or an infant born with congenital syphilis."

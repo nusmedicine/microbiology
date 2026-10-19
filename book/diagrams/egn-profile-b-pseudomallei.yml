@@ -1,0 +1,40 @@
+id: egn-profile-b-pseudomallei
+name: "Burkholderia pseudomallei"
+group: "Gram-negative rod · cannot ferment sugars, depends on respiration · lives in wet soil and surface water"
+intro: "Predict two of the five slots. This organism's habitat decides who meets it, and its life inside phagocytes decides what happens next."
+
+slots:
+  - slot: identity
+    entry: "Gram-negative rod with an outer membrane carrying LPS. Oxidase positive, grows on ordinary media in air, and survives and multiplies inside phagocytes as well as outside host cells."
+  - slot: lifestyle
+    entry: "Lives in wet soil and surface water in the tropics, above all in South-East Asia, including Singapore, and northern Australia, and needs no host. Heavy rain brings it to the surface, so cases follow the rainy season and outdoor work. Most illness begins one to three weeks after the exposure."
+  - slot: harm
+    predict:
+      stem: "Two gardeners work the same wet soil barehanded and both have small cuts. One develops pneumonia and sepsis; the other stays well. Which difference between them best explains this?"
+      options:
+        - text: "One has poorly controlled diabetes, which impairs neutrophil function"
+          correct: true
+          feedback: "Diabetes is the commonest host factor in melioidosis, ahead of hazardous alcohol use and chronic kidney disease. The same exposure gives different outcomes because the host, not the strain, differs."
+        - text: "One swallowed the bacteria and the other did not"
+          correct: false
+          feedback: "Swallowing is one route into the body, and so are broken skin and inhalation. The difference that decides the outcome after the same exposure is a host factor: diabetes above all."
+        - text: "One was infected by a far more virulent strain from the same bed of soil"
+          correct: false
+          feedback: "Strains do differ, but two men working the same soil met the same organisms. Host factors explain the difference in outcome."
+    entry: "Multiplies at the site of entry as an ulcer or abscess, and in the alveoli as pneumonia. Phagocytes that engulf it carry it in the blood, so abscesses form in the liver, spleen and other organs, and LPS and other bacterial components drive the inflammation of sepsis. In some people it persists inside cells without illness and causes disease years later, which is uncommon but well documented."
+  - slot: consequence
+    predict:
+      stem: "Melioidosis is treated for months, not days, and it can relapse after treatment that seemed to work. Which feature of the organism best explains that?"
+      options:
+        - text: "It survives inside host cells, where antibodies and many drugs do not reach it"
+          correct: true
+          feedback: "Bacteria inside phagocytes are sheltered from antibodies and from drugs that do not enter cells, so a short course leaves survivors behind and treatment continues for months."
+        - text: "It grows so slowly that drugs have little to act on"
+          correct: false
+          feedback: "This organism grows overnight on ordinary media, so slow growth is not the reason. Here the shelter is the inside of a host cell."
+        - text: "It becomes resistant to every drug during treatment"
+          correct: false
+          feedback: "It is naturally resistant to several classes, which narrows the choice from the start, but relapse comes from bacteria that persisted inside cells, not from resistance appearing in all of them."
+    entry: "Melioidosis: pneumonia, abscesses in several organs and sepsis, most often in people with diabetes. Treatment lasts months and relapse is possible. Because the reservoir is the environment and spread between people is very rare, prevention acts on exposure to soil and water, with gloves, boots and wound care, and the organism cannot be eradicated."
+  - slot: contrast
+    entry: "*Pseudomonas aeruginosa*: the same envelope, the same inability to ferment sugars and the same natural resistance, but it comes from water and wet surfaces in hospitals, it needs a failed barrier rather than diabetes, and it stays outside host cells, so it neither forms abscesses in distant organs nor reactivates years later."

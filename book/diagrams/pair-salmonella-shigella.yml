@@ -1,0 +1,78 @@
+id: pair-salmonella-shigella
+title: "Contrast pair: two gut pathogens with pale colonies"
+intro: "Both are Gram-negative rods that do not ferment lactose, both are swallowed, and both invade the gut lining. Read across and find the feature that best explains how each one spreads."
+
+a:
+  name: "Salmonella"
+  morph: rods-neg
+b:
+  name: "Shigella"
+  morph: rods-neg
+
+rows:
+  - feature: "Gram stain and shape"
+    a: "Gram-negative rod"
+    b: "Gram-negative rod"
+    separates: false
+  - feature: "Colonies on MacConkey agar"
+    a: "Pale: does not ferment lactose"
+    b: "Pale: does not ferment lactose"
+    separates: false
+  - feature: "Reservoir"
+    a: "Poultry, cattle, pigs and reptiles for non-typhoidal serotypes; humans only for *S.* Typhi"
+    b: "Humans only"
+    separates: true
+  - feature: "Infectious dose"
+    a: "Large for non-typhoidal serotypes, which usually multiply in food first"
+    b: "Very small: as few as 10 to 100 bacteria"
+    separates: true
+  - feature: "Usual route to the next person"
+    a: "Food from animals, especially poultry and eggs, left warm"
+    b: "From person to person on hands and by sexual contact, and in food or water contaminated with faeces"
+    separates: true
+  - feature: "Site and disease"
+    a: "The end of the small intestine and the colon: gastroenteritis; *S.* Typhi spreads inside macrophages to the blood: enteric fever"
+    b: "The lining of the colon, which it invades and ulcerates: dysentery; it rarely enters the blood"
+    separates: true
+  - feature: "Shiga toxin"
+    a: "None"
+    b: "Made only by *Shigella dysenteriae* type 1; most damage comes from invasion of the colon lining"
+    separates: true
+
+question:
+  stem: "Both form pale colonies and both invade the gut lining. Which feature best explains why one spreads from child to child in a childcare centre, while the other usually comes from food?"
+  options: [1, 3, 6]
+  answer: 3
+  feedback: >
+    Infectious dose. The colonies look the same, so colour cannot explain the difference, and Shiga
+    toxin is made by only one serotype of *Shigella*. A few *Shigella* bacteria on a hand or a toy are
+    enough to infect, so it passes directly from person to person. Non-typhoidal *Salmonella*
+    usually needs far more, which builds up when contaminated food is left warm.
+
+principle: >
+  The number of bacteria needed to cause infection shapes how an organism spreads. *Shigella*
+  survives stomach acid well, and as few as 10 to 100 bacteria are enough, so it passes directly from
+  person to person wherever hygiene fails, and humans are its only reservoir. Non-typhoidal
+  *Salmonella* usually needs a far larger inoculum, so most infections follow food from animals in
+  which the bacteria have multiplied. *Shigella* stays in the lining of the colon and causes
+  dysentery; *Salmonella* survives inside macrophages, and *S.* Typhi uses them to reach the blood.
+
+sort:
+  - text: "Three children at the same childcare centre develop diarrhoea with blood and mucus within a few days of each other"
+    answer: b
+    why: "Spread from child to child, and blood in the stool from invasion of the colon lining: *Shigella*."
+  - text: "Guests develop diarrhoea, fever and cramps a day after a buffet that included undercooked chicken"
+    answer: a
+    why: "Food from animals, in which the bacteria multiplied before the meal: non-typhoidal *Salmonella*."
+  - text: "As few as 10 to 100 bacteria are enough to cause infection"
+    answer: b
+    why: "A very small infectious dose, which lets it spread from person to person: *Shigella*."
+  - text: "Lives in the gut of poultry and reptiles"
+    answer: a
+    why: "An animal reservoir, so infection is a zoonosis: non-typhoidal *Salmonella*."
+  - text: "Kills the cells lining the colon and spreads from cell to cell"
+    answer: b
+    why: "Invasion of the colon lining, which causes dysentery: *Shigella*."
+  - text: "Multiplies inside macrophages and is carried in the blood to the liver and spleen"
+    answer: a
+    why: "Survival inside macrophages, which carry *S.* Typhi through the body: *Salmonella*."

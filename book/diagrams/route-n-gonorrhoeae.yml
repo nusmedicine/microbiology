@@ -1,0 +1,40 @@
+id: route-n-gonorrhoeae
+title: "Routes through the body: *Neisseria gonorrhoeae*"
+intro: "Two routes: from a sexual partner to the genital tract, and from a mother to her infant during birth. At one step, predict the site before the answer appears."
+
+routes:
+  - name: "Sexual contact"
+    steps:
+      - at: genital
+        kind: lives
+        text: "Lives only in humans, on the mucosa of the urethra, cervix, rectum or throat of an infected partner, who often has no symptoms. It dies quickly when it dries, so it passes only by direct contact in sex."
+      - at: genital
+        kind: enters
+        text: "Pili and other surface proteins attach the bacteria to the lining of the urethra or the cervix, and the bacteria pass through the epithelial cells."
+      - at: genital
+        kind: damages
+        text: "In a man's urethra, neutrophils pour in, and within a few days pus drips from the urethra and passing urine is painful: urethritis. In a woman's cervix, the infection often causes no symptoms."
+      - at: genital
+        kind: spreads
+        text: "Unnoticed and untreated, infection of the cervix can ascend through the uterus to the fallopian tubes. Inflammation there scars the tubes: pelvic inflammatory disease, which can leave the woman infertile."
+      - at: [bone, skin]
+        kind: damages
+        via: blood
+        arrow: false
+        text: "Uncommonly, the bacteria enter the blood and settle in joints and skin, causing a hot, swollen joint and a few pustules on the skin."
+
+  - name: "At birth"
+    steps:
+      - at: genital
+        kind: lives
+        text: "A pregnant woman carries the bacteria in her cervix, often without symptoms."
+      - at: eye
+        kind: enters
+        ask: "During birth, the infant passes through the infected cervix and vagina. Which site of the infant do the bacteria usually infect?"
+        options: [eye, alveoli, gut]
+        answer: [eye]
+        why: "Secretions in the birth canal bathe the infant's face, and the conjunctiva, the membrane over the white of the eye and inside the eyelids, is a mucosa the bacteria attach to."
+        text: "Secretions in the birth canal reach the infant's eyes, and the bacteria attach to the conjunctiva."
+      - at: eye
+        kind: damages
+        text: "A few days after birth the eyelids swell and pus pours from the eyes: ophthalmia neonatorum. Without treatment, the infection can damage the cornea and cause blindness."

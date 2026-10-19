@@ -1,0 +1,153 @@
+id: atypicals-mycobacteria
+title: "Check your understanding: atypicals and mycobacteria"
+questions:
+  - id: at1
+    stem: "A 19-year-old student has had a headache, a mild fever and a dry cough for ten days, and is still attending lectures. Two students in his hostel had a similar illness a few weeks earlier. His chest X-ray shows more widespread changes than his examination suggested, and a Gram stain of his scant sputum shows white cells but no predominant organism. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Mycoplasma pneumoniae*"
+        correct: true
+        feedback: "A gradual pneumonia with a dry cough in a young adult, spreading slowly through a hostel, fits *Mycoplasma pneumoniae*. It has no wall, so it does not show on a Gram stain, and inflammation in the walls of the alveoli leaves the patient less ill than the X-ray suggests."
+      - text: "*Mycobacterium tuberculosis*"
+        correct: false
+        feedback: "Tuberculosis of the lungs develops over weeks to months, with weight loss and night sweats, and it spreads only from a person with active disease. Ten days of dry cough in a student, after similar illnesses among his housemates, points to *Mycoplasma pneumoniae*."
+      - text: "*Chlamydia trachomatis*"
+        correct: false
+        feedback: "*C. trachomatis* passes by sexual contact and at birth, and the pneumonia it causes is in infants infected during birth. A young adult with a gradual pneumonia caught from housemates points to *Mycoplasma pneumoniae*."
+      - text: "*Orientia tsutsugamushi*"
+        correct: false
+        feedback: "Mite larvae in rural scrub carry *Orientia*, which does not pass from person to person. Respiratory spread among students in a hostel points to *Mycoplasma pneumoniae*."
+  - id: at2
+    stem: "*Chlamydia trachomatis* has two forms. Which statement describes them?"
+    options:
+      - text: "The elementary body survives outside cells and infects them; the reticulate body divides inside a vacuole in the host cell"
+        correct: true
+        feedback: "The two forms divide the work. The small, tough elementary body carries the infection between cells and between people but does not divide; inside the cell it becomes a reticulate body, which divides and then turns back into elementary bodies."
+      - text: "The reticulate body survives outside cells and infects them; the elementary body divides inside the host cell"
+        correct: false
+        feedback: "Those roles belong the other way round. The reticulate body divides inside the cell but cannot survive outside it; the elementary body is the form that survives outside cells and infects them."
+      - text: "The elementary body is a spore that survives boiling, and the reticulate body is the form that grows on agar"
+        correct: false
+        feedback: "*C. trachomatis* makes no spores, and neither form grows on agar: it is obligate intracellular. The elementary body survives outside cells long enough to infect the next one, but it is far less hardy than a spore."
+      - text: "The elementary body lives in the genital tract, and the reticulate body travels in the blood to other organs"
+        correct: false
+        feedback: "Both forms belong to one cycle in the same epithelial cells: the elementary body infects a cell and becomes a reticulate body, which divides there. *C. trachomatis* infects the epithelium of mucous membranes and does not travel in the blood to other organs."
+  - id: at3
+    stem: "A 29-year-old woman has been trying to conceive for two years. Investigations show that both of her fallopian tubes are blocked by scarring. She recalls no genital symptoms and no illness of the pelvis. Of these bacteria, which most likely caused the damage?"
+    options:
+      - text: "*Chlamydia trachomatis*"
+        correct: true
+        feedback: "Most genital infections with *C. trachomatis* cause no symptoms, so they persist and spread up to the fallopian tubes. The inflammation heals by scarring, which can block the tubes in a woman who never knew she was infected."
+      - text: "*Mycoplasma pneumoniae*"
+        correct: false
+        feedback: "*Mycoplasma pneumoniae* infects the airway and lungs and spreads in respiratory particles; it does not infect the genital tract. Silent scarring of the fallopian tubes points to *C. trachomatis*."
+      - text: "Non-tuberculous mycobacteria"
+        correct: false
+        feedback: "Non-tuberculous mycobacteria come from water and soil and infect damaged lungs, wounds and the skin. Scarred fallopian tubes in a woman with no symptoms point to a silent sexually transmitted infection with *C. trachomatis*."
+      - text: "*Orientia tsutsugamushi*"
+        correct: false
+        feedback: "*Orientia* causes an acute fever after the bite of an infected mite larva. Silent, scarring infection of the fallopian tubes points to *C. trachomatis*."
+  - id: at4
+    stem: "A 9-day-old infant has swollen eyelids and a discharge from both eyes. His mother had no symptoms during pregnancy, and he was born by vaginal delivery. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Chlamydia trachomatis*"
+        correct: true
+        feedback: "The mother's silent infection of the cervix passed to the infant's conjunctiva during birth. Elementary bodies infect the epithelium of the conjunctiva, and conjunctivitis appears in the first weeks of life."
+      - text: "*Mycobacterium tuberculosis*"
+        correct: false
+        feedback: "*M. tuberculosis* is inhaled from a person with active disease of the lungs and does not cause conjunctivitis in the first weeks of life. Infection of both eyes days after a vaginal birth points to *C. trachomatis* from the birth canal."
+      - text: "*Mycoplasma pneumoniae*"
+        correct: false
+        feedback: "*Mycoplasma pneumoniae* infects the airway after it is breathed in, mostly in older children and young adults. Eye infection days after a vaginal birth points to *C. trachomatis* from the birth canal."
+      - text: "*Rickettsia*"
+        correct: false
+        feedback: "Ticks, lice and fleas carry *Rickettsia*, which infects the lining of small blood vessels and causes fever and a rash. Conjunctivitis acquired during birth points to *C. trachomatis*."
+  - id: at5
+    stem: "Most people infected with *Mycobacterium tuberculosis* never become ill. What holds the infection in check?"
+    options:
+      - text: "T cells that activate macrophages, which wall the bacteria into granulomas"
+        correct: true
+        feedback: "Macrophages alone cannot kill the bacteria, which survive inside them. Cell-mediated immunity activates the macrophages, which gather into granulomas that contain the bacteria as a latent infection."
+      - text: "Antibodies that neutralise the toxin it releases"
+        correct: false
+        feedback: "*M. tuberculosis* does not cause disease through a secreted toxin, and antibodies cannot reach bacteria living inside macrophages. Containment depends on T cells that activate the macrophages."
+      - text: "Neutrophils that kill the bacteria in the blood"
+        correct: false
+        feedback: "The bacteria live inside macrophages, where neutrophils do not reach them. T cells activate the macrophages, which wall the bacteria into granulomas."
+      - text: "The waxy wall, which stops the bacteria dividing inside the body"
+        correct: false
+        feedback: "Its waxy wall protects the bacteria without restraining them. They divide slowly, but they do divide, and it is the host's T cells and activated macrophages that contain them."
+  - id: at6
+    stem: "A 68-year-old man with poorly controlled diabetes has had a cough for two months, with night sweats and weight loss. His chest X-ray shows a cavity in the upper part of his right lung. As a boy he shared a crowded room with an uncle who was treated for a long illness with a cough. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Mycobacterium tuberculosis*"
+        correct: true
+        feedback: "Infection decades ago, contained as a latent infection, has reactivated as diabetes and age weakened his cell-mediated immunity. Active disease in the upper part of the lung forms cavities, and the illness develops over weeks to months."
+      - text: "*Mycoplasma pneumoniae*"
+        correct: false
+        feedback: "*Mycoplasma pneumoniae* causes a pneumonia that develops over days in young people and does not form cavities or cause months of weight loss. A cavity after months of cough, sweats and weight loss points to reactivated tuberculosis."
+      - text: "*Mycobacterium leprae*"
+        correct: false
+        feedback: "*M. leprae* grows in the cooler skin and peripheral nerves, causing skin patches and loss of sensation, and does not form cavities in the lung. A lung cavity points to *M. tuberculosis*."
+      - text: "*Orientia tsutsugamushi*"
+        correct: false
+        feedback: "Scrub typhus is an acute fever after a mite bite, often with an eschar, and it does not cause months of cough or cavities. A cavity in the upper lung after a long illness points to *M. tuberculosis*."
+  - id: at7
+    stem: "A sputum sample from a man with a cavity in his lung shows acid-fast rods on the day it arrives, but the culture is reported positive only after several weeks. Which detail best explains the delay?"
+    options:
+      - text: "The bacterium divides only about once a day, so colonies take weeks to become visible"
+        correct: true
+        feedback: "A colony needs many divisions to become visible. At about one division a day, *M. tuberculosis* takes weeks, which is why a smear, a NAAT or both give the first result."
+      - text: "The bacterium grows only inside living cells, so it needs a cell culture"
+        correct: false
+        feedback: "That is true of *Chlamydia*, *Rickettsia* and *Orientia*. *M. tuberculosis* grows on laboratory media, but slowly, because it divides only about once a day."
+      - text: "The bacterium has no wall, so it needs a medium enriched with sterols"
+        correct: false
+        feedback: "*Mycoplasma* has no wall and needs sterols. *M. tuberculosis* has a waxy wall, which is why it stained as an acid-fast rod; its culture is slow because it divides slowly."
+      - text: "The waxy wall must be removed with acid before the bacterium can grow"
+        correct: false
+        feedback: "The waxy wall is never removed: it resists the acid used in the stain, and it helps mycobacteria survive the alkali used to kill the faster-growing mouth bacteria in sputum before culture. The delay comes from slow division, about once a day."
+  - id: at8
+    stem: "Why is active tuberculosis treated with several drugs together for months, and not with one drug?"
+    options:
+      - text: "Some of the many bacteria in a cavity already carry a mutation resistant to any one drug, and slowly dividing bacteria are killed slowly"
+        correct: true
+        feedback: "A single drug would select the resistant mutants already present, while a mutant resistant to two drugs at once is far rarer. Bacteria that divide slowly in granulomas and necrotic tissue are killed slowly, so the combination continues for months."
+      - text: "Each drug kills only one of its two forms, so several are needed"
+        correct: false
+        feedback: "Two forms belong to *Chlamydia*, not to *M. tuberculosis*. The combination guards against resistant mutants already present among the bacteria, and the length of treatment reflects slow division."
+      - text: "It picks up resistance genes quickly from gut bacteria, so each drug soon fails"
+        correct: false
+        feedback: "In *M. tuberculosis*, resistance arises by mutation in its own genome, not by gene transfer. The combination works because a mutant resistant to one drug is still killed by the others."
+      - text: "The drugs cannot enter macrophages, so high doses of several are needed to reach the bacteria"
+        correct: false
+        feedback: "The drugs used against tuberculosis do reach bacteria inside macrophages. The reasons for a long combination are resistant mutants among very large numbers of bacteria, and slow division."
+  - id: at9
+    stem: "Six weeks after getting a tattoo, a 25-year-old woman develops red nodules along the tattooed skin that do not heal. The tattoo ink had been diluted with tap water. A biopsy shows acid-fast rods. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "Non-tuberculous mycobacteria"
+        correct: true
+        feedback: "Non-tuberculous mycobacteria live in water, including tap water, and acid-fast rods in skin injected with water-diluted ink point to them. They entered through the needle, not from another person."
+      - text: "*Mycobacterium tuberculosis*"
+        correct: false
+        feedback: "*M. tuberculosis* comes from a person with active disease of the lungs and is inhaled. An infection confined to tattooed skin after ink was diluted with tap water points to mycobacteria from water."
+      - text: "*Mycobacterium leprae*"
+        correct: false
+        feedback: "Leprosy, caused by *M. leprae*, also brings acid-fast rods to the skin, but it appears years after close and frequent contact with an untreated person, with loss of sensation. Nodules weeks after a tattoo made with tap water point to non-tuberculous mycobacteria."
+      - text: "*Chlamydia trachomatis*"
+        correct: false
+        feedback: "*C. trachomatis* is obligate intracellular, does not stain as an acid-fast rod, and infects mucous membranes, not tattooed skin."
+  - id: at10
+    stem: "Eight days after an army training exercise in overgrown grassland in rural South-East Asia, a 21-year-old soldier develops fever and a headache. In his groin there is a painless, dark scab. Of these bacteria, which is the most likely cause?"
+    options:
+      - text: "*Orientia tsutsugamushi*"
+        correct: true
+        feedback: "Mite larvae in rural scrub and grassland carry *Orientia*. Their bite is painless and unnoticed, and an eschar often marks the spot, with fever and headache a week or more later: scrub typhus."
+      - text: "*Mycoplasma pneumoniae*"
+        correct: false
+        feedback: "*Mycoplasma pneumoniae* spreads in respiratory particles and causes a cough and a gradual pneumonia. A dark scab at a bite after time in rural grassland points to *Orientia*."
+      - text: "*Chlamydia trachomatis*"
+        correct: false
+        feedback: "*C. trachomatis* passes by sexual contact and does not cause a scab with fever after time outdoors. An eschar after exposure in rural grassland points to *Orientia*, carried by mite larvae."
+      - text: "*Mycobacterium tuberculosis*"
+        correct: false
+        feedback: "Tuberculosis develops over weeks to months after inhaling bacteria from a person with active disease. An acute fever with an eschar after time in rural grassland points to *Orientia*."

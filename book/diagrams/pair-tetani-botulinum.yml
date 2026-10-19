@@ -1,0 +1,75 @@
+id: pair-tetani-botulinum
+title: "Contrast pair: two clostridia that paralyse"
+intro: "Both are spore-forming anaerobes from soil, and both make a toxin that stops nerve endings releasing neurotransmitter. Read across and find the feature that best explains why one causes rigid muscles and the other floppy ones."
+
+a:
+  name: "Clostridium tetani"
+b:
+  name: "Clostridium botulinum"
+
+rows:
+  - feature: "Kind of organism"
+    a: "Gram-positive rod; forms spores; obligate anaerobe"
+    b: "Gram-positive rod; forms spores; obligate anaerobe"
+    separates: false
+  - feature: "What the toxin does inside a nerve ending"
+    a: "Cuts a protein the nerve ending needs to release neurotransmitter"
+    b: "Cuts a protein the nerve ending needs to release neurotransmitter"
+    separates: false
+  - feature: "Source"
+    a: "Spores in a wound contaminated with soil, or in the umbilical stump of a neonate"
+    b: "Toxin already formed in food preserved at home, or spores that germinate in an infant's gut or in a wound"
+    separates: true
+  - feature: "Must the bacteria grow in the patient?"
+    a: "Yes: they multiply in the wound and make the toxin there"
+    b: "Not in food-borne botulism, an intoxication: the toxin was made in the food"
+    separates: true
+  - feature: "Where the toxin acts"
+    a: "Inhibitory neurons in the spinal cord and brainstem, reached along motor nerves"
+    b: "Motor nerve endings at the neuromuscular junction, reached in the blood"
+    separates: true
+  - feature: "Kind of paralysis"
+    a: "Spastic: rigid muscles and spasms, often starting with lockjaw"
+    b: "Flaccid: weak, floppy muscles, descending from the eyes and throat"
+    separates: true
+  - feature: "Prevention"
+    a: "Toxoid vaccine, with boosters; vaccinating pregnant women protects their neonates"
+    b: "Safe preserving of food; boiling destroys the toxin; no honey for infants under a year old"
+    separates: true
+
+question:
+  stem: "Both toxins stop nerve endings releasing neurotransmitter. Which feature best explains why one causes rigid muscles and the other floppy ones?"
+  options: [1, 2, 4]
+  answer: 4
+  feedback: >
+    Where the toxin acts. The two toxins do the same thing inside a nerve ending, so that row cannot
+    explain opposite kinds of paralysis, and the source of the toxin decides how it reaches the body,
+    not what it does there. Tetanus toxin silences the inhibitory neurons that hold motor neurons in
+    check, so the muscles contract without control. Botulinum toxin silences the motor nerve endings
+    themselves, so the muscles receive no signal to contract.
+
+principle: >
+  The same action, blocking the release of neurotransmitter, has opposite effects depending on which
+  neuron it silences. Silencing the inhibitory neurons in the spinal cord removes the brake on motor
+  neurons, giving the rigidity and spasms of tetanus. Silencing the motor nerve endings at the
+  neuromuscular junction removes the signal to contract, giving the flaccid paralysis of botulism.
+
+sort:
+  - text: "Lockjaw and painful spasms ten days after a puncture wound from a garden fork"
+    answer: a
+    why: "Spastic paralysis after spores germinated in a deep wound: *C. tetani*."
+  - text: "Double vision and difficulty swallowing in several members of a family, a day after a meal of home-canned vegetables"
+    answer: b
+    why: "Descending flaccid paralysis from toxin already formed in food: *C. botulinum*."
+  - text: "A 3-month-old who becomes constipated, feeds poorly and is floppy"
+    answer: b
+    why: "Spores germinated in an infant's gut whose microbiota is not yet established: infant botulism, from *C. botulinum*."
+  - text: "Prevented in the neonate by vaccinating the mother"
+    answer: a
+    why: "Antibodies against tetanus toxin cross the placenta and protect the neonate: *C. tetani*."
+  - text: "Its toxin is destroyed by boiling the food just before it is eaten"
+    answer: b
+    why: "Heat destroys botulinum toxin in food, although the spores survive: *C. botulinum*."
+  - text: "Its toxin travels along motor nerves to the spinal cord"
+    answer: a
+    why: "Tetanus toxin reaches the inhibitory neurons of the spinal cord and brainstem along motor nerves: *C. tetani*."

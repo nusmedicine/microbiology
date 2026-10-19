@@ -1,0 +1,43 @@
+id: route-norovirus
+title: "Routes through the body: norovirus"
+intro: "Two routes into the same gut: from person to person in an outbreak, and in raw shellfish. In both, the virus does its harm where it arrives, and leaves in vomit and faeces."
+
+routes:
+  - name: "From person to person in an outbreak"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Virus in vomit and faeces contaminates hands, door handles, rails, toilets and food. The capsid survives on surfaces for days, and alcohol hand rub is less reliable against it than washing with soap and water."
+      - at: gut
+        kind: enters
+        via: swallowed
+        ask: "The virus is swallowed, and a day or two later the person falls ill. Where will it multiply and do its harm?"
+        options: [gut, liver, brain]
+        answer: [gut]
+        why: "Norovirus does its harm in the small intestine, where it arrives, which is why illness begins within a day or two. A virus that must first reach the liver, such as hepatitis A virus, takes weeks."
+        text: "Very few particles, carried to the mouth on hands or in food, or in droplets sprayed by forceful vomiting, are enough to start an infection. The capsid withstands stomach acid."
+      - at: gut
+        kind: multiplies
+        text: "The virus infects the lining of the upper small intestine and multiplies there."
+      - at: gut
+        kind: damages
+        text: "The villi of the small intestine become shorter and absorb less fluid, and the stomach empties more slowly: sudden vomiting and watery diarrhoea, which usually stop within a day or two. Dehydration is the danger in frail older adults and young children."
+      - at: outside
+        kind: spreads
+        text: "Very large numbers of particles leave in vomit and faeces, and forceful vomiting sprays them over surfaces and people nearby. Shedding in the faeces continues for weeks after recovery, so a food handler who feels well can still spread the virus."
+
+  - name: "In raw shellfish"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Sewage carrying norovirus reaches coastal water where oysters are grown. Oysters filter large volumes of water and concentrate the virus in their tissues."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "Oysters are often eaten raw, so nothing inactivates the virus before it is swallowed."
+      - at: gut
+        kind: damages
+        text: "Vomiting and diarrhoea begin a day or two later in many people who ate oysters from the same harvest: a point-source outbreak."
+      - at: outside
+        kind: spreads
+        text: "Each ill person sheds the virus in vomit and faeces, and household members who never ate the oysters can then be infected from person to person, after the oysters have gone."

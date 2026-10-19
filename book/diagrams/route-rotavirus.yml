@@ -1,0 +1,44 @@
+id: route-rotavirus
+title: "Routes through the body: rotavirus"
+intro: "Two routes into the same gut: a first infection passed from one young child to the next, and the oral vaccine, which follows the same route without causing illness."
+
+routes:
+  - name: "From one child to the next"
+    steps:
+      - at: outside
+        kind: lives
+        text: "An infected child sheds enormous numbers of particles in diarrhoeal stool. They survive on hands, toys and surfaces, as in a childcare centre."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "A few particles, carried to the mouth on hands or toys, are enough to infect an infant who has neither had rotavirus nor been vaccinated."
+      - at: gut
+        kind: multiplies
+        text: "The virus infects the mature cells at the tips of the villi of the small intestine and multiplies inside them."
+      - at: gut
+        kind: damages
+        text: "Infected cells die and the villi shorten, so less fluid is absorbed, and a viral protein acting as an enterotoxin makes the cells lining the intestine secrete salt and water. Fever and vomiting come first, then watery diarrhoea for several days."
+      - at: outside
+        kind: spreads
+        text: "Virus in the stool reaches the hands of carers and the toys of other children, and the next infant is infected."
+      - at: [blood, urinary]
+        kind: damages
+        arrow: false
+        ask: "After three days of vomiting and watery diarrhoea, where beyond the gut does the ill infant's loss of fluid show?"
+        options: [blood, urinary, liver]
+        answer: [blood, urinary]
+        why: "Water and salts lost from the gut are drawn from the blood, so its volume falls, and the kidneys respond by passing little urine: the few wet nappies of a dehydrated infant. The liver is the target of hepatitis A and E viruses; rotavirus endangers the rest of the body through the fluid lost from the gut."
+        text: "In the ill infant, water and salts lost from the gut are drawn from the blood and tissues. As the blood volume falls, the kidneys pass little urine, and severe dehydration can lead to shock. Replacing the fluid and salts, usually by mouth, treats it."
+
+  - name: "The oral vaccine"
+    steps:
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "Drops of live attenuated rotavirus are given by mouth in two or three doses in the first months of life."
+      - at: gut
+        kind: multiplies
+        text: "The weakened vaccine virus multiplies in the gut, as a first infection would, without causing illness."
+      - at: gut
+        kind: defence
+        text: "The immune response it provokes protects against severe disease when rotavirus arrives later, as the immunity from a first infection does."

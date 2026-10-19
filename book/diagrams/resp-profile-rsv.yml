@@ -1,0 +1,40 @@
+id: resp-profile-rsv
+name: "Respiratory syncytial virus"
+group: "Enveloped negative-sense RNA virus · genome in one piece · infants and older adults"
+intro: "Predict two of the five slots. Most of what this virus does follows from two facts: an infant's bronchioles are narrow, and immunity after infection is incomplete."
+
+slots:
+  - slot: identity
+    entry: "An enveloped virus with a negative-sense RNA genome in a single piece. Its fusion protein fuses the envelope with the cell membrane, and in cultured cells it fuses infected cells with their neighbours into syncytia, giant cells with many nuclei."
+  - slot: lifestyle
+    entry: "Humans only. Spread in respiratory particles and on hands; it survives for hours on hard surfaces, so it passes readily in households, childcare centres and hospital wards. Almost every child is infected by the age of two."
+  - slot: harm
+    predict:
+      stem: "A 2-month-old girl and her father are infected with RSV in the same week. She develops wheeze, fast breathing and difficulty feeding; he has a cold. What best explains the difference?"
+      options:
+        - text: "Her bronchioles are very narrow and she is meeting the virus for the first time, so dead cells, mucus and swelling block them"
+          correct: true
+          feedback: "A small amount of debris blocks an infant's narrow bronchioles. With no earlier infection of her own, she has only the antibody that crossed the placenta from her mother, which wanes over the first months and is too little to stop the spread. Her father, with wider airways and immunity from many earlier infections, has a cold."
+        - text: "She caught a more dangerous strain of RSV than her father"
+          correct: false
+          feedback: "Father and daughter most likely share the same virus, caught at home. The difference lies in the hosts: the width of their airways and their earlier infections."
+        - text: "Only infants carry the receptor that RSV binds"
+          correct: false
+          feedback: "Adults are infected too, as her father's cold shows, and people are reinfected throughout life. What differs is how narrow the infant's airways are, and that she has never met the virus."
+    entry: "Kills epithelial cells of the airway. In infants, especially in the first six months of life, the infection spreads to the bronchioles, where dead cells, mucus and swelling block the narrow airways: bronchiolitis. In older adults and people with chronic heart or lung disease it can cause pneumonia."
+  - slot: consequence
+    predict:
+      stem: "A 35-year-old mother has had RSV infections many times, yet she catches it again this year. What best explains the reinfection?"
+      options:
+        - text: "Immunity after RSV infection is incomplete and fades, so the nose and throat can be infected again"
+          correct: true
+          feedback: "Reinfection with RSV needs no great change in the virus. Her remaining immunity and wide airways usually keep a reinfection to a cold."
+        - text: "RSV exchanged a genome segment with an animal virus"
+          correct: false
+          feedback: "Exchange of segments needs a segmented genome, like that of influenza virus. The RSV genome is a single piece."
+        - text: "Virus from her childhood infection has been latent and reactivated"
+          correct: false
+          feedback: "RSV causes an acute infection that is cleared, and it has no latent state. Each episode is a new infection, possible because immunity is incomplete."
+    entry: "Infects people again throughout life, usually as a cold, and adults with mild illness carry the virus to infants. Infants can be protected by an injection of laboratory-made antibody against the fusion protein, or by vaccinating their mother during pregnancy; vaccines are available for older adults. No antiviral drug is in routine use."
+  - slot: contrast
+    entry: "Influenza virus: also enveloped and negative-sense, but with eight segments, so it changes by drift and shift. It returns because the virus changes, and its severe disease falls on older adults, young children, pregnant women and people with chronic disease."

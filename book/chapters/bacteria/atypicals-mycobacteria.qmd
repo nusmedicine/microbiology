@@ -1,16 +1,427 @@
 # Atypicals and mycobacteria
 
-> *What happens when the usual microbiology toolkit fails?*
+> *A Gram stain of sputum from a student with pneumonia shows no predominant organism, a swab from a
+> woman with no symptoms grows nothing on agar, and the culture from a man who has coughed for three
+> months turns positive only after weeks. Each of these bacteria escapes the routine laboratory toolkit
+> for a different reason, and the reason predicts how it is found and which drugs can reach it.*
 
-::: {.callout-note}
-## In preparation
-The layout will match that of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Sort the atypical bacteria and the mycobacteria by why the routine toolkit fails on them, and
+  predict from the reason how each is detected and which drugs can act on it.
+- Explain why *Mycoplasma pneumoniae* causes a gradual pneumonia that spreads slowly through a
+  household, and why drugs that act on the cell wall cannot treat it.
+- Explain how *Chlamydia trachomatis* multiplies inside cells, and how a silent infection leads to
+  infertility, ectopic pregnancy or blindness through scarring.
+- Trace an infection with *Mycobacterium tuberculosis* from inhaled bacteria to granuloma, latent
+  infection and reactivation, and explain why active disease is treated with several drugs for months.
+- Name the host, setting and route that let each main organism cause disease.
+- Tell *M. tuberculosis* from the non-tuberculous mycobacteria by source, spread and host.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-atyp-group)
+  - [The group in one sentence](#sec-atyp-sentence): three ways to escape the routine toolkit
+  - [Sorting the group](#sec-atyp-key): why the toolkit fails, then where the organism comes from
+- [Main organisms](#sec-atyp-main)
+  - [*Mycoplasma pneumoniae*](#sec-atyp-mycoplasma): a gradual pneumonia without a wall
+  - [*Chlamydia trachomatis*](#sec-atyp-chlamydia): silent infection and scarring
+  - [*Mycobacterium tuberculosis*](#sec-atyp-tuberculosis): containment, latency and reactivation
+- [Contrast pair](#sec-atyp-pairs)
+  - [*M. tuberculosis* and non-tuberculous mycobacteria](#sec-atyp-pair-tb-ntm)
+- [Beyond the main organisms](#sec-atyp-beyond)
+  - [Supporting organisms](#sec-atyp-supporting)
+  - [Later in the course](#sec-atyp-later)
+:::
+
+## The group {#sec-atyp-group}
+
+### The group in one sentence {#sec-atyp-sentence}
+
+The atypical bacteria and the mycobacteria are bacteria on which the routine Gram stain and culture on
+agar fail, because they have no wall, grow only inside host cells, or have a waxy wall that resists the
+Gram stain and grow slowly. Each reason also limits which drugs can reach them. In this course the
+**atypical** bacteria are those grouped because routine stains and culture fail on them, either
+because there is no cell wall or because the organism grows only inside host cells (see [*A map of
+the bacteria*](bacteria-map.qmd#sec-map-atypicals)). The mycobacteria fail the same toolkit for a
+third reason.
+
+Three traits place a bacterium in the group:
+
+- No cell wall: *Mycoplasma*, which shows nothing on a Gram stain and gives drugs that act on the wall
+  no target
+- Growth only inside host cells: *Chlamydia*, *Rickettsia* and *Orientia*, which are **obligate
+  intracellular**, able to grow only inside living host cells, so they cannot be grown on agar
+- A waxy wall: the mycobacteria, whose wall is packed with **mycolic acids**, the waxy wall component
+  that resists the Gram stain, so they are detected with the **acid-fast stain**, a stain that detects
+  organisms with waxy, mycolic-acid walls (see [*How bacteria are built and get
+  energy*](bacteria-build-energy.qmd#sec-bact-envelope))
+
+The mycobacteria of medical importance are *Mycobacterium tuberculosis*, *Mycobacterium leprae* and
+the **non-tuberculous mycobacteria**, mycobacteria other than those that cause tuberculosis and
+leprosy, which live in water and soil. The members of the group are not closely related, so most of
+the six questions have one answer for each of the three traits:
+
+| Question | Answer for the atypicals and mycobacteria |
 |---|---|
-| The group in one sentence | Bacteria with no wall, bacteria that live only inside cells, and bacteria with a waxy wall that resists staining |
-| Sorting key | No wall versus only inside cells versus waxy wall |
-| Main organisms | *Mycoplasma pneumoniae*, *Chlamydia trachomatis*, *Mycobacterium tuberculosis* |
-| Supporting organisms | *Rickettsia* and its relative *Orientia*, *M. leprae*, non-tuberculous mycobacteria |
-| Later in the course | Atypical pneumonia, chlamydia, tuberculosis and leprosy in the organ blocks; the atypicals worked example currently in *A map of the bacteria* moves here |
+| What is it built from? | *Mycoplasma*: a cell membrane stiffened with sterols, and no wall. *Chlamydia* and *Rickettsia*: an envelope of the Gram-negative type, with very little peptidoglycan in *Chlamydia*. Mycobacteria: a wall packed with mycolic acids |
+| How does it get energy, and what does it need to grow? | *Mycoplasma* makes its own ATP and grows slowly on media enriched with sterols; *Chlamydia* and *Rickettsia* take ATP and nutrients from the host cell as well as making some ATP of their own; *M. tuberculosis* needs oxygen to make ATP |
+| How does it copy itself and change? | Binary fission; *Chlamydia* alternates between an infectious form outside cells and a dividing form inside them; *M. tuberculosis* divides about once a day and becomes resistant to drugs by mutation |
+| Where does it live, and how does it spread? | *Mycoplasma pneumoniae*, *Chlamydia trachomatis* and *M. tuberculosis* live only in humans and pass between people: in respiratory particles during close contact, by sexual contact and at birth, and through the air; *Rickettsia* and *Orientia* are carried by arthropods; non-tuberculous mycobacteria live in water and soil |
+| How does damage happen? | Mostly through the host's response: inflammation of the airway and lung, scarring after repeated inflammation, and walled-off collections of macrophages with necrotic centres; *Rickettsia* and *Orientia* damage small blood vessels |
+| What does it have that my cells lack? | Bacterial ribosomes and enzymes, but no wall in *Mycoplasma*; drugs against the bacteria that live inside cells must first enter the host cell; mycobacteria have the enzymes that build mycolic acids, the target of one of the main drugs against tuberculosis |
+
+### Sorting the group {#sec-atyp-key}
+
+We sort the group first by why the routine toolkit fails, because that predicts how each member is
+detected and which drugs can reach it, and then by where each member comes from, which predicts who
+is exposed.
+
+::: {.concept-tree}
+[Sorting the atypicals and mycobacteria]{.tree-title}
+
+- No cell wall: *Mycoplasma pneumoniae*
+- Growth only inside host cells
+  - Passed by sexual contact, at birth or from eye to eye: *C. trachomatis*
+  - Carried by ticks, lice or fleas: *Rickettsia*
+  - Carried by mite larvae in rural scrub: *Orientia tsutsugamushi*
+- A waxy, acid-fast wall: mycobacteria
+  - From a person with active tuberculosis of the lungs: *M. tuberculosis*
+  - From a person with untreated leprosy, after close and frequent contact: *M. leprae*
+  - From water and soil: non-tuberculous mycobacteria
+:::
+
+Where stains and culture fail, most members are detected by a **nucleic acid amplification test
+(NAAT)**, a test that copies a target sequence many times until it can be detected (see [*Detecting
+and controlling microbes*](../foundations/detection-control.qmd#sec-det-molecular)). The reason the
+toolkit fails predicts the rest:
+
+| Why the toolkit fails | Stain and culture | How it is usually detected | What follows for drugs |
+|---|---|---|---|
+| No cell wall | No Gram reaction; grows slowly on media enriched with sterols | NAAT | Drugs that act on the wall have nothing to act on |
+| Growth only inside host cells | Not seen on a Gram stain; grows only in cultures of living cells | NAAT; for *Rickettsia* and *Orientia*, also the patient's antibodies (see [*Detecting and controlling microbes*](../foundations/detection-control.qmd#sec-det-serology)) | Drugs must cross the host cell's membrane to reach the bacteria |
+| A waxy wall | Acid-fast; *M. tuberculosis* takes weeks to grow, and *M. leprae* cannot be grown in culture | Acid-fast stain, culture where it is possible, and NAAT | The wall keeps out many drugs, and slow growth means treatment lasts months |
+
+Work through the key from why the routine toolkit fails, and read at each branch what the trait
+predicts about the organism.
+
+<div data-island="sorting-key" data-src="/diagrams/atyp-key.yml"></div>
+
+## Main organisms {#sec-atyp-main}
+
+### *Mycoplasma pneumoniae*: a gradual pneumonia without a wall {#sec-atyp-mycoplasma}
+
+*M. pneumoniae* has no cell wall, and its laboratory traits follow from that (see [*A map of the
+bacteria*](bacteria-map.qmd#sec-map-atypicals)). Mycoplasmas are the smallest free-living bacteria:
+they make their own ATP and can grow without host cells, given sterols for their membrane.
+
+*M. pneumoniae* lives only in humans and spreads in respiratory particles during close contact, in
+families, schools and military barracks. Illness is commonest in school-age children, adolescents
+and young adults. Its incubation period is long, often two to three weeks, so cases in a household
+or a school appear one after another, weeks apart, as a propagated outbreak that can last for months
+(see [*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-curves)). Immunity after an infection
+does not last, so people can be infected again.
+
+In the airway, *M. pneumoniae* attaches by a specialised tip to the ciliated cells lining the trachea
+and bronchi and lies among their cilia. The hydrogen peroxide it releases damages the cells, the
+cilia stop beating, and the damaged lining produces a dry cough that can last for weeks. In some
+people the infection reaches the lungs. Lymphocytes gather around the small airways and in the walls
+of the alveoli, while the air spaces stay largely free of pus. The pneumonia therefore comes on
+gradually, and the patient often looks less ill than the chest X-ray suggests. Much of the damage
+comes from the host's response (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-drf)).
+
+The immune response can also act beyond the lung. Many patients make **cold agglutinins**, antibodies
+that bind red blood cells below body temperature, and in a few these cause **haemolysis**, destruction
+of red blood cells; some patients develop a rash or mouth ulcers.
+
+::: {.example}
+**Beta-lactams**, the family of drugs that block the building of the peptidoglycan wall, are a
+common first choice for pneumonia because the commonest bacterial causes have a wall; in pneumonia
+caused by *M. pneumoniae* they have nothing to act on.
+:::
+
+*M. pneumoniae* harms the airway and lung in two ways:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Damage to the airway lining | The bacteria attach by their tip to ciliated cells; hydrogen peroxide damages the cells, and the cilia stop beating | A dry cough that lasts for weeks in a teenager |
+| Pneumonia shaped by the host's response | Lymphocytes gather around the small airways and in the walls of the alveoli, and little pus fills the air spaces | A young adult who is still at work with a mild fever and a dry cough, whose chest X-ray shows more widespread changes than the examination suggested |
+
+Three conditions let *M. pneumoniae* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | School-age children, adolescents and young adults; anyone can be infected again | Close contact exposes them, and immunity after an infection does not last |
+| Where (setting) | Families, schools, university halls and military barracks | It lives only in humans and spreads in respiratory particles during close contact; a long incubation period stretches an outbreak over weeks to months |
+| How (route) | Breathed in, to the ciliated cells of the trachea and bronchi, and in some people on to the lungs | It attaches by its tip and damages the cells; in the lungs, the host's inflammation causes the pneumonia |
+
+Step through the route *M. pneumoniae* takes from one person's airway to the next.
+
+<div data-island="body-map" data-src="/diagrams/route-m-pneumoniae.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/atyp-profile-m-pneumoniae.yml"></div>
+
+### *Chlamydia trachomatis*: silent infection and scarring {#sec-atyp-chlamydia}
+
+*C. trachomatis* is obligate intracellular and lives only in humans. Its envelope is of the
+Gram-negative type with very little peptidoglycan, and it takes ATP and nutrients from the cell it
+lives in (see [*A map of the bacteria*](bacteria-map.qmd#sec-map-atypicals), where it is compared
+with *M. pneumoniae*). It has two forms. The **elementary body** is a small, tough form that survives
+outside cells and infects them but does not divide. The **reticulate body** is a larger form that divides inside a host cell but cannot survive
+outside it. One cycle passes through both:
+
+::: {.flow}
+1. An elementary body attaches to an epithelial cell and is taken into it
+2. Inside a membrane-bound vacuole, it turns into a reticulate body
+3. Reticulate bodies take ATP and nutrients from the cell and divide by binary fission
+4. Reticulate bodies turn back into elementary bodies
+5. The cell bursts or releases the vacuole, and elementary bodies infect neighbouring cells or a new host
+:::
+
+Elementary bodies infect the epithelial cells of mucous membranes: in the cervix, the urethra and
+the rectum, and in the conjunctiva, the membrane that covers the white of the eye and lines the
+eyelids. *C. trachomatis* is the most common bacterial sexually transmitted infection worldwide. Most
+infections in women, and many in men, cause no symptoms, so an infected person can carry the
+bacterium for months and pass it to sexual partners without knowing.
+
+In women, infection can spread up from the cervix to the uterus and the fallopian tubes, causing
+**pelvic inflammatory disease**, infection and inflammation of the uterus, fallopian tubes and nearby
+pelvic structures. The bacterium kills the cells it infects as its elementary bodies are released,
+but most of the lasting harm comes from the inflammation it provokes, which heals by scarring. Scarred, narrowed fallopian tubes can cause infertility, or an **ectopic
+pregnancy**, a pregnancy that implants outside the uterus, most often in a fallopian tube. Immunity
+after an infection is partial, so repeated infections are common, and each adds to the scarring.
+
+::: {.example}
+A woman who has never had symptoms of a genital infection can find, when she tries to conceive, that
+both of her fallopian tubes are blocked by scarring from past infection.
+:::
+
+An infected mother can pass the bacterium to her infant during a vaginal birth. The **neonate**, a
+newborn infant in the first four weeks of life, can develop **conjunctivitis**, inflammation of the
+conjunctiva, in the first weeks after birth, and some infants develop pneumonia in the first months.
+
+Other strains of *C. trachomatis* infect the eye and pass from child to child on hands, cloths and
+flies, where water for washing is scarce. These eye infections recur throughout childhood, and the
+result is **trachoma**, chronic inflammation of the conjunctiva from repeated infection of the eye
+with *C. trachomatis*, which in time scars the eyelids and cornea. The scarred inner surface of the
+eyelids contracts, the eyelashes turn inwards and scratch the cornea, and the scarred cornea becomes
+opaque. Trachoma is the leading infectious cause of blindness worldwide, and it persists in poor rural
+communities, most of them in Africa.
+
+A third set of strains causes **lymphogranuloma venereum**, a sexually transmitted infection in which
+*C. trachomatis* invades beyond the epithelium and spreads in lymph to the regional lymph nodes. The
+lymph nodes of the groin swell and become painful or, after anal sex, the rectum becomes inflamed.
+
+Because most infections are silent, testing people without symptoms by NAAT on urine or a genital
+swab, and treating their sexual partners, finds and stops infections that would otherwise spread.
+
+*C. trachomatis* does most of its harm in four ways, and its lasting damage is scarring:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Infection of the cervix or urethra | Elementary bodies infect the epithelium and multiply in its cells; the inflammation is often too mild to notice | Discomfort on passing urine and a discharge in a man, or no symptoms at all, especially in a woman, who passes the infection to partners unknowingly |
+| Scarring of the fallopian tubes | Infection spreads up to the fallopian tubes; persistent or repeated inflammation heals by scarring, which narrows or blocks them | Infertility, or an ectopic pregnancy, in a woman who never had symptoms |
+| Infection of the neonate | Elementary bodies in the mother's cervix reach the infant's conjunctiva and nasopharynx during a vaginal birth | Conjunctivitis with a discharge in the first weeks after birth |
+| Trachoma | Repeated infection of the conjunctiva scars the eyelids, which turn the lashes inwards against the cornea | Blindness in an adult who had repeated eye infections as a child, in a community short of water |
+
+Three conditions let *C. trachomatis* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A sexually active adult, especially a young adult; a neonate born to an infected mother; for trachoma, a child in a community short of water | Most infections are silent, so they pass undetected between partners and to infants at birth; immunity is partial, so infection recurs |
+| Where (setting) | Sexual contact with a partner who has no symptoms; a vaginal birth; for trachoma, households where faces are seldom washed and flies gather | It lives only in humans and passes in genital or eye secretions |
+| How (route) | Elementary bodies reach a mucous membrane and enter its epithelial cells | It multiplies inside the cells and spreads up the genital tract; repeated inflammation heals by scarring |
+
+Step through the two routes of *C. trachomatis*: a silent sexual infection, and infection of a
+neonate during birth.
+
+<div data-island="body-map" data-src="/diagrams/route-c-trachomatis.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/atyp-profile-c-trachomatis.yml"></div>
+
+### *Mycobacterium tuberculosis*: containment, latency and reactivation {#sec-atyp-tuberculosis}
+
+*M. tuberculosis* has a waxy, mycolic-acid wall, needs oxygen and divides only about once a day (see
+[*How bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-growth)). Humans are its
+reservoir. A person with active tuberculosis of the lungs coughs out bacteria in particles small
+enough to stay suspended in the air of a room, so it spreads by **airborne transmission**, spread by
+small exhaled particles that stay suspended in air and can travel beyond a metre or two (see
+[*Transmission, outbreaks and One
+Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)). A few inhaled bacteria can
+start an infection, so the risk depends on how long a person shares the air of an enclosed space with
+an infectious person, and on how well the space is ventilated. Tuberculosis remains common in
+Singapore and throughout South-East Asia.
+
+*M. tuberculosis* is **facultative intracellular**, able to live both inside and outside host cells,
+and in the body it lives mainly inside macrophages. Macrophages in the alveoli engulf the inhaled
+bacteria, but the bacteria stop the vacuole that holds them from fusing with lysosomes, and they
+survive and multiply inside (see [*How bacteria cause
+damage*](bacterial-damage.qmd#sec-bdam-evade)). Before an
+immune response develops, infected macrophages carry some bacteria in lymph to the lymph nodes at the
+root of the lung, and some bacteria reach other organs in the blood.
+
+Control depends on **cell-mediated immunity**, the defence by T cells against infected cells and
+against organisms that live inside host cells. Over the following weeks, T cells that recognise the
+bacterium activate the macrophages, which gather around the infected cells to form a **granuloma**, a
+compact collection of activated macrophages, surrounded by lymphocytes, that walls off an organism the
+macrophages cannot kill (see [*How bacteria cause damage*](bacterial-damage.qmd#sec-bdam-host)). The
+centre of a granuloma often undergoes **caseous necrosis**, necrosis that leaves a soft, cheese-like
+mass of dead cells.
+
+In most people the granulomas contain the infection. A few bacteria survive within them for years or
+decades without causing symptoms: a **latent infection**, persistence of an organism in a silent
+state, with the possibility of reactivation (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-courses)). A person with latent infection has no
+bacteria in the airways and does not infect others.
+
+::: {.flow}
+1. Inhaled bacteria reach the alveoli
+2. Macrophages engulf them, and the bacteria survive and multiply inside
+3. T cells activate the macrophages, which wall the bacteria into granulomas
+4. A few bacteria survive, silent, inside the granulomas: latent infection
+5. If cell-mediated immunity fails, the bacteria multiply again and destroy lung tissue: active tuberculosis
+:::
+
+The lifetime risk that latent infection becomes active disease is about 5–10%, and it rises when
+cell-mediated immunity fails (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-factors)):
+
+- HIV infection, which destroys the T cells that direct the response, so the risk rises from early in
+  the infection and climbs as the T cells are lost (described later, in [*Viruses and the
+  host*](../viruses/virus-host.qmd#sec-vhost-cd4))
+- Diabetes
+- Older age
+- Drugs that suppress immunity, such as those given after an organ transplant
+
+Young children, whose cell-mediated immunity is immature, more often progress from infection
+straight to disease. In them the bacteria can spread through the body in the blood and reach the
+meninges, causing tuberculous **meningitis**, inflammation of the meninges, the membranes that cover
+the brain and spinal cord.
+
+In active tuberculosis of the lungs, usually in their upper parts, the bacteria multiply in the
+granulomas and the caseous centres enlarge. When a centre liquefies and drains into a bronchus, it
+leaves a cavity in the lung whose wall holds very large numbers of bacteria, and coughing carries them
+into the air. The illness develops over weeks to months, with a cough, fever, night sweats and weight
+loss. Damage comes from both the bacterium and the host's response (see [*Microbes and their
+hosts*](../foundations/host-microbe.qmd#sec-host-drf)): when the response is weak the bacteria
+spread, and when it is strong it destroys lung tissue.
+
+Three methods find *M. tuberculosis* in sputum, and a trait of the bacterium limits each one:
+
+- The acid-fast stain gives a result within hours but needs many bacteria in the sample (see
+  [*Detecting bacteria and testing susceptibility*](detecting-bacteria.qmd#sec-dbac-microscopy))
+- Culture takes weeks, because the bacterium divides slowly, but yields an isolate that can be tested
+  against drugs (see [*Detecting bacteria and testing
+  susceptibility*](detecting-bacteria.qmd#sec-dbac-culture))
+- A NAAT detects its DNA, and some of the mutations that make it resistant to drugs, within hours
+
+Latent infection leaves no bacteria to find in sputum, so it is detected by tests of the T-cell
+response to the bacterium, given as a skin test or a blood test. A positive result means that a
+person has probably been infected, but it cannot tell latent infection from active disease. A skin
+test can also turn positive after exposure to non-tuberculous mycobacteria, and both tests can be
+falsely negative when cell-mediated immunity is weak.
+
+Active tuberculosis is treated for several months with **combination therapy**, treatment with two or
+more drugs acting on different targets, so that a variant resistant to one is still suppressed by the
+others. Two traits of the bacterium explain this:
+
+- A cavity holds so many bacteria that some already carry a mutation that makes them resistant to any
+  one drug, and a single drug would select them; in *M. tuberculosis* resistance arises by mutation,
+  without gene transfer (see [*How bacteria copy themselves and
+  change*](bacterial-genetics.qmd#sec-gen-mutation))
+- Bacteria that divide slowly, or barely at all, inside granulomas and necrotic tissue are killed
+  slowly, so treatment must continue for months
+
+Treatment that is stopped early or taken irregularly selects resistant bacteria, and resistant
+strains then spread to other people. Strains resistant to several of the main drugs are much harder
+to treat.
+
+Three measures prevent tuberculosis:
+
+- Finding and treating people with active tuberculosis of the lungs, which stops the spread
+- Tracing and testing their contacts, and treating latent infection to prevent reactivation
+- Vaccinating infants
+
+The **BCG vaccine** (bacille Calmette–Guérin), a live vaccine made from a weakened strain of a
+mycobacterium closely related to *M. tuberculosis*, is given at birth in Singapore (see [*Detecting
+and controlling microbes*](../foundations/detection-control.qmd#sec-det-prevent)). It protects young
+children against the severe forms of tuberculosis, in which the bacteria spread through the body or
+reach the meninges, but it protects less reliably against tuberculosis of the lungs in adults, the
+form that spreads the infection. Because BCG is itself a mycobacterium, it can also turn the skin test
+positive; blood tests that use bacterial proteins absent from BCG avoid this.
+
+*M. tuberculosis* does its harm in three ways, set by how well cell-mediated immunity contains it:
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Latent infection | T cells and activated macrophages wall the bacteria into granulomas, where a few survive, multiplying little or not at all | No symptoms; a positive test of the T-cell response in a healthy adult whose household member has active tuberculosis |
+| Active tuberculosis of the lungs | When cell-mediated immunity fails, the bacteria multiply again; caseous centres liquefy and drain into a bronchus, leaving cavities full of bacteria | A cough for two months, with fever, night sweats and weight loss, and a cavity in the upper part of a lung |
+| Spread beyond the lungs | Bacteria carried in lymph and blood settle in lymph nodes, the meninges, bones and other organs, especially when cell-mediated immunity is immature or fails | Tuberculous meningitis in a young child; enlarged lymph nodes in the neck of an adult |
+
+Three conditions let *M. tuberculosis* cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | Anyone who inhales it can be infected; active disease is most likely when cell-mediated immunity is immature or fails: young children, people with HIV infection or diabetes, older adults, people taking drugs that suppress immunity | T cells that activate macrophages contain the bacteria in granulomas; when they are lacking, the bacteria multiply |
+| Where (setting) | Prolonged sharing of air with a person who has active tuberculosis of the lungs, in a household or a crowded, poorly ventilated space | Infectious particles stay suspended in still air; people with latent infection do not spread it |
+| How (route) | Inhaled into the alveoli and engulfed by macrophages | It survives inside macrophages, travels in lymph and blood before immunity develops, and can stay latent for decades |
+
+::: {.callout-important}
+## Can a person with latent tuberculosis infection pass it on?
+The word "tuberculosis" is used for both the infection and the disease, so a positive test for
+tuberculosis is often taken to mean that a person is infectious, and people with latent infection can
+meet the same caution as those with active disease. In latent infection the bacteria are held in
+granulomas in the lung, none reach the airway, and nothing is coughed out, so the person does not
+infect others. Only active disease of the lungs or airway puts the bacteria into the air.
+:::
+
+Step through the two routes of *M. tuberculosis*: containment and reactivation in an adult, and
+spread through the body in a young child.
+
+<div data-island="body-map" data-src="/diagrams/route-m-tuberculosis.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/atyp-profile-m-tuberculosis.yml"></div>
+
+## Contrast pair {#sec-atyp-pairs}
+
+### *M. tuberculosis* and non-tuberculous mycobacteria {#sec-atyp-pair-tb-ntm}
+
+*M. tuberculosis* and the non-tuberculous mycobacteria share the waxy wall and look alike on an
+acid-fast stain of sputum, so the laboratory tells them apart by identifying the species, in culture
+or by NAAT. Compare them feature by feature before reading the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-tb-ntm.yml"></div>
+
+## Beyond the main organisms {#sec-atyp-beyond}
+
+### Supporting organisms {#sec-atyp-supporting}
+
+| Organism | Where it lives | What separates it | Why it matters |
+|---|---|---|---|
+| *Rickettsia* | Ticks, lice and fleas (and, for a few species, mites), and the animals or people they feed on; reaches humans through the arthropod's bite, or its faeces rubbed into the skin | Obligate intracellular; grows free in the cytoplasm of the cells lining small blood vessels | Causes fever, headache and often a rash, as infected small blood vessels become inflamed and leak; a tick bite can leave a dark scab; drugs must enter host cells to reach it |
+| *Orientia tsutsugamushi* | Larval mites in scrub and grassland in rural Asia and the western Pacific, including South-East Asia; the mites pass it to their eggs, so they maintain it in nature as well as carrying it to people | Obligate intracellular; once classified as a species of *Rickettsia* | Causes **scrub typhus**, a fever with headache after the bite of an infected mite larva, often with an **eschar**, a dark scab at the site of the painless bite; a common cause of fever in rural parts of the region, which can be severe or fatal without treatment |
+| *M. leprae* | Humans; passed during close and frequent contact with a person with untreated leprosy, probably in respiratory particles from the nose and mouth | Cannot be grown in culture; grows best below body temperature, in the skin and peripheral nerves of the cooler parts of the body; divides far more slowly than *M. tuberculosis*, so disease appears years after infection | Causes **leprosy**, chronic infection of the skin and peripheral nerves by *M. leprae*. Damage to the nerves causes loss of sensation, and unnoticed injuries lead to deformity. A strong cell-mediated response gives a few skin patches with few bacteria, a weak one widespread lesions full of bacteria |
+| Non-tuberculous mycobacteria | Water and soil, including the biofilms inside water pipes and showerheads | Acid-fast, like *M. tuberculosis*; not usually passed between people; naturally resistant to many drugs | Chronic lung infection in damaged lungs; skin and wound infections after injections, surgery or tattoos; infection that spreads through the body in advanced HIV infection |
+
+### Later in the course {#sec-atyp-later}
+
+| Organism | Where it comes up again |
+|---|---|
+| *Mycoplasma pneumoniae* | Respiratory medicine and paediatrics (pneumonia in children and young adults); pharmacology (drugs for pneumonia caused by bacteria without a wall) |
+| *C. trachomatis* | Sexual health; obstetrics and gynaecology (pelvic inflammatory disease, infertility and ectopic pregnancy); neonatology and ophthalmology (conjunctivitis in the neonate; trachoma) |
+| *M. tuberculosis* | Respiratory medicine (tuberculosis of the lungs); neurology (tuberculous meningitis); public health (contact tracing and treatment of latent infection); HIV care; pharmacology (combination treatment and resistance) |
+| *Rickettsia* and *O. tsutsugamushi* | Infectious diseases and travel medicine (fever with a rash or an eschar) |
+| *M. leprae* | Dermatology and neurology (skin patches with loss of sensation; damage to peripheral nerves) |
+| Non-tuberculous mycobacteria | Respiratory medicine (lung infection in damaged lungs); dermatology (skin infection after procedures); HIV care |
+
+## Check your understanding {#sec-atyp-quiz}
+
+<div data-island="quiz" data-src="/quizzes/atypicals-mycobacteria.quiz.yml"></div>
+
+## Review with flashcards {#sec-atyp-cards}
+
+<div data-island="flashcards" data-src="/decks/atypicals-mycobacteria.deck.yml"></div>

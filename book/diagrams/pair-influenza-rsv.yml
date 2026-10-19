@@ -1,0 +1,70 @@
+id: pair-influenza-rsv
+title: "Contrast pair: two negative-sense RNA viruses of the airway"
+intro: "Both are enveloped viruses with negative-sense RNA genomes, spread in respiratory particles and on hands, and both infect people again and again. Read across and find the feature that best tells them apart."
+
+a:
+  name: "Influenza virus"
+b:
+  name: "Respiratory syncytial virus"
+
+rows:
+  - feature: "Envelope and genome"
+    a: "Enveloped; negative-sense RNA"
+    b: "Enveloped; negative-sense RNA"
+    separates: false
+  - feature: "Spread"
+    a: "Respiratory particles, hands and surfaces"
+    b: "Respiratory particles, hands and surfaces"
+    separates: false
+  - feature: "Genome segments"
+    a: "Eight, so two strains infecting one cell can exchange them"
+    b: "One, so there is nothing to exchange"
+    separates: true
+  - feature: "Why people are infected again"
+    a: "The virus drifts, so antibodies from earlier years bind it poorly; shift occasionally brings a subtype new to people"
+    b: "Immunity after infection is incomplete and fades, even against a virus that has changed little"
+    separates: true
+  - feature: "Typical severe illness"
+    a: "Viral pneumonia, or bacterial pneumonia after the airway lining is damaged, in older adults, young children, pregnant women and people with chronic disease"
+    b: "Bronchiolitis in a young infant, as dead cells, mucus and swelling block the bronchioles; pneumonia in older adults"
+    separates: true
+  - feature: "Prevention and treatment"
+    a: "A vaccine whose strains are reviewed every year; drugs that block neuraminidase or the viral polymerase"
+    b: "Antibody injected into infants, vaccination in pregnancy and vaccines for older adults; no antiviral drug in routine use"
+    separates: true
+
+question:
+  stem: "Both viruses are enveloped, have negative-sense RNA genomes and spread in the same way. Which feature best tells them apart in a patient?"
+  options: [0, 1, 4]
+  answer: 4
+  feedback: >
+    Typical severe illness. Structure and spread are shared, so neither points to one virus. RSV
+    does its most typical harm in the narrow bronchioles of a young infant; influenza virus damages the
+    lining of the larger airways and the alveoli, and opens the way for bacteria.
+
+principle: >
+  Two viruses with the same structure and the same route can still differ in where in the airway they
+  do most harm, in whom, and why they return. RSV blocks the narrowest airways, so it is most dangerous
+  in the first months of life. Influenza virus damages the larger airways and the alveoli and lets
+  bacteria follow, so it is most dangerous to older adults and people with chronic disease. Influenza
+  returns because the virus drifts; RSV returns because the immunity it leaves is incomplete.
+
+sort:
+  - text: "Wheeze, fast breathing and difficulty feeding in a 2-month-old whose brother has a cold"
+    answer: b
+    why: "Bronchiolitis in a young infant: RSV."
+  - text: "A pandemic after a haemagglutinin new to people appears by reassortment"
+    answer: a
+    why: "Shift needs a segmented genome: influenza virus."
+  - text: "Fever and cough return a few days after an older adult began to recover, with bacteria multiplying in the lung"
+    answer: a
+    why: "Secondary bacterial pneumonia after the airway lining is damaged: influenza virus."
+  - text: "Reinfection with a virus that has changed little, because immunity after infection is incomplete"
+    answer: b
+    why: "Incomplete, fading immunity brings RSV back throughout life."
+  - text: "Prevented by a vaccine whose strains are reviewed every year"
+    answer: a
+    why: "Drift moves the circulating strains away from those in the vaccine: influenza virus."
+  - text: "Prevented in young infants by an injection of laboratory-made antibody"
+    answer: b
+    why: "Antibody against the fusion protein protects infants through the months of greatest risk: RSV."

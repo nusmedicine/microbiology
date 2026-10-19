@@ -1,0 +1,40 @@
+id: atyp-profile-m-tuberculosis
+name: "Mycobacterium tuberculosis"
+group: "Acid-fast rod · waxy mycolic-acid wall · lives inside macrophages"
+intro: "Its wall, oxygen use and slow growth are described in *How bacteria are built and get energy*. Predict two slots: who spreads it, and what its numbers and slow growth mean for treatment."
+
+slots:
+  - slot: identity
+    entry: "A rod with a waxy wall packed with mycolic acids, so it is acid-fast and barely takes up the Gram stain. It needs oxygen to make ATP and divides about once a day, so cultures take weeks."
+  - slot: lifestyle
+    predict:
+      stem: "Which of these people is most likely to pass *M. tuberculosis* to others?"
+      options:
+        - text: "A man with a cavity in his lung who has coughed for two months"
+          correct: true
+          feedback: "A cavity holds very large numbers of bacteria, and coughing carries them into the air in particles small enough to stay suspended. Only active disease of the lungs or airway spreads the bacterium."
+        - text: "A woman with a positive blood test for tuberculosis infection, no symptoms and a normal chest X-ray"
+          correct: false
+          feedback: "She has latent infection: a few bacteria are held in granulomas and none reach the airway, so nothing is coughed out. She cannot infect others, although she can develop active disease later."
+        - text: "A young child with tuberculous meningitis"
+          correct: false
+          feedback: "Infection of the meninges puts no bacteria into the air. Young children with tuberculosis also seldom have the cavities that spread it; they usually catch it from an adult with active lung disease."
+    entry: "Lives only in humans, mainly inside macrophages. Spreads by airborne transmission from people with active tuberculosis of the lungs, and a few inhaled bacteria can start an infection. Remains common in Singapore and throughout South-East Asia."
+  - slot: harm
+    entry: "Survives inside macrophages. T cells activate the macrophages, which wall the bacteria into granulomas whose centres undergo caseous necrosis. Damage comes from both the bacterium and the response: when the response is weak the bacteria spread, and when it is strong it destroys lung tissue and leaves cavities."
+  - slot: consequence
+    predict:
+      stem: "A cavity in the lung holds a very large number of bacteria, and a few of them already carry a mutation that makes them resistant to one drug. What follows for treatment?"
+      options:
+        - text: "Several drugs are given together, so a mutant resistant to one is killed by the others"
+          correct: true
+          feedback: "A single drug would kill the susceptible bacteria and select the resistant mutants already present. Bacteria resistant to two or more drugs at once are far rarer, so a combination suppresses them; slow growth means the combination must continue for months."
+        - text: "One drug at a time, changing the drug each month"
+          correct: false
+          feedback: "Each drug given alone selects the mutants resistant to it, so changing drugs one at a time builds up resistance step by step. The drugs must act together, so that a mutant resistant to one is killed by another."
+        - text: "A short course of a few days, before resistance can arise"
+          correct: false
+          feedback: "Resistant mutants are present before treatment begins, and bacteria that divide slowly in granulomas and necrotic tissue are killed slowly. A short course fails, and selects resistance as it does."
+    entry: "Most infected people develop latent infection, with a lifetime risk of active disease of about 5–10%, higher when cell-mediated immunity fails. Active disease is treated with several drugs together for months. BCG, given at birth in Singapore, protects young children against severe forms better than it prevents tuberculosis of the lungs in adults."
+  - slot: contrast
+    entry: "*Mycobacterium leprae*: also acid-fast, and also held in check by cell-mediated immunity, but it cannot be grown in culture, grows best in the cooler skin and peripheral nerves, and divides so slowly that leprosy appears years after infection."

@@ -1,0 +1,40 @@
+id: egn-profile-v-cholerae
+name: "Vibrio cholerae"
+group: "Curved Gram-negative rod · ferments and respires · tolerates salt · lives in fresh and brackish water"
+intro: "Predict two of the five slots. One toxin, acting on the lining of the small intestine, accounts for the whole illness."
+
+slots:
+  - slot: identity
+    entry: "Curved Gram-negative rod with an outer membrane carrying LPS, and a single flagellum at one end. Ferments as well as respiring, and tolerates salt, so it grows in fresh and brackish water and on ordinary media."
+  - slot: lifestyle
+    entry: "Lives in fresh and brackish water, and passes from person to person through it: faeces from a patient carry enormous numbers of bacteria back into water and food. Stomach acid kills most of those swallowed, so a large inoculum must arrive, which is why contaminated water and food matter more than contact between people."
+  - slot: harm
+    predict:
+      stem: "A patient with cholera has litres of watery diarrhoea, no blood in the stool and no fever. What does the absence of blood and fever indicate?"
+      options:
+        - text: "The bacteria stay in the lumen of the gut and the toxin acts on the lining from its surface"
+          correct: true
+          feedback: "No invasion means no ulceration to bleed and no inflammation to raise the temperature. The illness comes from fluid and salts leaving the body, not from destruction of the gut wall."
+        - text: "The infection is mild and will settle without treatment"
+          correct: false
+          feedback: "Fluid loss of this volume can kill an adult within hours. The absent blood and fever show where the organism acts, in the lumen, and say nothing about how dangerous the illness is."
+        - text: "The bacteria have already spread into the blood"
+          correct: false
+          feedback: "They never leave the gut. What enters the circulation is nothing, and what leaves it is fluid and salts drawn into the lumen by the toxin."
+    entry: "One toxin enters the cells lining the small intestine and raises the concentration of cyclic AMP in them. The cells secrete chloride, and water and other salts follow into the lumen: in severe cholera, up to a litre an hour. The wall is never invaded, so there is no blood in the stool and usually no fever."
+  - slot: consequence
+    predict:
+      stem: "A child with cholera is losing fluid fast but is alert and able to drink. The bacteria are still in the gut and the toxin is still acting. Why does drinking a solution of glucose and salts help?"
+      options:
+        - text: "Sodium is carried into the lining cells alongside glucose, and that transport keeps working while the toxin acts"
+          correct: true
+          feedback: "Absorption and secretion go on side by side, so fluid given by mouth is taken up even during the illness. Replacing the volume lost is what saves the patient, by mouth while the patient can drink and into a vein once the circulation is failing."
+        - text: "Glucose neutralises the toxin in the gut"
+          correct: false
+          feedback: "Nothing in the solution touches the toxin. The glucose is there because it drives the uptake of sodium, and water follows the salt back into the body."
+        - text: "The salts kill the bacteria in the lumen"
+          correct: false
+          feedback: "These bacteria tolerate salt, which is part of how they live in brackish water. The solution works by replacing what has been lost, not by killing anything."
+    entry: "Death from dehydration within hours in an untreated patient, and recovery in most patients whose fluid and salts are replaced, by mouth or into a vein. Antibacterial drugs shorten the illness and the period of shedding, and do nothing for the volume already lost. Control rests on clean water and sanitation, because the bacteria return to the water in the stool."
+  - slot: contrast
+    entry: "*Vibrio vulnificus*: the same genus, but it needs salt to grow and lives in warm seawater, and it invades tissue and the blood instead of acting from the lumen of the gut, destroying the tissue of a wound exposed to seawater with its capsule and its toxins and causing sepsis after raw shellfish, above all in people with chronic liver disease."

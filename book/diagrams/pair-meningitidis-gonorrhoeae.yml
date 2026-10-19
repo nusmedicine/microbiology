@@ -1,0 +1,77 @@
+id: pair-meningitidis-gonorrhoeae
+title: "Contrast pair: the meningococcus and the gonococcus"
+intro: "Both are *Neisseria* species that look alike on a Gram stain and die quickly outside the body. Read across and find the feature that best explains the difference in what they do."
+
+a:
+  name: "Neisseria meningitidis"
+b:
+  name: "Neisseria gonorrhoeae"
+
+rows:
+  - feature: "Gram stain"
+    a: "Gram-negative diplococci, often inside neutrophils"
+    b: "Gram-negative diplococci, often inside neutrophils"
+    separates: false
+  - feature: "Survival outside the body"
+    a: "Dies quickly when dried or cooled"
+    b: "Dies quickly when dried or cooled"
+    separates: false
+  - feature: "Where it lives"
+    a: "Nasopharynx of healthy carriers"
+    b: "Urethra, cervix, rectum and throat"
+    separates: true
+  - feature: "Route"
+    a: "Respiratory droplets and secretions, in close contact"
+    b: "Sexual contact; to the infant's eyes during birth"
+    separates: true
+  - feature: "Polysaccharide capsule"
+    a: "Present: protects it from phagocytes and complement in the blood"
+    b: "Absent"
+    separates: true
+  - feature: "Typical disease"
+    a: "Meningitis, and sepsis with purpura, within hours"
+    b: "Urethritis; silent infection of the cervix that can ascend to the fallopian tubes"
+    separates: true
+  - feature: "Vaccine"
+    a: "Conjugate vaccines against several serogroups; protein vaccines against group B"
+    b: "None made specifically against it; a group B meningococcal vaccine gives partial protection"
+    separates: true
+
+question:
+  stem: "Both are Gram-negative diplococci that die quickly outside the body. Which feature best explains why one can cause disease in the blood within hours, while the other usually stays on mucosal surfaces?"
+  options: [0, 1, 4]
+  answer: 4
+  feedback: >
+    The polysaccharide capsule. Both look alike on a Gram stain and both are fragile outside the body,
+    so neither of those features tells them apart. The capsule protects *N. meningitidis* from
+    phagocytes and complement once it reaches the blood, where it multiplies and sheds endotoxin.
+    *N. gonorrhoeae* has none, and it infects the mucosa where it lands.
+
+principle: >
+  Where a bacterium lives decides how it spreads, and what protects it decides how far into the body
+  it can go. Both species die quickly outside the body, so both pass only by close contact: the
+  meningococcus from the nasopharynx in respiratory droplets, the gonococcus from the genital tract in
+  sex. The capsule lets the meningococcus survive in the blood, and because antibodies against the
+  capsule protect, conjugate vaccines prevent most of its disease. The gonococcus has no capsule and
+  keeps changing its surface proteins, so infection leaves no lasting immunity and no vaccine reliably
+  prevents it.
+
+sort:
+  - text: "A first-year student living in a hall of residence develops fever, a stiff neck and a purple rash"
+    answer: a
+    why: "Spread in close contact from a carrier's nasopharynx, then meningitis and sepsis: *N. meningitidis*."
+  - text: "Pus drips from a man's urethra four days after sex"
+    answer: b
+    why: "Urethritis after sexual contact: *N. gonorrhoeae*."
+  - text: "Household contacts of a patient are given antibiotics to clear carriage"
+    answer: a
+    why: "Carriage in the nasopharynx of close contacts: *N. meningitidis*."
+  - text: "Pus pours from both eyes of a neonate three days after birth"
+    answer: b
+    why: "Infection of the conjunctiva in the birth canal: *N. gonorrhoeae*."
+  - text: "The same person is infected again a year after treatment"
+    answer: b
+    why: "Antigenic variation leaves no lasting immunity: *N. gonorrhoeae*."
+  - text: "Protected in the blood by a polysaccharide capsule"
+    answer: a
+    why: "The capsule: *N. meningitidis*."

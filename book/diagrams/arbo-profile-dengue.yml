@@ -1,0 +1,40 @@
+id: arbo-profile-dengue
+name: "Dengue virus"
+group: "Enveloped positive-sense RNA virus · flavivirus · carried by mosquitoes that bite by day"
+intro: "Predict two of the five slots. Most of what this virus does follows from two facts: it passes between people through a mosquito, and it exists as four serotypes."
+
+slots:
+  - slot: identity
+    entry: "An enveloped virus with a single-stranded, positive-sense RNA genome; a flavivirus. Exists as four serotypes, dengue virus 1 to 4. Infection with one gives lasting immunity to that serotype, and only short-lived protection against the others."
+  - slot: lifestyle
+    predict:
+      stem: "Dengue virus passes between people in the bite of *Aedes* mosquitoes, which breed in small containers of clean water around homes. Which measure does most to reduce its spread in a city?"
+      options:
+        - text: "Removing or emptying containers that collect water around homes"
+          correct: true
+          feedback: "Without breeding sites there are fewer mosquitoes, and every infection they carry falls. The virus has no other common route between people, so the mosquito is where the cycle breaks."
+        - text: "Hand washing and masks for people with fever"
+          correct: false
+          feedback: "Dengue virus is not spread by touch or in respiratory particles; it needs a mosquito to carry it from one person's blood to the next. Measures against contact and respiratory spread do not break that cycle."
+        - text: "An antiviral drug for every patient"
+          correct: false
+          feedback: "No antiviral drug is in routine use against dengue virus. Control acts on the mosquito, which must bite a person with virus in the blood and survive for days before it can pass the virus on."
+    entry: "Humans are the main host in towns and cities, and *Aedes* mosquitoes, mainly *Aedes aegypti*, carry the virus between them. The mosquitoes breed in small containers of clean water near homes and bite by day. Endemic in Singapore, with periodic large outbreaks; most cases in Singapore are in adults."
+  - slot: harm
+    entry: "Fever, severe headache, pain behind the eyes, and aching muscles and joints, with thrombocytopenia. As the fever settles, small blood vessels can leak plasma for a day or two: the blood becomes concentrated, its volume falls, and shock can follow. A low platelet count, fragile small vessels and disturbed clotting cause bleeding."
+  - slot: consequence
+    predict:
+      stem: "Three years after an illness caused by dengue virus 1, a woman is infected with dengue virus 2. Compared with her first infection, what is most likely?"
+      options:
+        - text: "A greater risk of severe dengue"
+          correct: true
+          feedback: "Antibodies from the first infection bind dengue virus 2 without neutralising it, and help it into white blood cells that carry receptors for antibodies. More cells are infected, which is thought to explain much of the extra risk of severe dengue in a second infection."
+        - text: "Complete protection, because she has already had dengue"
+          correct: false
+          feedback: "Immunity after dengue is specific to the serotype that caused it. Protection against the other three is short-lived, so she can be infected by dengue virus 2."
+        - text: "A milder illness, because her antibodies neutralise every serotype"
+          correct: false
+          feedback: "Her antibodies neutralise dengue virus 1, but they bind the other serotypes without neutralising them. Binding without neutralising can make the second infection worse."
+    entry: "A second infection with a different serotype carries the greatest risk of severe dengue, through antibody-dependent enhancement. No antiviral drug is in routine use, so treatment rests on close monitoring through the days when the fever settles and on careful replacement of fluid. Prevention depends on removing the mosquitoes' breeding sites."
+  - slot: contrast
+    entry: "Chikungunya virus: the same mosquitoes and the same first symptoms, but a single serotype, severe joint pain that can last for months, and rarely shock."

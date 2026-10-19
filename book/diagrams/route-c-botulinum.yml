@@ -1,0 +1,56 @@
+id: route-c-botulinum
+title: "Routes through the body: *Clostridium botulinum*"
+intro: "Two routes to the same toxin: made in food before it is eaten, or made in the gut of an infant. At some steps, predict the site before the answer appears."
+
+routes:
+  - name: "Food-borne botulism"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Spores of *C. botulinum* from soil and sediment contaminate vegetables, fish or meat that is then preserved at home in a sealed jar or can."
+      - at: outside
+        kind: multiplies
+        text: "The spores can survive the heat of home preserving. In the sealed container, without oxygen, in food that is not acidic and is kept at room temperature, they germinate, and the bacteria release toxin into the food."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "The food is eaten without being heated enough to destroy the toxin, and the toxin is absorbed from the gut. No infection is needed: the toxin was already in the food."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "The blood carries the toxin to motor nerve endings throughout the body."
+      - at: nerves
+        kind: damages
+        via: blood
+        ask: "Carried in the blood, where does the toxin act?"
+        options: [nerves, brain, gut]
+        answer: [nerves]
+        why: "It enters motor nerve endings where they meet muscle fibres, at the neuromuscular junction, and stops them releasing acetylcholine. It acts outside the brain and spinal cord, so the person stays alert and can feel normally."
+        text: "At the neuromuscular junction the toxin enters the motor nerve ending and blocks the release of acetylcholine, so the muscle fibre receives no signal to contract."
+      - at: tissue
+        kind: damages
+        text: "Flaccid paralysis begins in the muscles supplied by the cranial nerves (double vision, drooping eyelids, difficulty swallowing) and descends to the arms, the legs and the muscles of breathing. It lasts until the nerve endings recover, over weeks to months."
+
+  - name: "Infant botulism"
+    steps:
+      - at: outside
+        kind: lives
+        text: "Spores are present in soil and dust, and in some honey."
+      - at: gut
+        kind: enters
+        via: swallowed
+        text: "An infant under a year old swallows the spores."
+      - at: gut
+        kind: multiplies
+        ask: "In an adult, swallowed spores pass through without harm. Where do they germinate in this infant?"
+        options: [gut, blood, nerves]
+        answer: [gut]
+        why: "In an infant the gut microbiota is not yet established, so it does not keep the bacteria in check as it does in older children and adults. The spores germinate in the colon, which has almost no oxygen, and the bacteria multiply there."
+        text: "The spores germinate in the colon, and the bacteria multiply and release toxin there. Unlike food-borne botulism, this is an infection."
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "The toxin is absorbed into the blood and carried to motor nerve endings."
+      - at: tissue
+        kind: damages
+        text: "The toxin also silences the autonomic nerves that keep the bowel moving, so constipation is often the first sign. The infant then feeds poorly, has a weak cry and becomes floppy, and the weakness can reach the muscles of breathing."
