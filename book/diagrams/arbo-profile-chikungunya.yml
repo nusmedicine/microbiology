@@ -1,5 +1,6 @@
 id: arbo-profile-chikungunya
 name: "Chikungunya virus"
+roman: true
 group: "Enveloped positive-sense RNA virus · alphavirus · carried by mosquitoes that bite by day"
 intro: "Predict two of the five slots. Most of what this virus does follows from where it settles after spreading in the blood: the joints."
 

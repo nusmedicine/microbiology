@@ -1,5 +1,6 @@
 id: bbv-profile-hbv
 name: "Hepatitis B virus"
+roman: true
 group: "Enveloped DNA virus · copies its genome through RNA · infects liver cells"
 intro: "Predict two of the five slots. Much of what this virus does follows from the age at which a person is infected."
 

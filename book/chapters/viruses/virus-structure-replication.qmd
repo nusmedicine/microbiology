@@ -22,7 +22,8 @@
   - [Parts of a virion](#sec-vstr-structure): genome, capsid, envelope
   - [Enveloped and non-enveloped viruses](#sec-vstr-envelope) and survival outside the host
 - [The replication cycle](#sec-vstr-cycle): six steps, ending in budding or lysis
-- [From genome to mRNA](#sec-vstr-genomes): DNA, positive-sense RNA, negative-sense RNA, retroviruses
+- [From genome to mRNA](#sec-vstr-genomes): DNA, positive-sense RNA, negative-sense RNA,
+  double-stranded RNA, retroviruses
 - [What a virus has that human cells lack](#sec-vstr-targets): viral enzymes as drug targets
 :::
 
@@ -156,13 +157,16 @@ makes RNA from an RNA template.
 
 | Genome | How mRNA is made | What the virus must supply |
 |---|---|---|
-| Double-stranded DNA | Host RNA polymerase transcribes the viral DNA, as it transcribes the cell's own genes | No enzyme for making mRNA; some DNA viruses encode their own DNA polymerase to copy the genome |
+| Double-stranded DNA; partly double-stranded in hepatitis B virus | Host RNA polymerase transcribes the viral DNA, as it transcribes the cell's own genes | No enzyme for making mRNA; some DNA viruses encode their own DNA polymerase to copy the genome, and hepatitis B virus a reverse transcriptase |
 | Positive-sense RNA | The genome is itself an mRNA: host ribosomes translate it as soon as it is uncoated | An RNA-dependent RNA polymerase, translated from the genome, which copies the genome |
 | Negative-sense RNA | The viral RNA-dependent RNA polymerase transcribes mRNA from the genome | An RNA-dependent RNA polymerase carried inside the virion, because the genome cannot be translated to make one |
+| Double-stranded RNA | The viral RNA-dependent RNA polymerase transcribes mRNA from the genome | An RNA-dependent RNA polymerase carried inside the virion, because a double-stranded genome cannot be translated |
 | Retrovirus: positive-sense RNA copied into DNA | Reverse transcriptase copies the RNA into DNA; integrase joins the DNA into a host chromosome; host RNA polymerase transcribes it | Reverse transcriptase and integrase, carried inside the virion |
 
-Influenza virus has a segmented, negative-sense RNA genome and belongs in the third row. HIV is a
-retrovirus and belongs in the fourth.
+Influenza virus has a segmented, negative-sense RNA genome and belongs in the third row. Rotavirus, a
+cause of severe diarrhoea in infants and young children, has a double-stranded RNA genome in segments
+and belongs in the fourth (see [*Viruses spread by the faecal–oral
+route*](enteric-viruses.qmd#sec-entv-rotavirus)). HIV is a retrovirus and belongs in the fifth.
 
 ::: {.example}
 Influenza virus packages its RNA-dependent RNA polymerase with each of its eight negative-sense
@@ -186,6 +190,12 @@ responses), together with a second receptor, and its envelope fuses with the pla
 transcriptase then copies the RNA genome into DNA, and integrase inserts that DNA into a chromosome of
 the T cell as a provirus.
 :::
+
+Hepatitis B virus also encodes a reverse transcriptase, although its genome is DNA. In the nucleus,
+its partly double-stranded DNA genome is completed and then transcribed by host RNA polymerase; in the
+cytoplasm, reverse transcriptase copies one of the RNA transcripts back into DNA to make the genomes
+of new virions (see [*Blood-borne and sexually transmitted
+viruses*](bloodborne-viruses.qmd#sec-bbv-hbv)).
 
 ## What a virus has that human cells lack {#sec-vstr-targets}
 

@@ -7,7 +7,7 @@ routes:
     steps:
       - at: nose-throat
         kind: lives
-        text: "Lives on the mucosa of the nasopharynx of a healthy carrier, attached by pili. It dies quickly outside the body, so it passes only to close contacts, in respiratory droplets and secretions."
+        text: "Lives on the mucosa of the nasopharynx of a healthy carrier, attached by pili. It dies quickly outside the body, so it passes only to close contacts, in respiratory particles and secretions."
       - at: nose-throat
         kind: enters
         text: "In a close contact who has no antibodies against the strain, the bacteria attach to the nasopharyngeal mucosa and pass through the epithelial cells towards the small blood vessels beneath."

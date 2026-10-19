@@ -4,7 +4,9 @@
   // that ties its traits to its behaviour; click a column to line groups up by that trait, showing
   // that a "class" is just a trait combination. TEST: interleaved practice — a set of traits (and one
   // extra fact) is shown without a name, and the learner names the group. A manifest may `extends`
-  // another (to reuse one map's data) and set `mode: identify` to open on the test. YAML-driven.
+  // another (to reuse one map's data) and set `mode: identify` to open on the test. The same
+  // component drives the map of the viruses: `rowLabel` names the first column and `prompt` replaces
+  // the explore-mode prompt, both defaulting to the bacterial wording. YAML-driven.
   import { onMount } from 'svelte';
   import { load, save } from './lib/store.js';
   import { loadManifest } from './lib/manifest.js';
@@ -23,6 +25,7 @@
   let traits = $derived(data ? data.traits : []);
   let groups = $derived(data ? data.groups : []);
   let items = $derived(data ? data.identify || [] : []);
+  let rowLabel = $derived((data && data.rowLabel) || 'Group');
   let byId = $derived(Object.fromEntries(groups.map((g) => [g.id, g])));
   let selected = $derived(sel ? byId[sel] : null);
   let rows = $derived.by(() => {
@@ -104,7 +107,7 @@
         <table>
           <thead>
             <tr>
-              <th scope="col">Group</th>
+              <th scope="col">{rowLabel}</th>
               {#each traits as t}
                 <th scope="col">
                   <button type="button" class="colbtn" class:on={sortKey === t.key} aria-pressed={sortKey === t.key}
@@ -134,7 +137,7 @@
           <p class="home"><b>Usual home:</b> {selected.home}</p>
         </div>
       {:else}
-        <p class="prompt">Click a group name to see the logic behind its traits.</p>
+        <p class="prompt">{data.prompt || 'Click a group name to see the logic behind its traits.'}</p>
       {/if}
     {:else}
       <p class="intro">{data.identifyIntro || 'Each set of traits belongs to one group. Name the group, then read why.'} <span class="hint">{Object.keys(answers).length}/{items.length} · {score} correct</span></p>
@@ -152,7 +155,7 @@
         {/each}
         {#if item.extra}<p class="extra">{@html mdInline(item.extra)}</p>{/if}
       </div>
-      <div class="gopts" role="group" aria-label="Which group?">
+      <div class="gopts" role="group" aria-label={'Which ' + rowLabel.toLowerCase() + '?'}>
         {#each groups as g}
           <button type="button" class="gopt" disabled={!!picked}
             class:correct={picked && g.id === item.answer} class:wrong={picked === g.id && g.id !== item.answer}
@@ -162,7 +165,7 @@
       {#if picked}
         {@const g = byId[item.answer]}
         <div class="fb" class:good={picked === item.answer} aria-live="polite">
-          <p><b>{picked === item.answer ? 'Correct' : 'It is ' + g.name}.</b></p>
+          <p><b>{picked === item.answer ? 'Correct' : 'Answer: ' + g.name}.</b></p>
           {@html md(g.logic)}
         </div>
         {#if !done}<button type="button" class="btn" onclick={nextItem}>Next</button>{:else}<button type="button" class="btn secondary" onclick={resetTest}>Try again</button>{/if}

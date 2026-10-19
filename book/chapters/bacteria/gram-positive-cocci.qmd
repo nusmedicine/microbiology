@@ -152,7 +152,7 @@ infection has gone.
 |---|---|---|
 | Spread through tissue | Enzymes digest clots, DNA and the ground substance between cells | **Cellulitis**: spreading infection of the skin and the tissue beneath it |
 | Toxins | Streptolysins lyse cells; superantigens act as in *S. aureus* | Scarlet fever; streptococcal toxic shock syndrome |
-| Immune-mediated damage, weeks later | Antibodies against the bacterium cross-react with the host's own tissue (**molecular mimicry**) | **Rheumatic fever**, which can scar the heart valves [@carapetis2016rheumatic] |
+| Immune-mediated damage, weeks later | Antibodies or T cells raised against the bacterium cross-react with host tissue, because a molecule of the bacterium resembles one of the host's own (**molecular mimicry**) | **Rheumatic fever**, inflammation of the heart, joints and other tissues, which can scar the heart valves [@carapetis2016rheumatic] |
 
 ::: {.example}
 In rheumatic fever the bacteria are gone by the time the heart is damaged, so the damage comes from
@@ -164,8 +164,8 @@ Three conditions let *S. pyogenes* cause disease:
 
 | | Condition | Mechanism |
 |---|---|---|
-| Who (host) | A person who had a throat or skin infection weeks earlier | Antibodies against the bacterium cross-react with the host's own tissue, such as the heart valves |
-| Where (setting) | Close contact with a person who carries it | It lives on the throat and skin of humans only, and spreads by droplets and close contact |
+| Who (host) | A person who had a throat or skin infection weeks earlier | Antibodies and T cells against the bacterium cross-react with the host's own tissue, such as the heart valves |
+| Where (setting) | Close contact with a person who carries it | It lives on the throat and skin of humans only, and spreads by respiratory particles and close contact |
 | How (route) | Into the throat, or through the skin into the tissue beneath | Its enzymes dissolve clots, DNA and the ground substance, so the infection spreads |
 
 Step through the two routes *S. pyogenes* takes through the body.
@@ -177,7 +177,7 @@ Step through the two routes *S. pyogenes* takes through the body.
 ### *Streptococcus pneumoniae*: the capsule {#sec-gpc-pneumoniae}
 
 *S. pneumoniae* has fewer tissue-damaging enzymes and toxins. It relies on its **capsule**, a slippery
-polysaccharide coat that stops phagocytes engulfing it. Many healthy young children carry it in the
+polysaccharide layer outside the cell wall that resists phagocytosis. Many healthy young children carry it in the
 nasopharynx [@weiser2018pneumococcus]. Disease begins when it reaches an adjacent space, or the blood,
 and multiplies there.
 
@@ -188,15 +188,15 @@ and multiplies there.
 
 Antibodies against the capsule **opsonise** the bacteria, coating them so that phagocytes can engulf
 them, so pneumococcal vaccines are made from capsular polysaccharide. There are about 100 capsular
-**serotypes**, variants distinguished by the chemistry of the capsule, and vaccines include the
-commonest.
+**serotypes**, variants distinguished by their surface antigens, here the chemistry of the capsule, and
+vaccines include the commonest.
 
 Three conditions let *S. pneumoniae* cause disease:
 
 | | Condition | Mechanism |
 |---|---|---|
-| Who (host) | A person with **asplenia**, absence of a functioning spleen | The spleen clears antibody-coated, encapsulated bacteria from the blood; without it, clearance fails |
-| Where (setting) | The nasopharynx of a carrier, often a young child | It lives there harmlessly and spreads by respiratory droplets |
+| Who (host) | A person with **asplenia**, absence of a functioning spleen | The spleen makes much of the early antibody against the capsule and removes coated bacteria from the blood; without it, both fail |
+| Where (setting) | The nasopharynx of a carrier, often a young child | It lives there harmlessly and spreads by respiratory particles |
 | How (route) | From the nasopharynx into the middle ear, sinuses, lung or blood | The capsule resists phagocytes, so it multiplies there and the host's inflammation fills the space |
 
 Step through the route *S. pneumoniae* takes from the nasopharynx.
@@ -229,7 +229,7 @@ and provoking inflammation.
 | Organism | Where it lives | What separates it | Why it matters |
 |---|---|---|---|
 | *S. epidermidis* and other coagulase-negative staphylococci | Everyone's skin | No coagulase; few toxins; forms biofilm on plastic and metal | Infects devices such as catheters and prosthetic joints; contaminates blood cultures [@otto2009epidermidis] |
-| *S. agalactiae* (group B) | Gut and vagina of about one in five pregnant women [@russell2017gbs] | Beta-haemolytic, Lancefield group B | Harmless to most adults; dangerous to **neonates** (newborn infants), who meet it at birth with immature defences |
+| *S. agalactiae* (group B) | Gut and vagina of about one in five pregnant women [@russell2017gbs] | Beta-haemolytic, Lancefield group B | Harmless to most adults; dangerous to **neonates** (newborn infants in the first four weeks of life), who meet it at birth with immature defences |
 | Viridans streptococci | Mouth | Alpha-haemolytic, no large capsule | Some ferment sugar to acid that causes **dental caries**; in the blood, they can adhere to damaged heart valves and cause **infective endocarditis**, infection of the heart valves or the inner lining of the heart |
 | *Enterococcus* | Gut | Tolerates bile and salt; intrinsically resistant to several drugs | Persists in hospitals; strains with acquired resistance are difficult to treat |
 

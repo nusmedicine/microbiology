@@ -46,7 +46,7 @@ reveal.
 | Non-selective | Supports a wide range of organisms | A general plate for a sample from a normally sterile site |
 | Enriched | Adds nutrients for **fastidious** organisms, which cannot make them | **Chocolate agar**, made with heated blood, which supplies factors released from lysed red cells |
 | Selective | Contains agents that suppress unwanted organisms | Isolating one pathogen from a sample full of resident microbiota |
-| Differential | Makes colonies look different according to a metabolic property | Blood agar, on which haemolysis distinguishes streptococci |
+| Differential | Makes colonies look different according to a metabolic property | Blood agar, on which haemolysis distinguishes streptococci; the blood also makes it an enriched medium, on which some fastidious bacteria grow, such as *Neisseria meningitidis* (see [*Fastidious Gram-negatives and Gram-negative cocci*](fastidious-gram-negatives.qmd#sec-fgn-meningitidis)) |
 
 Culture conditions decide what a laboratory can find. In each of the following situations, a
 negative culture does not mean that the sample contained nothing:
@@ -72,8 +72,8 @@ visible growth.
 <div data-island="mic-reader" data-src="/diagrams/mic-reader.yml"></div>
 
 The laboratory converts the MIC into a category (susceptible, susceptible at increased exposure, or
-resistant) using a **breakpoint**, the concentration agreed to separate infections likely to respond to
-treatment from those that are not. Breakpoints are set by the European Committee on Antimicrobial
+resistant) using a **breakpoint**, the agreed drug concentration that separates organisms likely to
+respond to treatment from those that are not. Breakpoints are set by the European Committee on Antimicrobial
 Susceptibility Testing (EUCAST) and the Clinical and Laboratory Standards Institute (CLSI), and are
 revised as evidence accumulates, so they are looked up rather than memorised.
 

@@ -1,5 +1,6 @@
 id: bbv-profile-hcv
 name: "Hepatitis C virus"
+roman: true
 group: "Enveloped positive-sense RNA virus · infects liver cells · spread mainly by blood"
 intro: "Predict two of the five slots. Much of what this virus does follows from its RNA genome, which varies greatly and is never copied into DNA."
 

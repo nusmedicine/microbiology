@@ -7,7 +7,7 @@ routes:
     steps:
       - at: [nose-throat, skin]
         kind: lives
-        text: "Lives on the throat and skin of humans only, and passes between people in respiratory droplets and by close contact."
+        text: "Lives on the throat and skin of humans only, and passes between people in respiratory particles and by close contact."
       - at: nose-throat
         kind: damages
         text: "Infects the throat and causes a sore throat, which settles as the infection is cleared."
@@ -17,8 +17,8 @@ routes:
         ask: "Weeks after the sore throat has settled, which part of the body can be damaged?"
         options: [heart, liver, nerves]
         answer: [heart]
-        why: "Antibodies made against the bacterium circulate in the blood and cross-react with proteins of the heart valves that resemble bacterial proteins: molecular mimicry."
-        text: "Weeks later, antibodies made against the bacterium cross-react with the heart valves. The bacteria have gone, so the damage comes from the host's response alone: rheumatic fever, which can scar the valves."
+        why: "Antibodies and T cells made against the bacterium circulate in the blood and cross-react with proteins of the heart valves that resemble bacterial proteins: molecular mimicry."
+        text: "Weeks later, antibodies and T cells made against the bacterium cross-react with the heart valves. The bacteria have gone, so the damage comes from the host's response alone: rheumatic fever, which can scar the valves."
 
   - name: "Cellulitis"
     steps:

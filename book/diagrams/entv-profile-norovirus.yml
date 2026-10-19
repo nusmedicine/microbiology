@@ -1,5 +1,6 @@
 id: entv-profile-norovirus
 name: "Norovirus"
+roman: true
 group: "Non-enveloped single-stranded RNA virus · faecal–oral route · infects the small intestine"
 intro: "Predict two of the five slots. Most of what this virus does follows from a capsid without an envelope and from immunity that does not last."
 

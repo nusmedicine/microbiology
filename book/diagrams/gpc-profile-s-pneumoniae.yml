@@ -19,7 +19,7 @@ slots:
         - text: "Nowhere: it is only found in sick people"
           correct: false
           feedback: "Carriage without disease is common, especially in young children's noses and throats."
-    entry: "Carried in the nose and throat, especially of young children. Spreads by respiratory droplets."
+    entry: "Carried in the nose and throat, especially of young children. Spreads by respiratory particles."
   - slot: harm
     predict:
       stem: "The capsule is slippery and hides the bacterial surface. What does it protect against?"

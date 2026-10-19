@@ -1,5 +1,6 @@
 id: arbo-profile-dengue
 name: "Dengue virus"
+roman: true
 group: "Enveloped positive-sense RNA virus · flavivirus · carried by mosquitoes that bite by day"
 intro: "Predict two of the five slots. Most of what this virus does follows from two facts: it passes between people through a mosquito, and it exists as four serotypes."
 

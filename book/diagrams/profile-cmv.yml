@@ -1,5 +1,6 @@
 id: profile-cmv
 name: "Cytomegalovirus"
+roman: true
 group: "Enveloped double-stranded DNA virus · herpesvirus · latent in white blood cells of the monocyte line"
 intro: "Silent in most healthy people, harmful in a few. Predict two slots, and ask what those few have in common."
 

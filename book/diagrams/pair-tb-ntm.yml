@@ -6,6 +6,7 @@ a:
   name: "Mycobacterium tuberculosis"
 b:
   name: "Non-tuberculous mycobacteria"
+  roman: true
 
 rows:
   - feature: "Wall and stain"

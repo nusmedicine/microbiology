@@ -37,4 +37,4 @@ slots:
           feedback: "*N. gonorrhoeae* does not become latent. He has a new infection from a partner, and the earlier one gave no lasting protection."
     entry: "Infection leaves no lasting immunity, largely because of antigenic variation, and no vaccine reliably prevents it; a group B meningococcal vaccine gives partial protection. Silent infection of the fallopian tubes can cause infertility. Resistance has emerged to most of the drug classes once used against it, so isolates are cultured and tested against drugs, and sexual partners are traced and treated."
   - slot: contrast
-    entry: "*Neisseria meningitidis*: also a Gram-negative diplococcus that dies quickly outside the body, but it lives in the nasopharynx, spreads in respiratory droplets, and has a polysaccharide capsule, which protects it in the blood and is the basis of conjugate vaccines."
+    entry: "*Neisseria meningitidis*: also a Gram-negative diplococcus that dies quickly outside the body, but it lives in the nasopharynx, spreads in respiratory particles, and has a polysaccharide capsule, which protects it in the blood and is the basis of conjugate vaccines."

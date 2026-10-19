@@ -152,21 +152,16 @@ over within about a week. New virions bud into the airway lumen, so the infectio
 epithelium of the airway and rarely enters the blood (see [*Viruses and the
 host*](virus-host.qmd#sec-vhost-spread)).
 
-Haemagglutinin and neuraminidase are the virus's main surface antigens, the molecules that antibodies
-recognise, and the main targets of protective antibodies. Both change (see [*How viruses
-change*](virus-change.qmd#sec-vchg-influenza)). **Antigenic drift** is gradual change in a virus's
-surface antigens through the accumulation of point mutations. It lets influenza virus infect people
-who had influenza or the vaccine in earlier years, so influenza returns every year.
-
-The haemagglutinins of influenza A viruses fall into distinct subtypes, numbered H1, H2, H3 and so on,
-and the neuraminidases into N subtypes; antibodies against one subtype do not protect against
-another. Influenza A viruses of two subtypes, H1N1 and H3N2, circulate in people together with
-influenza B viruses, so a person who had one of them last season can be infected by another this
-season, and the vaccine contains a strain of each. **Antigenic shift** is the sudden appearance in human influenza A viruses
-of a haemagglutinin, often with a neuraminidase, of a subtype new to the human population, usually by
-reassortment with an animal influenza virus. Few people have antibodies against the new subtype, so
-the virus can spread across many countries as a pandemic. Only influenza A viruses, which also
-circulate in animals, cause pandemics.
+Haemagglutinin and neuraminidase, the virus's main surface antigens, are the main targets of
+protective antibodies, and both change. **Antigenic drift**, gradual change in a virus's surface
+antigens through the accumulation of point mutations, lets influenza virus infect people who had
+influenza or the vaccine in earlier years, so influenza returns every year (see [*How viruses
+change*](virus-change.qmd#sec-vchg-drift)). **Antigenic shift**, the sudden appearance in human
+influenza A viruses of a haemagglutinin, often with a neuraminidase, of a subtype new to the human
+population, usually by reassortment with an animal influenza virus, can cause a pandemic, because few
+people have antibodies against the new subtype (see [*How viruses
+change*](virus-change.qmd#sec-vchg-shift)). Only influenza A viruses, which also circulate in
+animals, cause pandemics.
 
 Bird influenza viruses occasionally infect people in close contact with infected poultry or other
 infected animals: since 2024, H5N1 bird influenza has spread among dairy cattle in the United States
@@ -198,10 +193,12 @@ often begins to recover from influenza, and then fever and cough return. Antibac
 the bacterial pneumonia, but they have no effect on the influenza virus itself (see [*How viruses are
 built and copy themselves*](virus-structure-replication.qmd#sec-vstr-targets)).
 
-Influenza vaccines produce antibodies mainly against haemagglutinin. Because the virus drifts, the
-strains in the vaccine are reviewed every year and the vaccine is given again each year (see [*How
-viruses change*](virus-change.qmd#sec-vchg-vaccines)), above all to the groups at greatest risk of
-severe disease and to health workers, who could otherwise pass the virus to their patients.
+Influenza vaccines produce antibodies mainly against haemagglutinin. They contain a strain of each
+kind of influenza virus circulating in people: influenza A viruses of the H1N1 and H3N2 subtypes, and
+influenza B viruses. Because the virus drifts, the strains in the vaccine are reviewed every year and
+the vaccine is given again each year (see [*How viruses
+change*](virus-change.qmd#sec-vchg-vaccines)), above all to the groups at greatest risk of severe
+disease and to health workers, who could otherwise pass the virus to their patients.
 Neuraminidase inhibitors stop new virions leaving infected cells, and a second class of drug blocks a
 part of the viral polymerase that the virus needs to make its mRNA. Both help most when started early
 in the illness, while the virus is still multiplying.

@@ -139,7 +139,12 @@ this stage in the blood. Fever comes as infected red cells rupture, and **anaemi
 concentration of haemoglobin in the blood, develops as red cells are destroyed. Some parasites in the
 red cells develop into sexual forms, which a mosquito takes up when it bites.
 
-As a parasite matures inside a red cell, it places proteins of its own on the cell's surface, and
+Other species of *Plasmodium* also cause malaria. In *Plasmodium vivax* and *Plasmodium ovale*, some
+parasites can stay dormant inside liver cells and cause relapses of malaria months, and occasionally
+years, after the first illness; *P. falciparum* forms no such dormant stage. *Plasmodium knowlesi*, a
+malaria parasite of monkeys, also infects people in parts of South-East Asia.
+
+As a *P. falciparum* parasite matures inside a red cell, it places proteins of its own on the cell's surface, and
 these make the infected cell stick to the walls of small blood vessels. This **sequestration** keeps
 mature parasites out of the spleen, which filters the blood and removes infected red cells because
 they are stiffer than normal ones. It also keeps them out of a blood sample, so a blood film shows

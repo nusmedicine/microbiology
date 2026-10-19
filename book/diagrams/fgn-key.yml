@@ -17,13 +17,13 @@ nodes:
     question: "Where does it live, and how far does it spread in the body?"
     options:
       - label: "The nasopharynx; it can invade the blood and meninges"
-        meaning: "It passes in respiratory droplets between people who live close together. A polysaccharide capsule protects it from phagocytes and complement in the blood, so a newly acquired strain can invade, and once it does, meningitis and sepsis can develop within hours."
+        meaning: "It passes in respiratory particles between people who live close together. A polysaccharide capsule protects it from phagocytes and complement in the blood, so a newly acquired strain can invade, and once it does, meningitis and sepsis can develop within hours."
         next: n-meningitidis
       - label: "The genital tract; it infects mucosal surfaces, often silently"
         meaning: "It passes in sex, and to an infant's eyes during birth. It has no capsule and seldom spreads beyond the mucosa, but silent infection of the cervix can ascend to the fallopian tubes."
         next: n-gonorrhoeae
       - label: "The nasopharynx; it infects the spaces next to it"
-        meaning: "It passes in respiratory droplets and stays on mucosal surfaces, infecting the middle ear, the sinuses and airways damaged by chronic lung disease."
+        meaning: "It passes in respiratory particles and stays on mucosal surfaces, infecting the middle ear, the sinuses and airways damaged by chronic lung disease."
         next: m-catarrhalis
   - id: rods
     question: "Where does it come from?"
@@ -32,7 +32,7 @@ nodes:
         meaning: "It grows on chocolate agar, in which heating has lysed the red cells and released both factors. Strains with the type b capsule can invade the blood and meninges of young children; strains without a capsule infect the spaces next to the nasopharynx."
         next: h-influenzae
       - label: "The human airway; it attaches to the cilia and makes toxins"
-        meaning: "It passes in respiratory droplets. Its toxins paralyse the cilia and kill the ciliated cells of the airway, so mucus is not cleared and the person coughs for weeks; young infants are most at risk."
+        meaning: "It passes in respiratory particles. Its toxins paralyse the cilia and kill the ciliated cells of the airway, so mucus is not cleared and the person coughs for weeks; young infants are most at risk."
         next: b-pertussis
       - label: "Water systems, where it lives inside amoebae"
         meaning: "It is inhaled in aerosols of contaminated water, and not caught from other people. In the lung it multiplies inside macrophages, as it does inside amoebae."

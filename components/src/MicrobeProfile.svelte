@@ -3,7 +3,8 @@
   // niche · mechanism of harm · general consequence · contrast partner). A slot is either WORKED
   // (shown filled) or a PREDICT slot: the learner chooses before the expert entry is revealed.
   // Mixing the two in one card fades the support across the book (worked → partial → blank).
-  // When every slot is filled, the card collapses to the finished profile. YAML-driven.
+  // When every slot is filled, the card collapses to the finished profile. The name is italic, as
+  // for a genus or species; `roman: true` sets it upright (viruses, common names). YAML-driven.
   import { onMount } from 'svelte';
   import { load, save } from './lib/store.js';
   import { loadManifest } from './lib/manifest.js';
@@ -66,7 +67,7 @@
   <figure class="mp card">
     <figcaption class="head">
       <span class="kicker">Microbe profile</span>
-      <strong class="name"><em>{data.name}</em></strong>
+      <strong class="name">{#if data.roman}{data.name}{:else}<em>{data.name}</em>{/if}</strong>
       <span class="group">{data.group}</span>
       <span class="hint">{filled}/{slots.length} slots filled</span>
     </figcaption>

@@ -30,7 +30,7 @@ cards:
   - id: p7
     kind: why
     front: "How can *S. pyogenes* damage the heart weeks after a sore throat has cleared?"
-    back: "Antibodies against the bacterium cross-react with heart tissue (molecular mimicry). The host causes the damage."
+    back: "Antibodies and T cells against the bacterium cross-react with heart tissue (molecular mimicry). The host causes the damage."
   - id: p8
     kind: why
     front: "What is the capsule of *S. pneumoniae* for, and why do vaccines target it?"

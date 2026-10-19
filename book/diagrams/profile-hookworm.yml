@@ -1,5 +1,6 @@
 id: profile-hookworm
 name: "Hookworms"
+roman: true
 group: "Roundworms (nematodes) · larvae through the skin · adults feed on blood"
 intro: "Two species, *Necator americanus* and *Ancylostoma duodenale*, with the same way of life. Predict two slots: ask what a worm that feeds on blood takes from its host, and who can least afford to lose it."
 

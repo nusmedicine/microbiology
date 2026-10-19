@@ -20,7 +20,7 @@ nodes:
         meaning: "*Bacillus*. Its spores germinate wherever they find water and nutrients, with or without oxygen, including in cooked food left out in air."
         next: bacillus
       - label: "No, oxygen kills it"
-        meaning: "*Clostridium* and *Clostridioides*, obligate anaerobes. Their spores germinate only where oxygen is absent: in a deep or necrotic wound, in food sealed from the air, or in the colon."
+        meaning: "*Clostridium* and *Clostridioides*, obligate anaerobes. The bacteria grow from their spores only where oxygen is absent: in a deep or necrotic wound, in food sealed from the air, or in the colon."
         next: anaerobe
   - id: bacillus
     question: "Where does it reach people from?"
@@ -50,7 +50,7 @@ nodes:
         meaning: "It grows at refrigerator temperatures, so it multiplies in chilled food. Inside cells it is out of reach of antibodies and is controlled by cell-mediated immunity, and from the blood it can cross the placenta and reach the meninges."
         next: l-monocytogenes
       - label: "Only in the human throat and skin; its toxin gene is carried by a phage"
-        meaning: "It spreads from person to person in respiratory droplets and by contact with infected skin. Only strains that carry the phage make the toxin, and a toxoid vaccine prevents the disease the toxin causes."
+        meaning: "It spreads from person to person in respiratory particles and by contact with infected skin. Only strains that carry the phage make the toxin, and a toxoid vaccine prevents the disease the toxin causes."
         next: c-diphtheriae
 
 leaves:
@@ -81,4 +81,4 @@ leaves:
   - id: c-diphtheriae
     name: "*Corynebacterium diphtheriae*"
     tag: supporting
-    blurb: "Lives only in humans and spreads in respiratory droplets and by contact with infected skin. Strains that carry a particular phage make diphtheria toxin, which kills cells in the throat, leaving a membrane of dead cells, fibrin and white cells, and damages the heart and nerves. Prevented by toxoid vaccine."
+    blurb: "Lives only in humans and spreads in respiratory particles and by contact with infected skin. Strains that carry a particular phage make diphtheria toxin, which kills cells in the throat, leaving a membrane of dead cells, fibrin and white cells, and damages the heart and nerves. Prevented by toxoid vaccine."

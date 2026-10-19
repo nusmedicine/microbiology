@@ -1,5 +1,6 @@
 id: profile-hsv
 name: "Herpes simplex viruses 1 and 2"
+roman: true
 group: "Enveloped double-stranded DNA virus · herpesvirus · latent in sensory ganglia"
 intro: "Predict two of the five slots. Most of what this virus does follows from where it hides between episodes: a sensory nerve cell."
 

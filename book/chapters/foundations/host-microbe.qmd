@@ -131,7 +131,8 @@ in the general population of similar age [@pang2018melioidosis].
 
 ### Virulence {#sec-host-opportunism}
 
-**Virulence** is the degree to which an organism can cause disease. Pathogens are commonly divided by
+**Virulence** is the capacity of an organism to cause disease, and the degree of damage it can cause.
+Pathogens are commonly divided by
 virulence into **opportunistic pathogens**, which cause disease only when the host's defences are
 impaired or when they reach a site they do not normally occupy, and **primary** (or strict)
 **pathogens**, which cause disease in people with normal defences. The two groups are the ends of a
@@ -196,7 +197,7 @@ that damage can come from the microbe, from the host's response, or from both
 | Main source of damage | Mechanism | Example |
 |---|---|---|
 | The microbe | Destruction of host cells; toxins | *Plasmodium falciparum*, the protozoan that causes malaria, destroying the red blood cells in which it multiplies |
-| The host response | Excessive inflammation; immune reactions against the host's own tissue | *S. aureus* toxic shock syndrome, in which a toxin activates a large fraction of T cells at once; rheumatic fever after *Streptococcus pyogenes* infection, in which antibodies cross-react with heart tissue |
+| The host response | Excessive inflammation; immune reactions against the host's own tissue | *S. aureus* toxic shock syndrome, in which a toxin activates a large fraction of T cells at once; rheumatic fever after *Streptococcus pyogenes* infection, in which antibodies and T cells cross-react with heart tissue |
 | Both | Microbial growth and the response to it, varying with the strength of the response | *M. tuberculosis*: spreads when the response is weak, destroys lung tissue when it is strong |
 
 If damage is plotted against the strength of the host response, different organisms give differently
@@ -217,7 +218,7 @@ strategy.
 
 | Pattern | What happens | Typical strategy | Example |
 |---|---|---|---|
-| Acute | Rapid onset and a short course | Rapid multiplication and transmission before an immune response develops | Influenza virus |
+| Acute | Rapid onset, then either clearance or death of the host | Rapid multiplication and transmission before an immune response develops | Influenza virus |
 | Latent | The organism persists silently and can reactivate | Survival inside cells, or in a site the immune response reaches poorly | *M. tuberculosis* |
 | Chronic | Infection and inflammation continue for months or years | Resistance to clearance; damage accumulates from the ongoing response | HIV |
 

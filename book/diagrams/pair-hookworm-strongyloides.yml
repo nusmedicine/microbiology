@@ -4,6 +4,7 @@ intro: "Both are roundworms whose larvae burrow through the skin from soil, and 
 
 a:
   name: "Hookworms"
+  roman: true
 b:
   name: "Strongyloides stercoralis"
 

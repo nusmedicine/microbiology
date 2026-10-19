@@ -206,7 +206,7 @@ by a thick **capsule**, a polysaccharide layer outside the cell wall that resist
 
 In most people, cell-mediated immunity contains the inhaled yeast in the lung, often without
 symptoms. The containment depends on **CD4 T cells**, lymphocytes that coordinate the immune response,
-including the activity of macrophages. When CD4 T cells are lost in advanced HIV infection (see
+including the activity of macrophages and of cytotoxic T cells. When CD4 T cells are lost in advanced HIV infection (see
 [*Viruses and the host*](../viruses/virus-host.qmd#sec-vhost-cd4)), the yeast multiplies in the lung,
 enters the blood and reaches the brain. There it causes **meningitis**, inflammation of the meninges
 (the membranes that cover the brain and spinal cord), with headache and fever that develop over days

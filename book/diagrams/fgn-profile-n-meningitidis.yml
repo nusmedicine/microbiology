@@ -18,8 +18,8 @@ slots:
           feedback: "Outside the body it dries or cools and soon dies, so it cannot persist in soil or water. The meningococcus survives only on human mucosa, in healthy carriers."
         - text: "In animals, from which people catch it"
           correct: false
-          feedback: "It lives only in humans. Each infection comes from a person, usually a carrier, in respiratory droplets and secretions during close contact."
-    entry: "Carried without symptoms in the nasopharynx of a minority of healthy people, most often adolescents and young adults. Spread in respiratory droplets and secretions during close, prolonged contact: households, dormitories, military barracks and mass gatherings such as the Hajj."
+          feedback: "It lives only in humans. Each infection comes from a person, usually a carrier, in respiratory particles and secretions during close contact."
+    entry: "Carried without symptoms in the nasopharynx of a minority of healthy people, most often adolescents and young adults. Spread in respiratory particles and secretions during close, prolonged contact: households, dormitories, military barracks and mass gatherings such as the Hajj."
   - slot: harm
     predict:
       stem: "In the blood, the bacteria multiply and shed fragments of their outer membrane. Which component of the bacterium causes the shock and the purple rash?"

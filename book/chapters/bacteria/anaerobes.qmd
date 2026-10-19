@@ -182,10 +182,11 @@ peritonitis, often fatal, which depended on *E. coli*, and later abscesses, whic
 anaerobes, *B. fragilis* among them. Purified capsule of *B. fragilis* caused abscesses on its own.
 :::
 
-*B. fragilis* also makes a **beta-lactamase**, an enzyme that breaks down beta-lactams, the family of
-drugs that block the building of the peptidoglycan wall (see [*How bacteria copy themselves and
-change*](bacterial-genetics.qmd#sec-gen-mechanisms)). It destroys the penicillins and many related
-drugs, so drugs for an infection that follows a breach of the bowel are chosen to act on it.
+*B. fragilis* also makes a **beta-lactamase**, an enzyme that breaks down beta-lactams (a family of
+drugs, named for the ring of atoms at their core, that block the building of the peptidoglycan wall)
+by opening that ring (see [*How bacteria copy themselves and change*](bacterial-genetics.qmd#sec-gen-mechanisms)). It
+destroys the penicillins and many related drugs, so drugs for an infection that follows a breach of
+the bowel are chosen to act on it.
 
 | Pattern of harm | Mechanism | Example |
 |---|---|---|

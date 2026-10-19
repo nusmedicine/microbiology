@@ -52,7 +52,7 @@ become latent.
 | How does it get energy? | It has no energy supply of its own and uses the host cell's |
 | How does it copy itself and change? | Copies its DNA in the nucleus with its own DNA polymerase; DNA viruses change slowly, so these viruses are stable |
 | Where does it live, and how does it spread? | Each human herpesvirus lives only in humans; spread by close contact with saliva, skin or genital secretions, and varicella-zoster virus also by respiratory particles; often shed without symptoms |
-| How does damage happen? | Death of infected cells, in the first infection and at reactivation; damage is greatest when **cell-mediated immunity**, the defence by T cells against infected cells, is impaired |
+| How does damage happen? | Death of infected cells, in the first infection and at reactivation; damage is greatest when **cell-mediated immunity**, the defence by T cells against infected cells and against organisms that live inside host cells, is impaired |
 | What does it have that my cells lack? | Its DNA polymerase, the target of the main antiviral drugs, which act only on replicating virus |
 
 In the nucleus, the host cell's RNA polymerase transcribes herpesvirus genes as it transcribes the
@@ -146,7 +146,7 @@ infection and at each recurrence; three rarer patterns are serious.
 | Recurrence at the same site | Reactivated virus travels back along the sensory nerve and kills epithelial cells where the nerve ends | A cold sore at the same spot on the lip after each fever |
 | Infection of the brain | The virus reaches the brain and kills nerve cells there | **Encephalitis**, inflammation of the brain: rare, but life-threatening |
 | Infection of the eye | The virus infects the cornea, and repeated episodes scar it | **Keratitis**, inflammation of the cornea, which can impair sight |
-| Infection during birth | Virus in the mother's genital tract infects the infant during delivery, and immature defences let it spread | Infection of a **neonate** (an infant in the first four weeks of life), which can reach the brain and other organs |
+| Infection during birth | Virus in the mother's genital tract infects the infant during delivery, and immature defences let it spread | Infection of a **neonate** (a newborn infant in the first four weeks of life), which can reach the brain and other organs |
 
 Three conditions let HSV cause disease:
 

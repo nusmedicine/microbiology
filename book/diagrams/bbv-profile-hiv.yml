@@ -1,5 +1,6 @@
 id: bbv-profile-hiv
 name: "HIV"
+roman: true
 group: "Enveloped RNA virus · retrovirus · spread by sexual contact, by blood and from mother to child"
 intro: "Predict two of the five slots. Most of what this virus does follows from two facts: it infects the CD4 T cells that coordinate immunity, and its DNA copy stays in their chromosomes for life."
 

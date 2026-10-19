@@ -17,11 +17,10 @@ Writing conventions and the copy-audit checklist are in [STYLE.md](STYLE.md).
   then **The bacterial world**, **The viral world**, **The fungal world** and **The parasitic world**
   (`bacteria/`, `viruses/`, `fungi/`, `parasites/`), and **Across the worlds** (`across/`). Each
   world opens with a part page (`index.qmd`) mapping its chapters and answering the six questions.
-- **Written in full:** the four foundation chapters; in the bacterial world, structure and energy,
-  genetics, detection, *A map of the bacteria* and *Gram-positive cocci* (the depth test case); in
-  the viral world, the four opening chapters and *Herpesviruses* (the first viral group chapter); all
-  five chapters of the fungal and parasitic worlds (first drafts).
-  *How bacteria cause damage* is partly written. Every other chapter is a planned outline.
+- **Written in full, as first drafts:** every chapter. The four foundation chapters; each world's
+  opening chapters and group chapters (bacterial, viral, fungal and parasitic); and *Comparing the
+  worlds*, which holds the one bank of questions that mixes the kinds of microbe. *Gram-positive
+  cocci* was the depth test case and the template for the other group chapters.
 - `book/glossary.qmd` (appendix) defines every term the chapters introduce.
 - `book/teaching-notes.qmd` (appendix) maps the current MD1140 bacteriology sessions onto this
   approach, for discussion with teaching staff.
@@ -37,8 +36,8 @@ Embed with `<div data-island="<key>" data-src="/<folder>/<file>.yml"></div>`.
 | `case` | `CasePlayer.svelte` | `cases/` | Branching MCQ case (from book-health; `label` sets the header, persona age optional) |
 | `gram-stain` | `GramStain.svelte` | `diagrams/` | Steps through the Gram stain; the decolouriser step is gated behind a prediction; "what if" errors |
 | `oxygen-tube` | `OxygenTube.svelte` | `diagrams/` | Unnamed organisms described by metabolism; predict where each grows in an oxygen gradient |
-| `contrast-pair` | `ContrastPair.svelte` | `diagrams/` | Two similar organisms side by side: find the separating feature, then sort descriptions A or B |
-| `microbe-profile` | `MicrobeProfile.svelte` | `diagrams/` | The five-slot organism card; each slot is worked or predict-first, so support can fade |
+| `contrast-pair` | `ContrastPair.svelte` | `diagrams/` | Two similar organisms, or two concepts, side by side: find the separating feature, then sort descriptions A or B. Names are italic; `roman: true` on the pair, or on `a` or `b`, sets them upright (viruses, concepts, common names) |
+| `microbe-profile` | `MicrobeProfile.svelte` | `diagrams/` | The five-slot organism card; each slot is worked or predict-first, so support can fade. The name is italic; `roman: true` sets it upright (viruses, common names) |
 | `flashcards` | `Flashcards.svelte` | `decks/` | Spaced-repetition deck (Leitner boxes, local only) with Anki export |
 | `sorting-key` | `SortingKey.svelte` | `diagrams/` | Branching identification key where each branch explains what the trait means; whole-key view |
 | `rank-order` | `RankOrder.svelte` | `diagrams/` | Predict-then-reveal ordering; optional log-scale ruler with bands |
@@ -47,7 +46,7 @@ Embed with `<div data-island="<key>" data-src="/<folder>/<file>.yml"></div>`.
 | `damage-response` | `DamageResponse.svelte` | `diagrams/` | Damage-response curves with a slider and a zone readout |
 | `epidemic-sim` | `EpidemicSim.svelte` | `diagrams/` | SIR model with R0 and vaccination sliders, crosshair readout and table view |
 | `mic-reader` | `MicReader.svelte` | `diagrams/` | Broth-dilution series: pick the MIC, then classify against breakpoints |
-| `bacteria-map` | `BacteriaMap.svelte` | `diagrams/` | Bacterial groups as trait combinations: explore and sort by trait, or name the group from its traits (`extends` + `mode: identify`) |
+| `bacteria-map` | `BacteriaMap.svelte` | `diagrams/` | Groups as trait combinations: explore and sort by trait, or name the group from its traits (`mode: identify`, in a manifest that `extends` another to reuse its data, or in a standalone one such as `virus-map-test.yml`). Drives both *A map of the bacteria* and *A map of the viruses*: `rowLabel` names the first column and `prompt` sets the explore-mode prompt (defaults: "Group" and the bacterial prompt) |
 | `body-map` | `BodyMap.svelte` | `diagrams/` | An organism's route through a schematic of the body systems (after the Year 1 systems-integration diagram). Step kinds: `lives`, `enters`, `multiplies`, `spreads`, `latent`, `reactivates`, `damages`, `defence`; `via` (`blood`, `lymph`, `nerve`, `air`, `direct`, `swallowed`) highlights the network; `arrow: false` drops the arrow where the network shows the path. Steps can ask for a prediction first (`ask`, `options`, `answer`, `why`); several routes per organism as tabs. Sites: `outside`, `ear-sinus`, `skin`, `genital`, `fetus`, `eye`, `nose-throat`, `airway`, `alveoli`, `heart`, `blood`, `liver`, `gut`, `urinary`, `brain`, `nerves`, `lymph`, `spleen`, `tissue`, `bone` |
 
 Answer options in quizzes, cases, profile and body-map predictions and the simulations are shown in

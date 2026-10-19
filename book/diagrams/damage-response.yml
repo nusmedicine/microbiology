@@ -18,11 +18,11 @@ profiles:
       balanced: "Little damage. The bacteria are walled off in granulomas, which you met in general pathology. Many people carry contained, latent infection for life."
       strong: "Damage comes from the host. An intense response causes caseous necrosis, and the necrotic tissue can liquefy and leave cavities in the lung."
   - label: "Damage when the response is strong"
-    example: "Examples: *Staphylococcus aureus* toxic shock syndrome, where a toxin over-activates T cells; rheumatic fever after *Streptococcus pyogenes* infection, where antibodies cross-react with heart tissue."
+    example: "Examples: *Staphylococcus aureus* toxic shock syndrome, where a toxin over-activates T cells; rheumatic fever after *Streptococcus pyogenes* infection, where antibodies and T cells cross-react with heart tissue."
     points: [[0, 0.08], [0.4, 0.12], [0.6, 0.3], [0.8, 0.7], [1, 0.95]]
     zones:
       weak: "Little damage. With a weak response there is little of the inflammation that drives disease in this pattern."
       balanced: "Limited damage. A proportionate response clears the microbe with modest inflammation."
-      strong: "Damage comes from the host. The response, not the microbe, does most of the harm: cytokine release in toxic shock, cross-reacting antibodies in rheumatic fever."
+      strong: "Damage comes from the host. The response, not the microbe, does most of the harm: cytokine release in toxic shock, cross-reacting antibodies and T cells in rheumatic fever."
 
 note: "Schematic curves, after the damage-response framework of Casadevall and Pirofski. Real organisms vary between strains and hosts."

@@ -21,7 +21,7 @@ rows:
     b: "Urethra, cervix, rectum and throat"
     separates: true
   - feature: "Route"
-    a: "Respiratory droplets and secretions, in close contact"
+    a: "Respiratory particles and secretions, in close contact"
     b: "Sexual contact; to the infant's eyes during birth"
     separates: true
   - feature: "Polysaccharide capsule"
@@ -50,7 +50,7 @@ question:
 principle: >
   Where a bacterium lives decides how it spreads, and what protects it decides how far into the body
   it can go. Both species die quickly outside the body, so both pass only by close contact: the
-  meningococcus from the nasopharynx in respiratory droplets, the gonococcus from the genital tract in
+  meningococcus from the nasopharynx in respiratory particles, the gonococcus from the genital tract in
   sex. The capsule lets the meningococcus survive in the blood, and because antibodies against the
   capsule protect, conjugate vaccines prevent most of its disease. The gonococcus has no capsule and
   keeps changing its surface proteins, so infection leaves no lasting immunity and no vaccine reliably

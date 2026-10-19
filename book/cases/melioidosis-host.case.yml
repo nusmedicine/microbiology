@@ -42,7 +42,7 @@ nodes:
         effects: { quality: +1 }
         goto: q-why-him
       - id: b
-        text: "Another person, through respiratory droplets"
+        text: "Another person, through respiratory particles"
         correct: false
         feedback: "Spread between people is very rare. The reservoir is soil and surface water, and the cuts on his hands gave it a way in."
         goto: q-why-him
@@ -80,18 +80,18 @@ nodes:
       - id: a
         text: "The same traits help it survive soil amoebae, which engulf bacteria much as phagocytes do"
         correct: true
-        feedback: "Virulence can evolve in the environment. Traits selected by soil predators happen to work against human phagocytes too, which makes it an accidental pathogen."
+        feedback: "Virulence can evolve in the environment. Traits that protect it from soil predators are thought to have been selected there, and they happen to work against human phagocytes too, which makes it an accidental pathogen."
         effects: { quality: +1 }
         goto: q-control
       - id: b
         text: "It evolved them in order to infect humans"
         correct: false
-        feedback: "Evolution has no goals, and humans are a dead end for this organism, since it rarely passes between people. Its traits were selected in the soil, by predators such as amoebae."
+        feedback: "Evolution has no goals, and humans are a dead end for this organism, since it rarely passes between people. Its traits are thought to have been selected in the soil, by predators such as amoebae."
         goto: q-control
       - id: c
         text: "It acquired them from Mr Lee's diabetes"
         correct: false
-        feedback: "Diabetes is a host factor; it changes the host, not the bacterium. The bacterium's traits were selected in the soil, by predators such as amoebae."
+        feedback: "Diabetes is a host factor; it changes the host, not the bacterium. The bacterium's traits are thought to have been selected in the soil, by predators such as amoebae."
         goto: q-control
 
   - id: q-control
@@ -128,7 +128,8 @@ nodes:
     body: |
       Three ideas carry the case. The reservoir is the environment: wet soil and surface water. The
       route was broken skin. The difference between the two men was a host factor: poorly controlled
-      diabetes. The organism's ability to survive phagocytes was selected by soil amoebae, not by humans.
+      diabetes. The organism's ability to survive phagocytes did not arise in humans; it is thought to
+      have been selected in the soil, by amoebae.
       Replay and follow the chain from soil to bloodstream.
     next: end-partial
 
@@ -146,7 +147,7 @@ nodes:
       keyPoints:
         - "An exposure history identifies the reservoir and the portal of entry."
         - "Host factors such as diabetes decide who becomes ill after the same exposure."
-        - "Virulence can be selected in the environment, for example by soil amoebae."
+        - "Virulence can be selected in the environment: soil amoebae are thought to have selected the traits that let this bacterium survive phagocytes."
 
   - id: end-partial
     type: end

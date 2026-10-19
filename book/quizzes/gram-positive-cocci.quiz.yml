@@ -28,15 +28,15 @@ questions:
   - id: g3
     stem: "Weeks after a sore throat, a child develops inflammation of the heart. No bacteria are found there. What is the most likely mechanism?"
     options:
-      - text: "Antibodies made against *S. pyogenes* cross-react with the child's own heart tissue"
+      - text: "Antibodies and T cells made against *S. pyogenes* cross-react with the child's own heart tissue"
         correct: true
-        feedback: "Molecular mimicry: the infection is gone, and the host's antibodies do the damage."
+        feedback: "Molecular mimicry: the infection is gone, and the host's antibodies and T cells do the damage."
       - text: "*S. pyogenes* is hiding in the heart"
         correct: false
-        feedback: "No bacteria are found there. Antibodies against the bacterium recognise similar molecules in heart tissue."
+        feedback: "No bacteria are found there. Antibodies and T cells against the bacterium recognise similar molecules in heart tissue."
       - text: "A toxin left over from the sore throat"
         correct: false
-        feedback: "Toxins act during infection. Weeks later, the damage comes from cross-reacting antibodies."
+        feedback: "Toxins act during infection. Weeks later, the damage comes from cross-reacting antibodies and T cells."
   - id: g4
     stem: "Why are pneumococcal vaccines made from capsule material?"
     options:
@@ -117,10 +117,10 @@ questions:
     options:
       - text: "*Streptococcus pyogenes*"
         correct: true
-        feedback: "Two clues point to it: a throat infection weeks earlier, and heart damage with no bacteria present. Antibodies made against *S. pyogenes* cross-react with heart tissue (molecular mimicry), so the damage appears after the infection has cleared."
+        feedback: "Two clues point to it: a throat infection weeks earlier, and heart damage with no bacteria present. Antibodies and T cells made against *S. pyogenes* cross-react with heart tissue (molecular mimicry), so the damage appears after the infection has cleared."
       - text: "*Staphylococcus aureus*"
         correct: false
-        feedback: "Its toxins act while the bacteria or the toxin are present: within hours in food poisoning, or during toxic shock. Damage that begins weeks after a cleared sore throat, with no bacteria found, points to cross-reacting antibodies after *S. pyogenes*."
+        feedback: "Its toxins act while the bacteria or the toxin are present: within hours in food poisoning, or during toxic shock. Damage that begins weeks after a cleared sore throat, with no bacteria found, points to cross-reacting antibodies and T cells after *S. pyogenes*."
       - text: "*Streptococcus pneumoniae*"
         correct: false
         feedback: "This organism causes disease where it multiplies, such as the middle ear, lung or blood, and causes no immune disease weeks later. The delay and the absence of bacteria point to *S. pyogenes*."

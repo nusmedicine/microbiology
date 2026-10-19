@@ -1,5 +1,6 @@
 id: arbo-profile-zika
 name: "Zika virus"
+roman: true
 group: "Enveloped positive-sense RNA virus · flavivirus · carried by mosquitoes, and also spread by sex"
 intro: "Predict two of the five slots. Most of what this virus does follows from where it can go: across the placenta, and into semen."
 

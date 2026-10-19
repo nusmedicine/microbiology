@@ -7,7 +7,7 @@ routes:
     steps:
       - at: nose-throat
         kind: lives
-        text: "Lives in the nasopharynx and spreads to close contacts in respiratory droplets. Where infants are vaccinated, few people carry type b strains."
+        text: "Lives in the nasopharynx and spreads to close contacts in respiratory particles. Where infants are vaccinated, few people carry type b strains."
       - at: blood
         kind: spreads
         via: blood

@@ -52,9 +52,9 @@ form spores, how they handle oxygen and whether they live inside host cells.
 | What is it built from? | A thick peptidoglycan wall without the Gram-negative outer membrane, so no LPS; *Bacillus*, *Clostridium* and *Clostridioides* can form spores |
 | How does it get energy, and what does it need to grow? | *Bacillus*, *Listeria* and *Corynebacterium* grow in air; *Clostridium* and *Clostridioides* are **obligate anaerobes**, poisoned by oxygen and growing only where it is absent; *Listeria* grows even at refrigerator temperatures |
 | How does it copy itself and change? | Binary fission; a spore is a resting form, one per cell, and not a way of multiplying; some toxin genes are carried by a **bacteriophage** (phage), a virus that infects bacteria, so only the strains that carry the phage make the toxin (see [*How bacteria copy themselves and change*](bacterial-genetics.qmd#sec-gen-phage)) |
-| Where does it live, and how does it spread? | The spore-formers in soil and dust and in the gut of humans and animals, reaching people through wounds and in food; *Listeria* in soil, animals and chilled food; *Corynebacterium diphtheriae* only in humans, in the throat and on the skin, spread by respiratory droplets and by contact with infected skin. Most members do not pass from person to person |
+| Where does it live, and how does it spread? | The spore-formers in soil and dust and in the gut of humans and animals, reaching people through wounds and in food; *Listeria* in soil, animals and chilled food; *Corynebacterium diphtheriae* only in humans, in the throat and on the skin, spread by respiratory particles and by contact with infected skin. Most members do not pass from person to person |
 | How does damage happen? | Mainly through protein toxins, several of which each explain a whole disease; *Listeria* by invading cells and multiplying inside them |
-| What does it have that my cells lack? | A peptidoglycan wall and the proteins that build it, the targets of the **beta-lactams**, a family of drugs that block the building of the peptidoglycan wall; killing the bacteria does not remove toxin already made |
+| What does it have that my cells lack? | A peptidoglycan wall and the proteins that build it, the targets of the **beta-lactams**, a family of drugs, named for the ring of atoms at their core, that block the building of the peptidoglycan wall and include the penicillins, the cephalosporins and the carbapenems; killing the bacteria does not remove toxin already made |
 
 A spore survives boiling, drying, alcohol hand rub and most disinfectants, and can persist in soil and
 dust for years. Steam under pressure in an autoclave kills spores reliably; on surfaces, only a few
@@ -127,9 +127,9 @@ Each sorting trait predicts where the organism comes from and how it reaches the
 |---|---|---|
 | Forms spores | *Bacillus*, *Clostridium*, *Clostridioides* | Survives boiling, drying, alcohol hand rub and most disinfectants, and persists for years in soil and dust; infection begins when spores reach a wound, a food or the gut, usually from the environment |
 | Forms spores and grows in air | *Bacillus* | Spores germinate in food left out in air, such as cooked rice kept warm |
-| Forms spores and is killed by oxygen | *Clostridium*, *Clostridioides* | Spores germinate only where oxygen is absent: in a deep or necrotic wound, in food sealed from the air, or in the colon |
+| Forms spores and is killed by oxygen | *Clostridium*, *Clostridioides* | The bacteria grow from the spores only where oxygen is absent: in a deep or necrotic wound, in food sealed from the air, or in the colon |
 | Forms no spores; lives inside cells; grows in the cold | *L. monocytogenes* | Multiplies in chilled food; is controlled by cell-mediated immunity; can cross from the blood into the placenta and the brain |
-| Forms no spores; lives only in humans | *Corynebacterium diphtheriae* | Spreads from person to person in respiratory droplets and by contact with infected skin; vaccination against its toxin prevents the disease |
+| Forms no spores; lives only in humans | *Corynebacterium diphtheriae* | Spreads from person to person in respiratory particles and by contact with infected skin; vaccination against its toxin prevents the disease |
 
 Work through the key from spores, and read at each branch what the trait predicts about the organism.
 

@@ -17,7 +17,7 @@ questions:
         correct: false
         feedback: "*Legionella* causes pneumonia after aerosols of contaminated water are inhaled. It does not cause a spreading purple rash and shock within hours."
   - id: fn2
-    stem: "In the student in question 1, which component of the bacterium does most to cause the low blood pressure and the purple spots?"
+    stem: "A 19-year-old student has sepsis caused by *Neisseria meningitidis*. His blood pressure is low, and purple spots that do not fade when pressed are spreading over his legs. Which component of the bacterium does most to cause the low blood pressure and the purple spots?"
     options:
       - text: "Endotoxin in the outer membrane"
         correct: true
@@ -32,7 +32,7 @@ questions:
         correct: false
         feedback: "Exotoxins are secreted proteins, each with a specific target. The shock and purpura come from endotoxin, part of the outer membrane, which the bacteria shed as they multiply and die."
   - id: fn3
-    stem: "The student's roommates are well, but they are given antibiotics. What is the main purpose?"
+    stem: "A university student is admitted with meningococcal sepsis. His roommates are well, but they are given antibiotics. What is the main purpose?"
     options:
       - text: "To clear the bacteria from their nasopharynx, in case they have acquired carriage of the same strain"
         correct: true
@@ -42,7 +42,7 @@ questions:
         feedback: "Meningococcal disease does not progress silently for long: it follows within days of acquiring the strain and then worsens within hours. The antibiotics are aimed at carriage in the nasopharynx."
       - text: "Because the bacteria survive for weeks on surfaces in the room"
         correct: false
-        feedback: "The meningococcus dies quickly outside the body, so surfaces matter little. It passes between people in respiratory droplets and secretions, which is why close contacts are treated."
+        feedback: "The meningococcus dies quickly outside the body, so surfaces matter little. It passes between people in respiratory particles and secretions, which is why close contacts are treated."
   - id: fn4
     stem: "A 24-year-old man has had pus dripping from his urethra and pain on passing urine for two days. He had unprotected sex five days ago. A Gram stain of the pus shows Gram-negative diplococci inside neutrophils. Of these bacteria, which is the most likely cause?"
     options:
@@ -93,7 +93,7 @@ questions:
         feedback: "Ophthalmia neonatorum a few days after birth, in the infant of a mother with silent infection, points to the gonococcus. Secretions from the infected cervix reach the infant's conjunctiva during birth, and untreated infection can damage the cornea."
       - text: "*Haemophilus influenzae*"
         correct: false
-        feedback: "*H. influenzae* lives in the nasopharynx and spreads in respiratory droplets. Pus from both eyes a few days after birth, in the infant of a mother with silent infection, points to a bacterium of the birth canal: *N. gonorrhoeae*."
+        feedback: "*H. influenzae* lives in the nasopharynx and spreads in respiratory particles. Pus from both eyes a few days after birth, in the infant of a mother with silent infection, points to a bacterium of the birth canal: *N. gonorrhoeae*."
       - text: "*Neisseria meningitidis*"
         correct: false
         feedback: "The meningococcus lives in the nasopharynx and causes meningitis and sepsis, not infection of the eyes at birth."

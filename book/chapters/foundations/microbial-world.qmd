@@ -184,7 +184,7 @@ anchor organisms:
 | *Burkholderia pseudomallei* | Bacterium | A bacterium of soil and surface water; the cause of melioidosis |
 | Influenza virus | Virus | An enveloped RNA virus that infects the cells lining the airway |
 | Human immunodeficiency virus (HIV) | Virus | An enveloped RNA virus that infects cells of the immune system; the cause of AIDS |
-| *Candida albicans* | Fungus | A yeast that lives harmlessly on the skin and in the gut and vagina of most people |
+| *Candida albicans* | Fungus | A yeast that lives harmlessly in the mouth and gut of most people, and the vagina of many women |
 | *Plasmodium falciparum* | Protozoan | A single-celled parasite, carried by mosquitoes, that lives in human liver and red blood cells; the most dangerous cause of malaria |
 | *Ascaris lumbricoides* | Helminth | A roundworm that lives in the human intestine; its eggs are swallowed from soil |
 
@@ -206,7 +206,7 @@ The answers differ sharply between kinds of agent:
 | Built from | Prokaryotic cell with a peptidoglycan wall | RNA genome, protein coat, lipid envelope | Eukaryotic cell with a chitin and glucan wall | Eukaryotic cell, no wall | Multicellular animal |
 | Energy | Its own metabolism | None of its own; uses the host cell's | Its own metabolism | Its own metabolism, using host nutrients | Its own metabolism, feeding on gut contents |
 | Copying | Binary fission; exchanges genes | Copied inside host cells; genome segments reshuffle | Budding | Asexual cycles in humans, sexual stage in the mosquito | Sexual reproduction; eggs |
-| Home and spread | Nose and skin; contact | Airway; respiratory particles | Skin, gut, vagina | Human liver and red cells; mosquito bite | Human intestine; eggs swallowed from soil |
+| Home and spread | Nose and skin; contact | Airway; respiratory particles | Mouth, gut, vagina | Human liver and red cells; mosquito bite | Human intestine; eggs swallowed from soil |
 | Damage | Invasion and toxins | Destroys airway cells; host inflammation | Overgrowth when defences fall | Destroys red cells; blocks small vessels | Heavy burdens obstruct the gut and impair nutrition |
 | Unlike my cells | Peptidoglycan wall; 70S ribosomes | Viral enzymes for copying its genome | Ergosterol in its membrane; chitin and glucan wall | Its own folate synthesis (human cells take folate from the diet) | Worm-specific nerve and muscle ion channels |
 

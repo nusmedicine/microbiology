@@ -57,8 +57,7 @@ Answers are saved only in the reader's own browser. Nothing is sent anywhere, an
 
 ::: {.callout-warning}
 ## Draft
-This is a pilot. The foundation chapters are complete. In the bacterial world, the chapters on
-structure, genetics and detection, *A map of the bacteria* and *Gram-positive cocci* are written in
-full; the other chapters show their planned content. All content is awaiting review by
-teaching staff, and notes for teaching staff are in the appendix.
+This is a pilot. Every chapter is written as a first draft, from the foundations through the
+bacterial, viral, fungal and parasitic worlds to *Comparing the worlds*. All content is awaiting
+review by teaching staff, and notes for teaching staff are in the appendix.
 :::

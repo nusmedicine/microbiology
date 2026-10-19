@@ -19,7 +19,7 @@ slots:
           feedback: "It grows well on blood agar. The clear zone is red cells burst by its toxins."
     entry: "Gram-positive coccus in chains; catalase-negative; ferments only. Beta-haemolytic because of streptolysins. Its surface **M protein** resists phagocytosis and comes in many types."
   - slot: lifestyle
-    entry: "Lives on the throat and skin of humans only. Spreads by droplets and close contact."
+    entry: "Lives on the throat and skin of humans only. Spreads in respiratory particles and by close contact."
   - slot: harm
     predict:
       stem: "It releases enzymes that dissolve clots, DNA and the gel between cells. What does that allow?"
@@ -38,15 +38,15 @@ slots:
     predict:
       stem: "Weeks after a sore throat has cleared, some people develop inflammation of the heart. What is the most likely mechanism?"
       options:
-        - text: "Antibodies against the bacterium cross-react with the person's own tissue"
+        - text: "Antibodies and T cells against the bacterium cross-react with the person's own tissue"
           correct: true
-          feedback: "Antibodies made against parts of the bacterium also recognise similar molecules in the heart. This is molecular mimicry: the bacteria are gone, and the host does the damage."
+          feedback: "Antibodies and T cells made against parts of the bacterium also recognise similar molecules in the heart. This is molecular mimicry: the bacteria are gone, and the host does the damage."
         - text: "Bacteria left behind in the heart are still multiplying"
           correct: false
-          feedback: "The infection has cleared. The damage comes from the immune response: antibodies against the bacterium cross-react with heart tissue."
+          feedback: "The infection has cleared. The damage comes from the immune response: antibodies and T cells against the bacterium cross-react with heart tissue."
         - text: "Toxin stored in the heart is slowly released"
           correct: false
-          feedback: "Toxins act during infection. Weeks later, the damage comes from antibodies that cross-react with the person's own tissue."
-    entry: "Infection of the throat (pharyngitis) or spreading infection of the skin (cellulitis); toxin-mediated illness; and, weeks later, post-infectious immune disease such as rheumatic fever. The last is a damage-response lesson: the host causes the damage."
+          feedback: "Toxins act during infection. Weeks later, the damage comes from antibodies and T cells that cross-react with the person's own tissue."
+    entry: "Inflammation of the throat from infection (pharyngitis) or spreading infection of the skin (cellulitis); toxin-mediated illness; and, weeks later, post-infectious immune disease such as rheumatic fever. The last is a damage-response lesson: the host causes the damage."
   - slot: contrast
     entry: "*S. pneumoniae*: also a streptococcus, but alpha-haemolytic, in lancet-shaped pairs, defended mainly by its capsule rather than by enzymes and toxins."

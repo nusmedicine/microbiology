@@ -51,7 +51,7 @@ intracellular** bacteria grow only inside them.
 ::: {.spectrum}
 [Where bacteria grow relative to host cells]{.tree-title}
 
-- Extracellular: outside cells, such as Enterobacterales
+- Extracellular: outside cells, such as most Enterobacterales
 - Facultative intracellular: inside or outside cells, such as mycobacteria
 - Obligate intracellular: only inside cells, such as *Chlamydia*
 
@@ -119,14 +119,15 @@ respiratory secretions and *N. gonorrhoeae* by sexual contact.
 
 ### Why "atypical"? {#sec-map-atypicals}
 
-In this course, the **atypical** bacteria are three genera, *Mycoplasma*, *Chlamydia* and
-*Rickettsia*, from different branches of the bacterial tree, grouped because routine stains and
-culture fail on them. Clinicians use the related term "atypical pneumonia" for an overlapping list of
-causes that includes *Mycoplasma pneumoniae*, *Chlamydia pneumoniae* and *Legionella*.
+In this course, the **atypical** bacteria are *Mycoplasma*, *Chlamydia*, and *Rickettsia* with its
+close relative *Orientia*: genera from three different branches of the bacterial tree, grouped because
+routine stains and culture fail on them. Clinicians use the related term "atypical pneumonia" for an
+overlapping list of causes that includes *Mycoplasma pneumoniae*, *Chlamydia pneumoniae* and
+*Legionella*.
 
-Routine methods fail for two reasons: *Mycoplasma* has no wall, and *Chlamydia* and *Rickettsia* grow
-only inside host cells. Each reason predicts how the organism is detected and which drugs can reach
-it.
+Routine methods fail for two reasons: *Mycoplasma* has no wall, and *Chlamydia*, *Rickettsia* and
+*Orientia* grow only inside host cells. Each reason predicts how the organism is detected and which
+drugs can reach it.
 
 | | *Mycoplasma* | *Chlamydia* | *Rickettsia* |
 |---|---|---|---|
@@ -154,8 +155,8 @@ stains and cultures miss them, so laboratories usually detect them by their nucl
 :::
 
 Much of how these infections are diagnosed and treated follows from the missing wall or the life
-inside cells: drugs that act on the wall cannot treat *Mycoplasma*, and drugs for *Chlamydia* and
-*Rickettsia* must enter host cells.
+inside cells: drugs that act on the wall cannot treat *Mycoplasma*, and drugs for *Chlamydia*,
+*Rickettsia* and *Orientia* must enter host cells.
 
 ## Using the map {#sec-map-use}
 

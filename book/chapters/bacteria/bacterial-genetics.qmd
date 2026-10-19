@@ -130,7 +130,8 @@ that can cut or copy themselves into a new position, for example from the chromo
 which can then carry them to another cell. Over time, plasmids and transposons collect several
 resistance genes together, so a single transfer can confer resistance to several drugs.
 
-Gene transfer also moves genes for **virulence**, the capacity to cause disease. Clusters of
+Gene transfer also moves genes for **virulence**, the capacity of an organism to cause disease and
+the degree of damage it can cause. Clusters of
 virulence genes acquired together in this way are called **pathogenicity islands**.
 
 ::: {.example}

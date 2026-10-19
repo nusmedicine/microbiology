@@ -4,6 +4,8 @@ intro: >
   Each row is a virus named in the group chapters of the viral world, and each column is one of its
   traits. Click a virus to see how its traits fit together, or click a column heading to line the
   viruses up by that trait.
+rowLabel: "Virus"
+prompt: "Click a virus name to see how its traits fit together."
 
 traits:
   - key: genome

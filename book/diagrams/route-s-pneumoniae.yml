@@ -7,7 +7,7 @@ routes:
     steps:
       - at: nose-throat
         kind: lives
-        text: "Lives harmlessly in the nasopharynx of many healthy young children, and spreads to others in respiratory droplets."
+        text: "Lives harmlessly in the nasopharynx of many healthy young children, and spreads to others in respiratory particles."
       - at: [ear-sinus, alveoli]
         kind: damages
         via: air

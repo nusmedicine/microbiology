@@ -12,7 +12,7 @@
   - [Detecting bacteria and testing susceptibility](detecting-bacteria.qmd)
 - The groups
   - [A map of the bacteria](bacteria-map.qmd)
-  - [Gram-positive cocci](gram-positive-cocci.qmd), [Gram-positive rods](gram-positive-rods.qmd), [Enterobacterales](enterobacterales.qmd), [Environmental Gram-negatives](environmental-gram-negatives.qmd), [Fastidious Gram-negatives](fastidious-gram-negatives.qmd), [Anaerobes](anaerobes.qmd), [Spiral bacteria](spiral-bacteria.qmd), [Atypicals and mycobacteria](atypicals-mycobacteria.qmd)
+  - [Gram-positive cocci](gram-positive-cocci.qmd), [Gram-positive rods](gram-positive-rods.qmd), [Enterobacterales](enterobacterales.qmd), [Environmental Gram-negatives: pseudomonads, vibrios and *Burkholderia*](environmental-gram-negatives.qmd), [Fastidious Gram-negatives and Gram-negative cocci](fastidious-gram-negatives.qmd), [Anaerobes](anaerobes.qmd), [Spiral bacteria](spiral-bacteria.qmd), [Atypicals and mycobacteria](atypicals-mycobacteria.qmd)
 :::
 
 ## The six questions, answered for this part {.unnumbered}

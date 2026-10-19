@@ -86,7 +86,8 @@ groups:
     logic: >
       Gram-negative rods that ferment sugars and cope with or without oxygen: exactly what life in the gut
       requires. Their outer membrane carries LPS, so they trigger strong inflammation when they reach the
-      blood. Most are harmless residents; the harmful ones usually carry extra genes.
+      blood. Most are harmless residents; the harmful ones usually carry extra genes. Most grow outside
+      cells, but *Salmonella* and *Shigella* invade host cells and multiply inside them.
   - id: env
     name: "Pseudomonads, vibrios and Burkholderia"
     examples: "*Pseudomonas aeruginosa*, *Vibrio cholerae*, *Burkholderia pseudomallei*"
@@ -102,13 +103,13 @@ groups:
       that lives in salty and brackish water. Environmental life has made them hardy and naturally resistant to many chemicals.
   - id: fastidious
     name: "Fastidious Gram-negatives"
-    examples: "*Haemophilus*, *Bordetella*, *Legionella*, *Brucella*"
+    examples: "*Haemophilus*, *Bordetella*, *Legionella*, the HACEK group"
     envelope: neg
     shape: coccobacilli
     oxygen: mixed
     lifestyle: both
     culture: enriched
-    home: "The human airway, animals, or water (Legionella)"
+    home: "The human airway and mouth, or water (Legionella)"
     logic: >
       "Fastidious" means fussy about food. These bacteria have lost genes for making some nutrients, so
       they need them supplied, by a host in nature or by enriched media in the lab. *Haemophilus* needs two
@@ -128,44 +129,47 @@ groups:
       the meningococcus in the blood.
   - id: anaerobes
     name: "Anaerobes"
-    examples: "*Bacteroides*, *Fusobacterium*, *Prevotella*, *Clostridium*"
+    examples: "*Bacteroides*, *Fusobacterium*, *Prevotella*, *Clostridium*, *Cutibacterium*"
     envelope: neg
     shape: rods
     oxygen: anaerobe
     lifestyle: outside
     culture: enriched
-    home: "Colon, mouth, vagina: the body's oxygen-poor places"
+    home: "Colon, mouth, vagina and the hair follicles of the skin: the body's oxygen-poor places"
     logic: >
       Grouped by one trait, not by family: oxygen poisons them. They dominate the oxygen-poor parts of the
       body and cause harm where tissue loses its blood supply, often several species together, producing
-      abscesses. Samples must be kept away from air. (Clostridium is the Gram-positive exception.)
+      abscesses. Samples must be kept away from air. (The envelope shown is that of the Gram-negative
+      rods; *Clostridium* and *Cutibacterium* are Gram-positive rods.)
   - id: spiral
     name: "Spiral bacteria"
     examples: "*Treponema*, *Borrelia*, *Leptospira*; curved *Campylobacter* and *Helicobacter*"
     envelope: thin
     shape: spiral
-    oxygen: micro
+    oxygen: mixed
     lifestyle: outside
     culture: hard
     home: "Humans (Treponema), ticks (Borrelia), rats and flood water (Leptospira)"
     logic: >
       Spirochaetes are long, thin corkscrews with their flagella inside the envelope, so they twist
       through tissue and gel like a drill. Too thin to see on a Gram stain, and some, such as *Treponema*,
-      cannot be grown on ordinary laboratory media. The curved gut bacteria prefer low oxygen.
+      cannot be grown on ordinary laboratory media. Oxygen needs vary: *Leptospira* needs oxygen, and the
+      curved gut bacteria need it at low levels.
   - id: atypical
     name: "Atypicals"
-    examples: "*Mycoplasma*, *Chlamydia*, *Rickettsia*"
+    examples: "*Mycoplasma*, *Chlamydia*, *Rickettsia*, *Orientia*"
     envelope: none
     shape: variable
     oxygen: mixed
     lifestyle: inside
     culture: cells
-    home: "Humans; ticks, lice and fleas carry Rickettsia"
+    home: "Humans; ticks, lice and fleas carry Rickettsia, and mite larvae carry Orientia"
     logic: >
-      Grouped because the usual toolkit fails on them. *Mycoplasma* has no wall at all. *Chlamydia* and
-      *Rickettsia* can only grow inside living cells. None shows up well on a Gram stain and none grows on
-      ordinary agar. Drugs that attack wall-building have nothing to act on in *Mycoplasma*. (Envelope and growth shown
-      here are the group's defining extremes; the worked example below separates the three.)
+      Grouped because the usual toolkit fails on them. *Mycoplasma* has no wall at all. *Chlamydia*,
+      *Rickettsia* and its relative *Orientia* can only grow inside living cells. None shows up well on a
+      Gram stain and none grows on ordinary agar. Drugs that attack wall-building have nothing to act on
+      in *Mycoplasma*. (The envelope, where it grows and lab growth shown are the group's defining
+      extremes: *Mycoplasma* has no wall, and the other members grow only inside living cells.)
   - id: myco
     name: "Mycobacteria"
     examples: "*Mycobacterium tuberculosis*, *M. leprae*, non-tuberculous mycobacteria"

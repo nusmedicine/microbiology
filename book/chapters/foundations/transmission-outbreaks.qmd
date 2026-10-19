@@ -110,7 +110,8 @@ carrying the bacterium *Wolbachia* ([*The microbial world*](microbial-world.qmd#
 The description of the respiratory route changed during the COVID-19 pandemic. Exhaled particles span
 a continuous range of sizes. The older teaching split them into **droplet** transmission, by particles
 larger than about 5 µm that fall within a metre or two, and **airborne** transmission, by smaller
-particles that stay suspended and can accumulate in poorly ventilated rooms. That fixed cut-off is now
+particles that stay suspended in air, can travel beyond a metre or two and can accumulate in poorly
+ventilated rooms. That fixed cut-off is now
 recognised as too rigid [@wang2021airborne]. Control therefore combines distance with ventilation and
 shorter exposure.
 

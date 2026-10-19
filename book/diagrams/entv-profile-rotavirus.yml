@@ -1,5 +1,6 @@
 id: entv-profile-rotavirus
 name: "Rotavirus"
+roman: true
 group: "Non-enveloped double-stranded RNA virus · faecal–oral route · infects the small intestine"
 intro: "Predict two of the five slots. Most of what this virus does follows from where it multiplies, the tips of the villi, and from what a first infection leaves behind."
 

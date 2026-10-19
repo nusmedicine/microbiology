@@ -139,9 +139,10 @@ that bind red blood cells below body temperature, and in a few these cause **hae
 of red blood cells; some patients develop a rash or mouth ulcers.
 
 ::: {.example}
-**Beta-lactams**, the family of drugs that block the building of the peptidoglycan wall, are a
-common first choice for pneumonia because the commonest bacterial causes have a wall; in pneumonia
-caused by *M. pneumoniae* they have nothing to act on.
+**Beta-lactams** are a family of drugs, named for the ring of atoms at their core, that block the
+building of the peptidoglycan wall; the family includes the penicillins, the cephalosporins and the
+carbapenems. They are a common first choice for pneumonia because the commonest bacterial causes have
+a wall; in pneumonia caused by *M. pneumoniae* they have nothing to act on.
 :::
 
 *M. pneumoniae* harms the airway and lung in two ways:
@@ -188,9 +189,8 @@ eyelids. *C. trachomatis* is the most common bacterial sexually transmitted infe
 infections in women, and many in men, cause no symptoms, so an infected person can carry the
 bacterium for months and pass it to sexual partners without knowing.
 
-In women, infection can spread up from the cervix to the uterus and the fallopian tubes, causing
-**pelvic inflammatory disease**, infection and inflammation of the uterus, fallopian tubes and nearby
-pelvic structures. The bacterium kills the cells it infects as its elementary bodies are released,
+In women, infection can cause **pelvic inflammatory disease**, infection and inflammation of the
+uterus, fallopian tubes and nearby pelvic structures, usually spread up from the cervix. The bacterium kills the cells it infects as its elementary bodies are released,
 but most of the lasting harm comes from the inflammation it provokes, which heals by scarring. Scarred, narrowed fallopian tubes can cause infertility, or an **ectopic
 pregnancy**, a pregnancy that implants outside the uterus, most often in a fallopian tube. Immunity
 after an infection is partial, so repeated infections are common, and each adds to the scarring.

@@ -22,7 +22,7 @@ cards:
   - id: anc5
     kind: why
     front: "Why are the penicillins and many related drugs unreliable against *B. fragilis*?"
-    back: "It makes a beta-lactamase, an enzyme that breaks down beta-lactam drugs. Drugs for infections that follow a breach of the bowel are chosen to act on it."
+    back: "It makes a beta-lactamase, an enzyme that breaks down beta-lactam drugs by opening the ring at their core. Drugs for infections that follow a breach of the bowel are chosen to act on it."
   - id: anc6
     kind: how
     front: "How does *Clostridium perfringens* cause gas gangrene?"

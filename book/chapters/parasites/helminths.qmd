@@ -54,7 +54,7 @@ by which they enter the body.
 | How does it get energy? | Its own metabolism, using nutrients it takes from the host: intestinal contents, blood or tissue |
 | How does it copy itself and change? | Adults produce eggs or larvae, which leave the host; with few exceptions the worms do not multiply inside the human host, so each adult comes from one egg or larva that entered |
 | Where does it live, and how does it spread? | Adults live mostly in the intestine, some in blood vessels or tissues; eggs or larvae leave in the faeces, or in urine, and most must develop in soil, in water or in another animal before they can infect; they enter by being swallowed or through the skin |
-| How does damage happen? | In proportion to the number of worms: blockage of the intestine or a duct, loss of blood and nutrients, and inflammation where larvae or eggs lodge in tissue, much of it from the host's response |
+| How does damage happen? | Mostly in proportion to the number of worms: blockage of the intestine or a duct, and loss of blood and nutrients; larvae or eggs that lodge in tissue cause inflammation, and much of that harm comes from the host's response |
 | What does it have that my cells lack? | Worm-specific nerve and muscle ion channels, which drugs act on to paralyse the worm, so that intestinal worms are expelled; and worm tubulin, which other drugs bind |
 
 Many helminths spend part of their life cycle outside the human body, and the cycle sets where each

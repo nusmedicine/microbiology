@@ -26,7 +26,7 @@ cards:
   - id: hm6
     kind: why
     front: "Give two examples where the host response causes most of the damage."
-    back: "*S. aureus* toxic shock syndrome: a toxin activates a large fraction of T cells, and the cytokines cause shock. Rheumatic fever: antibodies against *S. pyogenes* cross-react with heart tissue after the infection has cleared."
+    back: "*S. aureus* toxic shock syndrome: a toxin activates a large fraction of T cells, and the cytokines cause shock. Rheumatic fever: antibodies and T cells against *S. pyogenes* cross-react with heart tissue after the infection has cleared."
   - id: hm7
     kind: how
     front: "What are the steps a microbe must complete to cause infection?"

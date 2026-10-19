@@ -1,5 +1,6 @@
 id: resp-profile-influenza
 name: "Influenza virus"
+roman: true
 group: "Enveloped negative-sense RNA virus · eight genome segments · infects the airway epithelium"
 intro: "You met this virus as an anchor in the viral principles chapters. This card goes one level deeper: predict what can follow the infection, and why the virus returns."
 

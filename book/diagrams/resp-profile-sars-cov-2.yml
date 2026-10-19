@@ -1,5 +1,6 @@
 id: resp-profile-sars-cov-2
 name: "SARS-CoV-2"
+roman: true
 group: "Enveloped positive-sense RNA virus · coronavirus · binds ACE2"
 intro: "Predict two of the five slots. Much of what this virus does follows from when it is shed: from the nose and throat, before symptoms begin."
 

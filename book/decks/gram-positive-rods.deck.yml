@@ -6,11 +6,11 @@ cards:
   - id: grd1
     kind: why
     front: "Where do infections with spore-forming Gram-positive rods usually come from, and why?"
-    back: "Spores in soil and dust survive boiling, drying, alcohol hand rub and most disinfectants, and germinate only where they find water, nutrients and, for an anaerobe, no oxygen. Disease begins when spores from soil or dust reach such a place, such as a wound, a food or the gut, so the source is usually the environment, not another person. *Clostridioides difficile*, whose spores spread on hands and surfaces in hospitals, is the exception."
+    back: "Spores in soil and dust survive boiling, drying, alcohol hand rub and most disinfectants, and give rise to growing bacteria only where they find water, nutrients and, for an anaerobe, no oxygen. Disease begins when spores from soil or dust reach such a place, such as a wound, a food or the gut, so the source is usually the environment, not another person. *Clostridioides difficile*, whose spores spread on hands and surfaces in hospitals, is the exception."
   - id: grd2
     kind: apart
     front: "*Bacillus* versus *Clostridium*: which trait separates them, and what does it predict?"
-    back: "Oxygen. *Bacillus* grows in air, so its spores germinate in food left out, such as cooked rice kept warm. *Clostridium* is an obligate anaerobe, so its spores germinate only where oxygen is absent: a deep wound, food sealed from the air, or the colon."
+    back: "Oxygen. *Bacillus* grows in air, so its spores germinate in food left out, such as cooked rice kept warm. *Clostridium* is an obligate anaerobe, so the bacteria grow from its spores only where oxygen is absent: a deep wound, food sealed from the air, or the colon."
   - id: grd3
     kind: how
     front: "How does tetanus toxin make muscles rigid?"

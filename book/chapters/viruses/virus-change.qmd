@@ -56,8 +56,10 @@ A mutation is a change in the genome sequence, and most mutations arise as copyi
 bacteria copy themselves and change*](../bacteria/bacterial-genetics.qmd#sec-gen-mutation)). Whether
 an error stays in the new genome depends on the enzyme that makes the copy. The DNA polymerases of
 human cells and bacteria proofread: they check each base as it is added and remove one that is wrongly
-paired, and repair systems correct most of the errors that remain. DNA viruses copy their genomes with
-DNA polymerases, their own or the host cell's, that also proofread.
+paired, and repair systems correct most of the errors that remain. Most DNA viruses copy their genomes
+with DNA polymerases, their own or the host cell's, that also proofread. Hepatitis B virus is an
+exception: it copies its DNA genome by way of an RNA copy, with a reverse transcriptase that does not
+proofread (see [*Blood-borne and sexually transmitted viruses*](bloodborne-viruses.qmd#sec-bbv-hbv)).
 
 RNA viruses copy their genomes with an RNA polymerase that uses RNA as its template, an enzyme human
 cells do not have. The RNA polymerases of most RNA viruses do not proofread, and nothing repairs the
@@ -70,7 +72,8 @@ that infected it.
 | What is copied | Enzyme that copies it | Proofreading | Copying errors left in the genome |
 |---|---|---|---|
 | DNA of human cells and bacteria | DNA polymerase | Yes | Few |
-| Genome of a DNA virus | DNA polymerase, viral or the host cell's | Yes | Few |
+| Genome of most DNA viruses | DNA polymerase, viral or the host cell's | Yes | Few |
+| Genome of hepatitis B virus, a DNA virus copied by way of RNA | Reverse transcriptase | No | Many |
 | Genome of an RNA virus, such as influenza virus | Viral RNA polymerase | No | Many |
 | Genome of a retrovirus, such as HIV | Reverse transcriptase | No | Many |
 

@@ -1,5 +1,6 @@
 id: resp-profile-rsv
 name: "Respiratory syncytial virus"
+roman: true
 group: "Enveloped negative-sense RNA virus · genome in one piece · infants and older adults"
 intro: "Predict two of the five slots. Most of what this virus does follows from two facts: an infant's bronchioles are narrow, and immunity after infection is incomplete."
 

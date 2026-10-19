@@ -54,7 +54,7 @@ bacteria*](bacteria-map.qmd#sec-map-habitat)). A **fastidious** organism grows o
 laboratory meets special requirements, often because it has lost the ability to make some nutrients.
 In nature it grows only on a host that supplies them, and in the laboratory only on an **enriched
 medium**, a medium with added nutrients for organisms that cannot make them. A fragile organism dies
-quickly when it is dried or cooled, so it passes only by close contact, in respiratory droplets and
+quickly when it is dried or cooled, so it passes only by close contact, in respiratory particles and
 secretions or in sex (see [*Transmission, outbreaks and One
 Health*](../foundations/transmission-outbreaks.qmd#sec-trans-routes)).
 
@@ -74,7 +74,7 @@ their hosts*](../foundations/host-microbe.qmd#sec-host-words)).
 | What is it built from? | A Gram-negative envelope whose outer membrane carries **endotoxin**, the lipopolysaccharide of the Gram-negative outer membrane, whose lipid A triggers inflammation; pili that attach the bacteria to mucosa; in *N. meningitidis* and some strains of *H. influenzae*, a polysaccharide capsule |
 | How does it get energy, and what does it need to grow? | Most respire with oxygen, and some can also ferment; many cannot make nutrients that the host supplies, so they grow only on enriched media |
 | How does it copy itself and change? | Binary fission; *Neisseria* and *Haemophilus* readily take up DNA from their surroundings, one way they acquire resistance genes (see [*How bacteria copy themselves and change*](bacterial-genetics.qmd#sec-gen-hgt)); *N. gonorrhoeae* keeps changing its surface proteins |
-| Where does it live, and how does it spread? | The mucosa of the human nasopharynx, mouth or genital tract, often in healthy carriers; spread by respiratory droplets in close contact or by sexual contact. The exceptions are *Legionella*, which lives in water inside **amoebae** (protozoa that move and engulf their food by pushing out extensions of the cell) and is inhaled from it, and the HACEK group, which reaches the blood from the patient's own mouth |
+| Where does it live, and how does it spread? | The mucosa of the human nasopharynx, mouth or genital tract, often in healthy carriers; spread by respiratory particles in close contact or by sexual contact. The exceptions are *Legionella*, which lives in water inside **amoebae** (protozoa that move and engulf their food by pushing out extensions of the cell) and is inhaled from it, and the HACEK group, which reaches the blood from the patient's own mouth |
 | How does damage happen? | Mostly through the inflammation the bacteria provoke where they multiply, which endotoxin drives when they reach the blood; *Bordetella pertussis* harms the airway mainly through toxins |
 | What does it have that my cells lack? | A peptidoglycan wall, and the proteins that build it |
 
@@ -115,8 +115,8 @@ Where a member lives predicts how it reaches the next person and where it causes
 
 | Where it lives | How it spreads | What follows |
 |---|---|---|
-| The nasopharynx of healthy carriers | Respiratory droplets and secretions, in close contact | With a capsule (*N. meningitidis*, *H. influenzae* type b), invasion of the blood and meninges; without one (most *H. influenzae*, *M. catarrhalis*), infection of the middle ear, sinuses and airways next to the nasopharynx |
-| The ciliated lining of the human airway | Respiratory droplets | Damage by toxins to the cells that clear mucus, and weeks of coughing (*B. pertussis*) |
+| The nasopharynx of healthy carriers | Respiratory particles and secretions, in close contact | With a capsule (*N. meningitidis*, *H. influenzae* type b), invasion of the blood and meninges; without one (most *H. influenzae*, *M. catarrhalis*), infection of the middle ear, sinuses and airways next to the nasopharynx |
+| The ciliated lining of the human airway | Respiratory particles | Damage by toxins to the cells that clear mucus, and weeks of coughing (*B. pertussis*) |
 | The genital tract, rectum and throat | Sexual contact; to an infant's eyes during birth | Infection of mucosal surfaces, often silent, which can ascend from the cervix to the fallopian tubes (*N. gonorrhoeae*) |
 | The mouth | From the mouth into the blood; not between people | Infection of the heart valves (the HACEK group) |
 | Water systems, inside amoebae | Inhaled in aerosols; not between people | Pneumonia (*Legionella*) |
@@ -132,7 +132,7 @@ about the organism.
 
 *N. meningitidis*, the meningococcus, lives only in humans. At any time a minority of healthy people
 carry it in the nasopharynx, most often adolescents and young adults, and it passes to others in
-respiratory droplets and secretions during close, prolonged contact. Outbreaks occur where people
+respiratory particles and secretions during close, prolonged contact. Outbreaks occur where people
 live, sleep or travel close together: in households, dormitories, military barracks and mass
 gatherings.
 
@@ -186,7 +186,7 @@ Three conditions let *N. meningitidis* cause disease:
 | | Condition | Mechanism |
 |---|---|---|
 | Who (host) | A person who acquires a strain against which they have no antibodies: most often an infant, a young child, an adolescent or a young adult; people with asplenia or a deficiency of complement | Antibodies against the capsule, complement and the spleen clear the bacteria from the blood, and a gap in any of them lets the bacteria multiply there |
-| Where (setting) | Close, prolonged contact with a carrier: households, dormitories, military barracks and mass gatherings such as the Hajj | It lives only in the human nasopharynx and dies quickly outside the body, so it passes in respiratory droplets and secretions between people who live close together |
+| Where (setting) | Close, prolonged contact with a carrier: households, dormitories, military barracks and mass gatherings such as the Hajj | It lives only in the human nasopharynx and dies quickly outside the body, so it passes in respiratory particles and secretions between people who live close together |
 | How (route) | From the nasopharynx across the mucosa into the blood, and from the blood into the meninges | Pili attach it to the mucosa; in the blood the capsule protects it while it multiplies and sheds endotoxin |
 
 Step through the route *N. meningitidis* takes from the nasopharynx to the blood, the skin and the
@@ -217,7 +217,7 @@ What the infection does depends on the site:
 - In the rectum and the throat, infection is usually silent.
 - In a **neonate**, a newborn infant in the first four weeks of life, bacteria from the mother's cervix
   can infect the eyes during birth. The result is **ophthalmia neonatorum**, inflammation of the
-  conjunctiva (the membrane over the white of the eye and inside the eyelids) in a neonate, which can
+  conjunctiva (the membrane that covers the white of the eye and lines the eyelids) in a neonate, which can
   damage the cornea and cause blindness.
 
 Silent infection keeps the bacterium circulating, because people without symptoms do not seek
@@ -266,7 +266,7 @@ birth.
 ### *Haemophilus influenzae*: factors from blood, and the type b capsule {#sec-fgn-haemophilus}
 
 *H. influenzae* is a small Gram-negative coccobacillus that lives only in humans, in the nasopharynx,
-and spreads in respiratory droplets. It needs two growth factors that red blood cells contain: haem,
+and spreads in respiratory particles. It needs two growth factors that red blood cells contain: haem,
 and NAD, the coenzyme that carries electrons in metabolism. In ordinary blood agar the red cells are
 intact, so little NAD is available, and enzymes in the sheep blood used to make it destroy any NAD
 that escapes; the bacterium grows poorly or not at all. The laboratory therefore grows it on
@@ -306,7 +306,7 @@ Three conditions let *H. influenzae* cause disease:
 | | Condition | Mechanism |
 |---|---|---|
 | Who (host) | For type b, an unvaccinated young child; for strains without a capsule, a young child with a cold, or an adult with chronic lung disease | Young children respond poorly to a polysaccharide capsule, and a conjugate vaccine overcomes this; damaged airways clear bacteria poorly |
-| Where (setting) | Close contact with people who carry it in the nasopharynx | It lives only in humans and spreads in respiratory droplets |
+| Where (setting) | Close contact with people who carry it in the nasopharynx | It lives only in humans and spreads in respiratory particles |
 | How (route) | From the nasopharynx into the blood and the meninges (type b), or into the middle ear, the sinuses and the airways (strains without a capsule) | The capsule protects type b in the blood; strains without one seldom invade the blood and infect the mucosal surfaces next to the nasopharynx |
 
 ::: {.callout-important}

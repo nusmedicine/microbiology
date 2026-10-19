@@ -75,7 +75,7 @@ questions:
         feedback: "No bacteria were found in the blood. The kidney damage comes from Shiga toxin, an exotoxin released in the colon that enters the blood on its own."
       - text: "Antibodies made against the bacteria cross-react with the kidney"
         correct: false
-        feedback: "Cross-reacting antibodies cause rheumatic fever weeks after a streptococcal infection. In this boy the toxin itself damages the small vessels of the kidney."
+        feedback: "Cross-reacting antibodies and T cells cause rheumatic fever weeks after a streptococcal infection. In this boy the toxin itself damages the small vessels of the kidney."
   - id: en6
     stem: "A 55-year-old man in Singapore with diabetes has had high fever and pain under the right ribs for a week. A scan shows an abscess in the liver, and he now has blurred vision in one eye. Of these bacteria, which is the most likely cause?"
     options:

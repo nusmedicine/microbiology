@@ -3,7 +3,9 @@
   // reads both profiles side by side and picks the feature that separates them; the principle is
   // stated only AFTER the comparison (contrasting-cases evidence). Stage 2: interleaved sorting —
   // short descriptions are assigned to A or B with immediate feedback that names the feature.
-  // Optional morphology sketches (clusters / chains / rods). Data-driven from a YAML manifest.
+  // Optional morphology sketches (clusters / chains / rods). The two names are italic, as for a genus
+  // or species; `roman: true` on the pair, or on `a` or `b`, sets them upright (viruses, concepts,
+  // common names). Data-driven from a YAML manifest.
   import { onMount } from 'svelte';
   import { load, save } from './lib/store.js';
   import { loadManifest } from './lib/manifest.js';
@@ -54,6 +56,8 @@
   function reset() { choice = null; sorted = {}; }
 </script>
 
+{#snippet sideName(side)}{#if data.roman || side.roman}{side.name}{:else}<em>{side.name}</em>{/if}{/snippet}
+
 {#snippet morph(kind)}
   <svg viewBox="0 0 120 60" class="morph" aria-hidden="true">
     {#if kind === 'clusters'}
@@ -85,8 +89,8 @@
         <thead>
           <tr>
             <th scope="col">Feature</th>
-            <th scope="col"><span class="tagA">A</span> <em>{data.a.name}</em>{#if data.a.morph}{@render morph(data.a.morph)}{/if}</th>
-            <th scope="col"><span class="tagB">B</span> <em>{data.b.name}</em>{#if data.b.morph}{@render morph(data.b.morph)}{/if}</th>
+            <th scope="col"><span class="tagA">A</span> {@render sideName(data.a)}{#if data.a.morph}{@render morph(data.a.morph)}{/if}</th>
+            <th scope="col"><span class="tagB">B</span> {@render sideName(data.b)}{#if data.b.morph}{@render morph(data.b.morph)}{/if}</th>
           </tr>
         </thead>
         <tbody>

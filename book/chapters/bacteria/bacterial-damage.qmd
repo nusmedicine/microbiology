@@ -94,10 +94,11 @@ or surgery, it reaches the peritoneal cavity and multiplies there (see [*Anaerob
 
 ### Evading defences {#sec-bdam-evade}
 
-A bacterium multiplying in tissue meets phagocytes, the cells that engulf and digest microbes, and it
-meets antibodies and complement proteins in the surrounding fluid, which coat a bacterium so that a
-phagocyte can grip it. Two mechanisms defeat these defences, and each one points to a host whose
-defences leave it exposed.
+A bacterium multiplying in tissue meets phagocytes, the cells that engulf and digest microbes. In the
+surrounding fluid it meets antibodies and **complement**, a set of proteins in the blood that, once
+activated on a microbe's surface, coat it for phagocytes and can assemble pores that lyse bacteria.
+Antibodies coat bacteria in the same way, so that a phagocyte can grip them. Two mechanisms defeat
+these defences, and each one points to a host whose defences leave it exposed.
 
 A capsule, the polysaccharide layer outside the wall (see [*How bacteria are built and get
 energy*](bacteria-build-energy.qmd#sec-bact-extras)), gives a phagocyte little to grip and buries the
@@ -132,12 +133,12 @@ mycobacteria*](atypicals-mycobacteria.qmd)).
 
 A bacterium inside a host cell is out of reach of antibodies, and a drug has to enter the cell to act
 on it. Its control depends instead on cell-mediated immunity, the defence by T cells against
-organisms that live inside host cells. Intracellular bacteria therefore cause more frequent, more
+infected cells and against organisms that live inside host cells. Intracellular bacteria therefore cause more frequent, more
 severe and more widespread disease in people whose cell-mediated immunity is impaired (see [*Microbes
 and their hosts*](../foundations/host-microbe.qmd#sec-host-factors)).
 
 The host also withholds iron, which bacteria need in order to multiply, by keeping it bound to its
-own proteins. Many bacteria secrete siderophores, molecules that bind iron more tightly than those
+own proteins. Many bacteria secrete **siderophores**, molecules that bind iron more tightly than those
 host proteins do and are then taken back into the bacterial cell (see [*Microbes and their
 hosts*](../foundations/host-microbe.qmd#sec-host-steps)).
 
@@ -214,8 +215,8 @@ through a superantigen alone (see [*Gram-positive cocci*](gram-positive-cocci.qm
 :::
 
 The third is damage after the bacteria have gone. In **molecular mimicry**, host damage is caused by
-antibodies or T cells raised against a microbe cross-reacting with host tissue, because a bacterial
-molecule resembles one of the host's own.
+antibodies or T cells raised against a microbe cross-reacting with host tissue, because a molecule of
+the microbe resembles one of the host's own.
 
 ::: {.example}
 Weeks after a *Streptococcus pyogenes* throat infection has cleared, antibodies and T cells that

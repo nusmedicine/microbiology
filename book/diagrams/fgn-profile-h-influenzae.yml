@@ -19,7 +19,7 @@ slots:
           feedback: "Chocolate agar contains no living cells: the red cells in it have been lysed. Bacteria that grow only inside host cells, such as *Chlamydia*, do not grow on any agar."
     entry: "A small Gram-negative coccobacillus. Fastidious: it needs haem and NAD, which red blood cells contain, so it grows on chocolate agar. Some strains have a polysaccharide capsule, of six types, and type b (Hib) caused almost all serious disease; most strains have no capsule and are called non-typeable."
   - slot: lifestyle
-    entry: "Lives only in humans, in the nasopharynx; many healthy people, especially young children, carry strains without a capsule. Spread in respiratory droplets."
+    entry: "Lives only in humans, in the nasopharynx; many healthy people, especially young children, carry strains without a capsule. Spread in respiratory particles."
   - slot: harm
     entry: "Type b: the capsule protects the bacteria in the blood, so they can invade the blood and the meninges, and they can infect the epiglottis. Strains without a capsule seldom invade the blood; they stay on mucosal surfaces and infect the spaces next to the nasopharynx: the middle ear, the sinuses and damaged airways."
   - slot: consequence

@@ -5,131 +5,190 @@ biology, tissues or general pathology are not repeated here.
 
 | Term | Meaning | Introduced in |
 |---|---|---|
+| **ACE2 (angiotensin-converting enzyme 2)** | An enzyme on the surface of cells lining the nose, the airway and the alveoli, among others, to which the spike protein of SARS-CoV-2 attaches | *Respiratory viruses* |
 | **Acid-fast stain** | A stain that detects organisms with waxy, mycolic-acid walls, which resist the Gram stain | *How bacteria are built and get energy* |
 | **Acquired immunodeficiency syndrome (AIDS)** | The advanced stage of HIV infection, in which loss of CD4 T cells lets opportunistic infections cause disease | *Viruses and the host* |
 | **Acquired resistance** | Resistance gained by a particular strain through mutation or gene transfer | *How bacteria copy themselves and change* |
 | **Acute infection** | Rapid onset, then either clearance or death of the host | *Microbes and their hosts* |
+| **Adhesin** | A bacterial surface molecule that binds a specific molecule on a host cell or in the tissue around it | *How bacteria cause damage* |
 | **Aerobic respiration** | Making ATP with an electron transport chain that passes electrons to oxygen | *How bacteria are built and get energy* |
 | **Aerotolerant anaerobe** | Ferments only, gains nothing from oxygen, but is not harmed by it | *How bacteria are built and get energy* |
 | **Aflatoxin** | A toxin made by moulds on stored grain and nuts, which damages the liver and, eaten over years, can lead to liver cancer | *Fungal principles* |
 | **Airborne transmission** | Spread by small exhaled particles that stay suspended in air and can travel beyond a metre or two | *Transmission, outbreaks and One Health* |
-| **Amoeba** | A protozoan that moves and engulfs its food by pushing out extensions of its cell | *Protozoa* |
+| **Amoeba** | A protozoan that moves and engulfs its food by pushing out extensions of its cell | *Fastidious Gram-negatives and Gram-negative cocci* |
 | **Anaemia** | A low concentration of haemoglobin in the blood | *Protozoa* |
 | **Anaerobic respiration** | Making ATP with an electron transport chain that passes electrons to a molecule other than oxygen, such as nitrate | *How bacteria are built and get energy* |
+| **Aneurysm** | A localised widening of an artery | *Spiral bacteria* |
+| **Anthrax** | Infection of the skin, the lungs or the gut with *Bacillus anthracis* | *Gram-positive rods* |
+| **Antibody-dependent enhancement** | Increased infection of cells when antibodies bind a virus without neutralising it | *Arthropod-borne viruses* |
 | **Antigen test** | A test that detects a protein of the microbe in a sample, usually on a paper strip, giving a result within minutes without a laboratory | *Detecting viruses and antiviral targets* |
 | **Antigenic drift** | Gradual change in a virus's surface antigens through the accumulation of point mutations | *How viruses change* |
 | **Antigenic shift** | The sudden appearance in human influenza A viruses of a haemagglutinin, often with a neuraminidase, of a subtype new to the human population, usually by reassortment with an animal influenza virus | *How viruses change* |
+| **Antigenic variation** | Switching between versions of surface proteins during infection, so that antibodies made against one version miss the next | *Fastidious Gram-negatives and Gram-negative cocci* |
 | **Antimicrobial resistance** | The ability of a microbe to grow despite a drug that would normally inhibit or kill it | *How bacteria copy themselves and change* |
 | **Antimicrobial stewardship** | Coordinated effort to use antimicrobials only when needed, at the right dose and duration, to limit selection for resistance | *How bacteria copy themselves and change* |
+| **Antiretroviral therapy** | Treatment of HIV infection with a combination of drugs from two or more classes, acting on different steps of the replication cycle, so that a variant resistant to one drug is still suppressed by the others | *Blood-borne and sexually transmitted viruses* |
 | **Antisepsis** | Reducing microbes on living tissue, such as skin preparation before a procedure | *Detecting and controlling microbes* |
+| **Antitoxin** | Antibody against a toxin, given as treatment | *Gram-positive rods* |
+| **Apnoea** | A pause in breathing | *Fastidious Gram-negatives and Gram-negative cocci* |
+| **Arbovirus (arthropod-borne virus)** | A virus carried between vertebrate hosts by blood-feeding arthropods, such as mosquitoes or ticks, in which it multiplies | *A map of the viruses* |
 | **Archaea** | A domain of prokaryotes distinct from bacteria; none is an established human pathogen | *The microbial world* |
 | **Aspergilloma** | A ball of hyphae of *Aspergillus* growing in an existing cavity in the lung | *Yeasts, moulds and dimorphic fungi* |
+| **Aspiration** | The inhaling of material from the mouth or throat into the lungs | *Anaerobes* |
 | **Asplenia** | Absence of a functioning spleen | *Microbes and their hosts* |
+| **Assembly** | The step of the viral replication cycle in which new copies of the genome are packaged into new capsids | *How viruses are built and copy themselves* |
 | **Attachment** | The first step of the viral replication cycle: a protein on the virion surface binds a specific receptor on the host cell | *How viruses are built and copy themselves* |
 | **Atypical** | Of bacteria: grouped in this course because routine stains and culture fail on them, either because there is no cell wall or because the organism grows only inside host cells | *A map of the bacteria* |
 | **Autoinfection** | Reinfection of a host by larvae that mature inside it, as in *Strongyloides stercoralis* | *Helminths* |
 | **Bacillus (pl. bacilli)** | A rod-shaped bacterium | *How bacteria are built and get energy* |
 | **Bacteraemia** | Bacteria in the bloodstream | *Gram-positive cocci* |
 | **Bacteriophage (phage)** | A virus that infects bacteria | *How bacteria copy themselves and change* |
+| **BCG vaccine (bacille Calmette–Guérin)** | A live vaccine made from a weakened strain of a mycobacterium closely related to *Mycobacterium tuberculosis* | *Atypicals and mycobacteria* |
+| **Beta-lactam** | Any of a family of drugs, named for the ring of atoms at their core, that block the building of the peptidoglycan wall; the family includes the penicillins, the cephalosporins and the carbapenems | *Gram-positive rods* |
+| **Beta-lactamase** | An enzyme that breaks down beta-lactams by opening the ring at their core | *Enterobacterales* |
 | **Binary fission** | Division of one bacterial cell into two | *How bacteria are built and get energy* |
 | **Biofilm** | A community of microbes embedded in a shared matrix on a surface | *How bacteria are built and get energy* |
-| **Biological vector** | A vector in which the parasite develops or multiplies, and which cannot pass it on until it has done so | *Life cycles and vectors* |
+| **Biological vector** | A vector in which the organism develops or multiplies, and which cannot pass it on until it has done so | *Arthropod-borne viruses* |
+| **Blood-borne virus** | A virus that circulates in the blood and is transmitted by it | *Blood-borne and sexually transmitted viruses* |
+| **Botulism** | A paralysis with weak, floppy muscles, caused by the toxin of *Clostridium botulinum*, which blocks the release of acetylcholine where motor nerves meet muscle | *Gram-positive rods* |
 | **Breakpoint** | The drug concentration that separates organisms likely to respond from those that are not | *Detecting bacteria and testing susceptibility* |
+| **Bronchiolitis** | Inflammation of the bronchioles | *Respiratory viruses* |
 | **Budding** | Of an enveloped virus: release of a virion through a patch of host membrane, which becomes its envelope. Of a yeast: division in which a daughter cell swells out from the parent cell, receives a copy of the nucleus and separates | *How viruses are built and copy themselves*; *Fungal principles* |
 | **Candidaemia** | *Candida* in the blood | *Yeasts, moulds and dimorphic fungi* |
 | **Candidiasis** | Infection with any species of *Candida* | *Fungal principles* |
 | **Capsid** | The protein shell that encloses and protects a virus genome | *How viruses are built and copy themselves* |
 | **Capsule** | A polysaccharide layer outside the cell wall that resists phagocytosis | *How bacteria are built and get energy* |
+| **Carbapenemase** | A beta-lactamase that also destroys carbapenems | *Enterobacterales* |
 | **Carrier** | A person who harbours and can transmit an organism without being ill | *The microbial world* |
+| **Caseous necrosis** | Necrosis that leaves a soft, cheese-like mass of dead cells | *Atypicals and mycobacteria* |
 | **Catalase** | An enzyme that breaks down hydrogen peroxide | *Gram-positive cocci* |
 | **CD4** | A protein on the surface of CD4 T cells to which HIV attaches first | *Viruses and the host* |
 | **CD4 T cells (helper T cells)** | Lymphocytes that coordinate the immune response, including the activity of macrophages and of cytotoxic T cells | *Viruses and the host* |
 | **Cell envelope** | A bacterium's cell membrane and every layer outside it | *How bacteria are built and get energy* |
 | **Cell wall** | A rigid layer outside the cell membrane that holds the cell's shape and stops it bursting when water enters by osmosis | *Fungal principles* |
-| **Cell-mediated immunity** | The defence by T cells against infected cells and against organisms that live inside host cells | *Viruses and the host* |
+| **Cell-mediated immunity** | The defence by T cells against infected cells and against organisms that live inside host cells | *Gram-positive rods* |
 | **Cellulitis** | Spreading infection of the skin and the tissue beneath it | *Gram-positive cocci* |
 | **Central venous catheter** | A tube passed through the skin into a large vein | *Yeasts, moulds and dimorphic fungi* |
 | **Cerebral malaria** | Severe malaria with impaired consciousness, seizures or coma | *Protozoa* |
 | **Chain of infection** | The six links of transmission: infectious agent, reservoir, portal of exit, mode of transmission, portal of entry and susceptible host | *Transmission, outbreaks and One Health* |
+| **Chancre** | A painless ulcer at the site where *Treponema pallidum* entered, in the first stage of syphilis | *Spiral bacteria* |
 | **Chickenpox (varicella)** | The first infection with varicella-zoster virus: a widespread rash of itchy blisters after the virus spreads in the blood | *Herpesviruses* |
 | **Chitin** | A polymer of a nitrogen-containing sugar, part of the fungal wall, that also forms the outer skeleton of insects | *Fungal principles* |
 | **Chocolate agar** | Agar made with heated blood, supplying factors released from lysed red cells for fastidious organisms | *Detecting bacteria and testing susceptibility* |
+| **Cholera** | The illness caused by *Vibrio cholerae*: profuse watery diarrhoea, from a single toxin, that can kill by dehydration within hours | *Environmental Gram-negatives: pseudomonads, vibrios and* Burkholderia |
 | **Chronic infection** | Infection and inflammation continuing for months or years | *Microbes and their hosts* |
+| **Cirrhosis** | Scarring of the liver in which bands of fibrous tissue and nodules of regenerating liver cells replace its normal structure, so that the liver works poorly | *A map of the viruses* |
+| **Co-receptor** | The second cell-surface molecule HIV binds, after CD4, before its envelope fuses with the cell membrane | *Viruses and the host* |
 | **Coagulase** | An enzyme, made by *Staphylococcus aureus*, that clots plasma | *Gram-positive cocci* |
+| **Coccobacillus (pl. coccobacilli)** | A rod so short that it looks almost round | *Fastidious Gram-negatives and Gram-negative cocci* |
 | **Coccus (pl. cocci)** | A spherical bacterium | *How bacteria are built and get energy* |
+| **Cold agglutinins** | Antibodies that bind red blood cells below body temperature | *Atypicals and mycobacteria* |
+| **Colitis** | Inflammation of the colon | *Gram-positive rods* |
 | **Colonisation** | Microbes living and multiplying at a site without causing damage | *Microbes and their hosts* |
 | **Colonisation resistance** | Protection given by resident microbes, which occupy sites and consume nutrients that incoming organisms need | *Microbes and their hosts* |
-| **Combination therapy** | Treatment with two or more drugs acting on different targets, so that a variant resistant to one is still suppressed by the others | *Detecting viruses and antiviral targets* |
+| **Combination therapy** | Treatment with two or more drugs acting on different targets, so that a variant resistant to one is still suppressed by the others | *Atypicals and mycobacteria* |
 | **Commensal** | An organism that lives on a host without harming it | *Microbes and their hosts* |
 | **Competent** | Of a bacterium: able to take up DNA from its surroundings | *How bacteria copy themselves and change* |
-| **Congenital infection** | Infection passed from mother to fetus before birth | *Herpesviruses* |
+| **Complement** | A set of proteins in the blood that, once activated on a microbe's surface, coat it for phagocytes and can assemble pores that lyse bacteria | *How bacteria cause damage* |
+| **Congenital infection** | Infection passed from mother to fetus before birth | *Spiral bacteria* |
 | **Conjugate vaccine** | A vaccine in which a polysaccharide is linked to a protein to improve the immune response, particularly in young children | *Detecting and controlling microbes* |
 | **Conjugation** | Transfer of a plasmid from one bacterium to another through direct contact | *How bacteria copy themselves and change* |
 | **Conjugative pilus** | A long pilus that draws two bacteria together for conjugation; distinct from the short attachment pili | *How bacteria copy themselves and change* |
+| **Conjunctival suffusion** | Redness of the conjunctiva without pus or discharge | *Spiral bacteria* |
+| **Conjunctivitis** | Inflammation of the conjunctiva, the membrane that covers the white of the eye and lines the eyelids | *Atypicals and mycobacteria* |
 | **Contamination** | Microbes present on a surface without multiplying | *Microbes and their hosts* |
-| **Co-receptor** | The second cell-surface molecule HIV binds, after CD4, before its envelope fuses with the cell membrane | *Viruses and the host* |
 | **Corticosteroid** | A drug that suppresses inflammation and immune responses | *Helminths* |
+| **COVID-19** | The illness caused by SARS-CoV-2 | *Respiratory viruses* |
 | **Cyst** | A resistant stage of many protozoa that survives outside the body and is the infective form | *Life cycles and vectors* |
+| **Cystic fibrosis** | An inherited disease in which the secretions of the airway are thick and difficult to clear | *Environmental Gram-negatives: pseudomonads, vibrios and* Burkholderia |
 | **Cysticercosis** | Infection of the tissues with larval cysts of the pork tapeworm, after its eggs are swallowed | *Helminths* |
+| **Cystitis** | Infection of the bladder | *Enterobacterales* |
 | **Cytopathic effect** | Damage to a cell caused by the virus taking over its machinery, often ending in the cell's death; also visible when a virus grows in cultured cells | *Viruses and the host* |
 | **Cytotoxic T cells** | Lymphocytes that recognise viral proteins displayed on an infected cell and kill that cell | *Viruses and the host* |
 | **Damage-response framework** | The view that disease is defined by host damage, which may come from the microbe, from the host's response, or from both | *Microbes and their hosts* |
+| **Dark-field microscopy** | Microscopy in which the specimen is lit from the side so that thin organisms shine against a dark background | *Spiral bacteria* |
+| **Dead-end host** | A host from which an organism is not passed on | *Arthropod-borne viruses* |
 | **Definitive host** | The host in which a parasite reproduces sexually | *Life cycles and vectors* |
+| **Dehydration** | A deficit of body water and salts that develops when losses exceed intake | *Viruses spread by the faecal–oral route* |
 | **Dental caries** | Tooth decay, caused by acid from bacterial fermentation of sugar | *Gram-positive cocci* |
 | **Dermatome** | The strip of skin supplied by one spinal nerve | *Herpesviruses* |
 | **Dermatophyte** | A mould that lives on the keratin of skin, hair and nails; the cause of ringworm | *Fungal principles* |
 | **Differential medium** | A medium on which colonies look different according to a metabolic property | *Detecting bacteria and testing susceptibility* |
 | **Dimorphic fungus (pl. dimorphic fungi)** | A fungus that grows as a mould in the environment and as yeast cells at body temperature | *Fungal principles* |
+| **Diphtheria** | A disease caused by the toxin of *Corynebacterium diphtheriae*: a grey membrane of dead cells, fibrin and white cells in the throat that can block the airway, and damage to the heart and nerves | *Gram-positive rods* |
+| **Diplococcus (pl. diplococci)** | One of a pair of cocci that stay together after dividing | *Fastidious Gram-negatives and Gram-negative cocci* |
 | **Disease** | Damage sufficient to produce signs or symptoms | *Microbes and their hosts* |
 | **Disinfection** | Removing most organisms from an inanimate object; does not reliably kill spores | *Detecting and controlling microbes* |
 | **Domain** | The highest rank of classification: Bacteria, Archaea, Eukarya | *The microbial world* |
 | **Doubling time** | The time a population takes to double in number | *How bacteria are built and get energy* |
 | **Droplet transmission** | Spread by larger exhaled particles that fall within a metre or two | *Transmission, outbreaks and One Health* |
-| **Dysentery** | Diarrhoea with blood in the stool | *Protozoa* |
+| **Dysentery** | Diarrhoea with blood in the stool | *Enterobacterales* |
+| **Ectopic pregnancy** | A pregnancy that implants outside the uterus, most often in a fallopian tube | *Atypicals and mycobacteria* |
 | **Efflux pump** | A membrane protein that expels drugs from the cell | *How bacteria copy themselves and change* |
-| **Encephalitis** | Inflammation of the brain | *Herpesviruses* |
+| **Elementary body** | The small, tough form of *Chlamydia* that survives outside cells and infects them but does not divide | *Atypicals and mycobacteria* |
+| **Encephalitis** | Inflammation of the brain | *Respiratory viruses* |
 | **Endemic** | Constantly present in a population at a baseline level | *Transmission, outbreaks and One Health* |
-| **Endogenous infection** | Infection caused by an organism the person already carries | *Fungal principles* |
+| **Endogenous infection** | Infection caused by an organism the person already carries | *Enterobacterales* |
+| **Endophthalmitis** | Infection inside the eye, which can destroy sight | *Enterobacterales* |
 | **Endospore (spore)** | A dormant, dehydrated bacterial cell inside protective coats, resistant to heat and chemicals | *How bacteria are built and get energy* |
 | **Endotoxin** | Lipopolysaccharide of the Gram-negative outer membrane; called endotoxin because it is part of the cell and not secreted. Its lipid A triggers inflammation | *How bacteria are built and get energy* |
 | **Enriched medium** | A medium with added nutrients for organisms that cannot make them | *Detecting bacteria and testing susceptibility* |
+| **Enteric fever** | A fever caused by *Salmonella* Typhi, or by the related Paratyphi serotypes, spreading from the gut through the lymph nodes, liver, spleen and blood | *Enterobacterales* |
 | **Enterotoxin** | A toxin that acts on the gut | *Gram-positive cocci* |
+| **Entry** | The step of the viral replication cycle in which the virion gets into the cell, by fusion of its envelope with the plasma membrane or by endocytosis | *How viruses are built and copy themselves* |
 | **Envelope (viral)** | A lipid bilayer around the capsid of some viruses, taken from a host-cell membrane and carrying viral proteins | *How viruses are built and copy themselves* |
 | **Enveloped virus** | A virus whose capsid is surrounded by an envelope | *How viruses are built and copy themselves* |
 | **Eosinophil** | A white blood cell that attacks parasites too large to engulf | *Helminths* |
 | **Eosinophilia** | A raised count of eosinophils in the blood | *Helminths* |
 | **Epidemic** | A sharp rise in cases above the endemic baseline | *Transmission, outbreaks and One Health* |
 | **Epidemic curve** | A plot of cases against time of onset; its shape distinguishes point-source from person-to-person spread | *Transmission, outbreaks and One Health* |
+| **Epiglottitis** | Inflammation of the epiglottis, the flap of tissue that covers the entrance to the larynx during swallowing | *Fastidious Gram-negatives and Gram-negative cocci* |
 | **Ergosterol** | The sterol in fungal cell membranes, which does the job that cholesterol does in human cells | *Fungal principles* |
+| **Eschar** | A dark scab at the site of a painless bite, as in scrub typhus | *Atypicals and mycobacteria* |
 | **Eukarya** | The domain of organisms whose cells have a nucleus, including fungi, protozoa, helminths and humans | *The microbial world* |
+| **Exacerbation** | A period in which a chronic disease suddenly worsens | *Fastidious Gram-negatives and Gram-negative cocci* |
 | **Exotoxin** | A protein toxin secreted by bacteria, acting on a specific target | *How bacteria cause damage* |
+| **Extended-spectrum beta-lactamase (ESBL)** | A beta-lactamase that destroys most penicillins and cephalosporins but not carbapenems | *Enterobacterales* |
 | **Extracellular** | Of a microbe: living and multiplying outside host cells | *A map of the bacteria* |
 | **Facultative anaerobe** | Respires with oxygen when available and ferments without it | *How bacteria are built and get energy* |
 | **Facultative intracellular** | Of a microbe: able to live both inside and outside host cells | *A map of the bacteria* |
 | **Fastidious** | Growing only when the laboratory meets special requirements, often because the organism has lost the ability to make some nutrients | *Detecting bacteria and testing susceptibility* |
 | **Fermentation** | Making ATP by glycolysis alone, with no electron transport chain; electrons end on an organic molecule made from glucose, such as pyruvate | *How bacteria are built and get energy* |
+| **Flaccid paralysis** | Paralysis with weak, floppy muscles that cannot contract | *Gram-positive rods* |
 | **Flagellum (pl. flagella)** | A long, rotating protein filament that bacteria use to swim | *How bacteria are built and get energy* |
 | **Fluke (trematode)** | An unsegmented worm that attaches with suckers and passes part of its life cycle in a snail | *Helminths* |
 | **Fomite** | An inanimate object that carries organisms between people | *Transmission, outbreaks and One Health* |
 | **Furuncle** | A boil: a hot, swollen, pus-filled nodule centred on a hair follicle | *Gram-positive cocci* |
 | **Ganglion (pl. ganglia)** | A cluster of nerve cell bodies outside the brain and spinal cord | *Herpesviruses* |
-| **Gastritis** | Inflammation of the stomach lining | *The microbial world* |
+| **Gas gangrene** | Death of muscle caused by clostridial toxins, with gas in the tissue | *Anaerobes* |
+| **Gastritis** | Inflammation of the stomach lining | *Spiral bacteria* |
+| **Gastroenteritis** | Inflammation of the stomach and intestines that causes vomiting, diarrhoea or both | *Enterobacterales* |
+| **Genome expression and copying** | The step of the viral replication cycle in which the virus makes mRNA, which the cell's ribosomes translate into viral proteins, and viral or host enzymes make new copies of the genome | *How viruses are built and copy themselves* |
 | **Germ theory of disease** | The principle that specific microbes cause specific diseases | *The microbial world* |
 | **Glucan** | A polymer of glucose, part of the fungal wall | *Fungal principles* |
 | **Gram stain** | A stain that sorts bacteria by cell envelope: purple (thick peptidoglycan) or pink (thin wall plus outer membrane) | *How bacteria are built and get energy* |
 | **Gram-negative** | Having a thin peptidoglycan layer and an outer membrane containing lipopolysaccharide; pink on a Gram stain | *How bacteria are built and get energy* |
 | **Gram-positive** | Having a thick peptidoglycan wall and no outer membrane; purple on a Gram stain | *How bacteria are built and get energy* |
+| **Granuloma** | A compact collection of activated macrophages, surrounded by lymphocytes, that walls off an organism the macrophages cannot kill | *Atypicals and mycobacteria* |
+| **Guillain–Barré syndrome** | A paralysis that develops over days to weeks as the immune response damages the peripheral nerves | *Spiral bacteria* |
 | **Haemagglutinin** | An influenza envelope protein that binds the virion to sialic acid on airway epithelial cells | *How viruses are built and copy themselves* |
 | **Haemolysis** | Destruction of red blood cells; on blood agar, a clear zone (beta) or a green zone (alpha) around colonies | *Gram-positive cocci* |
+| **Haemolytic uraemic syndrome** | Destruction of red blood cells, a fall in platelets, and kidney failure, as damaged small vessels fill with clots | *Enterobacterales* |
+| **Hand, foot and mouth disease** | An illness of young children with fever, painful ulcers in the mouth and a rash of small blisters on the hands and feet | *Viruses spread by the faecal–oral route* |
 | **Healthcare-associated infection** | Infection acquired in the course of medical care | *Transmission, outbreaks and One Health* |
 | **Helminth** | A parasitic worm; a many-celled animal | *The microbial world* |
+| **Hepatitis** | Inflammation of the liver | *Viruses spread by the faecal–oral route* |
+| **Hepatitis B surface antigen (HBsAg)** | The main protein of the hepatitis B virus envelope, which infected liver cells make in far greater amounts than are needed to build virions and release into the blood, where it marks current infection | *Blood-borne and sexually transmitted viruses* |
+| **Hepatocellular carcinoma** | A cancer of liver cells | *Blood-borne and sexually transmitted viruses* |
 | **Herd immunity threshold** | The fraction of a population that must be immune for an outbreak to shrink: 1 − 1/R₀ | *Transmission, outbreaks and One Health* |
 | **Horizontal gene transfer** | Acquisition of genes from another organism rather than from a parent cell | *How bacteria copy themselves and change* |
 | **Hyperinfection** | A great rise in the number of *Strongyloides stercoralis* larvae, which swarm through the wall of the intestine and the lungs and can spread to other organs | *Helminths* |
+| **Hypervirulent** | Of a strain: able to cause severe, invasive disease in healthy people, unlike most strains of its species | *Enterobacterales* |
 | **Hypha (pl. hyphae)** | A branching, tube-shaped fungal filament that extends at its tip; hyphae form the mat of a mould | *Fungal principles* |
 | **Hypotension** | Abnormally low blood pressure | *Gram-positive cocci* |
 | **Incubation period** | Time between infection and the appearance of symptoms | *Transmission, outbreaks and One Health* |
 | **Infection** | Microbes multiplying in tissue, with a host response | *Microbes and their hosts* |
+| **Infectious dose** | The inoculum needed to cause infection | *Enterobacterales* |
 | **Infectious mononucleosis** | An illness of fever, sore throat and enlarged lymph nodes, usually from a first infection with Epstein–Barr virus in an adolescent or young adult | *Herpesviruses* |
 | **Infectious period** | The time during which a person can transmit an organism | *Transmission, outbreaks and One Health* |
 | **Infective endocarditis** | Infection of the heart valves or the inner lining of the heart | *Gram-positive cocci* |
@@ -139,45 +198,63 @@ biology, tissues or general pathology are not repeated here.
 | **Intermediate host** | A host in which a parasite develops or multiplies without reproducing sexually | *Life cycles and vectors* |
 | **Intoxication** | Illness caused by a toxin already formed outside the body, such as in food, without infection | *Gram-positive cocci* |
 | **Intrinsic resistance** | Resistance that is a property of a whole species | *How bacteria copy themselves and change* |
+| **Invasion** | Entry through an epithelial surface into the tissue beneath, or into host cells themselves | *How bacteria cause damage* |
 | **Invasive aspergillosis** | Infection in which hyphae of *Aspergillus* grow into living tissue | *Yeasts, moulds and dimorphic fungi* |
 | **Ischaemic** | Receiving too little blood supply | *How bacteria are built and get energy* |
+| **Jaundice** | Yellowing of the skin and the whites of the eyes as bilirubin accumulates in the blood | *Spiral bacteria* |
 | **Kaposi sarcoma** | A cancer of the cells lining blood and lymph vessels, caused by human herpesvirus 8, that forms purple patches in the skin | *Herpesviruses* |
-| **Keratitis** | Inflammation of the cornea | *Herpesviruses* |
+| **Keratitis** | Inflammation of the cornea | *Environmental Gram-negatives: pseudomonads, vibrios and* Burkholderia |
 | **Koch's postulates** | Four criteria for establishing that a microbe causes a disease | *The microbial world* |
 | **Lancefield group** | A carbohydrate on the streptococcal cell wall, used to type streptococci (group A, group B and so on) | *Gram-positive cocci* |
 | **Larva (pl. larvae)** | An immature stage of a worm or insect, between the egg and the adult | *Life cycles and vectors* |
 | **Latent infection** | Persistence of an organism in a silent state, with the possibility of reactivation | *Microbes and their hosts* |
+| **Legionnaires' disease** | Pneumonia caused by *Legionella* and caught by inhaling aerosols of contaminated water | *Fastidious Gram-negatives and Gram-negative cocci* |
+| **Leprosy** | Chronic infection of the skin and peripheral nerves by *Mycobacterium leprae* | *Atypicals and mycobacteria* |
+| **Leptospirosis** | Infection with *Leptospira* | *Spiral bacteria* |
+| **Lipooligosaccharide** | A lipopolysaccharide with short sugar chains, the endotoxin of *Neisseria*; its lipid A acts in the same way as that of lipopolysaccharide | *Fastidious Gram-negatives and Gram-negative cocci* |
 | **Lipopolysaccharide (LPS)** | The molecule making up the outer face of the Gram-negative outer membrane; see endotoxin | *How bacteria are built and get energy* |
+| **Listeriosis** | Infection with *Listeria monocytogenes* | *Gram-positive rods* |
+| **Live attenuated vaccine** | A vaccine containing a living organism weakened so that it multiplies in the body without causing disease | *Viruses spread by the faecal–oral route* |
+| **Lockjaw (trismus)** | An inability to open the mouth fully, often the first sign of tetanus | *Gram-positive rods* |
+| **Lyme disease** | An infection carried by ticks that begins with an expanding red rash around the bite and can later inflame the joints, nerves or heart | *Spiral bacteria* |
+| **Lymphogranuloma venereum** | A sexually transmitted infection in which *Chlamydia trachomatis* invades beyond the epithelium and spreads in lymph to the regional lymph nodes | *Atypicals and mycobacteria* |
 | **Lymphoma** | A cancer of lymphocytes | *Herpesviruses* |
 | **Lysis** | Bursting of a cell | *How bacteria copy themselves and change* |
 | **Lysogenic conversion** | A change in a bacterium's traits caused by genes carried by a prophage | *How bacteria copy themselves and change* |
 | **Lysogenic cycle** | A phage genome integrated into the bacterial chromosome and copied with it | *How bacteria copy themselves and change* |
 | **Lytic cycle** | A phage replicating and bursting its host cell | *How bacteria copy themselves and change* |
+| **MacConkey agar** | A medium containing bile salts, which suppress most Gram-positive bacteria, and lactose with a dye that turns pink in acid | *Enterobacterales* |
 | **Malabsorption** | Poor absorption of nutrients from the gut | *Protozoa* |
 | **Malaria** | The illness caused by *Plasmodium* parasites multiplying in red blood cells | *Protozoa* |
 | **MALDI-TOF** | Mass spectrometry that identifies an organism from the protein profile of a colony | *Detecting and controlling microbes* |
 | **Mechanical vector** | A vector that carries an organism on its body or mouthparts, unchanged | *Life cycles and vectors* |
 | **Melioidosis** | Infection with the soil bacterium *Burkholderia pseudomallei* | *Microbes and their hosts* |
-| **Meningitis** | Inflammation of the meninges, the membranes that cover the brain and spinal cord | *Yeasts, moulds and dimorphic fungi* |
+| **Meningitis** | Inflammation of the meninges, the membranes that cover the brain and spinal cord | *Gram-positive rods* |
 | **Miasma** | Bad air, the explanation for epidemics before germ theory | *The microbial world* |
 | **Microaerophile** | Needs oxygen, but is damaged at normal atmospheric levels | *How bacteria are built and get energy* |
-| **Microbiota** | The community of microbes that normally lives on and in the body | *Microbes and their hosts* |
+| **Microbiota** | The community of microbes that normally lives on and in the body | *The microbial world* |
+| **Microcephaly** | An abnormally small head, usually because the brain has not grown normally | *Arthropod-borne viruses* |
 | **Microorganism (microbe)** | A living thing too small to see without a microscope | *The microbial world* |
 | **Minimum inhibitory concentration (MIC)** | The lowest drug concentration that prevents visible growth | *Detecting bacteria and testing susceptibility* |
 | **MISTEACHING** | A mnemonic for host factors that decide the outcome of an exposure: microbiota, inoculum, sex, temperature, environment, age, chance, history of exposure, immunity, nutrition, genetics | *Microbes and their hosts* |
 | **Mode of transmission** | How an organism travels between hosts: contact, respiratory, faecal–oral, vector-borne or vertical | *Transmission, outbreaks and One Health* |
-| **Molecular mimicry** | Host damage caused by antibodies raised against a microbe cross-reacting with host tissue | *Gram-positive cocci* |
+| **Molecular mimicry** | Host damage caused by antibodies or T cells raised against a microbe cross-reacting with host tissue, because a molecule of the microbe resembles one of the host's own | *How bacteria cause damage* |
+| **Mother-to-child transmission (vertical transmission)** | The spread of an infection from a mother to her child during pregnancy, at birth or in breast milk | *Blood-borne and sexually transmitted viruses* |
 | **Mould** | A fungus that grows as hyphae and reproduces by spores | *Fungal principles* |
 | **MRSA** | Meticillin-resistant *Staphylococcus aureus*: strains carrying an acquired gene for an altered wall-building protein that binds a whole family of drugs poorly | *Gram-positive cocci* |
 | **Mutation** | A change in the DNA sequence, usually a copying error | *How bacteria copy themselves and change* |
 | **Mycolic acid** | The waxy wall component of mycobacteria that resists the Gram stain | *How bacteria are built and get energy* |
+| **Myocarditis** | Inflammation of the heart muscle | *Viruses spread by the faecal–oral route* |
 | **Nasopharyngeal carcinoma** | A cancer of the lining of the space behind the nose, linked to Epstein–Barr virus | *Herpesviruses* |
+| **Needlestick injury** | A puncture of the skin by a needle that has been used on a patient | *Blood-borne and sexually transmitted viruses* |
 | **Negative-sense RNA** | A single RNA strand complementary to mRNA, which must be copied before it can be translated | *How viruses are built and copy themselves* |
 | **Neonate** | A newborn infant, in the first four weeks of life | *Gram-positive cocci* |
 | **Neuraminidase** | An influenza envelope enzyme that cuts sialic acid to free new virions from the cell that made them | *How viruses are built and copy themselves* |
 | **Neutropenia** | An abnormally low neutrophil count | *Microbes and their hosts* |
 | **Non-enveloped virus** | A virus whose outer surface is the capsid | *How viruses are built and copy themselves* |
 | **Non-selective medium** | A medium that supports a wide range of organisms | *Detecting bacteria and testing susceptibility* |
+| **Non-tuberculous mycobacteria** | Mycobacteria other than those that cause tuberculosis and leprosy, which live in water and soil | *Atypicals and mycobacteria* |
+| **Non-typeable** | Of a strain of *Haemophilus influenzae*: having no capsule, and so no capsule by which to type it | *Fastidious Gram-negatives and Gram-negative cocci* |
 | **Nucleic acid amplification test (NAAT)** | A test that copies a target sequence many times until it can be detected | *Detecting and controlling microbes* |
 | **Obligate aerobe** | Can make ATP only with oxygen | *How bacteria are built and get energy* |
 | **Obligate anaerobe** | Poisoned by oxygen; grows only where oxygen is absent | *How bacteria are built and get energy* |
@@ -186,9 +263,12 @@ biology, tissues or general pathology are not repeated here.
 | **One Health** | The principle that human, animal and environmental health are interdependent | *Transmission, outbreaks and One Health* |
 | **Oocyst** | In *Toxoplasma* and *Cryptosporidium*, a thick-walled form, made after sexual reproduction and passed in faeces, that survives outside the body | *Protozoa* |
 | **Operon** | A group of related bacterial genes transcribed onto one mRNA | *How bacteria copy themselves and change* |
+| **Ophthalmia neonatorum** | Inflammation of the conjunctiva in a neonate, from bacteria that infect the eyes during birth | *Fastidious Gram-negatives and Gram-negative cocci* |
+| **Opportunistic infection** | An infection by an organism that a person with intact defences controls | *Blood-borne and sexually transmitted viruses* |
 | **Opportunistic pathogen** | An organism of low virulence that causes disease when defences are impaired or when it reaches a site it does not normally occupy | *Microbes and their hosts* |
 | **Opsonisation** | Coating of a microbe by antibodies or complement so that phagocytes can engulf it | *Gram-positive cocci* |
 | **Osmotic lysis** | Bursting of a cell when water enters by osmosis faster than its envelope can withstand | *How bacteria are built and get energy* |
+| **Otitis externa** | Inflammation of the ear canal | *Environmental Gram-negatives: pseudomonads, vibrios and* Burkholderia |
 | **Otitis media** | Infection of the middle ear | *Gram-positive cocci* |
 | **Outbreak** | More cases than expected in a place and time; the term is usually kept for an epidemic confined to one place | *Transmission, outbreaks and One Health* |
 | **Outer membrane** | The second, lipid membrane outside the thin peptidoglycan layer of Gram-negative bacteria | *How bacteria are built and get energy* |
@@ -197,17 +277,26 @@ biology, tissues or general pathology are not repeated here.
 | **Parasite** | In medical microbiology, a protozoan or helminth: a eukaryote that lives on or in a host at the host's expense | *Life cycles and vectors* |
 | **Pathogen** | A microbe able to cause disease | *The microbial world* |
 | **Pathogenicity island** | A cluster of virulence genes acquired together by horizontal transfer | *How bacteria copy themselves and change* |
-| **Peptic ulcer** | A breach in the lining of the stomach or duodenum | *The microbial world* |
+| **Pelvic inflammatory disease** | Infection and inflammation of the uterus, fallopian tubes and nearby pelvic structures, usually spread up from the cervix | *Fastidious Gram-negatives and Gram-negative cocci* |
+| **Peptic ulcer** | A breach in the lining of the stomach or duodenum | *Spiral bacteria* |
 | **Peptidoglycan** | The mesh of sugar chains and peptides forming the bacterial cell wall | *How bacteria are built and get energy* |
-| **Pharyngitis** | Inflammation of the throat, usually from infection | *Gram-positive cocci* |
+| **Periodontal disease** | Infection and inflammation of the gums and the tissues that hold the teeth in place | *Anaerobes* |
+| **Peritonitis** | Inflammation of the peritoneum, the membrane that lines the abdominal cavity and covers the gut | *Anaerobes* |
+| **Pharyngitis** | Inflammation of the throat, usually from infection | *Respiratory viruses* |
 | **Pilus (pl. pili)** | A short, hair-like protein fibre that attaches a bacterium to surfaces; also called a fimbria | *How bacteria are built and get energy* |
+| **Plasma leakage** | The escape of plasma from small blood vessels into the tissues and body cavities | *Arthropod-borne viruses* |
 | **Plasmid** | A small circular DNA molecule that replicates independently of the chromosome | *How bacteria copy themselves and change* |
+| **Pneumonia** | Infection of the lung in which the alveoli fill with fluid and inflammatory cells, which impairs gas exchange | *Respiratory viruses* |
 | **Point mutation** | A mutation that replaces one base with another | *How bacteria copy themselves and change* |
 | **Point-source outbreak** | An outbreak from a single shared exposure; cases cluster within one incubation period | *Transmission, outbreaks and One Health* |
+| **Polymicrobial** | Of an infection: caused by several species together | *Anaerobes* |
+| **Pore-forming toxin** | An exotoxin that inserts into the host cell membrane and opens a channel, so the cell leaks and bursts | *How bacteria cause damage* |
 | **Porin** | A channel in the Gram-negative outer membrane through which small molecules pass | *How bacteria copy themselves and change* |
 | **Portal of entry** | The route by which an organism enters a host | *Transmission, outbreaks and One Health* |
 | **Portal of exit** | The route by which an organism leaves its reservoir | *Transmission, outbreaks and One Health* |
 | **Positive-sense RNA** | A single RNA strand with the sequence of an mRNA, which ribosomes can translate directly | *How viruses are built and copy themselves* |
+| **Post-exposure prophylaxis (PEP)** | A short course of drugs against HIV started as soon as possible after an exposure, such as a needlestick injury or sex without a condom | *Blood-borne and sexually transmitted viruses* |
+| **Pre-exposure prophylaxis (PrEP)** | Drugs against HIV taken by a person without HIV who may be exposed, before the exposure | *Blood-borne and sexually transmitted viruses* |
 | **Primary pathogen** | An organism that causes disease in people with normal defences; also called a strict pathogen | *Microbes and their hosts* |
 | **Prion** | A misfolded host protein that converts normal copies of itself; it has no genome | *The microbial world* |
 | **Prokaryote** | A cell without a nucleus or membrane-bound organelles | *The microbial world* |
@@ -216,56 +305,85 @@ biology, tissues or general pathology are not repeated here.
 | **Protozoan (pl. protozoa)** | A single-celled eukaryote that moves and feeds independently | *The microbial world* |
 | **Provirus** | Viral DNA integrated into a host chromosome, transcribed by the host and copied with the chromosome | *How viruses are built and copy themselves* |
 | **Puerperal fever** | Infection following childbirth | *Transmission, outbreaks and One Health* |
+| **Pulmonary haemorrhage** | Bleeding from damaged small vessels into the alveoli | *Spiral bacteria* |
+| **Purpura** | Purple spots or patches in the skin that do not fade when pressed, because the blood lies outside the vessels | *Fastidious Gram-negatives and Gram-negative cocci* |
+| **Pyelonephritis** | Infection of the kidney | *Enterobacterales* |
 | **Pyogenic** | Pus-forming | *How bacteria are built and get energy* |
 | **Reactive oxygen species** | Partly reduced forms of oxygen, such as superoxide and hydrogen peroxide, that damage proteins and DNA | *How bacteria are built and get energy* |
 | **Reassortment** | Formation of a new virus carrying a mix of genome segments from two parent viruses that infected the same cell | *How viruses change* |
 | **Receptor** | The molecule on a host cell to which a virus attaches to begin its replication cycle | *Viruses and the host* |
 | **Recombination (viral)** | The joining of parts of two related viral genomes into one new genome, in a cell infected by both | *How viruses change* |
+| **Relapsing fever** | Episodes of fever, caused by some species of *Borrelia*, that return as the bacteria change their surface proteins and escape the antibodies made against the previous variant | *Spiral bacteria* |
+| **Release** | The final step of the viral replication cycle, in which new virions leave the cell, by budding or by lysis | *How viruses are built and copy themselves* |
 | **Reproduction number (R₀, R)** | R₀: cases generated by one case in a fully susceptible population. R: cases generated under current conditions | *Transmission, outbreaks and One Health* |
 | **Reservoir** | Where an organism normally lives and multiplies | *Transmission, outbreaks and One Health* |
 | **Resolution** | The smallest separation at which two points can be distinguished; about 0.2 µm for a light microscope | *The microbial world* |
+| **Respiratory failure** | Failure of the lungs to keep the blood supplied with oxygen | *Respiratory viruses* |
+| **Reticulate body** | The larger form of *Chlamydia* that divides inside a host cell but cannot survive outside it | *Atypicals and mycobacteria* |
 | **Retinitis** | Inflammation of the retina, the light-sensitive layer at the back of the eye | *Herpesviruses* |
 | **Retrovirus** | An RNA virus that copies its genome into DNA inside the cell | *How viruses are built and copy themselves* |
 | **Reverse transcriptase** | A viral DNA polymerase that uses RNA as its template | *How viruses are built and copy themselves* |
-| **Rheumatic fever** | Inflammation of the heart, joints and other tissues weeks after *Streptococcus pyogenes* infection, caused by cross-reacting antibodies | *Gram-positive cocci* |
+| **Rheumatic fever** | Inflammation of the heart, joints and other tissues weeks after *Streptococcus pyogenes* infection, caused by cross-reacting antibodies and T cells | *Gram-positive cocci* |
 | **Ringworm (tinea)** | Infection of the skin, hair or nails by a dermatophyte, named for the ring-shaped, scaly patches it can form; no worm is involved | *Yeasts, moulds and dimorphic fungi* |
 | **RNA-dependent RNA polymerase** | A viral enzyme that makes RNA from an RNA template, which human cells cannot do | *How viruses are built and copy themselves* |
 | **Roseola** | A high fever in an infant, then a rash as the fever settles, caused by human herpesvirus 6 | *Herpesviruses* |
 | **Roundworm (nematode)** | A cylindrical, unsegmented worm with a gut that runs from mouth to anus | *Helminths* |
+| **Screening** | Testing people who have no symptoms in order to find an infection early | *Blood-borne and sexually transmitted viruses* |
+| **Scrub typhus** | A fever with headache after the bite of a mite larva infected with *Orientia tsutsugamushi*, often with an eschar | *Atypicals and mycobacteria* |
+| **Secondary bacterial infection** | A bacterial infection that takes hold because an earlier infection has damaged the host's defences | *Respiratory viruses* |
 | **Segmented genome** | A virus genome divided into several separate molecules | *How viruses are built and copy themselves* |
 | **Selection** | Differential survival and multiplication of variants already present in a population | *How bacteria copy themselves and change* |
 | **Selective medium** | A medium containing agents that suppress unwanted organisms | *Detecting bacteria and testing susceptibility* |
 | **Selective toxicity** | Harming a microbe without harming the host, by acting on something the microbe has and the host lacks | *How bacteria are built and get energy* |
+| **Sepsis** | Life-threatening organ dysfunction caused by a dysregulated host response to infection | *How bacteria cause damage* |
+| **Septic shock** | Sepsis in which hypotension is so severe that the tissues are no longer adequately perfused | *How bacteria cause damage* |
 | **Sequestration** | The sticking of red cells infected with mature *P. falciparum* to the walls of small blood vessels | *Protozoa* |
+| **Serogroup** | A set of strains that share the same capsule and are recognised by the same antibodies | *Fastidious Gram-negatives and Gram-negative cocci* |
 | **Serology** | Detection of a patient's antibodies as evidence of exposure | *Detecting and controlling microbes* |
-| **Serotype** | A variant of an organism distinguished by its surface antigens, such as the capsule | *Gram-positive cocci* |
+| **Serotype** | A variant of a bacterium or virus distinguished by its surface antigens, such as a bacterial capsule | *Gram-positive cocci* |
+| **Severe dengue** | Dengue with shock or breathing difficulty from plasma leakage, severe bleeding, or severe damage to an organ | *Arthropod-borne viruses* |
+| **Sexually transmitted infection** | An infection passed on mainly by sexual contact | *Blood-borne and sexually transmitted viruses* |
+| **Shiga toxin** | A toxin that enters cells and stops them making protein, which kills them | *Enterobacterales* |
 | **Shingles (herpes zoster)** | Reactivation of latent varicella-zoster virus: a painful band of blisters on one side of the body, over a dermatome | *Herpesviruses* |
-| **Siderophore** | A molecule that captures iron bound to host proteins | *Microbes and their hosts* |
+| **Siderophore** | A molecule, secreted by a bacterium, that binds iron more tightly than host proteins do and is then taken back into the bacterial cell | *How bacteria cause damage* |
+| **Spastic paralysis** | Paralysis in which muscles are held rigid by continuous contraction and cannot be relaxed at will | *Gram-positive rods* |
+| **Spike protein** | The protein on the envelope of SARS-CoV-2 that binds the virion to a host cell | *Respiratory viruses* |
 | **Spillover** | The passage of a virus from an animal host into people | *How viruses change* |
+| **Spirochaete** | A long, thin, coiled bacterium whose flagella lie inside the envelope | *Spiral bacteria* |
 | **Spore (fungal)** | A small reproductive cell that a mould makes in vast numbers and releases into the air; it grows into a new mould where it lands | *Fungal principles* |
 | **Sporozoite** | The stage of *Plasmodium* that a mosquito injects, which travels in the blood to the liver | *Life cycles and vectors* |
 | **Sterilisation** | Killing or removing all microbial life, including spores | *Detecting and controlling microbes* |
-| **Superantigen** | A toxin that activates a large fraction of T cells at once, causing damaging cytokine release | *Gram-positive cocci* |
+| **Superantigen** | A toxin that activates a large fraction of T cells at once, causing damaging cytokine release | *How bacteria cause damage* |
+| **Syncytium (pl. syncytia)** | A giant cell with many nuclei, formed when infected cells fuse with their neighbours | *Respiratory viruses* |
+| **Syphilis** | An infection with *Treponema pallidum* that passes through stages over years | *Spiral bacteria* |
 | **Tapeworm (cestode)** | A flat, ribbon-like worm made of a chain of segments, with no gut, that absorbs nutrients through its surface | *Helminths* |
+| **Tetanus** | A disease of muscle rigidity and spasms, caused by the toxin of *Clostridium tetani*, which blocks inhibitory neurons in the spinal cord and brainstem | *Gram-positive rods* |
+| **Thrombocytopenia** | A low platelet count | *Arthropod-borne viruses* |
 | **Thrush** | Candidiasis of the lining of the mouth or the vagina | *Fungal principles* |
 | **Toxic shock syndrome** | Fever, rash and hypotension caused by a superantigen toxin | *Gram-positive cocci* |
 | **Toxigenic** | Producing a toxin | *How bacteria copy themselves and change* |
 | **Toxoid** | An inactivated protein toxin used as a vaccine | *Detecting and controlling microbes* |
+| **Trachoma** | Chronic inflammation of the conjunctiva from repeated infection of the eye with *Chlamydia trachomatis*, which in time scars the eyelids and cornea | *Atypicals and mycobacteria* |
 | **Transduction** | Transfer of bacterial DNA from one cell to another by a phage | *How bacteria copy themselves and change* |
 | **Transformation** | Uptake of free DNA from the surroundings by a competent bacterium | *How bacteria copy themselves and change* |
 | **Transposon** | A DNA segment that can move to a new position, including from chromosome to plasmid | *How bacteria copy themselves and change* |
 | **Trophozoite** | The feeding, multiplying form of a protozoan | *Protozoa* |
 | **Tropism** | The specific tissues or cells an organism can occupy, set largely by the receptor it binds | *Microbes and their hosts* |
+| **Typhoid fever** | Enteric fever caused by *Salmonella* Typhi | *Enterobacterales* |
 | **Uncoating** | The step of the viral replication cycle in which the capsid comes apart and releases the genome inside the cell | *How viruses are built and copy themselves* |
+| **Urease** | An enzyme that splits urea into ammonia and carbon dioxide | *Enterobacterales* |
+| **Urethritis** | Inflammation of the urethra | *Fastidious Gram-negatives and Gram-negative cocci* |
+| **Urinary tract infection** | Infection of the bladder (cystitis) or of the kidney (pyelonephritis) | *Enterobacterales* |
 | **Vaccination** | Making a host immune without causing disease, by giving a vaccine | *Detecting and controlling microbes* |
 | **Vector** | An arthropod that carries an organism between hosts | *Transmission, outbreaks and One Health* |
 | **Viraemia** | The presence of virus in the blood | *Viruses and the host* |
 | **Viral load** | The amount of viral nucleic acid in a sample, usually plasma, measured by a quantitative NAAT | *Detecting viruses and antiviral targets* |
 | **Virion** | A single virus particle | *The microbial world* |
-| **Virulence** | The capacity of an organism to cause disease, and the degree of damage it can cause | *How bacteria copy themselves and change* |
+| **Virulence** | The capacity of an organism to cause disease, and the degree of damage it can cause | *Microbes and their hosts* |
 | **Virulence factor** | Any microbial product or structure that helps it infect or damage a host | *Microbes and their hosts* |
 | **Virus** | An infectious agent that is not a cell: a genome inside a protein coat, sometimes enveloped, copied only inside living cells | *The microbial world* |
 | **Whole-genome sequencing** | Reading an organism's entire genome, at a resolution that can link cases in an outbreak | *Detecting and controlling microbes* |
+| **Whooping cough (pertussis)** | Weeks of coughing fits that end in a gasping 'whoop' as the person breathes in, caused by *Bordetella pertussis* | *Fastidious Gram-negatives and Gram-negative cocci* |
 | **Window period** | The interval after infection in which an infected person still tests negative because antibodies have not yet appeared | *Detecting viruses and antiviral targets* |
 | **Worm burden** | The number of worms a person carries | *Helminths* |
 | **Yeast** | A fungus that grows as single round or oval cells, which usually multiply by budding | *Fungal principles* |

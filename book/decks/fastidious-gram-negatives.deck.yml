@@ -6,7 +6,7 @@ cards:
   - id: fnd1
     kind: why
     front: "Why do *Neisseria meningitidis* and *Neisseria gonorrhoeae* spread only by close contact?"
-    back: "Both live only in humans and die quickly when dried or cooled, so they cannot persist in water, soil or on surfaces. The meningococcus passes in respiratory droplets and secretions between people who live close together; the gonococcus passes in sex, and from mother to infant during birth."
+    back: "Both live only in humans and die quickly when dried or cooled, so they cannot persist in water, soil or on surfaces. The meningococcus passes in respiratory particles and secretions between people who live close together; the gonococcus passes in sex, and from mother to infant during birth."
   - id: fnd2
     kind: why
     front: "Why does *Haemophilus influenzae* grow on chocolate agar but not on ordinary blood agar?"
