@@ -1,12 +1,12 @@
 # Detecting and controlling microbes
 
-> *How does a laboratory find out which microbe is present, and how are unwanted microbes removed from
-> instruments, surfaces and hands?*
+> *Two practical problems run through clinical microbiology: finding out in the laboratory which
+> microbe is present, and removing unwanted microbes from instruments, surfaces and hands.*
 
 ## What each method reads {#sec-det-reads}
 
 Each laboratory method detects one property of the organism, or of the host's response to it, and
-that property sets what a result can and cannot tell you.
+that property sets what a result can and cannot show.
 
 <div data-island="sorter" data-src="/diagrams/method-sorter.yml"></div>
 
@@ -35,12 +35,15 @@ reveal.
 | Selective | Contains agents that suppress unwanted organisms | Isolating one pathogen from a sample full of resident microbiota |
 | Differential | Makes colonies look different according to a metabolic property | Blood agar, on which haemolysis distinguishes streptococci |
 
-Culture conditions decide what a laboratory can find. An anaerobe will not grow on a plate kept in air,
-as in the lab case in [*How bacteria are built and get energy*](bacteria-build-energy.qmd#sec-bact-case).
-A slow-growing organism is missed if plates are discarded too early, as in the *Helicobacter* case in
-[*The microbial world*](microbial-world.qmd#sec-world-case). An **obligate intracellular** organism,
-one that can grow only inside living host cells, such as *Chlamydia*, will not grow on agar at all. In
-none of these situations does a negative culture mean the sample contained nothing.
+Culture conditions decide what a laboratory can find. In each of the following situations, a
+negative culture does not mean that the sample contained nothing:
+
+- An anaerobe will not grow on a plate kept in air, as in the lab case in [*How bacteria are built
+  and get energy*](bacteria-build-energy.qmd#sec-bact-case).
+- A slow-growing organism is missed if plates are discarded too early, as in the *Helicobacter* case
+  in [*The microbial world*](microbial-world.qmd#sec-world-case).
+- An **obligate intracellular** organism, one that can grow only inside living host cells, such as
+  *Chlamydia*, will not grow on agar at all.
 
 Culture is also slow. Many bacteria need overnight incubation, and mycobacteria can take weeks, which
 is the main reason molecular methods have become central.
@@ -97,42 +100,53 @@ the laboratory.
 
 ## Controlling microbes {#sec-det-control}
 
-**Sterilisation**, **disinfection** and **antisepsis** mean different things. Sterilisation kills or
-removes all microbial life, including bacterial spores. Disinfection removes most organisms from an
-inanimate object, but does not reliably kill spores. Antisepsis applies the same idea to living
-tissue, as in skin preparation before a procedure.
+**Sterilisation**, **disinfection** and **antisepsis** mean different things:
+
+- Sterilisation kills or removes all microbial life, including bacterial spores.
+- Disinfection removes most organisms from an inanimate object, but does not reliably kill spores.
+- Antisepsis applies the same idea to living tissue, as in skin preparation before a procedure.
 
 <div data-island="contrast-pair" data-src="/diagrams/pair-sterilisation-disinfection.yml"></div>
 
-Organisms differ in what they survive. Bacterial spores survive boiling and alcohol, so instruments
-that enter sterile tissue are autoclaved. The lipid envelope of enveloped viruses is fragile, so
-alcohol and detergents inactivate these viruses readily; non-enveloped viruses, such as the
-enteroviruses that cause hand, foot and mouth disease, are more resistant. This is why soap and water
-replace alcohol hand rub when spores or non-enveloped viruses are a concern: washing removes physically
-what alcohol does not kill. Prions are not reliably inactivated by routine autoclaving and need
-specific, extended protocols.
+Organisms differ in what they survive:
+
+- Bacterial spores survive boiling and alcohol, so instruments that enter sterile tissue are
+  autoclaved.
+- The lipid envelope of enveloped viruses is fragile, so alcohol and detergents inactivate these
+  viruses readily.
+- Non-enveloped viruses, such as the enteroviruses that cause hand, foot and mouth disease, are more
+  resistant.
+- Prions are not reliably inactivated by routine autoclaving and need specific, extended protocols.
+
+From these differences we can predict when soap and water replace alcohol hand rub: when spores or
+non-enveloped viruses are a concern, because washing removes physically what alcohol does not kill.
 
 ## Preventing infection {#sec-det-prevent}
 
 Prevention acts on the links of the chain of infection in [*Transmission, outbreaks and One
 Health*](transmission-outbreaks.qmd#sec-trans-chain).
 
-**Vaccination** makes a host immune without causing disease. Vaccines contain inactivated organisms,
-live attenuated organisms, purified components such as proteins or capsular polysaccharides,
-**toxoids** (inactivated protein toxins), or nucleic acid encoding an antigen. Capsular polysaccharides
-alone produce a poor response in young children, so they are linked to a protein in a **conjugate
-vaccine**, which greatly improved protection against encapsulated bacteria. Vaccines that reduce
-carriage or transmission also protect unvaccinated people, the herd immunity effect; tetanus toxoid
-does not, because tetanus does not pass between people.
+**Vaccination** makes a host immune without causing disease. Vaccines differ in what they contain:
 
-Antimicrobial stewardship, described in [*How bacteria copy themselves and
-change*](bacterial-genetics.qmd#sec-gen-resistance), limits selection for resistance by keeping
+- inactivated organisms;
+- live attenuated organisms;
+- purified components, such as proteins or capsular polysaccharides;
+- **toxoids** (inactivated protein toxins);
+- nucleic acid encoding an antigen.
+
+Capsular polysaccharides alone produce a poor response in young children, so they are linked to a
+protein in a **conjugate vaccine**, which greatly improved protection against encapsulated bacteria.
+Vaccines that reduce carriage or transmission also protect unvaccinated people, the herd immunity
+effect; tetanus toxoid does not, because tetanus does not pass between people.
+
+Antimicrobial stewardship (see [*How bacteria copy themselves and
+change*](bacterial-genetics.qmd#sec-gen-resistance)) limits selection for resistance by keeping
 antimicrobial use to what is needed.
 
 ## From principles to organisms {#sec-det-close}
 
-[*A map of the bacteria*](../microbes/bacteria-map.qmd) opens Part II by combining the traits from
-Part I to sort the bacterial groups you will hear named in lectures.
+We turn next to Part II. In [*A map of the bacteria*](../microbes/bacteria-map.qmd) we combine the
+traits from Part I to sort the bacterial groups named in lectures.
 
 ## Check your understanding {#sec-det-quiz}
 

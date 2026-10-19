@@ -1,8 +1,8 @@
 # How bacteria copy themselves and change
 
 > *Bacteria change through errors in copying their own DNA and by acquiring DNA from other bacteria
-> and from phages. Neither process aims at an outcome. How, then, do bacteria become resistant to
-> drugs, and how can a harmless strain become a toxin producer?*
+> and from phages, and neither process aims at an outcome. Yet these undirected processes are enough
+> to make bacteria resistant to drugs and to turn a harmless strain into a toxin producer.*
 
 ## Copying the genome {#sec-gen-copy}
 
@@ -12,9 +12,9 @@ DNA molecules that replicate independently and often carry genes the cell can li
 genes for resistance or toxins. Before dividing by binary fission, the cell copies its chromosome,
 starting from a single origin and working round the circle in both directions.
 
-Bacteria follow the same central dogma as your cells, with differences that matter clinically.
+Bacteria follow the same central dogma as human cells, with differences that matter clinically.
 
-| Step | Your cells | Bacteria | Why the difference matters |
+| Step | Human cells | Bacteria | Why the difference matters |
 |---|---|---|---|
 | Where it happens | Transcription in the nucleus, translation in the cytoplasm | Both in the cytoplasm at the same time: ribosomes start on an mRNA while it is still being made | Gene expression can change within minutes |
 | Gene organisation | One gene per mRNA; genes interrupted by introns | Related genes often share one mRNA, as an **operon**; introns are rare | A whole pathway can be switched on at once |
@@ -22,8 +22,8 @@ Bacteria follow the same central dogma as your cells, with differences that matt
 | Ribosomes | 80S (40S and 60S subunits) | 70S (30S and 50S subunits) | A major drug target; mitochondria have bacterial-type ribosomes, which explains some drug side effects |
 | DNA supercoiling | Human topoisomerases | DNA gyrase and topoisomerase IV | A target with no exact human equivalent |
 
-The right-hand column applies the question *what does it have that my cells lack?* to the machinery
-of inheritance, and each row is a basis for selective toxicity.
+In the right-hand column we apply the question *what does it have that my cells lack?* to the
+machinery of inheritance, and each row is a basis for selective toxicity.
 
 ## Change by mutation {#sec-gen-mutation}
 
@@ -140,8 +140,8 @@ needed, at the right dose and for the right duration, so that selection is kept 
 resistance is selected by the total use of antimicrobials in a population, stewardship depends on
 every prescriber.
 
-[*Microbes and their hosts*](host-microbe.qmd) turns from the genes to what their products, such as
-toxins, do inside a host.
+We turn next from the genes to what their products, such as toxins, do inside a host (see
+[*Microbes and their hosts*](host-microbe.qmd)).
 
 ## Check your understanding {#sec-gen-quiz}
 

@@ -1,27 +1,33 @@
 # Preface {.unnumbered}
 
-You have just spent weeks learning how your own cells work: membranes, organelles, the electron
-transport chain, the path from DNA to protein. This book uses that knowledge from the first page. A
-microbe faces many of the problems your cells face: it needs a boundary, a source of energy and a way
-to copy itself. Its solutions differ from yours, and drugs and the immune system act on those
-differences.
+This book is written for medical students who have just spent weeks learning how human cells work:
+membranes, organelles, the electron transport chain, the path from DNA to protein. We build on that
+knowledge from the first page. A microbe faces many of the problems a human cell faces: it needs a
+boundary, a source of energy and a way to copy itself. Its solutions differ from those of human
+cells, and drugs and the immune system act on those differences.
 
 Microbiology is often taught as a long sequence of organisms, each with its own list of facts. The
 2026 revision of the microbiology core knowledge objectives for medical schools recommends moving away
-from that approach [@bauler2026objectives]. This book instead asks the same six questions of every
-kind of microbe, starting with what it is built from and ending with what it has that your cells lack.
-[*The microbial world*](chapters/principles/microbial-world.qmd#sec-world-questions) sets out the six
-questions. Bacteria, viruses, fungi and parasites answer them differently, and later chapters use
-those answers to explain how each group causes disease and how it is detected and controlled.
+from that approach [@bauler2026objectives]. Instead, we ask the same six questions of every kind of
+microbe, starting with what it is built from and ending with what it has that human cells lack. The
+six questions are set out in [*The microbial
+world*](chapters/principles/microbial-world.qmd#sec-world-questions). Bacteria, viruses, fungi and
+parasites answer them differently, and those answers explain how each group causes disease and how it
+is detected and controlled.
 
-## What the book covers
+## Contents and scope
 
-The book has two parts. Part I, *Principles*, builds a toolkit: how microbes are built, how they obtain
-energy and change, how they cause harm and spread, and how they are detected and controlled. Part II,
-*Meeting the microbes*, takes each group of organisms in turn and asks the six questions of it.
+The book has two parts. In Part I, *Principles*, we build a toolkit:
 
-The book leaves out where each infection occurs in the body, how it is diagnosed and how it is
-treated, because you will meet those in the organ-system blocks, and pharmacology will teach the drugs.
+- how microbes are built
+- how they obtain energy and change
+- how they cause harm and spread
+- how they are detected and controlled
+
+In Part II, *Meeting the microbes*, the six questions are asked of each group of organisms in turn.
+
+Where each infection occurs in the body, how it is diagnosed and how it is treated are left out,
+because those topics come later in the organ-system blocks, and pharmacology will teach the drugs.
 The aim here is a framework that makes those later facts easier to place. A named organism appears as
 an example of a trait, and organisms usually appear in contrasting pairs, because students who compare
 two cases side by side apply the principle to new cases more often than students who study each case
@@ -32,15 +38,15 @@ the [glossary](glossary.qmd).
 
 ## How to use the interactive parts
 
-| Activity | What you do |
+| Activity | What to do |
 |---|---|
-| Predict, then reveal | Commit to a prediction before the answer appears. Guess even when unsure: a wrong prediction followed by feedback still helps you learn |
+| Predict, then reveal | Commit to a prediction before the answer appears. Guess even when unsure: a wrong prediction followed by feedback still helps learning |
 | Contrast pairs | Find the one feature that separates two similar organisms, then sort descriptions between them |
 | Check your understanding | Answer a short quiz at the end of each chapter. Most questions ask why something happens |
-| Flashcards | Review the chapter's ideas over the following weeks; the deck spaces each card further apart as you get it right |
+| Flashcards | Review the chapter's ideas over the following weeks; the deck spaces each card further apart as it is answered correctly |
 | Practise | Work through a short branching case using the chapter's ideas |
 
-Your answers are saved only in your own browser. Nothing is sent anywhere, and there is no login.
+Answers are saved only in the reader's own browser. Nothing is sent anywhere, and there is no login.
 
 ::: {.callout-warning}
 ## Draft

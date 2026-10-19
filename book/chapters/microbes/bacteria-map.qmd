@@ -1,23 +1,31 @@
 # A map of the bacteria
 
-> *Lectures name bacteria by group: Gram-positive cocci, Enterobacterales, anaerobes, atypicals. What
-> traits does each group share, and what do those traits say about how its members live?*
+> *Lectures name bacteria by group: Gram-positive cocci, Enterobacterales, anaerobes, atypicals. Each
+> group shares a few traits, and from those traits we can read how its members live.*
 
 ## Reading a group as a set of traits {#sec-map-idea}
 
-[*How bacteria are built and get energy*](../principles/bacteria-build-energy.qmd#sec-bact-toolkit)
-described a bacterium by envelope, shape, additional structures, oxygen and growth rate. Whole groups
-also differ in where they grow: outside host cells (**extracellular**), inside or outside them
-(**facultative intracellular**), or only inside them (**obligate intracellular**). And they differ in
-what they need in the laboratory: ordinary media, enriched media, weeks of incubation, or living cells.
+We have described a bacterium by envelope, shape, additional structures, oxygen and growth rate (see
+[*How bacteria are built and get energy*](../principles/bacteria-build-energy.qmd#sec-bact-toolkit)).
+Whole groups also differ in where they grow relative to host cells:
+
+- **Extracellular** bacteria grow outside host cells.
+- **Facultative intracellular** bacteria grow inside or outside them.
+- **Obligate intracellular** bacteria grow only inside them.
+
+Groups also differ in what they need in the laboratory: ordinary media, enriched media, weeks of
+incubation, or living cells.
 
 A bacterial group can be described in those terms. Enterobacterales, for example, are Gram-negative
 rods that grow with or without oxygen, ferment sugars, and live in the gut.
 
-Group names come from different sources, which is part of what makes the list confusing. Some are
-taxonomic (Enterobacterales is an order). Some describe a single trait (anaerobes, spiral bacteria).
-Some describe how the organisms behave in the laboratory (fastidious, atypical). The map below puts
-them all on the same footing.
+Group names come from different sources, which is part of what makes the list confusing:
+
+- Some are taxonomic (Enterobacterales is an order).
+- Some describe a single trait (anaerobes, spiral bacteria).
+- Some describe how the organisms behave in the laboratory (fastidious, atypical).
+
+The map below puts them all on the same footing.
 
 ## The map {#sec-map}
 
@@ -65,7 +73,7 @@ it.
 | Gram stain | No wall, so no Gram reaction | Too small, and hidden inside cells | Stains poorly |
 | Laboratory growth | Slowly, on media enriched with sterols | Only in living cells | Only in living cells |
 
-Start with the missing wall, and predict what follows from it.
+Starting from the missing wall, we can predict what follows from it.
 
 <div data-island="microbe-profile" data-src="/diagrams/profile-m-pneumoniae.yml"></div>
 
@@ -81,16 +89,17 @@ the world, and *M. pneumoniae* is a common cause of pneumonia in children and yo
 stains and cultures miss them, so laboratories usually detect them by their nucleic acid.
 :::
 
-In the respiratory and genitourinary blocks you will meet these organisms again, with the diseases
-they cause, how those diseases are diagnosed and how they are treated. Many of those facts follow from
+These organisms come up again in the respiratory and genitourinary blocks, with the diseases they
+cause, how those diseases are diagnosed and how they are treated. Many of those facts follow from
 the missing wall or the life inside cells: drugs that act on the wall cannot treat *Mycoplasma*, and
 drugs for *Chlamydia* and *Rickettsia* must enter host cells.
 
 ## How the group chapters work {#sec-map-template}
 
-Each chapter that follows takes one group from the map and uses the same layout.
+In the chapters that follow, we take one group from the map at a time and set out each group in the
+same layout.
 
-| Part of the chapter | What it gives you |
+| Part of the chapter | Content |
 |---|---|
 | The group in one sentence | The group's row on the map, as a description |
 | Sorting key | The few traits that separate members of the group, and what each trait means |
@@ -99,11 +108,11 @@ Each chapter that follows takes one group from the map and uses the same layout.
 | Supporting organisms | One table row each |
 | Later in the course | Where the organ-system blocks add diseases, diagnosis and treatment |
 
-## Test yourself on the map {#sec-map-test}
+## Reading the map backwards {#sec-map-test}
 
-The map is most useful when you can read it backwards: given a few traits, name the group. The
-questions below mix the groups deliberately, because practising with mixed examples helps you learn to
-tell similar groups apart.
+The map is most useful when it can be read backwards: given a few traits, we should be able to name
+the group. The questions below mix the groups deliberately, because practice with mixed examples makes
+similar groups easier to tell apart.
 
 <div data-island="bacteria-map" data-src="/diagrams/bacteria-map-test.yml"></div>
 

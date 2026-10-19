@@ -1,7 +1,8 @@
 # Transmission, outbreaks and One Health
 
-> *A pathogen persists only if it reaches a new host or survives in a reservoir between hosts. Where
-> do microbes live between hosts, how do they travel, and where can transmission be interrupted?*
+> *A pathogen persists only if it reaches a new host or survives in a reservoir between hosts.
+> Controlling infection depends on knowing where microbes live between hosts, how they travel, and
+> where transmission can be interrupted.*
 
 ## The chain of infection {#sec-trans-chain}
 
@@ -17,9 +18,10 @@ can be broken, so the model is most useful as a checklist for control.
 | Portal of entry | How it enters the next host: mouth, airway, broken skin, mucosa | Gloves; safe injection practice |
 | Susceptible host | A person who can be infected | Vaccination |
 
-An organism whose only reservoir is humans can in principle be eradicated: smallpox was, and polio is
-close. An organism with an animal or environmental reservoir cannot be, because it persists whatever
-happens in the human population.
+From the reservoir we can predict whether eradication is possible. An organism whose only reservoir
+is humans can in principle be eradicated: smallpox was, and polio is close. An organism with an
+animal or environmental reservoir cannot be, because it persists whatever happens in the human
+population.
 
 A **zoonosis** is an infection transmitted from animals to humans. Around 60% of known human pathogen
 species, and about 75% of emerging ones, are zoonotic [@taylor2001risk]. A **vector** is an arthropod
@@ -89,9 +91,10 @@ clinic fell from 11.4% in 1846 to about 1.3% in 1848 [@semmelweis1861].
 
 Germ theory was still decades away, so Semmelweis could not say what was being carried, and his
 colleagues largely rejected the finding. He acted on a route he could interrupt without knowing the
-agent, as John Snow did in the case at the end of this chapter. WHO guidance now treats hand hygiene as
-the primary measure for preventing **healthcare-associated infection**, infection acquired in the
-course of medical care [@who2009handhygiene].
+agent, as John Snow did with the Broad Street pump, whose story we follow in the case at the end of
+this chapter. WHO guidance now treats hand hygiene as the primary measure for preventing
+**healthcare-associated infection**, infection acquired in the course of medical care
+[@who2009handhygiene].
 
 ## One Health {#sec-trans-onehealth}
 
@@ -103,16 +106,19 @@ that infections are best understood and controlled across all three. The connect
   direct contact.
 - Changes in land use, climate and travel alter where vectors can live and which animals humans meet.
 
-Singapore offers several examples. Dengue control acts on the vector, including the release of male
-mosquitoes carrying *Wolbachia* ([*The microbial world*](microbial-world.qmd#sec-world-harmless)). In
-1999, Nipah virus spread from pigs imported from Malaysia to abattoir workers in Singapore: 11 fell ill
-and one died [@paton1999nipah]. In 2015, an outbreak of severe group B streptococcal infection was
-linked to eating raw freshwater fish, and the strain responsible also infects farmed fish
-[@kalimuddin2017gbs]. Melioidosis is acquired from soil and surface water, and cases rise after heavy
-rain ([*Microbes and their hosts*](host-microbe.qmd#sec-host-case)).
+Singapore offers several examples of these connections:
+
+- Dengue control acts on the vector, including the release of male mosquitoes carrying *Wolbachia*
+  ([*The microbial world*](microbial-world.qmd#sec-world-harmless)).
+- In 1999, Nipah virus spread from pigs imported from Malaysia to abattoir workers in Singapore: 11
+  fell ill and one died [@paton1999nipah].
+- In 2015, an outbreak of severe group B streptococcal infection was linked to eating raw freshwater
+  fish, and the strain responsible also infects farmed fish [@kalimuddin2017gbs].
+- Melioidosis is acquired from soil and surface water, and cases rise after heavy rain ([*Microbes
+  and their hosts*](host-microbe.qmd#sec-host-case)).
 
 Controlling an outbreak depends on identifying the organism responsible and on removing it from hands,
-instruments and surfaces. Both are the subject of [*Detecting and controlling
+instruments and surfaces. We turn next to both, in [*Detecting and controlling
 microbes*](detection-control.qmd).
 
 ## Check your understanding {#sec-trans-quiz}

@@ -14,7 +14,19 @@ some flags will be fine where they stand.
 ## 1. Voice and level
 
 - Write for a medical student who has finished cell biology and tissues and is starting general
-  pathology. Assume that knowledge; build on it explicitly ("you met this in general pathology").
+  pathology. Assume that knowledge; build on it explicitly ("as in general pathology", "we met this
+  principle in general pathology").
+- **Academic voice.** State facts in the third person. Use the first-person plural *we* for the
+  shared line of reasoning, as in Alberts' *Molecular Biology of the Cell* or a review article: "we
+  can predict…", "we return to these organisms in…". Use *we* sparingly, where it carries reasoning,
+  and not to open every paragraph.
+- Do not address the reader as *you* in chapter prose. Instructions in the interactive parts
+  (quizzes, sorters, cases, "Predict" callouts, the sentence telling the reader how to use an island)
+  may use the imperative or *you*, because they are instructions.
+- The book, a part, a chapter or a section is never the subject of an action verb: not "This book
+  asks…", "*Gram-positive cocci* returns to…" or "The next chapter takes up…". Write "We ask the same
+  six questions…", "We return to both in [*Gram-positive cocci*](…)", or give the reference in
+  parentheses: "(see [*Gram-positive cocci*](…))".
 - Plain, direct sentences. Prefer *is*, *has*, *does* over *serves as*, *stands as*, *functions as*,
   *represents*, *boasts*, *features*.
 - One idea per sentence where possible. Vary sentence length; do not stack short dramatic sentences.
@@ -86,7 +98,11 @@ noting*.
   phrases for emphasis.
 - No inline-header lists (each bullet starting with a bold label and a colon) unless the items are
   genuinely labelled fields. Prefer a table or prose.
-- Prefer prose to bullet lists for reasoning. Lists are for parallel items.
+- **Lists for parallel points.** When a paragraph sets out three or more parallel points (causes,
+  steps, examples, consequences, properties), give them as a bulleted list introduced by a full
+  sentence, or a numbered list when the order matters. Each item is a complete sentence or a phrase
+  parallel to the others. Keep reasoning that links one point to the next in prose: a chain of
+  "because… so…" is a paragraph, not a list.
 - Headings in sentence case. No emoji. No decorative arrows or box characters in prose.
 - Em dashes: at most one or two per chapter, and never as a substitute for a comma, colon or full stop.
   Use a comma, colon, parentheses or a new sentence first.
@@ -103,15 +119,16 @@ noting*.
 
 ## 4. Organisation
 
-- **Chapter opener.** One italic blockquote of one or two sentences that states the chapter's question
-  in concrete terms. Do not write "This chapter…" or "This chapter asks the Nth question…".
-- **Chapter ending.** The last content section hands on to the next chapter or to Part II; it does
-  not restate what the chapter covered. Then, in this order: *Check your understanding* (quiz),
+- **Chapter opener.** One italic blockquote of one or two sentences that states the chapter's problem
+  in concrete terms, as a statement. *We* is allowed; "This chapter…" is not.
+- **Chapter ending.** The last content section hands on to the next chapter or to Part II ("We turn
+  next to…"); it does not restate what the chapter covered. Then, in this order: *Check your understanding* (quiz),
   *Review with flashcards*, *Practise: …* (case), *References*.
 - **Reading order.** Part I chapters must not assume anything first taught in Part II. When a Part I
   chapter mentions a Part II example, phrase it as a forward reference and link to it.
 - **Cross-references** use the exact chapter title in italics as a link, with a section anchor where
-  useful: `[*Microbes and their hosts*](host-microbe.qmd#sec-host-drf)`. From `principles/` to
+  useful: `[*Microbes and their hosts*](host-microbe.qmd#sec-host-drf)`. The link sits in parentheses
+  or in a sentence whose subject is *we* or the topic, never the chapter itself (§1). From `principles/` to
   `microbes/` the path is `../microbes/…`. Island data cannot hold links, so it uses the italic title
   alone.
 - **Section IDs** are prefixed by chapter (`sec-world-`, `sec-bact-`, `sec-gen-`, `sec-host-`,

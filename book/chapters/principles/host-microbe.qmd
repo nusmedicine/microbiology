@@ -1,12 +1,12 @@
 # Microbes and their hosts
 
-> *Most people carry potential pathogens without harm. Why does the same organism make one person ill
-> and leave another well, and when illness does follow, how much of the damage comes from the microbe
-> and how much from the host's own response?*
+> *Most people carry potential pathogens without harm, yet the same organism can make one person ill
+> and leave another well. When illness does follow, we need to know how much of the damage comes from
+> the microbe and how much from the host's own response.*
 
 ## Four terms that are often confused {#sec-host-words}
 
-General pathology gave you the vocabulary of tissue injury. Microbiology adds terms that students
+The vocabulary of tissue injury comes from general pathology. Microbiology adds terms that students
 often use interchangeably, although they describe different states.
 
 | Term | What it means | Example |
@@ -65,14 +65,14 @@ a site it does not normally occupy. It usually gets that opportunity in one of t
 
 A **primary** (or strict) **pathogen**, by contrast, causes disease in people with normal defences:
 *Mycobacterium tuberculosis*, *Salmonella* Typhi and influenza virus do not need a weakened host.
-Because the boundary is not sharp, ask instead what it takes, in a given host, for an organism to cause
-damage.
+Because the boundary is not sharp, a more useful question is what it takes, in a given host, for an
+organism to cause damage.
 
 ## Where the damage comes from {#sec-host-drf}
 
 The **damage-response framework** of Casadevall and Pirofski answers that question
 [@casadevall2003damage]. It holds that disease is defined by host damage, and that damage can come
-from the microbe, from the host's response, or from both. If damage is plotted against the strength of
+from the microbe, from the host's response, or from both. If we plot damage against the strength of
 the host response, different organisms give differently shaped curves.
 
 <div data-island="damage-response" data-src="/diagrams/damage-response.yml"></div>
@@ -82,11 +82,11 @@ shock syndrome**, a **superantigen**, a toxin that activates a large fraction of
 triggers cytokine release that causes **hypotension** (abnormally low blood pressure) and shock. In
 **rheumatic fever**, antibodies raised against *Streptococcus pyogenes* cross-react with heart tissue
 weeks after the infection has cleared. In tuberculosis, much of the destruction of lung tissue is the
-work of the immune response to bacteria it cannot eliminate. [*Gram-positive
-cocci*](../microbes/gram-positive-cocci.qmd) returns to the first two.
+work of the immune response to bacteria it cannot eliminate. We return to the first two in
+[*Gram-positive cocci*](../microbes/gram-positive-cocci.qmd).
 
-General pathology made the same point about inflammation, which clears an infection but damages
-tissue when it is excessive or prolonged.
+We met the same point about inflammation in general pathology: inflammation clears an infection but
+damages tissue when it is excessive or prolonged.
 
 ## Host factors {#sec-host-factors}
 
@@ -97,11 +97,14 @@ Sex, Temperature, Environment, Age, Chance, History of exposure, Immunity, Nutri
 
 Inoculum and immunity need detail now. The **inoculum**, the number of organisms received, affects
 both whether disease follows and how quickly it begins; for some organisms ten to a hundred cells are
-enough, while for others a million or more must be swallowed. Immunity includes the specific immunity left by
-earlier exposure or vaccination and the general competence of the defences. Each gap in the defences
-exposes a person to particular organisms: neutropenia to bacterial and fungal infection, impaired
-cell-mediated immunity to intracellular organisms such as *M. tuberculosis*, and **asplenia**
-(absence of a functioning spleen) to encapsulated bacteria such as *Streptococcus pneumoniae*.
+enough, while for others a million or more must be swallowed. Immunity includes the specific
+immunity left by earlier exposure or vaccination and the general competence of the defences. Each
+gap in the defences exposes a person to particular organisms:
+
+- Neutropenia, to bacterial and fungal infection.
+- Impaired cell-mediated immunity, to intracellular organisms such as *M. tuberculosis*.
+- The absence of a functioning spleen, **asplenia**, to encapsulated bacteria such as
+  *Streptococcus pneumoniae*.
 
 Other conditions shift the balance too. Diabetes is the clearest local example. Among patients in
 Singapore with **melioidosis**, infection with the soil bacterium *Burkholderia pseudomallei*, 56.7% had
@@ -152,12 +155,12 @@ strategy.
 Latency explains reactivation. Varicella-zoster virus persists in sensory ganglia after chickenpox and
 can return as shingles decades later, and latent tuberculosis can reactivate when immunity falls.
 
-## Using this chapter in Part II {#sec-host-close}
+## Applying these ideas in Part II {#sec-host-close}
 
-For each organism in Part II, ask how it damages the host: by destroying cells, by toxins, by
-provoking a damaging inflammatory response, or by a combination. Then place it on the damage-response
-curve. If most of the damage comes from the host's response, a weakened host may show less visible
-disease, and removing the organism alone may not stop the damage.
+For each organism in Part II, we ask how it damages the host: by destroying cells, by toxins, by
+provoking a damaging inflammatory response, or by a combination. We then place it on the
+damage-response curve. If most of the damage comes from the host's response, a weakened host may
+show less visible disease, and removing the organism alone may not stop the damage.
 
 ## Check your understanding {#sec-host-quiz}
 

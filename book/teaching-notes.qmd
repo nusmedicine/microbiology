@@ -126,7 +126,7 @@ for students to navigate:
 | Contrast pairs | Which organisms do students most often confuse? Those pairs should drive the comparison activities |
 | Session titles | Should "Infections caused by Enterobacterales" become something like "How Enterobacterales live", to signal the change in emphasis? |
 | Assessment | If teaching shifts to mechanisms, should MCQs shift to questions that ask why? |
-| Other organisms | Viruses, fungi and parasites are only outlined here. Would you like to co-design those chapters? |
+| Other organisms | Viruses, fungi and parasites are only outlined here. Would the microbiology teaching team co-design those chapters? |
 | Evaluation | Could one session be piloted next year, with a short concept check before and after? No data exist on Singapore medical students' misconceptions about microbiology, so the results would also be publishable |
 
 ## References {.unnumbered}

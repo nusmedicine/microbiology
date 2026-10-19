@@ -4,7 +4,7 @@
 
 ::: {.callout-note}
 ## In preparation
-This chapter will follow the layout of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
+The layout will match that of [*Gram-positive cocci*](gram-positive-cocci.qmd). The plan:
 :::
 
 | Part of the chapter | Plan |

@@ -59,6 +59,8 @@ const RULES = [
   { id: 'bug-germ', why: '"bug"/"germ" outside a quoted misconception', re: /\b(bug|bugs|germs?)\b(?!\s+theory)/gi },
   { id: 'us-spelling', why: 'American spelling', re: /\b(colou?r(?<!colour)(?!\s*:)|hemoly\w*|hemato\w*|hemo(globin|rrhag)\w*|fecal|feces|esophag\w*|pediatric\w*|anemia|edema|behavior\w*|tumor\w*|fiber|center|labeled|labeling|modeled|modeling|program(?!me))\b/gi },
   { id: 'ize', why: '-ize spelling (house style is -ise)', re: /\b(?!(?:size|sizes|sized|sizing|prize|prizes|seize|seized|capsize|resize)\b)[a-z]{3,}(?:iz|yz)(?:e|es|ed|ing|ation|ations|er|ers)\b/gi },
+  { id: 'you', qmdOnly: true, why: 'second person in chapter prose (house voice is third person with "we")', re: /\b(you|your|yours|yourself)\b/gi },
+  { id: 'personify', why: 'book, chapter or section as the subject of an action verb', re: /\b(this|the|next|each) (book|chapter|part|section) (asks|returns|takes|turns|uses|gives|describes|explains|shows|covers|opens|works|follows|introduces|looks)\b|\*\]\([^)]*\)\s+(asks|returns|takes|turns|uses|gives|describes|described|explains|shows|covers|opens|works|introduces|looks)\b/gi },
   { id: 'feedback-right', why: 'feedback opening with "Right."/"Correct" (the component already says so)', re: /\b(feedback|why):\s*["']?(Right|Correct|Yes|Exactly|Great)\b[.!,]/g },
 ];
 
@@ -77,6 +79,8 @@ for (const f of files) {
     if (inCode) return;
     if (/^\s*(id|start|next|goto|answer|kind|slot|tag|key|letter|pattern|morph|envelope|shape|oxygen|lifestyle|culture|extends|mode|if|else|type|outcome|emotion|reaction|difficulty|estimatedMinutes|tags|variables|effects|options|separates|correct|objectivesMet):/.test(line)) return;
     for (const r of RULES) {
+      if (r.qmdOnly && !f.endsWith('.qmd')) continue;
+      if (r.id === 'you' && /Check your understanding\b/.test(line)) continue; // fixed quiz heading (STYLE.md §4)
       r.re.lastIndex = 0;
       let m;
       while ((m = r.re.exec(line))) {

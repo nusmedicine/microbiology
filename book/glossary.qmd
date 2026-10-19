@@ -1,6 +1,6 @@
 # Glossary {#sec-glossary}
 
-Every term defined in the book, with the chapter where it is introduced. Terms you met in cell
+Every term defined in the book, with the chapter where it is introduced. Terms taught in cell
 biology, tissues or general pathology are not repeated here.
 
 | Term | Meaning | Introduced in |
