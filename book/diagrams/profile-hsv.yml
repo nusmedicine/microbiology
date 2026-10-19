@@ -1,0 +1,40 @@
+id: profile-hsv
+name: "Herpes simplex viruses 1 and 2"
+group: "Enveloped double-stranded DNA virus · herpesvirus · latent in sensory ganglia"
+intro: "Predict two of the five slots. Most of what this virus does follows from where it hides between episodes: a sensory nerve cell."
+
+slots:
+  - slot: identity
+    entry: "Two closely related viruses, HSV-1 and HSV-2. A large double-stranded DNA genome in a capsid, inside an envelope. Copies its DNA in the nucleus with its own DNA polymerase."
+  - slot: lifestyle
+    predict:
+      stem: "HSV is enveloped and survives poorly outside the body, yet most adults carry HSV-1. How does it reach so many people?"
+      options:
+        - text: "By direct contact with saliva or genital secretions, often from a person shedding virus without symptoms"
+          correct: true
+          feedback: "Shedding without symptoms means that a person need not have a sore to pass the virus on, so it spreads through everyday close contact such as kissing."
+        - text: "On surfaces and in water, where it survives for weeks"
+          correct: false
+          feedback: "An envelope is a lipid membrane that drying disrupts, so HSV survives poorly on surfaces and in water. It passes by direct contact, often from a person with no symptoms."
+        - text: "Only from people with visible blisters"
+          correct: false
+          feedback: "Blisters shed a great deal of virus, but virus is also shed without any lesion, and many infections are passed on that way."
+    entry: "Humans only. Spread by direct contact with saliva, a lesion or genital secretions, often from a person shedding virus without symptoms. Latent for life in sensory ganglia: HSV-1 usually in the trigeminal ganglion, which supplies the face; HSV-2 usually in the sacral ganglia, which supply the genital area."
+  - slot: harm
+    entry: "Kills the epithelial cells it infects, forming blisters that break down into ulcers, at the first infection and at each recurrence. Rarely, it infects the brain (encephalitis), the cornea (keratitis), or a neonate during birth."
+  - slot: consequence
+    predict:
+      stem: "Reactivated HSV-1 leaves the trigeminal ganglion. Where do the new lesions appear?"
+      options:
+        - text: "At the same site as before, supplied by the same nerve"
+          correct: true
+          feedback: "The virus travels back down the axons it came up, so it returns to the patch of skin or mucosa those nerve endings supply. Cold sores recur at the same spot for this reason."
+        - text: "Anywhere on the skin, carried in the blood"
+          correct: false
+          feedback: "Spread in the blood to the whole skin is the pattern of chickenpox. Reactivated HSV travels along the nerve, so it returns to one site."
+        - text: "In a new place each time, wherever the skin is damaged"
+          correct: false
+          feedback: "Where lesions appear is set by the nerve, not by the state of the skin. They return to the area supplied by the nerve in which the virus is latent."
+    entry: "Lifelong infection, with recurrences at the same site after triggers such as fever, sunlight, stress or reduced immunity, and shedding without symptoms in between. Drugs that block the viral DNA polymerase shorten an episode but cannot remove the latent virus."
+  - slot: contrast
+    entry: "Varicella-zoster virus: also latent in sensory ganglia, but its first infection is a widespread rash, chickenpox, and it usually recurs once, decades later, over a dermatome, as shingles."

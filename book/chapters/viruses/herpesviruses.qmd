@@ -1,17 +1,294 @@
 # Herpesviruses
 
-> *Enveloped DNA viruses that persist for life in a latent state after the first infection and can reactivate when immunity falls.*
+> *Chickenpox in a child and shingles in the same person decades later are caused by one virus that
+> never left the body, and a cold sore returns to the same spot on the lip after each fever. Every
+> herpesvirus stays for life in a particular kind of cell, and that cell predicts where, and in whom,
+> the virus causes disease again.*
 
-::: {.callout-note}
-## In preparation
-The plan for this chapter:
+::: {.callout-note appearance="simple"}
+## Learning objectives
+- Sort the human herpesviruses by the cells in which they become latent, and predict from the
+  latency site where reactivated virus causes disease and who is most at risk.
+- Explain why herpes simplex viruses recur at the same site, and why shingles appears decades after
+  chickenpox, over a single dermatome.
+- Explain how cytomegalovirus, usually silent in a healthy person, harms a fetus and a person whose
+  cell-mediated immunity is suppressed.
+- Name the host, setting and route that let each main virus cause disease.
+- Tell herpes simplex viruses from varicella-zoster virus by first infection, spread, recurrence and
+  vaccine.
+- Explain why drugs that block the herpesvirus DNA polymerase shorten an episode but cannot remove
+  latent virus.
 :::
 
-| Part of the chapter | Plan |
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [The group](#sec-herp-group)
+  - [The group in one sentence](#sec-herp-sentence): what every member shares
+  - [Sorting the group](#sec-herp-key): where the virus becomes latent
+- [Main viruses](#sec-herp-main)
+  - [Herpes simplex viruses](#sec-herp-hsv): recurrence at the same site
+  - [Varicella-zoster virus](#sec-herp-vzv): chickenpox, then shingles
+  - [Cytomegalovirus](#sec-herp-cmv): harm before birth and when immunity is suppressed
+- [Contrast pair](#sec-herp-pairs)
+  - [Herpes simplex viruses and varicella-zoster virus](#sec-herp-pair-hsv-vzv)
+- [Beyond the main viruses](#sec-herp-beyond)
+  - [Supporting viruses](#sec-herp-supporting)
+  - [Later in the course](#sec-herp-later)
+:::
+
+## The group {#sec-herp-group}
+
+### The group in one sentence {#sec-herp-sentence}
+
+Herpesviruses are enveloped viruses with a double-stranded DNA genome that, after the first
+infection, persist for life in a latent state in particular cells and can reactivate. Most of the six
+questions have one answer for the whole group; its members differ mainly in the cells in which they
+become latent.
+
+| Question | Answer for the herpesviruses |
 |---|---|
-| Learning objectives | Describe the group by its traits; explain one mechanism of harm for each main virus; recognise the enabling conditions that point to each |
-| The group in one sentence | Enveloped DNA viruses that persist for life in a latent state after the first infection and can reactivate when immunity falls. |
-| Main viruses | Herpes simplex virus; varicella-zoster virus; cytomegalovirus |
-| Supporting viruses | Epstein–Barr virus |
-| Later in the course | Dermatology, neurology and transplant medicine |
-| Scenario questions | Most likely virus, with options restricted to the group; feedback names the discriminating clue |
+| What is it built from? | A large double-stranded DNA genome in a protein capsid, inside an envelope |
+| How does it get energy? | It has no energy supply of its own and uses the host cell's |
+| How does it copy itself and change? | Copies its DNA in the nucleus with its own DNA polymerase; DNA viruses change slowly, so these viruses are stable |
+| Where does it live, and how does it spread? | Each human herpesvirus lives only in humans; spread by close contact with saliva, skin or genital secretions, and varicella-zoster virus also by respiratory particles; often shed without symptoms |
+| How does damage happen? | Death of infected cells, in the first infection and at reactivation; damage is greatest when **cell-mediated immunity**, the defence by T cells against infected cells, is impaired |
+| What does it have that my cells lack? | Its DNA polymerase, the target of the main antiviral drugs, which act only on replicating virus |
+
+In the nucleus, the host cell's RNA polymerase transcribes herpesvirus genes as it transcribes the
+cell's own, but the virus copies its genome with its own DNA polymerase (see [*How viruses are built
+and copy themselves*](virus-structure-replication.qmd#sec-vstr-genomes)). After the first infection,
+herpesviruses make new virus only when they reactivate, which places them between acute and chronic
+infection on the persistence spectrum (see [*Viruses and the
+host*](virus-host.qmd#sec-vhost-persistence)).
+
+Cell-mediated immunity holds latent herpesviruses in check. When it declines with age, is suppressed
+by drugs after an organ transplant, or fails as CD4 T cells are lost in advanced HIV infection (see
+[*Viruses and the host*](virus-host.qmd#sec-vhost-cd4)), reactivation becomes more frequent and the
+virus spreads further. The same virus therefore does more harm in a host with weaker defences (see
+[*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-factors)).
+
+The main antiviral drugs against herpesviruses block the viral DNA polymerase, so they act only on
+virus whose genome is being copied (see [*Detecting viruses and antiviral
+targets*](detecting-viruses.qmd#sec-vdet-targets)). They shorten an episode and, taken continuously,
+can prevent disease from reactivated virus, but only while they are taken. Latent virus is a genome
+that is not being copied, and the drugs cannot remove it (see [*Detecting viruses and antiviral
+targets*](detecting-viruses.qmd#sec-vdet-few)).
+
+### Sorting the group {#sec-herp-key}
+
+Herpesviruses look alike under the electron microscope, so we sort them by the cells in which they
+become latent. Three kinds of cell hold latent herpesviruses:
+
+- Sensory nerve cells, whose cell bodies lie in a **ganglion** (plural ganglia), a cluster of nerve
+  cell bodies outside the brain and spinal cord
+- White blood cells of the monocyte line: monocytes, which circulate in the blood and become
+  macrophages in the tissues, and the bone-marrow cells that give rise to them
+- B lymphocytes, the lymphocytes that make antibodies
+
+::: {.concept-tree}
+[Sorting the herpesviruses by where they become latent]{.tree-title}
+
+- Sensory nerve cells, in the ganglia (alphaherpesviruses)
+  - Recurrences again and again at the same site: herpes simplex viruses 1 and 2
+  - A widespread first illness, then, decades later, usually a single recurrence along one nerve:
+    varicella-zoster virus
+- White blood cells of the monocyte line (betaherpesviruses)
+  - Harm to the fetus and to people with suppressed cell-mediated immunity: cytomegalovirus
+  - A high fever, then a rash, in infants: human herpesvirus 6
+- B lymphocytes (gammaherpesviruses)
+  - Fever, sore throat and enlarged lymph nodes in adolescents; linked to some cancers:
+    Epstein–Barr virus
+  - A cancer of the cells lining blood and lymph vessels, in advanced HIV infection: human
+    herpesvirus 8
+:::
+
+The latency site predicts where reactivated virus goes and who is most at risk:
+
+| Where latent | What follows | Who is most at risk |
+|---|---|---|
+| Sensory nerve cells, in the ganglia | Reactivated virus travels back along the nerve to the skin or mucosa it supplies, so recurrences appear on a body surface, at a predictable site | Anyone who carries the virus; recurrences are more frequent and more severe when cell-mediated immunity declines |
+| White blood cells of the monocyte line | These cells circulate, so reactivated virus is carried in the blood to internal organs | The fetus, and people whose cell-mediated immunity is suppressed |
+| B lymphocytes | Latent virus can drive the cells it infects to keep dividing, which links these viruses to cancers | People with impaired cell-mediated immunity, in whom these cancers are more common |
+
+Work through the key from the latency site, and read at each branch what the site predicts about the
+virus.
+
+<div data-island="sorting-key" data-src="/diagrams/herpes-key.yml"></div>
+
+## Main viruses {#sec-herp-main}
+
+### Herpes simplex viruses: recurrence at the same site {#sec-herp-hsv}
+
+Herpes simplex virus 1 (HSV-1) and herpes simplex virus 2 (HSV-2) are two closely related viruses
+with the same way of life, and about two in three people under 50 worldwide carry HSV-1
+[@james2020hsv]. Like other enveloped viruses, they survive
+poorly outside the body (see [*How viruses are built and copy
+themselves*](virus-structure-replication.qmd#sec-vstr-envelope)), and they spread by direct contact
+with saliva, a lesion or genital secretions. Much of that spread comes from people who are shedding
+virus without symptoms.
+
+The first infection is usually in the mouth or the genital tract, where the virus multiplies in the
+epithelium. It then enters the endings of the sensory nerves that supply the site and travels along
+their axons to the nerve cell bodies in the ganglion, where it stays latent for life (see [*Viruses
+and the host*](virus-host.qmd#sec-vhost-latency)). Either virus can infect either site, but HSV-1 is
+usually latent in the trigeminal ganglion, which supplies the face, and HSV-2 in the sacral ganglia,
+which supply the genital area. Fever, sunlight, stress or reduced immunity can reactivate the virus,
+which travels back along the same nerve to the same site. Recurrences therefore appear in the same
+place each time, as blisters on the lip (cold sores) or as genital blisters and ulcers.
+
+HSV kills the cells it infects. Most infections cause no more than local lesions, at the first
+infection and at each recurrence; three rarer patterns are serious.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| First infection at the site of entry | The virus kills epithelial cells, and fluid collects among the damaged cells as blisters, which break down into ulcers | Painful blisters and ulcers in the mouth of a young child, although many first infections cause no symptoms |
+| Recurrence at the same site | Reactivated virus travels back along the sensory nerve and kills epithelial cells where the nerve ends | A cold sore at the same spot on the lip after each fever |
+| Infection of the brain | The virus reaches the brain and kills nerve cells there | **Encephalitis**, inflammation of the brain: rare, but life-threatening |
+| Infection of the eye | The virus infects the cornea, and repeated episodes scar it | **Keratitis**, inflammation of the cornea, which can impair sight |
+| Infection during birth | Virus in the mother's genital tract infects the infant during delivery, and immature defences let it spread | Infection of a **neonate** (an infant in the first four weeks of life), which can reach the brain and other organs |
+
+Three conditions let HSV cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A person who carries latent virus, as most adults carry HSV-1 | The virus stays in the ganglion for life, and fever, sunlight, stress or reduced immunity reactivate it |
+| Where (setting) | Close contact with saliva, a lesion or genital secretions, often from a person with no symptoms | The virus is shed without symptoms, and drying disrupts its envelope, so it passes by direct contact |
+| How (route) | Through the epithelium of the mouth or genital tract, then along a sensory nerve | It infects the epithelium, travels along the axons to the ganglion and, at each reactivation, back to the same site |
+
+Step through the two routes the herpes simplex viruses take, from a body surface to a ganglion and
+back.
+
+<div data-island="body-map" data-src="/diagrams/route-hsv.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/profile-hsv.yml"></div>
+
+### Varicella-zoster virus: chickenpox, then shingles {#sec-herp-vzv}
+
+Varicella-zoster virus (VZV) causes two illnesses, usually decades apart. It spreads by respiratory
+particles and from the fluid of blisters. The first infection is **chickenpox** (varicella): the virus
+multiplies in the airway, spreads in the blood (viraemia) to the skin, and causes a widespread rash of
+itchy blisters. It then becomes latent in sensory ganglia, both those beside the spinal cord (the
+dorsal root ganglia) and those of the cranial nerves.
+
+Decades later, when cell-mediated immunity declines with age or with immunosuppression, the virus
+reactivates in one ganglion and travels down the nerve fibres from it to the skin. The result is
+**shingles** (herpes zoster), a painful band of blisters on one side of the body over a
+**dermatome**, the strip of skin supplied by one spinal nerve. Pain can persist after the rash heals.
+Vaccines exist against chickenpox and against shingles (see [*Detecting and controlling
+microbes*](../foundations/detection-control.qmd#sec-det-prevent)).
+
+VZV kills the cells it infects, as HSV does; the route by which it reaches the skin decides the shape
+of each illness.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Widespread first infection | The virus spreads in the blood to the skin and kills epithelial cells throughout it | Chickenpox: crops of itchy blisters over the whole body |
+| Reactivation along one nerve | The virus reactivates in one ganglion, damages the nerve as it travels, and kills skin cells across one dermatome | Shingles: a painful band of blisters on one side of the chest of an older adult |
+| Nerve damage that outlasts the rash | Reactivation inflames and damages the sensory nerve cells and their fibres | Pain that continues for months after the rash of shingles has healed |
+
+Three conditions let VZV cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | For chickenpox, a person who has never had chickenpox or the vaccine; for shingles, a person who had chickenpox and whose cell-mediated immunity has declined | Without immunity, the first infection spreads through the body; later, cell-mediated immunity holds the latent virus in check until it declines with age or immunosuppression |
+| Where (setting) | Close contact with a person who has chickenpox or shingles | The virus is shed in respiratory particles and in the fluid of blisters |
+| How (route) | Breathed in and carried in the blood to the skin; decades later, from one ganglion along one nerve | Spread in the blood gives a rash over the whole body; reactivation in a single ganglion confines shingles to one dermatome |
+
+::: {.callout-important}
+## Can shingles be caught from another person?
+Shingles is often thought to be caught from someone else, partly because people with shingles are
+advised to avoid close contact with those who have never had chickenpox. Shingles is reactivation of
+the person's own virus, latent since chickenpox, often decades earlier, and it is not acquired from
+anyone.
+
+The fluid of shingles blisters does contain VZV, and a person who has never had chickenpox or the
+vaccine can be infected by it. That person develops chickenpox, the illness of a first infection, and
+not shingles.
+:::
+
+Step through the route varicella-zoster virus takes, from chickenpox to shingles decades later.
+
+<div data-island="body-map" data-src="/diagrams/route-vzv.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/profile-vzv.yml"></div>
+
+### Cytomegalovirus: harm before birth and when immunity is suppressed {#sec-herp-cmv}
+
+Cytomegalovirus (CMV) spreads in saliva, urine, breast milk and genital secretions, and in
+transplanted organs and blood. Young children shed it for long periods without symptoms. In a healthy
+person the first infection usually passes unnoticed, and the virus becomes latent in white blood cells
+of the monocyte line. These cells circulate, so reactivated virus is carried in the blood to organs
+throughout the body.
+
+CMV causes harm in two settings, and in both the host cannot contain it:
+
+- A fetus can be infected across the placenta when the mother is infected during pregnancy, and the
+  risk is greatest when it is her first infection. Infection passed from mother to fetus before birth
+  is **congenital infection**, and congenital CMV infection is the most common non-inherited cause of
+  hearing loss in childhood, present at birth or developing later [@goderis2014cmv].
+- In a person whose cell-mediated immunity is suppressed, after an organ transplant or in advanced HIV
+  infection, latent virus reactivates, or arrives in a donor organ, and damages the retina (the
+  light-sensitive layer at the back of the eye), the lungs or the gut.
+
+| Pattern of harm | Mechanism | Example |
+|---|---|---|
+| Congenital infection | Virus in the blood of a woman infected during pregnancy crosses the placenta and infects the fetus while its organs are developing | Hearing loss, present at birth or appearing in childhood |
+| Reactivation when cell-mediated immunity is suppressed | Latent virus, the person's own or carried in a donor organ, reactivates; white blood cells carry it in the blood, and it kills cells in the organs it reaches | Inflammation of the gut or the lungs in the months after an organ transplant; **retinitis**, inflammation of the retina, which threatens sight in advanced HIV infection |
+
+Three conditions let CMV cause disease:
+
+| | Condition | Mechanism |
+|---|---|---|
+| Who (host) | A fetus whose mother is infected during pregnancy; a person whose cell-mediated immunity is suppressed, after an organ transplant or in advanced HIV infection | The fetus cannot yet contain the virus; in the immunosuppressed host, the T cells that hold latent virus in check are suppressed or lost |
+| Where (setting) | Close contact with young children, who shed the virus in saliva and urine; sexual contact; an organ or blood from a donor who carries the virus | Virus is shed for long periods without symptoms, and latent virus travels inside the donor's white blood cells |
+| How (route) | Across the placenta; or reactivation in white blood cells, which carry the virus in the blood | Virus in the blood reaches the fetus, or the retina, the lungs and the gut |
+
+Step through the two routes by which cytomegalovirus causes harm.
+
+<div data-island="body-map" data-src="/diagrams/route-cmv.yml"></div>
+
+<div data-island="microbe-profile" data-src="/diagrams/profile-cmv.yml"></div>
+
+## Contrast pair {#sec-herp-pairs}
+
+### Herpes simplex viruses and varicella-zoster virus {#sec-herp-pair-hsv-vzv}
+
+HSV and VZV share a latency site, the sensory ganglia, and both return along a nerve to the skin.
+Compare them feature by feature before reading the principle.
+
+<div data-island="contrast-pair" data-src="/diagrams/pair-hsv-vzv.yml"></div>
+
+## Beyond the main viruses {#sec-herp-beyond}
+
+### Supporting viruses {#sec-herp-supporting}
+
+| Virus | Where it is latent | What separates it | Why it matters |
+|---|---|---|---|
+| Epstein–Barr virus | B lymphocytes | Spread in saliva; a first infection in early childhood is usually silent, but in adolescents and young adults it often causes **infectious mononucleosis**, an illness of fever, sore throat and enlarged lymph nodes | Linked to some **lymphomas**, cancers of lymphocytes, and to **nasopharyngeal carcinoma**, a cancer of the lining of the space behind the nose that is particularly common in east and southeast Asia, including Singapore [@chen2019npc] |
+| Human herpesvirus 6 | White blood cells of the monocyte line | Infects most people in early childhood | Causes **roseola**: a high fever in an infant, then a rash as the fever settles |
+| Human herpesvirus 8 | B lymphocytes | Usually silent; causes disease mainly in advanced HIV infection, when cell-mediated immunity fails | Causes **Kaposi sarcoma**, a cancer of the cells lining blood and lymph vessels that forms purple patches in the skin |
+
+### Later in the course {#sec-herp-later}
+
+| Virus | Where it comes up again |
+|---|---|
+| Herpes simplex viruses | Dermatology and sexual health (cold sores and genital herpes); neurology (encephalitis); ophthalmology (keratitis); obstetrics and neonatology (neonatal herpes) |
+| Varicella-zoster virus | Dermatology and paediatrics (chickenpox); neurology (shingles and the pain that can follow it); vaccines in immunology |
+| Cytomegalovirus | Obstetrics and neonatology (congenital infection); transplant medicine and HIV care (reactivation); ophthalmology (retinitis) |
+| Epstein–Barr virus | Haematology (infectious mononucleosis and lymphomas); head-and-neck oncology (nasopharyngeal carcinoma) |
+| Human herpesvirus 6 | Paediatrics (roseola) |
+| Human herpesvirus 8 | HIV care (Kaposi sarcoma) |
+
+## Check your understanding {#sec-herp-quiz}
+
+<div data-island="quiz" data-src="/quizzes/herpesviruses.quiz.yml"></div>
+
+## Review with flashcards {#sec-herp-cards}
+
+<div data-island="flashcards" data-src="/decks/herpesviruses.deck.yml"></div>
+
+## References {.unnumbered}
+
+::: {#refs}
+:::

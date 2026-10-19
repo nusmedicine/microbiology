@@ -1,0 +1,39 @@
+id: route-cmv
+title: "Routes through the body: cytomegalovirus"
+intro: "Cytomegalovirus rarely harms a healthy person. Its two routes to harm both depend on a host whose defences cannot contain it."
+
+routes:
+  - name: "Reactivation"
+    steps:
+      - at: [nose-throat, genital]
+        kind: enters
+        text: "Enters in saliva, urine, breast milk or genital secretions, or in a transplanted organ or transfused blood. In a healthy person the first infection usually passes unnoticed."
+      - at: blood
+        kind: latent
+        ask: "Where does cytomegalovirus become latent?"
+        options: [blood, nerves, skin]
+        answer: [blood]
+        why: "Unlike herpes simplex and varicella-zoster viruses, cytomegalovirus stays latent in white blood cells of the monocyte line, not in nerve cells, so when it reactivates it is already in the circulation."
+        text: "Its genome stays latent in white blood cells of the monocyte line, which circulate in the blood."
+      - at: blood
+        kind: reactivates
+        text: "In a person whose cell-mediated immunity is suppressed, after an organ transplant or in advanced HIV infection, the virus reactivates."
+      - at: [eye, alveoli, gut]
+        kind: damages
+        via: blood
+        text: "Carried in the blood, it damages the retina at the back of the eye, the lungs or the gut."
+
+  - name: "Before birth"
+    steps:
+      - at: blood
+        kind: spreads
+        via: blood
+        text: "A woman infected with cytomegalovirus for the first time during pregnancy has virus in her blood."
+      - at: fetus
+        kind: damages
+        via: blood
+        ask: "From the mother's blood, where can the virus go?"
+        options: [fetus, gut, skin]
+        answer: [fetus]
+        why: "The virus crosses the placenta, the organ that exchanges nutrients and waste between the mother's blood and the fetus, and infects the fetus."
+        text: "The virus crosses the placenta and infects the fetus. Congenital infection is the most common non-inherited cause of hearing loss in childhood, present at birth or developing later."

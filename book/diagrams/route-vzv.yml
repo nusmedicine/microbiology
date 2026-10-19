@@ -1,0 +1,35 @@
+id: route-vzv
+title: "Route through the body: varicella-zoster virus"
+intro: "One virus, two illnesses decades apart: chickenpox after the first infection, and shingles when the latent virus reactivates."
+
+routes:
+  - name: "Chickenpox, then shingles"
+    steps:
+      - at: nose-throat
+        kind: enters
+        text: "Breathed in, in respiratory particles from a person with chickenpox or shingles, or picked up from the fluid of their blisters. It infects the lining of the upper airway."
+      - at: [lymph, blood]
+        kind: spreads
+        via: blood
+        text: "It multiplies in lymphoid tissue near the airway, and infected white blood cells carry it in the blood throughout the body."
+      - at: skin
+        kind: damages
+        via: blood
+        text: "It reaches the skin all over the body and causes chickenpox: crops of itchy blisters, about two weeks after exposure."
+      - at: nerves
+        kind: latent
+        via: nerve
+        arrow: false
+        ask: "After chickenpox has healed, where does the virus stay?"
+        options: [nerves, skin, blood, lymph]
+        answer: [nerves]
+        why: "From the blisters the virus enters sensory nerve endings and travels to the ganglia, where it stays latent for life. Once chickenpox has healed it is no longer in the skin or the blood."
+        text: "It travels along sensory nerves from the skin to the ganglia beside the spinal cord and brainstem, and stays latent there for decades."
+      - at: nerves
+        kind: reactivates
+        text: "When cell-mediated immunity declines, with age or with immunosuppression, the virus reactivates in one ganglion."
+      - at: skin
+        kind: damages
+        via: nerve
+        arrow: false
+        text: "It travels down the nerves from that ganglion to the strip of skin they supply, a dermatome, and causes shingles: a painful band of blisters on one side of the body. Fluid from the blisters can give chickenpox, not shingles, to a person who has never had chickenpox or the vaccine."

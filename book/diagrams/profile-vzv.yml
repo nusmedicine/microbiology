@@ -1,0 +1,40 @@
+id: profile-vzv
+name: "Varicella-zoster virus"
+group: "Enveloped double-stranded DNA virus · herpesvirus · latent in sensory ganglia"
+intro: "One virus, two illnesses decades apart. Predict two slots, and use the route by which the virus reaches the skin."
+
+slots:
+  - slot: identity
+    entry: "A herpesvirus: a large double-stranded DNA genome in a capsid, inside an envelope. One virus causes both chickenpox (varicella) and shingles (herpes zoster)."
+  - slot: lifestyle
+    entry: "Humans only. Spread by respiratory particles and from the fluid of blisters. Latent for life in the sensory ganglia of the spinal and cranial nerves."
+  - slot: harm
+    predict:
+      stem: "Chickenpox blisters cover the whole body, but shingles blisters form a band on one side. What explains the difference?"
+      options:
+        - text: "In chickenpox the virus reaches the skin in the blood; in shingles it travels from one ganglion along the nerve fibres to one dermatome"
+          correct: true
+          feedback: "The route sets the pattern. Blood carries the virus to all of the skin; the fibres from a single ganglion supply one strip of skin on one side."
+        - text: "Shingles is caused by a different virus that infects only nerves"
+          correct: false
+          feedback: "Both illnesses come from one virus. Shingles is reactivation of the virus that caused chickenpox, and its band shape comes from travelling along one nerve."
+        - text: "In shingles a stronger immune response confines the blisters to a band"
+          correct: false
+          feedback: "Shingles appears when cell-mediated immunity has declined. The band reflects the area supplied by the nerve fibres from one ganglion."
+    entry: "Chickenpox: after spread in the blood, the virus kills epithelial cells throughout the skin, giving crops of itchy blisters. Shingles: reactivated virus damages one ganglion and its nerve and kills skin cells across one dermatome; the nerve damage can cause pain that persists after the rash heals."
+  - slot: consequence
+    predict:
+      stem: "Who is most likely to develop shingles?"
+      options:
+        - text: "A 75-year-old who had chickenpox as a child"
+          correct: true
+          feedback: "Latent virus is needed, so shingles follows chickenpox; it appears when cell-mediated immunity declines, as it does with age."
+        - text: "A child who has never had chickenpox"
+          correct: false
+          feedback: "With no latent virus, there is nothing to reactivate. Exposure to VZV would give this child chickenpox."
+        - text: "A young adult who recovered from chickenpox a week ago"
+          correct: false
+          feedback: "Cell-mediated immunity is strong soon after chickenpox and holds the newly latent virus in check. Shingles comes decades later, when that immunity has declined."
+    entry: "Chickenpox in a person who has never had it or the vaccine; shingles decades later, as cell-mediated immunity declines with age or immunosuppression. Fluid from shingles blisters can give chickenpox to a person without immunity. Vaccines exist against chickenpox and against shingles."
+  - slot: contrast
+    entry: "Herpes simplex viruses: also latent in sensory ganglia, but the first infection stays at the site of entry, and recurrences return again and again to the same site."

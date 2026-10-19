@@ -1,0 +1,40 @@
+id: profile-cmv
+name: "Cytomegalovirus"
+group: "Enveloped double-stranded DNA virus · herpesvirus · latent in white blood cells of the monocyte line"
+intro: "Silent in most healthy people, harmful in a few. Predict two slots, and ask what those few have in common."
+
+slots:
+  - slot: identity
+    entry: "A herpesvirus: a large double-stranded DNA genome in a capsid, inside an envelope. Infected cells swell, which gives the virus its name: enlarged cell."
+  - slot: lifestyle
+    predict:
+      stem: "Cytomegalovirus becomes latent in white blood cells of the monocyte line. Besides saliva and other body fluids, which route of spread does that predict?"
+      options:
+        - text: "Transplanted organs and transfused blood"
+          correct: true
+          feedback: "Latent virus travels inside white blood cells, so an organ or blood from a donor who carries it can pass it on, and the virus can then reactivate in the recipient."
+        - text: "Contaminated water, by the faecal–oral route"
+          correct: false
+          feedback: "Enveloped viruses survive poorly in water and are disrupted by bile, so this route suits non-enveloped viruses. CMV, latent in white blood cells, travels in donated blood and organs."
+        - text: "Mosquito bites"
+          correct: false
+          feedback: "CMV lives only in humans and has no stage in an insect. Latent in white blood cells, it travels in donated organs and blood."
+    entry: "Humans only. Spread in saliva, urine, breast milk and genital secretions, and in transplanted organs and blood. Young children shed it for long periods without symptoms. Latent for life in white blood cells of the monocyte line."
+  - slot: harm
+    entry: "Kills the cells it infects. In a healthy person, cell-mediated immunity contains it, and the first infection usually passes unnoticed."
+  - slot: consequence
+    predict:
+      stem: "In a person with advanced HIV infection, latent CMV reactivates. Where is it most likely to cause damage?"
+      options:
+        - text: "In organs reached through the blood, such as the retina, the lungs or the gut"
+          correct: true
+          feedback: "Reactivated virus is already in circulating white blood cells, so it reaches internal organs, and the loss of cell-mediated immunity lets it multiply there."
+        - text: "In one dermatome, as a band of blisters"
+          correct: false
+          feedback: "A dermatome is supplied by one sensory ganglion, the latency site of varicella-zoster virus. CMV is latent in white blood cells and travels in the blood."
+        - text: "At the site of the first infection, as a recurrent blister"
+          correct: false
+          feedback: "Return to the same site is the pattern of a virus latent in a sensory nerve, such as HSV. CMV in white blood cells is carried in the blood to internal organs."
+    entry: "Two groups are harmed. A fetus infected across the placenta, at greatest risk when the mother is infected for the first time in pregnancy: congenital infection is the most common non-inherited cause of hearing loss in childhood, present at birth or developing later. A person with suppressed cell-mediated immunity, after an organ transplant or in advanced HIV infection: reactivated virus damages the retina, the lungs or the gut."
+  - slot: contrast
+    entry: "Epstein–Barr virus: also latent in white blood cells, but in B lymphocytes; spread in saliva, it causes infectious mononucleosis in adolescents and young adults and is linked to some cancers."

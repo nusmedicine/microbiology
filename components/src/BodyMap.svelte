@@ -14,7 +14,7 @@
 
   let { src } = $props();
 
-  // ---- Fixed map: 18 body sites in three columns (viewBox 360 × 486) -------------------------
+  // ---- Fixed map: 20 body sites in three columns (viewBox 360 × 486) -------------------------
   const COL = { L: 60, C: 180, R: 300 };
   const ROW = (i) => 30 + i * 54;
   const W = 100, H = 36;
@@ -23,6 +23,8 @@
     'ear-sinus': { col: 'L', row: 1, label: ['Middle ear,', 'sinuses'] },
     skin: { col: 'L', row: 6, label: ['Skin'] },
     genital: { col: 'L', row: 7, label: ['Genital', 'tract'] },
+    fetus: { col: 'L', row: 8, label: ['Placenta,', 'fetus'] },
+    eye: { col: 'C', row: 0, label: ['Eye'] },
     'nose-throat': { col: 'C', row: 1, label: ['Nose and', 'throat'] },
     airway: { col: 'C', row: 2, label: ['Airway'] },
     alveoli: { col: 'C', row: 3, label: ['Lungs:', 'alveoli'] },
@@ -42,22 +44,27 @@
   const nodeName = (k) => NODES[k].label.join(' ');
 
   // Transport networks, drawn under the sites. Blood: pulmonary circuit, an arterial trunk from the
-  // heart (up to the brain, down to the kidney) and a venous trunk back, with a branch to each organ
-  // the circulation feeds. Lymph: soft tissue to lymph nodes. Nerve: ganglia to brain. Air: nose
-  // and throat to the airway, the alveoli and the middle ear and sinuses.
-  const ART = '#e3a49b', VEIN = '#9db8d9';
+  // heart (up to the brain and eye, down to the kidney) and a venous trunk back, with a branch to
+  // each organ the circulation feeds, the placenta included. Lymph: soft tissue to lymph nodes.
+  // Nerve: sensory nerves from the skin, the genital tract and the eye running up the left edge to
+  // the ganglia, and the ganglia to the brain. Air: nose and throat to the airway, the alveoli and
+  // the middle ear and sinuses.
+  const ART = '#e3a49b', VEIN = '#9db8d9', NERVE = '#e2c15d';
   const NET = {
     blood: [
       ['M190,210 V228', ART], ['M170,228 V210', VEIN],
-      ['M230,246 H240 V30 H250', ART], ['M240,246 V462 H230', ART],
+      ['M230,246 H240 V30 H250', ART], ['M240,30 H230', ART], ['M240,246 V462 H230', ART],
       ['M240,300 H250', ART], ['M240,354 H250', ART], ['M240,408 H250', ART],
       ['M240,300 H230', ART], ['M240,354 H230', ART], ['M240,408 H230', ART],
       ['M130,462 H120 V246 H130', VEIN],
       ['M130,300 H120', VEIN], ['M130,354 H120', VEIN], ['M130,408 H120', VEIN],
-      ['M120,354 H110', VEIN], ['M120,408 H110', VEIN],
+      ['M120,354 H110', VEIN], ['M120,408 H110', VEIN], ['M120,462 H110', VEIN],
     ],
     lymph: [['M350,354 H356 V192 H350', '#8fd1b4']],
-    nerve: [['M300,48 V66', '#e2c15d']],
+    nerve: [
+      ['M300,48 V66', NERVE],
+      ['M10,408 H4 V57 H262 V66', NERVE], ['M10,354 H4', NERVE], ['M180,48 V57', NERVE],
+    ],
     air: [['M180,102 V120', '#c3ccd6'], ['M180,156 V174', '#c3ccd6'], ['M110,84 H130', '#c3ccd6']],
   };
   const NET_HI = { blood: '#eb6834', lymph: '#1baf7a', nerve: '#c99a06', air: '#2a78d6' };
@@ -67,6 +74,8 @@
     enters: { label: 'Enters', color: '#2a78d6' },
     multiplies: { label: 'Multiplies', color: '#7a4fa3' },
     spreads: { label: 'Spreads', color: '#eb6834' },
+    latent: { label: 'Latent', color: '#3730a3' },
+    reactivates: { label: 'Reactivates', color: '#b7791f' },
     damages: { label: 'Damages', color: '#c0264b' },
     defence: { label: 'Host defence', color: '#5b6670' },
   };
@@ -149,6 +158,7 @@
   let arrows = $derived.by(() => {
     const out = [];
     const add = (i, faint) => {
+      if (steps[i].arrow === false) return; // the highlighted network already shows the path
       for (const a of list(steps[i - 1].at))
         for (const b of list(steps[i].at))
           if (a !== b) out.push({ ...arrow(a, b), faint, key: i + a + b });
@@ -261,6 +271,7 @@
           {@const cx = COL[n.col]}
           {@const cy = ROW(n.row)}
           <!-- Clicking a site is a pointer shortcut; keyboard users answer with the option buttons. -->
+          <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
           <g class="site" class:opt class:hov={hover === k} class:cur={st && st.current}
             onclick={() => choose(k)} onpointerenter={() => opt && (hover = k)} onpointerleave={() => opt && (hover = null)}>
             <rect x={cx - W / 2} y={cy - H / 2} width={W} height={H} rx="7"

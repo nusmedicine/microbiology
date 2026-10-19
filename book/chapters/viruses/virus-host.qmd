@@ -162,8 +162,8 @@ cells that recognise infected cells, and over years their number falls.
 5. Opportunistic infections
 :::
 
-Without CD4 T cells, cell-mediated immunity fails: the defence against organisms that live inside
-host cells (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-factors)).
+Without CD4 T cells, **cell-mediated immunity** fails: the defence by T cells against infected cells
+and against organisms that live inside host cells (see [*Microbes and their hosts*](../foundations/host-microbe.qmd#sec-host-factors)).
 Organisms that a person with intact defences controls can then cause disease, as opportunistic
 infections. This advanced stage of HIV infection is the **acquired immunodeficiency syndrome
 (AIDS)**.

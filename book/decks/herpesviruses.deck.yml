@@ -1,0 +1,45 @@
+id: herpesviruses
+title: "Flashcards: herpesviruses"
+intro: "Explain each answer from where the virus is latent and what that predicts. Say the answer before you check it."
+
+cards:
+  - id: hd1
+    kind: apart
+    front: "Herpes simplex viruses and varicella-zoster virus versus cytomegalovirus: where is each latent, and where does reactivated virus go?"
+    back: "HSV and VZV are latent in sensory nerve cells in the ganglia, so reactivated virus returns along a nerve to the skin or mucosa. CMV is latent in white blood cells of the monocyte line, so reactivated virus travels in the blood to internal organs."
+  - id: hd2
+    kind: why
+    front: "Why do cold sores keep returning to the same spot on the lip?"
+    back: "HSV-1 is latent in the trigeminal ganglion. When it reactivates, it travels back along the same sensory nerve to the area that nerve supplies."
+  - id: hd3
+    kind: why
+    front: "Why does shingles form a band on one side of the body?"
+    back: "VZV reactivates in one sensory ganglion and travels along the nerve fibres from it, which supply a single dermatome on one side."
+  - id: hd4
+    kind: apart
+    front: "Chickenpox versus shingles?"
+    back: "Chickenpox is the first infection with VZV: a widespread rash of itchy blisters after spread in the blood. Shingles is reactivation of latent VZV decades later: a painful band of blisters over one dermatome, mostly in older or immunosuppressed people."
+  - id: hd5
+    kind: how
+    front: "How can a person with shingles infect someone else, and with what illness?"
+    back: "The blister fluid contains VZV. A person who has never had chickenpox or the vaccine can be infected, and develops chickenpox, not shingles."
+  - id: hd6
+    kind: why
+    front: "Why can a drug that blocks the herpesvirus DNA polymerase not cure the infection?"
+    back: "It acts only while the viral genome is being copied. Latent virus is a silent genome, so the drug shortens episodes and prevents disease while it is taken, but leaves the latent virus in place."
+  - id: hd7
+    kind: how
+    front: "How does cytomegalovirus harm a fetus?"
+    back: "In a woman infected during pregnancy, especially for the first time, virus in the blood crosses the placenta and infects the fetus. Congenital infection is the most common non-inherited cause of hearing loss in childhood."
+  - id: hd8
+    kind: why
+    front: "Why does cytomegalovirus cause disease after an organ transplant?"
+    back: "Drugs that prevent rejection suppress cell-mediated immunity, which holds latent virus in check. The virus reactivates, or arrives in the donor organ, and is carried in the blood to the lungs, the retina or the gut."
+  - id: hd9
+    kind: apart
+    front: "Herpes simplex viruses versus varicella-zoster virus: which feature best separates them?"
+    back: "The pattern of recurrence. HSV returns again and again to the same site; VZV usually returns once, decades later, over a dermatome. Both are latent in sensory ganglia."
+  - id: hd10
+    kind: apart
+    front: "Epstein–Barr virus versus cytomegalovirus?"
+    back: "Both are latent in white blood cells: EBV in B lymphocytes, CMV in the monocyte line. EBV, spread in saliva, causes infectious mononucleosis and is linked to some cancers; CMV harms the fetus and people with suppressed cell-mediated immunity."

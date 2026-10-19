@@ -1,0 +1,71 @@
+id: herpes-key
+title: "Sorting the herpesviruses"
+intro: "Herpesviruses look alike under the electron microscope; where each one becomes latent separates them. Pick a branch at each step and read what the latency site predicts as well as where it leads."
+start: latency
+
+nodes:
+  - id: latency
+    question: "Where does the virus stay latent after the first infection?"
+    options:
+      - label: "Sensory nerve cells, in the ganglia"
+        meaning: "Reactivated virus travels back along the nerve to the skin or mucosa that the nerve supplies, so recurrences appear on a body surface, at a predictable site. Anyone who carries the virus can have them."
+        next: ganglia
+      - label: "White blood cells of the monocyte line"
+        meaning: "These cells circulate, so reactivated virus is carried in the blood to internal organs. The fetus and people with suppressed cell-mediated immunity are most at risk."
+        next: monocyte
+      - label: "B lymphocytes"
+        meaning: "Latent virus can drive the cells it infects to keep dividing, which links these viruses to cancers. The risk is greatest when cell-mediated immunity is impaired."
+        next: bcell
+  - id: ganglia
+    question: "What follows the first infection?"
+    options:
+      - label: "Recurrences again and again at the same site"
+        meaning: "The virus reactivates often, after triggers such as fever, sunlight or stress, and returns along the same nerve to the patch of skin or mucosa it supplies."
+        next: hsv
+      - label: "A widespread first illness, then, decades later, usually one recurrence along one nerve"
+        meaning: "The first infection spreads in the blood to the whole skin. Cell-mediated immunity then holds the latent virus in check until it declines with age or immunosuppression, and the virus returns along the fibres from one ganglion to one strip of skin."
+        next: vzv
+  - id: monocyte
+    question: "Who is harmed?"
+    options:
+      - label: "A fetus, or a person with suppressed cell-mediated immunity"
+        meaning: "Silent in most healthy people. It crosses the placenta when a mother is infected in pregnancy, and reactivates after an organ transplant or in advanced HIV infection."
+        next: cmv
+      - label: "An infant, with a high fever and then a rash"
+        meaning: "A common first infection of early childhood; the rash appears as the fever settles."
+        next: hhv6
+  - id: bcell
+    question: "What illness does it cause?"
+    options:
+      - label: "Fever, sore throat and enlarged lymph nodes in an adolescent"
+        meaning: "A first infection delayed until adolescence or early adulthood often causes this illness; in early childhood the same infection is usually silent."
+        next: ebv
+      - label: "A cancer of the cells lining blood and lymph vessels, in advanced HIV infection"
+        meaning: "The cancer, Kaposi sarcoma, appears mainly when cell-mediated immunity is impaired and the cells infected with the virus are no longer held in check."
+        next: hhv8
+
+leaves:
+  - id: hsv
+    name: "Herpes simplex viruses 1 and 2"
+    tag: main
+    blurb: "Spread by direct contact with saliva, lesions and genital secretions, often from a person without symptoms. HSV-1 is usually latent in the trigeminal ganglion and recurs as cold sores on the lip; HSV-2 is usually latent in the sacral ganglia and recurs as genital blisters."
+  - id: vzv
+    name: "Varicella-zoster virus"
+    tag: main
+    blurb: "Spread by respiratory particles and blister fluid. Causes chickenpox first and, decades later, shingles over one dermatome when cell-mediated immunity declines. Vaccines exist against both."
+  - id: cmv
+    name: "Cytomegalovirus"
+    tag: main
+    blurb: "Spread in saliva, urine, breast milk, genital secretions, transplanted organs and blood. Usually silent in healthy people; harms the fetus and people with suppressed cell-mediated immunity."
+  - id: hhv6
+    name: "Human herpesvirus 6"
+    tag: supporting
+    blurb: "Infects most people in early childhood. Causes roseola: a high fever in an infant, then a rash as the fever settles."
+  - id: ebv
+    name: "Epstein–Barr virus"
+    tag: supporting
+    blurb: "Spread in saliva. A first infection in adolescence often causes infectious mononucleosis: fever, sore throat and enlarged lymph nodes. Linked to some lymphomas (cancers of lymphocytes) and to nasopharyngeal carcinoma, which is particularly common in east and southeast Asia, including Singapore."
+  - id: hhv8
+    name: "Human herpesvirus 8"
+    tag: supporting
+    blurb: "Causes Kaposi sarcoma, a cancer of the cells lining blood and lymph vessels that forms purple patches in the skin, mainly in people with advanced HIV infection."

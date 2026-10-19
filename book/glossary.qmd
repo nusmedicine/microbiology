@@ -37,8 +37,10 @@ biology, tissues or general pathology are not repeated here.
 | **CD4** | A protein on the surface of CD4 T cells to which HIV attaches first | *Viruses and the host* |
 | **CD4 T cells (helper T cells)** | Lymphocytes that coordinate the immune response, including the activity of macrophages and of cytotoxic T cells | *Viruses and the host* |
 | **Cell envelope** | A bacterium's cell membrane and every layer outside it | *How bacteria are built and get energy* |
+| **Cell-mediated immunity** | The defence by T cells against infected cells and against organisms that live inside host cells | *Viruses and the host* |
 | **Cellulitis** | Spreading infection of the skin and the tissue beneath it | *Gram-positive cocci* |
 | **Chain of infection** | The six links of transmission: infectious agent, reservoir, portal of exit, mode of transmission, portal of entry and susceptible host | *Transmission, outbreaks and One Health* |
+| **Chickenpox (varicella)** | The first infection with varicella-zoster virus: a widespread rash of itchy blisters after the virus spreads in the blood | *Herpesviruses* |
 | **Chocolate agar** | Agar made with heated blood, supplying factors released from lysed red cells for fastidious organisms | *Detecting bacteria and testing susceptibility* |
 | **Chronic infection** | Infection and inflammation continuing for months or years | *Microbes and their hosts* |
 | **Coagulase** | An enzyme, made by *Staphylococcus aureus*, that clots plasma | *Gram-positive cocci* |
@@ -48,6 +50,7 @@ biology, tissues or general pathology are not repeated here.
 | **Combination therapy** | Treatment with two or more drugs acting on different targets, so that a variant resistant to one is still suppressed by the others | *Detecting viruses and antiviral targets* |
 | **Commensal** | An organism that lives on a host without harming it | *Microbes and their hosts* |
 | **Competent** | Of a bacterium: able to take up DNA from its surroundings | *How bacteria copy themselves and change* |
+| **Congenital infection** | Infection passed from mother to fetus before birth | *Herpesviruses* |
 | **Conjugate vaccine** | A vaccine in which a polysaccharide is linked to a protein to improve the immune response, particularly in young children | *Detecting and controlling microbes* |
 | **Conjugation** | Transfer of a plasmid from one bacterium to another through direct contact | *How bacteria copy themselves and change* |
 | **Conjugative pilus** | A long pilus that draws two bacteria together for conjugation; distinct from the short attachment pili | *How bacteria copy themselves and change* |
@@ -57,6 +60,7 @@ biology, tissues or general pathology are not repeated here.
 | **Cytotoxic T cells** | Lymphocytes that recognise viral proteins displayed on an infected cell and kill that cell | *Viruses and the host* |
 | **Damage-response framework** | The view that disease is defined by host damage, which may come from the microbe, from the host's response, or from both | *Microbes and their hosts* |
 | **Dental caries** | Tooth decay, caused by acid from bacterial fermentation of sugar | *Gram-positive cocci* |
+| **Dermatome** | The strip of skin supplied by one spinal nerve | *Herpesviruses* |
 | **Differential medium** | A medium on which colonies look different according to a metabolic property | *Detecting bacteria and testing susceptibility* |
 | **Disease** | Damage sufficient to produce signs or symptoms | *Microbes and their hosts* |
 | **Disinfection** | Removing most organisms from an inanimate object; does not reliably kill spores | *Detecting and controlling microbes* |
@@ -64,6 +68,7 @@ biology, tissues or general pathology are not repeated here.
 | **Doubling time** | The time a population takes to double in number | *How bacteria are built and get energy* |
 | **Droplet transmission** | Spread by larger exhaled particles that fall within a metre or two | *Transmission, outbreaks and One Health* |
 | **Efflux pump** | A membrane protein that expels drugs from the cell | *How bacteria copy themselves and change* |
+| **Encephalitis** | Inflammation of the brain | *Herpesviruses* |
 | **Endemic** | Constantly present in a population at a baseline level | *Transmission, outbreaks and One Health* |
 | **Endospore (spore)** | A dormant, dehydrated bacterial cell inside protective coats, resistant to heat and chemicals | *How bacteria are built and get energy* |
 | **Endotoxin** | Lipopolysaccharide of the Gram-negative outer membrane; called endotoxin because it is part of the cell and not secreted. Its lipid A triggers inflammation | *How bacteria are built and get energy* |
@@ -83,6 +88,7 @@ biology, tissues or general pathology are not repeated here.
 | **Flagellum (pl. flagella)** | A long, rotating protein filament that bacteria use to swim | *How bacteria are built and get energy* |
 | **Fomite** | An inanimate object that carries organisms between people | *Transmission, outbreaks and One Health* |
 | **Furuncle** | A boil: a hot, swollen, pus-filled nodule centred on a hair follicle | *Gram-positive cocci* |
+| **Ganglion (pl. ganglia)** | A cluster of nerve cell bodies outside the brain and spinal cord | *Herpesviruses* |
 | **Gastritis** | Inflammation of the stomach lining | *The microbial world* |
 | **Germ theory of disease** | The principle that specific microbes cause specific diseases | *The microbial world* |
 | **Gram stain** | A stain that sorts bacteria by cell envelope: purple (thick peptidoglycan) or pink (thin wall plus outer membrane) | *How bacteria are built and get energy* |
@@ -97,6 +103,7 @@ biology, tissues or general pathology are not repeated here.
 | **Hypotension** | Abnormally low blood pressure | *Gram-positive cocci* |
 | **Incubation period** | Time between infection and the appearance of symptoms | *Transmission, outbreaks and One Health* |
 | **Infection** | Microbes multiplying in tissue, with a host response | *Microbes and their hosts* |
+| **Infectious mononucleosis** | An illness of fever, sore throat and enlarged lymph nodes, usually from a first infection with Epstein–Barr virus in an adolescent or young adult | *Herpesviruses* |
 | **Infectious period** | The time during which a person can transmit an organism | *Transmission, outbreaks and One Health* |
 | **Infective endocarditis** | Infection of the heart valves or the inner lining of the heart | *Gram-positive cocci* |
 | **Inoculum** | The number of organisms a host receives | *Microbes and their hosts* |
@@ -105,10 +112,13 @@ biology, tissues or general pathology are not repeated here.
 | **Intoxication** | Illness caused by a toxin already formed outside the body, such as in food, without infection | *Gram-positive cocci* |
 | **Intrinsic resistance** | Resistance that is a property of a whole species | *How bacteria copy themselves and change* |
 | **Ischaemic** | Receiving too little blood supply | *How bacteria are built and get energy* |
+| **Kaposi sarcoma** | A cancer of the cells lining blood and lymph vessels, caused by human herpesvirus 8, that forms purple patches in the skin | *Herpesviruses* |
+| **Keratitis** | Inflammation of the cornea | *Herpesviruses* |
 | **Koch's postulates** | Four criteria for establishing that a microbe causes a disease | *The microbial world* |
 | **Lancefield group** | A carbohydrate on the streptococcal cell wall, used to type streptococci (group A, group B and so on) | *Gram-positive cocci* |
 | **Latent infection** | Persistence of an organism in a silent state, with the possibility of reactivation | *Microbes and their hosts* |
 | **Lipopolysaccharide (LPS)** | The molecule making up the outer face of the Gram-negative outer membrane; see endotoxin | *How bacteria are built and get energy* |
+| **Lymphoma** | A cancer of lymphocytes | *Herpesviruses* |
 | **Lysis** | Bursting of a cell | *How bacteria copy themselves and change* |
 | **Lysogenic conversion** | A change in a bacterium's traits caused by genes carried by a prophage | *How bacteria copy themselves and change* |
 | **Lysogenic cycle** | A phage genome integrated into the bacterial chromosome and copied with it | *How bacteria copy themselves and change* |
@@ -126,6 +136,7 @@ biology, tissues or general pathology are not repeated here.
 | **MRSA** | Meticillin-resistant *Staphylococcus aureus*: strains carrying an acquired gene for an altered wall-building protein that binds a whole family of drugs poorly | *Gram-positive cocci* |
 | **Mutation** | A change in the DNA sequence, usually a copying error | *How bacteria copy themselves and change* |
 | **Mycolic acid** | The waxy wall component of mycobacteria that resists the Gram stain | *How bacteria are built and get energy* |
+| **Nasopharyngeal carcinoma** | A cancer of the lining of the space behind the nose, linked to Epstein–Barr virus | *Herpesviruses* |
 | **Negative-sense RNA** | A single RNA strand complementary to mRNA, which must be copied before it can be translated | *How viruses are built and copy themselves* |
 | **Neonate** | A newborn infant, in the first four weeks of life | *Gram-positive cocci* |
 | **Neuraminidase** | An influenza envelope enzyme that cuts sialic acid to free new virions from the cell that made them | *How viruses are built and copy themselves* |
@@ -176,16 +187,19 @@ biology, tissues or general pathology are not repeated here.
 | **Reproduction number (R₀, R)** | R₀: cases generated by one case in a fully susceptible population. R: cases generated under current conditions | *Transmission, outbreaks and One Health* |
 | **Reservoir** | Where an organism normally lives and multiplies | *Transmission, outbreaks and One Health* |
 | **Resolution** | The smallest separation at which two points can be distinguished; about 0.2 µm for a light microscope | *The microbial world* |
+| **Retinitis** | Inflammation of the retina, the light-sensitive layer at the back of the eye | *Herpesviruses* |
 | **Retrovirus** | An RNA virus that copies its genome into DNA inside the cell | *How viruses are built and copy themselves* |
 | **Reverse transcriptase** | A viral DNA polymerase that uses RNA as its template | *How viruses are built and copy themselves* |
 | **Rheumatic fever** | Inflammation of the heart, joints and other tissues weeks after *Streptococcus pyogenes* infection, caused by cross-reacting antibodies | *Gram-positive cocci* |
 | **RNA-dependent RNA polymerase** | A viral enzyme that makes RNA from an RNA template, which human cells cannot do | *How viruses are built and copy themselves* |
+| **Roseola** | A high fever in an infant, then a rash as the fever settles, caused by human herpesvirus 6 | *Herpesviruses* |
 | **Segmented genome** | A virus genome divided into several separate molecules | *How viruses are built and copy themselves* |
 | **Selection** | Differential survival and multiplication of variants already present in a population | *How bacteria copy themselves and change* |
 | **Selective medium** | A medium containing agents that suppress unwanted organisms | *Detecting bacteria and testing susceptibility* |
 | **Selective toxicity** | Harming a microbe without harming the host, by acting on something the microbe has and the host lacks | *How bacteria are built and get energy* |
 | **Serology** | Detection of a patient's antibodies as evidence of exposure | *Detecting and controlling microbes* |
 | **Serotype** | A variant of an organism distinguished by its surface antigens, such as the capsule | *Gram-positive cocci* |
+| **Shingles (herpes zoster)** | Reactivation of latent varicella-zoster virus: a painful band of blisters on one side of the body, over a dermatome | *Herpesviruses* |
 | **Siderophore** | A molecule that captures iron bound to host proteins | *Microbes and their hosts* |
 | **Spillover** | The passage of a virus from an animal host into people | *How viruses change* |
 | **Sterilisation** | Killing or removing all microbial life, including spores | *Detecting and controlling microbes* |

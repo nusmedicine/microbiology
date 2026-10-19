@@ -1,0 +1,141 @@
+id: herpesviruses
+title: "Check your understanding: herpesviruses"
+questions:
+  - id: hp1
+    stem: "Which trait do all the human herpesviruses share?"
+    options:
+      - text: "After the first infection, the genome stays latent in particular cells for life and can reactivate"
+        correct: true
+        feedback: "Latency is the trait that defines the group. The viruses differ in which cells hold them (sensory nerve cells, white blood cells of the monocyte line or B lymphocytes), and that difference sets where and in whom they cause disease."
+      - text: "They all become latent in sensory nerve cells"
+        correct: false
+        feedback: "Only herpes simplex viruses and varicella-zoster virus hide in sensory ganglia. Cytomegalovirus is latent in white blood cells of the monocyte line, and Epstein–Barr virus in B lymphocytes."
+      - text: "They all spread by respiratory particles"
+        correct: false
+        feedback: "Most herpesviruses pass by close contact with saliva, skin or genital secretions. Varicella-zoster virus is the one that also spreads by respiratory particles."
+  - id: hp2
+    stem: "Influenza virus changes from one winter to the next, but herpesviruses change little over many years. Which trait best explains the difference?"
+    options:
+      - text: "Herpesviruses copy their DNA genome with a DNA polymerase that proofreads"
+        correct: true
+        feedback: "A proofreading polymerase removes most errors as it copies. Influenza virus copies its RNA with a polymerase that does not proofread, so errors accumulate and the virus drifts."
+      - text: "Herpesviruses have an envelope and influenza virus does not"
+        correct: false
+        feedback: "Both viruses are enveloped. The difference lies in the enzyme that copies each genome, and whether it corrects its errors."
+      - text: "Herpesviruses stop replicating after the first infection"
+        correct: false
+        feedback: "Herpesviruses replicate at every reactivation, and are shed and passed on. Their genomes stay stable because a proofreading DNA polymerase copies them."
+  - id: hp3
+    stem: "Why does reactivated cytomegalovirus damage internal organs such as the lungs, while reactivated herpes simplex virus causes blisters on the lip?"
+    options:
+      - text: "CMV is latent in white blood cells, which circulate; HSV is latent in sensory nerve cells, which lead back to the skin"
+        correct: true
+        feedback: "The latency site predicts where reactivated virus goes. Circulating cells carry CMV to internal organs; a sensory nerve carries HSV back to the patch of skin or mucosa it supplies."
+      - text: "CMV is a larger virus, too big to reach the skin"
+        correct: false
+        feedback: "Size does not decide where a virus goes. Each virus returns from its latency site: CMV from circulating white blood cells, HSV along a sensory nerve."
+      - text: "HSV is destroyed as soon as it enters the blood"
+        correct: false
+        feedback: "Recurrent HSV reaches the lip along the nerve from the ganglion, without needing the blood. CMV, latent in circulating cells, is already in the blood when it reactivates."
+  - id: hp4
+    stem: "A grandmother has shingles on her chest. Her 4-year-old grandson, who has never had chickenpox or the vaccine, touches the fluid from her blisters. What is he most likely to develop?"
+    options:
+      - text: "Chickenpox"
+        correct: true
+        feedback: "The blister fluid contains varicella-zoster virus. In a child meeting the virus for the first time it causes chickenpox; shingles is reactivation, which needs virus already latent in the ganglia."
+      - text: "Shingles"
+        correct: false
+        feedback: "Shingles is reactivation of virus already latent in a person's own ganglia. A first infection with the virus causes chickenpox."
+      - text: "Nothing, because shingles cannot be passed on"
+        correct: false
+        feedback: "Fluid from shingles blisters contains the virus, which can infect anyone without immunity to it. That person develops chickenpox."
+      - text: "Cold sores"
+        correct: false
+        feedback: "Cold sores come from herpes simplex virus 1. The virus in shingles blisters is varicella-zoster virus, which causes chickenpox in a first infection."
+  - id: hp5
+    stem: "A woman with recurrent genital herpes takes a drug that blocks the herpesvirus DNA polymerase every day for a year and has no recurrences. Within months of stopping it, the recurrences return. Which explanation is most likely?"
+    options:
+      - text: "The drug blocks copying of the viral genome, and latent virus in the ganglion is not being copied, so the drug cannot remove it"
+        correct: true
+        feedback: "Latent virus is a silent genome, with nothing for the drug to act on. The drug prevents disease from reactivated virus only while it is taken; once it is stopped, the latent virus reactivates as before."
+      - text: "The virus became resistant to the drug"
+        correct: false
+        feedback: "Resistance would let recurrences break through while she was taking the drug, and none did. The virus that returns is the latent virus the drug never reached."
+      - text: "She was reinfected by her partner after stopping the drug"
+        correct: false
+        feedback: "Recurrences at the same site come from her own latent virus, travelling back along the same nerve. No new infection is needed."
+      - text: "The drug destroyed virus particles but not infected cells"
+        correct: false
+        feedback: "These drugs do not destroy virus particles. They block the viral DNA polymerase, so they act only while the genome is being copied."
+  - id: hp6
+    stem: "A 74-year-old man has a painful band of blisters running around the right side of his chest, from his spine to the front, and stopping at the midline. What best explains the shape of the rash?"
+    options:
+      - text: "The virus reactivated in one sensory ganglion and travelled along the nerve fibres from it, which supply a single dermatome"
+        correct: true
+        feedback: "A dermatome is the strip of skin supplied by one spinal nerve, on one side of the body. Reactivation in one ganglion confines shingles to that strip, so the band stops at the midline."
+      - text: "The virus spread in his blood to the skin of his chest"
+        correct: false
+        feedback: "Spread in the blood reaches skin all over the body, as in chickenpox. A band on one side follows a nerve."
+      - text: "He caught the virus from a child with chickenpox, through the skin of his chest"
+        correct: false
+        feedback: "Shingles is reactivation of his own latent virus, acquired as chickenpox decades ago. The shape comes from the nerve along which the virus travelled."
+      - text: "The virus has been active in the skin of his chest since childhood"
+        correct: false
+        feedback: "Between chickenpox and shingles the virus is latent in a sensory ganglion. It reached the skin only when it reactivated and travelled down the nerve."
+  - id: hp7
+    stem: "A 30-year-old man has had painful blisters at the same spot on the edge of his upper lip three times in two years, each a day or two after a fever. They heal within about ten days, and the lip is normal between episodes. Which virus is most likely?"
+    options:
+      - text: "Herpes simplex virus 1"
+        correct: true
+        feedback: "Repeated recurrences at one spot on the lip, each after a fever, fit a virus latent in the trigeminal ganglion that returns along the same nerve each time."
+      - text: "Varicella-zoster virus"
+        correct: false
+        feedback: "Its recurrence, shingles, usually happens once, decades after chickenpox, as a band over a whole dermatome. Several small recurrences at one spot point to HSV-1."
+      - text: "Cytomegalovirus"
+        correct: false
+        feedback: "CMV is latent in white blood cells, and reactivated virus travels in the blood to internal organs. Blisters that return to one spot point to a virus latent in a sensory nerve: HSV-1."
+      - text: "Epstein–Barr virus"
+        correct: false
+        feedback: "EBV is latent in B lymphocytes, not in the sensory nerves that supply the lip. Blisters that return to the same spot point to HSV-1."
+  - id: hp8
+    stem: "Seven weeks after a lung transplant, a 52-year-old woman taking drugs to prevent rejection develops fever, breathlessness and pneumonia. She has no rash. Which herpesvirus is most likely to be responsible?"
+    options:
+      - text: "Cytomegalovirus"
+        correct: true
+        feedback: "Drugs that prevent rejection suppress cell-mediated immunity. CMV, latent in her own white blood cells or carried in the donor lung, reactivates and damages the lungs, its most common target after a lung transplant."
+      - text: "Herpes simplex virus 1"
+        correct: false
+        feedback: "Reactivated HSV-1 returns along a sensory nerve to the lip or mouth. Pneumonia weeks after a transplant points to a virus carried in the blood from white blood cells: CMV."
+      - text: "Varicella-zoster virus"
+        correct: false
+        feedback: "When VZV reactivates, it travels along a nerve to the skin and causes shingles over a dermatome, and she has no rash. Lung disease after a transplant points to CMV."
+      - text: "Epstein–Barr virus"
+        correct: false
+        feedback: "EBV is latent in B lymphocytes and is linked to lymphomas. Pneumonia weeks after a transplant, in an organ reached through the blood, points to CMV."
+  - id: hp9
+    stem: "A neonate fails the hearing screen done soon after birth, and tests confirm hearing loss in both ears. Early in the pregnancy, his mother had her first infection with cytomegalovirus, a mild illness with fever. By which route did the virus most likely reach him?"
+    options:
+      - text: "Across the placenta, during the pregnancy"
+        correct: true
+        feedback: "During a first infection, virus in the mother's blood can cross the placenta and infect the fetus while its organs develop. Hearing loss found at birth points to infection before birth: congenital infection."
+      - text: "From the mother's genital tract during birth"
+        correct: false
+        feedback: "Infection during birth is the usual route of neonatal herpes, from herpes simplex virus. Damage already present at birth means that the virus arrived before birth."
+      - text: "In breast milk after birth"
+        correct: false
+        feedback: "CMV is present in breast milk, but an infection acquired after birth cannot explain hearing loss found soon after birth. The damage began before birth."
+  - id: hp10
+    stem: "A 17-year-old student has had fever, a severe sore throat and enlarged, tender lymph nodes in her neck for a week, and she feels exhausted. She has no blisters or rash. Of these herpesviruses, which is the most likely cause?"
+    options:
+      - text: "Epstein–Barr virus"
+        correct: true
+        feedback: "A first infection with EBV, spread in saliva, often causes infectious mononucleosis when it is delayed until adolescence or early adulthood: fever, sore throat and enlarged lymph nodes. The virus then stays latent in B lymphocytes."
+      - text: "Herpes simplex virus 1"
+        correct: false
+        feedback: "HSV-1 usually causes blisters and ulcers in or around the mouth. Fever, sore throat and enlarged lymph nodes without blisters, in an adolescent, point to EBV."
+      - text: "Varicella-zoster virus"
+        correct: false
+        feedback: "VZV causes chickenpox in a first infection, a widespread rash of itchy blisters, and she has no rash. Her illness fits infectious mononucleosis from EBV."
+      - text: "Cytomegalovirus"
+        correct: false
+        feedback: "A first infection with CMV is usually silent in a healthy person. A severe sore throat with enlarged lymph nodes in an adolescent points to infectious mononucleosis from EBV."

@@ -18,7 +18,8 @@ Writing conventions and the copy-audit checklist are in [STYLE.md](STYLE.md).
   (`bacteria/`, `viruses/`, `fungi/`, `parasites/`), and **Across the worlds** (`across/`). Each
   world opens with a part page (`index.qmd`) mapping its chapters and answering the six questions.
 - **Written in full:** the four foundation chapters; in the bacterial world, structure and energy,
-  genetics, detection, *A map of the bacteria* and *Gram-positive cocci* (the depth test case).
+  genetics, detection, *A map of the bacteria* and *Gram-positive cocci* (the depth test case); in
+  the viral world, the four opening chapters and *Herpesviruses* (the first viral group chapter).
   *How bacteria cause damage* is partly written. Every other chapter is a planned outline.
 - `book/glossary.qmd` (appendix) defines every term the chapters introduce.
 - `book/teaching-notes.qmd` (appendix) maps the current MD1140 bacteriology sessions onto this
@@ -46,7 +47,7 @@ Embed with `<div data-island="<key>" data-src="/<folder>/<file>.yml"></div>`.
 | `epidemic-sim` | `EpidemicSim.svelte` | `diagrams/` | SIR model with R0 and vaccination sliders, crosshair readout and table view |
 | `mic-reader` | `MicReader.svelte` | `diagrams/` | Broth-dilution series: pick the MIC, then classify against breakpoints |
 | `bacteria-map` | `BacteriaMap.svelte` | `diagrams/` | Bacterial groups as trait combinations: explore and sort by trait, or name the group from its traits (`extends` + `mode: identify`) |
-| `body-map` | `BodyMap.svelte` | `diagrams/` | An organism's route through a schematic of the body systems (after the Year 1 systems-integration diagram): lives, enters, multiplies, spreads (in blood, lymph, nerves or air), damages, host defence. Steps can ask for a prediction first; several routes per organism as tabs. Sites: `outside`, `ear-sinus`, `nose-throat`, `airway`, `alveoli`, `heart`, `blood`, `liver`, `gut`, `urinary`, `genital`, `skin`, `brain`, `nerves`, `lymph`, `spleen`, `tissue`, `bone` |
+| `body-map` | `BodyMap.svelte` | `diagrams/` | An organism's route through a schematic of the body systems (after the Year 1 systems-integration diagram). Step kinds: `lives`, `enters`, `multiplies`, `spreads`, `latent`, `reactivates`, `damages`, `defence`; `via` (`blood`, `lymph`, `nerve`, `air`, `direct`, `swallowed`) highlights the network; `arrow: false` drops the arrow where the network shows the path. Steps can ask for a prediction first (`ask`, `options`, `answer`, `why`); several routes per organism as tabs. Sites: `outside`, `ear-sinus`, `skin`, `genital`, `fetus`, `eye`, `nose-throat`, `airway`, `alveoli`, `heart`, `blood`, `liver`, `gut`, `urinary`, `brain`, `nerves`, `lymph`, `spleen`, `tissue`, `bone` |
 
 ## Develop
 Toolchain as for book-health (portable Node and Quarto under `%LOCALAPPDATA%`).
@@ -63,5 +64,5 @@ Preview with the `book-preview` launch config (port 8791). Rendering out-of-tree
 Dropbox file-lock errors described in book-health's HANDOVER.
 
 `components/node_modules` was copied from book-health, so no `npm install` is needed locally.
-The GitHub Pages workflow (`.github/workflows/publish.yml`) is ready but this folder is not yet a
-git repository.
+The GitHub Pages workflow (`.github/workflows/publish.yml`) renders the book and publishes it on
+every push to `main`.

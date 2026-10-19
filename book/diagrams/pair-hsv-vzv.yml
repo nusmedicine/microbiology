@@ -1,0 +1,70 @@
+id: pair-hsv-vzv
+title: "Contrast pair: two viruses in the sensory ganglia"
+intro: "Both are herpesviruses that hide in sensory nerve cells and return along a nerve to the skin. Read across and find the feature that best tells them apart."
+
+a:
+  name: "Herpes simplex viruses 1 and 2"
+b:
+  name: "Varicella-zoster virus"
+
+rows:
+  - feature: "Where latent"
+    a: "Sensory ganglia: usually the trigeminal ganglion (face) for HSV-1, the sacral ganglia (genital area) for HSV-2"
+    b: "Sensory ganglia of the spinal and cranial nerves"
+    separates: false
+  - feature: "Genome and envelope"
+    a: "Double-stranded DNA; enveloped"
+    b: "Double-stranded DNA; enveloped"
+    separates: false
+  - feature: "First infection"
+    a: "Localised blisters at the site of entry, in the mouth or genital tract, or no symptoms"
+    b: "Chickenpox: a widespread rash of itchy blisters after spread in the blood"
+    separates: true
+  - feature: "Spread"
+    a: "Direct contact with saliva, lesions or genital secretions"
+    b: "Respiratory particles, and the fluid of blisters"
+    separates: true
+  - feature: "Recurrences"
+    a: "Repeated, at the same site"
+    b: "Usually once, decades later, over a dermatome, mostly in older or immunosuppressed people: shingles"
+    separates: true
+  - feature: "Vaccine"
+    a: "None"
+    b: "Vaccines against chickenpox and against shingles"
+    separates: true
+
+question:
+  stem: "Both viruses hide in sensory ganglia. Which feature best tells them apart?"
+  options: [0, 1, 4]
+  answer: 4
+  feedback: >
+    Recurrences. The two viruses share a latency site and a structure, so neither of those tells them
+    apart. HSV returns again and again to the same small site; VZV usually returns once, decades after
+    chickenpox, across a whole dermatome.
+
+principle: >
+  A shared latency site gives both viruses the same route back to the skin, along a sensory nerve.
+  What differs is how often they return and how much skin they reach. HSV reactivates often, after
+  triggers such as fever, and returns to the patch supplied by the nerve endings it first entered. VZV
+  is held in check by cell-mediated immunity for decades and usually returns once, when that immunity
+  declines, along the fibres from one ganglion, which supply a whole dermatome.
+
+sort:
+  - text: "Blisters return to the same spot on the lip several times a year"
+    answer: a
+    why: "Repeated recurrence at one site: HSV."
+  - text: "A painful band of blisters on one side of the chest of a 70-year-old"
+    answer: b
+    why: "One recurrence over a dermatome, in an older adult: shingles, from VZV."
+  - text: "Crops of itchy blisters over the whole body of a child"
+    answer: b
+    why: "A widespread first infection after spread in the blood: chickenpox, from VZV."
+  - text: "Passed in saliva by kissing, from a person with no symptoms"
+    answer: a
+    why: "Shedding without symptoms, by direct contact with saliva: HSV-1."
+  - text: "Infects a neonate during birth, from the mother's genital tract"
+    answer: a
+    why: "Neonatal herpes is acquired from the genital tract during birth: HSV."
+  - text: "Can be prevented by vaccination"
+    answer: b
+    why: "Vaccines exist against chickenpox and against shingles; there is none against HSV."

@@ -1,0 +1,46 @@
+id: route-hsv
+title: "Routes through the body: herpes simplex viruses"
+intro: "Two routes with the same pattern: a first infection at a body surface, latency in the sensory nerve cells that supply it, and reactivation back to the same site."
+
+routes:
+  - name: "Cold sores (HSV-1)"
+    steps:
+      - at: skin
+        kind: enters
+        text: "Reaches the lips or the lining of the mouth by direct contact with saliva or a blister, often from a person shedding the virus without symptoms. The first infection may cause blisters in and around the mouth, or none at all."
+      - at: nerves
+        kind: latent
+        via: nerve
+        arrow: false
+        text: "The virus enters the endings of the sensory nerves that supply the area and travels along their axons to the nerve cell bodies in a ganglion, for the face usually the trigeminal ganglion. Its genome stays there without making new virus: latency."
+      - at: nerves
+        kind: reactivates
+        text: "Fever, sunlight, stress or reduced immunity can reactivate the latent virus, which starts to replicate again in the nerve cell."
+      - at: skin
+        kind: damages
+        via: nerve
+        arrow: false
+        ask: "Where does the reactivated virus usually go?"
+        options: [skin, brain, blood]
+        answer: [skin]
+        why: "It travels back down the same axon to the patch of skin that nerve supplies, so recurrences appear at the same site each time. Spread to the brain, causing encephalitis, is rare."
+        text: "It travels back down the same axon to the skin the nerve supplies and causes a cold sore: a cluster of blisters at the same site as before. Virus is shed from the blisters, and sometimes without any, and spreads to other people."
+
+  - name: "Genital herpes (HSV-2)"
+    steps:
+      - at: genital
+        kind: enters
+        text: "Reaches the genital tract by sexual contact, often from a partner who is shedding the virus without symptoms."
+      - at: nerves
+        kind: latent
+        via: nerve
+        arrow: false
+        text: "Travels along sensory nerves to the sacral ganglia, at the base of the spine, and becomes latent there."
+      - at: nerves
+        kind: reactivates
+        text: "Reactivates from time to time, with or without an obvious trigger."
+      - at: genital
+        kind: damages
+        via: nerve
+        arrow: false
+        text: "Travels back to the genital tract and causes recurrent painful blisters and ulcers, or is shed there without any lesion and passed to a partner."
