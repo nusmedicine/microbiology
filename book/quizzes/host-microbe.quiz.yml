@@ -103,3 +103,18 @@ questions:
       - text: "*Plasmodium falciparum*"
         correct: false
         feedback: "*P. falciparum* is carried by mosquitoes and infects red blood cells; it does not cause pneumonia after soil exposure."
+  - id: h10
+    stem: "Two children in the same village both carry *Ascaris lumbricoides*. One has a few worms and no symptoms; the other has many worms and is poorly nourished. Which detail best explains the difference?"
+    options:
+      - text: "The number of eggs each child swallowed"
+        correct: true
+        feedback: "*A. lumbricoides* does not multiply inside the human host, so each worm comes from one swallowed egg. The worm burden, and the harm, follow the size of the inoculum."
+      - text: "The worms multiplied faster in the second child"
+        correct: false
+        feedback: "Adult *A. lumbricoides* do not multiply inside the host. A heavier burden means more eggs were swallowed."
+      - text: "The second child has a more virulent strain"
+        correct: false
+        feedback: "Nothing points to a different strain. For a helminth that does not multiply in the host, the number of worms depends on exposure."
+      - text: "The first child is not infected"
+        correct: false
+        feedback: "Both children carry the worm. Infection without symptoms is common when the burden is light."

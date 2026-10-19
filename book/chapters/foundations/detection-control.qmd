@@ -56,6 +56,13 @@ susceptibility*](../bacteria/detecting-bacteria.qmd)), whereas viruses are too s
 light microscope and grow only in living cells. Molecular methods and serology work in the same way
 for every kind of agent.
 
+::: {.example}
+Microscopy is still the main test for many parasites, and a quick one for fungi, because both are
+large enough to see. The protozoan *Plasmodium falciparum* is identified inside red blood cells on a
+stained blood film, and the eggs of the helminth *Ascaris lumbricoides* are identified in a stool
+sample. The yeast *Candida albicans* can be seen directly in a swab.
+:::
+
 ### Detecting molecules {#sec-det-molecular}
 
 **Nucleic acid amplification tests (NAATs)**, of which the polymerase chain reaction (PCR) is the
@@ -69,6 +76,11 @@ they detect:
   culture can grow an organism nobody was looking for.
 - Their sensitivity makes contamination a real risk, which is why laboratories separate the work done
   before and after amplification.
+
+::: {.example}
+Influenza virus is usually detected by a NAAT on a swab from the nose or throat, with a result within
+hours.
+:::
 
 Matrix-assisted laser desorption/ionisation time-of-flight (**MALDI-TOF**) mass spectrometry identifies
 a colony from its protein profile, matched against a database, within minutes once the organism has
@@ -86,6 +98,11 @@ sample and a convalescent sample taken two to four weeks later, indicates recent
 The usual pitfall follows directly: a single positive IgG result may reflect an infection years ago, or
 vaccination. Serology is most useful for organisms that are hard to culture, for infections diagnosed
 after the organism has gone, and for assessing immunity.
+
+::: {.example}
+HIV infection is usually diagnosed by tests that detect antibodies to the virus, often combined with
+detection of one of its proteins.
+:::
 
 ## Controlling microbes {#sec-det-control}
 

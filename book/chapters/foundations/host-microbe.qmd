@@ -98,6 +98,12 @@ The **inoculum**, the number of organisms received, affects both whether disease
 quickly it begins: for some organisms ten to a hundred cells are enough, while for others a million or
 more must be swallowed.
 
+::: {.example}
+The helminth *Ascaris lumbricoides* does not multiply inside the human host: each adult worm comes
+from one swallowed egg. The number of worms, and the harm they do, therefore rise with the number of
+eggs swallowed.
+:::
+
 **Immunity** includes the specific immunity left by earlier exposure or vaccination and the general
 competence of the defences. Each gap in the defences allows a particular kind of organism to cause
 disease:
@@ -189,7 +195,7 @@ that damage can come from the microbe, from the host's response, or from both
 
 | Main source of damage | Mechanism | Example |
 |---|---|---|
-| The microbe | Destruction of host cells; toxins | *C. albicans* multiplying unchecked in a person with neutropenia |
+| The microbe | Destruction of host cells; toxins | *Plasmodium falciparum*, the protozoan that causes malaria, destroying the red blood cells in which it multiplies |
 | The host response | Excessive inflammation; immune reactions against the host's own tissue | *S. aureus* toxic shock syndrome, in which a toxin activates a large fraction of T cells at once; rheumatic fever after *Streptococcus pyogenes* infection, in which antibodies cross-react with heart tissue |
 | Both | Microbial growth and the response to it, varying with the strength of the response | *M. tuberculosis*: spreads when the response is weak, destroys lung tissue when it is strong |
 
@@ -209,11 +215,11 @@ the damage.
 Infections differ in how they unfold over time, and the pattern often follows from the organism's
 strategy.
 
-| Pattern | What happens | Typical strategy |
-|---|---|---|
-| Acute | Rapid onset and a short course | Rapid multiplication and transmission before an immune response develops |
-| Latent | The organism persists silently and can reactivate | Survival inside cells, or in a site the immune response reaches poorly |
-| Chronic | Infection and inflammation continue for months or years | Resistance to clearance; damage accumulates from the ongoing response |
+| Pattern | What happens | Typical strategy | Example |
+|---|---|---|---|
+| Acute | Rapid onset and a short course | Rapid multiplication and transmission before an immune response develops | Influenza virus |
+| Latent | The organism persists silently and can reactivate | Survival inside cells, or in a site the immune response reaches poorly | *M. tuberculosis* |
+| Chronic | Infection and inflammation continue for months or years | Resistance to clearance; damage accumulates from the ongoing response | HIV |
 
 ::: {.example}
 *M. tuberculosis* can persist for years in a contained, latent infection and reactivate when immunity

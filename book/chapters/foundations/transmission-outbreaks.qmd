@@ -76,19 +76,26 @@ In 1999, Nipah virus spread from pigs imported from Malaysia to abattoir workers
 
 ### Routes of transmission {#sec-trans-routes}
 
-An organism reaches its next host by one of five routes:
+An organism reaches a new host either from another host or from the environment.
 
 ::: {.concept-tree}
 [Routes of transmission]{.tree-title}
 
 - From one host to the next
   - Contact
-    - Direct: from person to person, as on hands
+    - Direct: from person to person, as on hands or in sexual contact (*Staphylococcus aureus* on
+      hands)
     - Indirect: through a contaminated object
-  - Respiratory: particles breathed out and inhaled
-  - Faecal–oral: organisms in faeces, swallowed in food or water
-  - Vector-borne: carried by an arthropod
-  - Vertical: from mother to child, before or during birth or in breast milk
+  - Respiratory: particles breathed out and inhaled (influenza virus)
+  - Faecal–oral: organisms in faeces, swallowed in food, water or soil (eggs of *Ascaris
+    lumbricoides*, which mature in soil contaminated with faeces)
+  - Blood: transfusion, shared needles or a needlestick injury (HIV)
+  - Vector-borne: carried by an arthropod (*Plasmodium falciparum*, carried by mosquitoes)
+  - Vertical: from mother to child, before or during birth or in breast milk (HIV)
+- From the environment
+  - Soil and water: inhaled, swallowed or entering through broken skin (*Burkholderia
+    pseudomallei*)
+  - Spores of fungi that live in soil and decaying matter, inhaled
 :::
 
 A **fomite** is an inanimate object that carries organisms, such as a door handle or a shared

@@ -76,3 +76,18 @@ questions:
       - text: "Serology for antibodies against *S. aureus*"
         correct: false
         feedback: "Serology reads the host's response, not the organism. Antibodies show that each patient has met *S. aureus*, which many people carry, and cannot link the two isolates."
+  - id: d11
+    stem: "A traveller returns from a malaria-endemic country with fever. Which test can show *Plasmodium falciparum* in her blood within an hour?"
+    options:
+      - text: "A stained blood film examined under the microscope"
+        correct: true
+        feedback: "*P. falciparum* is large enough to see inside red blood cells on a stained film, which is why microscopy remains a main test for parasites."
+      - text: "Culture of the blood on agar"
+        correct: false
+        feedback: "*P. falciparum* lives inside red blood cells and does not grow on agar; blood culture is a method for bacteria."
+      - text: "A single IgG antibody test"
+        correct: false
+        feedback: "A positive IgG may reflect an infection years ago. It shows the host's history, not whether the parasite is present now."
+      - text: "A Gram stain of the blood"
+        correct: false
+        feedback: "The Gram stain separates bacterial envelope designs. It is not used to identify parasites."

@@ -115,3 +115,18 @@ questions:
       - text: "The first guest to fall ill did so within a few hours"
         correct: false
         feedback: "The timing of one case says little about which dish was responsible. The comparison of exposures between ill and well guests is what points to the source."
+  - id: t10
+    stem: "Which measure would interrupt the spread of *Plasmodium falciparum* but would do little against influenza virus?"
+    options:
+      - text: "Sleeping under insecticide-treated bed nets"
+        correct: true
+        feedback: "*P. falciparum* reaches people only through the bite of an infected mosquito, so a measure against the vector breaks its chain. Influenza virus spreads in respiratory particles, which bed nets do not stop."
+      - text: "Better ventilation of shared rooms"
+        correct: false
+        feedback: "Ventilation reduces the respiratory route, which matters for influenza virus. *P. falciparum* does not spread in respiratory particles."
+      - text: "Hand hygiene"
+        correct: false
+        feedback: "Hand hygiene interrupts contact and faecal–oral spread. It helps a little against influenza virus and not at all against a vector-borne parasite."
+      - text: "Wearing a mask"
+        correct: false
+        feedback: "A mask acts on the respiratory route, so it protects against influenza virus, not against an infection carried by mosquitoes."
